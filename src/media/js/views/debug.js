@@ -15,6 +15,9 @@ define('views/debug',
     }).on('click', '#submit-debug', function(e) {
         e.preventDefault();
         var data = {body: JSON.stringify({
+            app: settings.app_name,
+            origin: window.location.protocol + '//' + window.location.host,
+
             logs: log.all,
             persistent_logs: log.persistent.all,
             capabilities: capabilities,

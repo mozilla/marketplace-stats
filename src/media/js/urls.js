@@ -1,8 +1,9 @@
 define('urls',
-    ['capabilities', 'format', 'routes_api', 'routes', 'settings', 'underscore', 'user', 'utils'],
-    function(caps, format, api_endpoints, routes, settings, _, user) {
+    ['capabilities', 'format', 'routes_api', 'settings', 'underscore', 'user', 'utils'],
+    function(caps, format, api_endpoints, settings, _, user) {
 
     var group_pattern = /\(.+\)/;
+    var optional_pattern = /(\(.*\)|\[.*\]|.)\?/g;
     var reverse = function(view_name, args) {
         args = args || [];
         for (var i in routes) {
@@ -13,8 +14,9 @@ define('urls',
             // Strip the ^ and $ from the route pattern.
             var url = route.pattern.substring(1, route.pattern.length - 1);
 
-            // TODO: if we get significantly complex routes, it might make
-            // sense to _.memoize() or somehow cache the pre-formatted URLs.
+            if (url.indexOf('?') !== -1) {
+                url = url.replace(optional_pattern, '');
+            }
 
             // Replace each matched group with a positional formatting placeholder.
             var i = 0;
@@ -84,7 +86,7 @@ define('urls',
     };
 
     var media = function(path) {
-        var media_url = document.body.getAttribute('data-media') || settings.media_url;
+        var media_url = document.body.dataset.media || settings.media_url;
         if (media_url[media_url.length - 1] !== '/') {
             media_url += '/';
         }

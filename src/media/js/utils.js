@@ -61,12 +61,12 @@ define('utils', ['jquery', 'underscore'], function($, _) {
         return url.split('?')[0];
     }
 
-    function encodeURIComponent() {
-        return window.encodeURIComponent.apply(this, arguments).replace(/%20/g, '+');
+    function encodeURIComponent(uri) {
+        return window.encodeURIComponent(uri).replace(/%20/g, '+');
     }
 
-    function decodeURIComponent() {
-        return window.decodeURIComponent.apply(this, arguments).replace(/\+/g, ' ');
+    function decodeURIComponent(uri) {
+        return window.decodeURIComponent(uri.replace(/\+/g, ' '));
     }
 
     function urlencode(kwargs) {
@@ -108,13 +108,11 @@ define('utils', ['jquery', 'underscore'], function($, _) {
     }
 
     function getVars(qs, excl_undefined) {
-        if (typeof qs === 'undefined') {
-            qs = location.search;
-        }
+        if (!qs) qs = location.search;
+        if (!qs || qs === '?') return {};
         if (qs && qs[0] == '?') {
             qs = qs.substr(1);  // Filter off the leading ? if it's there.
         }
-        if (!qs) return {};
 
         return _.chain(qs.split('&'))  // ['a=b', 'c=d']
                 .map(function(c) {return c.split('=').map(decodeURIComponent);}) //  [['a', 'b'], ['c', 'd']]
