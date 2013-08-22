@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+
+function help() {
+    console.log([
+        'Usage:',
+        '  commonplace <command>',
+        '',
+        'Commands:',
+        '  install      Run this command to instantiate commonplace.',
+        '  update       This command will update commonplace modules.'
+
+    ].join('\n'));
+}
+
+process.title = 'commonplace';
+
+var argv = process.argv.slice(2);
+if (!argv.length) {
+    console.error('Not enough arguments passed.');
+    help();
+    process.exit();
+}
+
+switch (argv[0]) {
+    case 'install':
+        break;
+    case 'update':
+        break;
+    default:
+        console.error('Unrecognized command "' + argv[0] + '"');
+        help();
+        process.exit();
+}
+
