@@ -1,6 +1,6 @@
 define('urls',
-    ['capabilities', 'format', 'routes_api', 'settings', 'underscore', 'user', 'utils'],
-    function(caps, format, api_endpoints, settings, _, user) {
+    ['capabilities', 'format', 'routes', 'routes_api', 'settings', 'underscore', 'user', 'utils'],
+    function(caps, format, routes, api_endpoints, settings, _, user) {
 
     var group_pattern = /\(.+\)/;
     var optional_pattern = /(\(.*\)|\[.*\]|.)\?/g;
