@@ -124,7 +124,7 @@ define('notification', ['defer', 'jquery', 'templates', 'z'], function(defer, $,
         return confirmationDef.promise();
     }
 
-    var content = nunjucks.env.getTemplate('confirmation.html').render();
+    var content = nunjucks.env.getTemplate('confirmation.html').render({_: require('l10n').gettext});
 
     confirmationEl.html(content).on('touchend click', function() {
         confirmationHide();
