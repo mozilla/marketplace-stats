@@ -1,4 +1,4 @@
-define('notification', ['defer', 'jquery', 'templates', 'z'], function(defer, $, nunjucks, z) {
+define('notification', ['defer', 'jquery', 'l10n', 'templates', 'z'], function(defer, $, l10n, nunjucks, z) {
 
     var notificationDef;
     var notificationEl = $('<div id="notification" class="hidden">');
@@ -124,7 +124,7 @@ define('notification', ['defer', 'jquery', 'templates', 'z'], function(defer, $,
         return confirmationDef.promise();
     }
 
-    var content = nunjucks.env.getTemplate('confirmation.html').render({_: require('l10n').gettext});
+    var content = nunjucks.env.getTemplate('confirmation.html').render({_: l10n.gettext});
 
     confirmationEl.html(content).on('touchend click', function() {
         confirmationHide();
