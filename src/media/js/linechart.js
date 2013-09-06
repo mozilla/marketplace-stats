@@ -13,6 +13,7 @@ define('linechart', [], function() {
             forceZeroMin: true,
             height: 500,
             tickPadding: 8, // Axes distance from their tick labels (in px)
+            url: 'http://localhost:5000/api/v1/apps/bah/statistics/',
             width: 960
         };
 
@@ -61,7 +62,7 @@ define('linechart', [], function() {
                         .style('opacity', 0);
 
         // Supply URL src.
-        d3.json('http://localhost:5000/api/v1/apps/bah/statistics/', function(error, data) {
+        d3.json(opts.url, function(error, data) {
             var series = [];
             var dates = []; // to store 'extent' for dates
             var valAxis = [];
