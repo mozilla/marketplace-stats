@@ -24,6 +24,9 @@ define('helpers',
     filters.urlunparam = utils.urlunparam;
 
     safe_filter('nl2br', function(obj) {
+        if (typeof obj !== 'string') {
+            return obj;
+        }
         return obj.replace(/\n/g, '<br>');
     });
 
@@ -36,6 +39,8 @@ define('helpers',
     safe_filter('external_href', function(obj) {
         return 'href="' + utils.escape_(obj) + '" target="_blank"';
     });
+
+    filters.translate = utils.translate;
 
     filters.numberfmt = function(num) {
         if (typeof num === 'number' && num.toLocaleString) {

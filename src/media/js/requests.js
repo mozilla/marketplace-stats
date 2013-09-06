@@ -78,6 +78,18 @@ define('requests',
         }
     }
 
+    function _is_obj(obj) {
+        return obj && obj.constructor === Object;
+    }
+
+    function _has_object_props(obj) {
+        for (var i in obj) {
+            if (obj.hasOwnProperty(i) && _is_obj(obj[i])) {
+                return true;
+            }
+        }
+    }
+
     function _ajax(type, url, data) {
         var xhr = new XMLHttpRequest();
         var def = defer.Deferred();
@@ -114,13 +126,15 @@ define('requests',
 
         xhr.open(type, url, true);
 
-        // TODO: Should we be smarter about this?
-        // TODONT: nahhhh
-        if (typeof data === 'object') {
-            data = utils.urlencode(data);
-        }
+        var content_type = 'application/x-www-form-urlencoded';
         if (data) {
-            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            if (_is_obj(data) && !_has_object_props(data)) {
+                data = utils.urlencode(data);
+            } else {
+                data = JSON.stringify(data);
+                content_type = 'application/json';
+            }
+            xhr.setRequestHeader('Content-Type', content_type);
         }
         xhr.send(data || undefined);
 

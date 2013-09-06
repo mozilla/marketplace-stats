@@ -11,23 +11,24 @@ var lang_expander = {
     'zh': 'zh-CN'
 };
 
-if (!window.define) {
-    function get_locale(locale) {
-        if (languages.indexOf(locale) !== -1) {
-            return locale;
-        }
-        locale = locale.split('-')[0];
-        if (languages.indexOf(locale) !== -1) {
-            return locale;
-        }
-        if (locale in lang_expander) {
-            locale = lang_expander[locale];
-            if (languages.indexOf(locale) !== -1) {
-                return locale;
-            }
-        }
-        return 'en-US';
+function get_locale(locale) {
+    if (languages.indexOf(locale) !== -1) {
+        return locale;
     }
+    locale = locale.split('-')[0];
+    if (languages.indexOf(locale) !== -1) {
+        return locale;
+    }
+    if (locale in lang_expander) {
+        locale = lang_expander[locale];
+        if (languages.indexOf(locale) !== -1) {
+            return locale;
+        }
+    }
+    return 'en-US';
+}
+
+if (!window.define) {
     var qs_lang = /[\?&]lang=([\w\-]+)/i.exec(window.location.search);
     var locale = get_locale((qs_lang && qs_lang[1]) || navigator.language);
     if (locale === 'en-US') {
@@ -94,7 +95,9 @@ if (!window.define) {
                 // http://www.w3.org/International/questions/qa-scripts
                 // Arabic, Hebrew, Farsi, Pashto, Urdu
                 return rtlList.indexOf(language) >= 0 ? 'rtl' : 'ltr';
-            }
+            },
+            getLocale: get_locale,
+            languages: languages
         };
     });
 }

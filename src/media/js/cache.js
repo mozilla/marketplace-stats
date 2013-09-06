@@ -1,4 +1,4 @@
-define('cache', ['log', 'rewriters'], function(log, rewriters) {
+define('cache', ['log', 'rewriters', 'storage'], function(log, rewriters, storage) {
 
     var console = log('cache');
 
