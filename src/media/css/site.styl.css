@@ -362,6 +362,10 @@ body {
   .main {
     max-width: 690px;
   }
+  #page .main.chart,
+  .main.chart {
+    margin-bottom: 55px;
+  }
   .container.product-details,
   .container.results {
     margin: 50px 0;
@@ -462,9 +466,6 @@ body {
   }
   #site-footer {
     display: block;
-  }
-  .newsletter {
-    display: none;
   }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2) {
     #footzilla {

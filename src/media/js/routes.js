@@ -1,8 +1,9 @@
 (function() {
 
 // Please leave quotes around keys! They're needed for Space Heater.
-var routes = [
-    {'pattern': '^/$', 'view_name': 'home'},
+var routes = window.routes = [
+    {'pattern': '^/$', 'view_name': 'hello_world'},
+
     {'pattern': '^/apps\-added\-by\-payment/$', 'view_name': 'apps_added'},
 
     {'pattern': '^/tests$', 'view_name': 'tests'},

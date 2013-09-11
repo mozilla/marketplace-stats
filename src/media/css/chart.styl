@@ -19,15 +19,15 @@
 }
 
 .tooltip {
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font: 12px sans-serif;
+    padding: 10px;
+    pointer-events: none;
     position: absolute;
     text-align: left;
-    padding: 10px;
-    font: 12px sans-serif;
-    background: #fff;
-    border: 2px solid black;
-    border-radius: 5px;
-    pointer-events: none;
-    box-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 .timeinfo {
     margin: 3px 0 5px;
@@ -41,19 +41,40 @@ svg {
 }
 
 .legend {
-    position: absolute;
-    padding: 10px;
+    //box-shadow: 0 1px 1px 1px rgba(0,0,0,.5);
+    border: 1px solid $primer-gray;
+    border-radius: 3px;
+    background-color: #fff;
     left: 50%;
-    margin: 15px 0 0 -90px;
-    box-shadow: 0 1px 1px 1px rgba(0,0,0,.5);
-    border-radius: 10px;
+    margin: 15px 0 0;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, 10%);
 }
+
 .legend a {
     display: inline-block;
+    font-size: 14px;
     margin: 0 15px;
-    font-weight: bold;
 }
 
 .graphline {
     transition: all 1s linear;
+}
+
+#range {
+    margin: 25px 0;
+    label {
+        display: inline-block;
+        text-align: center;
+        width: 49%;
+    }
+    input {
+        font-size: 13px;
+        height: 22px;
+    }
+}
+
+#range input, x-datepicker, x-calendar {
+    border-radius: 10px;
 }
