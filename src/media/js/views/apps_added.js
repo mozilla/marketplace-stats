@@ -8,7 +8,7 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils'],
     var dayrange = 30; // Last 30 days if no range found.
     var interval = 'day';
 
-    // We need first piece only. "2013-09-10T23:14:06.641Z" to "2013-09-10"
+    // We need the first piece only. "2013-09-10T23:14:06.641Z" to "2013-09-10"
     function getISODate(date) {
         return date.toISOString().split('T')[0];
     }
