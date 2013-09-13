@@ -1,9 +1,12 @@
 /* Marketplace Stats Line Charts
- -----------------
+--------------------------------
  * Dependencies: d3.js
  *
  * Some definitions:
+ * -----------------
  * series: individual chart line.
+ * tooltip: tooltip wrapper div.
+ * graphline: container of the SVG tooltip circles and path.
  *
  */
 define('linechart', [], function() {
@@ -61,7 +64,6 @@ define('linechart', [], function() {
                         .attr('class', 'tooltip')
                         .style('opacity', 0);
 
-        // Supply URL src.
         d3.json(opts.url, function(error, data) {
             var series = [];
             var dates = []; // to store 'extent' for dates
@@ -124,7 +126,7 @@ define('linechart', [], function() {
             valAxis.append('text')
                    .attr('transform', 'rotate(-90)')
                    .attr('y', 6)
-                   .attr('dy', '.71em')
+                   .attr('dy', '5px')
                    .style('text-anchor', 'end')
                    .text(lbls.yAxis);
 
@@ -138,7 +140,7 @@ define('linechart', [], function() {
 
             console.log('graphline: ', graphline);
 
-            // Inject tooltips hiding `null` values
+            // Inject tooltips while hiding `null` values.
             for (i = 0; i < series.length; i++) {
                 d3.select(graphline[0][i]).selectAll('dot')
                           .data(series[i].values)
@@ -185,7 +187,7 @@ define('linechart', [], function() {
                      })
                      .attr('x', 10)
                      .attr('dy', '3px')
-                     .text(getSeriesName); // Translate this!
+                     .text(getSeriesName);
 
             legend = d3.select(opts.container).append('div').attr('class', 'legend')
                             .attr('top', height + 45 + 'px');
@@ -197,7 +199,12 @@ define('linechart', [], function() {
                     .style('color', getSeriesColor)
                     .attr('href', '#')
                     .attr('id', getSeriesName)
-                    .text(getSeriesName);
+                    .text(getSeriesName)
+                    .on('click', function(d, i) {
+                        d3.event.preventDefault();
+                        $('.graphline.' + getSeriesName(d)).toggle();
+                        $(this).toggleClass('hidden');
+                    });
         });
     }
 

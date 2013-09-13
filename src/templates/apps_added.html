@@ -1,8 +1,11 @@
 <section class="main chart">
   <h1>{{ _('Apps Added by Payment Type') }}</h1>
   <div id="range">
-  	<label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
-  	<label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
+    <form id="rangeform">
+      <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
+      <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
+      <input type="submit" value="{{ _('Update') }}">
+    </form>
   </div>
   <div id="chart"></div>
 </section>

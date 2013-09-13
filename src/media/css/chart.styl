@@ -13,6 +13,10 @@
     stroke-width: 1.5px;
 }
 
+.graphline .line.highlight {
+    stroke-width: 2.5px;
+}
+
 .tooltip {
     background: #fff;
     border-radius: 5px;
@@ -51,6 +55,10 @@ svg {
     display: inline-block;
     font-size: 14px;
     margin: 0 15px;
+    // Override the inline color style.
+    &.hidden {
+        color: #bbb !important;
+    }
 }
 
 .graphline {
@@ -62,11 +70,16 @@ svg {
     label {
         display: inline-block;
         text-align: center;
-        width: 49%;
+        width: 33%;
     }
     input {
         font-size: 13px;
         height: 22px;
+    }
+    input[type=submit] {
+        background-color: #fff;
+        border: 1px solid $primer-gray;
+        height: 26px;
     }
 }
 

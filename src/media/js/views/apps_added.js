@@ -1,5 +1,5 @@
-define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils'],
-       function(l10n, linechart, urls, utils) {
+define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
+       function(l10n, linechart, urls, utils, z) {
 
     var gettext = l10n.gettext;
     var $rangeElms = $('#range x-datepicker');
@@ -13,7 +13,8 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils'],
         return date.toISOString().split('T')[0];
     }
 
-    if ($rangeElms.length) {
+    // TODO: This should be checking URL params not the range inputs!
+    if (false) {
         start = $rangeElms[0].submitValue;
         end = $rangeElms[1].submitValue;
     } else { // No range found.
@@ -25,27 +26,39 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils'],
         start = getISODate(start);
     }
 
-    console.log('Using start:', start, ' and end:', end);
+    function createChart(start, end) {
+        $('#chart').empty();
+        linechart.createLineChart({
+            tooltipValue: gettext('Total'),
+            yAxis: gettext('Apps Added')
+        },
+        {
+            container: '#chart',
+            width: 690,
+            height: 400,
+            url: urls.api.params(
+                'apps_added',
+                {
+                    'start': start,
+                    'end': end,
+                    'interval': interval
+                }
+            )
+        });
+        console.log('Creating chart using start:', start, ' and end:', end);
+    }
 
     return function(builder) {
         builder.start('apps_added.html').done(function() {
-            linechart.createLineChart({
-                tooltipValue: 'Total',
-                yAxis: 'Count (users)'
-            },
-            {
-                container: '#chart',
-                width: 690,
-                height: 400,
-                url: urls.api.params(
-                    'apps_added',
-                    {
-                        'start': start,
-                        'end': end,
-                        'interval': interval
-                    }
-                )
-            });
+            createChart(start, end);
+
+            z.page.on('submit', '#rangeform', utils._pd(function() {
+                $rangeElms = $('#range x-datepicker');
+                start = $rangeElms[0].submitValue;
+                end = $rangeElms[1].submitValue;
+
+                createChart(start, end);
+            }));
         });
 
         builder.z('type', 'root');
