@@ -15,7 +15,8 @@ define('linechart', [], function() {
             container: document.querySelector('body'),
             forceZeroMin: true,
             height: 500,
-            tickPadding: 8, // Axes distance from their tick labels (in px)
+            lineLabels: false, // Append line labels to the end of each line?
+            tickPadding: 8, // Axes distance from their tick labels (in px).
             url: 'http://localhost:5000/api/v1/apps/bah/statistics/',
             width: 960
         };
@@ -178,16 +179,18 @@ define('linechart', [], function() {
                      .style('stroke', getSeriesColor);
 
 
-            graphline.append('text')
-                     .datum(function(d) {
-                        return {name: d.name, value: d.values[d.values.length - 1]};
-                     })
-                     .attr('transform', function(d) {
-                        return 'translate(' + x(d.value.date) + ',' + y(d.value.count) + ')';
-                     })
-                     .attr('x', 10)
-                     .attr('dy', '3px')
-                     .text(getSeriesName);
+            if (opts.lineLabels) {
+                graphline.append('text')
+                         .datum(function(d) {
+                            return {name: d.name, value: d.values[d.values.length - 1]};
+                         })
+                         .attr('transform', function(d) {
+                            return 'translate(' + x(d.value.date) + ',' + y(d.value.count) + ')';
+                         })
+                         .attr('x', 10)
+                         .attr('dy', '3px')
+                         .text(getSeriesName);
+            }
 
             legend = d3.select(opts.container).append('div').attr('class', 'legend')
                             .attr('top', height + 45 + 'px');

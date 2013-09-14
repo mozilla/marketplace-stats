@@ -34,7 +34,7 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
         },
         {
             container: '#chart',
-            width: 690,
+            width: 790,
             height: 400,
             url: urls.api.params(
                 'apps_added',
