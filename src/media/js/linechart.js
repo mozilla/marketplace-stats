@@ -48,7 +48,7 @@ define('linechart', [], function() {
                       .tickPadding(opts.tickPadding);
 
         var line = d3.svg.line()
-                     .interpolate('cardinal')
+                     .interpolate('monotone')
                      .x(function(d) {return x(d.date);})
                      .y(function(d) {return y(d.count);})
                      // Drops null values from series.
@@ -207,6 +207,13 @@ define('linechart', [], function() {
                         d3.event.preventDefault();
                         $('.graphline.' + getSeriesName(d)).toggle();
                         $(this).toggleClass('hidden');
+                    })
+                    .on('mouseover', function(d, i) {
+                        // Toggling a class fails here.
+                        $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '3px');
+                    })
+                    .on('mouseleave', function(d, i) {
+                        $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '1.5px');
                     });
         });
     }

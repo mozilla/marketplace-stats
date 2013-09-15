@@ -1,4 +1,4 @@
-define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
+define('views/apps_installed', ['l10n', 'linechart', 'urls', 'utils', 'z'],
        function(l10n, linechart, urls, utils, z) {
 
     var gettext = l10n.gettext;
@@ -21,7 +21,7 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
             width: 790,
             height: 400,
             url: urls.api.params(
-                'apps_added',
+                'apps_installed',
                 {
                     'start': start,
                     'end': end,
@@ -32,7 +32,7 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
     }
 
     return function(builder) {
-        var chartTitle = gettext('Apps Added by Payment Type');
+        var chartTitle = gettext('Apps Installed');
 
         builder.start('apps_chart.html', {title: chartTitle}).done(function() {
             createChart(start, end);

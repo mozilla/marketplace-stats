@@ -1,4 +1,4 @@
-define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
+define('views/total_visits', ['l10n', 'linechart', 'urls', 'utils', 'z'],
        function(l10n, linechart, urls, utils, z) {
 
     var gettext = l10n.gettext;
@@ -13,15 +13,15 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
     function createChart(start, end) {
         $('#chart').empty();
         linechart.createLineChart({
-            tooltipValue: gettext('Apps'),
-            yAxis: gettext('Number of Apps')
+            tooltipValue: gettext('Visits'),
+            yAxis: gettext('Number of Visits')
         },
         {
             container: '#chart',
             width: 790,
             height: 400,
             url: urls.api.params(
-                'apps_added',
+                'total_visits',
                 {
                     'start': start,
                     'end': end,
@@ -32,7 +32,7 @@ define('views/apps_added', ['l10n', 'linechart', 'urls', 'utils', 'z'],
     }
 
     return function(builder) {
-        var chartTitle = gettext('Apps Added by Payment Type');
+        var chartTitle = gettext('Total Visits');
 
         builder.start('apps_chart.html', {title: chartTitle}).done(function() {
             createChart(start, end);
