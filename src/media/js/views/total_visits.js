@@ -11,15 +11,11 @@ define('views/total_visits', ['l10n', 'linechart', 'urls', 'utils', 'z'],
     end = utils.getRecentTimeDelta().end;
 
     function createChart(start, end) {
-        $('#chart').empty();
         linechart.createLineChart({
             tooltipValue: gettext('Visits'),
             yAxis: gettext('Number of Visits')
         },
         {
-            container: '#chart',
-            width: 790,
-            height: 400,
             url: urls.api.params(
                 'total_visits',
                 {

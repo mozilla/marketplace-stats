@@ -12,9 +12,9 @@
 define('linechart', [], function() {
     function createLineChart(lbls, options) {
         var opts = {
-            container: document.querySelector('body'),
+            container: document.getElementById('chart'),
             forceZeroMin: true,
-            height: 500,
+            height: 450,
             lineLabels: false, // Append line labels to the end of each line?
             tickPadding: 8, // Axes distance from their tick labels (in px).
             url: 'http://localhost:5000/api/v1/apps/bah/statistics/',
@@ -26,7 +26,9 @@ define('linechart', [], function() {
             opts[prop] = options[prop];
         }
 
-        var margin = {top: 20, right: 80, bottom: 30, left: 50},
+        $(opts.container).empty();
+
+        var margin = {top: 20, right: 30, bottom: 40, left: 50},
             width = opts.width - margin.left - margin.right,
             height = opts.height - margin.top - margin.bottom;
 

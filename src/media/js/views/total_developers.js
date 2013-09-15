@@ -11,15 +11,11 @@ define('views/total_developers', ['l10n', 'linechart', 'urls', 'utils', 'z'],
     end = utils.getRecentTimeDelta().end;
 
     function createChart(start, end) {
-        $('#chart').empty();
         linechart.createLineChart({
             tooltipValue: gettext('Developers'),
             yAxis: gettext('Number of Developers')
         },
         {
-            container: '#chart',
-            width: 790,
-            height: 400,
             url: urls.api.params(
                 'total_developers',
                 {

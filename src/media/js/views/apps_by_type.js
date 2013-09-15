@@ -11,15 +11,11 @@ define('views/apps_by_type', ['l10n', 'linechart', 'urls', 'utils', 'z'],
     end = utils.getRecentTimeDelta().end;
 
     function createChart(start, end) {
-        $('#chart').empty();
         linechart.createLineChart({
             tooltipValue: gettext('Apps'),
             yAxis: gettext('Number of Apps')
         },
         {
-            container: '#chart',
-            width: 790,
-            height: 400,
             url: urls.api.params(
                 'apps_by_type',
                 {
