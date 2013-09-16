@@ -63,24 +63,32 @@ svg {
     transition: all 1s linear;
 }
 
-#range {
+.options {
     margin: 25px 0;
     label {
         display: inline-block;
-        text-align: center;
-        width: 33%;
+        width: 200px;
     }
     input {
+        display: inline-block;
         font-size: 13px;
-        height: 22px;
+        height: 24px;
+        top: -3px;
     }
     input[type=submit] {
         background-color: #fff;
-        border: 1px solid $primer-gray;
+        border: 1px solid green;
+        box-shadow: 0 0 3px green;
         height: 26px;
+        padding: 0 20px;
     }
 }
 
-#range input, x-datepicker, x-calendar {
+.options input, x-datepicker, x-calendar {
     border-radius: 3px;
+}
+
+x-datepicker {
+    border: 0;
+    width: 100px;
 }
