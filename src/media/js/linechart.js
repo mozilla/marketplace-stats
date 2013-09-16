@@ -67,16 +67,24 @@ define('linechart', [], function() {
                         .attr('class', 'tooltip')
                         .style('opacity', 0);
 
+        function isNullSeries(vals) {
+            for (var i = 0; i < vals.length; i++) {
+                if (vals[i].count !== null) return false;
+            }
+            return true;
+        }
+
+        function getSeriesName(s) {return s.name;}
+        function getSeriesColor(s) {return color(s.name);}
+
         d3.json(opts.url, function(error, data) {
-            var series = [];
-            var dates = []; // to store 'extent' for dates
-            var valAxis = [];
+            var series = [],
+                dates = [], // to store 'extent' for dates
+                valAxis = [],
+                legendSeries = [];
             var legend;
 
             color.domain(d3.keys(data));
-
-            function getSeriesName(s) {return s.name;}
-            function getSeriesColor(s) {return color(s.name);}
 
             // `item` is the key of each line (series).
             for (item in data) {
@@ -100,6 +108,11 @@ define('linechart', [], function() {
                 series[i].values = data[series[i].name].map(function(d) {
                     return {date: d.date, count: d.count};
                 });
+                if (isNullSeries(series[i].values)) {
+                    console.log('Found empty series: ', series[i].name);
+                } else {
+                    legendSeries.push(series[i]);
+                }
             }
 
             console.log('Series is: ', series);
@@ -194,29 +207,32 @@ define('linechart', [], function() {
                          .text(getSeriesName);
             }
 
-            legend = d3.select(opts.container).append('div').attr('class', 'legend')
-                            .attr('top', height + 45 + 'px');
+            if (series.length > 1) {
+                legend = d3.select(opts.container).append('div').attr('class', 'legend')
+                                .attr('top', height + 45 + 'px');
 
-            legend.selectAll('a')
-                  .data(series)
-                  .enter()
-                    .append('a')
-                    .style('color', getSeriesColor)
-                    .attr('href', '#')
-                    .attr('id', getSeriesName)
-                    .text(getSeriesName)
-                    .on('click', function(d, i) {
-                        d3.event.preventDefault();
-                        $('.graphline.' + getSeriesName(d)).toggle();
-                        $(this).toggleClass('hidden');
-                    })
-                    .on('mouseover', function(d, i) {
-                        // Toggling a class fails here.
-                        $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '3px');
-                    })
-                    .on('mouseleave', function(d, i) {
-                        $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '1.5px');
-                    });
+
+                legend.selectAll('a')
+                      .data(legendSeries)
+                      .enter()
+                        .append('a')
+                        .style('color', getSeriesColor)
+                        .attr('href', '#')
+                        .attr('id', getSeriesName)
+                        .text(getSeriesName)
+                        .on('click', function(d, i) {
+                            d3.event.preventDefault();
+                            $('.graphline.' + getSeriesName(d)).toggle();
+                            $(this).toggleClass('hidden');
+                        })
+                        .on('mouseover', function(d, i) {
+                            // Toggling a class fails here.
+                            $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '3px');
+                        })
+                        .on('mouseleave', function(d, i) {
+                            $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '1.5px');
+                        });
+            }
         });
     }
 
