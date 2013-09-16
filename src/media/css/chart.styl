@@ -38,6 +38,22 @@ svg {
     }
 }
 
+.chartcloak {
+    background: #fff;
+    display: none;
+    height: 450px;
+    position: absolute;
+    width: $desktop-content;
+    z-index: 20;
+    .message {
+        color: #aaa;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 200px;
+        text-align: center;
+    }
+}
+
 .legend {
     border: 1px solid $primer-gray;
     border-radius: 3px;
@@ -78,7 +94,7 @@ svg {
     input[type=submit] {
         background-color: #fff;
         border: 1px solid green;
-        box-shadow: 0 0 3px green;
+        box-shadow: 0 0 2px rgba(0,128,0,.6);
         height: 26px;
         padding: 0 20px;
     }
@@ -90,5 +106,5 @@ svg {
 
 x-datepicker {
     border: 0;
-    width: 100px;
+    width: 130px;
 }

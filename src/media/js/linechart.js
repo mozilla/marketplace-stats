@@ -108,7 +108,7 @@ define('linechart', [], function() {
                 series[i].values = data[series[i].name].map(function(d) {
                     return {date: d.date, count: d.count};
                 });
-                if (isNullSeries(series[i].values)) {
+                if (!series[i].values.length || isNullSeries(series[i].values)) {
                     console.log('Found empty series: ', series[i].name);
                 } else {
                     legendSeries.push(series[i]);
@@ -116,6 +116,8 @@ define('linechart', [], function() {
             }
 
             console.log('Series is: ', series);
+
+            $('.chartcloak').toggle(legendSeries.length === 0);
 
             function getMinValue() {
                 return d3.min(series, function(c) {
@@ -152,7 +154,6 @@ define('linechart', [], function() {
                                .attr('class', function(d) {
                                     return 'graphline ' + d.name;
                                });
-            //graphline.append('dot');
 
             console.log('graphline: ', graphline);
 
@@ -207,7 +208,7 @@ define('linechart', [], function() {
                          .text(getSeriesName);
             }
 
-            if (series.length > 1) {
+            if (series.length > 1 && legendSeries.length) {
                 legend = d3.select(opts.container).append('div').attr('class', 'legend')
                                 .attr('top', height + 45 + 'px');
 
