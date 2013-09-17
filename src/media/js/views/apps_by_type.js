@@ -1,5 +1,5 @@
-define('views/apps_by_type', ['l10n', 'linechart', 'urls', 'utils', 'z'],
-       function(l10n, linechart, urls, utils, z) {
+define('views/apps_by_type', ['chartutils', 'l10n', 'linechart', 'urls', 'utils', 'z'],
+       function(cutils, l10n, linechart, urls, utils, z) {
 
     var gettext = l10n.gettext;
     var $rangeElms = $('#range x-datepicker');
@@ -7,8 +7,8 @@ define('views/apps_by_type', ['l10n', 'linechart', 'urls', 'utils', 'z'],
     var end = '';
     var interval = 'day';
 
-    start = utils.getRecentTimeDelta().start;
-    end = utils.getRecentTimeDelta().end;
+    start = cutils.getRecentTimeDelta().start;
+    end = cutils.getRecentTimeDelta().end;
 
     function createChart(start, end) {
         linechart.createLineChart({
