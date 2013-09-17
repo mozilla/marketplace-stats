@@ -44,7 +44,7 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
             start = $rangeElms[0].submitValue;
             end = $rangeElms[1].submitValue;
 
-            createChart();
+            createChart(apiName, lblValue, lblYAxis);
         }));
     }
 
