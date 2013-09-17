@@ -22,24 +22,18 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
     // lblValue...remember Visual Basic?
     function createChart(apiName, lblValue, lblYAxis) {
         updateRange(start, end);
+        z.page.off('submit.range');
 
         $range = $('#range x-datepicker');
         start = $range[0].submitValue;
         end = $range[1].submitValue;
 
         linechart.createLineChart({tooltipValue: lblValue, yAxis: lblYAxis}, {
-            url: urls.api.params(
-                apiName,
-                {
-                    'start': start,
-                    'end': end,
-                    'interval': interval
-                }
-            )
+            url: urls.api.params(apiName,
+                {'start': start, 'end': end,'interval': interval})
         });
 
-        // Causes event flood. Check if this is bound first.
-        z.page.on('submit', '#rangeform', utils._pd(function() {
+        z.page.on('submit.range', '#rangeform', utils._pd(function() {
             $rangeElms = $('#range x-datepicker');
             start = $rangeElms[0].submitValue;
             end = $rangeElms[1].submitValue;
