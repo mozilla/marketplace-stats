@@ -9,7 +9,9 @@
  * graphline: container of the SVG tooltip circles and path.
  *
  */
-define('linechart', [], function() {
+define('linechart', ['log'], function(log) {
+    var console = log('linechart');
+
     function createLineChart(lbls, options) {
         var opts = {
             container: document.getElementById('chart'),
@@ -153,8 +155,6 @@ define('linechart', [], function() {
                                .attr('class', function(d) {
                                     return 'graphline ' + d.name;
                                });
-
-            console.log('graphline: ', graphline);
 
             // Inject tooltips while hiding `null` values.
             for (i = 0; i < series.length; i++) {
