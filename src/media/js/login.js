@@ -37,6 +37,7 @@ define('login',
         // gets fixed.
         if (!z.context.dont_reload_on_login) {
             require('views').reload().done(function(){
+                z.page.trigger('logged_out');
                 signOutNotification();
             });
         } else {
@@ -53,6 +54,7 @@ define('login',
         var opt = {
             termsOfService: '/terms-of-use',
             privacyPolicy: '/privacy-policy',
+            siteLogo: settings.persona_site_logo,
             oncancel: function() {
                 console.log('Persona login cancelled');
                 z.page.trigger('login_cancel');

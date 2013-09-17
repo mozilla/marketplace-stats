@@ -6,9 +6,6 @@ define('utils', ['jquery', 'underscore'], function($, _) {
         }
     });
 
-    // Get last `dayrange` days when no chart date range specified.
-    var dayrange = 30;
-
     function _pd(func) {
         return function(e) {
             e.preventDefault();

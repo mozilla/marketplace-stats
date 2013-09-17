@@ -1,0 +1,226 @@
+@import 'lib';
+
+.spinner {
+    spinner();
+    &.alt {
+        spinner-alt-image();
+    }
+    &.btn-replace {
+        spinner-abs();
+        top: 24px;
+    }
+    &.spaced {
+        margin: 70px auto;
+    }
+    &.padded {
+        padding: 70px 0;
+    }
+}
+
+ul {
+    list-style-position: inside;
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0turn); }
+    to { -webkit-transform: rotate(1turn); }
+}
+@keyframes spin {
+    from { transform: rotate(0turn); }
+    to { transform: rotate(1turn); }
+}
+
+.roll {
+    animation(unquote('0.9s spin 1 steps(30)'));
+}
+
+@media $at-least-desktop {
+    html, #footer {
+        background: #fff;
+    }
+
+    #footer,
+    #directory-footer {
+        padding: 48px 0;
+        ul {
+            list-style: none;
+        }
+    }
+
+    #directory-footer {
+        border-top: 1px dashed #000;
+        font-size: 14px;
+        line-height: 18px;
+        .links a {
+            margin-top: 8px;
+            + a {
+                margin-top: 10px;
+            }
+        }
+        .devhub {
+            width: 290px;
+            // TODO: Get Michael to vectorize this as an SVG.
+            &:before {
+                background: url(../img/pretty/rocket.png) 0 50% no-repeat;
+                background-size: 20px auto;
+                content: "";
+                display: inline-block;
+                height: 100%;
+                vertical-align: top;
+                width: 28px;
+            }
+        }
+        .group {
+            float: left;
+            min-height: 48px;
+            position: relative;
+            a {
+                display: block;
+            }
+            + .group {
+                padding-left: 68px;
+                max-width: 200px;
+            }
+        }
+    }
+
+    #page .main,
+    .main {
+        max-width: $desktop-content;
+        &.chart {
+            margin-bottom: 55px;
+        }
+    }
+
+    .container {
+        &.product-details,
+        &.results {
+            margin: 50px 0;
+        }
+        &.prose,
+        &.form-grid {
+            padding: 25px;
+        }
+    }
+
+    #directory-footer .group .region {
+        background-repeat: no-repeat;
+        background-size: 20px auto;
+        margin-top: 6px;
+        min-height: 20px;
+        overflow: visible;
+        padding: 2px 0 0 28px;
+        text-overflow: normal;
+    }
+
+    #directory-footer .group span.region {
+        display: block;
+        margin-top: 6px;
+    }
+
+    .region-worldwide {
+        background-image: url(../img/icons/regions/worldwide.png);
+    }
+
+    .region-br {
+        background-image: url(../img/icons/regions/br.png);
+    }
+
+    .region-co {
+        background-image: url(../img/icons/regions/co.png);
+    }
+
+    .region-es {
+        background-image: url(../img/icons/regions/es.png);
+    }
+
+    .region-pl {
+        background-image: url(../img/icons/regions/pl.png);
+    }
+
+    .region-uk {
+        background-image: url(../img/icons/regions/uk.png);
+    }
+
+    .region-us {
+        background-image: url(../img/icons/regions/us.png);
+    }
+
+    .region-ve {
+        background-image: url(../img/icons/regions/ve.png);
+    }
+
+    .region-rs {
+        background-image: url(../img/icons/regions/rs.png);
+    }
+
+    .region-me {
+        background-image: url(../img/icons/regions/me.png);
+    }
+
+    #footzilla {
+        background: url(../img/logos/footzilla.png) 0 3px no-repeat;
+        float: left;
+        width: 100px;
+        a {
+            display: block;
+            height: 26px;
+            hidetext();
+            width: 80px;
+        }
+    }
+
+    #footer {
+        color: $note-gray;
+        overflow: hidden;
+        padding: 30px 0;
+        width: 100%;
+        .pad {
+            margin: 0 auto;
+            padding: 0;
+            width: $desktop-ftr;
+        }
+        p, ul {
+            border-left: 1px dotted $light-gray;
+            font-size: 11px;
+            line-height: 1.3;
+            margin: 0;
+            padding-left: 1em;
+        }
+        p {
+            float: left;
+            width: 60%;
+        }
+        ul {
+            float: right;
+            line-height: 1.2;
+            width: 20%;
+            a {
+                display: block;
+            }
+        }
+        li + li {
+            margin-top: 2px;
+        }
+    }
+
+    #site-footer {
+        display: block;
+    }
+
+    @media $retina {
+        #footzilla {
+            background-image: url(../img/logos/footzilla-2x.png);
+            background-size: 81px auto;
+        }
+    }
+} // End of Desktop.
+
+@media $retina {
+    .spinner {
+        spinner-base-image('retina');
+        &.alt {
+            spinner-alt-image('retina');
+        }
+    }
+}

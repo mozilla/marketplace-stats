@@ -65,7 +65,8 @@ header .email {
     > * {
         display: block;
     }
-    > nav {
+    > nav,
+    > .warn {
         height: 60px;
         display-flex();
         margin: 0 auto;
@@ -123,7 +124,6 @@ header .email {
 
 // Buttons that appear in headers.
 .header-button {
-    color: $castle-skull-gray;
     display: block;
     height: 60px;
     line-height: 60px;
@@ -208,4 +208,17 @@ main {
 
 .nav-overlay.show {
     background: transparent;
+}
+
+.rocketfuel-disabled .site-header {
+    height: 120px;
+    max-height: 120px;
+}
+
+.site-header > warn {
+    border: 2px dotted $angry-cvan-red;
+    border-radius: 5px;
+    height: 48px;
+    line-height: 44px;  // 60px minus the border widths;
+    padding: 0 20px;
 }
