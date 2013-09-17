@@ -64,8 +64,7 @@ define('linechart', [], function() {
                               'translate(' + margin.left + ',' + margin.top + ')');
 
         var tooltip = d3.select(opts.container).append('div')
-                        .attr('class', 'tooltip')
-                        .style('opacity', 0);
+                        .attr('class', 'tooltip');
 
         function isNullSeries(vals) {
             for (var i = 0; i < vals.length; i++) {
@@ -179,8 +178,8 @@ define('linechart', [], function() {
                                 tooltip.html('<p class="timeinfo">' +
                                                 formatTime(d.date) +
                                                 '</p>' + '<b>' + lbls.tooltipValue + ':</b> ' + d.count)
-                                    .style('left', (d3.event.pageX) + 'px')
-                                    .style('top', (d3.event.pageY - 128) + 'px');
+                                    .style('left', (d3.event.pageX) - 432 + 'px')
+                                    .style('top', (d3.event.pageY - 100) + 'px');
                             })
                             .on('mouseout', function(d) {
                                 tooltip.transition()

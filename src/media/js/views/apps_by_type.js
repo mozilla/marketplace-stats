@@ -28,7 +28,7 @@ define('views/apps_by_type', ['chartutils', 'l10n', 'linechart', 'urls', 'utils'
     }
 
     return function(builder) {
-        var chartTitle = gettext('Apps by Type');
+        var chartTitle = gettext('Apps Added by Type');
 
         builder.start('apps_chart.html', {title: chartTitle}).done(function() {
             createChart(start, end);
