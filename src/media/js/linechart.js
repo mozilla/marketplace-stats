@@ -16,11 +16,11 @@ define('linechart', ['log'], function(log) {
         var opts = {
             container: document.getElementById('chart'),
             forceZeroMin: true,
-            height: 450,
+            height: 440,
             lineLabels: false, // Append line labels to the end of each line?
             tickPadding: 8, // Axes distance from their tick labels (in px).
             url: 'http://localhost:5000/api/v1/apps/bah/statistics/',
-            width: 960
+            width: 950
         };
 
         // Almost like $.extend() except worse and no recursion so don't nest!
@@ -227,7 +227,7 @@ define('linechart', ['log'], function(log) {
                         })
                         .on('mouseover', function(d, i) {
                             // Toggling a class fails here.
-                            $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '3px');
+                            $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '2.5px');
                         })
                         .on('mouseleave', function(d, i) {
                             $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '1.5px');

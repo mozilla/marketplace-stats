@@ -35,6 +35,9 @@ svg {
     background-color: #fff;
     border-radius: 3px;
     font-size: 11px;
+    left: 4px;
+    position: relative;
+    top: 4px;
     circle {
         cursor: pointer;
     }
@@ -57,9 +60,6 @@ svg {
 }
 
 .legend {
-    border: 1px solid $primer-gray;
-    border-radius: 3px;
-    background-color: #fff;
     left: 50%;
     margin: 15px 0 0;
     padding: 10px;
@@ -91,19 +91,29 @@ svg {
         display: inline-block;
         font-size: 13px;
         height: 24px;
-        top: -3px;
+        top: -2px;
     }
     input[type=submit] {
         background-color: #fff;
-        border: 1px solid green;
-        box-shadow: 0 0 2px rgba(0,128,0,.6);
-        height: 26px;
+        border: 0;
+        box-shadow: 0 0 2px $sailor-blue inset;
+        height: 27px;
         padding: 0 20px;
     }
 }
 
-.options input, x-datepicker, x-calendar {
+.options input, x-datepicker, x-calendar, .cbox, .legend {
     border-radius: 3px;
+}
+
+.cbox, .legend, .options input[type=text] {
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 0 2px $castle-skull-gray inset;
+}
+
+.cbox {
+    padding: 4px 0 4px 4px;
 }
 
 x-datepicker {
