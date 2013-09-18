@@ -178,8 +178,8 @@ define('linechart', ['log'], function(log) {
                                 tooltip.html('<p class="timeinfo">' +
                                                 formatTime(d.date) +
                                                 '</p>' + '<b>' + lbls.tooltipValue + ':</b> ' + d.count)
-                                    .style('left', (d3.mouse(this)[0] + 92) + 'px')
-                                    .style('top', (d3.mouse(this)[1] + 125) + 'px');
+                                    .style('left', (d3.mouse(this)[0] + 95) + 'px')
+                                    .style('top', (d3.mouse(this)[1] + 130) + 'px');
                             })
                             .on('mouseout', function(d) {
                                 tooltip.transition()
