@@ -25,8 +25,8 @@ def pre_update(ref):
 def update():
     with lcd(MARKETPLACE_STATS):
         local('npm install')
-        local('npm install -g commonplace')
-        local('commonplace includes')
+        local('npm install commonplace')
+        local('./node_modules/.bin/commonplace includes')
 
 
 @task
