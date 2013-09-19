@@ -233,6 +233,7 @@ define('linechart', ['log'], function(log) {
                             $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '1.5px');
                         });
             }
+            console.log('...chart created');
         });
     }
 

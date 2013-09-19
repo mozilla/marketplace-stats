@@ -6,6 +6,16 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
     var interval = 'day';
     var start = getRecentTimeDelta().start;
     var end = getRecentTimeDelta().end;
+    var paramRange = utils.getVars();
+    var doRedirect = false;
+
+    // Use range url params if found.
+    if ('start' in paramRange && 'end' in paramRange) {
+        start = paramRange.start;
+        end = paramRange.end;
+    } else {
+        doRedirect = true;
+    }
 
     // We need the first piece only. "2013-09-10T23:14:06.641Z" to "2013-09-10"
     function getISODate(date) {
@@ -21,6 +31,16 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
 
     // lblValue...remember Visual Basic?
     function createChart(apiName, lblValue, lblYAxis) {
+        var newURL = utils.urlparams(urls.reverse(apiName), {'start': start, 'end': end});
+
+        if (doRedirect) {
+            doRedirect = false; // Redirect loops joyous fun.
+            z.page.trigger('divert', [newURL]);
+            window.history.replaceState({}, '', newURL);
+
+            return;
+        }
+
         updateRange(start, end);
         z.page.off('submit.range');
 
@@ -28,9 +48,11 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
         start = $range[0].submitValue;
         end = $range[1].submitValue;
 
+        window.history.replaceState({}, '', newURL);
+
         linechart.createLineChart({tooltipValue: lblValue, yAxis: lblYAxis}, {
             url: urls.api.params(apiName,
-                {'start': start, 'end': end,'interval': interval})
+                {'start': start, 'end': end, 'interval': interval})
         });
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
