@@ -34,7 +34,7 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
         var newURL = utils.urlparams(urls.reverse(apiName), {'start': start, 'end': end});
 
         if (doRedirect) {
-            doRedirect = false; // Redirect loops joyous fun.
+            doRedirect = false; // Redirect loops are joyous fun.
             z.page.trigger('divert', [newURL]);
             window.history.replaceState({}, '', newURL);
 
