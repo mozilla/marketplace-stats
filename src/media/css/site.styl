@@ -35,10 +35,14 @@ noscript {
 }
 
 a {
-    text-decoration: none;
     color: $sailor-blue;
+    text-decoration: none;
+
     &:hover {
         text-decoration: underline;
+    }
+    &:not([href]) {
+        cursor: pointer;
     }
 }
 
