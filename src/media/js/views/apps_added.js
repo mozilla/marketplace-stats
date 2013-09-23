@@ -1,5 +1,5 @@
-define('views/apps_added', ['brick', 'chartutils', 'l10n'],
-       function(brick, cutils, l10n) {
+define('views/apps_added', ['chartutils', 'l10n'],
+       function(cutils, l10n) {
 
     var gettext = l10n.gettext;
 
