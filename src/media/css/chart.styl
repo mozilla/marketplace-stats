@@ -92,7 +92,7 @@ svg {
     input {
         display: inline-block;
         font-size: 13px;
-        height: 24px;
+        height: 27px;
         top: -2px;
     }
     input[type=submit] {
@@ -104,11 +104,11 @@ svg {
     }
 }
 
-.options input, x-datepicker, x-calendar, .cbox, .legend {
+.options input, .cbox, .legend {
     border-radius: 3px;
 }
 
-.cbox, .legend, .options input[type=text] {
+.cbox, .legend, .options input[type=date] {
     background-color: #fff;
     border: 0;
     box-shadow: 0 0 2px $castle-skull-gray inset;
@@ -118,7 +118,9 @@ svg {
     padding: 4px 0 4px 4px;
 }
 
-x-datepicker {
+input[type=date] {
     border: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     width: 130px;
 }

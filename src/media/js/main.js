@@ -4,7 +4,6 @@ require.config({
     enforceDefine: true,
     paths: {
         'jquery': 'lib/jquery-2.0.2',
-        'brick': 'lib/brick',
         'd3': 'lib/d3.v3-min',
         'underscore': 'lib/underscore',
         'nunjucks': 'lib/nunjucks',
@@ -21,7 +20,6 @@ require.config({
         'main',
         [
             'underscore',
-            'brick',
             'd3',
             'helpers',  // Must come before mostly everything else.
             'capabilities',
