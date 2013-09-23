@@ -207,7 +207,7 @@ define('linechart', ['log'], function(log) {
                          .text(getSeriesName);
             }
 
-            if (series.length > 1 && legendSeries.length) {
+            if ((series.length > 1) && (legendSeries.length > 1)) {
                 legend = d3.select(opts.container).append('div').attr('class', 'legend')
                                 .attr('top', height + 45 + 'px');
 
