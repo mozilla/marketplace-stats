@@ -5,6 +5,8 @@ require.config({
     paths: {
         'jquery': 'lib/jquery-2.0.2',
         'd3': 'lib/d3.v3-min',
+        'better-dom': 'lib/better-dom',
+        'better-dateinput': 'lib/better-dateinput',
         'underscore': 'lib/underscore',
         'nunjucks': 'lib/nunjucks',
         'nunjucks.compat': 'lib/nunjucks.compat',
@@ -21,6 +23,7 @@ require.config({
         [
             'underscore',
             'd3',
+            'better-dom',
             'helpers',  // Must come before mostly everything else.
             'capabilities',
             'forms',
@@ -29,6 +32,7 @@ require.config({
             'login',
             'navigation',
             'templates',
+            'better-dateinput',
             //'tracking',
             'user',
             'z'
