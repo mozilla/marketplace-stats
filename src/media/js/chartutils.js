@@ -24,7 +24,7 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
 
     // Sets the date range in the 'to' and 'from' inputs.
     function updateRange(start, end) {
-        var $range = $('#range input');
+        var $range = $('#range input[type=date]');
         $range[0].value = start;
         $range[1].value = end;
     }
@@ -44,7 +44,7 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
         updateRange(start, end);
         z.page.off('submit.range');
 
-        var $range = $('#range input');
+        var $range = $('#range input[type=date]');
         start = $range[0].value;
         end = $range[1].value;
 
@@ -56,7 +56,7 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
         });
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
-            $rangeElms = $('#range input');
+            $rangeElms = $('#range input[type=date]');
             start = $rangeElms[0].value;
             end = $rangeElms[1].value;
 
