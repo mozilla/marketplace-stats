@@ -66,11 +66,9 @@ define('chartutils', ['brick', 'linechart', 'urls', 'utils', 'z'],
         });
 
         if (doRedirect) {
-            alert('yo');
             doRedirect = false; // Redirect loops are delirious joy.
             z.page.trigger('divert', [newURL]);
             window.history.replaceState({}, '', newURL);
-
             return;
         }
 
