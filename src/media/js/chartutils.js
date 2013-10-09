@@ -1,18 +1,37 @@
-define('chartutils', ['linechart', 'urls', 'utils', 'z'],
-       function(linechart, urls, utils, z) {
+define('chartutils', ['brick', 'linechart', 'urls', 'utils', 'z'],
+       function(brick, linechart, urls, utils, z) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;
     var interval = 'day';
     var start = getRecentTimeDelta().start;
     var end = getRecentTimeDelta().end;
-    var paramRange = utils.getVars();
+    var region = 'us';
+    var params = utils.getVars();
     var doRedirect = false;
 
+    // Update as needed.
+    var regions = [
+        {code: 'us', name: gettext('United States')},
+        {code: 'uk', name: gettext('United Kingdom')},
+        {code: 'br', name: gettext('Brazil')},
+        {code: 'es', name: gettext('Spain')},
+        {code: 'co', name: gettext('Colombia')},
+        {code: 've', name: gettext('Venezuela')},
+        {code: 'pl', name: gettext('Poland')},
+        {code: 'mx', name: gettext('Mexico')},
+        {code: 'hu', name: gettext('Hungary')},
+        {code: 'de', name: gettext('Germany')},
+        {code: 'me', name: gettext('Montenegro')},
+        {code: 'rs', name: gettext('Serbia')},
+        {code: 'gr', name: gettext('Greece')}
+    ];
+
     // Use range url params if found.
-    if ('start' in paramRange && 'end' in paramRange) {
-        start = paramRange.start;
-        end = paramRange.end;
+    if ('start' in params && 'end' in params) {
+        start = params.start;
+        end = params.end;
+        region = params.region;
     } else {
         doRedirect = true;
     }
@@ -24,17 +43,31 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
 
     // Sets the date range in the 'to' and 'from' inputs.
     function updateRange(start, end) {
-        var $range = $('#range input[type=date]');
+        var $range = $('#range x-datepicker');
         $range[0].value = start;
         $range[1].value = end;
     }
 
     // lblValue...remember Visual Basic?
     function createChart(apiName, lblValue, lblYAxis) {
-        var newURL = utils.urlparams(urls.reverse(apiName), {'start': start, 'end': end});
+        // Ugly but preserves logical param order.
+        var newURL = urls.reverse(apiName) +
+                    '?start=' + start + '&end=' + end + '&region=' + region;
+
+        $('.regions a').each(function() {
+            var $this = $(this);
+            if ($this.hasClass(region)) $this.addClass('active');
+            $this.on('click', function() {
+                region = this.className.replace(' active', '');
+                newURL = urls.reverse(apiName) +
+                         '?start=' + start + '&end=' + end + '&region=' + region;
+                z.page.trigger('divert', [newURL]);
+            });
+        });
 
         if (doRedirect) {
-            doRedirect = false; // Redirect loops are joyous fun.
+            alert('yo');
+            doRedirect = false; // Redirect loops are delirious joy.
             z.page.trigger('divert', [newURL]);
             window.history.replaceState({}, '', newURL);
 
@@ -44,7 +77,7 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
         updateRange(start, end);
         z.page.off('submit.range');
 
-        var $range = $('#range input[type=date]');
+        var $range = $('#range x-datepicker');
         start = $range[0].value;
         end = $range[1].value;
 
@@ -52,11 +85,11 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
 
         linechart.createLineChart({tooltipValue: lblValue, yAxis: lblYAxis}, {
             url: urls.api.params(apiName,
-                {'start': start, 'end': end, 'interval': interval})
+                {'start': start, 'end': end, 'interval': interval, 'region': region})
         });
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
-            $rangeElms = $('#range input[type=date]');
+            $rangeElms = $('#range x-datepicker');
             start = $rangeElms[0].value;
             end = $rangeElms[1].value;
 
@@ -76,7 +109,8 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
     }
 
     return {
-        'createChart': createChart
+        'createChart': createChart,
+        'regions': regions
     };
 
 });

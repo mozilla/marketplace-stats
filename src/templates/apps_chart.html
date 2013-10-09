@@ -2,8 +2,13 @@
   <h1>{{ title }}</h1>
   <div id="range" class="options">
     <form id="rangeform">
-      <label>{{ _('From') }} <input type="date" name="from"></label>
-      <label>{{ _('To') }} <input type="date" name="to"></label>
+      <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
+      <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
+      <div class="regions">
+        {% for region in regions %}
+          <a class="{{ region.code }}" title="{{ region.name }}"></a>
+        {% endfor %}
+      </div>
       <input type="submit" value="{{ _('Update') }}">
     </form>
   </div>

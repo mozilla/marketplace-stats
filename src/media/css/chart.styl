@@ -85,30 +85,38 @@ svg {
 
 .options {
     margin: 25px 0;
+    height: 30px;
     label {
-        display: inline-block;
+        float: left;
         width: 235px;
     }
-    input {
+    x-datepicker {
         display: inline-block;
         font-size: 13px;
-        height: 27px;
-        top: -2px;
+        height: 26px;
+        top: -4px;
     }
     input[type=submit] {
         background-color: #fff;
         border: 0;
         box-shadow: 0 0 2px $sailor-blue inset;
+        font-size: 13px;
         height: 27px;
         padding: 0 20px;
+        float: right;
+        margin-top: -2px;
     }
 }
 
-.options input, .cbox, .legend {
+.options input, .cbox, .legend, .options x-datepicker, x-calendar, .calendar {
     border-radius: 3px;
 }
 
-.cbox, .legend, .options input[type=date] {
+x-calendar {
+    border-width: 1px;
+}
+
+.cbox, .legend, .options x-datepicker input {
     background-color: #fff;
     border: 0;
     box-shadow: 0 0 2px $castle-skull-gray inset;
@@ -118,9 +126,50 @@ svg {
     padding: 4px 0 4px 4px;
 }
 
-input[type=date] {
+x-datepicker {
     border: 0;
     padding-left: 5px;
     padding-right: 5px;
     min-width: 140px;
 }
+
+.regions {
+    float: left;
+    margin-right: 20px;
+    position: absolute;
+    z-index: 300;
+    left: 455px;
+    a {
+        display: inline-block;
+        width: 24px;
+        cursor: pointer;
+        height: 24px;
+        background-size: 26px auto;
+        background-repeat: no-repeat;
+        background-position: -1px -1px;
+        border-radius: 12px;
+        border: 0;
+        box-shadow: 0 0 1px 1px rgba(0,0,0,.6) inset;
+        opacity: 0.30;
+        margin: 0 2px;
+        &.active {
+            opacity: 1;
+            //box-shadow: 0 0 1px #0096DC;
+            box-shadow: 0 0 2px 1px rgba(0,0,0,.5) inset;
+        }
+    }
+}
+
+a.us {background-image: url(../img/icons/regions/us.png);}
+a.uk {background-image: url(../img/icons/regions/uk.png);}
+a.br {background-image: url(../img/icons/regions/br.png);}
+a.es {background-image: url(../img/icons/regions/es.png);}
+a.co {background-image: url(../img/icons/regions/co.png);}
+a.ve {background-image: url(../img/icons/regions/ve.png);}
+a.pl {background-image: url(../img/icons/regions/pl.png);}
+a.mx {background-image: url(../img/icons/regions/mx.png);}
+a.hu {background-image: url(../img/icons/regions/hu.png);}
+a.de {background-image: url(../img/icons/regions/de.png);}
+a.me {background-image: url(../img/icons/regions/me.png);}
+a.rs {background-image: url(../img/icons/regions/rs.png);}
+a.gr {background-image: url(../img/icons/regions/gr.png);}

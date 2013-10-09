@@ -5,6 +5,7 @@ require.config({
     paths: {
         'jquery': 'lib/jquery-2.0.2',
         'd3': 'lib/d3.v3-min',
+        'brick': 'lib/brick',
         'underscore': 'lib/underscore',
         'nunjucks': 'lib/nunjucks',
         'nunjucks.compat': 'lib/nunjucks.compat',

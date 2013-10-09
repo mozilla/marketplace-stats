@@ -5,7 +5,8 @@ define('views/apps_available_by_type', ['chartutils', 'l10n'], function(cutils, 
     return function(builder) {
         var chartTitle = gettext('Apps Available by Type');
 
-        builder.start('apps_chart.html', {title: chartTitle}).done(function() {
+        builder.start('apps_chart.html',
+        			  {title: chartTitle, regions: cutils.regions}).done(function() {
             cutils.createChart('apps_available_by_type', gettext('Apps'), gettext('Number of Apps'));
         });
 
