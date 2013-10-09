@@ -1,5 +1,5 @@
-define('chartutils', ['brick', 'linechart', 'urls', 'utils', 'z'],
-       function(brick, linechart, urls, utils, z) {
+define('chartutils', ['linechart', 'urls', 'utils', 'z'],
+       function(linechart, urls, utils, z) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;

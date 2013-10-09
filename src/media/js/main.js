@@ -20,6 +20,7 @@ require.config({
     define(
         'main',
         [
+            'brick',
             'underscore',
             'd3',
             'helpers',  // Must come before mostly everything else.
