@@ -1,5 +1,5 @@
-define('chartutils', ['linechart', 'urls', 'utils', 'z'],
-       function(linechart, urls, utils, z) {
+define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
+       function(linechart, notification, urls, utils, z) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;
@@ -9,6 +9,8 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
     var region = 'us';
     var params = utils.getVars();
     var doRedirect = false;
+    var ask = notification.confirmation;
+    var notify = notification.notification;
 
     // Update as needed.
     var regions = [
@@ -48,19 +50,22 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
         $range[1].value = end;
     }
 
+    function getNewURL(apiName, start, end, region) {
+        // Ugly but preserves logical param order.
+        return urls.reverse(apiName) +
+                    '?start=' + start + '&end=' + end + '&region=' + region;
+    }
+
     // lblValue...remember Visual Basic?
     function createChart(apiName, lblValue, lblYAxis) {
-        // Ugly but preserves logical param order.
-        var newURL = urls.reverse(apiName) +
-                    '?start=' + start + '&end=' + end + '&region=' + region;
+        var newURL = getNewURL(apiName, start, end, region);
 
         $('.regions a').each(function() {
             var $this = $(this);
             if ($this.hasClass(region)) $this.addClass('active');
             $this.on('click', function() {
                 region = this.className.replace(' active', '');
-                newURL = urls.reverse(apiName) +
-                         '?start=' + start + '&end=' + end + '&region=' + region;
+                newURL = getNewURL(apiName, start, end, region);
                 z.page.trigger('divert', [newURL]);
             });
         });
@@ -79,6 +84,20 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
         start = $range[0].value;
         end = $range[1].value;
 
+        if (isNegativeRange(start, end)) {
+            ask({
+                message: gettext('You have entered a negative date range. Reverse?'),
+                closable: true
+            }).then(function() {
+                end = $range[0].value;
+                start = $range[1].value;
+                updateRange(start, end);
+                z.page.trigger('divert', [getNewURL(apiName, start, end, region)]);
+            });
+        } else if (start == end) {
+            notify({message: gettext('Please enter a valid date range')});
+        }
+
         window.history.replaceState({}, '', newURL);
 
         linechart.createLineChart({tooltipValue: lblValue, yAxis: lblYAxis}, {
@@ -93,6 +112,17 @@ define('chartutils', ['linechart', 'urls', 'utils', 'z'],
 
             createChart(apiName, lblValue, lblYAxis);
         }));
+    }
+
+    function isNegativeRange(start, end) {
+        var aStart = start.split('-');
+        var aEnd = end.split('-');
+
+        // Can't call .apply() on `Date`. This would be a cruel interview question.
+        start = new Date(aStart[0], aStart[1], aStart[2]);
+        end = new Date(aEnd[0], aEnd[1], aEnd[2]);
+
+        return (start - end) > 0;
     }
 
     function getRecentTimeDelta() {
