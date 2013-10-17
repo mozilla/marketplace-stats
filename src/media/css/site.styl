@@ -198,7 +198,6 @@ main {
     }
 }
 
-
 .only-logged-in,
 .logged-in .only-logged-out,
 .only-rocketfuel-disabled {
@@ -209,4 +208,17 @@ main {
 .logged-in .only-logged-in,
 .rocketfuel-disabled .only-rocketfuel-disabled {
     display: block !important;
+}
+
+.action-required {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    .notice {
+        float: left;
+        margin: 15px 0;
+    }
+    .button.persona {
+        float: right;
+    }
 }

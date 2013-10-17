@@ -1,17 +1,24 @@
 <section class="main chart">
-  <h1>{{ title }}</h1>
-  <div id="range" class="options">
-    <form id="rangeform">
-      <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
-      <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
-      <div class="regions">
-        {% for region in regions %}
-          <a class="{{ region.code }}" title="{{ region.name }}"></a>
-        {% endfor %}
-      </div>
-      <input type="submit" value="{{ _('Update') }}">
-    </form>
-  </div>
-  <div class="chartcloak"><p class="message">{{ _('No data found.') }}</p></div>
-  <div id="chart" class="cbox"></div>
+  {% if user.logged_in() %}
+    <h1>{{ title }}</h1>
+    <div id="range" class="options">
+      <form id="rangeform">
+        <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
+        <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
+        <div class="regions">
+          {% for region in regions %}
+            <a class="{{ region.code }}" title="{{ region.name }}"></a>
+          {% endfor %}
+        </div>
+        <input type="submit" value="{{ _('Update') }}">
+      </form>
+    </div>
+    <div class="chartcloak"><p class="message">{{ _('No data found.') }}</p></div>
+    <div id="chart" class="cbox"></div>
+  {% else %}
+    <div class="action-required c">
+      <p class="notice">{{ _('Please sign in to proceed.') }}</p>
+      <a class="button full persona" href="#">{{ _('Sign in / Sign up') }}</a>
+    </div>
+  {% endif %}
 </section>
