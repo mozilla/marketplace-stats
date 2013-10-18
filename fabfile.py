@@ -1,10 +1,11 @@
 import os
 
 from fabric.api import env, execute, lcd, local, parallel, roles, task
-from fabdeploytools.rpm import RPMBuild
+from fabdeploytools import helpers
 import fabdeploytools.envs
 
 import deploysettings as settings
+
 
 env.key_filename = settings.SSH_KEY
 fabdeploytools.envs.loadenv(os.path.join('/etc/deploytools/envs',
@@ -41,13 +42,11 @@ def deploy():
     with lcd(MARKETPLACE_STATS):
         ref = local('git rev-parse HEAD', capture=True)
 
-    rpmbuild = RPMBuild(name='marketplace-stats',
-                        env=settings.ENV,
-                        ref=ref,
-                        cluster=settings.CLUSTER,
-                        domain=settings.DOMAIN)
-    rpmbuild.build_rpm(ROOT, ['marketplace-stats'])
+    rpmbuild = helpers.deploy(name='marketplace-stats',
+                              env=settings.ENV,
+                              cluster=settings.CLUSTER,
+                              domain=settings.DOMAIN,
+                              root=ROOT,
+                              deploy_roles=['web'],
+                              package_dirs=['marketplace-stats'])
 
-    execute(_install_package, rpmbuild)
-
-    rpmbuild.clean()
