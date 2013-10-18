@@ -17,6 +17,7 @@ define('linechart', ['log'], function(log) {
             container: document.getElementById('chart'),
             forceZeroMin: true,
             height: 440,
+            dropNulls: true, // Interpret nulls as missing values instead of 0s.
             lineLabels: false, // Append line labels to the end of each line?
             tickPadding: 8, // Axes distance from their tick labels (in px).
             url: 'http://localhost:5000/api/v1/apps/bah/statistics/',
@@ -37,6 +38,7 @@ define('linechart', ['log'], function(log) {
         var parseDate = d3.time.format('%Y-%m-%d').parse;
         var formatTime = d3.time.format('%a, %b %e, %Y');
         var xAxisTimeFormat = d3.time.format('%b %e');
+        var line;
 
         var x = d3.time.scale().range([0, width]);
         var y = d3.scale.linear().range([height, 0]);
@@ -51,12 +53,19 @@ define('linechart', ['log'], function(log) {
         var yAxis = d3.svg.axis().scale(y).orient('left')
                       .tickPadding(opts.tickPadding);
 
-        var line = d3.svg.line()
-                     .interpolate('monotone')
-                     .x(function(d) {return x(d.date);})
-                     .y(function(d) {return y(d.count);})
-                     // Drops null values from series.
-                     .defined(function(d) {return d.count !== null;});
+        if (opts.dropNulls) {
+            line = d3.svg.line()
+                         .interpolate('monotone')
+                         .x(function(d) {return x(d.date);})
+                         .y(function(d) {return y(d.count);})
+                         // Drops null values from series.
+                         .defined(function(d) {return d.count !== null;});
+        } else {
+            line = d3.svg.line()
+                         .interpolate('monotone')
+                         .x(function(d) {return x(d.date);})
+                         .y(function(d) {return y(d.count);});
+        }
 
         var svg = d3.select(opts.container).append('svg')
                     .attr('width', width + margin.left + margin.right)

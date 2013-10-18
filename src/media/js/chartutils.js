@@ -57,7 +57,8 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
     }
 
     // lblValue...remember Visual Basic?
-    function createChart(apiName, lblValue, lblYAxis) {
+    // opts is optional. Not a pun.
+    function createChart(apiName, lblValue, lblYAxis, opts) {
         var newURL = getNewURL(apiName, start, end, region);
 
         $('.regions a').each(function() {
@@ -100,10 +101,18 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
 
         window.history.replaceState({}, '', newURL);
 
-        linechart.createLineChart({tooltipValue: lblValue, yAxis: lblYAxis}, {
+        var options = {
             url: urls.api.params(apiName,
                 {'start': start, 'end': end, 'interval': interval, 'region': region})
-        });
+        }
+
+        // Override options from opts argument if any.
+        for (var prop in opts) {
+            options[prop] = opts[prop];
+        }
+
+        // Conjures thine chart from the ether to stimulate thine humours.
+        linechart.createLineChart({tooltipValue: lblValue, yAxis: lblYAxis}, options);
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
             $rangeElms = $('#range x-datepicker');
