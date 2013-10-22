@@ -55,8 +55,9 @@ define('linechart', ['log'], function(log) {
 
         // Based on the mbostock example at: http://bl.ocks.org/mbostock/3750941
         var twoPi = 2 * Math.PI,
-            progress = 0,
-            formatPercent = d3.format('.0%');
+            progress = 0;
+            // Until 929765 is fixed.
+            //formatPercent = d3.format('.0%');
 
         var arc = d3.svg.arc()
             .startAngle(0)
@@ -106,7 +107,6 @@ define('linechart', ['log'], function(log) {
                     .on('error', handleError)
                     .get();
 
-        //svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
         var spinWrapper = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
         var meter = spinWrapper.append('g')
@@ -119,17 +119,21 @@ define('linechart', ['log'], function(log) {
         var foreground = meter.append('path')
             .attr('class', 'foreground');
 
+        /* until 929765
         var progressText = meter.append('text')
             .attr('text-anchor', 'middle')
             .attr('dy', '.35em');
+        */
 
         function handleProgress() {
-            var i = d3.interpolate(progress, d3.event.loaded / d3.event.total);
+            // 2000 is a toy for Chrome to play with until we fix bug: 929765
+            var i = d3.interpolate(progress, d3.event.loaded / (2000 || d3.event.total));
             d3.transition().tween('progress', function() {
                 return function(t) {
                     progress = i(t);
                     foreground.attr('d', arc.endAngle(twoPi * progress));
-                    progressText.text(formatPercent(progress));
+                    // TODO: bug 929765
+                    //progressText.text(formatPercent(progress));
                 };
             });
         }
