@@ -125,12 +125,10 @@ define('linechart', ['log'], function(log) {
 
         function handleProgress() {
             var i = d3.interpolate(progress, d3.event.loaded / d3.event.total);
-            console.log('d3.event.loaded:', d3.event.loaded);
             d3.transition().tween('progress', function() {
                 return function(t) {
                     progress = i(t);
                     foreground.attr('d', arc.endAngle(twoPi * progress));
-                    console.log('setting progress: ', progress);
                     progressText.text(formatPercent(progress));
                 };
             });
