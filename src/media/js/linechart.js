@@ -53,6 +53,16 @@ define('linechart', ['log'], function(log) {
         var yAxis = d3.svg.axis().scale(y).orient('left')
                       .tickPadding(opts.tickPadding);
 
+        // Based on the mbostock example at: http://bl.ocks.org/mbostock/3750941
+        var twoPi = 2 * Math.PI,
+            progress = 0,
+            formatPercent = d3.format('.0%');
+
+        var arc = d3.svg.arc()
+            .startAngle(0)
+            .innerRadius(120)
+            .outerRadius(180);
+
         if (opts.dropNulls) {
             line = d3.svg.line()
                          .interpolate('monotone')
@@ -77,6 +87,8 @@ define('linechart', ['log'], function(log) {
         var tooltip = d3.select(opts.container).append('div')
                         .attr('class', 'tooltip');
 
+        var $cloak = $('.chartcloak');
+
         function isNullSeries(vals) {
             for (var i = 0; i < vals.length; i++) {
                 if (vals[i].count !== null) return false;
@@ -87,12 +99,71 @@ define('linechart', ['log'], function(log) {
         function getSeriesName(s) {return s.name;}
         function getSeriesColor(s) {return color(s.name);}
 
-        d3.json(opts.url, function(error, data) {
+        // The request itself.
+        var req = d3.json(opts.url)
+                    .on('progress', handleProgress)
+                    .on('load', handleSuccess)
+                    .on('error', handleError)
+                    .get();
+
+        //svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+        var spinWrapper = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+        var meter = spinWrapper.append('g')
+            .attr('class', 'progress-meter');
+
+        meter.append('path')
+            .attr('class', 'background')
+            .attr('d', arc.endAngle(twoPi));
+
+        var foreground = meter.append('path')
+            .attr('class', 'foreground');
+
+        var progressText = meter.append('text')
+            .attr('text-anchor', 'middle')
+            .attr('dy', '.35em');
+
+        function handleProgress() {
+            var i = d3.interpolate(progress, d3.event.loaded / d3.event.total);
+            console.log('d3.event.loaded:', d3.event.loaded);
+            d3.transition().tween('progress', function() {
+                return function(t) {
+                    progress = i(t);
+                    foreground.attr('d', arc.endAngle(twoPi * progress));
+                    console.log('setting progress: ', progress);
+                    progressText.text(formatPercent(progress));
+                };
+            });
+        }
+
+        function handleError(error) {
+            var msg = '';
+
+            if (error.status) {
+                msg = lbls.strings.errors[error.status];
+            } else {
+                msg = lbls.strings.errors.unknown;
+            }
+
+            console.log('XHR failure:', msg, error);
+            showMessage(msg);
+        }
+
+        function showMessage(msg) {
+            var $msg = $cloak.find('.message');
+            if (msg) $msg.text(msg);
+            $cloak.toggle(true);
+        }
+
+        function handleSuccess(data) {
             var series = [],
                 dates = [], // to store 'extent' for dates
                 valAxis = [],
                 legendSeries = [];
             var legend;
+
+            // The delay() param is time the indicator should stay up before scaling down.
+            meter.transition().delay(150).attr('transform', 'scale(0)');
 
             color.domain(d3.keys(data));
 
@@ -127,7 +198,8 @@ define('linechart', ['log'], function(log) {
 
             console.log('Series is: ', series);
 
-            $('.chartcloak').toggle(legendSeries.length === 0);
+            // If this occurs here we got all-null results from a successful XHR.
+            $cloak.toggle(legendSeries.length === 0);
 
             function getMinValue() {
                 return d3.min(series, function(c) {
@@ -236,14 +308,14 @@ define('linechart', ['log'], function(log) {
                         })
                         .on('mouseover', function(d, i) {
                             // Toggling a class fails here.
-                            $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '2.5px');
+                            $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '3.0px');
                         })
                         .on('mouseleave', function(d, i) {
                             $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '1.5px');
                         });
             }
             console.log('...chart created');
-        });
+        }
     }
 
     return {'createLineChart': createLineChart};

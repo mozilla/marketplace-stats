@@ -29,6 +29,16 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         {code: 'gr', name: gettext('Greece')}
     ];
 
+    var strings = {
+        errors: {
+            500: gettext('Server error detected. Please try again later.'),
+            404: gettext('The statistics endpoint requested is invalid.'),
+            403: gettext('Authentication failure detected. Please sign in and try again.'),
+            400: gettext('The statistics data request is incomplete or invalid.'),
+            unknown: gettext('An unknown server error was detected. Please try again later.')
+        }
+    };
+
     // Use range url params if found.
     if ('start' in params && 'end' in params) {
         start = params.start;
@@ -112,7 +122,11 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         }
 
         // Conjures thine chart from the ether to stimulate thine humours.
-        linechart.createLineChart({tooltipValue: lblValue, yAxis: lblYAxis}, options);
+        linechart.createLineChart({
+            tooltipValue: lblValue,
+            yAxis: lblYAxis,
+            strings: strings
+        }, options);
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
             $rangeElms = $('#range x-datepicker');
