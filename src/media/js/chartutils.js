@@ -55,11 +55,9 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
 
     // Sets the date range in the 'to' and 'from' inputs.
     function updateRange(start, end) {
-        /*
         var $range = $('#range x-datepicker');
         $range[0].value = start;
         $range[1].value = end;
-        */
     }
 
     function getNewURL(apiName, start, end, region) {
@@ -91,12 +89,6 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         }
 
         z.page.off('submit.range');
-
-        /*
-        var $range = $('#range x-datepicker');
-        start = $range[0].value;
-        end = $range[1].value;
-        */
 
         if (isNegativeRange(start, end)) {
             ask({
@@ -131,7 +123,9 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
             strings: strings
         }, options);
 
-        updateRange(start, end);
+        xtag.ready('x-datepicker', function() {
+            updateRange(start, end);
+        });
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
             $rangeElms = $('#range x-datepicker');
