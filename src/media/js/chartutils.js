@@ -55,9 +55,11 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
 
     // Sets the date range in the 'to' and 'from' inputs.
     function updateRange(start, end) {
+        /*
         var $range = $('#range x-datepicker');
         $range[0].value = start;
         $range[1].value = end;
+        */
     }
 
     function getNewURL(apiName, start, end, region) {
