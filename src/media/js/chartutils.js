@@ -123,9 +123,7 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
             strings: strings
         }, options);
 
-        xtag.ready('x-datepicker', function() {
-            updateRange(start, end);
-        });
+        updateRange(start, end);
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
             $rangeElms = $('#range x-datepicker');
