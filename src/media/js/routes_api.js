@@ -9,6 +9,9 @@ define('routes_api', [], function() {
         'apps_available_by_type': '/api/v1/stats/global/apps_available_by_package/',
         'apps_available_by_premium': '/api/v1/stats/global/apps_available_by_premium/',
 
+        // Per app stats:
+        'per_app_installs': '/api/v1/stats/app/{0}/installs/',
+
         'login': '/api/v1/account/login/'
     };
 });

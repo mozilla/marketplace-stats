@@ -60,23 +60,28 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         $range[1].value = end;
     }
 
-    function getNewURL(apiName, start, end, region) {
+    function getNewURL(apiName, start, end, region, slug) {
         // Ugly but preserves logical param order.
+        if (slug) {
+            return urls.reverse(apiName, [slug]) +
+                    '?start=' + start + '&end=' + end + '&region=' + region;
+        }
         return urls.reverse(apiName) +
                     '?start=' + start + '&end=' + end + '&region=' + region;
     }
 
     // lblValue...remember Visual Basic?
-    // opts is optional. Not a pun.
-    function createChart(apiName, lblValue, lblYAxis, opts) {
-        var newURL = getNewURL(apiName, start, end, region);
+    // Optional args: opts, slug
+    function createChart(apiName, lblValue, lblYAxis, opts, slug) {
+        var newURL = getNewURL(apiName, start, end, region, slug);
+        var options = {};
 
         $('.regions a').each(function() {
             var $this = $(this);
             if ($this.hasClass(region)) $this.addClass('active');
             $this.on('click', function() {
                 region = this.className.replace(' active', '');
-                newURL = getNewURL(apiName, start, end, region);
+                newURL = getNewURL(apiName, start, end, region, slug);
                 z.page.trigger('divert', [newURL]);
             });
         });
@@ -98,7 +103,7 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
                 end = $range[0].value;
                 start = $range[1].value;
                 updateRange(start, end);
-                z.page.trigger('divert', [getNewURL(apiName, start, end, region)]);
+                z.page.trigger('divert', [getNewURL(apiName, start, end, region, slug)]);
             });
         } else if (start == end) {
             notify({message: gettext('Please enter a valid date range')});
@@ -106,9 +111,13 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
 
         window.history.replaceState({}, '', newURL);
 
-        var options = {
-            url: urls.api.params(apiName,
-                {'start': start, 'end': end, 'interval': interval, 'region': region})
+        var params = {'start': start, 'end': end, 'interval': interval, 'region': region};
+
+        // Slug provided. Per app stats URLs are constructed differently.
+        if (slug) {
+            options = {url: urls.api.url(apiName, [slug], params)};
+        } else {
+            options = {url: urls.api.params(apiName, params)};
         }
 
         // Override options from opts argument if any.
@@ -130,7 +139,7 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
             start = $rangeElms[0].value;
             end = $rangeElms[1].value;
 
-            createChart(apiName, lblValue, lblYAxis);
+            createChart(apiName, lblValue, lblYAxis, opts, slug);
         }));
     }
 
