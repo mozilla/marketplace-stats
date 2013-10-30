@@ -169,5 +169,4 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         'createChart': createChart,
         'regions': regions
     };
-
 });
