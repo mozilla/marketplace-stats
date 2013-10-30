@@ -75,6 +75,7 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
     function createChart(apiName, lblValue, lblYAxis, opts, slug) {
         var newURL = getNewURL(apiName, start, end, region, slug);
         var options = {};
+        var $range = $('#range x-datepicker');
 
         $('.regions a').each(function() {
             var $this = $(this);

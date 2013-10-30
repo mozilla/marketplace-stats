@@ -5,7 +5,7 @@ define('views/per_app_visits', ['chartutils', 'l10n'],
 
     return function(builder, args) {
         // TODO: Provide the app name.
-        var chartTitle = gettext('Installs');
+        var chartTitle = gettext('Visits');
         var slug = args[0];
 
         builder.start('apps_chart.html',
