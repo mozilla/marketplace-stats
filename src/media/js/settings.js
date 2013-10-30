@@ -11,6 +11,8 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
         param_whitelist: ['q', 'sort'],
 
         model_prototypes: {
+            'app': 'slug',
+
             // Dummy prototypes to facilitate testing
             'dummy': 'id',
             'dummy2': 'id'

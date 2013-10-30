@@ -12,6 +12,10 @@ define('routes_api', [], function() {
         // Per app stats:
         'per_app_installs': '/api/v1/stats/app/{0}/installs/',
         'per_app_visits': '/api/v1/stats/app/{0}/visits/',
+        'per_app_revenue': '/api/v1/stats/app/{0}/revenue/',
+
+        // App lookup:
+        'app': '/api/v1/apps/app/{0}/',
 
         'login': '/api/v1/account/login/'
     };

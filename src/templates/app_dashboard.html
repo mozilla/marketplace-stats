@@ -1,13 +1,20 @@
 <section class="main">
-  <h1>{{ _('App Statistics Dashboard') }}</h1>
+  {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
+    <h1>{{ _('Statistics Dashboard:') + ' ' + this.name|translate(this) }}</h1>
+    <h2>{{ _('Charts currently available') }}</h2>
 
-  <h2>{{ _('Charts currently available') }}</h2>
-  <ul>
-    <li>
-      <a href="{{ url('per_app_installs', [slug]) }}">{{ _('Installs') }}</a>
-    </li>
-    <li>
-      <a href="{{ url('per_app_visits', [slug]) }}">{{ _('Visits') }}</a>
-    </li>
-  </ul>
+    <ul>
+      <li>
+        <a href="{{ url('per_app_installs', [slug]) }}">{{ _('Installs') }}</a>
+      </li>
+      <li>
+        <a href="{{ url('per_app_visits', [slug]) }}">{{ _('Visits') }}</a>
+      </li>
+      {% if not this.premium_type == 'free' %}
+        <li>
+          <a href="{{ url('per_app_revenue', [slug]) }}">{{ _('Gross Revenue') }}</a>
+        </li>
+      {% endif %}
+    </ul>
+  {% end %}
 </section>

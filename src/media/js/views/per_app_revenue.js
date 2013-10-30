@@ -1,16 +1,16 @@
-define('views/per_app_visits', ['chartutils', 'l10n', 'utils'],
+define('views/per_app_revenue', ['chartutils', 'l10n', 'utils'],
        function(cutils, l10n, utils) {
 
     var gettext = l10n.gettext;
 
     return function(builder, args) {
-        var chartTitle = gettext('Visits');
+        var chartTitle = gettext('Gross Revenue');
         var slug = args[0];
 
         builder.start('per_app_chart.html',
                       {title: chartTitle, regions: cutils.regions, slug: slug}).done(function() {
-            cutils.createChart('per_app_visits', gettext('Visits'),
-                               gettext('Number of Visits'), {}, slug);
+            cutils.createChart('per_app_revenue', gettext('Revenue'),
+                               gettext('Total Revenue'), {}, slug);
         });
 
         builder.z('type', 'root');

@@ -1,4 +1,4 @@
-define('views/app_dashboard', ['l10n'], function(l10n) {
+define('views/app_dashboard', ['l10n', 'utils'], function(l10n, utils) {
 
     var gettext = l10n.gettext;
 
@@ -6,6 +6,10 @@ define('views/app_dashboard', ['l10n'], function(l10n) {
         builder.start('app_dashboard.html', {slug: args[0]});
 
         builder.z('type', 'root');
-        builder.z('title', '');
+        builder.z('title', gettext('Loading...'));
+
+        builder.onload('app-data', function(app) {
+            builder.z('title', utils.translate(app.name));
+        });
     };
 });
