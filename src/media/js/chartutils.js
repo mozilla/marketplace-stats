@@ -39,6 +39,8 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         }
     };
 
+    alert('The build system seems fixed now.');
+
     // Use range url params if found.
     if ('start' in params && 'end' in params) {
         start = params.start;
