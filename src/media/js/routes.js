@@ -15,6 +15,7 @@ var routes = window.routes = [
 
     // Per app stats:
     {'pattern': '^/stats/app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},
+    {'pattern': '^/stats/app/([^/<>"\']+)/$', 'view_name': 'app_dashboard'},
     {'pattern': '^/stats/app/([^/<>"\']+)/installs/$', 'view_name': 'per_app_installs'},
 
     {'pattern': '^/tests$', 'view_name': 'tests'},

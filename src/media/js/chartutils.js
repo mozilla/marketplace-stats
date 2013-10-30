@@ -39,7 +39,6 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         }
     };
 
-
     // Use range url params if found.
     if ('start' in params && 'end' in params) {
         start = params.start;
