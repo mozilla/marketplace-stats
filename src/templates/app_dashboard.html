@@ -1,20 +1,32 @@
 <section class="main">
   {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
-    <h1>{{ _('Statistics Dashboard') }}: {{ this.name|translate(this) }}</h1>
-    <h2>{{ _('Charts currently available') }}</h2>
-
-    <ul>
-      <li>
-        <a href="{{ url('per_app_installs', [slug]) }}">{{ _('Installs') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('per_app_visits', [slug]) }}">{{ _('Visits') }}</a>
-      </li>
-      {% if not this.premium_type == 'free' %}
-        <li>
-          <a href="{{ url('per_app_revenue', [slug]) }}">{{ _('Gross Revenue') }}</a>
-        </li>
+    {% if user.logged_in() %}
+      {% if this.user.developed or this.public_stats %}
+        <h1>{{ _('Statistics Dashboard') }}: {{ this.name|translate(this) }}</h1>
+        <h2>{{ _('Charts currently available') }}</h2>
+        <ul>
+          <li>
+            <a href="{{ url('per_app_installs', [slug]) }}">{{ _('Installs') }}</a>
+          </li>
+          <li>
+            <a href="{{ url('per_app_visits', [slug]) }}">{{ _('Visits') }}</a>
+          </li>
+          {% if not this.premium_type == 'free' and this.user.developed %}
+            <li>
+              <a href="{{ url('per_app_revenue', [slug]) }}">{{ _('Gross Revenue') }}</a>
+            </li>
+          {% endif %}
+        </ul>
+      {% else %}
+        <h2>{{ _('No public statistics are available') }}</h2>
       {% endif %}
-    </ul>
+    {% else %}
+      <div class="action-required c">
+        <p class="notice">{{ _('Please sign in to proceed.') }}</p>
+        <a class="button full persona" href="#">{{ _('Sign in / Sign up') }}</a>
+      </div>
+    {% endif %}
+  {% placeholder %}
+    <p class="spinner alt"></p>
   {% end %}
 </section>

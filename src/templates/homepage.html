@@ -1,28 +1,35 @@
 <section class="main">
-  <h1>{{ _('Marketplace Statistics Dashboard') }}</h1>
+  {% if user.logged_in() %}
+    <h1>{{ _('Marketplace Statistics Dashboard') }}</h1>
 
-  <h2>{{ _('Charts currently available') }}</h2>
-  <ul>
-    <li>
-      <a href="{{ url('apps_added') }}">{{ _('Apps Added by Payment Type') }}</a>
-    </li>
-    <li>
-      <a href="{{ url('total_developers') }}">{{ _('Total Developers') }}</a>
-    </li>
-    <li>
-      <a href="{{ url('total_visits') }}">{{ _('Total Visits') }}</a>
-    </li>
-    <li>
-      <a href="{{ url('apps_installed') }}">{{ _('Apps Installed') }}</a>
-    </li>
-    <li>
-      <a href="{{ url('apps_by_type') }}">{{ _('Apps Added by Type') }}</a>
-    </li>
-    <li>
-      <a href="{{ url('apps_available_by_type') }}">{{ _('Apps Available by Type') }}</a>
-    </li>
-    <li>
-      <a href="{{ url('apps_available_by_premium') }}">{{ _('Apps Available by Payment') }}</a>
-    </li>
-  </ul>
+    <h2>{{ _('Charts currently available') }}</h2>
+    <ul>
+      <li>
+        <a href="{{ url('apps_added') }}">{{ _('Apps Added by Payment Type') }}</a>
+      </li>
+      <li>
+        <a href="{{ url('total_developers') }}">{{ _('Total Developers') }}</a>
+      </li>
+      <li>
+        <a href="{{ url('total_visits') }}">{{ _('Total Visits') }}</a>
+      </li>
+      <li>
+        <a href="{{ url('apps_installed') }}">{{ _('Apps Installed') }}</a>
+      </li>
+      <li>
+        <a href="{{ url('apps_by_type') }}">{{ _('Apps Added by Type') }}</a>
+      </li>
+      <li>
+        <a href="{{ url('apps_available_by_type') }}">{{ _('Apps Available by Type') }}</a>
+      </li>
+      <li>
+        <a href="{{ url('apps_available_by_premium') }}">{{ _('Apps Available by Payment') }}</a>
+      </li>
+    </ul>
+  {% else %}
+    <div class="action-required c">
+      <p class="notice">{{ _('Please sign in to proceed.') }}</p>
+      <a class="button full persona" href="#">{{ _('Sign in / Sign up') }}</a>
+    </div>
+  {% endif %}
 </section>
