@@ -115,10 +115,11 @@ define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
         var params = {'start': start, 'end': end, 'interval': interval, 'region': region};
 
         // Slug provided. Per app stats URLs are constructed differently.
+        // options.url is the API endpoint. newURL is the current path.
         if (slug) {
-            options = {url: urls.api.url(apiName, [slug], params)};
+            options = {url: urls.api.charturl(apiName, [slug], params)};
         } else {
-            options = {url: urls.api.params(apiName, params)};
+            options = {url: urls.api.chartparams(apiName, params)};
         }
 
         // Override options from opts argument if any.

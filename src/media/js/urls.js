@@ -44,7 +44,7 @@ define('urls',
         }
     }
 
-    function _userArgs(func) {
+    function _userArgs(func, ignoreRegion) {
         return function() {
             var out = func.apply(this, arguments);
             var lang = navigator.language;
@@ -53,10 +53,12 @@ define('urls',
             }
             var args = {
                 lang: lang,
-                region: user.get_setting('region') || '',
                 carrier: user.get_setting('carrier') || '',
                 dev: _dev()
             };
+            if (!ignoreRegion) {
+                args.region = user.get_setting('region') || '';
+            }
             if (user.logged_in()) {
                 args._user = user.get_token();
             }
@@ -102,6 +104,8 @@ define('urls',
         reverse: reverse,
         api: {
             url: _userArgs(api),
+            charturl: _userArgs(api, true),
+            chartparams: _userArgs(apiParams, true),
             params: _userArgs(apiParams),
             sign: _userArgs(_.identity),
             unsigned: {
