@@ -1,12 +1,12 @@
-define('chartutils', ['linechart', 'notification', 'urls', 'utils', 'z'],
-       function(linechart, notification, urls, utils, z) {
+define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z'],
+       function(linechart, notification, urls, user, utils, z) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;
     var interval = 'day';
     var start = getRecentTimeDelta().start;
     var end = getRecentTimeDelta().end;
-    var region = 'us';
+    var region = user.get_setting('region') || 'us';
     var params = utils.getVars();
     var doRedirect = false;
     var ask = notification.confirmation;
