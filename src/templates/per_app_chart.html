@@ -10,13 +10,15 @@
           <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
           <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
 
-          {# TODO: Regions don't apply to all charts. This should be a macro. #}
-          <div class="regions">
-            {% for region in regions %}
-              <a class="{{ region.code }}" title="{{ region.name }}"></a>
-            {% endfor %}
-          </div>
-          <input type="submit" value="{{ _('Update') }}">
+          {# TODO: This should be a macro. #}
+          {% if regions %}
+            <div class="regions">
+              {% for region in regions %}
+                <a class="{{ region.code }}" title="{{ region.name }}"></a>
+              {% endfor %}
+            </div>
+            <input type="submit" value="{{ _('Update') }}">
+          {% endif %}
         </form>
       </div>
       <div class="chartcloak"><p class="message">{{ _('No data found') }}</p></div>

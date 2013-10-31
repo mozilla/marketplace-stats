@@ -6,9 +6,9 @@ define('views/total_developers', ['chartutils', 'l10n'], function(cutils, l10n) 
         var chartTitle = gettext('Total Developers');
 
         builder.start('apps_chart.html',
-                      {title: chartTitle, regions: cutils.regions}).done(function() {
+                      {title: chartTitle}).done(function() {
             cutils.createChart('total_developers', gettext('Developers'),
-                               gettext('Number of Developers'));
+                               gettext('Number of Developers'), {noregion: true});
         });
 
         builder.z('type', 'root');

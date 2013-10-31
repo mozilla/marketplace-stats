@@ -43,7 +43,7 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
     if ('start' in params && 'end' in params) {
         start = params.start;
         end = params.end;
-        region = params.region;
+        if ('region' in params) region = params.region;
     } else {
         doRedirect = true;
     }
@@ -60,32 +60,40 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
         $range[1].value = end;
     }
 
+    // Uses string concatenation to preserve pretty param order.
     function getNewURL(apiName, start, end, region, slug) {
-        // Ugly but preserves logical param order.
+        var segment = '?start=' + start + '&end=' + end;
+        if (region) segment += '&region=' + region;
+
         if (slug) {
-            return urls.reverse(apiName, [slug]) +
-                    '?start=' + start + '&end=' + end + '&region=' + region;
+            return urls.reverse(apiName, [slug]) + segment;
         }
-        return urls.reverse(apiName) +
-                    '?start=' + start + '&end=' + end + '&region=' + region;
+        return urls.reverse(apiName) + segment;
     }
 
     // lblValue...remember Visual Basic?
     // Optional args: opts, slug
     function createChart(apiName, lblValue, lblYAxis, opts, slug) {
+        if (opts && opts.noregion) {
+            region = null;
+        } else {
+            region = user.get_setting('region') || 'us';
+        }
         var newURL = getNewURL(apiName, start, end, region, slug);
         var options = {};
         var $range = $('#range x-datepicker');
 
-        $('.regions a').each(function() {
-            var $this = $(this);
-            if ($this.hasClass(region)) $this.addClass('active');
-            $this.on('click', function() {
-                region = this.className.replace(' active', '');
-                newURL = getNewURL(apiName, start, end, region, slug);
-                z.page.trigger('divert', [newURL]);
+        if (region) {
+            $('.regions a').each(function() {
+                var $this = $(this);
+                if ($this.hasClass(region)) $this.addClass('active');
+                $this.on('click', function() {
+                    region = this.className.replace(' active', '');
+                    newURL = getNewURL(apiName, start, end, region, slug);
+                    z.page.trigger('divert', [newURL]);
+                });
             });
-        });
+        }
 
         if (doRedirect) {
             doRedirect = false; // Redirect loops are delirious joy.
@@ -112,7 +120,18 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
 
         window.history.replaceState({}, '', newURL);
 
-        var params = {'start': start, 'end': end, 'interval': interval, 'region': region};
+        var params = {
+            'start': start,
+            'end': end,
+            'interval': interval,
+            'region': region
+        };
+
+        if (opts && opts.noregion) {
+            delete params.region;
+            // We don't need to send this flag further.
+            delete opts.noregion;
+        }
 
         // Slug provided. Per app stats URLs are constructed differently.
         // options.url is the API endpoint. newURL is the current path.
