@@ -77,7 +77,9 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
         if (opts && opts.noregion) {
             region = null;
         } else {
-            region = user.get_setting('region') || 'us';
+            if (!region) {
+                region = user.get_setting('region') || 'us';
+            }
         }
         var newURL = getNewURL(apiName, start, end, region, slug);
         var options = {};
