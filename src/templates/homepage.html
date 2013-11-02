@@ -25,6 +25,12 @@
       <li>
         <a href="{{ url('apps_available_by_premium') }}">{{ _('Apps Available by Payment') }}</a>
       </li>
+      {# TODO: Implement 'RevenueStats:View' when available. #}
+      {% if user.get_permission('admin') %}
+        <li>
+          <a href="{{ url('gross_revenue') }}">{{ _('Gross Revenue') }}</a>
+        </li>
+      {% endif %}
     </ul>
   {% else %}
     <div class="action-required c">

@@ -12,6 +12,7 @@ var routes = window.routes = [
     {'pattern': '^/stats/apps\-by\-type/$', 'view_name': 'apps_by_type'},
     {'pattern': '^/stats/apps\-available\-by\-type/$', 'view_name': 'apps_available_by_type'},
     {'pattern': '^/stats/apps\-available\-by\-payment/$', 'view_name': 'apps_available_by_premium'},
+    {'pattern': '^/stats/gross\-revenue/$', 'view_name': 'gross_revenue'},
 
     // Per app stats:
     {'pattern': '^/stats/app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},

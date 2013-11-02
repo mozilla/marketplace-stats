@@ -56,6 +56,7 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
     // Sets the date range in the 'to' and 'from' inputs.
     function updateRange(start, end) {
         var $range = $('#range x-datepicker');
+
         $range[0].value = start;
         $range[1].value = end;
     }
@@ -155,6 +156,7 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
             strings: strings
         }, options);
 
+        // あくま
         updateRange(start, end);
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {

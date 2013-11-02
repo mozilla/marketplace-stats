@@ -68,7 +68,7 @@ define('linechart', ['log'], function(log) {
             line = d3.svg.line()
                          .interpolate('monotone')
                          .x(function(d) {return x(d.date);})
-                         .y(function(d) {return y(d.count);})
+                         .y(function(d) {return y(+d.count);})
                          // Drops null values from series.
                          .defined(function(d) {return d.count !== null;});
         } else {
