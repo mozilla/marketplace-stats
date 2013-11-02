@@ -54,11 +54,9 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
     }
 
     // Sets the date range in the 'to' and 'from' inputs.
-    function updateRange(start, end) {
-        var $range = $('#range x-datepicker');
-
-        $range[0].value = start;
-        $range[1].value = end;
+    function updateRange($rng, start, end) {
+        $rng.eq(0).val(start);
+        $rng.eq(1).val(end);
     }
 
     // Uses string concatenation to preserve pretty param order.
@@ -112,9 +110,9 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
                 message: gettext('You have entered a negative date range. Reverse?'),
                 closable: true
             }).then(function() {
-                end = $range[0].value;
-                start = $range[1].value;
-                updateRange(start, end);
+                end = $range.eq(0).val();
+                start = $range.eq(1).val();
+                updateRange($range, start, end);
                 z.page.trigger('divert', [getNewURL(apiName, start, end, region, slug)]);
             });
         } else if (start == end) {
@@ -157,12 +155,11 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
         }, options);
 
         // あくま
-        updateRange(start, end);
+        updateRange($range, start, end);
 
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
-            $rangeElms = $('#range x-datepicker');
-            start = $rangeElms[0].value;
-            end = $rangeElms[1].value;
+            start = $range.eq(0).val();
+            end = $range.eq(1).val();
 
             createChart(apiName, lblValue, lblYAxis, opts, slug);
         }));
