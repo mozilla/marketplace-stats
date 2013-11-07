@@ -1,5 +1,5 @@
-define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z'],
-       function(linechart, notification, urls, user, utils, z) {
+define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', 'utils', 'z'],
+       function(linechart, notification, settings, urls, user, utils, z) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;
@@ -11,23 +11,11 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
     var doRedirect = false;
     var ask = notification.confirmation;
     var notify = notification.notification;
+    var regs = settings.REGION_CHOICES_SLUG;
 
-    // Update as needed.
-    var regions = [
-        {code: 'us', name: gettext('United States')},
-        {code: 'uk', name: gettext('United Kingdom')},
-        {code: 'br', name: gettext('Brazil')},
-        {code: 'es', name: gettext('Spain')},
-        {code: 'co', name: gettext('Colombia')},
-        {code: 've', name: gettext('Venezuela')},
-        {code: 'pl', name: gettext('Poland')},
-        {code: 'mx', name: gettext('Mexico')},
-        {code: 'hu', name: gettext('Hungary')},
-        {code: 'de', name: gettext('Germany')},
-        {code: 'me', name: gettext('Montenegro')},
-        {code: 'rs', name: gettext('Serbia')},
-        {code: 'gr', name: gettext('Greece')}
-    ];
+    var regions = Object.keys(regs).map(function(reg) {
+        return {code: reg, name: regs[reg]};
+    });
 
     var strings = {
         errors: {
@@ -85,15 +73,14 @@ define('chartutils', ['linechart', 'notification', 'urls', 'user', 'utils', 'z']
         var $range = $('#range x-datepicker');
 
         if (region) {
-            $('.regions a').each(function() {
-                var $this = $(this);
-                if ($this.hasClass(region)) $this.addClass('active');
-                $this.on('click', function() {
-                    region = this.className.replace(' active', '');
-                    newURL = getNewURL(apiName, start, end, region, slug);
-                    z.page.trigger('divert', [newURL]);
-                });
-            });
+            var $icon = $('.regions em');
+            $icon.removeClass().addClass(region);
+            $('.regions select').on('change', function() {
+                region = this.value;
+                $icon.removeClass().addClass(region);
+                newURL = getNewURL(apiName, start, end, region, slug);
+                z.page.trigger('divert', [newURL]);
+            }).find('option[value=' + region + ']').prop('selected', true);
         }
 
         if (doRedirect) {

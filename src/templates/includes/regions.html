@@ -1,0 +1,10 @@
+{% if regions %}
+  <div class="regions">
+    <em class="worldwide"></em>
+    <select name="region">
+      {% for region in regions %}
+        <option value="{{ region.code }}">{{ region.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+{% endif %}

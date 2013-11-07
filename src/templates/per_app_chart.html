@@ -9,15 +9,7 @@
         <form id="rangeform">
           <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
           <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
-
-          {# TODO: This should be a macro. #}
-          {% if regions %}
-            <div class="regions">
-              {% for region in regions %}
-                <a class="{{ region.code }}" title="{{ region.name }}"></a>
-              {% endfor %}
-            </div>
-          {% endif %}
+          {% include 'includes/regions.html' %}
           <input type="submit" value="{{ _('Update') }}">
         </form>
       </div>
