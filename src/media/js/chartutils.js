@@ -68,14 +68,20 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
                 region = user.get_setting('region') || 'us';
             }
         }
+
         var newURL = getNewURL(apiName, start, end, region, slug);
         var options = {};
         var $range = $('#range x-datepicker');
+        var $regions = $('.regions select');
+
+        // Avoid event leaks.
+        z.page.off('submit.range');
+        $regions.off('change.updateregion');
 
         if (region) {
             var $icon = $('.regions em');
             $icon.removeClass().addClass(region);
-            $('.regions select').on('change', function() {
+            $regions.on('change.updateregion', function() {
                 region = this.value;
                 $icon.removeClass().addClass(region);
                 newURL = getNewURL(apiName, start, end, region, slug);
@@ -89,8 +95,6 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
             window.history.replaceState({}, '', newURL);
             return;
         }
-
-        z.page.off('submit.range');
 
         if (isNegativeRange(start, end)) {
             ask({
