@@ -1,7 +1,8 @@
 <section class="main">
   {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
+    {% set is_superuser = (this.user.developed or user.get_permission('admin')) %}
     {% if user.logged_in() %}
-      {% if this.user.developed or user.get_permission('reviewer') or this.public_stats %}
+      {% if is_superuser or this.public_stats %}
         <h1>{{ _('Statistics Dashboard') }}: {{ this.name|translate(this) }}</h1>
         <h2>{{ _('Charts currently available') }}</h2>
         <ul>
@@ -11,7 +12,7 @@
           <li>
             <a href="{{ url('per_app_visits', [slug]) }}">{{ _('Visits') }}</a>
           </li>
-          {% if not this.premium_type == 'free' and this.user.developed %}
+          {% if not this.premium_type == 'free' and is_superuser %}
             <li>
               <a href="{{ url('per_app_revenue', [slug]) }}">{{ _('Gross Revenue') }}</a>
             </li>
