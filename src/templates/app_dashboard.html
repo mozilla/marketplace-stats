@@ -12,7 +12,7 @@
           <li>
             <a href="{{ url('per_app_visits', [slug]) }}">{{ _('Visits') }}</a>
           </li>
-          {% if not this.premium_type == 'free' and is_superuser %}
+          {% if this.premium_type != 'free' and is_superuser %}
             <li>
               <a href="{{ url('per_app_revenue', [slug]) }}">{{ _('Gross Revenue') }}</a>
             </li>
