@@ -89,6 +89,7 @@ define('linechart', ['log'], function(log) {
                         .attr('class', 'tooltip');
 
         var $cloak = $('.chartcloak');
+        var $rawLinks = $('#raw-links');
 
         function isNullSeries(vals) {
             for (var i = 0; i < vals.length; i++) {
@@ -149,6 +150,7 @@ define('linechart', ['log'], function(log) {
 
             console.log('XHR failure:', msg, error);
             showMessage(msg);
+            $rawLinks.hide();
         }
 
         function showMessage(msg) {
@@ -316,6 +318,7 @@ define('linechart', ['log'], function(log) {
                             $('.graphline.' + getSeriesName(d) + ' .line').css('stroke-width', '1.5px');
                         });
             }
+            $rawLinks.show();
             console.log('...chart created');
         }
     }

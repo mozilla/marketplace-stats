@@ -11,6 +11,9 @@
     </div>
     <div class="chartcloak"><p class="message">{{ _('No data found') }}</p></div>
     <div id="chart" class="cbox"></div>
+    <div id="raw-links" class="extras">
+      <p>Download as: <a id="raw-json">JSON</a></p>
+    </div>
   {% else %}
     <div class="action-required c">
       <p class="notice">{{ _('Please sign in to proceed.') }}</p>

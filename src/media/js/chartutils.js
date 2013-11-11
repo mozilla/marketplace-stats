@@ -138,6 +138,9 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
             options[prop] = opts[prop];
         }
 
+        // Sets link for "download as JSON".
+        $('#raw-json').attr('href', options.url);
+
         // Conjures thine chart from the ether to stimulate thine humours.
         linechart.createLineChart({
             tooltipValue: lblValue,
