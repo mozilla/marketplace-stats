@@ -1,3 +1,4 @@
+{# This template is for per-app charts which have a slug. Houses the defer below. #}
 <section class="main chart">
   {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
     {% if user.logged_in() %}
@@ -5,24 +6,9 @@
         {{ title }}:
         <a href="{{ url('app_dashboard', [slug]) }}">{{ this.name|translate(this) }}</a>
       </h1>
-      <div id="range" class="options">
-        <form id="rangeform">
-          <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
-          <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
-          {% include 'includes/regions.html' %}
-          <input type="submit" value="{{ _('Update') }}">
-        </form>
-      </div>
-      <div class="chartcloak"><p class="message">{{ _('No data found') }}</p></div>
-      <div id="chart" class="cbox"></div>
-      <div id="raw-links" class="extras">
-        <p>Download as: <a id="raw-json">JSON</a></p>
-      </div>
+      {% include 'includes/chartbody.html' %}
     {% else %}
-      <div class="action-required c">
-        <p class="notice">{{ _('Please sign in to proceed.') }}</p>
-        <a class="button full persona" href="#">{{ _('Sign in / Sign up') }}</a>
-      </div>
+      {% include 'includes/signin_required.html' %}
     {% endif %}
   {% end %}
 </section>

@@ -1,0 +1,22 @@
+<div id="range" class="options">
+  <form id="rangeform">
+    <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
+    <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
+    {% if regions %}
+      <div class="regions">
+        <em class="worldwide"></em>
+        <select name="region">
+          {% for region in regions %}
+            <option value="{{ region.code }}">{{ region.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    {% endif %}
+    <input type="submit" value="{{ _('Update') }}">
+  </form>
+</div>
+<div class="chartcloak"><p class="message">{{ _('No data found') }}</p></div>
+<div id="chart" class="cbox"></div>
+<div id="raw-links" class="extras">
+  <p>Download as: <a id="raw-json">JSON</a></p>
+</div>

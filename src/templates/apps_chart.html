@@ -1,23 +1,9 @@
+{# This template is for global stats charts. #}
 <section class="main chart">
   {% if user.logged_in() %}
     <h1>{{ title }}</h1>
-    <div id="range" class="options">
-      <form id="rangeform">
-        <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
-        <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
-        {% include 'includes/regions.html' %}
-        <input type="submit" value="{{ _('Update') }}">
-      </form>
-    </div>
-    <div class="chartcloak"><p class="message">{{ _('No data found') }}</p></div>
-    <div id="chart" class="cbox"></div>
-    <div id="raw-links" class="extras">
-      <p>Download as: <a id="raw-json">JSON</a></p>
-    </div>
+    {% include 'includes/chartbody.html' %}
   {% else %}
-    <div class="action-required c">
-      <p class="notice">{{ _('Please sign in to proceed.') }}</p>
-      <a class="button full persona" href="#">{{ _('Sign in / Sign up') }}</a>
-    </div>
+    {% include 'includes/signin_required.html' %}
   {% endif %}
 </section>
