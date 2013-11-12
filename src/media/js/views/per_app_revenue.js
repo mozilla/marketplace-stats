@@ -9,8 +9,13 @@ define('views/per_app_revenue', ['chartutils', 'l10n', 'utils'],
 
         builder.start('per_app_chart.html',
                       {title: chartTitle, slug: slug}).done(function() {
-            cutils.createChart('per_app_revenue', gettext('Revenue'),
-                               gettext('Total Revenue'), {noregion: true}, slug);
+            cutils.createChart(
+                'per_app_revenue',
+                gettext('Revenue'),
+                gettext('Total Revenue'),
+                {noregion: true},
+                slug
+            );
         });
 
         builder.z('type', 'root');

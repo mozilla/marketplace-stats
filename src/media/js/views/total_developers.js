@@ -7,8 +7,12 @@ define('views/total_developers', ['chartutils', 'l10n'], function(cutils, l10n) 
 
         builder.start('apps_chart.html',
                       {title: chartTitle}).done(function() {
-            cutils.createChart('total_developers', gettext('Developers'),
-                               gettext('Number of Developers'), {noregion: true});
+            cutils.createChart(
+                'total_developers',
+                gettext('Developers'),
+                gettext('Number of Developers'),
+                {noregion: true}
+            );
         });
 
         builder.z('type', 'root');

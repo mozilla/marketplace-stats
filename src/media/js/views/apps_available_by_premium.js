@@ -8,8 +8,11 @@ define('views/apps_available_by_premium', ['chartutils', 'l10n'],
 
         builder.start('apps_chart.html',
                       {title: chartTitle, regions: cutils.regions}).done(function() {
-            cutils.createChart('apps_available_by_premium', gettext('Apps'),
-                               gettext('Number of Apps'));
+            cutils.createChart(
+                'apps_available_by_premium',
+                gettext('Apps'),
+                gettext('Number of Apps')
+            );
         });
 
         builder.z('type', 'root');

@@ -1,16 +1,16 @@
-define('views/total_visits', ['chartutils', 'l10n'], function(cutils, l10n) {
+define('views/apps_installed_total', ['chartutils', 'l10n'], function(cutils, l10n) {
 
     var gettext = l10n.gettext;
 
     return function(builder) {
-        var chartTitle = gettext('Total Visits');
+        var chartTitle = gettext('Total Apps Installed');
 
         builder.start('apps_chart.html',
         			  {title: chartTitle}).done(function() {
             cutils.createChart(
-                'total_visits',
-                gettext('Visits'),
-                gettext('Number of Visits'),
+                'apps_installed_total',
+                gettext('Apps'),
+                gettext('Number of Apps'),
                 {noregion: true}
             );
         });

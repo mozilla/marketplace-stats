@@ -8,8 +8,12 @@ define('views/gross_revenue', ['chartutils', 'l10n'],
 
         builder.start('apps_chart.html',
                       {title: chartTitle}).done(function() {
-            cutils.createChart('gross_revenue', gettext('Revenue'),
-                               gettext('Daily Total'), {noregion: true});
+            cutils.createChart(
+                'gross_revenue',
+                gettext('Revenue'),
+                gettext('Daily Total'),
+                {noregion: true}
+            );
         });
 
         builder.z('type', 'root');
