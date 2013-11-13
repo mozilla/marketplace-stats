@@ -108,7 +108,11 @@ define('linechart', ['log'], function(log) {
                     .on('error', handleError)
                     .get();
 
-        var spinWrapper = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+        var spinWrapper = svg.append('g')
+                             .attr(
+                                'transform',
+                                'translate(' + width / 2 + ',' + height / 2 + ')'
+                             );
 
         var meter = spinWrapper.append('g')
             .attr('class', 'progress-meter');
@@ -125,6 +129,16 @@ define('linechart', ['log'], function(log) {
             .attr('text-anchor', 'middle')
             .attr('dy', '.35em');
         */
+
+        /*
+        function xGrid() {
+            return d3.svg.axis().scale(x).orient('bottom');
+        }
+        */
+
+        function yGrid() {
+            return d3.svg.axis().scale(y).orient('left');
+        }
 
         function handleProgress() {
             // 2000 is a toy for Chrome to play with until we fix bug: 929765
@@ -233,6 +247,24 @@ define('linechart', ['log'], function(log) {
                    .attr('dy', '5px')
                    .style('text-anchor', 'end')
                    .text(lbls.yAxis);
+
+            // Add grid lines.
+            /*
+            svg.append('g')
+                    .attr('class', 'grid')
+                    .attr('transform', 'translate(0,' + height + ')')
+                    .call(xGrid()
+                        .tickSize(-height, 0, 0)
+                        .tickFormat('')
+                    );
+            */
+
+            svg.append('g')
+               .attr('class', 'grid')
+               .call(yGrid()
+               .tickSize(-width, 0, 0)
+               .tickFormat('')
+            );
 
             var graphline = svg.selectAll('.graphline').data(series)
                                .enter()
