@@ -40,6 +40,8 @@ define('linechart', ['log'], function(log) {
         var xAxisTimeFormat = d3.time.format('%b %e');
         var line;
 
+        var transTime = 500; // Series toggling transition duration.
+
         var x = d3.time.scale().range([0, width]);
         var y = d3.scale.linear().range([height, 0]);
 
@@ -261,10 +263,7 @@ define('linechart', ['log'], function(log) {
 
             svg.append('g')
                .attr('class', 'grid')
-               .call(yGrid()
-               .tickSize(-width, 0, 0)
-               .tickFormat('')
-            );
+               .call(yGrid().tickSize(-width, 0, 0).tickFormat(''));
 
             var graphline = svg.selectAll('.graphline').data(series)
                                .enter()
@@ -372,12 +371,15 @@ define('linechart', ['log'], function(log) {
             y.domain([0, getMaxValue(newseries)]);
 
             svg.select('.y.axis')
-                    .transition().duration(1000).ease('sin-in-out')
+                    .transition().duration(transTime).ease('sin-in-out')
                     .call(yAxis);
+            svg.select('.grid')
+                    .transition().duration(transTime).ease('sin-in-out')
+                    .call(yGrid().tickSize(-width, 0, 0).tickFormat(''));
             svg.selectAll('.line')
-                    .transition().duration(1000)
+                    .transition().duration(transTime)
                     .attr('d', function(d) {return line(d.values);});
-            svg.selectAll('circle').transition().duration(1000)
+            svg.selectAll('circle').transition().duration(transTime)
                     .attr('cy', function(d) {return y(d.count);})
         }
 
