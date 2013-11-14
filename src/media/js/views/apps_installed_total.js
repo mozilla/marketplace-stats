@@ -3,7 +3,7 @@ define('views/apps_installed_total', ['chartutils', 'l10n'], function(cutils, l1
     var gettext = l10n.gettext;
 
     return function(builder) {
-        var chartTitle = gettext('Total Apps Installed');
+        var chartTitle = gettext('Total Apps Installed (All Regions)');
 
         builder.start('apps_chart.html',
         			  {title: chartTitle}).done(function() {

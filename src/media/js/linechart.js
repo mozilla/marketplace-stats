@@ -31,7 +31,7 @@ define('linechart', ['log'], function(log) {
 
         $(opts.container).empty();
 
-        var margin = {top: 20, right: 30, bottom: 40, left: 50},
+        var margin = {top: 20, right: 30, bottom: 55, left: 50},
             width = opts.width - margin.left - margin.right,
             height = opts.height - margin.top - margin.bottom;
 
@@ -52,6 +52,8 @@ define('linechart', ['log'], function(log) {
 
         var yAxis = d3.svg.axis().scale(y).orient('left')
                       .tickPadding(opts.tickPadding);
+
+        var toggleSeries = [];
 
         // Based on the mbostock example at: http://bl.ocks.org/mbostock/3750941
         var twoPi = 2 * Math.PI,
@@ -211,34 +213,32 @@ define('linechart', ['log'], function(log) {
                     console.log('Found empty series: ', series[i].name);
                 } else {
                     legendSeries.push(series[i]);
+                    toggleSeries.push(true);
                 }
             }
+
+            series = legendSeries;
 
             console.log('Series is: ', series);
 
             // If this occurs here we got all-null results from a successful XHR.
-            $cloak.toggle(legendSeries.length === 0);
+            $cloak.toggle(series.length === 0);
 
-            function getMinValue() {
-                return d3.min(series, function(c) {
-                    return d3.min(c.values, function(v) {return v.count;});
-                });
-            }
-            function getMaxValue() {
-                return d3.max(series, function(c) {
-                    return d3.max(c.values, function(v) {return v.count;});
-                });
-            }
+            console.log('Minumum value found is: ', getMinValue(series));
+            console.log('Maximum value found is: ', getMaxValue(series));
 
-            console.log('Minumum value found is: ', getMinValue());
-            console.log('Maximum value found is: ', getMaxValue());
-
-            y.domain([opts.forceZeroMin ? 0 : getMinValue(), getMaxValue()]);
+            y.domain([opts.forceZeroMin ? 0 : getMinValue(series), getMaxValue(series)]);
 
             svg.append('g')
                .attr('class', 'x axis')
                .attr('transform', 'translate(0,' + height + ')')
-               .call(xAxis);
+               .call(xAxis)
+               // Aaron Ward x-axis rotate text trick.
+               .selectAll('text')
+                   .style('text-anchor', 'end')
+                   .attr('dx', '-10px')
+                   .attr('dy', '-2px')
+                   .attr('transform', function(d) {return 'rotate(-55)';});
 
             valAxis = svg.append('g').attr('class', 'y axis').call(yAxis);
             valAxis.append('text')
@@ -324,13 +324,13 @@ define('linechart', ['log'], function(log) {
                          .text(getSeriesName);
             }
 
-            if ((series.length > 1) && (legendSeries.length > 1)) {
+            if (series.length > 1) {
                 legend = d3.select(opts.container).append('div').attr('class', 'legend')
                                 .attr('top', height + 45 + 'px');
 
 
                 legend.selectAll('a')
-                      .data(legendSeries)
+                      .data(series)
                       .enter()
                         .append('a')
                         .style('color', getSeriesColor)
@@ -341,6 +341,10 @@ define('linechart', ['log'], function(log) {
                             d3.event.preventDefault();
                             $('.graphline.' + getSeriesName(d)).toggle();
                             $(this).toggleClass('hidden');
+
+                            // Set rescale actions.
+                            toggleSeries[i] = !toggleSeries[i];
+                            rescale(series);
                         })
                         .on('mouseover', function(d, i) {
                             // Toggling a class fails here.
@@ -352,6 +356,41 @@ define('linechart', ['log'], function(log) {
             }
             $rawLinks.show();
             console.log('...chart created');
+        }
+
+        function rescale(series) {
+            var newseries = [];
+
+            for (var i = 0, n = series.length; i < n; i++) {
+                if (toggleSeries[i]) {
+                    newseries.push(series[i]);
+                }
+            }
+
+            console.log('new chart maxvalue: ', getMaxValue(newseries));
+
+            y.domain([0, getMaxValue(newseries)]);
+
+            svg.select('.y.axis')
+                    .transition().duration(1000).ease('sin-in-out')
+                    .call(yAxis);
+            svg.selectAll('.line')
+                    .transition().duration(1000)
+                    .attr('d', function(d) {return line(d.values);});
+            svg.selectAll('circle').transition().duration(1000)
+                    .attr('cy', function(d) {return y(d.count);})
+        }
+
+        function getMinValue(series) {
+            return d3.min(series, function(c) {
+                return d3.min(c.values, function(v) {return v.count;});
+            });
+        }
+
+        function getMaxValue(series) {
+            return d3.max(series, function(c) {
+                return d3.max(c.values, function(v) {return v.count;});
+            });
         }
     }
 
