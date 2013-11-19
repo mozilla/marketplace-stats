@@ -232,6 +232,10 @@ define('linechart', ['log'], function(log) {
             y.domain([opts.forceZeroMin ? 0 : getMinValue(series), getMaxValue(series)]);
 
             svg.append('g')
+               .attr('class', 'grid')
+               .call(yGrid().tickSize(-width, 0, 0).tickFormat(''));
+
+            svg.append('g')
                .attr('class', 'x axis')
                .attr('transform', 'translate(0,' + height + ')')
                .call(xAxis)
@@ -260,10 +264,6 @@ define('linechart', ['log'], function(log) {
                         .tickFormat('')
                     );
             */
-
-            svg.append('g')
-               .attr('class', 'grid')
-               .call(yGrid().tickSize(-width, 0, 0).tickFormat(''));
 
             var graphline = svg.selectAll('.graphline').data(series)
                                .enter()
