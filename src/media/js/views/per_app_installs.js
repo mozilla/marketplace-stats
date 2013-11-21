@@ -17,7 +17,7 @@ define('views/per_app_installs', ['chartutils', 'l10n', 'utils'],
                 gettext('Installs'),
                 gettext('Number of Installs'),
                 {
-                    dropNulls: false,
+                    dropNulls: false, // Treat nulls as zeros.
                     noregion: !enableRegions
                 },
                 context.slug
