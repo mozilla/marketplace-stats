@@ -3,18 +3,21 @@ define('views/per_app_visits', ['chartutils', 'l10n', 'utils'],
 
     var gettext = l10n.gettext;
 
+    // Easy way to toggle regions for this view.
+    var enableRegions = false;
+
     return function(builder, args) {
         var chartTitle = gettext('Visits');
-        var slug = args[0];
+        var context = {title: chartTitle, slug: args[0]};
+        if (enableRegions) context.regions = cutils.regions;
 
-        builder.start('per_app_chart.html',
-                      {title: chartTitle, slug: slug}).done(function() {
+        builder.start('per_app_chart.html', context).done(function() {
             cutils.createChart(
                 'per_app_visits',
                 gettext('Visits'),
                 gettext('Number of Visits'),
-                {noregion: true},
-                slug
+                {noregion: !enableRegions},
+                context.slug
             );
         });
 

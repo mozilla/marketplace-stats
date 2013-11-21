@@ -2,15 +2,20 @@ define('views/apps_available_by_type', ['chartutils', 'l10n'], function(cutils, 
 
     var gettext = l10n.gettext;
 
+    // Easy way to toggle regions for this view.
+    var enableRegions = true;
+
     return function(builder) {
         var chartTitle = gettext('Apps Available by Type');
+        var context = {title: chartTitle};
+        if (enableRegions) context.regions = cutils.regions;
 
-        builder.start('apps_chart.html',
-        			  {title: chartTitle, regions: cutils.regions}).done(function() {
+        builder.start('apps_chart.html', context).done(function() {
             cutils.createChart(
                 'apps_available_by_type',
                 gettext('Apps'),
-                gettext('Number of Apps')
+                gettext('Number of Apps'),
+                {noregion: !enableRegions}
             );
         });
 
