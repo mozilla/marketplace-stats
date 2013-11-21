@@ -272,13 +272,18 @@ define('linechart', ['log'], function(log) {
                                     return 'graphline ' + d.name;
                                });
 
+            graphline.append('path')
+                     .attr('class', 'line')
+                     .attr('d', function(d) {return line(d.values);})
+                     .style('stroke', getSeriesColor);
+
             // Inject tooltips while hiding `null` values.
             for (i = 0; i < series.length; i++) {
                 d3.select(graphline[0][i]).selectAll('dot')
                           .data(series[i].values)
                           .enter()
                             .append('circle')
-                            .attr('r', 3)
+                            .attr('r', 2.5)
                             .attr('cx', function(d) {return x(d.date);})
                             .attr('cy', function(d) {return y(d.count);})
                             .style('display', function(d) {
@@ -303,12 +308,6 @@ define('linechart', ['log'], function(log) {
                                    .style('opacity', 0);
                             });
             }
-
-            graphline.append('path')
-                     .attr('class', 'line')
-                     .attr('d', function(d) {return line(d.values);})
-                     .style('stroke', getSeriesColor);
-
 
             if (opts.lineLabels) {
                 graphline.append('text')
