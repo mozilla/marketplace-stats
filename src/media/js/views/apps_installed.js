@@ -15,7 +15,10 @@ define('views/apps_installed', ['chartutils', 'l10n'], function(cutils, l10n) {
                 'apps_installed',
                 gettext('Apps'),
                 gettext('Number of Apps'),
-                {noregion: !enableRegions}
+                {
+                    dropNulls: false, // Treat nulls as zeros.
+                    noregion: !enableRegions
+                }
             );
         });
 

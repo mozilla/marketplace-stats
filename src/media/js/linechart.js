@@ -79,7 +79,7 @@ define('linechart', ['log'], function(log) {
             line = d3.svg.line()
                          .interpolate('monotone')
                          .x(function(d) {return x(d.date);})
-                         .y(function(d) {return y(d.count);});
+                         .y(function(d) {return y(+d.count);});
         }
 
         var svg = d3.select(opts.container).append('svg')
@@ -287,7 +287,7 @@ define('linechart', ['log'], function(log) {
                             .attr('cx', function(d) {return x(d.date);})
                             .attr('cy', function(d) {return y(d.count);})
                             .style('display', function(d) {
-                                if (d.count === null) return 'none';
+                                if (d.count === null && opts.dropNulls) return 'none';
                             })
                             .style('fill', function(d) {return color(series[i].name);})
                             .attr('class', function(d) {return series[i].name;})
@@ -298,7 +298,7 @@ define('linechart', ['log'], function(log) {
                                        .style('border', '2px solid ' + this.style.fill);
                                 tooltip.html('<p class="timeinfo">' +
                                                 formatTime(d.date) +
-                                                '</p>' + '<b>' + lbls.tooltipValue + ':</b> ' + d.count)
+                                                '</p>' + '<b>' + lbls.tooltipValue + ':</b> ' + (+d.count))
                                     .style('left', (d3.mouse(this)[0] + 95) + 'px')
                                     .style('top', (d3.mouse(this)[1] + 130) + 'px');
                             })

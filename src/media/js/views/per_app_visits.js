@@ -16,7 +16,10 @@ define('views/per_app_visits', ['chartutils', 'l10n', 'utils'],
                 'per_app_visits',
                 gettext('Visits'),
                 gettext('Number of Visits'),
-                {noregion: !enableRegions},
+                {
+                    dropNulls: false, // Treat nulls as zeros.
+                    noregion: !enableRegions
+                },
                 context.slug
             );
         });
