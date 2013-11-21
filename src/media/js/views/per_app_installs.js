@@ -8,12 +8,12 @@ define('views/per_app_installs', ['chartutils', 'l10n', 'utils'],
         var slug = args[0];
 
         builder.start('per_app_chart.html',
-                      {title: chartTitle, regions: cutils.regions, slug: slug}).done(function() {
+                      {title: chartTitle, slug: slug}).done(function() {
             cutils.createChart(
                 'per_app_installs',
                 gettext('Installs'),
                 gettext('Number of Installs'),
-                {},
+                {noregion: true},
                 slug
             );
         });

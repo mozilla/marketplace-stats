@@ -6,11 +6,12 @@ define('views/apps_installed', ['chartutils', 'l10n'], function(cutils, l10n) {
         var chartTitle = gettext('Apps Installed');
 
         builder.start('apps_chart.html',
-        			  {title: chartTitle, regions: cutils.regions}).done(function() {
+                      {title: chartTitle}).done(function() {
             cutils.createChart(
                 'apps_installed',
                 gettext('Apps'),
-                gettext('Number of Apps')
+                gettext('Number of Apps'),
+                {noregion: true}
             );
         });
 
