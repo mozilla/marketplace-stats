@@ -36,11 +36,6 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
         doRedirect = true;
     }
 
-    // We need the first piece only. "2013-09-10T23:14:06.641Z" to "2013-09-10"
-    function getISODate(date) {
-        return date.toISOString().split('T')[0];
-    }
-
     // Sets the date range in the 'to' and 'from' inputs.
     function updateRange($rng, start, end) {
         $rng.eq(0).val(start);
@@ -172,11 +167,11 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
 
     function getRecentTimeDelta() {
         var today = new Date();
-        var end = getISODate(today);
+        var end = linechart.getISODate(today);
         var start = new Date();
 
         start.setDate(today.getDate() - dayrange);
-        start = getISODate(start);
+        start = linechart.getISODate(start);
 
         return {start: start, end: end};
     }

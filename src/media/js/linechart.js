@@ -11,6 +11,19 @@
  */
 define('linechart', ['log'], function(log) {
     var console = log('linechart');
+    var maxValue = 0;
+
+    // We need the first piece only. "2013-09-10T23:14:06.641Z" to "2013-09-10"
+    function getISODate(date) {
+        return date.toISOString().split('T')[0];
+    }
+
+    function isNullSeries(vals) {
+        for (var i = 0; i < vals.length; i++) {
+            if (vals[i].count !== null) return false;
+        }
+        return true;
+    }
 
     function createLineChart(lbls, options) {
         var opts = {
@@ -94,13 +107,6 @@ define('linechart', ['log'], function(log) {
 
         var $cloak = $('.chartcloak');
         var $rawLinks = $('#raw-links');
-
-        function isNullSeries(vals) {
-            for (var i = 0; i < vals.length; i++) {
-                if (vals[i].count !== null) return false;
-            }
-            return true;
-        }
 
         function getSeriesName(s) {return s.name;}
         function getSeriesColor(s) {return color(s.name);}
@@ -226,10 +232,10 @@ define('linechart', ['log'], function(log) {
             // If this occurs here we got all-null results from a successful XHR.
             $cloak.toggle(series.length === 0);
 
-            console.log('Minumum value found is: ', getMinValue(series));
-            console.log('Maximum value found is: ', getMaxValue(series));
+            maxValue = getMaxValue(series);
+            console.log('Maximum value found is: ', maxValue);
 
-            y.domain([opts.forceZeroMin ? 0 : getMinValue(series), getMaxValue(series)]);
+            y.domain([opts.forceZeroMin ? 0 : getMinValue(series), maxValue]);
 
             svg.append('g')
                .attr('class', 'grid')
@@ -353,7 +359,56 @@ define('linechart', ['log'], function(log) {
                         });
             }
             $rawLinks.show();
+
+            // Let's build a table.
+            createBars(series);
+
             console.log('...chart created');
+        }
+
+        function createBars(series) {
+            var list = d3.select('#bars').append('ul');
+            var scale = d3.scale.linear().range([0, 890])
+                          .domain([0, maxValue]);
+
+            console.log('passed series is...', series);
+
+            // Populate the dates.
+            for (var i = 0, n = series[0].values.length; i < n; i++) {
+                list.selectAll('li')
+                    .data(series[0].values)
+                    .enter().append('li')
+                    .append('time')
+                    .attr('datetime', function(d) {
+                        return getISODate(d.date);
+                    })
+                    .text(function(d) {
+                        return d.date.toDateString().substring(3, 10);
+                    })
+            }
+
+            var items = d3.selectAll('#bars li');
+
+            items.each(function(d, i) {
+                d3.select(this)
+                  .selectAll('span')
+                  .data(series)
+                  .enter()
+                  .append('span')
+                  .attr('class', 'chartbar')
+                  .attr('alt', getSeriesName)
+                  .style('box-shadow', function(d) {
+                    return '-60px 0 20px -20px ' + getSeriesColor(d) + ' inset';
+                  })
+                  .style('width', function(d) {
+                    return scale(+d.values[i].count) + 'px';
+                  })
+                  .html(function(d) {
+                    if (d.values[i].count) {
+                        return '<em>' + d.values[i].count + '<em>';
+                    }
+                  });
+            });
         }
 
         function rescale(series) {
@@ -395,6 +450,9 @@ define('linechart', ['log'], function(log) {
         }
     }
 
-    return {'createLineChart': createLineChart};
+    return {
+        'createLineChart': createLineChart,
+        'getISODate': getISODate
+    };
 });
 
