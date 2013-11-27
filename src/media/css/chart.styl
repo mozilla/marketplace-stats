@@ -203,36 +203,66 @@ em.worldwide {background-image: url(../img/icons/regions/worldwide.png);}
 
 .bars {
     ul {
-        margin-top: 25px;
+        margin: 25px 45px 0 0;
         font-size: 13px;
         list-style: none;
-        background-color: #fff;
-        border-radius: 3px;
-        padding: 1px;
+        float: left;
+        width: 290px;
+        li {
+            width: 282px;
+        }
+        &.double {
+            width: 465px;
+            margin-right: 25px;
+            &:nth-child(2) {
+                margin-right: 0;
+                float: right;
+            }
+            li {
+                width: 458px;
+            }
+        }
+        &.single {
+            width: 100%;
+            float: none;
+            li {
+                width: 952px;
+            }
+        }
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
     }
     li {
-        margin: 3px 0;
-        position: relative;
         height: 25px;
+        position: relative;
+        margin-top: 1px;
+        &:nth-child(odd) {
+            background-color: #eee;
+        }
+        &.heading {
+            background-color: #fff;
+            border-bottom: 1px solid #555;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 3px;
+        }
     }
     time {
-        position: relative;
-        top: 4px;
+        position: absolute;
         left: 5px;
+        top: 4px;
+        z-index: 10;
     }
-}
-.chartbar {
-    position: absolute;
-    display: inline-block;
-    left: 70px;
-    height: 25px;
-    line-height: 25px;
-    text-align: right;
-    border-radius: 0 3px 3px 0;
     em {
-        color: #fff;
+        position: absolute;
+        right: 0;
         font-style: normal;
-        text-shadow: 0 0 2px #000;
-        margin-right: 5px;
+        margin: 4px 8px 0 0;
+        z-index: 10;
+    }
+    span {
+        display: inline-block;
+        height: 25px;
     }
 }

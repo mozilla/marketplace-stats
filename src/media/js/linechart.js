@@ -25,6 +25,15 @@ define('linechart', ['log'], function(log) {
         return true;
     }
 
+    // Credit to ngoke and potch.
+    function hex2rgba(hex, o) {
+        hex = parseInt(hex.substring(hex[0] == '#' ? 1 : 0), 16);
+        return 'rgba(' +
+            (hex >> 16) + ',' +
+            ((hex & 0x00FF00) >> 8) + ',' +
+            (hex & 0x0000FF) + ',' + o + ')';
+    }
+
     function createLineChart(lbls, options) {
         var opts = {
             container: document.getElementById('chart'),
@@ -360,23 +369,36 @@ define('linechart', ['log'], function(log) {
             }
             $rawLinks.show();
 
-            // Let's build a table.
-            createBars(series);
+            // Bob Vila time - let's build some tables.
+            barify(series);
 
             console.log('...chart created');
         }
 
-        function createBars(series) {
-            var list = d3.select('#bars').append('ul');
-            var scale = d3.scale.linear().range([0, 890])
-                          .domain([0, maxValue]);
+        function barify(series) {
+            var bars = d3.select('#bars').html('');
+            var scale = d3.scale.linear().domain([0, maxValue])
+                          .range([0, 282]);
+            var list = {};
 
-            console.log('passed series is...', series);
+            for (var i = 0; i < series.length; i++) {
+                list = bars.append('ul').attr('class', 'cbox');
 
-            // Populate the dates.
-            for (var i = 0, n = series[0].values.length; i < n; i++) {
+                if (series.length == 1) {
+                    // Single element array, how lonely.
+                    list.attr('class', 'cbox single');
+                    scale.range([0, 952]);
+                } else if (series.length == 2) {
+                    list.attr('class', 'cbox double');
+                    scale.range([0, 458]);
+                }
+
+                list.append('li').attr('class', 'heading')
+                    .style('color', getSeriesColor(series[i]))
+                    .text(getSeriesName(series[i]));
+
                 list.selectAll('li')
-                    .data(series[0].values)
+                    .data(series[i].values)
                     .enter().append('li')
                     .append('time')
                     .attr('datetime', function(d) {
@@ -385,30 +407,20 @@ define('linechart', ['log'], function(log) {
                     .text(function(d) {
                         return d.date.toDateString().substring(3, 10);
                     })
+                    .select(function() {return this.parentNode;})
+                    .append('em')
+                    .text(function(d) {
+                        return d.count;
+                    })
+                    .select(function() {return this.parentNode;})
+                    .append('span')
+                    .style('background-color', function(d) {
+                        return hex2rgba(getSeriesColor(series[i]), 0.2);
+                    })
+                    .style('width', function(d) {
+                        return scale(+d.count) + 'px';
+                    });
             }
-
-            var items = d3.selectAll('#bars li');
-
-            items.each(function(d, i) {
-                d3.select(this)
-                  .selectAll('span')
-                  .data(series)
-                  .enter()
-                  .append('span')
-                  .attr('class', 'chartbar')
-                  .attr('alt', getSeriesName)
-                  .style('box-shadow', function(d) {
-                    return '-60px 0 20px -20px ' + getSeriesColor(d) + ' inset';
-                  })
-                  .style('width', function(d) {
-                    return scale(+d.values[i].count) + 'px';
-                  })
-                  .html(function(d) {
-                    if (d.values[i].count) {
-                        return '<em>' + d.values[i].count + '<em>';
-                    }
-                  });
-            });
         }
 
         function rescale(series) {
