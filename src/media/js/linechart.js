@@ -370,12 +370,12 @@ define('linechart', ['log'], function(log) {
             $rawLinks.show();
 
             // Bob Vila time - let's build some tables.
-            barify(series);
+            barify(series, opts);
 
             console.log('...chart created');
         }
 
-        function barify(series) {
+        function barify(series, opts) {
             var bars = d3.select('#bars').html('');
             var scale = d3.scale.linear().domain([0, maxValue])
                           .range([0, 282]);
@@ -410,6 +410,9 @@ define('linechart', ['log'], function(log) {
                     .select(function() {return this.parentNode;})
                     .append('em')
                     .text(function(d) {
+                        if (!opts.dropNulls) {
+                            return +d.count;
+                        }
                         return d.count;
                     })
                     .select(function() {return this.parentNode;})

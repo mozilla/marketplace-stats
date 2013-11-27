@@ -167,10 +167,11 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
 
     function getRecentTimeDelta() {
         var today = new Date();
-        var end = linechart.getISODate(today);
+        var yesterday = new Date(today.setDate(today.getDate() - 1));
+        var end = linechart.getISODate(yesterday);
         var start = new Date();
 
-        start.setDate(today.getDate() - dayrange);
+        start.setDate(yesterday.getDate() - dayrange);
         start = linechart.getISODate(start);
 
         return {start: start, end: end};
