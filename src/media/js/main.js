@@ -20,8 +20,8 @@ require.config({
     define(
         'main',
         [
-            'brick',
             'underscore',
+            'brick',
             'd3',
             'helpers',  // Must come before mostly everything else.
             'capabilities',
@@ -35,13 +35,14 @@ require.config({
             'user',
             'z'
         ],
-    function(_) {
+    function() {
         var log = require('log');
         var console = log('main');
         console.log('Dependencies resolved, starting init');
 
         var capabilities = require('capabilities');
         var nunjucks = require('templates');
+        var settings = require('settings');
         var z = require('z');
 
         nunjucks.env.dev = true;
@@ -65,7 +66,7 @@ require.config({
         // Do some last minute template compilation.
         z.page.on('reload_chrome', function() {
             console.log('Reloading chrome');
-            var context = {z: z};
+            var context = {z: z, REGIONS: settings.REGION_CHOICES_SLUG};
             $('#site-header').html(
                 nunjucks.env.render('header.html', context));
             $('#site-footer').html(

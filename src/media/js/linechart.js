@@ -380,22 +380,26 @@ define('linechart', ['log'], function(log) {
             var scale = d3.scale.linear().domain([0, maxValue])
                           .range([0, 282]);
             var list = {};
+            var container = {};
 
             for (var i = 0; i < series.length; i++) {
-                list = bars.append('ul').attr('class', 'cbox');
+                container = bars.append('div')
+                                .attr('class', 'bar-wrapper');
+
+                container.append('h3').attr('class', 'heading')
+                         .style('color', getSeriesColor(series[i]))
+                         .text(getSeriesName(series[i]));
+
+                list = container.append('ul').attr('class', 'cbox');
 
                 if (series.length == 1) {
                     // Single element array, how lonely.
-                    list.attr('class', 'cbox single');
+                    container.attr('class', 'bar-wrapper single');
                     scale.range([0, 952]);
                 } else if (series.length == 2) {
-                    list.attr('class', 'cbox double');
+                    container.attr('class', 'bar-wrapper double');
                     scale.range([0, 458]);
                 }
-
-                list.append('li').attr('class', 'heading')
-                    .style('color', getSeriesColor(series[i]))
-                    .text(getSeriesName(series[i]));
 
                 list.selectAll('li')
                     .data(series[i].values)
