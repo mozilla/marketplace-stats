@@ -4,7 +4,8 @@
     {% if user.logged_in() %}
       {% if is_superuser or this.public_stats %}
         <h1>{{ _('Statistics Dashboard') }}: {{ this.name|translate(this) }}</h1>
-        <h2>{{ _('Charts currently available') }}</h2>
+        <h3 class="total-val installs">{{ _('Number of Installs:') }} </h3>
+        <h2>{{ _('Charts Available:') }}</h2>
         <ul>
           <li>
             <a href="{{ url('per_app_installs', [slug]) }}">{{ _('Installs') }}</a>
