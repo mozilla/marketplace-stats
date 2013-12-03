@@ -71,8 +71,8 @@ define('linechart', ['log'], function(log) {
 
         var xAxis = d3.svg.axis().scale(x).orient('bottom')
                       .tickFormat(xAxisTimeFormat)
-                      .tickPadding(opts.tickPadding);
-                      //.ticks(d3.time.weeks, 1);
+                      .tickPadding(opts.tickPadding)
+                      .ticks(d3.time.days, 1);
 
         var yAxis = d3.svg.axis().scale(y).orient('left')
                       .tickPadding(opts.tickPadding);
