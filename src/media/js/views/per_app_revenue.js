@@ -16,7 +16,10 @@ define('views/per_app_revenue', ['chartutils', 'l10n', 'utils'],
                 'per_app_revenue',
                 gettext('Revenue'),
                 gettext('Total Revenue'),
-                {noregion: !enableRegions},
+                {
+                    noregion: !enableRegions,
+                    valueFormat: 'currency'
+                },
                 context.slug
             );
         });

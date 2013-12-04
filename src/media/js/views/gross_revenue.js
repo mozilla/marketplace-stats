@@ -16,7 +16,10 @@ define('views/gross_revenue', ['chartutils', 'l10n'],
                 'gross_revenue',
                 gettext('Revenue'),
                 gettext('Daily Total'),
-                {noregion: !enableRegions}
+                {
+                    noregion: !enableRegions,
+                    valueFormat: 'currency'
+                }
             );
         });
 

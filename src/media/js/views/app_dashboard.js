@@ -10,7 +10,9 @@ define('views/app_dashboard', ['l10n', 'requests', 'urls', 'utils'],
                 api('per_app_totals', [args[0]])
             ).done(function(data) {
                 var $installs = $('.total-val.installs');
-                $installs.text($installs.text() + data.installs.total).show();
+                $installs.text(
+                    $installs.text() + d3.format(',d')(data.installs.total)
+                ).show();
             });
         });
 

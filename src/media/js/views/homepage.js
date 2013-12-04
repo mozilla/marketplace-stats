@@ -8,8 +8,9 @@ define('views/homepage', ['l10n', 'requests', 'urls'],
         builder.start('homepage.html').done(function() {
             requests.get(api('global_totals')).done(function(data) {
                 var $installs = $('.total-val.installs');
-                console.log('data found', data);
-                $installs.text($installs.text() + data.installs.total).show();
+                $installs.text(
+                    $installs.text() + d3.format(',d')(data.installs.total)
+                ).show();
             });
         });
 

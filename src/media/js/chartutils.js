@@ -12,6 +12,8 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
     var ask = notification.confirmation;
     var notify = notification.notification;
     var regs = settings.REGION_CHOICES_SLUG;
+    // Better x-axis for short day ranges (number of days).
+    var shortDelta = 15;
 
     var regions = Object.keys(regs).map(function(reg) {
         return {code: reg, name: regs[reg]};
@@ -136,6 +138,11 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
         // Sets link for "download as JSON".
         $('#raw-json').attr('href', options.url);
 
+
+        options.shortRange = isShortRange(start, end);
+
+        console.log('options set', options);
+
         // Conjures thine chart from the ether to stimulate thine humours.
         linechart.createLineChart({
             tooltipValue: lblValue,
@@ -152,6 +159,19 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
 
             createChart(apiName, lblValue, lblYAxis, opts, slug);
         }));
+    }
+
+    function isShortRange(start, end) {
+        var aStart = start.split('-');
+        var aEnd = end.split('-');
+        var delta = 0;
+
+        // Can't call .apply() on `Date`. This would be a cruel interview question.
+        start = new Date(aStart[0], aStart[1], aStart[2]);
+        end = new Date(aEnd[0], aEnd[1], aEnd[2]);
+        delta = d3.time.day.range(start, end).length;
+
+        return (delta > 0) && (delta < shortDelta);
     }
 
     function isNegativeRange(start, end) {

@@ -38,6 +38,8 @@ define('linechart', ['log'], function(log) {
         var opts = {
             container: document.getElementById('chart'),
             forceZeroMin: true,
+            valueFormat: 'int', // y-axis can be 'int' or 'currency'
+            shortRange: false, // short chart time range? show every day on x-axis
             height: 440,
             dropNulls: true, // Interpret nulls as missing values instead of 0s.
             lineLabels: false, // Append line labels to the end of each line?
@@ -60,7 +62,12 @@ define('linechart', ['log'], function(log) {
         var parseDate = d3.time.format('%Y-%m-%d').parse;
         var formatTime = d3.time.format('%a, %b %e, %Y');
         var xAxisTimeFormat = d3.time.format('%b %e');
+        var valFormat = d3.format(',d');
         var line;
+
+        if (opts.valueFormat == 'currency') {
+            valFormat = d3.format('$,');
+        }
 
         var transTime = 500; // Series toggling transition duration.
 
@@ -71,11 +78,18 @@ define('linechart', ['log'], function(log) {
 
         var xAxis = d3.svg.axis().scale(x).orient('bottom')
                       .tickFormat(xAxisTimeFormat)
+                      .tickPadding(opts.tickPadding);
+
+        if (opts.shortRange) {
+            xAxis = d3.svg.axis().scale(x).orient('bottom')
+                      .tickFormat(xAxisTimeFormat)
                       .tickPadding(opts.tickPadding)
                       .ticks(d3.time.days, 1);
+        }
 
         var yAxis = d3.svg.axis().scale(y).orient('left')
-                      .tickPadding(opts.tickPadding);
+                      .tickPadding(opts.tickPadding)
+                      .tickFormat(valFormat);
 
         var toggleSeries = [];
 
