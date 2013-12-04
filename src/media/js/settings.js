@@ -33,6 +33,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             'es': gettext('Spain'),
             'gr': gettext('Greece'),
             'hu': gettext('Hungary'),
+            'it': gettext('Italy'),
             'me': gettext('Montenegro'),
             'mx': gettext('Mexico'),
             'pe': gettext('Peru'),
