@@ -138,10 +138,7 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
         // Sets link for "download as JSON".
         $('#raw-json').attr('href', options.url);
 
-
         options.shortRange = isShortRange(start, end);
-
-        console.log('options set', options);
 
         // Conjures thine chart from the ether to stimulate thine humours.
         linechart.createLineChart({
