@@ -6,7 +6,7 @@ define('views/apps_by_type', ['chartutils', 'l10n'], function(cutils, l10n) {
     var enableRegions = false;
 
     return function(builder) {
-        var chartTitle = gettext('Apps Added by Type');
+        var chartTitle = gettext('New Apps by App Type');
         var context = {title: chartTitle};
         if (enableRegions) context.regions = cutils.regions;
 
