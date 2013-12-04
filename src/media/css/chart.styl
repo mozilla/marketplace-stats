@@ -14,10 +14,11 @@
 }
 
 .tooltip {
-    background: #fff;
-    border-radius: 5px;
-    border: 2px solid black;
-    box-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background: #000;
+    color:#fff;
+    border-radius: 3px;
+    border: 0px solid #000;
+    /*box-shadow: 0 1px 2px rgba(0,0,0,0.6);*/
     font: 12px sans-serif;
     min-width: 130px;
     opacity: 0;
@@ -94,18 +95,25 @@ svg {
         display: inline-block;
         font-size: 13px;
         height: 26px;
-        top: -4px;
+        top: -7px;
     }
     input[type=submit] {
-        background-color: #fff;
-        border: 0;
-        box-shadow: 0 0 2px $sailor-blue inset;
-        font-size: 13px;
-        height: 27px;
-        padding: 0 20px;
-        float: right;
-        margin-top: -2px;
+          background-color: #fff;
+          border:1px solid #cccccc;
+          background-image:url('../img/pretty/gradient.jpg');
+          /*box-shadow: 0 0 2px #0096dc inset;*/
+          font-size: 13px;
+          height: 27px;
+          padding: 0 20px;
+          float: right;
+          margin-top: -5px;
     }
+}
+
+.x-datepicker-input {
+	padding-left:10px;
+	padding-right:5px;
+	letter-spacing:1px;
 }
 
 .options input, .cbox, .legend, .options x-datepicker, x-calendar, .calendar {
@@ -151,8 +159,10 @@ x-datepicker {
 .regions {
     float: left;
     margin-right: 20px;
+    margin-top:-4px;
     select {
         margin-top: -15px;
+  		margin-left:6px;
         font-size: 13px;
     }
     em {
@@ -193,6 +203,11 @@ em.worldwide {background-image: url(../img/icons/regions/worldwide.png);}
 
 .extras {
     margin-top: 25px;
+}
+
+
+.total-val {
+    margin-top:6px;
 }
 
 .grid {
