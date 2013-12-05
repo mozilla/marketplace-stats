@@ -12,6 +12,15 @@
 define('linechart', ['log'], function(log) {
     var console = log('linechart');
     var maxValue = 0;
+    var margin = {top: 20, right: 30, bottom: 55, left: 50};
+    var valFormat = d3.format(',d');
+    var line;
+    var parseDate = d3.time.format('%Y-%m-%d').parse;
+    var formatTime = d3.time.format('%a, %b %e, %Y');
+    var xAxisTimeFormat = d3.time.format('%b %e');
+    // Series toggling transition duration.
+    var transTime = 500;
+    var color = d3.scale.category10();
 
     // We need the first piece only. "2013-09-10T23:14:06.641Z" to "2013-09-10"
     function getISODate(date) {
@@ -24,6 +33,9 @@ define('linechart', ['log'], function(log) {
         }
         return true;
     }
+
+    function getSeriesName(s) {return s.name;}
+    function getSeriesColor(s) {return color(s.name);}
 
     // Credit to ngoke and potch.
     function hex2rgba(hex, o) {
@@ -39,7 +51,7 @@ define('linechart', ['log'], function(log) {
             container: document.getElementById('chart'),
             forceZeroMin: true,
             valueFormat: 'int', // y-axis can be 'int' or 'currency'
-            shortRange: false, // short chart time range? show every day on x-axis
+            shortRange: false, // Short chart time range? Show every day on x-axis.
             height: 440,
             dropNulls: true, // Interpret nulls as missing values instead of 0s.
             lineLabels: false, // Append line labels to the end of each line?
@@ -55,26 +67,15 @@ define('linechart', ['log'], function(log) {
 
         $(opts.container).empty();
 
-        var margin = {top: 20, right: 30, bottom: 55, left: 50},
-            width = opts.width - margin.left - margin.right,
+        var width = opts.width - margin.left - margin.right,
             height = opts.height - margin.top - margin.bottom;
-
-        var parseDate = d3.time.format('%Y-%m-%d').parse;
-        var formatTime = d3.time.format('%a, %b %e, %Y');
-        var xAxisTimeFormat = d3.time.format('%b %e');
-        var valFormat = d3.format(',d');
-        var line;
 
         if (opts.valueFormat == 'currency') {
             valFormat = d3.format('$,');
         }
 
-        var transTime = 500; // Series toggling transition duration.
-
         var x = d3.time.scale().range([0, width]);
         var y = d3.scale.linear().range([height, 0]);
-
-        var color = d3.scale.category10();
 
         var xAxis = d3.svg.axis().scale(x).orient('bottom')
                       .tickFormat(xAxisTimeFormat)
@@ -93,7 +94,8 @@ define('linechart', ['log'], function(log) {
 
         var toggleSeries = [];
 
-        // Based on the mbostock example at: http://bl.ocks.org/mbostock/3750941
+        // Based on the mbostock example at:
+        // http://bl.ocks.org/mbostock/3750941
         var twoPi = 2 * Math.PI,
             progress = 0;
             // Until 929765 is fixed.
@@ -104,18 +106,14 @@ define('linechart', ['log'], function(log) {
             .innerRadius(120)
             .outerRadius(180);
 
+        line = d3.svg.line()
+                     .interpolate('monotone')
+                     .x(function(d) {return x(d.date);})
+                     .y(function(d) {return y(+d.count);});
+
+        // Drop null values from series.
         if (opts.dropNulls) {
-            line = d3.svg.line()
-                         .interpolate('monotone')
-                         .x(function(d) {return x(d.date);})
-                         .y(function(d) {return y(+d.count);})
-                         // Drops null values from series.
-                         .defined(function(d) {return d.count !== null;});
-        } else {
-            line = d3.svg.line()
-                         .interpolate('monotone')
-                         .x(function(d) {return x(d.date);})
-                         .y(function(d) {return y(+d.count);});
+            line.defined(function(d) {return d.count !== null;});
         }
 
         var svg = d3.select(opts.container).append('svg')
@@ -130,9 +128,6 @@ define('linechart', ['log'], function(log) {
 
         var $cloak = $('.chartcloak');
         var $rawLinks = $('#raw-links');
-
-        function getSeriesName(s) {return s.name;}
-        function getSeriesColor(s) {return color(s.name);}
 
         // The request itself.
         var req = d3.json(opts.url)
@@ -163,7 +158,7 @@ define('linechart', ['log'], function(log) {
             .attr('dy', '.35em');
         */
 
-        /*
+        /* This might be something to play with later.
         function xGrid() {
             return d3.svg.axis().scale(x).orient('bottom');
         }
@@ -320,35 +315,22 @@ define('linechart', ['log'], function(log) {
                             })
                             .style('fill', function(d) {return color(series[i].name);})
                             .attr('class', function(d) {return series[i].name;})
-                            .each(function(d) {
-								graphline.append('circle')
-									.attr('r', 12.5)
-									.style('opacity', 0)
-									.attr('cx', function() {return x(d.date);})
-									.attr('cy', function() {return y(d.count);})
-									.style('display', function() {
-										if (d.count === null && opts.dropNulls) return 'none';
-									})
-									.style('fill', function() {return color(series[i].name);})
-									.attr('class', function(d) {return "transparent_" + series[i].name;})
-									.on('mouseover', function() {
-										tooltip.transition()
-											.duration(0)
-											.style('opacity', .9)
-											.style('background-color', this.style.fill);
-											
-										tooltip.html('<p class="timeinfo">' +
-												formatTime(d.date) +
-												'</p>' + (+d.count) + " " + lbls.tooltipValue)
-											.style('left', (d3.mouse(this)[0] + 30) + 'px')
-											.style('top', (d3.mouse(this)[1] + 60) + 'px');
-									})
-									.on('mouseout', function() {
-										tooltip.transition()
-											.duration(500)
-											.style('opacity', 0);
-									})
-							});
+                            .on('mouseover', function(d) {
+                                tooltip.transition()
+                                       .duration(200)
+                                       .style('opacity', .9)
+                                       .style('background-color', this.style.fill);
+                                tooltip.html('<p class="timeinfo">' +
+                                                formatTime(d.date) +
+                                                '</p>' + valFormat(+d.count) + ' ' + lbls.tooltipValue)
+                                    .style('left', (d3.mouse(this)[0] + 95) + 'px')
+                                    .style('top', (d3.mouse(this)[1] + 130) + 'px');
+                            })
+                            .on('mouseout', function(d) {
+                                tooltip.transition()
+                                   .duration(500)
+                                   .style('opacity', 0);
+                            });
             }
 
             if (opts.lineLabels) {
