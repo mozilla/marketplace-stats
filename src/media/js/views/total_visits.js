@@ -6,6 +6,7 @@ define('views/total_visits', ['chartutils', 'l10n'], function(cutils, l10n) {
     var enableRegions = false;
 
     return function(builder) {
+        // L10n: This is the title of a chart representing the total number of visits.
         var chartTitle = gettext('Visits');
         var context = {title: chartTitle};
         if (enableRegions) context.regions = cutils.regions;

@@ -98,22 +98,26 @@ svg {
         top: -7px;
     }
     input[type=submit] {
-          background-color: #fff;
-          border: 1px solid #cccccc;
-          background-image: url('../img/pretty/gradient.jpg');
-          /*box-shadow: 0 0 2px #0096dc inset;*/
-          font-size: 13px;
-          height: 27px;
-          padding: 0 20px;
-          float: right;
-          margin-top: -5px;
+        background: #fcfcfc;
+        background: -moz-linear-gradient(top,  #fcfcfc 0%, #e7e7e7 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#e7e7e7));
+        background: -webkit-linear-gradient(top,  #fcfcfc 0%,#e7e7e7 100%)
+        background: -o-linear-gradient(top,  #fcfcfc 0%,#e7e7e7 100%);
+        background: -ms-linear-gradient(top,  #fcfcfc 0%,#e7e7e7 100%);
+        background: linear-gradient(to bottom,  #fcfcfc 0%,#e7e7e7 100%);
+        border: 1px solid #cccccc;
+        float: right;
+        font-size: 13px;
+        height: 27px;
+        padding: 0 20px;
+        margin-top: -5px;
     }
 }
 
 .x-datepicker-input {
-	letter-spacing: 1px;
-	padding-left: 10px;
-	padding-right: 5px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 .options input, .cbox, .legend, .options x-datepicker, x-calendar, .calendar {
