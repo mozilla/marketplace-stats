@@ -1,4 +1,5 @@
 @import 'lib';
+
 .dashboards {
     margin-top: 50px;
 }
@@ -24,29 +25,21 @@ ul {
     list-style-position: inside;
 }
 
-ul.dashboards:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 ul.dashboards li {
-    background: #fcfcfc;
-    background: -moz-linear-gradient(top,  #fcfcfc 0%, #e7e7e7 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#e7e7e7));
-    background: -webkit-linear-gradient(top,  #fcfcfc 0%,#e7e7e7 100%);
-    background: -o-linear-gradient(top,  #fcfcfc 0%,#e7e7e7 100%);
-    background: -ms-linear-gradient(top,  #fcfcfc 0%,#e7e7e7 100%);
-    background: linear-gradient(to bottom,  #fcfcfc 0%,#e7e7e7 100%);
+    background-color: #e7e7e7;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#fcfcfc), to(#e7e7e7));
+    background-image: -webkit-linear-gradient(#fcfcfc, #e7e7e7);
+    background-image: linear-gradient(#fcfcfc, #e7e7e7);
+    background-repeat: repeat-x;
     border: 1px solid #ccc;
+    box-shadow: 0, 0 -2px 0 0 rgba(255,255,255,0.1) inset;
     border-radius: 15px;
     float: left;
     font-size: 15px;
     height: 40px;
     list-style-type: none;
     margin: 10px 60px 10px 0;
-    padding: 10px;
-    padding-left: 20px;
+    padding: 10px 10px 10px 20px;
     text-align: center;
     width: 290px;
 }
