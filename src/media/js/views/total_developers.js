@@ -6,7 +6,7 @@ define('views/total_developers', ['chartutils', 'l10n'], function(cutils, l10n) 
     var enableRegions = false;
 
     return function(builder) {
-        var chartTitle = gettext('Total Developers');
+        var chartTitle = gettext('Developers');
         var context = {title: chartTitle};
         if (enableRegions) context.regions = cutils.regions;
 

@@ -7,7 +7,7 @@ define('views/apps_available_by_premium', ['chartutils', 'l10n'],
     var enableRegions = true;
 
     return function(builder) {
-        var chartTitle = gettext('Total Apps by Payment Type');
+        var chartTitle = gettext('Apps by Payment Type');
         var context = {title: chartTitle};
         if (enableRegions) context.regions = cutils.regions;
 
