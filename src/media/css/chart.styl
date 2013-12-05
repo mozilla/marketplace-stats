@@ -9,8 +9,8 @@
 
 .line {
     fill: none;
-    stroke: steelblue;
-    stroke-width: 1.5px;
+    stroke: #4682b4;
+    stroke-width: 2px;
 }
 
 .tooltip {
@@ -124,8 +124,8 @@ x-calendar {
 
 .cbox, .legend, .options x-datepicker input {
     background-color: #fff;
-    border: 0;
-    box-shadow: 0 0 2px $castle-skull-gray inset;
+    border: 1px solid #cccccc;
+    /*box-shadow: 0 0 2px $castle-skull-gray inset;*/
 }
 
 .cbox {
@@ -211,14 +211,30 @@ em.worldwide {background-image: url(../img/icons/regions/worldwide.png);}
 
 .grid {
     .tick {
-        stroke: #eee;
+        stroke: #f0f0f0;
+        stroke-width:1px;
+        fill:none;
+        shape-rendering:crispedges;
     }
     path {
         stroke-width: 0;
     }
 }
 
+.y .tick line,
+.x .tick line {
+    display:none;
+}
+
+.y path,
+.x path { /* don't show lines for x and y axes */
+    display:none;
+    fill:none;
+}
+
 .bars {
+    margin-top:80px;
+
     .bar-wrapper {
         float: left;
         font-size: 13px;

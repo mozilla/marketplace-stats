@@ -6,7 +6,7 @@ define('views/apps_installed_total', ['chartutils', 'l10n'], function(cutils, l1
     var enableRegions = false;
 
     return function(builder) {
-        var chartTitle = gettext('Total Apps Installed (All Regions)');
+        var chartTitle = gettext('Apps Installed, All Regions');
         var context = {title: chartTitle};
         if (enableRegions) context.regions = cutils.regions;
 
