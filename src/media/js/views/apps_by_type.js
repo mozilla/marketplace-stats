@@ -6,6 +6,7 @@ define('views/apps_by_type', ['chartutils', 'l10n'], function(cutils, l10n) {
     var enableRegions = false;
 
     return function(builder) {
+        // L10n: This is the title of a chart representing the number of newly added apps split by app type.
         var chartTitle = gettext('New Apps by App Type');
         var context = {title: chartTitle};
         if (enableRegions) context.regions = cutils.regions;
