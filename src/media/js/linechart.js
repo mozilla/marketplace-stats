@@ -315,22 +315,35 @@ define('linechart', ['log'], function(log) {
                             })
                             .style('fill', function(d) {return color(series[i].name);})
                             .attr('class', function(d) {return series[i].name;})
-                            .on('mouseover', function(d) {
-                                tooltip.transition()
-                                       .duration(200)
-                                       .style('opacity', .9)
-                                       .style('background-color', this.style.fill);
-                                tooltip.html('<p class="timeinfo">' +
-                                                formatTime(d.date) +
-                                                '</p>' + valFormat(+d.count) + ' ' + lbls.tooltipValue)
-                                    .style('left', (d3.mouse(this)[0] + 95) + 'px')
-                                    .style('top', (d3.mouse(this)[1] + 130) + 'px');
-                            })
-                            .on('mouseout', function(d) {
-                                tooltip.transition()
-                                   .duration(500)
-                                   .style('opacity', 0);
-                            });
+                            .each(function(d) {
+								graphline.append('circle')
+									.attr('r', 12.5)
+									.style('opacity', 0)
+									.attr('cx', function() {return x(d.date);})
+									.attr('cy', function() {return y(d.count);})
+									.style('display', function() {
+										if (d.count === null && opts.dropNulls) return 'none';
+									})
+									.style('fill', function() {return color(series[i].name);})
+									.attr('class', function(d) {return "transparent_" + series[i].name;})
+									.on('mouseover', function() {
+										tooltip.transition()
+											.duration(0)
+											.style('opacity', .9)
+											.style('background-color', this.style.fill);
+											
+										tooltip.html('<p class="timeinfo">' +
+												formatTime(d.date) +
+												'</p>' + (+d.count) + " " + lbls.tooltipValue)
+											.style('left', (d3.mouse(this)[0] + 30) + 'px')
+											.style('top', (d3.mouse(this)[1] + 60) + 'px');
+									})
+									.on('mouseout', function() {
+										tooltip.transition()
+											.duration(500)
+											.style('opacity', 0);
+									})
+							});
             }
 
             if (opts.lineLabels) {

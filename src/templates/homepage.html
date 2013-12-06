@@ -3,12 +3,12 @@
     <h1>{{ _('Marketplace Statistics Dashboard') }}</h1>
     <h3 class="total-val installs">{{ _('Total App Installs:') }} </h3>
     <!--<h2>{{ _('Global charts available') }}</h2>-->
-    <ul class="dashboards">
+    <ul class="dashboards c">
       <li>
-        <a href="{{ url('total_developers') }}">{{ _('Total Developers') }}</a>
+        <a href="{{ url('total_developers') }}">{{ _('Developers') }}</a>
       </li>
       <li>
-        <a href="{{ url('total_visits') }}">{{ _('Total Visits') }}</a>
+        <a href="{{ url('total_visits') }}">{{ _('Visits') }}</a>
       </li>
       <li>
         <a href="{{ url('apps_added') }}">{{ _('New Apps by Payment Type') }}</a>
@@ -17,16 +17,16 @@
         <a href="{{ url('apps_by_type') }}">{{ _('New Apps by App Type') }}</a>
       </li>
       <li>
-        <a href="{{ url('apps_available_by_premium') }}">{{ _('Total Apps by Payment Type') }}</a>
+        <a href="{{ url('apps_available_by_premium') }}">{{ _('Apps by Payment Type') }}</a>
       </li>
       <li>
-        <a href="{{ url('apps_available_by_type') }}">{{ _('Total Apps by App Type') }}</a>
+        <a href="{{ url('apps_available_by_type') }}">{{ _('Apps by App Type') }}</a>
       </li>
       <li>
         <a href="{{ url('apps_installed') }}">{{ _('Apps Installed by Region') }}</a>
       </li>
       <li>
-        <a href="{{ url('apps_installed_total') }}">{{ _('Total Apps Installed') }}</a>
+        <a href="{{ url('apps_installed_total') }}">{{ _('Apps Installed') }}</a>
       </li>
       {# TODO: Implement 'RevenueStats:View' when available. #}
       {% if user.get_permission('admin') %}
