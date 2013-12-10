@@ -12,7 +12,7 @@
 define('linechart', ['log'], function(log) {
     var console = log('linechart');
     var maxValue = 0;
-    var margin = {top: 20, right: 30, bottom: 55, left: 50};
+    var margin = {top: 20, right: 30, bottom: 55, left: 80};
     var valFormat = d3.format(',d');
     var line;
     var parseDate = d3.time.format('%Y-%m-%d').parse;
@@ -69,6 +69,8 @@ define('linechart', ['log'], function(log) {
 
         var width = opts.width - margin.left - margin.right,
             height = opts.height - margin.top - margin.bottom;
+
+        valFormat = d3.format(',d');
 
         if (opts.valueFormat == 'currency') {
             valFormat = d3.format('$,');
