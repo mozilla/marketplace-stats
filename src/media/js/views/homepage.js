@@ -9,7 +9,7 @@ define('views/homepage', ['l10n', 'requests', 'urls'],
             requests.get(api('global_totals')).done(function(data) {
                 var $installs = $('.total-val.installs');
                 $installs.text(
-                    $installs.text() + d3.format(',d')(data.installs.total)
+                    $installs.text() + ' ' + d3.format(',d')(data.installs.total)
                 ).show();
             });
         });
