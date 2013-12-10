@@ -1,40 +1,41 @@
 <section class="main">
   {% if user.logged_in() %}
     <h1>{{ _('Marketplace Statistics Dashboard') }}</h1>
-    <h3 class="total-val installs">{{ _('Total App Installs:') }} </h3>
-    <!--<h2>{{ _('Global charts available') }}</h2>-->
-    <ul class="dashboards c">
-      <li>
-        <a href="{{ url('total_developers') }}">{{ _('Developers') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('total_visits') }}">{{ _('Visits') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('apps_added') }}">{{ _('New Apps by Payment Type') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('apps_by_type') }}">{{ _('New Apps by App Type') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('apps_available_by_premium') }}">{{ _('Apps by Payment Type') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('apps_available_by_type') }}">{{ _('Apps by App Type') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('apps_installed') }}">{{ _('Apps Installed by Region') }}</a>
-      </li>
-      <li>
-        <a href="{{ url('apps_installed_total') }}">{{ _('Apps Installed') }}</a>
-      </li>
-      {# TODO: Implement 'RevenueStats:View' when available. #}
-      {% if user.get_permission('admin') %}
+    {% if user.get_permission('admin') %}
+      <h3 class="total-val installs">{{ _('Total App Installs:') }} </h3>
+      <ul class="dashboards c">
         <li>
-          <a href="{{ url('gross_revenue') }}">{{ _('Gross Revenue') }}</a>
+          <a href="{{ url('total_developers') }}">{{ _('Developers') }}</a>
         </li>
-      {% endif %}
-    </ul>
+        <li>
+          <a href="{{ url('total_visits') }}">{{ _('Visits') }}</a>
+        </li>
+        <li>
+          <a href="{{ url('apps_added') }}">{{ _('New Apps by Payment Type') }}</a>
+        </li>
+        <li>
+          <a href="{{ url('apps_by_type') }}">{{ _('New Apps by App Type') }}</a>
+        </li>
+        <li>
+          <a href="{{ url('apps_available_by_premium') }}">{{ _('Apps by Payment Type') }}</a>
+        </li>
+        <li>
+          <a href="{{ url('apps_available_by_type') }}">{{ _('Apps by App Type') }}</a>
+        </li>
+        <li>
+          <a href="{{ url('apps_installed') }}">{{ _('Apps Installed by Region') }}</a>
+        </li>
+        <li>
+          <a href="{{ url('apps_installed_total') }}">{{ _('Apps Installed') }}</a>
+        </li>
+        {# TODO: Implement 'RevenueStats:View' when available. #}
+        <li>
+            <a href="{{ url('gross_revenue') }}">{{ _('Gross Revenue') }}</a>
+        </li>
+      </ul>
+    {% else %}
+      <h2>{{ _('The global statistics page is currently under development. Please try again later.') }}</h2>
+    {% endif %}
   {% else %}
     <div class="action-required c">
       <p class="notice">{{ _('Please sign in to proceed.') }}</p>
