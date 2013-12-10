@@ -1,9 +1,12 @@
 (function() {
 
 var languages = [
-    'bg', 'ca', 'cs', 'de', 'el', 'en-US', 'es', 'eu', 'fr', 'ga-IE', 'hr',
-    'hu', 'it', 'ja', 'mk', 'nl', 'pl', 'pt-BR', 'ro', 'ru', 'sk', 'sr',
-    'sr-Latn', 'tr', 'zh-TW', 'dbg'
+    // 'bg', 'ca', 'cs', 'de', 'el', 'en-US', 'es', 'eu', 'fr', 'ga-IE', 'hr',
+    // 'hu', 'it', 'ja', 'mk', 'nl', 'pl', 'pt-BR', 'ro', 'ru', 'sk', 'sr',
+    // 'sr-Latn', 'tr', 'zh-TW', 'dbg'
+
+    // See bug 948663.
+    'en-US'
 ];
 var body_langs;
 if (body_langs = document.body.getAttribute('data-languages')) {
