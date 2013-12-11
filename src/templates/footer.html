@@ -8,8 +8,8 @@
     <a href="https://support.mozilla.org/products/firefox-os/marketplace" target="_blank">{{ _('Support') }}</a>
   </div>
   <div class="language group links">
-    <span class="region region-{{ user.get_setting('region', 'worldwide') }}">
-      {{ REGIONS[user.get_setting('region', 'worldwide')] }}</span>
+    <a href="/settings" class="region region-{{ user_helpers.region('worldwide') }}">
+      {{ REGIONS[user.get_setting('region', 'worldwide')] }}</a>
     {% if user.get_permission('developer') %}
       <a href="/developers/submissions">{{ _('My Submissions') }}</a>
     {% endif %}
@@ -30,9 +30,9 @@
            cc_url='http://creativecommons.org/licenses/by-sa/3.0/') }}
     </p>
     <ul>
-      <li><a href="https://marketplace.firefox.com/privacy-policy">{{ _('Privacy Policy') }}</a></li>
-      <li><a href="https://marketplace.firefox.com/terms-of-use">{{ _('Terms of Use') }}</a></li>
-      <li><a href="http://mozilla.com/legal/fraud-report/index.html" target="_blank">
+      <li><a href="/privacy-policy">{{ _('Privacy Policy') }}</a></li>
+      <li><a href="/terms-of-use"> {{ _('Terms of Use') }}</a></li>
+      <li><a href="https://www.mozilla.org/legal/fraud-report/index.html" target="_blank">
         {{ _('Report Trademark Abuse') }}</a></li>
     </ul>
   </div>

@@ -32,6 +32,7 @@ require.config({
             'navigation',
             'templates',
             //'tracking',
+            'user_helpers',
             'user',
             'z'
         ],
@@ -46,6 +47,9 @@ require.config({
         var z = require('z');
 
         nunjucks.env.dev = true;
+
+        var nunjucks_globals = require('nunjucks').require('globals');
+        nunjucks_globals.user_helpers = require('user_helpers');
 
         z.body.addClass('html-' + require('l10n').getDirection());
 
