@@ -10,8 +10,6 @@ if (body_langs = document.body.getAttribute('data-languages')) {
     languages = JSON.parse(body_langs);
 }
 
-// See bug 948663.
-languages = ['en-US'];
 
 var lang_expander = {
     'en': 'en-US', 'ga': 'ga-IE',
