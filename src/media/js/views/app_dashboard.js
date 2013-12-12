@@ -9,10 +9,12 @@ define('views/app_dashboard', ['l10n', 'requests', 'urls', 'utils'],
             requests.get(
                 api('per_app_totals', [args[0]])
             ).done(function(data) {
-                var $installs = $('.total-val.installs');
-                $installs.text(
-                    $installs.text() + ' ' + d3.format(',d')(data.installs.total)
-                ).show();
+                if ($.isNumeric(data.installs.total)) {
+                    var $installs = $('.total-val.installs');
+                    $installs.text(
+                        $installs.text() + ' ' + d3.format(',d')(data.installs.total)
+                    ).show();
+                }
             });
         });
 
