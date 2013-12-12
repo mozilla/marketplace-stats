@@ -2,10 +2,18 @@
 <section class="main chart">
   {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
     {% if user.logged_in() %}
-      <h1>
-        {{ title }}:
-        <a href="{{ url('app_dashboard', [slug]) }}">{{ this.name|translate(this) }}</a>
-      </h1>
+      <nav class="sub c">
+        <h1>
+          {{ title }}:
+          <a href="{{ url('app_dashboard', [slug]) }}">{{ this.name|translate(this) }}</a>
+        </h1>
+        <ul>
+          {% if this.user.developed or user.get_permission('admin') %}
+            <li><a class="button alt" href="/developers/app/{{ slug }}/edit">{{ _('Edit Listing') }}</a></li>
+          {% endif %}
+          <li><a class="button alt" href="{{ url('homepage') }}">{{ _('Global Stats') }}</a></li>
+        </ul>
+      </nav>
       {% include 'includes/chartbody.html' %}
     {% else %}
       {% include 'includes/signin_required.html' %}
