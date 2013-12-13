@@ -9,7 +9,7 @@
   </div>
   <div class="language group links">
     <a href="/settings" class="region region-{{ user_helpers.region('worldwide') }}">
-      {{ REGIONS[user.get_setting('region', 'worldwide')] }}</a>
+      {{ REGIONS[user_helpers.region('worldwide')] }}</a>
     {% if user.get_permission('developer') %}
       <a href="/developers/submissions">{{ _('My Submissions') }}</a>
     {% endif %}
