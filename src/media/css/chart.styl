@@ -3,7 +3,7 @@
 small-button() {
     font-size: 13px;
     height: 26px;
-    line-height: 26px;
+    line-height: 25px;
 }
 
 .axis path, .axis line {
@@ -113,7 +113,7 @@ svg {
     padding-right: 5px;
 }
 
-.options input, .cbox, .legend, .options x-datepicker, x-calendar, .calendar {
+.options input, .cbox, .legend, .options x-datepicker, x-calendar, .calendar, .bar-wrapper {
     border-radius: 3px;
 }
 
@@ -234,14 +234,17 @@ em.worldwide {background-image: url(../img/icons/regions/worldwide.png);}
     margin-top: 80px;
 
     .bar-wrapper {
+        background-color: #fff;
         float: left;
         font-size: 13px;
         margin: 35px 45px 0 0;
+        padding: 10px 0;
         width: 290px;
         ul {
             list-style: none;
         }
         li {
+            margin-top: 1px;
             width: 282px;
         }
         &.double {
@@ -274,9 +277,6 @@ em.worldwide {background-image: url(../img/icons/regions/worldwide.png);}
     li {
         height: 25px;
         position: relative;
-        &:nth-child(odd) {
-            background-color: #eee;
-        }
     }
     time {
         left: 5px;
@@ -286,14 +286,21 @@ em.worldwide {background-image: url(../img/icons/regions/worldwide.png);}
     }
     em {
         font-style: normal;
-        margin: 4px 8px 0 0;
-        position: absolute;
-        right: 0;
-        z-index: 10;
+        color: #fff;
+        position: relative;
+        top: 4px;
+        left: -5px;
+        &.out {
+            color: $dark-gray;
+            margin-right: -15px;
+        }
     }
     span {
+        border-radius: 0 3px 3px 0;
         display: inline-block;
         height: 25px;
+        margin-left: 50px;
+        text-align: right;
     }
     .heading {
         text-align: center;

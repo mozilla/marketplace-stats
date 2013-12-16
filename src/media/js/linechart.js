@@ -27,6 +27,7 @@ define('linechart', ['log'], function(log) {
         return date.toISOString().split('T')[0];
     }
 
+    // Null series, if any, get hidden later.
     function isNullSeries(vals) {
         for (var i = 0; i < vals.length; i++) {
             if (vals[i].count !== null) return false;
@@ -387,9 +388,15 @@ define('linechart', ['log'], function(log) {
         }
 
         function barify(series, opts) {
+            // Bar widths.
+            var range = {
+                'single': 232,
+                'double': 408,
+                'full': 902
+            };
             var bars = d3.select('#bars').html('');
             var scale = d3.scale.linear().domain([0, maxValue])
-                          .range([0, 282]);
+                          .range([0, range.single]);
             var list = {};
             var container = {};
 
@@ -401,15 +408,15 @@ define('linechart', ['log'], function(log) {
                          .style('color', getSeriesColor(series[i]))
                          .text(getSeriesName(series[i]));
 
-                list = container.append('ul').attr('class', 'cbox');
+                list = container.append('ul');
 
                 if (series.length == 1) {
                     // Single element array, how lonely.
                     container.attr('class', 'bar-wrapper single');
-                    scale.range([0, 952]);
+                    scale.range([0, range.full]);
                 } else if (series.length == 2) {
                     container.attr('class', 'bar-wrapper double');
-                    scale.range([0, 458]);
+                    scale.range([0, range.double]);
                 }
 
                 list.selectAll('li')
@@ -423,20 +430,26 @@ define('linechart', ['log'], function(log) {
                         return d.date.toDateString().substring(3, 10);
                     })
                     .select(function() {return this.parentNode;})
+                    .append('span')
+                    .style('background-color', function(d) {
+                        return hex2rgba(getSeriesColor(series[i]), 1);
+                    })
+                    .style('width', function(d) {
+                        return scale(+d.count) + 'px';
+                    })
                     .append('em')
+                    .attr('class', function(d) {
+                        var valWidth = (+d.count + '').length * 12;
+                        if (d.count === null || scale(+d.count) < valWidth) {
+                            return 'out';
+                        }
+                        return '';
+                    })
                     .text(function(d) {
                         if (!opts.dropNulls) {
                             return +d.count;
                         }
                         return d.count;
-                    })
-                    .select(function() {return this.parentNode;})
-                    .append('span')
-                    .style('background-color', function(d) {
-                        return hex2rgba(getSeriesColor(series[i]), 0.2);
-                    })
-                    .style('width', function(d) {
-                        return scale(+d.count) + 'px';
                     });
             }
         }
