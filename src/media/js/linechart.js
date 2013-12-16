@@ -235,7 +235,7 @@ define('linechart', ['log'], function(log) {
             // Populate each series' values.
             for (var i = 0; i < series.length; i++) {
                 series[i].values = data[series[i].name].map(function(d) {
-                    return {date: d.date, count: d.count};
+                    return {date: d.date, count: d.count === null ? d.count : +d.count};
                 });
                 if (!series[i].values.length || isNullSeries(series[i].values)) {
                     console.log('Found empty series: ', series[i].name);
