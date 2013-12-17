@@ -69,6 +69,12 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                 url = urls.api.chartparams($this.data('src'), params);
             }
 
+            // Thanks aalmossawi.
+            var flatline = d3.svg.line()
+                .x(function(d) {return x(d.date);})
+                .y(function(d) {return 75;})
+                .interpolate('linear');
+
             line = d3.svg.line()
                          .interpolate('linear')
                          .x(function(d) {return x(d.date);})
@@ -94,7 +100,6 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
 
                 // `item` is the key of each line (series).
                 for (item in data) {
-                    console.log('Reading graph: ', item);
                     data[item].forEach(function(d) {
                         d.date = parseDate(d.date);
                         dates.push(d.date);
@@ -121,20 +126,22 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                 }
 
                 series = realSeries;
-                y.domain([getMinValue(series), getMaxValue(series)]);
+                y.domain([0, getMaxValue(series)]);
 
                 var graphline = svg.selectAll('.graphline').data(series)
                                    .enter()
                                    .append('g')
                                    .append('path')
                                    .attr('class', 'line')
-                                   .attr('d', function(d) {return line(d.values);})
-                                   .style('stroke', getSeriesColor);
+                                   .attr('d', function(d) {return flatline(d.values);})
+                                   .style('stroke', getSeriesColor)
+                                   .transition().duration(1000)
+                                   .attr('d', function(d) {return line(d.values);});
 
                 console.log('dash chart created');
 
               }).on('error', function(error) {
-                console.log('error happened', error);
+                console.log('dash chart error', error);
               }).get();
         });
     }
@@ -377,6 +384,11 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                    .style('text-anchor', 'end')
                    .text(lbls.yAxis);
 
+            var flatline = d3.svg.line()
+                .x(function(d) {return x(d.date);})
+                .y(function(d) {return 200;})
+                .interpolate('linear');
+
             // Add grid lines.
             /*
             svg.append('g')
@@ -397,18 +409,10 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
 
             var path = graphline.append('path')
                      .attr('class', 'line')
+                     .attr('d', function(d) {return flatline(d.values);})
+                     .transition().delay(1000)
                      .attr('d', function(d) {return line(d.values);})
                      .style('stroke', getSeriesColor);
-
-            var pathLength = path.node().getTotalLength();
-
-            graphline
-                .attr('stroke-dasharray', pathLength + ',' + pathLength)
-                .attr('stroke-dashoffset', pathLength)
-                .transition()
-                .duration(1000)
-                .ease('linear-in-out')
-                .attr('stroke-dashoffset', 0);
 
             // Inject tooltips while hiding `null` values.
             for (i = 0; i < series.length; i++) {
@@ -439,7 +443,9 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                                 tooltip.transition()
                                    .duration(500)
                                    .style('opacity', 0);
-                            });
+                            })
+                            .transition().delay(1000)
+                            .style('opacity', 1);
             }
 
             if (opts.lineLabels) {

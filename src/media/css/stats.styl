@@ -40,9 +40,9 @@ $dash-tile-width = 290px;
     }
     // This will need some RTL love eventually.
     a {
-        background-color: rgba(255,255,255,0.7);
         color: #fff;
         display: block;
+        font-weight: 600;
         height: 100%;
         padding: 10px;
         position: absolute;
@@ -52,12 +52,13 @@ $dash-tile-width = 290px;
             text-decoration: none;
         }
         span {
-            border-radius: 3px 0 0 0;
+            border-radius: 3px;
             display: block;
-            gradientLeft(unquote('rgba(228,97,3,1) 0%, rgba(228,97,3,0) 100%'));
-            line-height: 30px;
+            gradientLeft(unquote('rgba(228,97,3,1) 0%, rgba(228,97,3,0.4) 100%'));
+            line-height: 150px;
             margin: -10px 0 0 -10px;
             padding: 0 10px;
+            width: 290px;
         }
     }
     li, a {
