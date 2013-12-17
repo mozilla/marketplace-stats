@@ -9,7 +9,7 @@
  * graphline: container of the SVG tooltip circles and path.
  *
  */
-define('linechart', ['log'], function(log) {
+define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
     var console = log('linechart');
     var maxValue = 0;
     var margin = {top: 20, right: 30, bottom: 55, left: 80};
@@ -22,11 +22,6 @@ define('linechart', ['log'], function(log) {
     var transTime = 500;
     var color = d3.scale.category10();
 
-    // We need the first piece only. "2013-09-10T23:14:06.641Z" to "2013-09-10"
-    function getISODate(date) {
-        return date.toISOString().split('T')[0];
-    }
-
     // Null series, if any, get hidden later.
     function isNullSeries(vals) {
         for (var i = 0; i < vals.length; i++) {
@@ -38,15 +33,116 @@ define('linechart', ['log'], function(log) {
     function getSeriesName(s) {return s.name;}
     function getSeriesColor(s) {return color(s.name);}
 
-    // Credit to ngoke and potch.
-    function hex2rgba(hex, o) {
-        hex = parseInt(hex.substring(hex[0] == '#' ? 1 : 0), 16);
-        return 'rgba(' +
-            (hex >> 16) + ',' +
-            ((hex & 0x00FF00) >> 8) + ',' +
-            (hex & 0x0000FF) + ',' + o + ')';
+    function getMinValue(series) {
+        return d3.min(series, function(c) {
+            return d3.min(c.values, function(v) {return v.count;});
+        });
     }
 
+    function getMaxValue(series) {
+        return d3.max(series, function(c) {
+            return d3.max(c.values, function(v) {return v.count;});
+        });
+    }
+
+    function createSparkLines(slug) {
+        var width = 290;
+        var height = 150;
+        var x = d3.time.scale().range([0, width]);
+        var y = d3.scale.linear().range([height, 0]);
+        var range = ml.getRecentTimeDelta(30);
+        var url = '';
+
+        var params = {
+            'start': range.start,
+            'end': range.end,
+            'interval': 'day',
+            'region': 'worldwide'
+        };
+
+        $('.dashboard li a').each(function() {
+            var $this = $(this);
+
+            if (slug) {
+                url = urls.api.charturl($this.data('src'), [slug], params);
+            } else {
+                url = urls.api.chartparams($this.data('src'), params);
+            }
+
+            line = d3.svg.line()
+                         .interpolate('linear')
+                         .x(function(d) {return x(d.date);})
+                         .y(function(d) {return y(+d.count);})
+                         .defined(function(d) {return d.count !== null;});
+
+            // Clear previous if any.
+            $this.parent().remove('svg');
+
+            var svg = d3.select(this.parentNode).insert('svg')
+                        .attr('width', width)
+                        .attr('height', height)
+                        .append('g');
+
+            d3.json(url)
+              .on('load', function(data) {
+                var series = [],
+                    dates = [], // to store 'extent' for dates
+                    valAxis = [],
+                    realSeries = [];
+
+                color.domain(d3.keys(data));
+
+                // `item` is the key of each line (series).
+                for (item in data) {
+                    console.log('Reading graph: ', item);
+                    data[item].forEach(function(d) {
+                        d.date = parseDate(d.date);
+                        dates.push(d.date);
+                    });
+                    // Populate each series' name.
+                    series = color.domain().map(function(name) {
+                        return {name: name};
+                    });
+                }
+
+                x.domain(d3.extent(dates, function(d) {
+                    return d;
+                }));
+
+                // Populate each series' values.
+                for (var i = 0; i < series.length; i++) {
+                    series[i].values = data[series[i].name].map(function(d) {
+                        return {date: d.date, count: d.count === null ? d.count : +d.count};
+                    });
+                    if (!series[i].values.length || isNullSeries(series[i].values)) {
+                    } else {
+                        realSeries.push(series[i]);
+                    }
+                }
+
+                series = realSeries;
+                y.domain([getMinValue(series), getMaxValue(series)]);
+
+                var graphline = svg.selectAll('.graphline').data(series)
+                                   .enter()
+                                   .append('g')
+                                   .append('path')
+                                   .attr('class', 'line')
+                                   .attr('d', function(d) {return line(d.values);})
+                                   .style('stroke', getSeriesColor);
+
+                console.log('dash chart created');
+
+              }).on('error', function(error) {
+                console.log('error happened', error);
+              }).get();
+        });
+    }
+
+    /* Create a full single or multi-series line chart.
+     * lbls - required labels object with translated axis, values etc.
+     * options - required options object with some defaults as set below.
+     */
     function createLineChart(lbls, options) {
         var opts = {
             container: document.getElementById('chart'),
@@ -110,7 +206,7 @@ define('linechart', ['log'], function(log) {
             .outerRadius(180);
 
         line = d3.svg.line()
-                     .interpolate('monotone')
+                     .interpolate('linear')
                      .x(function(d) {return x(d.date);})
                      .y(function(d) {return y(+d.count);});
 
@@ -299,10 +395,20 @@ define('linechart', ['log'], function(log) {
                                     return 'graphline ' + d.name;
                                });
 
-            graphline.append('path')
+            var path = graphline.append('path')
                      .attr('class', 'line')
                      .attr('d', function(d) {return line(d.values);})
                      .style('stroke', getSeriesColor);
+
+            var pathLength = path.node().getTotalLength();
+
+            graphline
+                .attr('stroke-dasharray', pathLength + ',' + pathLength)
+                .attr('stroke-dashoffset', pathLength)
+                .transition()
+                .duration(1000)
+                .ease('linear-in-out')
+                .attr('stroke-dashoffset', 0);
 
             // Inject tooltips while hiding `null` values.
             for (i = 0; i < series.length; i++) {
@@ -424,7 +530,7 @@ define('linechart', ['log'], function(log) {
                     .enter().append('li')
                     .append('time')
                     .attr('datetime', function(d) {
-                        return getISODate(d.date);
+                        return ml.getISODate(d.date);
                     })
                     .text(function(d) {
                         return d.date.toDateString().substring(3, 10);
@@ -432,7 +538,7 @@ define('linechart', ['log'], function(log) {
                     .select(function() {return this.parentNode;})
                     .append('span')
                     .style('background-color', function(d) {
-                        return hex2rgba(getSeriesColor(series[i]), 1);
+                        return ml.hex2rgba(getSeriesColor(series[i]), 1);
                     })
                     .style('width', function(d) {
                         return scale(+d.count) + 'px';
@@ -479,23 +585,11 @@ define('linechart', ['log'], function(log) {
             svg.selectAll('circle').transition().duration(transTime)
                     .attr('cy', function(d) {return y(d.count);})
         }
-
-        function getMinValue(series) {
-            return d3.min(series, function(c) {
-                return d3.min(c.values, function(v) {return v.count;});
-            });
-        }
-
-        function getMaxValue(series) {
-            return d3.max(series, function(c) {
-                return d3.max(c.values, function(v) {return v.count;});
-            });
-        }
     }
 
     return {
         'createLineChart': createLineChart,
-        'getISODate': getISODate
+        'createSparkLines': createSparkLines
     };
 });
 

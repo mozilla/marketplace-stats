@@ -1,5 +1,5 @@
-define('views/homepage', ['l10n', 'requests', 'urls'],
-       function(l10n, requests, urls) {
+define('views/homepage', ['l10n', 'linechart', 'requests', 'urls'],
+       function(l10n, linechart, requests, urls) {
 
     var gettext = l10n.gettext;
     var api = urls.api.url;
@@ -14,6 +14,8 @@ define('views/homepage', ['l10n', 'requests', 'urls'],
                     ).show();
                 }
             });
+
+            linechart.createSparkLines();
         });
 
         builder.z('type', 'root');

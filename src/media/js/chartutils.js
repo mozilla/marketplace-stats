@@ -1,11 +1,11 @@
-define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', 'utils', 'z'],
-       function(linechart, notification, settings, urls, user, utils, z) {
+define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls', 'user', 'utils', 'z'],
+       function(linechart, ml, notification, settings, urls, user, utils, z) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;
     var interval = 'day';
-    var start = getRecentTimeDelta().start;
-    var end = getRecentTimeDelta().end;
+    var start = ml.getRecentTimeDelta(dayrange).start;
+    var end = ml.getRecentTimeDelta(dayrange).end;
     var region = user.get_setting('region') || 'us';
     var params = utils.getVars();
     var doRedirect = false;
@@ -44,17 +44,6 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
         $rng.eq(1).val(end);
     }
 
-    // Uses string concatenation to preserve pretty param order.
-    function getNewURL(apiName, start, end, region, slug) {
-        var segment = '?start=' + start + '&end=' + end;
-        if (region) segment += '&region=' + region;
-
-        if (slug) {
-            return urls.reverse(apiName, [slug]) + segment;
-        }
-        return urls.reverse(apiName) + segment;
-    }
-
     // lblValue...remember Visual Basic?
     // Optional args: opts, slug
     function createChart(apiName, lblValue, lblYAxis, opts, slug) {
@@ -66,7 +55,7 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
             }
         }
 
-        var newURL = getNewURL(apiName, start, end, region, slug);
+        var newURL = ml.getNewURL(apiName, start, end, region, slug);
         var options = {};
         var $range = $('#range x-datepicker');
         var $regions = $('.regions select');
@@ -81,7 +70,7 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
             $regions.on('change.updateregion', function() {
                 region = this.value;
                 $icon.removeClass().addClass(region);
-                newURL = getNewURL(apiName, start, end, region, slug);
+                newURL = ml.getNewURL(apiName, start, end, region, slug);
                 z.page.trigger('divert', [newURL]);
             }).find('option[value=' + region + ']').prop('selected', true);
         }
@@ -101,7 +90,7 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
                 end = $range.eq(0).val();
                 start = $range.eq(1).val();
                 updateRange($range, start, end);
-                z.page.trigger('divert', [getNewURL(apiName, start, end, region, slug)]);
+                z.page.trigger('divert', [ml.getNewURL(apiName, start, end, region, slug)]);
             });
         } else if (start == end) {
             notify({message: gettext('Please enter a valid date range')});
@@ -180,18 +169,6 @@ define('chartutils', ['linechart', 'notification', 'settings', 'urls', 'user', '
         end = new Date(aEnd[0], aEnd[1], aEnd[2]);
 
         return (start - end) > 0;
-    }
-
-    function getRecentTimeDelta() {
-        var today = new Date();
-        var yesterday = new Date(today.setDate(today.getDate() - 1));
-        var end = linechart.getISODate(yesterday);
-        var start = new Date();
-
-        start.setDate(yesterday.getDate() - dayrange);
-        start = linechart.getISODate(start);
-
-        return {start: start, end: end};
     }
 
     return {

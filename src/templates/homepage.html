@@ -3,34 +3,34 @@
     <h1>{{ _('Marketplace Statistics Dashboard') }}</h1>
     {% if user.get_permission('admin') %}
       <h3 class="total-val installs">{{ _('Total App Installs:') }} </h3>
-      <ul class="dashboards c">
+      <ul class="dashboard c">
         <li>
-          <a href="{{ url('total_developers') }}">{{ _('Developers') }}</a>
+          <a href="{{ url('total_developers') }}" data-src="total_developers"><span>{{ _('Developers') }}</span></a>
         </li>
         <li>
-          <a href="{{ url('total_visits') }}">{{ _('Visits') }}</a>
+          <a href="{{ url('total_visits') }}" data-src="total_visits"><span>{{ _('Visits') }}</span></a>
         </li>
         <li>
-          <a href="{{ url('apps_added') }}">{{ _('New Apps by Payment Type') }}</a>
+          <a href="{{ url('apps_added') }}" data-src="apps_added"><span>{{ _('New Apps by Payment Type') }}</span></a>
         </li>
         <li>
-          <a href="{{ url('apps_by_type') }}">{{ _('New Apps by App Type') }}</a>
+          <a href="{{ url('apps_by_type') }}" data-src="apps_available_by_type"><span>{{ _('New Apps by App Type') }}</span></a>
         </li>
         <li>
-          <a href="{{ url('apps_available_by_premium') }}">{{ _('Apps by Payment Type') }}</a>
+          <a href="{{ url('apps_available_by_premium') }}" data-src="apps_available_by_premium"><span>{{ _('Apps by Payment Type') }}</span></a>
         </li>
         <li>
-          <a href="{{ url('apps_available_by_type') }}">{{ _('Apps by App Type') }}</a>
+          <a href="{{ url('apps_available_by_type') }}" data-src="apps_available_by_type"><span>{{ _('Apps by App Type') }}</span></a>
         </li>
         <li>
-          <a href="{{ url('apps_installed') }}">{{ _('Apps Installed by Region') }}</a>
+          <a href="{{ url('apps_installed') }}" data-src="apps_installed"><span>{{ _('Apps Installed by Region') }}</span></a>
         </li>
         <li>
-          <a href="{{ url('apps_installed_total') }}">{{ _('Apps Installed') }}</a>
+          <a href="{{ url('apps_installed_total') }}" data-src="apps_installed_total"><span>{{ _('Apps Installed') }}</span></a>
         </li>
         {# TODO: Implement 'RevenueStats:View' when available. #}
         <li>
-            <a href="{{ url('gross_revenue') }}">{{ _('Gross Revenue') }}</a>
+            <a href="{{ url('gross_revenue') }}" data-src="gross_revenue"><span>{{ _('Gross Revenue') }}</span></a>
         </li>
       </ul>
     {% else %}
