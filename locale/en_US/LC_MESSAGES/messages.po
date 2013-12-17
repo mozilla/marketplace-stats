@@ -1,1 +1,376 @@
+#: /templates/app_dashboard.html:6
+msgid "Statistics Dashboard"
+msgstr "Statistics Dashboard"
 
+#: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
+msgid "Edit Listing"
+msgstr "Edit Listing"
+
+#: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
+msgid "Global Stats"
+msgstr "Global Stats"
+
+#: /templates/app_dashboard.html:14
+msgid "Number of Installs:"
+msgstr "Number of Installs:"
+
+#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+msgid "Installs"
+msgstr "Installs"
+
+#: /templates/app_dashboard.html:20 /templates/homepage.html:10 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /media/js/views/total_visits.js:17
+msgid "Visits"
+msgstr "Visits"
+
+#: /templates/app_dashboard.html:24 /templates/homepage.html:32 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+msgid "Gross Revenue"
+msgstr "Gross Revenue"
+
+#: /templates/app_dashboard.html:29
+msgid "No public statistics are available"
+msgstr "No public statistics are available"
+
+#: /templates/app_dashboard.html:33 /templates/homepage.html:40 /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Please sign in to proceed."
+
+#: /templates/app_dashboard.html:34 /templates/homepage.html:41 /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Close"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Yes"
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Develop Apps"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Developer Hub"
+
+#: /templates/footer.html:6
+msgid "Feedback"
+msgstr "Feedback"
+
+#: /templates/footer.html:7
+msgid "Support"
+msgstr "Support"
+
+#: /templates/footer.html:13
+msgid "My Submissions"
+msgstr "My Submissions"
+
+#: /templates/footer.html:16
+msgid "Reviewer Tools"
+msgstr "Reviewer Tools"
+
+#: /templates/footer.html:19
+msgid "Lookup Tool"
+msgstr "Lookup Tool"
+
+#: /templates/footer.html:27
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+
+#: /templates/footer.html:32
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: /templates/footer.html:33
+msgid "Terms of Use"
+msgstr "Terms of Use"
+
+#: /templates/footer.html:35
+msgid "Report Trademark Abuse"
+msgstr "Report Trademark Abuse"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistics"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Sign In"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Sample Chart"
+
+#: /templates/homepage.html:2
+msgid "Marketplace Statistics Dashboard"
+msgstr "Marketplace Statistics Dashboard"
+
+#: /templates/homepage.html:4
+msgid "Total App Installs:"
+msgstr "Total App Installs:"
+
+#: /templates/homepage.html:7 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Developers"
+
+#: /templates/homepage.html:13 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "New Apps by Payment Type"
+
+#: /templates/homepage.html:16 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "New Apps by App Type"
+
+#: /templates/homepage.html:19 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Apps by Payment Type"
+
+#: /templates/homepage.html:22 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Apps by App Type"
+
+#: /templates/homepage.html:25 /media/js/views/apps_installed.js:10
+msgid "Apps Installed by Region"
+msgstr "Apps Installed by Region"
+
+#: /templates/homepage.html:28
+msgid "Apps Installed"
+msgstr "Apps Installed"
+
+#: /templates/homepage.html:36
+msgid "The global statistics page is currently under development. Please try again later."
+msgstr "The global statistics page is currently under development. Please try again later."
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh no!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error loading more"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Try Again"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "From"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "To"
+
+#: /templates/includes/chartbody.html:14
+msgid "Update"
+msgstr "Update"
+
+#: /templates/includes/chartbody.html:17
+msgid "No data found"
+msgstr "No data found"
+
+#: /media/js/chartutils.js:24
+msgid "Server error detected. Please try again later."
+msgstr "Server error detected. Please try again later."
+
+#: /media/js/chartutils.js:25
+msgid "The statistics endpoint requested is invalid."
+msgstr "The statistics endpoint requested is invalid."
+
+#: /media/js/chartutils.js:26
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Authentication failure detected. The data you are trying to access is not public."
+
+#: /media/js/chartutils.js:27
+msgid "The statistics data request is incomplete or invalid."
+msgstr "The statistics data request is incomplete or invalid."
+
+#: /media/js/chartutils.js:28
+msgid "An unknown server error was detected. Please try again later."
+msgstr "An unknown server error was detected. Please try again later."
+
+#: /media/js/chartutils.js:98
+msgid "You have entered a negative date range. Reverse?"
+msgstr "You have entered a negative date range. Reverse?"
+
+#: /media/js/chartutils.js:107
+msgid "Please enter a valid date range"
+msgstr "Please enter a valid date range"
+
+#: /media/js/login.js:8
+msgid "You have been signed out"
+msgstr "You have been signed out"
+
+#: /media/js/login.js:12
+msgid "You have been signed in"
+msgstr "You have been signed in"
+
+#: /media/js/login.js:127
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Persona login failed. Maybe you don't have an account under that email address?"
+
+#: /media/js/login.js:132
+msgid "Persona login failed. A server error was encountered."
+msgstr "Persona login failed. A server error was encountered."
+
+#: /media/js/navigation.js:31
+msgid "No internet connection"
+msgstr "No internet connection"
+
+#: /media/js/settings.js:28
+msgid "Argentina"
+msgstr "Argentina"
+
+#: /media/js/settings.js:29
+msgid "Brazil"
+msgstr "Brazil"
+
+#: /media/js/settings.js:30
+msgid "China"
+msgstr "China"
+
+#: /media/js/settings.js:31
+msgid "Colombia"
+msgstr "Colombia"
+
+#: /media/js/settings.js:32
+msgid "Germany"
+msgstr "Germany"
+
+#: /media/js/settings.js:33
+msgid "Spain"
+msgstr "Spain"
+
+#: /media/js/settings.js:34
+msgid "Greece"
+msgstr "Greece"
+
+#: /media/js/settings.js:35
+msgid "Hungary"
+msgstr "Hungary"
+
+#: /media/js/settings.js:36
+msgid "Italy"
+msgstr "Italy"
+
+#: /media/js/settings.js:37
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: /media/js/settings.js:38
+msgid "Mexico"
+msgstr "Mexico"
+
+#: /media/js/settings.js:39
+msgid "Peru"
+msgstr "Peru"
+
+#: /media/js/settings.js:40
+msgid "Poland"
+msgstr "Poland"
+
+#: /media/js/settings.js:41
+msgid "Serbia"
+msgstr "Serbia"
+
+#: /media/js/settings.js:42
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: /media/js/settings.js:43
+msgid "United States"
+msgstr "United States"
+
+#: /media/js/settings.js:44
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: /media/js/settings.js:45
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: /media/js/settings.js:46
+msgid "Worldwide"
+msgstr "Worldwide"
+
+#. {n} is the number of characters left.
+#: /media/js/utils.js:28
+msgid "<b>{n}</b> character left."
+msgid_plural "<b>{n}</b> characters left."
+msgstr[0] "<b>{n}</b> character left."
+msgstr[1] "<b>{n}</b> characters left."
+
+#: /media/js/views/app_dashboard.js:22
+msgid "Loading..."
+msgstr "Loading..."
+
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
+msgid "Apps"
+msgstr "Apps"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
+msgid "Number of Apps"
+msgstr "Number of Apps"
+
+#. This is the title of a chart representing the number of apps installed for all regions.
+#: /media/js/views/apps_installed_total.js:10
+msgid "Apps Installed, All Regions"
+msgstr "Apps Installed, All Regions"
+
+#: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
+msgid "Revenue"
+msgstr "Revenue"
+
+#: /media/js/views/gross_revenue.js:18
+msgid "Daily Total"
+msgstr "Daily Total"
+
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Home"
+
+#. Page not found (404)
+#: /media/js/views/not_found.js:9
+msgid "Not Found"
+msgstr "Not Found"
+
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "Number of Installs"
+
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "Total Revenue"
+
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "Number of Visits"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "Number of Developers"
