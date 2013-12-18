@@ -444,7 +444,7 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                                    .duration(500)
                                    .style('opacity', 0);
                             })
-                            .transition().delay(1000)
+                            .transition().delay(1500)
                             .style('opacity', 1);
             }
 
