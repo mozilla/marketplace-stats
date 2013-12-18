@@ -13,16 +13,16 @@
           </ul>
         </nav>
         <h3 class="total-val installs">{{ _('Number of Installs:') }} </h3>
-        <ul>
+        <ul class="dashboard c">
           <li>
-            <a href="{{ url('per_app_installs', [slug]) }}">{{ _('Installs') }}</a>
+            <a href="{{ url('per_app_installs', [slug]) }}" data-src="per_app_installs"><span>{{ _('Installs') }}</span></a>
           </li>
           <li>
-            <a href="{{ url('per_app_visits', [slug]) }}">{{ _('Visits') }}</a>
+            <a href="{{ url('per_app_visits', [slug]) }}" data-src="per_app_visits"><span>{{ _('Visits') }}</span></a>
           </li>
           {% if this.premium_type != 'free' and is_superuser %}
             <li>
-              <a href="{{ url('per_app_revenue', [slug]) }}">{{ _('Gross Revenue') }}</a>
+              <a href="{{ url('per_app_revenue', [slug]) }}" data-src="per_app_revenue"><span>{{ _('Gross Revenue') }}</span></a>
             </li>
           {% endif %}
         </ul>
