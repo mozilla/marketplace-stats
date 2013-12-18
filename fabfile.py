@@ -12,6 +12,7 @@ fabdeploytools.envs.loadenv(os.path.join('/etc/deploytools/envs',
                                          settings.CLUSTER))
 MARKETPLACE_STATS = os.path.dirname(__file__)
 ROOT = os.path.dirname(MARKETPLACE_STATS)
+COMMONPLACE = '%s/node_modules/commonplace/bin/commonplace' % MARKETPLACE_STATS
 
 
 @task
@@ -27,8 +28,8 @@ def update():
     with lcd(MARKETPLACE_STATS):
         local('npm install')
         local('npm install --force commonplace@0.2.2')
-        local('commonplace includes')
-        local('commonplace langpacks')
+        local('%s includes' % COMMONPLACE)
+        local('%s langpacks' % COMMONPLACE)
 
 
 @task
