@@ -1,5 +1,5 @@
-define('views/app_dashboard', ['l10n', 'requests', 'urls', 'utils'],
-       function(l10n, requests, urls, utils) {
+define('views/app_dashboard', ['l10n', 'linechart', 'requests', 'urls', 'utils'],
+       function(l10n, linechart, requests, urls, utils) {
 
     var gettext = l10n.gettext;
     var api = urls.api.url;
@@ -16,6 +16,8 @@ define('views/app_dashboard', ['l10n', 'requests', 'urls', 'utils'],
                     ).show();
                 }
             });
+
+            linechart.createSparkLines(args[0]);
         });
 
         builder.z('type', 'root');
