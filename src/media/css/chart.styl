@@ -175,25 +175,11 @@ x-datepicker {
     }
 }
 
-em.ar {background-image: url(../img/icons/regions/ar.png);}
-em.br {background-image: url(../img/icons/regions/br.png);}
-em.cn {background-image: url(../img/icons/regions/cn.png);}
-em.co {background-image: url(../img/icons/regions/co.png);}
-em.de {background-image: url(../img/icons/regions/de.png);}
-em.es {background-image: url(../img/icons/regions/es.png);}
-em.gr {background-image: url(../img/icons/regions/gr.png);}
-em.hu {background-image: url(../img/icons/regions/hu.png);}
-em.it {background-image: url(../img/icons/regions/it.png);}
-em.me {background-image: url(../img/icons/regions/me.png);}
-em.mx {background-image: url(../img/icons/regions/mx.png);}
-em.pe {background-image: url(../img/icons/regions/pe.png);}
-em.pl {background-image: url(../img/icons/regions/pl.png);}
-em.rs {background-image: url(../img/icons/regions/rs.png);}
-em.uk {background-image: url(../img/icons/regions/uk.png);}
-em.us {background-image: url(../img/icons/regions/us.png);}
-em.uy {background-image: url(../img/icons/regions/uy.png);}
-em.ve {background-image: url(../img/icons/regions/ve.png);}
-em.worldwide {background-image: url(../img/icons/regions/worldwide.png);}
+// TODO(spasovski): Be DRY and don't redefine the ones in `stats.styl`.
+for region in ar br cl cn co de es gr gr hu it me mx pe pl rs uk us uy ve worldwide
+    em.{region} {
+        background-image: url(unquote('../img/icons/regions/' + region + '.png'));
+    }
 
 .extras, .total-val {
     display: none;
