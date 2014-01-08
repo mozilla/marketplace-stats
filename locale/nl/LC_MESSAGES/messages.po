@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-17T19:30:47.061Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
 "PO-Revision-Date: 2013-12-19 11:50+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,72 +67,6 @@ msgstr "Nee"
 msgid "Yes"
 msgstr "Ja"
 
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Apps ontwikkelen"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Ontwikkelaarshub"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Feedback"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Ondersteuning"
-
-#: /templates/footer.html:13
-msgid "My Submissions"
-msgstr "Mijn bijdragen"
-
-#: /templates/footer.html:16
-msgid "Reviewer Tools"
-msgstr "Beoordelaarshulpmiddelen"
-
-#: /templates/footer.html:19
-msgid "Lookup Tool"
-msgstr "Zoekhulpmiddel"
-
-#: /templates/footer.html:27
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Tenzij anders <a href=\"{legal_url}\" target=\"_blank\">vermeld</a>, is op de "
-"inhoud van deze website de <a href=\"{cc_url}\" target=\"_blank\">Creative "
-"Commons Attribution Share-Alike License v3.0</a> of latere versie van "
-"toepassing."
-
-#: /templates/footer.html:32
-msgid "Privacy Policy"
-msgstr "Privacybeleid"
-
-#: /templates/footer.html:33
-msgid "Terms of Use"
-msgstr "Gebruiksvoorwaarden"
-
-#: /templates/footer.html:35
-msgid "Report Trademark Abuse"
-msgstr "Misbruik van handelsmerk melden"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistieken"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Voorbeeldgrafiek"
-
 #: /templates/homepage.html:2
 msgid "Marketplace Statistics Dashboard"
 msgstr "Marketplace-statistiekendashboard"
@@ -171,9 +105,88 @@ msgstr "Geïnstalleerde apps"
 
 #: /templates/homepage.html:36
 msgid "The global statistics page is currently under development. Please try again later."
+msgstr "De pagina met algemene statistieken is momenteel in ontwikkeling. Probeer het later nog eens."
+
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Apps ontwikkelen"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Ontwikkelaarshub"
+
+#: /templates/footer.html:6
+msgid "Feedback"
+msgstr "Feedback"
+
+#: /templates/footer.html:7
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: /templates/footer.html:13
+msgid "My Submissions"
+msgstr "Mijn bijdragen"
+
+#: /templates/footer.html:16
+msgid "Reviewer Tools"
+msgstr "Beoordelaarshulpmiddelen"
+
+#: /templates/footer.html:19
+msgid "Lookup Tool"
+msgstr "Zoekhulpmiddel"
+
+#: /templates/footer.html:27
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"De pagina met algemene statistieken is momenteel in ontwikkeling. Probeer "
-"het later nog eens."
+"Tenzij anders <a href=\"{legal_url}\" target=\"_blank\">vermeld</a>, is op de inhoud van deze website de <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
+"v3.0</a> of latere versie van toepassing."
+
+#: /templates/footer.html:32
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: /templates/footer.html:33
+msgid "Terms of Use"
+msgstr "Gebruiksvoorwaarden"
+
+#: /templates/footer.html:35
+msgid "Report Trademark Abuse"
+msgstr "Misbruik van handelsmerk melden"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Voorbeeldgrafiek"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "Van"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "Aan"
+
+# werkwoord?
+#: /templates/includes/chartbody.html:14
+msgid "Update"
+msgstr "Bijwerken"
+
+#: /templates/includes/chartbody.html:17
+msgid "This data is restricted or no data found"
+msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -195,23 +208,6 @@ msgstr "Fout bij het laden van meer"
 msgid "Try Again"
 msgstr "Opnieuw proberen"
 
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "Van"
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "Aan"
-
-# werkwoord?
-#: /templates/includes/chartbody.html:14
-msgid "Update"
-msgstr "Bijwerken"
-
-#: /templates/includes/chartbody.html:17
-msgid "No data found"
-msgstr "Geen gegevens gevonden"
-
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
 msgstr "Serverfout gedetecteerd. Probeer het later nog eens."
@@ -222,9 +218,7 @@ msgstr "Het gevraagde statistiekeneindpunt is ongeldig."
 
 #: /media/js/chartutils.js:26
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
-"Authenticatiefout gedetecteerd. De gegevens die u probeert te benaderen zijn "
-"niet openbaar."
+msgstr "Authenticatiefout gedetecteerd. De gegevens die u probeert te benaderen zijn niet openbaar."
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
@@ -232,14 +226,13 @@ msgstr "De aanvraag voor statistiekgegevens is onvolledig of ongeldig."
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Er is een onbekende serverfout gedetecteerd. Probeer het later nog eens."
+msgstr "Er is een onbekende serverfout gedetecteerd. Probeer het later nog eens."
 
-#: /media/js/chartutils.js:98
+#: /media/js/chartutils.js:87
 msgid "You have entered a negative date range. Reverse?"
 msgstr "U hebt een negatief datumbereik ingevoerd. Omkeren?"
 
-#: /media/js/chartutils.js:107
+#: /media/js/chartutils.js:96
 msgid "Please enter a valid date range"
 msgstr "Voer een geldig datumbereik in"
 
@@ -253,9 +246,7 @@ msgstr "U bent aangemeld"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Persona-aanmelding mislukt. Misschien hebt u geen account met dat "
-"e-mailadres?"
+msgstr "Persona-aanmelding mislukt. Misschien hebt u geen account met dat e-mailadres?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
@@ -274,70 +265,74 @@ msgid "Brazil"
 msgstr "Brazilië"
 
 #: /media/js/settings.js:30
+msgid "Chile"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "China"
 msgstr "China"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Colombia"
 msgstr "Colombia"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "Germany"
 msgstr "Duitsland"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Spain"
 msgstr "Spanje"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Greece"
 msgstr "Griekenland"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Hungary"
 msgstr "Hongarije"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "Italy"
 msgstr "Italië"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
 msgid "Montenegro"
 msgstr "Montenegro"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:39
 msgid "Mexico"
 msgstr "Mexico"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:40
 msgid "Peru"
 msgstr "Peru"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:41
 msgid "Poland"
 msgstr "Polen"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:42
 msgid "Serbia"
 msgstr "Servië"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:43
 msgid "United Kingdom"
 msgstr "Verenigd Koninkrijk"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:44
 msgid "United States"
 msgstr "Verenigde Staten"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:45
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:46
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:47
 msgid "Worldwide"
 msgstr "Wereldwijd"
 
@@ -348,17 +343,17 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> teken resterend."
 msgstr[1] "<b>{n}</b> tekens resterend."
 
-#: /media/js/views/app_dashboard.js:22
+#: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Laden…"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Aantal apps"
 

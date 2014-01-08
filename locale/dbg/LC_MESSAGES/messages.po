@@ -1,14 +1,14 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Marketplace Stats\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-17T19:30:47.061Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
@@ -81,6 +81,55 @@ msgstr "Ƞǿ"
 msgid "Yes"
 msgstr "Ẏḗş"
 
+#: /templates/homepage.html:2
+msgid "Marketplace Statistics Dashboard"
+msgstr "Ḿȧřķḗŧƥŀȧƈḗ Şŧȧŧīşŧīƈş Ḓȧşħƀǿȧřḓ"
+
+#: /templates/homepage.html:4
+msgid "Total App Installs:"
+msgstr "Ŧǿŧȧŀ Ȧƥƥ Īƞşŧȧŀŀş:"
+
+#: /templates/homepage.html:7
+#: /media/js/views/total_developers.js:10
+#: /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Ḓḗṽḗŀǿƥḗřş"
+
+#: /templates/homepage.html:13
+#: /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
+
+#: /templates/homepage.html:16
+#: /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
+
+#: /templates/homepage.html:19
+#: /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
+
+#: /templates/homepage.html:22
+#: /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
+
+#: /templates/homepage.html:25
+#: /media/js/views/apps_installed.js:10
+msgid "Apps Installed by Region"
+msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ ƀẏ Řḗɠīǿƞ"
+
+#: /templates/homepage.html:28
+msgid "Apps Installed"
+msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ"
+
+#: /templates/homepage.html:36
+msgid "The global statistics page is currently under development. Please try again later."
+msgstr ""
+"Ŧħḗ ɠŀǿƀȧŀ şŧȧŧīşŧīƈş ƥȧɠḗ īş ƈŭřřḗƞŧŀẏ ŭƞḓḗř ḓḗṽḗŀǿƥḿḗƞŧ. Ƥŀḗȧşḗ ŧřẏ ȧɠȧīƞ "
+"ŀȧŧḗř."
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Ḓḗṽḗŀǿƥ Ȧƥƥş"
@@ -145,54 +194,21 @@ msgstr "Şīɠƞ Īƞ"
 msgid "Sample Chart"
 msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
 
-#: /templates/homepage.html:2
-msgid "Marketplace Statistics Dashboard"
-msgstr "Ḿȧřķḗŧƥŀȧƈḗ Şŧȧŧīşŧīƈş Ḓȧşħƀǿȧřḓ"
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "Ƒřǿḿ"
 
-#: /templates/homepage.html:4
-msgid "Total App Installs:"
-msgstr "Ŧǿŧȧŀ Ȧƥƥ Īƞşŧȧŀŀş:"
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "Ŧǿ"
 
-#: /templates/homepage.html:7
-#: /media/js/views/total_developers.js:10
-#: /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Ḓḗṽḗŀǿƥḗřş"
+#: /templates/includes/chartbody.html:14
+msgid "Update"
+msgstr "Ŭƥḓȧŧḗ"
 
-#: /templates/homepage.html:13
-#: /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
-
-#: /templates/homepage.html:16
-#: /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
-
-#: /templates/homepage.html:19
-#: /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
-
-#: /templates/homepage.html:22
-#: /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
-
-#: /templates/homepage.html:25
-#: /media/js/views/apps_installed.js:10
-msgid "Apps Installed by Region"
-msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ ƀẏ Řḗɠīǿƞ"
-
-#: /templates/homepage.html:28
-msgid "Apps Installed"
-msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ"
-
-#: /templates/homepage.html:36
-msgid "The global statistics page is currently under development. Please try again later."
-msgstr ""
-"Ŧħḗ ɠŀǿƀȧŀ şŧȧŧīşŧīƈş ƥȧɠḗ īş ƈŭřřḗƞŧŀẏ ŭƞḓḗř ḓḗṽḗŀǿƥḿḗƞŧ. Ƥŀḗȧşḗ ŧřẏ ȧɠȧīƞ "
-"ŀȧŧḗř."
+#: /templates/includes/chartbody.html:17
+msgid "This data is restricted or no data found"
+msgstr "Ŧħīş ḓȧŧȧ īş řḗşŧřīƈŧḗḓ ǿř ƞǿ ḓȧŧȧ ƒǿŭƞḓ"
 
 #: /templates/errors/404.html:2
 #: /templates/errors/fragment.html:1
@@ -214,22 +230,6 @@ msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Ŧřẏ Ȧɠȧīƞ"
-
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "Ƒřǿḿ"
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "Ŧǿ"
-
-#: /templates/includes/chartbody.html:14
-msgid "Update"
-msgstr "Ŭƥḓȧŧḗ"
-
-#: /templates/includes/chartbody.html:17
-msgid "No data found"
-msgstr "Ƞǿ ḓȧŧȧ ƒǿŭƞḓ"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -253,11 +253,11 @@ msgstr "Ŧħḗ şŧȧŧīşŧīƈş ḓȧŧȧ řḗɋŭḗşŧ īş īƞƈǿḿ
 msgid "An unknown server error was detected. Please try again later."
 msgstr "Ȧƞ ŭƞķƞǿẇƞ şḗřṽḗř ḗřřǿř ẇȧş ḓḗŧḗƈŧḗḓ. Ƥŀḗȧşḗ ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
 
-#: /media/js/chartutils.js:98
+#: /media/js/chartutils.js:87
 msgid "You have entered a negative date range. Reverse?"
 msgstr "Ẏǿŭ ħȧṽḗ ḗƞŧḗřḗḓ ȧ ƞḗɠȧŧīṽḗ ḓȧŧḗ řȧƞɠḗ. Řḗṽḗřşḗ?"
 
-#: /media/js/chartutils.js:107
+#: /media/js/chartutils.js:96
 msgid "Please enter a valid date range"
 msgstr "Ƥŀḗȧşḗ ḗƞŧḗř ȧ ṽȧŀīḓ ḓȧŧḗ řȧƞɠḗ"
 
@@ -292,70 +292,74 @@ msgid "Brazil"
 msgstr "Ɓřȧzīŀ"
 
 #: /media/js/settings.js:30
+msgid "Chile"
+msgstr "Ƈħīŀḗ"
+
+#: /media/js/settings.js:31
 msgid "China"
 msgstr "Ƈħīƞȧ"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Colombia"
 msgstr "Ƈǿŀǿḿƀīȧ"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "Germany"
 msgstr "Ɠḗřḿȧƞẏ"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Spain"
 msgstr "Şƥȧīƞ"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Greece"
 msgstr "Ɠřḗḗƈḗ"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Hungary"
 msgstr "Ħŭƞɠȧřẏ"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "Italy"
 msgstr "Īŧȧŀẏ"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
 msgid "Montenegro"
 msgstr "Ḿǿƞŧḗƞḗɠřǿ"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:39
 msgid "Mexico"
 msgstr "Ḿḗẋīƈǿ"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:40
 msgid "Peru"
 msgstr "Ƥḗřŭ"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:41
 msgid "Poland"
 msgstr "Ƥǿŀȧƞḓ"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:42
 msgid "Serbia"
 msgstr "Şḗřƀīȧ"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:43
 msgid "United Kingdom"
 msgstr "Ŭƞīŧḗḓ Ķīƞɠḓǿḿ"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:44
 msgid "United States"
 msgstr "Ŭƞīŧḗḓ Şŧȧŧḗş"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:45
 msgid "Uruguay"
 msgstr "Ŭřŭɠŭȧẏ"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:46
 msgid "Venezuela"
 msgstr "Ṽḗƞḗzŭḗŀȧ"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:47
 msgid "Worldwide"
 msgstr "Ẇǿřŀḓẇīḓḗ"
 
@@ -366,15 +370,15 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{ƞ}</b> ƈħȧřȧƈŧḗř ŀḗƒŧ."
 msgstr[1] "<b>{ƞ}</b> ƈħȧřȧƈŧḗřş ŀḗƒŧ."
 
-#: /media/js/views/app_dashboard.js:22
+#: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Ŀǿȧḓīƞɠ..."
 
 #: /media/js/views/apps_added.js:18
 #: /media/js/views/apps_available_by_premium.js:18
 #: /media/js/views/apps_available_by_type.js:17
-#: /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Ȧƥƥş"
@@ -382,8 +386,8 @@ msgstr "Ȧƥƥş"
 #: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_available_by_type.js:18
-#: /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƥƥş"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-17T19:30:47.061Z\n"
+"POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
 "PO-Revision-Date: 2013-12-29 22:18+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,70 +67,6 @@ msgstr "否"
 msgid "Yes"
 msgstr "是"
 
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "开发应用"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "开发者中心"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "反馈"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "支持"
-
-#: /templates/footer.html:13
-msgid "My Submissions"
-msgstr "我提交的应用"
-
-#: /templates/footer.html:16
-msgid "Reviewer Tools"
-msgstr "审核者工具"
-
-#: /templates/footer.html:19
-msgid "Lookup Tool"
-msgstr "搜索工具"
-
-#: /templates/footer.html:27
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"除非<a href=\"{legal_url}\" target=\"_blank\">另有说明</a>，本站的内容使用<a href=\"{cc_url}\" "
-"target=\"_blank\">知识共享 署名-相同方式共享 3.0协议</a>或更新版本授权发布。"
-
-#: /templates/footer.html:32
-msgid "Privacy Policy"
-msgstr "隐私权政策"
-
-#: /templates/footer.html:33
-msgid "Terms of Use"
-msgstr "使用条款"
-
-#: /templates/footer.html:35
-msgid "Report Trademark Abuse"
-msgstr "举报商标滥用"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "统计"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "注销"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登录"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "示例图表"
-
 #: /templates/homepage.html:2
 msgid "Marketplace Statistics Dashboard"
 msgstr "应用市场统计面板"
@@ -171,6 +107,84 @@ msgstr "安装的应用"
 msgid "The global statistics page is currently under development. Please try again later."
 msgstr "全球统计页面正在开发中。请稍后再试。"
 
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "开发应用"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "开发者中心"
+
+#: /templates/footer.html:6
+msgid "Feedback"
+msgstr "反馈"
+
+#: /templates/footer.html:7
+msgid "Support"
+msgstr "支持"
+
+#: /templates/footer.html:13
+msgid "My Submissions"
+msgstr "我提交的应用"
+
+#: /templates/footer.html:16
+msgid "Reviewer Tools"
+msgstr "审核者工具"
+
+#: /templates/footer.html:19
+msgid "Lookup Tool"
+msgstr "搜索工具"
+
+#: /templates/footer.html:27
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr "除非<a href=\"{legal_url}\" target=\"_blank\">另有说明</a>，本站的内容使用<a href=\"{cc_url}\" target=\"_blank\">知识共享 署名-相同方式共享 3.0协议</a>或更新版本授权发布。"
+
+#: /templates/footer.html:32
+msgid "Privacy Policy"
+msgstr "隐私权政策"
+
+#: /templates/footer.html:33
+msgid "Terms of Use"
+msgstr "使用条款"
+
+#: /templates/footer.html:35
+msgid "Report Trademark Abuse"
+msgstr "举报商标滥用"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "统计"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "注销"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登录"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "示例图表"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "从"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "到"
+
+#: /templates/includes/chartbody.html:14
+msgid "Update"
+msgstr "更新"
+
+#: /templates/includes/chartbody.html:17
+msgid "This data is restricted or no data found"
+msgstr ""
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "噢不！"
@@ -190,22 +204,6 @@ msgstr "载入更多时出错"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "重试"
-
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "从"
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "到"
-
-#: /templates/includes/chartbody.html:14
-msgid "Update"
-msgstr "更新"
-
-#: /templates/includes/chartbody.html:17
-msgid "No data found"
-msgstr "找不到数据"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -227,11 +225,11 @@ msgstr "请求的统计数据不完整或无效。"
 msgid "An unknown server error was detected. Please try again later."
 msgstr "检测到未知的服务器错误。请稍候重试。"
 
-#: /media/js/chartutils.js:98
+#: /media/js/chartutils.js:87
 msgid "You have entered a negative date range. Reverse?"
 msgstr "您输入了反向的日期范围，要翻转吗？"
 
-#: /media/js/chartutils.js:107
+#: /media/js/chartutils.js:96
 msgid "Please enter a valid date range"
 msgstr "请输入有效的日期范围"
 
@@ -264,70 +262,74 @@ msgid "Brazil"
 msgstr "巴西"
 
 #: /media/js/settings.js:30
+msgid "Chile"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "China"
 msgstr "中国"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Colombia"
 msgstr "哥伦比亚"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "Germany"
 msgstr "德国"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Spain"
 msgstr "西班牙"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Greece"
 msgstr "希腊"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Hungary"
 msgstr "匈牙利"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "Italy"
 msgstr "意大利"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
 msgid "Montenegro"
 msgstr "黑山"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:39
 msgid "Mexico"
 msgstr "墨西哥"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:40
 msgid "Peru"
 msgstr "秘鲁"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:41
 msgid "Poland"
 msgstr "波兰"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:42
 msgid "Serbia"
 msgstr "塞尔维亚"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:43
 msgid "United Kingdom"
 msgstr "英国"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:44
 msgid "United States"
 msgstr "美国"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:45
 msgid "Uruguay"
 msgstr "乌拉圭"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:46
 msgid "Venezuela"
 msgstr "委内瑞拉"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:47
 msgid "Worldwide"
 msgstr "全世界"
 
@@ -337,17 +339,17 @@ msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "剩余 <b>{n}</b> 个字符。"
 
-#: /media/js/views/app_dashboard.js:22
+#: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "正在载入…"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "应用"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "应用数量"
 
