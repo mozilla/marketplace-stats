@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
-"PO-Revision-Date: 2014-01-09 02:32+0000\n"
+"PO-Revision-Date: 2014-01-09 02:45+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389234720.0\n"
+"X-POOTLE-MTIME: 1389235512.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -262,79 +262,79 @@ msgstr "Nincs internetkapcsolat"
 
 #: /media/js/settings.js:28
 msgid "Argentina"
-msgstr ""
+msgstr "Argentína"
 
 #: /media/js/settings.js:29
 msgid "Brazil"
-msgstr ""
+msgstr "Brazília"
 
 #: /media/js/settings.js:30
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: /media/js/settings.js:31
 msgid "China"
-msgstr ""
+msgstr "Kína"
 
 #: /media/js/settings.js:32
 msgid "Colombia"
-msgstr ""
+msgstr "Kolumbia"
 
 #: /media/js/settings.js:33
 msgid "Germany"
-msgstr ""
+msgstr "Németország"
 
 #: /media/js/settings.js:34
 msgid "Spain"
-msgstr ""
+msgstr "Spanyolország"
 
 #: /media/js/settings.js:35
 msgid "Greece"
-msgstr ""
+msgstr "Görögország"
 
 #: /media/js/settings.js:36
 msgid "Hungary"
-msgstr ""
+msgstr "Magyarország"
 
 #: /media/js/settings.js:37
 msgid "Italy"
-msgstr ""
+msgstr "Olaszország"
 
 #: /media/js/settings.js:38
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegró"
 
 #: /media/js/settings.js:39
 msgid "Mexico"
-msgstr ""
+msgstr "Mexikó"
 
 #: /media/js/settings.js:40
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: /media/js/settings.js:41
 msgid "Poland"
-msgstr ""
+msgstr "Lengyelország"
 
 #: /media/js/settings.js:42
 msgid "Serbia"
-msgstr ""
+msgstr "Szerbia"
 
 #: /media/js/settings.js:43
 msgid "United Kingdom"
-msgstr ""
+msgstr "Egyesült Királyság"
 
 #: /media/js/settings.js:44
 msgid "United States"
-msgstr ""
+msgstr "Egyesült Államok"
 
 #: /media/js/settings.js:45
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #: /media/js/settings.js:46
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: /media/js/settings.js:47
 msgid "Worldwide"
@@ -354,7 +354,7 @@ msgstr "Betöltés…"
 #: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
 #: /media/js/views/apps_by_type.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
-msgstr ""
+msgstr "Appok"
 
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
 #: /media/js/views/apps_by_type.js:18 /media/js/views/apps_installed_total.js:18
