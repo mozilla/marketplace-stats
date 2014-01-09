@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
-"PO-Revision-Date: 2014-01-09 00:58+0000\n"
+"PO-Revision-Date: 2014-01-09 02:32+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389229134.0\n"
+"X-POOTLE-MTIME: 1389234720.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -130,129 +130,135 @@ msgstr "Beküldéseim"
 
 #: /templates/footer.html:16
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Értékelő eszközök"
 
 #: /templates/footer.html:19
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Keresőeszköz"
 
 #: /templates/footer.html:27
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Kivéve, ahol másként nincs <a href=\"{legal_url}\" "
+"target=\"_blank\">említve</a>, az oldalon található tartalom <a "
+"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0 </a> vagy annál frissebb verzió alatt kerül kiadásra."
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Adatvédelmi irányelvek"
 
 #: /templates/footer.html:33
 msgid "Terms of Use"
-msgstr ""
+msgstr "Felhasználási feltételek"
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
 #: /templates/header.html:2
 msgid "Statistics"
-msgstr ""
+msgstr "Statisztika"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Kijelentkezés"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr ""
+msgstr "Minta diagram"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
-msgstr ""
+msgstr "Ettől:"
 
 #: /templates/includes/chartbody.html:3
 msgid "To"
-msgstr ""
+msgstr "Eddig:"
 
 #: /templates/includes/chartbody.html:14
 msgid "Update"
-msgstr ""
+msgstr "Frissítés"
 
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
-msgstr ""
+msgstr "Ezek az adatok korlátozottak vagy nem találhatók"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Jaj ne!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "A keresett oldal nem található."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Hiba történt."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Nem lehet betölteni többet"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Próbálja újra"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr ""
+msgstr "Kiszolgálóhiba történt. Próbálja újra később."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
-msgstr ""
+msgstr "A kért statisztikavégpont érvénytelen."
 
 #: /media/js/chartutils.js:26
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
+msgstr "Hitelesítési hiba történt. Az elérni próbált adatok nem nyilvánosak."
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
-msgstr ""
+msgstr "A statisztikai adatok lekérése hiányos vagy érvénytelen."
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
+msgstr "Ismeretlen kiszolgálóhiba történt. Próbálja újra később."
 
 #: /media/js/chartutils.js:87
 msgid "You have entered a negative date range. Reverse?"
-msgstr ""
+msgstr "Negatív dátumtartományt adott meg. Visszavonja?"
 
 #: /media/js/chartutils.js:96
 msgid "Please enter a valid date range"
-msgstr ""
+msgstr "Érvényes dátumtartományt adjon meg"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Kijelentkezett"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Bejelentkezett"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"A Persona bejelentkezés sikertelen. Lehet, hogy nincs fiókja ehhez az e-mail "
+"címhez?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "Nincs internetkapcsolat"
 
 #: /media/js/settings.js:28
 msgid "Argentina"
@@ -332,18 +338,18 @@ msgstr ""
 
 #: /media/js/settings.js:47
 msgid "Worldwide"
-msgstr ""
+msgstr "Világszerte"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b>{n}</b> karakter maradt."
+msgstr[1] "<b>{n}</b> karakter maradt."
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
-msgstr ""
+msgstr "Betöltés…"
 
 #: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
 #: /media/js/views/apps_by_type.js:17 /media/js/views/apps_installed_total.js:17
@@ -353,43 +359,43 @@ msgstr ""
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
 #: /media/js/views/apps_by_type.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
-msgstr ""
+msgstr "Appok száma"
 
 #. This is the title of a chart representing the number of apps installed for all regions.
 #: /media/js/views/apps_installed_total.js:10
 msgid "Apps Installed, All Regions"
-msgstr ""
+msgstr "Telepített appok, minden terület"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
-msgstr ""
+msgstr "Bevétel"
 
 #: /media/js/views/gross_revenue.js:18
 msgid "Daily Total"
-msgstr ""
+msgstr "Napi összes"
 
 #. Page not found (404)
 #: /media/js/views/home.js:13
 msgid "Home"
-msgstr ""
+msgstr "Kezdőlap"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Nem található"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
-msgstr ""
+msgstr "Telepítések száma"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
-msgstr ""
+msgstr "Teljes bevétel"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
-msgstr ""
+msgstr "Látogatások száma"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
-msgstr ""
+msgstr "Fejlesztők száma"
