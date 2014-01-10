@@ -1,6 +1,6 @@
 <section class="main">
   {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
-    {% set is_superuser = (this.user.developed or user.get_permission('admin')) %}
+    {% set is_superuser = (this.user.developed or user.get_permission('stats')) %}
     {% if user.logged_in() %}
       {% if is_superuser or this.public_stats %}
         <nav class="sub c">
@@ -20,7 +20,7 @@
           <li>
             <a href="{{ url('per_app_visits', [slug]) }}" data-src="per_app_visits"><span>{{ _('Visits') }}</span></a>
           </li>
-          {% if this.premium_type != 'free' and is_superuser %}
+          {% if this.premium_type != 'free' and user.get_permission('revenue_stats') %}
             <li>
               <a href="{{ url('per_app_revenue', [slug]) }}" data-src="per_app_revenue"><span>{{ _('Gross Revenue') }}</span></a>
             </li>
