@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
-"PO-Revision-Date: 2014-01-11 11:08+0000\n"
+"PO-Revision-Date: 2014-01-11 11:23+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -11,8 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
-"X-POOTLE-MTIME: 1389438485.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1389439384.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -297,7 +297,7 @@ msgstr "Brazilië"
 
 #: /media/js/settings.js:30
 msgid "Chile"
-msgstr "Chili"
+msgstr "test"
 
 #: /media/js/settings.js:31
 msgid "China"
