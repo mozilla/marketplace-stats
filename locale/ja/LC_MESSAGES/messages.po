@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
-"PO-Revision-Date: 2013-12-18 15:33-0500\n"
+"PO-Revision-Date: 2014-01-10 23:50-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -128,7 +128,7 @@ msgstr "自分の登録アプリ"
 
 #: /templates/footer.html:16
 msgid "Reviewer Tools"
-msgstr "レビュー担当者用ツール"
+msgstr "審査担当者用ツール"
 
 #: /templates/footer.html:19
 msgid "Lookup Tool"
@@ -184,7 +184,7 @@ msgstr "更新"
 
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
-msgstr ""
+msgstr "このデータは閲覧者が制限されているか、データが見つかりませんでした"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -264,7 +264,7 @@ msgstr "ブラジル"
 
 #: /media/js/settings.js:30
 msgid "Chile"
-msgstr ""
+msgstr "チリ"
 
 #: /media/js/settings.js:31
 msgid "China"
