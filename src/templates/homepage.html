@@ -1,7 +1,7 @@
 <section class="main">
   {% if user.logged_in() %}
     <h1>{{ _('Marketplace Statistics Dashboard') }}</h1>
-    {% if user.get_permission('admin') %}
+    {% if user.get_permission('stats') %}
       <h3 class="total-val installs">{{ _('Total App Installs:') }} </h3>
       <ul class="dashboard c">
         <li>
@@ -28,13 +28,15 @@
         <li>
           <a href="{{ url('apps_installed_total') }}" data-src="apps_installed_total"><span>{{ _('Apps Installed') }}</span></a>
         </li>
-        {# TODO: Implement 'RevenueStats:View' when available. #}
-        <li>
-            <a href="{{ url('gross_revenue') }}" data-src="gross_revenue"><span>{{ _('Gross Revenue') }}</span></a>
-        </li>
+        {# TODO: Implement 'RevenueStats:View' properly when available. #}
+        {% if user.get_permission('revenue_stats') %}
+          <li>
+              <a href="{{ url('gross_revenue') }}" data-src="gross_revenue"><span>{{ _('Gross Revenue') }}</span></a>
+          </li>
+        {% endif %}
       </ul>
     {% else %}
-      <h2>{{ _('The global statistics page is currently under development. Please try again later.') }}</h2>
+      <h2>{{ _('This page is currently not public. Please try again later.') }}</h2>
     {% endif %}
   {% else %}
     <div class="action-required c">
