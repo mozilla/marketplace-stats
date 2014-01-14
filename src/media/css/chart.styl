@@ -175,8 +175,7 @@ x-datepicker {
     }
 }
 
-// TODO(spasovski): Be DRY and don't redefine the ones in `stats.styl`.
-for region in ar br cl cn co de es gr gr hu it me mx pe pl rs uk us uy ve worldwide
+for region in $regions
     em.{region} {
         background-image: url(unquote('../img/icons/regions/' + region + '.png'));
     }

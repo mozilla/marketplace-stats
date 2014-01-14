@@ -4,7 +4,7 @@
     <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
     {% if regions %}
       <div class="regions">
-        <em class="worldwide"></em>
+        <em class="restofworld"></em>
         <select name="region">
           {% for region in regions %}
             <option value="{{ region.code }}">{{ region.name }}</option>

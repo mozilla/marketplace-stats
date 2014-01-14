@@ -44,7 +44,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             'us': gettext('United States'),
             'uy': gettext('Uruguay'),
             've': gettext('Venezuela'),
-            'worldwide': gettext('Worldwide')
+            'restofworld': gettext('Rest of World')
         },
 
         timing_url: '',  // TODO: figure this out
