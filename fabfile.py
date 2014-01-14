@@ -27,7 +27,7 @@ def pre_update(ref):
 def update():
     with lcd(MARKETPLACE_STATS):
         local('npm install')
-        local('npm install --force commonplace@0.2.2')
+        local('npm install --force commonplace@0.2.6')
         local('%s includes' % COMMONPLACE)
         local('%s langpacks' % COMMONPLACE)
 
