@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-08T17:43:40.139Z\n"
+"POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
 "PO-Revision-Date: 2014-01-08 18:31+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "Installationen"
 msgid "Visits"
 msgstr "Aufrufe"
 
-#: /templates/app_dashboard.html:24 /templates/homepage.html:32 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:24 /templates/homepage.html:33 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Bruttoeinnahmen"
 
@@ -47,11 +47,11 @@ msgstr "Bruttoeinnahmen"
 msgid "No public statistics are available"
 msgstr "Keine öffentlichen Statistiken verfügbar"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:40 /templates/includes/signin_required.html:1
+#: /templates/app_dashboard.html:33 /templates/homepage.html:42 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "Bitte melden Sie sich an, um fortzufahren."
 
-#: /templates/app_dashboard.html:34 /templates/homepage.html:41 /templates/includes/signin_required.html:2
+#: /templates/app_dashboard.html:34 /templates/homepage.html:43 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "Anmelden / Registrieren"
 
@@ -66,46 +66,6 @@ msgstr "Nein"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
-
-#: /templates/homepage.html:2
-msgid "Marketplace Statistics Dashboard"
-msgstr "Übersicht über die Marketplace-Statistiken"
-
-#: /templates/homepage.html:4
-msgid "Total App Installs:"
-msgstr "App-Installationen insgesamt:"
-
-#: /templates/homepage.html:7 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Entwickler"
-
-#: /templates/homepage.html:13 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Neue Apps nach Zahlungsart"
-
-#: /templates/homepage.html:16 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Neue Apps nach App-Typ"
-
-#: /templates/homepage.html:19 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Apps nach Zahlungsart"
-
-#: /templates/homepage.html:22 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Apps nach App-Typ"
-
-#: /templates/homepage.html:25 /media/js/views/apps_installed.js:10
-msgid "Apps Installed by Region"
-msgstr "Installierte Apps nach Region"
-
-#: /templates/homepage.html:28
-msgid "Apps Installed"
-msgstr "Installierte Apps"
-
-#: /templates/homepage.html:36
-msgid "The global statistics page is currently under development. Please try again later."
-msgstr "Die globale Statistikseite wird derzeit entwickelt. Bitte versuchen Sie es später erneut."
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -171,21 +131,45 @@ msgstr "Anmelden"
 msgid "Sample Chart"
 msgstr "Beispielgraph"
 
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "Von"
+#: /templates/homepage.html:2
+msgid "Marketplace Statistics Dashboard"
+msgstr "Übersicht über die Marketplace-Statistiken"
 
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "Bin"
+#: /templates/homepage.html:4
+msgid "Total App Installs:"
+msgstr "App-Installationen insgesamt:"
 
-#: /templates/includes/chartbody.html:14
-msgid "Update"
-msgstr "Aktualisierung"
+#: /templates/homepage.html:7 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Entwickler"
 
-#: /templates/includes/chartbody.html:17
-msgid "This data is restricted or no data found"
-msgstr "Die Daten sind zugangsbeschränkt oder es wurden keine Daten gefunden"
+#: /templates/homepage.html:13 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Neue Apps nach Zahlungsart"
+
+#: /templates/homepage.html:16 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Neue Apps nach App-Typ"
+
+#: /templates/homepage.html:19 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Apps nach Zahlungsart"
+
+#: /templates/homepage.html:22 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Apps nach App-Typ"
+
+#: /templates/homepage.html:25 /media/js/views/apps_installed.js:10
+msgid "Apps Installed by Region"
+msgstr "Installierte Apps nach Region"
+
+#: /templates/homepage.html:28
+msgid "Apps Installed"
+msgstr "Installierte Apps"
+
+#: /templates/homepage.html:38
+msgid "This page is currently not public. Please try again later."
+msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -206,6 +190,22 @@ msgstr "Fehler beim Laden weiterer Daten"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Erneut versuchen"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "Von"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "Bin"
+
+#: /templates/includes/chartbody.html:14
+msgid "Update"
+msgstr "Aktualisierung"
+
+#: /templates/includes/chartbody.html:17
+msgid "This data is restricted or no data found"
+msgstr "Die Daten sind zugangsbeschränkt oder es wurden keine Daten gefunden"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -332,8 +332,8 @@ msgid "Venezuela"
 msgstr "Venezuela"
 
 #: /media/js/settings.js:47
-msgid "Worldwide"
-msgstr "Weltweit"
+msgid "Rest of World"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -346,13 +346,13 @@ msgstr[1] "<b>{n}</b> Zeichen verbleiben."
 msgid "Loading..."
 msgstr "Laden…"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17 /media/js/views/apps_installed_total.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18 /media/js/views/apps_installed_total.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Anzahl der Apps"
 
