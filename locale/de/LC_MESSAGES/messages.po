@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
-"PO-Revision-Date: 2014-01-08 18:31+0000\n"
+"PO-Revision-Date: 2014-01-15 18:19+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389205860.0\n"
+"X-POOTLE-MTIME: 1389809962.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -170,6 +170,8 @@ msgstr "Installierte Apps"
 #: /templates/homepage.html:38
 msgid "This page is currently not public. Please try again later."
 msgstr ""
+"Diese Seite ist derzeit nicht öffentlich. Bitte versuchen Sie es später "
+"erneut."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -333,7 +335,7 @@ msgstr "Venezuela"
 
 #: /media/js/settings.js:47
 msgid "Rest of World"
-msgstr ""
+msgstr "Rest der Welt"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
