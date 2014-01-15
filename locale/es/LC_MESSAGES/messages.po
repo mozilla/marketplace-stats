@@ -185,7 +185,7 @@ msgstr "Actualizar"
 
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
-msgstr ""
+msgstr "Estos datos están restringidos o no se encuentran"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -265,7 +265,7 @@ msgstr "Brasil"
 
 #: /media/js/settings.js:30
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: /media/js/settings.js:31
 msgid "China"
