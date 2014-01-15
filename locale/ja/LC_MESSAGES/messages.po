@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
-"PO-Revision-Date: 2014-01-10 23:50-0500\n"
+"PO-Revision-Date: 2014-01-15 13:04-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -168,7 +168,7 @@ msgstr "インストールされたアプリ"
 
 #: /templates/homepage.html:38
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "このページは現在公開されていません。また後で試してください。"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -332,7 +332,7 @@ msgstr "ベネズエラ"
 
 #: /media/js/settings.js:47
 msgid "Rest of World"
-msgstr ""
+msgstr "その他の地域"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
