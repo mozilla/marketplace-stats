@@ -157,7 +157,7 @@ msgstr "Aplicaciones por método de pago"
 
 #: /templates/homepage.html:22 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
-msgstr "Aplicaciones por categoría"
+msgstr "Aplicaciones por tipo de aplicación"
 
 #: /templates/homepage.html:25 /media/js/views/apps_installed.js:10
 msgid "Apps Installed by Region"
@@ -169,7 +169,7 @@ msgstr "Aplicaciones instaladas"
 
 #: /templates/homepage.html:38
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "Actualmente este pago no es público. Vuelve a intentarlo más tarde."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -209,7 +209,7 @@ msgstr "Estos datos están restringidos o no se encuentran"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr "Se ha detectado un error del servidor. Inténtalo de nuevo más tarde."
+msgstr "Se ha detectado un error del servidor. Vuelve a intentarlo más tarde."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
@@ -333,7 +333,7 @@ msgstr "Venezuela"
 
 #: /media/js/settings.js:47
 msgid "Rest of World"
-msgstr ""
+msgstr "Resto del mundo"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
