@@ -1,5 +1,145 @@
 @import 'lib';
 
+.apps {
+    width:100%;
+    div.app div {
+        border-bottom:1px solid #cccccc;
+        color:#3b3b3b;
+        float:left;
+        font-size:13px;
+        font-weight:600;
+        height:20px;
+        padding-bottom:16px;
+        padding-top:16px;
+        text-align:center;
+        width:20%;
+    }
+    div.app .app_name {
+        font-size:14px;
+        text-align:left;
+    }
+    div.app .app_name img {
+        position:absolute;
+        margin-left:10px;
+        margin-top:-5px;
+    }
+    div.app .app_name a {
+        padding-left:56px;
+    }
+    div.head {
+        border-bottom:1px solid #cccccc;
+        border-top:1px solid #cccccc;
+        color:#75767b;
+        float:left;
+        font-size:13px;
+        font-weight:600;
+        padding-bottom:4px;
+        padding-top:25px;
+        text-align:center;
+        width:20%;
+    }
+}
+
+$dash-tile-height = 150px;
+$dash-tile-width = 290px;
+
+.dashboard {
+    border-right:1px solid #a9a9a9;
+    list-style-type: none;
+    margin-top: 30px;
+    width:700px;
+    // This will need some RTL love eventually.
+    a {
+        color: #6c6c6c;
+        display: block;
+        font-weight: 600;
+        height: 100%;
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+        &:hover {
+            text-decoration: none;
+        }
+        span {
+            border:1px solid #cccccc;
+            border-radius: 2px;
+            display: block;
+            gradientLeft(unquote('rgba(255,255,255,0.2) 0%, rgba(226,226,226,0.2) 100%'));
+            line-height: 150px;
+            margin: -10px 0 0 -10px;
+            padding: 0 10px;
+            width: 290px;
+        }
+    }
+    li {
+        background-color: #fff;
+        float: left;
+        height: $dash-tile-height;
+        margin: 0 15px 45px 30px;
+        position: relative;
+        width: $dash-tile-width;
+    }
+    li, a {
+        border-radius: 3px;
+    }
+    svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+    }
+}
+
+#dashboard_controls {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    height:40px;
+    background-color:#efefef;
+}
+
+#dashboard_summary_metrics {
+    background-image: -webkit-linear-gradient(top, rgba(49,48,48,1) 0%, rgba(64,64,64,1) 100%);
+    background-image: linear-gradient(to bottom, rgba(49,48,48,1) 0%, rgba(64,64,64,1) 100%);
+    background-repeat:repeat-x;
+    height:110px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+	div.head {
+        border-bottom:0;
+        border-top:0;
+        color:white;
+        float:right;
+        font-size:24px;
+        font-weight:600;
+        height:50px;
+        padding-bottom:4px;
+        padding-top:30px;
+        text-align:center;
+        width:170px;
+    }
+    div.head .tiny {
+        font-size:12px;
+        font-weight:600;
+        margin-top:-2px;
+    }
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0turn); }
+    to { -webkit-transform: rotate(1turn); }
+}
+@keyframes spin {
+    from { transform: rotate(0turn); }
+    to { transform: rotate(1turn); }
+}
+
+.roll {
+    animation(unquote('0.9s spin 1 steps(30)'));
+}
+
 .spinner {
     spinner();
     &.alt {
@@ -19,70 +159,6 @@
 
 ul {
     list-style-position: inside;
-}
-
-$dash-tile-height = 150px;
-$dash-tile-width = 290px;
-
-.dashboard {
-    list-style-type: none;
-    margin-top: 30px;
-    li {
-        background-color: #fff;
-        float: left;
-        height: $dash-tile-height;
-        margin: 0 45px 45px 0;
-        position: relative;
-        width: $dash-tile-width;
-        &:nth-child(3n) {
-            margin-right: 0;
-        }
-    }
-    // This will need some RTL love eventually.
-    a {
-        color: #fff;
-        display: block;
-        font-weight: 600;
-        height: 100%;
-        padding: 10px;
-        position: absolute;
-        width: 100%;
-        z-index: 10;
-        &:hover {
-            text-decoration: none;
-        }
-        span {
-            border-radius: 3px;
-            display: block;
-            gradientLeft(unquote('rgba(228,97,3,1) 0%, rgba(228,97,3,0.4) 100%'));
-            line-height: 150px;
-            margin: -10px 0 0 -10px;
-            padding: 0 10px;
-            width: 290px;
-        }
-    }
-    li, a {
-        border-radius: 3px;
-    }
-    svg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 5;
-    }
-}
-
-@-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0turn); }
-    to { -webkit-transform: rotate(1turn); }
-}
-@keyframes spin {
-    from { transform: rotate(0turn); }
-    to { transform: rotate(1turn); }
-}
-
-.roll {
-    animation(unquote('0.9s spin 1 steps(30)'));
 }
 
 @media $at-least-desktop {
@@ -237,4 +313,40 @@ for region in $regions
             spinner-alt-image('retina');
         }
     }
+}
+
+#page_container_app {
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    width:900px;
+    height:990px;
+    border-radius:4px;
+    border:0px solid #d7d7d7;
+    box-shadow: 1px 1px 8px #a5a5a5;
+    background-color:white;
+}
+
+.sidebar {
+    float:right;
+    height:780px;
+    margin-right:10px;
+    margin-top:30px;
+    width:180px;
+    ol {
+        color:#7b7b7b;
+        font-size:80%;
+        margin-bottom:50px;
+        padding-left:30px;
+    }
+    li {
+        margin-bottom:-2px;
+    }
+}
+
+.tiny {
+    font-size:11px;
+    color:#a0a0a0;
+    font-weight:300;
 }
