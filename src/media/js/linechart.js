@@ -551,11 +551,16 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                     })
                     .append('em')
                     .attr('class', function(d) {
-                        var valWidth = (+d.count + '').length * 12;
-                        if (d.count === null || scale(+d.count) < valWidth) {
+                        if (isBarTextOutside(d.count, scale)) {
                             return 'out';
                         }
                         return '';
+                    })
+                    .style('color', function(d) {
+                        if (isBarTextOutside(d.count, scale)) {
+                            return ml.hex2rgba(getSeriesColor(series[i]), 1);
+                        }
+                        return '#fff';
                     })
                     .text(function(d) {
                         if (!opts.dropNulls) {
@@ -564,6 +569,15 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                         return d.count;
                     });
             }
+        }
+
+        // For each bar should the text be outside (can't fit in the bar width).
+        function isBarTextOutside(count, scale) {
+            var valWidth = (+count + '').length * 14;
+            if (count === null || scale(count) < valWidth) {
+                return true;
+            }
+            return false;
         }
 
         function rescale(series) {
