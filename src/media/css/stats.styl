@@ -2,41 +2,38 @@
 
 .apps {
     width:100%;
-    div.app div {
-        border-bottom:1px solid #cccccc;
-        color:#3b3b3b;
-        float:left;
-        font-size:13px;
-        font-weight:600;
-        height:20px;
-        padding-bottom:16px;
-        padding-top:16px;
-        text-align:center;
-        width:20%;
+    .app div {
+        border-bottom: 1px solid #ccc;
+        color: #3b3b3b;
+        float: left;
+        font-size: 13px;
+        font-weight: 600;
+        height: 20px;
+        padding: 16px 0 16px 0;
+        text-align: center;
+        width: 20%;
     }
-    div.app .app_name {
-        font-size:14px;
-        text-align:left;
+    .app .app-name {
+        font-size: 14px;
+        text-align: left;
+        a {
+            padding-left: 56px;
+        }
+        img {
+            position: absolute;
+            margin: -5px 0 0 10px;
+        }
     }
-    div.app .app_name img {
-        position:absolute;
-        margin-left:10px;
-        margin-top:-5px;
-    }
-    div.app .app_name a {
-        padding-left:56px;
-    }
-    div.head {
-        border-bottom:1px solid #cccccc;
-        border-top:1px solid #cccccc;
-        color:#75767b;
-        float:left;
-        font-size:13px;
-        font-weight:600;
-        padding-bottom:4px;
-        padding-top:25px;
-        text-align:center;
-        width:20%;
+    .head {
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        color: #75767b;
+        float: left;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 25px 0 4px 0;
+        text-align: center;
+        width: 20%;
     }
 }
 
@@ -44,10 +41,10 @@ $dash-tile-height = 150px;
 $dash-tile-width = 290px;
 
 .dashboard {
-    border-right:1px solid #a9a9a9;
+    border-right: 1px solid #a9a9a9;
     list-style-type: none;
     margin-top: 30px;
-    width:700px;
+    width: 700px;
     // This will need some RTL love eventually.
     a {
         color: #6c6c6c;
@@ -62,7 +59,7 @@ $dash-tile-width = 290px;
             text-decoration: none;
         }
         span {
-            border:1px solid #cccccc;
+            border: 1px solid #cccccc;
             border-radius: 2px;
             display: block;
             gradientLeft(unquote('rgba(255,255,255,0.2) 0%, rgba(226,226,226,0.2) 100%'));
@@ -91,39 +88,38 @@ $dash-tile-width = 290px;
     }
 }
 
-#dashboard_controls {
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
-    height:40px;
-    background-color:#efefef;
+.dashboard-controls {
+    background-color: #efefef;
+    height: 40px;
+    margin: 0 auto;
+    width: 100%;
 }
 
-#dashboard_summary_metrics {
-    background-image: -webkit-linear-gradient(top, rgba(49,48,48,1) 0%, rgba(64,64,64,1) 100%);
-    background-image: linear-gradient(to bottom, rgba(49,48,48,1) 0%, rgba(64,64,64,1) 100%);
-    background-repeat:repeat-x;
-    height:110px;
-    margin-left:auto;
-    margin-right:auto;
-    width:100%;
-	div.head {
-        border-bottom:0;
-        border-top:0;
-        color:white;
-        float:right;
-        font-size:24px;
-        font-weight:600;
-        height:50px;
-        padding-bottom:4px;
-        padding-top:30px;
-        text-align:center;
-        width:170px;
+.dashboard-summary-metrics {
+    background-repeat: repeat-x;
+    gradientLeft(unquote('rgba(49,48,48,1) 0%, rgba(64,64,64,1) 100%'));
+    height: 110px;
+    margin: 0 auto;
+    width: 100%;
+    .head {
+        border-bottom: 0;
+        border-top: 0;
+        color: white;
+        float: right;
+        font-size: 24px;
+        font-weight: 600;
+        height: 50px;
+        padding: 30px 0 4px 0;
+        text-align: center;
+        width: 170px;
+        .tiny {
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: -2px;
+        }
     }
-    div.head .tiny {
-        font-size:12px;
-        font-weight:600;
-        margin-top:-2px;
+    .head-rightmost {
+         margin-right:120px;
     }
 }
 
@@ -315,38 +311,34 @@ for region in $regions
     }
 }
 
-#page_container_app {
-    margin-top:30px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:50px;
-    width:900px;
-    height:990px;
-    border-radius:4px;
-    border:0px solid #d7d7d7;
+.page-container-app {
+    background-color: white;
+    border: 0px solid #d7d7d7;
+    border-radius: 4px;
     box-shadow: 1px 1px 8px #a5a5a5;
-    background-color:white;
+    height: 990px;
+    margin: 30px auto 50px auto;   
+    width: 900px;
 }
 
 .sidebar {
-    float:right;
-    height:780px;
-    margin-right:10px;
-    margin-top:30px;
-    width:180px;
-    ol {
-        color:#7b7b7b;
-        font-size:80%;
-        margin-bottom:50px;
-        padding-left:30px;
-    }
+    float: right;
+    height: 780px;
+    margin: 30px 5px 0 0;
+    width: 180px;
     li {
-        margin-bottom:-2px;
+        margin-bottom: -2px;
+    }
+    ol {
+        color: #7b7b7b;
+        font-size: 80%;
+        margin-bottom: 50px;
+        padding-left: 30px;
     }
 }
 
 .tiny {
-    font-size:11px;
-    color:#a0a0a0;
-    font-weight:300;
+    color: #a0a0a0;
+    font-size: 11px;
+    font-weight: 300;
 }

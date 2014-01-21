@@ -1,38 +1,34 @@
 <section class="main">
   {% if user.logged_in() %}
     {% if user.get_permission('stats') %}
-    <div id="page_container_app">      
+    <div class="page-container-app">      
         <div class="apps">
-            <div id="dashboard_summary_metrics">
-                <div class="head" style="margin-right:120px">
-                    <span id="app_installations" class="total-val installs"></span>
-                    <br />
+            <div class="dashboard-summary-metrics">
+                <div class="head head-rightmost">
+                    <div class="total-val installs"></div>
                     <div class="tiny">{{ _('App Installations') }}</div>
                 </div>
                 <div class="head">
-                    <span id="developers">2K</span>
-                    <br />
+                    <div id="developers">{{ _('N/A') }}</div>
                     <div class="tiny">{{ _('Developers') }}</div>
                 </div>
                 <div class="head">
-                    <span id="transactions">1.9M</span>
-                    <br />
+                    <div id="transactions">{{ _('N/A') }}</div>
                     <div class="tiny">{{ _('Transactions') }}</div>
                 </div>
                 <div class="head">
-                    <span id="revenue">$200K</span>
-                    <br />
+                    <div id="revenue">{{ _('N/A') }}</div>
                     <div class="tiny">{{ _('Net payments') }} (<span class="currency">{{ _('USD') }}</span>)</div>
                 </div>
             </div>
         </div>
         
-        <div id="dashboard_controls">
+        <div class="dashboard-controls">
         </div>
         
         <div class="sidebar">
             {{ _('Top Abuse Reports') }}
-            <ol id="top_abuse_reports">
+            <ol id="top-abuse-reports">
                 <li>Lorem</li>
                 <li>Ipsum</li>
                 <li>Dolor</li>
@@ -41,7 +37,7 @@
             </ol>
             
             {{ _('Top Apps') }}
-            <ol id="top_apps">
+            <ol id="top-apps">
                 <li>Lorem</li>
                 <li>Ipsum</li>
                 <li>Dolor</li>
@@ -50,7 +46,7 @@
             </ol>
             
            {{ _('Most Recent Apps') }}
-            <ol id="most_recent_apps">
+            <ol id="most-recent-apps">
                 <li>Lorem</li>
                 <li>Ipsum</li>
                 <li>Dolor</li>
