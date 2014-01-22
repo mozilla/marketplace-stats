@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
+"POT-Creation-Date: 2014-01-22T17:18:53.955Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,14 +183,6 @@ msgstr "The page you were looking for was not found."
 msgid "An error occurred."
 msgstr "An error occurred."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error loading more"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Try Again"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "From"
@@ -206,6 +198,14 @@ msgstr "Update"
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
 msgstr "This data is restricted or no data found"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error loading more"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Try Again"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -346,12 +346,12 @@ msgstr[1] "<b>{n}</b> characters left."
 msgid "Loading..."
 msgstr "Loading..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Number of Apps"

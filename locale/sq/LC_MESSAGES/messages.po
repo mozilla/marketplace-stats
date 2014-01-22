@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
+"POT-Creation-Date: 2014-01-22T17:18:53.955Z\n"
 "PO-Revision-Date: 2014-01-09 18:29+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,14 +182,6 @@ msgstr "Faqja që po kërkonit, nuk u gjet."
 msgid "An error occurred."
 msgstr "Ndodhi një gabim."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Gabim në ngarkim të tjerash"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Riprovoni"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Prej"
@@ -205,6 +197,14 @@ msgstr "Përditësoje"
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
 msgstr "Këto të dhëna janë të rezervuara ose nuk u gjetën të dhëna"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Gabim në ngarkim të tjerash"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Riprovoni"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -345,12 +345,12 @@ msgstr[1] "Edhe <b>{n}</b> shenja."
 msgid "Loading..."
 msgstr "Po ngarkohet..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Zbatime"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Numër Zbatimesh"
