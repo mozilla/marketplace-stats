@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
+"POT-Creation-Date: 2014-01-22T17:18:53.955Z\n"
 "PO-Revision-Date: 2014-01-10 08:41+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,14 +183,6 @@ msgstr "Stránka, kterou hledáte, nebyla nalezena."
 msgid "An error occurred."
 msgstr "Došlo k chybě."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Během načítání stránky došlo k chybě."
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Zkuste to znovu"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Od"
@@ -206,6 +198,14 @@ msgstr "Aktualizace"
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
 msgstr "Data jsou zabezpečena nebo nebyla nalezena."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Během načítání stránky došlo k chybě."
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Zkuste to znovu"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -347,12 +347,12 @@ msgstr[2] "Zbývá <b>{n}</b> znaků."
 msgid "Loading..."
 msgstr "Načítání..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Aplikace"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Počet aplikací"

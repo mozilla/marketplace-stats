@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
+"POT-Creation-Date: 2014-01-22T17:18:53.955Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,14 +205,6 @@ msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿ
 msgid "An error occurred."
 msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Ŧřẏ Ȧɠȧīƞ"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Ƒřǿḿ"
@@ -228,6 +220,14 @@ msgstr "Ŭƥḓȧŧḗ"
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
 msgstr "Ŧħīş ḓȧŧȧ īş řḗşŧřīƈŧḗḓ ǿř ƞǿ ḓȧŧȧ ƒǿŭƞḓ"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Ŧřẏ Ȧɠȧīƞ"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -373,8 +373,8 @@ msgid "Loading..."
 msgstr "Ŀǿȧḓīƞɠ..."
 
 #: /media/js/views/apps_added.js:18
-#: /media/js/views/apps_available_by_premium.js:18
 #: /media/js/views/apps_available_by_type.js:17
+#: /media/js/views/apps_available_by_premium.js:18
 #: /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 #: /media/js/views/apps_installed_total.js:17
@@ -382,8 +382,8 @@ msgid "Apps"
 msgstr "Ȧƥƥş"
 
 #: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_available_by_type.js:18
+#: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 #: /media/js/views/apps_installed_total.js:18

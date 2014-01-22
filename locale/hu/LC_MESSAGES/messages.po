@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
+"POT-Creation-Date: 2014-01-22T17:18:53.955Z\n"
 "PO-Revision-Date: 2014-01-09 02:45+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,14 +183,6 @@ msgstr "A keresett oldal nem található."
 msgid "An error occurred."
 msgstr "Hiba történt."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Nem lehet betölteni többet"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Próbálja újra"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Ettől:"
@@ -206,6 +198,14 @@ msgstr "Frissítés"
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
 msgstr "Ezek az adatok korlátozottak vagy nem találhatók"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Nem lehet betölteni többet"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Próbálja újra"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -346,12 +346,12 @@ msgstr[1] "<b>{n}</b> karakter maradt."
 msgid "Loading..."
 msgstr "Betöltés…"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Appok"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Appok száma"

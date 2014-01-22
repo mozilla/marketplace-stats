@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15T17:49:55.394Z\n"
+"POT-Creation-Date: 2014-01-22T17:18:53.955Z\n"
 "PO-Revision-Date: 2014-01-15 18:19+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,9 +169,7 @@ msgstr "Installierte Apps"
 
 #: /templates/homepage.html:38
 msgid "This page is currently not public. Please try again later."
-msgstr ""
-"Diese Seite ist derzeit nicht öffentlich. Bitte versuchen Sie es später "
-"erneut."
+msgstr "Diese Seite ist derzeit nicht öffentlich. Bitte versuchen Sie es später erneut."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -184,14 +182,6 @@ msgstr "Die gesuchte Seite wurde nicht gefunden."
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Ein Fehler ist aufgetreten."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fehler beim Laden weiterer Daten"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Erneut versuchen"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -208,6 +198,14 @@ msgstr "Aktualisierung"
 #: /templates/includes/chartbody.html:17
 msgid "This data is restricted or no data found"
 msgstr "Die Daten sind zugangsbeschränkt oder es wurden keine Daten gefunden"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fehler beim Laden weiterer Daten"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Erneut versuchen"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -348,12 +346,12 @@ msgstr[1] "<b>{n}</b> Zeichen verbleiben."
 msgid "Loading..."
 msgstr "Laden…"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17 /media/js/views/apps_installed_total.js:17
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18 /media/js/views/apps_installed_total.js:18
 msgid "Number of Apps"
 msgstr "Anzahl der Apps"
