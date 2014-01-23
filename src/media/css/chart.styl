@@ -269,15 +269,17 @@ for region in $regions
     em {
         font-style: normal;
         color: #fff;
-        position: relative;
+        display: inline-block;
+        position: absolute;
         top: 4px;
-        left: -5px;
+        right: 10px;
         &.out {
             color: $dark-gray;
             font-weight: 500;
-            left: inherit;
-            margin-right: -15px;
-            right: 0;
+            right: -35px;
+            &.zero {
+                right: -10px;
+            }
         }
     }
     span {
@@ -286,6 +288,7 @@ for region in $regions
         height: 25px;
         margin-left: 50px;
         text-align: right;
+        position: relative;
     }
     .heading {
         text-align: center;
