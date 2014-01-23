@@ -551,10 +551,14 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
                     })
                     .append('em')
                     .attr('class', function(d) {
+                        var cls = '';
                         if (isBarTextOutside(d.count, scale)) {
-                            return 'out';
+                            cls = 'out';
+                            if (d.count === 0) {
+                                cls = 'zero out';
+                            }
                         }
-                        return '';
+                        return cls;
                     })
                     .style('color', function(d) {
                         if (isBarTextOutside(d.count, scale)) {
