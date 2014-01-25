@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-22T17:18:53.955Z\n"
-"PO-Revision-Date: 2014-01-09 02:45+0000\n"
+"PO-Revision-Date: 2014-01-25 00:52+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389235512.0\n"
+"X-POOTLE-MTIME: 1390611126.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -169,7 +169,7 @@ msgstr "Telepített appok"
 
 #: /templates/homepage.html:38
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "Ez az oldal jelenleg nem nyilvános. Próbálja újra később."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -333,7 +333,7 @@ msgstr "Venezuela"
 
 #: /media/js/settings.js:47
 msgid "Rest of World"
-msgstr ""
+msgstr "A világ többi része"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
