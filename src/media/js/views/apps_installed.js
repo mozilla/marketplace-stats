@@ -3,7 +3,7 @@ define('views/apps_installed', ['chartutils', 'l10n'], function(cutils, l10n) {
     var gettext = l10n.gettext;
 
     // Easy way to toggle regions for this view.
-    var enableRegions = false;
+    var enableRegions = true;
 
     return function(builder) {
         // L10n: This is the title of a chart representing the number of apps installed split by region.
