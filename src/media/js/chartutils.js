@@ -6,7 +6,7 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
     var interval = 'day';
     var start = ml.getRecentTimeDelta(dayrange).start;
     var end = ml.getRecentTimeDelta(dayrange).end;
-    var region = user.get_setting('region') || 'us';
+    var region = null;
     var params = utils.getVars();
     var doRedirect = false;
     var ask = notification.confirmation;
@@ -33,7 +33,9 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
     if ('start' in params && 'end' in params) {
         start = params.start;
         end = params.end;
-        if ('region' in params) region = params.region;
+        if ('region' in params) {
+            region = params.region;
+        }
     } else {
         doRedirect = true;
     }
@@ -49,10 +51,6 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
     function createChart(apiName, lblValue, lblYAxis, opts, slug) {
         if (opts && opts.noregion) {
             region = null;
-        } else {
-            if (!region) {
-                region = user.get_setting('region') || 'us';
-            }
         }
 
         var newURL = ml.getNewURL(apiName, start, end, region, slug);
@@ -64,7 +62,7 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
         z.page.off('submit.range');
         $regions.off('change.updateregion');
 
-        if (region) {
+        if (opts && !opts.noregion) {
             var $icon = $('.regions em');
             $icon.removeClass().addClass(region);
             $regions.on('change.updateregion', function() {
@@ -72,7 +70,7 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
                 $icon.removeClass().addClass(region);
                 newURL = ml.getNewURL(apiName, start, end, region, slug);
                 z.page.trigger('divert', [newURL]);
-            }).find('option[value=' + region + ']').prop('selected', true);
+            }).find('option[value="' + region + '"]').prop('selected', true);
         }
 
         if (doRedirect) {
@@ -101,12 +99,13 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
         var params = {
             'start': start,
             'end': end,
-            'interval': interval,
-            'region': region
+            'interval': interval
         };
+        if (region) {
+            params.region = region;
+        }
 
         if (opts && opts.noregion) {
-            delete params.region;
             // We don't need to send this flag further.
             delete opts.noregion;
         }

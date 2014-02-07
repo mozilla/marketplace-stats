@@ -12,8 +12,9 @@ define('minilib', ['urls'], function(urls) {
     // Uses string concatenation to preserve pretty param order.
     function getNewURL(apiName, start, end, region, slug) {
         var segment = '?start=' + start + '&end=' + end;
-        if (region) segment += '&region=' + region;
-
+        if (region) {
+            segment += '&region=' + region;
+        }
         if (slug) {
             return urls.reverse(apiName, [slug]) + segment;
         }

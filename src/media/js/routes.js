@@ -13,8 +13,6 @@ var routes = window.routes = [
     {'pattern': '^/statistics/total\-visits$', 'view_name': 'total_visits'},
     {'pattern': '^/statistics/apps\-installed/$', 'view_name': 'apps_installed'},
     {'pattern': '^/statistics/apps\-installed$', 'view_name': 'apps_installed'},
-    {'pattern': '^/statistics/apps\-installed\-total/$', 'view_name': 'apps_installed_total'},
-    {'pattern': '^/statistics/apps\-installed\-total$', 'view_name': 'apps_installed_total'},
     {'pattern': '^/statistics/apps\-by\-type/$', 'view_name': 'apps_by_type'},
     {'pattern': '^/statistics/apps\-by\-type$', 'view_name': 'apps_by_type'},
     {'pattern': '^/statistics/apps\-available\-by\-type/$', 'view_name': 'apps_available_by_type'},

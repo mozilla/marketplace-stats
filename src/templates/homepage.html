@@ -75,10 +75,7 @@
               <a href="{{ url('apps_available_by_type') }}" data-src="apps_available_by_type"><span>{{ _('Apps by App Type') }}</span></a>
             </li>
             <li>
-              <a href="{{ url('apps_installed') }}" data-src="apps_installed"><span>{{ _('Apps Installed by Region') }}</span></a>
-            </li>
-            <li>
-              <a href="{{ url('apps_installed_total') }}" data-src="apps_installed_total"><span>{{ _('Apps Installed') }}</span></a>
+              <a href="{{ url('apps_installed') }}" data-src="apps_installed"><span>{{ _('Apps Installed') }}</span></a>
             </li>
             {# TODO: Implement 'RevenueStats:View' properly when available. #}
             {% if user.get_permission('revenue_stats') %}
