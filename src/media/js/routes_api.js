@@ -5,7 +5,6 @@ define('routes_api', [], function() {
         'total_developers': '/api/v1/stats/global/total_developers/',
         'total_visits': '/api/v1/stats/global/total_visits/',
         'apps_installed': '/api/v1/stats/global/apps_installed/',
-        'apps_installed_total': '/api/v1/stats/global/apps_installed/',
         'apps_by_type': '/api/v1/stats/global/apps_added_by_package/',
         'gross_revenue': '/api/v1/stats/global/revenue/',
         'apps_available_by_type': '/api/v1/stats/global/apps_available_by_package/',
