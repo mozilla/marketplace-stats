@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-12T18:30:41.512Z\n"
-"PO-Revision-Date: 2014-01-15 18:19+0000\n"
+"PO-Revision-Date: 2014-02-12 18:37+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389809962.0\n"
+"X-POOTLE-MTIME: 1392230262.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -133,11 +133,11 @@ msgstr "Beispielgraph"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "App-Installationen"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "Nicht verfügbar"
 
 #: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -145,27 +145,27 @@ msgstr "Entwickler"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "Transaktionen"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "Nettozahlungen"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "US-$"
 
 #: /templates/homepage.html:29
 msgid "Top Abuse Reports"
-msgstr ""
+msgstr "Wichtigste Missbrauchsmeldungen"
 
 #: /templates/homepage.html:38
 msgid "Top Apps"
-msgstr ""
+msgstr "Wichtigste Apps"
 
 #: /templates/homepage.html:47
 msgid "Most Recent Apps"
-msgstr ""
+msgstr "Neueste Apps"
 
 #: /templates/homepage.html:65 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -221,7 +221,7 @@ msgstr "Bin"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Alle Regionen"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
