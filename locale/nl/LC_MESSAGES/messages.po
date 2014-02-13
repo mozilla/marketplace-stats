@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-12T18:30:41.512Z\n"
-"PO-Revision-Date: 2014-02-13 09:02+0000\n"
-"Last-Translator: Mark <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2014-02-13 18:28+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1392282153.0\n"
+"X-POOTLE-MTIME: 1392316139.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -137,7 +137,7 @@ msgstr "App-installaties"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr "N.B."
+msgstr "N.v.t."
 
 #: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -157,7 +157,7 @@ msgstr "USD"
 
 #: /templates/homepage.html:29
 msgid "Top Abuse Reports"
-msgstr "Top-misbruikrapporten"
+msgstr "Top-misbruikmeldingen"
 
 #: /templates/homepage.html:38
 msgid "Top Apps"
