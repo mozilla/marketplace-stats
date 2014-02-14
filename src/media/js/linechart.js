@@ -56,8 +56,7 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
         var params = {
             'start': range.start,
             'end': range.end,
-            'interval': 'day',
-            'region': 'restofworld'
+            'interval': 'day'
         };
 
         $('.dashboard li a').each(function() {
