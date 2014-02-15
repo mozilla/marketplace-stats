@@ -19,6 +19,7 @@ define('routes_api', [], function() {
         'per_app_ratings': '/api/v1/stats/app/{0}/ratings/',
         'per_app_revenue': '/api/v1/stats/app/{0}/revenue/',
         'per_app_abuse_reports': '/api/v1/stats/app/{0}/abuse_reports/',
+        'per_app_average_rating': '/api/v1/stats/app/{0}/average_rating/',
 
         // Totals API. (Includes multiple totals in one request)
         'per_app_totals': '/api/v1/stats/app/{0}/totals/',

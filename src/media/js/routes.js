@@ -39,6 +39,8 @@ var routes = window.routes = [
     {'pattern': '^/statistics/app/([^/<>"\']+)/ratings$', 'view_name': 'per_app_ratings'},
     {'pattern': '^/statistics/app/([^/<>"\']+)/abuse\-reports/$', 'view_name': 'per_app_abuse_reports'},
     {'pattern': '^/statistics/app/([^/<>"\']+)/abuse\-reports$', 'view_name': 'per_app_abuse_reports'},
+    {'pattern': '^/statistics/app/([^/<>"\']+)/average_rating/$', 'view_name': 'per_app_average_rating'},
+    {'pattern': '^/statistics/app/([^/<>"\']+)/average_rating$', 'view_name': 'per_app_average_rating'},
 
     {'pattern': '^/tests$', 'view_name': 'tests'},
     {'pattern': '^/debug$', 'view_name': 'debug'}
