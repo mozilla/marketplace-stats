@@ -23,6 +23,9 @@
           <li>
             <a href="{{ url('per_app_ratings', [slug]) }}" data-src="per_app_ratings"><span>{{ _('Ratings') }}</span></a>
           </li>
+          <li>
+            <a href="{{ url('per_app_abuse_reports', [slug]) }}" data-src="per_app_abuse_reports"><span>{{ _('Abuse Reports') }}</span></a>
+          </li>
           {% if this.premium_type != 'free' and user.get_permission('revenue_stats') %}
             <li>
               <a href="{{ url('per_app_revenue', [slug]) }}" data-src="per_app_revenue"><span>{{ _('Gross Revenue') }}</span></a>

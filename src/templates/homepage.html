@@ -80,6 +80,9 @@
             <li>
               <a href="{{ url('ratings') }}" data-src="ratings"><span>{{ _('App Ratings') }}</span></a>
             </li>
+            <li>
+              <a href="{{ url('abuse_reports') }}" data-src="abuse_reports"><span>{{ _('Abuse Reports') }}</span></a>
+            </li>
             {# TODO: Implement 'RevenueStats:View' properly when available. #}
             {% if user.get_permission('revenue_stats') %}
               <li>
