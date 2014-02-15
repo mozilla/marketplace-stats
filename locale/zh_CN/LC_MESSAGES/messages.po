@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-12T18:30:41.512Z\n"
-"PO-Revision-Date: 2014-01-30 07:28+0000\n"
-"Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2014-02-15 14:50+0000\n"
+"Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1391066884.0\n"
+"X-POOTLE-MTIME: 1392475829.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -131,11 +131,11 @@ msgstr "示例图表"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "应用安装"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -143,27 +143,27 @@ msgstr "开发者"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "交易"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "净付款"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "USD"
 
 #: /templates/homepage.html:29
 msgid "Top Abuse Reports"
-msgstr ""
+msgstr "滥用报告排名"
 
 #: /templates/homepage.html:38
 msgid "Top Apps"
-msgstr ""
+msgstr "热门应用"
 
 #: /templates/homepage.html:47
 msgid "Most Recent Apps"
-msgstr ""
+msgstr "最新上架应用"
 
 #: /templates/homepage.html:65 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -219,7 +219,7 @@ msgstr "到"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "所有地区"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
