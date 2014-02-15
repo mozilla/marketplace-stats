@@ -21,6 +21,8 @@ var routes = window.routes = [
     {'pattern': '^/statistics/apps\-available\-by\-payment$', 'view_name': 'apps_available_by_premium'},
     {'pattern': '^/statistics/gross\-revenue/$', 'view_name': 'gross_revenue'},
     {'pattern': '^/statistics/gross\-revenue$', 'view_name': 'gross_revenue'},
+    {'pattern': '^/statistics/ratings/$', 'view_name': 'ratings'},
+    {'pattern': '^/statistics/ratings$', 'view_name': 'ratings'},
 
     // Per app stats:
     {'pattern': '^/statistics/app/([^/<>"\']+)$', 'view_name': 'app_dashboard'},
@@ -31,6 +33,8 @@ var routes = window.routes = [
     {'pattern': '^/statistics/app/([^/<>"\']+)/visits$', 'view_name': 'per_app_visits'},
     {'pattern': '^/statistics/app/([^/<>"\']+)/revenue/$', 'view_name': 'per_app_revenue'},
     {'pattern': '^/statistics/app/([^/<>"\']+)/revenue$', 'view_name': 'per_app_revenue'},
+    {'pattern': '^/statistics/app/([^/<>"\']+)/ratings/$', 'view_name': 'per_app_ratings'},
+    {'pattern': '^/statistics/app/([^/<>"\']+)/ratings$', 'view_name': 'per_app_ratings'},
 
     {'pattern': '^/tests$', 'view_name': 'tests'},
     {'pattern': '^/debug$', 'view_name': 'debug'}

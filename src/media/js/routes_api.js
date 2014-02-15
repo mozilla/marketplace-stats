@@ -9,11 +9,13 @@ define('routes_api', [], function() {
         'gross_revenue': '/api/v1/stats/global/revenue/',
         'apps_available_by_type': '/api/v1/stats/global/apps_available_by_package/',
         'apps_available_by_premium': '/api/v1/stats/global/apps_available_by_premium/',
+        'ratings': '/api/v1/stats/global/ratings/',
         'global_totals': '/api/v1/stats/global/totals/',
 
         // Per app stats:
         'per_app_installs': '/api/v1/stats/app/{0}/installs/',
         'per_app_visits': '/api/v1/stats/app/{0}/visits/',
+        'per_app_ratings': '/api/v1/stats/app/{0}/ratings/',
         'per_app_revenue': '/api/v1/stats/app/{0}/revenue/',
         'per_app_totals': '/api/v1/stats/app/{0}/totals/',
 

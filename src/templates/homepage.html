@@ -77,6 +77,9 @@
             <li>
               <a href="{{ url('apps_installed') }}" data-src="apps_installed"><span>{{ _('Apps Installed') }}</span></a>
             </li>
+            <li>
+              <a href="{{ url('ratings') }}" data-src="ratings"><span>{{ _('App Ratings') }}</span></a>
+            </li>
             {# TODO: Implement 'RevenueStats:View' properly when available. #}
             {% if user.get_permission('revenue_stats') %}
               <li>
