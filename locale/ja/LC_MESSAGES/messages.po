@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-12T18:30:41.512Z\n"
-"PO-Revision-Date: 2014-01-15 13:04-0500\n"
+"PO-Revision-Date: 2014-02-13 04:18-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -132,11 +132,11 @@ msgstr "サンプルチャート"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "アプリのインストール"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "非該当"
 
 #: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -144,27 +144,27 @@ msgstr "開発者"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "トランザクション"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "総支払額"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "米ドル"
 
 #: /templates/homepage.html:29
 msgid "Top Abuse Reports"
-msgstr ""
+msgstr "上位不正報告"
 
 #: /templates/homepage.html:38
 msgid "Top Apps"
-msgstr ""
+msgstr "上位アプリ"
 
 #: /templates/homepage.html:47
 msgid "Most Recent Apps"
-msgstr ""
+msgstr "最新アプリ"
 
 #: /templates/homepage.html:65 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -192,7 +192,7 @@ msgstr "このページは現在公開されていません。また後で試し
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr "Not Found"
+msgstr "エラー"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -220,7 +220,7 @@ msgstr "終了日"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "すべての地域"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
@@ -407,7 +407,7 @@ msgstr "訪問回数"
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr "Not Found"
+msgstr "見つかりませんでした"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
