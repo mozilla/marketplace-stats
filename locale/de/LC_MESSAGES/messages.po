@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-19T17:05:42.277Z\n"
-"PO-Revision-Date: 2014-02-12 18:37+0000\n"
+"PO-Revision-Date: 2014-02-19 19:47+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1392230262.0\n"
+"X-POOTLE-MTIME: 1392839250.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -41,16 +41,16 @@ msgstr "Aufrufe"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Bewertungen"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Missbrauchsmeldungen"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "Durchschnittliche Bewertung"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
@@ -202,7 +202,7 @@ msgstr "Installierte Apps"
 
 #: /templates/homepage.html:80
 msgid "App Ratings"
-msgstr ""
+msgstr "App-Bewertungen"
 
 #: /templates/homepage.html:94
 msgid "This page is currently not public. Please try again later."
@@ -385,7 +385,7 @@ msgstr[1] "<b>{n}</b> Zeichen verbleiben."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "Anzahl der Missbrauchsmeldungen"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -426,11 +426,11 @@ msgstr "Anzahl der Installationen"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "Neue Bewertungen"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "Anzahl der Bewertungen"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
