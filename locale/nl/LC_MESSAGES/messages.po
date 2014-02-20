@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-19T17:05:42.277Z\n"
-"PO-Revision-Date: 2014-02-13 18:28+0000\n"
+"PO-Revision-Date: 2014-02-20 19:27+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1392316139.0\n"
+"X-POOTLE-MTIME: 1392924434.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -41,16 +41,16 @@ msgstr "Bezoeken"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Waarderingen"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Misbruikmeldingen"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "Gemiddelde waardering"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
@@ -202,7 +202,7 @@ msgstr "Geïnstalleerde apps"
 
 #: /templates/homepage.html:80
 msgid "App Ratings"
-msgstr ""
+msgstr "App-waarderingen"
 
 #: /templates/homepage.html:94
 msgid "This page is currently not public. Please try again later."
@@ -386,7 +386,7 @@ msgstr[1] "<b>{n}</b> tekens resterend."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "Aantal misbruikmeldingen"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -427,11 +427,11 @@ msgstr "Aantal installaties"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "Nieuwe waarderingen"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "Aantal waarderingen"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
