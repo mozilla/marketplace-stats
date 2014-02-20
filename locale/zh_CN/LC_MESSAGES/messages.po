@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-19T17:05:42.277Z\n"
-"PO-Revision-Date: 2014-02-15 14:50+0000\n"
+"PO-Revision-Date: 2014-02-20 01:46+0000\n"
 "Last-Translator: Shen <steekid@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1392475829.0\n"
+"X-POOTLE-MTIME: 1392860768.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -41,16 +41,16 @@ msgstr "访问"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "评分"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "滥用报告"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "平均评分"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
@@ -200,7 +200,7 @@ msgstr "安装的应用"
 
 #: /templates/homepage.html:80
 msgid "App Ratings"
-msgstr ""
+msgstr "应用评分"
 
 #: /templates/homepage.html:94
 msgid "This page is currently not public. Please try again later."
@@ -382,7 +382,7 @@ msgstr[0] "剩余 <b>{n}</b> 个字符。"
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "滥用报告数量"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -423,11 +423,11 @@ msgstr "安装次数"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "新评分"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "评分数量"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
