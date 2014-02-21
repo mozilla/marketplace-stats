@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-19T17:05:42.277Z\n"
-"PO-Revision-Date: 2014-02-13 04:18-0500\n"
+"PO-Revision-Date: 2014-02-21 00:21-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -40,16 +40,16 @@ msgstr "訪問"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "評価"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "不正報告"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "平均評価"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
@@ -201,7 +201,7 @@ msgstr "インストールされたアプリ"
 
 #: /templates/homepage.html:80
 msgid "App Ratings"
-msgstr ""
+msgstr "アプリの評価"
 
 #: /templates/homepage.html:94
 msgid "This page is currently not public. Please try again later."
@@ -384,7 +384,7 @@ msgstr[1] "残り <b>{n}</b> 文字です。"
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "不正報告数"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -425,11 +425,11 @@ msgstr "インストール回数"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "新規評価数"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "評価数"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
