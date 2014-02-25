@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-19T17:05:42.277Z\n"
-"PO-Revision-Date: 2014-01-22 19:53+0000\n"
-"Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
+"PO-Revision-Date: 2014-02-23 16:45+0000\n"
+"Last-Translator: Zeka <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1390420421.0\n"
+"X-POOTLE-MTIME: 1393173915.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -41,16 +42,16 @@ msgstr "Posete"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Ocene"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Prijave zloupotreba"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "Prosečna ocena"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
@@ -66,7 +67,7 @@ msgstr "Molimo Vas da se prijavite kako biste nastavili."
 
 #: /templates/app_dashboard.html:43 /templates/homepage.html:99 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr "Prijavite se / Registrujte se"
+msgstr "Prijavi se / Registruj se"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -134,11 +135,11 @@ msgstr "Statistike"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr "Odjava"
+msgstr "Odjavi se"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr "Prijava"
+msgstr "Prijavi se"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -146,11 +147,11 @@ msgstr "Primer grafikona"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "Instalacije aplikacije"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "Nije dostupno"
 
 #: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -158,27 +159,27 @@ msgstr "Programeri"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "Transakcije"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "Neto plaćanja"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "Američki dolar"
 
 #: /templates/homepage.html:29
 msgid "Top Abuse Reports"
-msgstr ""
+msgstr "Najistaknutiji izveštaji zloupotrebe"
 
 #: /templates/homepage.html:38
 msgid "Top Apps"
-msgstr ""
+msgstr "Najpopularnije aplikacije"
 
 #: /templates/homepage.html:47
 msgid "Most Recent Apps"
-msgstr ""
+msgstr "Najnovije aplikacije"
 
 #: /templates/homepage.html:65 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -202,7 +203,7 @@ msgstr "Instalirane aplikacije"
 
 #: /templates/homepage.html:80
 msgid "App Ratings"
-msgstr ""
+msgstr "Ocene aplikacija"
 
 #: /templates/homepage.html:94
 msgid "This page is currently not public. Please try again later."
@@ -226,7 +227,7 @@ msgstr "Greška prilikom učitavanja"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr "Pokušajte ponovo"
+msgstr "Pokušaj ponovo"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -238,7 +239,7 @@ msgstr "Za"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Svi regioni"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
@@ -266,7 +267,7 @@ msgstr "Zahtev podataka statistike je nepotpun, ili nepostojeći."
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr "Detektovana nepoznata greška servera. Molimo pokušajte kasnije."
+msgstr "Detektovana nepoznata greška servera. Molimo Vas pokušajte kasnije."
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
@@ -274,7 +275,7 @@ msgstr "Uneli ste negativni opseg podataka. Da li želite da se vratite?"
 
 #: /media/js/chartutils.js:94
 msgid "Please enter a valid date range"
-msgstr "Molimo unesite validni opseg podatka"
+msgstr "Molimo Vas unesite validni opseg podatka"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
@@ -362,7 +363,7 @@ msgstr "Ujedinjeno Kraljevstvo"
 
 #: /media/js/settings.js:44
 msgid "United States"
-msgstr "Sjedinjene Države"
+msgstr "Sjedinjene Američke Države"
 
 #: /media/js/settings.js:45
 msgid "Uruguay"
@@ -386,7 +387,7 @@ msgstr[2] "Preostali broj karaktera: <b>{n}</b>."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "Broj prijavljenih zloupotreba"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -427,11 +428,11 @@ msgstr "Broj instaliranja"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "Nove ocene"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "Broj ocena"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
