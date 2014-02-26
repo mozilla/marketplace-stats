@@ -26,45 +26,45 @@ msgstr "Editar lista"
 msgid "Global Stats"
 msgstr "Estadísticas globales"
 
-#: /templates/app_dashboard.html:14
+#: /templates/app_ dashboard.html:14
 msgid "Number of Installs:"
 msgstr "Número de instalaciones:"
 
-#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_ dashboard.html:17 /media/js/views/per_app_ installs.js:10 /media/js/views/per_app_ installs.js:17
 msgid "Installs"
 msgstr "Instalaciones"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:62 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_ dashboard.html:20 /templates/homepage.html:62 /media/js/views/per_app_ visits.js:10 /media/js/views/per_app_ visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Visitas"
 
-#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_ dashboard.html:23 /media/js/views/per_app_ ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Puntuaciones"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
-#: /media/js/views/per_app_abuse_reports.js:17
+#: /templates/app_ dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_ reports.js:11 /media/js/views/abuse_ reports.js:18 /media/js/views/per_app_abuse_ reports.js:10
+#: /media/js/views/per_app_abuse_ reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Informes de uso indebido"
 
-#: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_ dashboard.html:29 /media/js/views/per_app_average_ rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "Puntuación media"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_ dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_ revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Ingresos brutos"
 
-#: /templates/app_dashboard.html:38
+#: /templates/app_ dashboard.html:38
 msgid "No public statistics are available"
 msgstr "No hay ninguna estadística pública disponible"
 
-#: /templates/app_dashboard.html:42 /templates/homepage.html:98 /templates/includes/signin_required.html:1
+#: /templates/app_ dashboard.html:42 /templates/homepage.html:98 /templates/includes/signin_required. html:1
 msgid "Please sign in to proceed."
 msgstr "Por favor, identifícate para continuar."
 
-#: /templates/app_dashboard.html:43 /templates/homepage.html:99 /templates/includes/signin_required.html:2
+#: /templates/app_ dashboard.html:43 /templates/homepage.html:99 /templates/includes/signin_ required.html:2
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Registrarse"
 
@@ -111,7 +111,7 @@ msgstr "Herramienta de búsqueda"
 #: /templates/footer.html:27
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Alike License v3.0 </a> or any later version."
 msgstr ""
 "A menos que se <a href=\"{legal_url}\" target=\"_blank\">indique</a> lo contrario, el contenido de esta página está sujeto a la <a href=\"{cc_url}\" target=\"_blank\">licencia Creative Commons "
 "Attribution Share-Alike 3.0</a> o una versión superior."
@@ -146,39 +146,39 @@ msgstr "Gráficas de muestra"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "Instalaciones de aplicaciones"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "No Dis."
 
-#: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_ developers.js:10 /media/js/views/total_ developers.js:17
 msgid "Developers"
 msgstr "Desarrolladores"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "Transacciones"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "Pagos netos"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "USD"
 
 #: /templates/homepage.html:29
 msgid "Top Abuse Reports"
-msgstr ""
+msgstr "Informes principales de uso indebido"
 
 #: /templates/homepage.html:38
 msgid "Top Apps"
-msgstr ""
+msgstr "Aplicaciones principales"
 
 #: /templates/homepage.html:47
 msgid "Most Recent Apps"
-msgstr ""
+msgstr "Aplicaciones más recientes"
 
 #: /templates/homepage.html:65 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -202,7 +202,7 @@ msgstr "Aplicaciones instaladas"
 
 #: /templates/homepage.html:80
 msgid "App Ratings"
-msgstr ""
+msgstr "Puntuaciones de aplicaciones"
 
 #: /templates/homepage.html:94
 msgid "This page is currently not public. Please try again later."
@@ -238,7 +238,7 @@ msgstr "Hasta"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Todos los países"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
@@ -385,7 +385,7 @@ msgstr[1] "<b>{n}</b> caracteres restantes."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "Núm. de informes de uso indebido"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -426,11 +426,11 @@ msgstr "Número de instalaciones"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "Nuevas puntuaciones"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "Número de puntuaciones"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
