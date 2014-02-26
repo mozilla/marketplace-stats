@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-26T17:05:07.013Z\n"
-"PO-Revision-Date: 2014-01-16 20:03+0000\n"
+"PO-Revision-Date: 2014-02-26 20:18+0000\n"
 "Last-Translator: Vlado <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1389902610.0\n"
+"X-POOTLE-MTIME: 1393445906.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -41,16 +41,16 @@ msgstr "Návštevy"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Hodnotenia"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:99 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Hlásenia o zneužití"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "Priemerné hodnotenie"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:106 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
@@ -146,11 +146,11 @@ msgstr "Ukážkový graf"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "Inštalácie aplikácie"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -158,27 +158,27 @@ msgstr "Vývojári"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "Transakcie"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "Čisté platby"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "USD"
 
 #: /templates/homepage.html:28
 msgid "Top Abuse Reports"
-msgstr ""
+msgstr "Časté hlásenia o zneužití"
 
 #: /templates/homepage.html:37
 msgid "Top Apps"
-msgstr ""
+msgstr "Populárne aplikácie"
 
 #: /templates/homepage.html:46
 msgid "Most Recent Apps"
-msgstr ""
+msgstr "Nedávno aktualizované aplikácie"
 
 #: /templates/homepage.html:69 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -202,7 +202,7 @@ msgstr "Nainštalované aplikácie"
 
 #: /templates/homepage.html:94
 msgid "App Ratings"
-msgstr ""
+msgstr "Hodnotenia aplikácie"
 
 #: /templates/homepage.html:113
 msgid "This page is currently not public. Please try again later."
@@ -238,7 +238,7 @@ msgstr "Do"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Všetky regióny"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
@@ -386,7 +386,7 @@ msgstr[2] "Zostáva <b>{n}</b> znakov."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "Počet hlásení o zneužití"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -427,11 +427,11 @@ msgstr "Počet inštalácií"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "Nové hodnotenia"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "Počet hodnotení"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
