@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-19T17:05:42.277Z\n"
+"POT-Creation-Date: 2014-02-26T17:05:07.013Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "Number of Installs:"
 msgid "Installs"
 msgstr "Installs"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:62 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:20 /templates/homepage.html:64 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Visits"
@@ -43,7 +43,7 @@ msgstr "Visits"
 msgid "Ratings"
 msgstr "Ratings"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:83 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:26 /templates/homepage.html:99 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Abuse Reports"
@@ -52,7 +52,7 @@ msgstr "Abuse Reports"
 msgid "Average Rating"
 msgstr "Average Rating"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:88 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:33 /templates/homepage.html:106 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Gross Revenue"
 
@@ -60,11 +60,11 @@ msgstr "Gross Revenue"
 msgid "No public statistics are available"
 msgstr "No public statistics are available"
 
-#: /templates/app_dashboard.html:42 /templates/homepage.html:98 /templates/includes/signin_required.html:1
+#: /templates/app_dashboard.html:42 /templates/homepage.html:117 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "Please sign in to proceed."
 
-#: /templates/app_dashboard.html:43 /templates/homepage.html:99 /templates/includes/signin_required.html:2
+#: /templates/app_dashboard.html:43 /templates/homepage.html:118 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "Sign in / Sign up"
 
@@ -168,43 +168,43 @@ msgstr "Net payments"
 msgid "USD"
 msgstr "USD"
 
-#: /templates/homepage.html:29
+#: /templates/homepage.html:28
 msgid "Top Abuse Reports"
 msgstr "Top Abuse Reports"
 
-#: /templates/homepage.html:38
+#: /templates/homepage.html:37
 msgid "Top Apps"
 msgstr "Top Apps"
 
-#: /templates/homepage.html:47
+#: /templates/homepage.html:46
 msgid "Most Recent Apps"
 msgstr "Most Recent Apps"
 
-#: /templates/homepage.html:65 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:69 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "New Apps by Payment Type"
 
-#: /templates/homepage.html:68 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:74 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "New Apps by App Type"
 
-#: /templates/homepage.html:71 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:79 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "Apps by Payment Type"
 
-#: /templates/homepage.html:74 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:84 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "Apps by App Type"
 
-#: /templates/homepage.html:77 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:89 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "Apps Installed"
 
-#: /templates/homepage.html:80
+#: /templates/homepage.html:94
 msgid "App Ratings"
 msgstr "App Ratings"
 
-#: /templates/homepage.html:94
+#: /templates/homepage.html:113
 msgid "This page is currently not public. Please try again later."
 msgstr "This page is currently not public. Please try again later."
 
