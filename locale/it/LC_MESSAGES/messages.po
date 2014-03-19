@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-26T17:05:07.013Z\n"
+"POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
 "PO-Revision-Date: 2014-02-20 09:53+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "Numero di installazioni:"
 msgid "Installs"
 msgstr "Installazioni"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:64 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Visite"
@@ -43,7 +43,7 @@ msgstr "Visite"
 msgid "Ratings"
 msgstr "Valutazione"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:99 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Segnalazioni di abuso"
@@ -52,7 +52,7 @@ msgstr "Segnalazioni di abuso"
 msgid "Average Rating"
 msgstr "Valutazione media"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:106 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Ricavi lordi"
 
@@ -60,11 +60,11 @@ msgstr "Ricavi lordi"
 msgid "No public statistics are available"
 msgstr "Non sono disponibili statistiche pubbliche"
 
-#: /templates/app_dashboard.html:42 /templates/homepage.html:117 /templates/includes/signin_required.html:1
+#: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "Per proseguire devi effettuare l’accesso."
 
-#: /templates/app_dashboard.html:43 /templates/homepage.html:118 /templates/includes/signin_required.html:2
+#: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "Accedi o registrati"
 
@@ -152,7 +152,7 @@ msgstr "Installazioni app"
 msgid "N/A"
 msgstr "n.d."
 
-#: /templates/homepage.html:12 /templates/homepage.html:59 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "Sviluppatori"
 
@@ -168,43 +168,31 @@ msgstr "Pagamenti netti"
 msgid "USD"
 msgstr "USD"
 
-#: /templates/homepage.html:28
-msgid "Top Abuse Reports"
-msgstr "Principali segnalazioni di abuso"
-
-#: /templates/homepage.html:37
-msgid "Top Apps"
-msgstr "Le app migliori"
-
-#: /templates/homepage.html:46
-msgid "Most Recent Apps"
-msgstr "App più recenti"
-
-#: /templates/homepage.html:69 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "Nuove app per tipo di pagamento"
 
-#: /templates/homepage.html:74 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "Nuove app per tipologia"
 
-#: /templates/homepage.html:79 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "App per tipo di pagamento"
 
-#: /templates/homepage.html:84 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "App per tipologia"
 
-#: /templates/homepage.html:89 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "App installate"
 
-#: /templates/homepage.html:94
+#: /templates/homepage.html:65
 msgid "App Ratings"
 msgstr "Valutazioni app"
 
-#: /templates/homepage.html:113
+#: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
 msgstr "Questa pagina al momento è privata. Riprova in seguito."
 
