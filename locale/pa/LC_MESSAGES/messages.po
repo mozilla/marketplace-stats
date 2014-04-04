@@ -1,431 +1,481 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-03-18 10:22+0000\n"
+"Last-Translator: Inder <inddi123in@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
+"X-POOTLE-MTIME: 1395138141.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
-msgstr ""
+msgstr "ਡੈਸ਼ਬੋਰਡ ਅੰਕੜੇ"
 
-#: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
+#: /templates/app_dashboard.html:9
+#: /templates/per_app_chart.html:11
 msgid "Edit Listing"
-msgstr ""
+msgstr "ਸੋਧ ਸੂਚੀ"
 
-#: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
+#: /templates/app_dashboard.html:11
+#: /templates/per_app_chart.html:13
 msgid "Global Stats"
-msgstr ""
+msgstr "ਸਰਵ-ਵਿਆਪੀ ਅੰਕੜੇ"
 
 #: /templates/app_dashboard.html:14
 msgid "Number of Installs:"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ ਦੇ ਅੰਕ"
 
-#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:17
+#: /media/js/views/per_app_installs.js:10
+#: /media/js/views/per_app_installs.js:17
 msgid "Installs"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:20
+#: /templates/homepage.html:35
+#: /media/js/views/per_app_visits.js:10
+#: /media/js/views/per_app_visits.js:17
+#: /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
-msgstr ""
+msgstr "ਮੁਆਇਨਾ"
 
-#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:23
+#: /media/js/views/per_app_ratings.js:18
+#: /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "ਮੁੱਲ"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:26
+#: /templates/homepage.html:70
+#: /media/js/views/abuse_reports.js:11
+#: /media/js/views/abuse_reports.js:18
+#: /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "ਰਿਪੋਰਟ ਦੁਰਵਰਤੋਂ"
 
-#: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:29
+#: /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "ਔਸਤ ਮੁੱਲ"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:33
+#: /templates/homepage.html:77
+#: /media/js/views/gross_revenue.js:10
+#: /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
-msgstr ""
+msgstr "ਸਮੁੱਚਾ ਲਾਭ"
 
 #: /templates/app_dashboard.html:38
 msgid "No public statistics are available"
-msgstr ""
+msgstr "ਜਨਤਕ ਅੰਕੜੇ ਉਪਲੱਬਧ ਨਹੀ"
 
-#: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
+#: /templates/app_dashboard.html:42
+#: /templates/homepage.html:88
+#: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
-msgstr ""
+msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
 
-#: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
+#: /templates/app_dashboard.html:43
+#: /templates/homepage.html:89
+#: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "ਬੰਦ"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "ਨਹੀਂ"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "ਹਾਂ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "ਐਪਸ ਪ੍ਰਕਾਸ਼ਿਤ"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "ਪ੍ਰਕਾਸ਼ਿਤ ਹੱਬ"
 
 #: /templates/footer.html:6
 msgid "Feedback"
-msgstr ""
+msgstr "ਸੁਝਾਅ"
 
 #: /templates/footer.html:7
 msgid "Support"
-msgstr ""
+msgstr "ਸਹਿਯੋਗ"
 
 #: /templates/footer.html:13
 msgid "My Submissions"
-msgstr ""
+msgstr "ਮੇਰੀਆਂ ਬੇਨਤੀਆਂ"
 
 #: /templates/footer.html:16
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "ਸਮੀਖਿਅਕ ਸੰਦ"
 
 #: /templates/footer.html:19
 msgid "Lookup Tool"
-msgstr ""
+msgstr "ਖੋਜ ਸੰਦ"
 
 #: /templates/footer.html:27
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ "
+"ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ 'ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ "
+"ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ v3.0 </ a> ਜਾ ਕੋਈ ਬਾਅਦ "
+"ਵਾਲਾ ਵਰਜਨ।"
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
-msgstr ""
+msgstr "ਗੋਪਨੀਅਤ ਪਾਲਸੀ"
 
 #: /templates/footer.html:33
 msgid "Terms of Use"
-msgstr ""
+msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
 
 #: /templates/header.html:2
 msgid "Statistics"
-msgstr ""
+msgstr "ਅੰਕੜੇ"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "ਸਾਈਨ ਆਊਟ"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "ਸਾਈਨ ਇਨ"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr ""
+msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "ਐਪ ਇੰਸਟਾਲੇਸ਼ਨ"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+#: /templates/homepage.html:11
+#: /templates/homepage.html:15
+#: /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:12
+#: /templates/homepage.html:30
+#: /media/js/views/total_developers.js:10
+#: /media/js/views/total_developers.js:17
 msgid "Developers"
-msgstr ""
+msgstr "ਡਿਵੈਲਪਰ"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "ਲੈਣ-ਦੇਣ"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "ਨੈੱਟ ਭੁਗਤਾਨ"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "ਅਮਰੀਕੀ ਡਾਲਰ"
 
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:40
+#: /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
-msgstr ""
+msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
 
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:45
+#: /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
-msgstr ""
+msgstr "ਐਪ ਕਿਸਮ ਰਾਹੀਂ ਨਵੀਆਂ ਐਪਸ"
 
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:50
+#: /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
-msgstr ""
+msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
 
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:55
+#: /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
-msgstr ""
+msgstr "ਐਪ ਦੀ ਕਿਸਮ ਅਨੁਸਾਰ apps"
 
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:60
+#: /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
-msgstr ""
+msgstr "ਐਪਸ ਇੰਸਟਾਲ"
 
 #: /templates/homepage.html:65
 msgid "App Ratings"
-msgstr ""
+msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "ਇਹ ਸਫ਼ਾ ਮੌਜੂਦਾ ਜਨਤਕ ਨਹੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "ਉਹ ਨੋ!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "ਤੁਸੀ ਜੋ ਸਫ਼ਾ ਲੱਭ ਰਹੇ ਹੋ ਨਹੀ ਮਿਲਿਆ।"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
-msgstr ""
+msgstr "ਵੱਲੋ"
 
 #: /templates/includes/chartbody.html:3
 msgid "To"
-msgstr ""
+msgstr "ਸੇਵਾ ਵਿਖੇ"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "ਹਰ ਖੇਤਰ"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
-msgstr ""
+msgstr "ਅਪਡੇਟ"
 
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
-msgstr ""
+msgstr "ਇਹ ਡਾਟਾ ਸੀਮਿਤ ਹੈ ਜਾ ਕੋਈ ਵੀ ਡਾਟਾ ਨਹੀ ਮਿਲਿਆ ਹੈ"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr ""
+msgstr "ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
-msgstr ""
+msgstr "ਬੇਨਤੀ ਕੀਤੀ ਅੰਕੜੇ ਸਿਰੇ ਦਾ ਗਲਤ ਹੈ।"
 
 #: /media/js/chartutils.js:26
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr ""
+"ਪ੍ਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ ਹੋਣ ਖੋਜਿਆ ਗਿਆ ਹੈ। ਜਿਸ ਡਾਟੇ ਤੱਕ ਤੁਸੀ ਪਹੁੰਚਣ ਲਈ ਤੁਸੀ ਕੋਸ਼ਿਸ਼ "
+"ਕਰ ਰਹੇ ਹੋ ਉਹ ਜਨਤਕ ਨਹੀ ਹੈ।"
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
-msgstr ""
+msgstr "ਅੰਕੜੇ ਡਾਟਾ ਬੇਨਤੀ ਨੂੰ ਅਧੂਰੀ ਜਾ ਗਲਤ ਹੈ।"
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
+msgstr "ਇੱਕ ਅਣਜਾਣੀ ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਸੀ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
-msgstr ""
+msgstr "ਤੁਸੀ ਇੱਕ ਨਕਾਰਾਤਮਕ ਦੀ ਮਿਤੀ ਰੇਜ਼ ਦਿੱਤੀ ਹੈ। ਉਲਟ?"
 
 #: /media/js/chartutils.js:94
 msgid "Please enter a valid date range"
-msgstr ""
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀਮਾ ਦਿਓ।"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "ਤੁਹਾਨੂੰ ਸਾਇਨ ਆਉਟ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "ਤੁਹਾਨੂੰ ਸਾਇਨ ਇਨ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Persona ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੋ ਗਿਆ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਮੇਲ ਪਤਾ ਹੇਠ ਇੱਕ ਖਾਤਾ ਨਹੀ "
+"ਹੈ?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Persona ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "ਕੋਈ ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਨਹੀ ਹੈ"
 
 #: /media/js/settings.js:28
 msgid "Argentina"
-msgstr ""
+msgstr "ਅਰਜਨਟਿਨਾ"
 
 #: /media/js/settings.js:29
 msgid "Brazil"
-msgstr ""
+msgstr "ਬ੍ਰਾਜ਼ੀਲ"
 
 #: /media/js/settings.js:30
 msgid "Chile"
-msgstr ""
+msgstr "ਚਿੱਲੀ"
 
 #: /media/js/settings.js:31
 msgid "China"
-msgstr ""
+msgstr "ਚਾਇਨਾ"
 
 #: /media/js/settings.js:32
 msgid "Colombia"
-msgstr ""
+msgstr "ਕੰਲੋਬਿਆ"
 
 #: /media/js/settings.js:33
 msgid "Germany"
-msgstr ""
+msgstr "ਜਰਮਨੀ"
 
 #: /media/js/settings.js:34
 msgid "Spain"
-msgstr ""
+msgstr "ਸਪੇਨ"
 
 #: /media/js/settings.js:35
 msgid "Greece"
-msgstr ""
+msgstr "ਗਰੀਸ"
 
 #: /media/js/settings.js:36
 msgid "Hungary"
-msgstr ""
+msgstr "ਹੰਗਰੀ"
 
 #: /media/js/settings.js:37
 msgid "Italy"
-msgstr ""
+msgstr "ਇੱਟਲੀ"
 
 #: /media/js/settings.js:38
 msgid "Montenegro"
-msgstr ""
+msgstr "ਮੋਨਟੈਨਗਰੋ"
 
 #: /media/js/settings.js:39
 msgid "Mexico"
-msgstr ""
+msgstr "ਮੇਕ੍ਸਿਕੋ"
 
 #: /media/js/settings.js:40
 msgid "Peru"
-msgstr ""
+msgstr "ਪੇਰੂ"
 
 #: /media/js/settings.js:41
 msgid "Poland"
-msgstr ""
+msgstr "ਪੋਲੇਡ"
 
 #: /media/js/settings.js:42
 msgid "Serbia"
-msgstr ""
+msgstr "ਸਰਬਿਆ"
 
 #: /media/js/settings.js:43
 msgid "United Kingdom"
-msgstr ""
+msgstr "ਯੂਨਾਇਟੇਡ ਕਿੰਗਡਮ"
 
 #: /media/js/settings.js:44
 msgid "United States"
-msgstr ""
+msgstr "ਯੂਨਾਇਟੇਡ ਸਟੇਟਸ"
 
 #: /media/js/settings.js:45
 msgid "Uruguay"
-msgstr ""
+msgstr "ਉਰੂਗਵੇ"
 
 #: /media/js/settings.js:46
 msgid "Venezuela"
-msgstr ""
+msgstr "ਵੈਨੇਜ਼ੁਏਲਾ"
 
 #: /media/js/settings.js:47
 msgid "Rest of World"
-msgstr ""
+msgstr "ਬਾਕੀ ਦਾ ਸ਼ੰਸਾਰ"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<b> {n} </ b> ਨੂੰ ਅੱਖਰ ਛੱਡ ਦਿੱਤਾ।"
+msgstr[1] "<b> {n} </ b> ਨੂੰ ਅੱਖਰਾ ਨੂੰ ਛੱਡ ਦਿੱਤਾ।"
 
-#: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
+#: /media/js/views/abuse_reports.js:19
+#: /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
-msgstr ""
+msgstr "ਲੋਡਿਗ..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18
+#: /media/js/views/apps_available_by_premium.js:18
+#: /media/js/views/apps_available_by_type.js:17
+#: /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
-msgstr ""
+msgstr "ਐਪਸ"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19
+#: /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_available_by_type.js:18
+#: /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
-msgstr ""
+msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
+#: /media/js/views/gross_revenue.js:17
+#: /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
-msgstr ""
+msgstr "ਰੇਵਿਨਿਉ"
 
 #: /media/js/views/gross_revenue.js:18
 msgid "Daily Total"
-msgstr ""
+msgstr "ਰੋਜ਼ਾਨਾ ਕੁੱਲ"
 
 #. Page not found (404)
 #: /media/js/views/home.js:13
 msgid "Home"
-msgstr ""
+msgstr "ਹੋਮ"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "ਨਹੀ ਲੱਭਾ"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
-msgstr ""
+msgstr "ਇੰਸਟਾਲਾ ਦੀ ਗਿਣਤੀ"
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
+#: /media/js/views/per_app_ratings.js:11
+#: /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "ਨਵਿਆ ਰੇਟਿਗਾ"
 
-#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
+#: /media/js/views/per_app_ratings.js:19
+#: /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "ਰੇਟਿਗਾ ਦੀ ਗਿਣਤੀ"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
-msgstr ""
+msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+#: /media/js/views/per_app_visits.js:18
+#: /media/js/views/total_visits.js:18
 msgid "Number of Visits"
-msgstr ""
+msgstr "ਮੁਲਾਕਾਤ ਦੀ ਗਿਣਤੀ"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
-msgstr ""
+msgstr "ਡਿਵਿਲਪਰਾ ਦੀ ਗਿਣਤੀ"
