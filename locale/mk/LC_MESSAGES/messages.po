@@ -1,431 +1,440 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-04-08 17:32+0000\n"
+"Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1396978366.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
-msgstr ""
+msgstr "Табла со статистика"
 
 #: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
 msgid "Edit Listing"
-msgstr ""
+msgstr "Ажурирај список"
 
 #: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
 msgid "Global Stats"
-msgstr ""
+msgstr "Глобална статистика"
 
 #: /templates/app_dashboard.html:14
 msgid "Number of Installs:"
-msgstr ""
+msgstr "Број на инсталации:"
 
 #: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
-msgstr ""
+msgstr "Инсталации"
 
 #: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
-msgstr ""
+msgstr "Посети"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Рејтинзи"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Пријави на злоупотреба"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "Просечен рејтинг"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
-msgstr ""
+msgstr "Бруто приход"
 
 #: /templates/app_dashboard.html:38
 msgid "No public statistics are available"
-msgstr ""
+msgstr "Нема јавно достапни статистики"
 
 #: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
-msgstr ""
+msgstr "Најавете се за да продолжите."
 
 #: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Најава / Регистрација"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Не"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Развој на апликации"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Центар за развивачи"
 
 #: /templates/footer.html:6
 msgid "Feedback"
-msgstr ""
+msgstr "Повратни информации"
 
 #: /templates/footer.html:7
 msgid "Support"
-msgstr ""
+msgstr "Поддршка"
 
 #: /templates/footer.html:13
 msgid "My Submissions"
-msgstr ""
+msgstr "Мои објави"
 
 #: /templates/footer.html:16
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "Алатки за рецензенти"
 
 #: /templates/footer.html:19
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Алатка за пребарување"
 
 #: /templates/footer.html:27
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Освен каде што е <a href=\"{legal_url}\" target=\"_blank\">нагласено</a> "
+"поинаку, содржината на оваа веб-страница е лиценцирана според <a "
+"href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> или која било подоцнежна верзија."
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Приватност"
 
 #: /templates/footer.html:33
 msgid "Terms of Use"
-msgstr ""
+msgstr "Услови за користење"
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Пријавете злоупотреба на трговска марка"
 
 #: /templates/header.html:2
 msgid "Statistics"
-msgstr ""
+msgstr "Статистики"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Одјавете се"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Најавете се"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr ""
+msgstr "Примерок на графикон"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "Инсталации на апликацијата"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "нема"
 
 #: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
-msgstr ""
+msgstr "Развивачи"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "Трансакции"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "Нето плаќања"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "USD"
 
 #: /templates/homepage.html:40 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
-msgstr ""
+msgstr "Нови апликации по вид на плаќање"
 
 #: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
-msgstr ""
+msgstr "Нови апликации по вид на апликација"
 
 #: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
-msgstr ""
+msgstr "Апликации по вид на плаќање"
 
 #: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
-msgstr ""
+msgstr "Апликации по вид на апликација"
 
 #: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
-msgstr ""
+msgstr "Инсталирани апликации"
 
 #: /templates/homepage.html:65
 msgid "App Ratings"
-msgstr ""
+msgstr "Оценки на апликација"
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "Оваа страница во моментот не е јавна. Обидете се повторно подоцна."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "О, не!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Страницата што ја баравте не е пронајдена."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Се случи грешка."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Грешка при вчитување на повеќе содржини"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Обидете се повторно"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
-msgstr ""
+msgstr "Од"
 
 #: /templates/includes/chartbody.html:3
 msgid "To"
-msgstr ""
+msgstr "До"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Сите региони"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
-msgstr ""
+msgstr "Ажурирај"
 
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
-msgstr ""
+msgstr "Овие податоци се забранети или не постојат"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr ""
+msgstr "Откриена е серверска грешка. Обидете се повторно подоцна."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
-msgstr ""
+msgstr "Барањето за статистика е невалидно."
 
 #: /media/js/chartutils.js:26
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr ""
+"Откриена е неуспешна автентикација. Податоците до кои се обидувате да "
+"пристапите не се јавни."
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
-msgstr ""
+msgstr "Барањето за статистички податоци е некомплетно или невалидно."
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
 msgstr ""
+"Откриена е непозната серверска грешка. Ве молиме пробајте повторно подоцна."
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
-msgstr ""
+msgstr "Внесовте негативен интервал на датуми. Сакате смена на редоследот?"
 
 #: /media/js/chartutils.js:94
 msgid "Please enter a valid date range"
-msgstr ""
+msgstr "Ве молиме внесете валиден интервал на датуми"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Се одјавивте"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Се најавивте"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"Неуспешно пријавување на Persona. Можеби немате сметка со таа електронска "
+"адреса?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "Неуспешно пријавување на Persona. Се појави серверска грешка."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "Нема пристап до Интернет"
 
 #: /media/js/settings.js:28
 msgid "Argentina"
-msgstr ""
+msgstr "Аргентина"
 
 #: /media/js/settings.js:29
 msgid "Brazil"
-msgstr ""
+msgstr "Бразил"
 
 #: /media/js/settings.js:30
 msgid "Chile"
-msgstr ""
+msgstr "Чиле"
 
 #: /media/js/settings.js:31
 msgid "China"
-msgstr ""
+msgstr "Кина"
 
 #: /media/js/settings.js:32
 msgid "Colombia"
-msgstr ""
+msgstr "Колумбија"
 
 #: /media/js/settings.js:33
 msgid "Germany"
-msgstr ""
+msgstr "Германија"
 
 #: /media/js/settings.js:34
 msgid "Spain"
-msgstr ""
+msgstr "Шпанија"
 
 #: /media/js/settings.js:35
 msgid "Greece"
-msgstr ""
+msgstr "Грција"
 
 #: /media/js/settings.js:36
 msgid "Hungary"
-msgstr ""
+msgstr "Унгарија"
 
 #: /media/js/settings.js:37
 msgid "Italy"
-msgstr ""
+msgstr "Италија"
 
 #: /media/js/settings.js:38
 msgid "Montenegro"
-msgstr ""
+msgstr "Црна Гора"
 
 #: /media/js/settings.js:39
 msgid "Mexico"
-msgstr ""
+msgstr "Мексико"
 
 #: /media/js/settings.js:40
 msgid "Peru"
-msgstr ""
+msgstr "Перу"
 
 #: /media/js/settings.js:41
 msgid "Poland"
-msgstr ""
+msgstr "Полска"
 
 #: /media/js/settings.js:42
 msgid "Serbia"
-msgstr ""
+msgstr "Србија"
 
 #: /media/js/settings.js:43
 msgid "United Kingdom"
-msgstr ""
+msgstr "Обединето Кралство"
 
 #: /media/js/settings.js:44
 msgid "United States"
-msgstr ""
+msgstr "Америка"
 
 #: /media/js/settings.js:45
 msgid "Uruguay"
-msgstr ""
+msgstr "Уругвај"
 
 #: /media/js/settings.js:46
 msgid "Venezuela"
-msgstr ""
+msgstr "Венецуела"
 
 #: /media/js/settings.js:47
 msgid "Rest of World"
-msgstr ""
+msgstr "Останат дел од светот"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "преостанува уште <b>{n}</b> знак."
+msgstr[1] "преостануваат уште <b>{n}</b> знаци."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "Број на пријави на злоупотреба"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
-msgstr ""
+msgstr "Се вчитува..."
 
 #: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
-msgstr ""
+msgstr "Апликации"
 
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
-msgstr ""
+msgstr "Број на апликации"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
-msgstr ""
+msgstr "Приход"
 
 #: /media/js/views/gross_revenue.js:18
 msgid "Daily Total"
-msgstr ""
+msgstr "Вкупно во денот"
 
 #. Page not found (404)
 #: /media/js/views/home.js:13
 msgid "Home"
-msgstr ""
+msgstr "Почетна"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Не постои"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
-msgstr ""
+msgstr "Број на инсталации"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "Нови рејтинзи"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "Број на рејтинзи"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
-msgstr ""
+msgstr "Вкупен приход"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
-msgstr ""
+msgstr "Број на посети"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
-msgstr ""
+msgstr "Број на развивачи"
