@@ -25,26 +25,33 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
 
         // A list of regions and their L10n mappings.
         REGION_CHOICES_SLUG: {
+            'restofworld': gettext('Rest of World'),
             'ar': gettext('Argentina'),
             'br': gettext('Brazil'),
             'cl': gettext('Chile'),
             'cn': gettext('China'),
             'co': gettext('Colombia'),
+            'cr': gettext('Costa Rica'),
+            'ec': gettext('Ecuador'),
+            'sv': gettext('El Salvador'),
             'de': gettext('Germany'),
-            'es': gettext('Spain'),
             'gr': gettext('Greece'),
+            'gt': getttext('Guatemala'),
             'hu': gettext('Hungary'),
             'it': gettext('Italy'),
-            'me': gettext('Montenegro'),
             'mx': gettext('Mexico'),
+            'me': gettext('Montenegro'),
+            'ni': gettext('Nicaragua'),
+            'pa': gettext('Panama'),
             'pe': gettext('Peru'),
             'pl': gettext('Poland'),
             'rs': gettext('Serbia'),
+            'es': gettext('Spain'),
             'uk': gettext('United Kingdom'),
             'us': gettext('United States'),
             'uy': gettext('Uruguay'),
             've': gettext('Venezuela'),
-            'restofworld': gettext('Rest of World')
+            'None': gettext('No region in search')
         },
 
         timing_url: '',  // TODO: figure this out
