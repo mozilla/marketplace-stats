@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-02-21 00:21-0500\n"
+"PO-Revision-Date: 2014-04-23 12:37-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -197,7 +197,7 @@ msgstr "このページは現在公開されていません。また後で試し
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr "エラー"
+msgstr "ページが見つかりません"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -309,15 +309,15 @@ msgstr "コロンビア"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
-msgstr ""
+msgstr "コスタリカ"
 
 #: /media/js/settings.js:35
 msgid "Ecuador"
-msgstr ""
+msgstr "エクアドル"
 
 #: /media/js/settings.js:36
 msgid "El Salvador"
-msgstr ""
+msgstr "エルサルバドル"
 
 #: /media/js/settings.js:37
 msgid "Germany"
@@ -329,7 +329,7 @@ msgstr "ギリシャ"
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
-msgstr ""
+msgstr "グアテマラ"
 
 #: /media/js/settings.js:40
 msgid "Hungary"
@@ -349,11 +349,11 @@ msgstr "モンテネグロ"
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
-msgstr ""
+msgstr "ニカラグア"
 
 #: /media/js/settings.js:45
 msgid "Panama"
-msgstr ""
+msgstr "パナマ"
 
 #: /media/js/settings.js:46
 msgid "Peru"
@@ -389,7 +389,7 @@ msgstr "ベネズエラ"
 
 #: /media/js/settings.js:54
 msgid "No region in search"
-msgstr ""
+msgstr "該当する地域はありません"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -432,7 +432,7 @@ msgstr "ホーム"
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr "見つかりませんでした"
+msgstr "ページが見つかりません"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
