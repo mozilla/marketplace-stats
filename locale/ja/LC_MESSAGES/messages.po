@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
+"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
 "PO-Revision-Date: 2014-02-21 00:21-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -284,84 +284,112 @@ msgid "No internet connection"
 msgstr "インターネットに接続されていません"
 
 #: /media/js/settings.js:28
+msgid "Rest of World"
+msgstr "その他の地域"
+
+#: /media/js/settings.js:29
 msgid "Argentina"
 msgstr "アルゼンチン"
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:30
 msgid "Brazil"
 msgstr "ブラジル"
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:31
 msgid "Chile"
 msgstr "チリ"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "China"
 msgstr "中国"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "Colombia"
 msgstr "コロンビア"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
+msgid "Costa Rica"
+msgstr ""
+
+#: /media/js/settings.js:35
+msgid "Ecuador"
+msgstr ""
+
+#: /media/js/settings.js:36
+msgid "El Salvador"
+msgstr ""
+
+#: /media/js/settings.js:37
 msgid "Germany"
 msgstr "ドイツ"
 
-#: /media/js/settings.js:34
-msgid "Spain"
-msgstr "スペイン"
-
-#: /media/js/settings.js:35
+#: /media/js/settings.js:38
 msgid "Greece"
 msgstr "ギリシャ"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:39
+msgid "Guatemala"
+msgstr ""
+
+#: /media/js/settings.js:40
 msgid "Hungary"
 msgstr "ハンガリー"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "Italy"
 msgstr "イタリア"
 
-#: /media/js/settings.js:38
-msgid "Montenegro"
-msgstr "モンテネグロ"
-
-#: /media/js/settings.js:39
+#: /media/js/settings.js:42
 msgid "Mexico"
 msgstr "メキシコ"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:43
+msgid "Montenegro"
+msgstr "モンテネグロ"
+
+#: /media/js/settings.js:44
+msgid "Nicaragua"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Panama"
+msgstr ""
+
+#: /media/js/settings.js:46
 msgid "Peru"
 msgstr "ペルー"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:47
 msgid "Poland"
 msgstr "ポーランド"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:48
 msgid "Serbia"
 msgstr "セルビア"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:49
+msgid "Spain"
+msgstr "スペイン"
+
+#: /media/js/settings.js:50
 msgid "United Kingdom"
 msgstr "イギリス"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:51
 msgid "United States"
 msgstr "アメリカ"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:52
 msgid "Uruguay"
 msgstr "ウルグアイ"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:53
 msgid "Venezuela"
 msgstr "ベネズエラ"
 
-#: /media/js/settings.js:47
-msgid "Rest of World"
-msgstr "その他の地域"
+#: /media/js/settings.js:54
+msgid "No region in search"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28

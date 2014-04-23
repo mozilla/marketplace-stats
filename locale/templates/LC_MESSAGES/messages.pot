@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
+"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -313,83 +313,111 @@ msgid "No internet connection"
 msgstr ""
 
 #: /media/js/settings.js:28
-msgid "Argentina"
+msgid "Rest of World"
 msgstr ""
 
 #: /media/js/settings.js:29
-msgid "Brazil"
+msgid "Argentina"
 msgstr ""
 
 #: /media/js/settings.js:30
-msgid "Chile"
+msgid "Brazil"
 msgstr ""
 
 #: /media/js/settings.js:31
-msgid "China"
+msgid "Chile"
 msgstr ""
 
 #: /media/js/settings.js:32
-msgid "Colombia"
+msgid "China"
 msgstr ""
 
 #: /media/js/settings.js:33
-msgid "Germany"
+msgid "Colombia"
 msgstr ""
 
 #: /media/js/settings.js:34
-msgid "Spain"
+msgid "Costa Rica"
 msgstr ""
 
 #: /media/js/settings.js:35
-msgid "Greece"
+msgid "Ecuador"
 msgstr ""
 
 #: /media/js/settings.js:36
-msgid "Hungary"
+msgid "El Salvador"
 msgstr ""
 
 #: /media/js/settings.js:37
-msgid "Italy"
+msgid "Germany"
 msgstr ""
 
 #: /media/js/settings.js:38
-msgid "Montenegro"
+msgid "Greece"
 msgstr ""
 
 #: /media/js/settings.js:39
-msgid "Mexico"
+msgid "Guatemala"
 msgstr ""
 
 #: /media/js/settings.js:40
-msgid "Peru"
+msgid "Hungary"
 msgstr ""
 
 #: /media/js/settings.js:41
-msgid "Poland"
+msgid "Italy"
 msgstr ""
 
 #: /media/js/settings.js:42
-msgid "Serbia"
+msgid "Mexico"
 msgstr ""
 
 #: /media/js/settings.js:43
-msgid "United Kingdom"
+msgid "Montenegro"
 msgstr ""
 
 #: /media/js/settings.js:44
-msgid "United States"
+msgid "Nicaragua"
 msgstr ""
 
 #: /media/js/settings.js:45
-msgid "Uruguay"
+msgid "Panama"
 msgstr ""
 
 #: /media/js/settings.js:46
-msgid "Venezuela"
+msgid "Peru"
 msgstr ""
 
 #: /media/js/settings.js:47
-msgid "Rest of World"
+msgid "Poland"
+msgstr ""
+
+#: /media/js/settings.js:48
+msgid "Serbia"
+msgstr ""
+
+#: /media/js/settings.js:49
+msgid "Spain"
+msgstr ""
+
+#: /media/js/settings.js:50
+msgid "United Kingdom"
+msgstr ""
+
+#: /media/js/settings.js:51
+msgid "United States"
+msgstr ""
+
+#: /media/js/settings.js:52
+msgid "Uruguay"
+msgstr ""
+
+#: /media/js/settings.js:53
+msgid "Venezuela"
+msgstr ""
+
+#: /media/js/settings.js:54
+msgid "No region in search"
 msgstr ""
 
 #. {n} is the number of characters left.

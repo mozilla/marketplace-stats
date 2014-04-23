@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
+"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -321,84 +321,112 @@ msgid "No internet connection"
 msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
 
 #: /media/js/settings.js:28
+msgid "Rest of World"
+msgstr "Řḗşŧ ǿƒ Ẇǿřŀḓ"
+
+#: /media/js/settings.js:29
 msgid "Argentina"
 msgstr "Ȧřɠḗƞŧīƞȧ"
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:30
 msgid "Brazil"
 msgstr "Ɓřȧzīŀ"
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:31
 msgid "Chile"
 msgstr "Ƈħīŀḗ"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "China"
 msgstr "Ƈħīƞȧ"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "Colombia"
 msgstr "Ƈǿŀǿḿƀīȧ"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
+msgid "Costa Rica"
+msgstr "Ƈǿşŧȧ Řīƈȧ"
+
+#: /media/js/settings.js:35
+msgid "Ecuador"
+msgstr "Ḗƈŭȧḓǿř"
+
+#: /media/js/settings.js:36
+msgid "El Salvador"
+msgstr "Ḗŀ Şȧŀṽȧḓǿř"
+
+#: /media/js/settings.js:37
 msgid "Germany"
 msgstr "Ɠḗřḿȧƞẏ"
 
-#: /media/js/settings.js:34
-msgid "Spain"
-msgstr "Şƥȧīƞ"
-
-#: /media/js/settings.js:35
+#: /media/js/settings.js:38
 msgid "Greece"
 msgstr "Ɠřḗḗƈḗ"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:39
+msgid "Guatemala"
+msgstr "Ɠŭȧŧḗḿȧŀȧ"
+
+#: /media/js/settings.js:40
 msgid "Hungary"
 msgstr "Ħŭƞɠȧřẏ"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "Italy"
 msgstr "Īŧȧŀẏ"
 
-#: /media/js/settings.js:38
-msgid "Montenegro"
-msgstr "Ḿǿƞŧḗƞḗɠřǿ"
-
-#: /media/js/settings.js:39
+#: /media/js/settings.js:42
 msgid "Mexico"
 msgstr "Ḿḗẋīƈǿ"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:43
+msgid "Montenegro"
+msgstr "Ḿǿƞŧḗƞḗɠřǿ"
+
+#: /media/js/settings.js:44
+msgid "Nicaragua"
+msgstr "Ƞīƈȧřȧɠŭȧ"
+
+#: /media/js/settings.js:45
+msgid "Panama"
+msgstr "Ƥȧƞȧḿȧ"
+
+#: /media/js/settings.js:46
 msgid "Peru"
 msgstr "Ƥḗřŭ"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:47
 msgid "Poland"
 msgstr "Ƥǿŀȧƞḓ"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:48
 msgid "Serbia"
 msgstr "Şḗřƀīȧ"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:49
+msgid "Spain"
+msgstr "Şƥȧīƞ"
+
+#: /media/js/settings.js:50
 msgid "United Kingdom"
 msgstr "Ŭƞīŧḗḓ Ķīƞɠḓǿḿ"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:51
 msgid "United States"
 msgstr "Ŭƞīŧḗḓ Şŧȧŧḗş"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:52
 msgid "Uruguay"
 msgstr "Ŭřŭɠŭȧẏ"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:53
 msgid "Venezuela"
 msgstr "Ṽḗƞḗzŭḗŀȧ"
 
-#: /media/js/settings.js:47
-msgid "Rest of World"
-msgstr "Řḗşŧ ǿƒ Ẇǿřŀḓ"
+#: /media/js/settings.js:54
+msgid "No region in search"
+msgstr "Ƞǿ řḗɠīǿƞ īƞ şḗȧřƈħ"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28

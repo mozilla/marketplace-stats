@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
+"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
 "PO-Revision-Date: 2014-02-19 17:13+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -283,84 +283,112 @@ msgid "No internet connection"
 msgstr "沒有網路連線"
 
 #: /media/js/settings.js:28
+msgid "Rest of World"
+msgstr "世界上的其他地區"
+
+#: /media/js/settings.js:29
 msgid "Argentina"
 msgstr "阿根廷"
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:30
 msgid "Brazil"
 msgstr "巴西"
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:31
 msgid "Chile"
 msgstr "智利"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "China"
 msgstr "中國"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "Colombia"
 msgstr "哥倫比亞"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
+msgid "Costa Rica"
+msgstr ""
+
+#: /media/js/settings.js:35
+msgid "Ecuador"
+msgstr ""
+
+#: /media/js/settings.js:36
+msgid "El Salvador"
+msgstr ""
+
+#: /media/js/settings.js:37
 msgid "Germany"
 msgstr "德國"
 
-#: /media/js/settings.js:34
-msgid "Spain"
-msgstr "西班牙"
-
-#: /media/js/settings.js:35
+#: /media/js/settings.js:38
 msgid "Greece"
 msgstr "希臘"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:39
+msgid "Guatemala"
+msgstr ""
+
+#: /media/js/settings.js:40
 msgid "Hungary"
 msgstr "匈牙利"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "Italy"
 msgstr "義大利"
 
-#: /media/js/settings.js:38
-msgid "Montenegro"
-msgstr "蒙特內哥羅"
-
-#: /media/js/settings.js:39
+#: /media/js/settings.js:42
 msgid "Mexico"
 msgstr "墨西哥"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:43
+msgid "Montenegro"
+msgstr "蒙特內哥羅"
+
+#: /media/js/settings.js:44
+msgid "Nicaragua"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Panama"
+msgstr ""
+
+#: /media/js/settings.js:46
 msgid "Peru"
 msgstr "祕魯"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:47
 msgid "Poland"
 msgstr "波蘭"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:48
 msgid "Serbia"
 msgstr "塞爾維亞"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:49
+msgid "Spain"
+msgstr "西班牙"
+
+#: /media/js/settings.js:50
 msgid "United Kingdom"
 msgstr "英國"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:51
 msgid "United States"
 msgstr "美國"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:52
 msgid "Uruguay"
 msgstr "烏拉圭"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:53
 msgid "Venezuela"
 msgstr "委內瑞拉"
 
-#: /media/js/settings.js:47
-msgid "Rest of World"
-msgstr "世界上的其他地區"
+#: /media/js/settings.js:54
+msgid "No region in search"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28

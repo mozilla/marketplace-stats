@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19T16:34:50.735Z\n"
+"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
 "PO-Revision-Date: 2014-02-28 18:40+0000\n"
 "Last-Translator: friktor <antonshramko@yandex.ru>\n"
 "Language-Team: Russian <Russian <ru@li.org>>\n"
@@ -286,84 +286,112 @@ msgid "No internet connection"
 msgstr "Нет подключения к Интернету"
 
 #: /media/js/settings.js:28
+msgid "Rest of World"
+msgstr "Остальной мир"
+
+#: /media/js/settings.js:29
 msgid "Argentina"
 msgstr "Аргентина"
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:30
 msgid "Brazil"
 msgstr "Бразилия"
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:31
 msgid "Chile"
 msgstr "Чили"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "China"
 msgstr "Китай"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "Colombia"
 msgstr "Колумбия"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
+msgid "Costa Rica"
+msgstr ""
+
+#: /media/js/settings.js:35
+msgid "Ecuador"
+msgstr ""
+
+#: /media/js/settings.js:36
+msgid "El Salvador"
+msgstr ""
+
+#: /media/js/settings.js:37
 msgid "Germany"
 msgstr "Германия"
 
-#: /media/js/settings.js:34
-msgid "Spain"
-msgstr "Испания"
-
-#: /media/js/settings.js:35
+#: /media/js/settings.js:38
 msgid "Greece"
 msgstr "Греция"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:39
+msgid "Guatemala"
+msgstr ""
+
+#: /media/js/settings.js:40
 msgid "Hungary"
 msgstr "Венгрия"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:41
 msgid "Italy"
 msgstr "Италия"
 
-#: /media/js/settings.js:38
-msgid "Montenegro"
-msgstr "Черногория"
-
-#: /media/js/settings.js:39
+#: /media/js/settings.js:42
 msgid "Mexico"
 msgstr "Мексика"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:43
+msgid "Montenegro"
+msgstr "Черногория"
+
+#: /media/js/settings.js:44
+msgid "Nicaragua"
+msgstr ""
+
+#: /media/js/settings.js:45
+msgid "Panama"
+msgstr ""
+
+#: /media/js/settings.js:46
 msgid "Peru"
 msgstr "Перу"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:47
 msgid "Poland"
 msgstr "Польша"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:48
 msgid "Serbia"
 msgstr "Сербия"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:49
+msgid "Spain"
+msgstr "Испания"
+
+#: /media/js/settings.js:50
 msgid "United Kingdom"
 msgstr "Великобритания"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:51
 msgid "United States"
 msgstr "США"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:52
 msgid "Uruguay"
 msgstr "Уругвай"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:53
 msgid "Venezuela"
 msgstr "Венесуэла"
 
-#: /media/js/settings.js:47
-msgid "Rest of World"
-msgstr "Остальной мир"
+#: /media/js/settings.js:54
+msgid "No region in search"
+msgstr ""
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
