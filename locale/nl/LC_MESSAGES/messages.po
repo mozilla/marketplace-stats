@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-02-20 19:27+0000\n"
-"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
+"PO-Revision-Date: 2014-04-24 06:01+0000\n"
+"Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1392924434.0\n"
+"X-POOTLE-MTIME: 1398319303.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -311,15 +311,15 @@ msgstr "Colombia"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: /media/js/settings.js:35
 msgid "Ecuador"
-msgstr ""
+msgstr "Ecuador"
 
 #: /media/js/settings.js:36
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: /media/js/settings.js:37
 msgid "Germany"
@@ -331,7 +331,7 @@ msgstr "Griekenland"
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: /media/js/settings.js:40
 msgid "Hungary"
@@ -351,11 +351,11 @@ msgstr "Montenegro"
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 #: /media/js/settings.js:45
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #: /media/js/settings.js:46
 msgid "Peru"
@@ -391,7 +391,7 @@ msgstr "Venezuela"
 
 #: /media/js/settings.js:54
 msgid "No region in search"
-msgstr ""
+msgstr "Geen regio in zoekopdracht"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
