@@ -3,26 +3,28 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-03-18 10:22+0000\n"
-"Last-Translator: Inder <inddi123in@gmail.com>\n"
+"PO-Revision-Date: 2014-04-25 03:38+0000\n"
+"Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
-"X-POOTLE-MTIME: 1395138141.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1398397122.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
 msgstr "ਡੈਸ਼ਬੋਰਡ ਅੰਕੜੇ"
 
-#: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
+#: /templates/app_dashboard.html:9
+#: /templates/per_app_chart.html:11
 msgid "Edit Listing"
 msgstr "ਸੋਧ ਸੂਚੀ"
 
-#: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
+#: /templates/app_dashboard.html:11
+#: /templates/per_app_chart.html:13
 msgid "Global Stats"
 msgstr "ਸਰਵ-ਵਿਆਪੀ ਅੰਕੜੇ"
 
@@ -30,29 +32,45 @@ msgstr "ਸਰਵ-ਵਿਆਪੀ ਅੰਕੜੇ"
 msgid "Number of Installs:"
 msgstr "ਇੰਸਟਾਲ ਦੇ ਅੰਕ"
 
-#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:17
+#: /media/js/views/per_app_installs.js:10
+#: /media/js/views/per_app_installs.js:17
 msgid "Installs"
 msgstr "ਇੰਸਟਾਲ"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:20
+#: /templates/homepage.html:35
+#: /media/js/views/per_app_visits.js:10
+#: /media/js/views/per_app_visits.js:17
+#: /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "ਮੁਆਇਨਾ"
 
-#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:23
+#: /media/js/views/per_app_ratings.js:18
+#: /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "ਮੁੱਲ"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:26
+#: /templates/homepage.html:70
+#: /media/js/views/abuse_reports.js:11
+#: /media/js/views/abuse_reports.js:18
+#: /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "ਰਿਪੋਰਟ ਦੁਰਵਰਤੋਂ"
 
-#: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:29
+#: /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
 msgstr "ਔਸਤ ਮੁੱਲ"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:33
+#: /templates/homepage.html:77
+#: /media/js/views/gross_revenue.js:10
+#: /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "ਸਮੁੱਚਾ ਲਾਭ"
 
@@ -60,11 +78,15 @@ msgstr "ਸਮੁੱਚਾ ਲਾਭ"
 msgid "No public statistics are available"
 msgstr "ਜਨਤਕ ਅੰਕੜੇ ਉਪਲੱਬਧ ਨਹੀ"
 
-#: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
+#: /templates/app_dashboard.html:42
+#: /templates/homepage.html:88
+#: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
 
-#: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
+#: /templates/app_dashboard.html:43
+#: /templates/homepage.html:89
+#: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
@@ -109,12 +131,12 @@ msgid "Lookup Tool"
 msgstr "ਖੋਜ ਸੰਦ"
 
 #: /templates/footer.html:27
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
-"ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ 'ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ v3.0 "
-"</ a> ਜਾ ਕੋਈ ਬਾਅਦ ਵਾਲਾ ਵਰਜਨ।"
+"ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ "
+"ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ 'ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ "
+"ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ v3.0 </ a> ਜਾ ਕੋਈ ਬਾਅਦ "
+"ਵਾਲਾ ਵਰਜਨ।"
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
@@ -148,11 +170,16 @@ msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
 msgid "App Installations"
 msgstr "ਐਪ ਇੰਸਟਾਲੇਸ਼ਨ"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+#: /templates/homepage.html:11
+#: /templates/homepage.html:15
+#: /templates/homepage.html:19
 msgid "N/A"
 msgstr "N/A"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:12
+#: /templates/homepage.html:30
+#: /media/js/views/total_developers.js:10
+#: /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "ਡਿਵੈਲਪਰ"
 
@@ -168,23 +195,28 @@ msgstr "ਨੈੱਟ ਭੁਗਤਾਨ"
 msgid "USD"
 msgstr "ਅਮਰੀਕੀ ਡਾਲਰ"
 
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:40
+#: /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
 
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:45
+#: /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "ਐਪ ਕਿਸਮ ਰਾਹੀਂ ਨਵੀਆਂ ਐਪਸ"
 
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:50
+#: /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
 
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:55
+#: /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "ਐਪ ਦੀ ਕਿਸਮ ਅਨੁਸਾਰ apps"
 
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:60
+#: /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "ਐਪਸ ਇੰਸਟਾਲ"
 
@@ -196,7 +228,8 @@ msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
 msgid "This page is currently not public. Please try again later."
 msgstr "ਇਹ ਸਫ਼ਾ ਮੌਜੂਦਾ ਜਨਤਕ ਨਹੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ਉਹ ਨੋ!"
 
@@ -246,7 +279,9 @@ msgstr "ਬੇਨਤੀ ਕੀਤੀ ਅੰਕੜੇ ਸਿਰੇ ਦਾ ਗਲ�
 
 #: /media/js/chartutils.js:26
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ ਹੋਣ ਖੋਜਿਆ ਗਿਆ ਹੈ। ਜਿਸ ਡਾਟੇ ਤੱਕ ਤੁਸੀ ਪਹੁੰਚਣ ਲਈ ਤੁਸੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ ਉਹ ਜਨਤਕ ਨਹੀ ਹੈ।"
+msgstr ""
+"ਪ੍ਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ ਹੋਣ ਖੋਜਿਆ ਗਿਆ ਹੈ। ਜਿਸ ਡਾਟੇ ਤੱਕ ਤੁਸੀ ਪਹੁੰਚਣ ਲਈ ਤੁਸੀ ਕੋਸ਼ਿਸ਼ "
+"ਕਰ ਰਹੇ ਹੋ ਉਹ ਜਨਤਕ ਨਹੀ ਹੈ।"
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
@@ -274,7 +309,9 @@ msgstr "ਤੁਹਾਨੂੰ ਸਾਇਨ ਇਨ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੋ ਗਿਆ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਮੇਲ ਪਤਾ ਹੇਠ ਇੱਕ ਖਾਤਾ ਨਹੀ ਹੈ?"
+msgstr ""
+"Persona ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੋ ਗਿਆ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਮੇਲ ਪਤਾ ਹੇਠ ਇੱਕ ਖਾਤਾ ਨਹੀ "
+"ਹੈ?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
@@ -310,15 +347,15 @@ msgstr "ਕੰਲੋਬਿਆ"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
-msgstr ""
+msgstr "ਕੋਸਟਾ ਰੀਕਾ"
 
 #: /media/js/settings.js:35
 msgid "Ecuador"
-msgstr ""
+msgstr "ਏਕਵਾਡੋਰ"
 
 #: /media/js/settings.js:36
 msgid "El Salvador"
-msgstr ""
+msgstr "ਏਲ ਸਲਵਾਡੋਰ"
 
 #: /media/js/settings.js:37
 msgid "Germany"
@@ -330,7 +367,7 @@ msgstr "ਗਰੀਸ"
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
-msgstr ""
+msgstr "ਗੁਆਟੇਮਾਲਾ"
 
 #: /media/js/settings.js:40
 msgid "Hungary"
@@ -350,11 +387,11 @@ msgstr "ਮੋਨਟੈਨਗਰੋ"
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
-msgstr ""
+msgstr "ਨਿਕਾਰਾਗੁਆ"
 
 #: /media/js/settings.js:45
 msgid "Panama"
-msgstr ""
+msgstr "ਪੈਨਾਮਾ"
 
 #: /media/js/settings.js:46
 msgid "Peru"
@@ -390,7 +427,7 @@ msgstr "ਵੈਨੇਜ਼ੁਏਲਾ"
 
 #: /media/js/settings.js:54
 msgid "No region in search"
-msgstr ""
+msgstr "ਖੋਜ ਵਿੱਚ ਕੋਈ ਖੇਤਰ ਨਹੀਂ"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -399,7 +436,8 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b> {n} </ b> ਨੂੰ ਅੱਖਰ ਛੱਡ ਦਿੱਤਾ।"
 msgstr[1] "<b> {n} </ b> ਨੂੰ ਅੱਖਰਾ ਨੂੰ ਛੱਡ ਦਿੱਤਾ।"
 
-#: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
+#: /media/js/views/abuse_reports.js:19
+#: /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 
@@ -407,17 +445,24 @@ msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 msgid "Loading..."
 msgstr "ਲੋਡਿਗ..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18
+#: /media/js/views/apps_available_by_premium.js:18
+#: /media/js/views/apps_available_by_type.js:17
+#: /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "ਐਪਸ"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19
+#: /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_available_by_type.js:18
+#: /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
+#: /media/js/views/gross_revenue.js:17
+#: /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
 msgstr "ਰੇਵਿਨਿਉ"
 
@@ -440,11 +485,13 @@ msgid "Number of Installs"
 msgstr "ਇੰਸਟਾਲਾ ਦੀ ਗਿਣਤੀ"
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
+#: /media/js/views/per_app_ratings.js:11
+#: /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "ਨਵਿਆ ਰੇਟਿਗਾ"
 
-#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
+#: /media/js/views/per_app_ratings.js:19
+#: /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "ਰੇਟਿਗਾ ਦੀ ਗਿਣਤੀ"
 
@@ -452,7 +499,8 @@ msgstr "ਰੇਟਿਗਾ ਦੀ ਗਿਣਤੀ"
 msgid "Total Revenue"
 msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+#: /media/js/views/per_app_visits.js:18
+#: /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "ਮੁਲਾਕਾਤ ਦੀ ਗਿਣਤੀ"
 
