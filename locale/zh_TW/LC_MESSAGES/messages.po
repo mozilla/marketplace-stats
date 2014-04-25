@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-02-19 17:13+0000\n"
+"PO-Revision-Date: 2014-04-25 04:01+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1392830005.0\n"
+"X-POOTLE-MTIME: 1398398468.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -308,15 +308,15 @@ msgstr "哥倫比亞"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
-msgstr ""
+msgstr "哥斯大黎加"
 
 #: /media/js/settings.js:35
 msgid "Ecuador"
-msgstr ""
+msgstr "厄瓜多"
 
 #: /media/js/settings.js:36
 msgid "El Salvador"
-msgstr ""
+msgstr "薩爾瓦多"
 
 #: /media/js/settings.js:37
 msgid "Germany"
@@ -328,7 +328,7 @@ msgstr "希臘"
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
-msgstr ""
+msgstr "瓜地馬拉"
 
 #: /media/js/settings.js:40
 msgid "Hungary"
@@ -348,11 +348,11 @@ msgstr "蒙特內哥羅"
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
-msgstr ""
+msgstr "尼加拉瓜"
 
 #: /media/js/settings.js:45
 msgid "Panama"
-msgstr ""
+msgstr "巴拿馬"
 
 #: /media/js/settings.js:46
 msgid "Peru"
@@ -388,7 +388,7 @@ msgstr "委內瑞拉"
 
 #: /media/js/settings.js:54
 msgid "No region in search"
-msgstr ""
+msgstr "不在地區中搜尋"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
