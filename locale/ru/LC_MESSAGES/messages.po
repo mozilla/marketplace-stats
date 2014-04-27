@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-02-28 18:40+0000\n"
-"Last-Translator: friktor <antonshramko@yandex.ru>\n"
+"PO-Revision-Date: 2014-04-27 17:23+0400\n"
+"Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian <Russian <ru@li.org>>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-POOTLE-MTIME: 1393612819.0\n"
 
@@ -31,29 +32,36 @@ msgstr "Полная Статистика"
 msgid "Number of Installs:"
 msgstr "Число установок:"
 
-#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10
+#: /media/js/views/per_app_installs.js:17
 msgid "Installs"
 msgstr "Установки"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
-#: /media/js/views/total_visits.js:17
+#: /templates/app_dashboard.html:20 /templates/homepage.html:35
+#: /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17
+#: /media/js/views/total_visits.js:10 /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Посещения"
 
-#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18
+#: /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Оценки"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:26 /templates/homepage.html:70
+#: /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18
+#: /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Жалобы"
 
-#: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:29
+#: /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
 msgstr "Средняя оценка"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:33 /templates/homepage.html:77
+#: /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Сумма Дохода"
 
@@ -61,11 +69,13 @@ msgstr "Сумма Дохода"
 msgid "No public statistics are available"
 msgstr "Нет доступа к статистике"
 
-#: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
+#: /templates/app_dashboard.html:42 /templates/homepage.html:88
+#: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "Войдите чтобы продолжить."
 
-#: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
+#: /templates/app_dashboard.html:43 /templates/homepage.html:89
+#: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "Вход / Регистрация"
 
@@ -111,11 +121,15 @@ msgstr "Инструмент поиска"
 
 #: /templates/footer.html:27
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" target="
+"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
 msgstr ""
-"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a href=\"{cc_url}\" target=\"_blank\">лицензии "
-"Creative Commons Атрибуция — С сохранением условий версии 3.0</a> или более поздней."
+"За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно "
+"указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a "
+"href=\"{cc_url}\" target=\"_blank\">лицензии Creative Commons Атрибуция — С "
+"сохранением условий версии 3.0</a> или более поздней."
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
@@ -149,11 +163,14 @@ msgstr "Образец Графика"
 msgid "App Installations"
 msgstr "Установок приложения"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+#: /templates/homepage.html:11 /templates/homepage.html:15
+#: /templates/homepage.html:19
 msgid "N/A"
 msgstr "н/д"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:12 /templates/homepage.html:30
+#: /media/js/views/total_developers.js:10
+#: /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "Разработчики"
 
@@ -195,7 +212,9 @@ msgstr "Оценок приложения"
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr "Эта страница в данный момент не является публичной. Пожалуйста, повторите попытку позже."
+msgstr ""
+"Эта страница в данный момент не является публичной. Пожалуйста, повторите "
+"попытку позже."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -246,7 +265,9 @@ msgid "The statistics endpoint requested is invalid."
 msgstr "Окончание статистики недействительно."
 
 #: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
+msgid ""
+"Authentication failure detected. The data you are trying to access is not "
+"public."
 msgstr "Сбой Авторизации. Данные закрыты, и недоступны."
 
 #: /media/js/chartutils.js:27
@@ -274,8 +295,12 @@ msgid "You have been signed in"
 msgstr "Вы вошли в систему"
 
 #: /media/js/login.js:127
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Вход через Persona не удался. Может быть у вас нет учётной записи для этого адреса эл. почты?"
+msgid ""
+"Persona login failed. Maybe you don't have an account under that email "
+"address?"
+msgstr ""
+"Вход через Persona не удался. Может быть у вас нет учётной записи для этого "
+"адреса эл. почты?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
@@ -311,15 +336,15 @@ msgstr "Колумбия"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
-msgstr ""
+msgstr "Коста-Рика"
 
 #: /media/js/settings.js:35
 msgid "Ecuador"
-msgstr ""
+msgstr "Эквадор"
 
 #: /media/js/settings.js:36
 msgid "El Salvador"
-msgstr ""
+msgstr "Сальвадор"
 
 #: /media/js/settings.js:37
 msgid "Germany"
@@ -331,7 +356,7 @@ msgstr "Греция"
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
-msgstr ""
+msgstr "Гватемала"
 
 #: /media/js/settings.js:40
 msgid "Hungary"
@@ -351,11 +376,11 @@ msgstr "Черногория"
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
-msgstr ""
+msgstr "Никарагуа"
 
 #: /media/js/settings.js:45
 msgid "Panama"
-msgstr ""
+msgstr "Панама"
 
 #: /media/js/settings.js:46
 msgid "Peru"
@@ -391,7 +416,7 @@ msgstr "Венесуэла"
 
 #: /media/js/settings.js:54
 msgid "No region in search"
-msgstr ""
+msgstr "В поиске нет региона"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
@@ -401,7 +426,8 @@ msgstr[0] "остался <b>{n}</b> символ"
 msgstr[1] "осталось <b>{n}</b> символа"
 msgstr[2] "осталось <b>{n}</b> символов"
 
-#: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
+#: /media/js/views/abuse_reports.js:19
+#: /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Число жалоб"
 
@@ -409,13 +435,17 @@ msgstr "Число жалоб"
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18
+#: /media/js/views/apps_available_by_premium.js:18
+#: /media/js/views/apps_available_by_type.js:17
+#: /media/js/views/apps_by_type.js:17 /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Приложения"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19
+#: /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_available_by_type.js:18
+#: /media/js/views/apps_by_type.js:18 /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Число приложений"
 
