@@ -1,38 +1,38 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-05-01 20:57+0000\n"
+"Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1398977871.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
-msgstr ""
+msgstr "आँकड़े के डैशबोर्ड"
 
 #: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
 msgid "Edit Listing"
-msgstr ""
+msgstr "सूचीकरण संपादित करें"
 
 #: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
 msgid "Global Stats"
-msgstr ""
+msgstr "ग्लोबल आँकड़े"
 
 #: /templates/app_dashboard.html:14
 msgid "Number of Installs:"
-msgstr ""
+msgstr "संस्थापित की संख्या:"
 
 #: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
-msgstr ""
+msgstr "संस्थापित"
 
 #: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
@@ -41,56 +41,56 @@ msgstr ""
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "रेटिंग्स"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "दुर्व्यवहार की रिपोर्ट"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "औसत रेटिंग"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
-msgstr ""
+msgstr "कुल मुनाफा"
 
 #: /templates/app_dashboard.html:38
 msgid "No public statistics are available"
-msgstr ""
+msgstr "सार्वजनिक आंकड़े उपलब्ध नहीं हैं"
 
 #: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
-msgstr ""
+msgstr "आगे बढ़ने के लिए साइन इन करें."
 
 #: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "साइन इन / साइन अप"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "बंद करे"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "नहीं"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "हां"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "ऐप्स डिवेलप करे"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "डेवलपर हब"
 
 #: /templates/footer.html:6
 msgid "Feedback"
-msgstr ""
+msgstr "प्रतिपुष्टि"
 
 #: /templates/footer.html:7
 msgid "Support"
@@ -128,39 +128,39 @@ msgstr ""
 
 #: /templates/header.html:2
 msgid "Statistics"
-msgstr ""
+msgstr "आंकड़े"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "साइन आउट"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "साइन इन"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr ""
+msgstr "नमूना चार्ट"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "एप्लिकेशन संस्थापन"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
-msgstr ""
+msgstr "डेवलपर्स"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "लेनदेन"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "निवल भुगतान"
 
 #: /templates/homepage.html:20
 msgid "USD"
@@ -204,39 +204,39 @@ msgstr ""
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "अधिक लोड करने में त्रुटि"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "पुन: प्रयास करें"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
-msgstr ""
+msgstr "के द्वारा"
 
 #: /templates/includes/chartbody.html:3
 msgid "To"
-msgstr ""
+msgstr "के लिए"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "सभी क्षेत्र"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
-msgstr ""
+msgstr "अद्यतन"
 
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
-msgstr ""
+msgstr "इस डेटा प्रतिबंधित है या कोई डेटा नहीं मिला"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr ""
+msgstr "सर्वर त्रुटि का पता चला. बाद में पुन: प्रयास करें."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
@@ -276,39 +276,39 @@ msgstr ""
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "परसोना लॉगिन विफल रहा. एक सर्वर त्रुटि से सामना हुआ था."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "कोई इंटरनेट कनेक्शन नहीं"
 
 #: /media/js/settings.js:28
 msgid "Rest of World"
-msgstr ""
+msgstr "दुनिया के बाकी"
 
 #: /media/js/settings.js:29
 msgid "Argentina"
-msgstr ""
+msgstr "अर्जेंटीना"
 
 #: /media/js/settings.js:30
 msgid "Brazil"
-msgstr ""
+msgstr "ब्राज़िल"
 
 #: /media/js/settings.js:31
 msgid "Chile"
-msgstr ""
+msgstr "चिली"
 
 #: /media/js/settings.js:32
 msgid "China"
-msgstr ""
+msgstr "चीन"
 
 #: /media/js/settings.js:33
 msgid "Colombia"
-msgstr ""
+msgstr "कोलंबिया"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
-msgstr ""
+msgstr "कोस्टा रिका"
 
 #: /media/js/settings.js:35
 msgid "Ecuador"
@@ -348,39 +348,39 @@ msgstr ""
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
-msgstr ""
+msgstr "निकारागुआ"
 
 #: /media/js/settings.js:45
 msgid "Panama"
-msgstr ""
+msgstr "पनामा"
 
 #: /media/js/settings.js:46
 msgid "Peru"
-msgstr ""
+msgstr "पेरू"
 
 #: /media/js/settings.js:47
 msgid "Poland"
-msgstr ""
+msgstr "पोलैंड"
 
 #: /media/js/settings.js:48
 msgid "Serbia"
-msgstr ""
+msgstr "सर्बिआ"
 
 #: /media/js/settings.js:49
 msgid "Spain"
-msgstr ""
+msgstr "स्पेन"
 
 #: /media/js/settings.js:50
 msgid "United Kingdom"
-msgstr ""
+msgstr "यूनाइटेड किंगडम"
 
 #: /media/js/settings.js:51
 msgid "United States"
-msgstr ""
+msgstr "संयुक्त राज्य"
 
 #: /media/js/settings.js:52
 msgid "Uruguay"
-msgstr ""
+msgstr "उरुग्वे"
 
 #: /media/js/settings.js:53
 msgid "Venezuela"
@@ -426,25 +426,25 @@ msgstr ""
 #. Page not found (404)
 #: /media/js/views/home.js:13
 msgid "Home"
-msgstr ""
+msgstr "घर"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "नहीं मिला"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
-msgstr ""
+msgstr "संस्थापित की संख्या"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
-msgstr ""
+msgstr "नई रेटिंग"
 
 #: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
-msgstr ""
+msgstr "रेटिंग्स की संख्या"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
