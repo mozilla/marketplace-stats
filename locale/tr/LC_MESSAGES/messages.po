@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-06-04 10:07+0000\n"
+"PO-Revision-Date: 2014-06-04 10:10+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401876420.0\n"
+"X-POOTLE-MTIME: 1401876615.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr ""
+msgstr "Sunucu hatası algılandı. Lütfen sonra tekrar deneyin."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
@@ -253,6 +253,7 @@ msgstr ""
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
 msgstr ""
+"Bilinmeyen bir sunucu hatası tespit edildi. Lütfen sonra tekrar deneyin."
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
@@ -260,15 +261,15 @@ msgstr ""
 
 #: /media/js/chartutils.js:94
 msgid "Please enter a valid date range"
-msgstr ""
+msgstr "Lütfen geçerli bir tarih aralığı girin"
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Oturumu kapattınız"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Oturum açtınız"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
@@ -280,7 +281,7 @@ msgstr ""
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "İnternet bağlantısı yok"
 
 #: /media/js/settings.js:28
 msgid "Rest of World"
@@ -288,23 +289,23 @@ msgstr ""
 
 #: /media/js/settings.js:29
 msgid "Argentina"
-msgstr ""
+msgstr "Arjantin"
 
 #: /media/js/settings.js:30
 msgid "Brazil"
-msgstr ""
+msgstr "Brezilya"
 
 #: /media/js/settings.js:31
 msgid "Chile"
-msgstr ""
+msgstr "Şili"
 
 #: /media/js/settings.js:32
 msgid "China"
-msgstr ""
+msgstr "Çin"
 
 #: /media/js/settings.js:33
 msgid "Colombia"
-msgstr ""
+msgstr "Kolombiya"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
@@ -320,11 +321,11 @@ msgstr ""
 
 #: /media/js/settings.js:37
 msgid "Germany"
-msgstr ""
+msgstr "Almanya"
 
 #: /media/js/settings.js:38
 msgid "Greece"
-msgstr ""
+msgstr "Yunanistan"
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
@@ -332,19 +333,19 @@ msgstr ""
 
 #: /media/js/settings.js:40
 msgid "Hungary"
-msgstr ""
+msgstr "Macaristan"
 
 #: /media/js/settings.js:41
 msgid "Italy"
-msgstr ""
+msgstr "İtalya"
 
 #: /media/js/settings.js:42
 msgid "Mexico"
-msgstr ""
+msgstr "Meksika"
 
 #: /media/js/settings.js:43
 msgid "Montenegro"
-msgstr ""
+msgstr "Karadağ"
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
@@ -356,35 +357,35 @@ msgstr ""
 
 #: /media/js/settings.js:46
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: /media/js/settings.js:47
 msgid "Poland"
-msgstr ""
+msgstr "Polonya"
 
 #: /media/js/settings.js:48
 msgid "Serbia"
-msgstr ""
+msgstr "Sırbistan"
 
 #: /media/js/settings.js:49
 msgid "Spain"
-msgstr ""
+msgstr "İspanya"
 
 #: /media/js/settings.js:50
 msgid "United Kingdom"
-msgstr ""
+msgstr "Birleşik Krallık"
 
 #: /media/js/settings.js:51
 msgid "United States"
-msgstr ""
+msgstr "Birleşik Devletler"
 
 #: /media/js/settings.js:52
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #: /media/js/settings.js:53
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: /media/js/settings.js:54
 msgid "No region in search"
@@ -394,33 +395,33 @@ msgstr ""
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
+msgstr[0] "<b>{n}</b> karakter kaldı."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr ""
+msgstr "Suistimal raporu sayısı"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
-msgstr ""
+msgstr "Yükleniyor..."
 
 #: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
-msgstr ""
+msgstr "Uygulamalar"
 
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
-msgstr ""
+msgstr "Uygulama sayısı"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
-msgstr ""
+msgstr "Gelir"
 
 #: /media/js/views/gross_revenue.js:18
 msgid "Daily Total"
-msgstr ""
+msgstr "Günlük toplam"
 
 #. Page not found (404)
 #: /media/js/views/home.js:13
@@ -430,7 +431,7 @@ msgstr ""
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Bulunamadı"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
@@ -447,11 +448,11 @@ msgstr ""
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
-msgstr ""
+msgstr "Toplam gelir"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
-msgstr ""
+msgstr "Ziyaret sayısı"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
