@@ -1,22 +1,22 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-06-04 10:07+0000\n"
+"Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1401876420.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
-msgstr ""
+msgstr "İstatistik Panosu"
 
 #: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
 msgid "Edit Listing"
@@ -28,37 +28,37 @@ msgstr ""
 
 #: /templates/app_dashboard.html:14
 msgid "Number of Installs:"
-msgstr ""
+msgstr "Yükleme sayısı:"
 
 #: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
-msgstr ""
+msgstr "Yükleme"
 
 #: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
-msgstr ""
+msgstr "Ziyaret"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Puan"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Suistimal raporları"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr ""
+msgstr "Ortalama puan"
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
-msgstr ""
+msgstr "Brüt gelir"
 
 #: /templates/app_dashboard.html:38
 msgid "No public statistics are available"
-msgstr ""
+msgstr "Genel istatistikler mevcut değil"
 
 #: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -66,15 +66,15 @@ msgstr ""
 
 #: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Giriş yap / kaydol"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Hayır"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
@@ -102,11 +102,11 @@ msgstr ""
 
 #: /templates/footer.html:16
 msgid "Reviewer Tools"
-msgstr ""
+msgstr "İnceleme araçları"
 
 #: /templates/footer.html:19
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Arama aracı"
 
 #: /templates/footer.html:27
 msgid ""
@@ -116,15 +116,15 @@ msgstr ""
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Gizlilik ilkeleri"
 
 #: /templates/footer.html:33
 msgid "Terms of Use"
-msgstr ""
+msgstr "Kullanım şartları"
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Marka ihlali bildir"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -132,15 +132,15 @@ msgstr ""
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Oturumu kapat"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Oturum aç"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr ""
+msgstr "Örnek grafik"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "USD"
 
 #: /templates/homepage.html:40 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -192,7 +192,7 @@ msgstr ""
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "Bu sayfa şu anda genele açık değildir. Lütfen sonra tekrar deneyin."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -200,11 +200,11 @@ msgstr ""
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Aradığınız sayfa bulunamadı."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Bir hata oluştu."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -224,7 +224,7 @@ msgstr ""
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Tüm bölgeler"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
@@ -395,7 +395,6 @@ msgstr ""
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] ""
-msgstr[1] ""
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
