@@ -1,52 +1,52 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-06-09 20:39+0000\n"
+"Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Fireplace L10n Tools 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1402346354.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
-msgstr ""
+msgstr "Estatistiken arbela"
 
 #: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
 msgid "Edit Listing"
-msgstr ""
+msgstr "Editatu zerrenda"
 
 #: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
 msgid "Global Stats"
-msgstr ""
+msgstr "Estatistika globalak"
 
 #: /templates/app_dashboard.html:14
 msgid "Number of Installs:"
-msgstr ""
+msgstr "Instalazio-kopurua"
 
 #: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
-msgstr ""
+msgstr "Instalazioak"
 
 #: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
-msgstr ""
+msgstr "Bisitak"
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr ""
+msgstr "Sailkapenak"
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr ""
+msgstr "Abusu-salaketak"
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
@@ -54,39 +54,39 @@ msgstr ""
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
-msgstr ""
+msgstr "Diru-sarrera gordinak"
 
 #: /templates/app_dashboard.html:38
 msgid "No public statistics are available"
-msgstr ""
+msgstr "Ez dago estatistika publikorik eskuragarri"
 
 #: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
-msgstr ""
+msgstr "Hasi saioa jarraitzeko."
 
 #: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr ""
+msgstr "Hasi saioa / Eman izena"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr ""
+msgstr "Itxi"
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr ""
+msgstr "Ez"
 
 #: /templates/confirmation.html:4
 msgid "Yes"
-msgstr ""
+msgstr "Bai"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Garatu aplikazioak"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
-msgstr ""
+msgstr "Garatzaile-zentroa"
 
 #: /templates/footer.html:6
 msgid "Feedback"
@@ -94,11 +94,11 @@ msgstr ""
 
 #: /templates/footer.html:7
 msgid "Support"
-msgstr ""
+msgstr "Laguntza"
 
 #: /templates/footer.html:13
 msgid "My Submissions"
-msgstr ""
+msgstr "Nire bidalketak"
 
 #: /templates/footer.html:16
 msgid "Reviewer Tools"
@@ -116,75 +116,75 @@ msgstr ""
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Pribatutasun-politika"
 
 #: /templates/footer.html:33
 msgid "Terms of Use"
-msgstr ""
+msgstr "Erabilera-baldintzak"
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Salatu markaren erabilera okerra"
 
 #: /templates/header.html:2
 msgid "Statistics"
-msgstr ""
+msgstr "Estatistikak"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr ""
+msgstr "Amaitu saioa"
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr ""
+msgstr "Hasi saioa"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr ""
+msgstr "Diagramaren adibidea"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr ""
+msgstr "Aplikazioen instalazioak"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "E/E"
 
 #: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
-msgstr ""
+msgstr "Garatzaileak"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "Transakzioak"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "Ordainketa garbiak"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "USD"
 
 #: /templates/homepage.html:40 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
-msgstr ""
+msgstr "Aplikazio berriak ordaineta-motaren arabera"
 
 #: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
-msgstr ""
+msgstr "Aplikazio berriak motaren arabera"
 
 #: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
-msgstr ""
+msgstr "Aplikazioak ordainketa-motaren arabera"
 
 #: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
-msgstr ""
+msgstr "Aplikazioak motaren arabera"
 
 #: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
-msgstr ""
+msgstr "Instalatutako aplikazioak"
 
 #: /templates/homepage.html:65
 msgid "App Ratings"
@@ -192,7 +192,7 @@ msgstr ""
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "Orri hau ez da publikoa. Saiatu berriro geroago."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -204,7 +204,7 @@ msgstr ""
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "Errore bat gertatu da."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -212,7 +212,7 @@ msgstr ""
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Saiatu berriro"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,11 +224,11 @@ msgstr ""
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Eskualde guztiak"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
-msgstr ""
+msgstr "Eguneratu"
 
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr ""
+msgstr "Zerbitzari-errorea detektatu da. Saiatu berriro geroago."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
@@ -252,7 +252,7 @@ msgstr ""
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
+msgstr "Zerbitzari-errore ezezaguna detektatu da. Saiatu berriro geroago."
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
@@ -264,11 +264,11 @@ msgstr ""
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr ""
+msgstr "Saioa amaitu duzu"
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr ""
+msgstr "Saioa hasi duzu"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
@@ -277,66 +277,67 @@ msgstr ""
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
 msgstr ""
+"Persona erabiliz saioa hasteak huts egin du. Zerbitzari-errorea aurkitu da."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr ""
+msgstr "Ez dago Internet-eko konexiorik"
 
 #: /media/js/settings.js:28
 msgid "Rest of World"
-msgstr ""
+msgstr "Munduaren gainerakoa"
 
 #: /media/js/settings.js:29
 msgid "Argentina"
-msgstr ""
+msgstr "Argentina"
 
 #: /media/js/settings.js:30
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 #: /media/js/settings.js:31
 msgid "Chile"
-msgstr ""
+msgstr "Txile"
 
 #: /media/js/settings.js:32
 msgid "China"
-msgstr ""
+msgstr "Txina"
 
 #: /media/js/settings.js:33
 msgid "Colombia"
-msgstr ""
+msgstr "Kolonbia"
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: /media/js/settings.js:35
 msgid "Ecuador"
-msgstr ""
+msgstr "Ekuador"
 
 #: /media/js/settings.js:36
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: /media/js/settings.js:37
 msgid "Germany"
-msgstr ""
+msgstr "Alemania"
 
 #: /media/js/settings.js:38
 msgid "Greece"
-msgstr ""
+msgstr "Grezia"
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: /media/js/settings.js:40
 msgid "Hungary"
-msgstr ""
+msgstr "Hungaria"
 
 #: /media/js/settings.js:41
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 #: /media/js/settings.js:42
 msgid "Mexico"
@@ -360,42 +361,42 @@ msgstr ""
 
 #: /media/js/settings.js:47
 msgid "Poland"
-msgstr ""
+msgstr "Polonia"
 
 #: /media/js/settings.js:48
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #: /media/js/settings.js:49
 msgid "Spain"
-msgstr ""
+msgstr "Espainia"
 
 #: /media/js/settings.js:50
 msgid "United Kingdom"
-msgstr ""
+msgstr "Erresuma Batua"
 
 #: /media/js/settings.js:51
 msgid "United States"
-msgstr ""
+msgstr "Estatu Batuak"
 
 #: /media/js/settings.js:52
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguai"
 
 #: /media/js/settings.js:53
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: /media/js/settings.js:54
 msgid "No region in search"
-msgstr ""
+msgstr "Ez dago eskualderik bilaketan"
 
 #. {n} is the number of characters left.
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Karaktere <b>{n}</b> falta da."
+msgstr[1] "<b>{n}</b> karaktere falta dira."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
@@ -403,21 +404,21 @@ msgstr ""
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
-msgstr ""
+msgstr "Kargatzen..."
 
 #: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
-msgstr ""
+msgstr "Aplikazioak"
 
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
-msgstr ""
+msgstr "Aplikazio-kopurua"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
-msgstr ""
+msgstr "Diru-sarrerak"
 
 #: /media/js/views/gross_revenue.js:18
 msgid "Daily Total"
@@ -426,16 +427,16 @@ msgstr ""
 #. Page not found (404)
 #: /media/js/views/home.js:13
 msgid "Home"
-msgstr ""
+msgstr "Nagusia"
 
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr ""
+msgstr "Ez da aurkitu"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
-msgstr ""
+msgstr "Instalazio-kopurua"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
@@ -448,12 +449,12 @@ msgstr ""
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
-msgstr ""
+msgstr "Diru-sarrerak guztira"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
-msgstr ""
+msgstr "Bisita-kopurua"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
-msgstr ""
+msgstr "Garatzaile-kopurua"
