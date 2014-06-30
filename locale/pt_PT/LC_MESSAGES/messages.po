@@ -8,10 +8,10 @@ msgstr ""
 "Language-Team: Cláudio Esperança <cesperanc+mozilla@gmail.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -29,36 +29,29 @@ msgstr "Estatísticas globais"
 msgid "Number of Installs:"
 msgstr "Número de instalações:"
 
-#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10
-#: /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
 msgstr "Instalações"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:35
-#: /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17
-#: /media/js/views/total_visits.js:10 /media/js/views/total_visits.js:17
+#: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Visitas"
 
-#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18
-#: /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Classificações"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:70
-#: /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18
-#: /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Denúncias"
 
-#: /templates/app_dashboard.html:29
-#: /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
 msgstr "Classificação média"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:77
-#: /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Rendimento bruto"
 
@@ -66,13 +59,11 @@ msgstr "Rendimento bruto"
 msgid "No public statistics are available"
 msgstr "Não existem estatísticas públicas disponíveis"
 
-#: /templates/app_dashboard.html:42 /templates/homepage.html:88
-#: /templates/includes/signin_required.html:1
+#: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "Por favor inicie sessão para continuar."
 
-#: /templates/app_dashboard.html:43 /templates/homepage.html:89
-#: /templates/includes/signin_required.html:2
+#: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "Iniciar sessão / Registo"
 
@@ -118,15 +109,11 @@ msgstr "Ferramenta de pesquisa"
 
 #: /templates/footer.html:27
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" target="
-"\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
-"later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Exceto onde existir <a href=\"{legal_url}\" target=\"_blank\">informação</a> "
-"em contrário, o conteúdo deste site está licenciado sob a <a href="
-"\"{cc_url}\" target=\"_blank\">licença Creative Commons Atribuição-"
-"CompartilhaIgual v3.0</a> ou qualquer versão mais recente."
+"Exceto onde existir <a href=\"{legal_url}\" target=\"_blank\">informação</a> em contrário, o conteúdo deste site está licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">licença Creative "
+"Commons Atribuição-CompartilhaIgual v3.0</a> ou qualquer versão mais recente."
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
@@ -160,14 +147,11 @@ msgstr "Gráfico de exemplo"
 msgid "App Installations"
 msgstr "Instalações da aplicação"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15
-#: /templates/homepage.html:19
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
 msgstr "N/D"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30
-#: /media/js/views/total_developers.js:10
-#: /media/js/views/total_developers.js:17
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "Programadores"
 
@@ -209,8 +193,7 @@ msgstr "Classificações de aplicação"
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr ""
-"De momento esta página não é pública. Por favor, tente novamente mais tarde."
+msgstr "De momento esta página não é pública. Por favor, tente novamente mais tarde."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -254,20 +237,15 @@ msgstr "Estes dados são restritos ou não foram encontrados dados"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr ""
-"Foi detetado um erro de servidor. Por favor, tente novamente mais tarde."
+msgstr "Foi detetado um erro de servidor. Por favor, tente novamente mais tarde."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
 msgstr "O terminal de estatísticas solicitado é inválido."
 
 #: /media/js/chartutils.js:26
-msgid ""
-"Authentication failure detected. The data you are trying to access is not "
-"public."
-msgstr ""
-"Falha de autenticação detetada. Os dados que está a tentar aceder não são "
-"públicos."
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Falha de autenticação detetada. Os dados que está a tentar aceder não são públicos."
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
@@ -275,9 +253,7 @@ msgstr "O pedido de dados estatísticos está incompleto ou é inválido."
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Foi detetado um erro de servidor desconhecido. Por favor, tente novamente "
-"mais tarde."
+msgstr "Foi detetado um erro de servidor desconhecido. Por favor, tente novamente mais tarde."
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
@@ -296,17 +272,12 @@ msgid "You have been signed in"
 msgstr "A sua sessão foi iniciada"
 
 #: /media/js/login.js:127
-msgid ""
-"Persona login failed. Maybe you don't have an account under that email "
-"address?"
-msgstr ""
-"A autenticação com o Persona falhou. Talvez não tenha uma conta com esse "
-"endereço de correio eletrónico?"
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "A autenticação com o Persona falhou. Talvez não tenha uma conta com esse endereço de correio eletrónico?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
-"A autenticação com o Persona falhou. Foi encontrado um erro no servidor."
+msgstr "A autenticação com o Persona falhou. Foi encontrado um erro no servidor."
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
@@ -427,8 +398,7 @@ msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> caráter remanescente."
 msgstr[1] "<b>{n}</b> caráteres remanescentes."
 
-#: /media/js/views/abuse_reports.js:19
-#: /media/js/views/per_app_abuse_reports.js:18
+#: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Número de denúncias"
 
@@ -436,17 +406,13 @@ msgstr "Número de denúncias"
 msgid "Loading..."
 msgstr "A carregar..."
 
-#: /media/js/views/apps_added.js:18
-#: /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_available_by_type.js:17
-#: /media/js/views/apps_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Aplicações"
 
-#: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_available_by_type.js:18
-#: /media/js/views/apps_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Número de aplicações"
 

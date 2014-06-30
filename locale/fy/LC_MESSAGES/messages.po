@@ -1,22 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Marketplace Stats\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-06-04 10:10+0000\n"
-"Last-Translator: Selim <selim@sum.lu>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: tr\n"
+"Language: fy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1401876615.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: Fireplace L10n Tools 1.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
-msgstr "İstatistik Panosu"
+msgstr ""
 
 #: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
 msgid "Edit Listing"
@@ -28,37 +27,37 @@ msgstr ""
 
 #: /templates/app_dashboard.html:14
 msgid "Number of Installs:"
-msgstr "Yükleme sayısı:"
+msgstr ""
 
 #: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
-msgstr "Yükleme"
+msgstr ""
 
 #: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
-msgstr "Ziyaret"
+msgstr ""
 
 #: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr "Puan"
+msgstr ""
 
 #: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
-msgstr "Suistimal raporları"
+msgstr ""
 
 #: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr "Ortalama puan"
+msgstr ""
 
 #: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
-msgstr "Brüt gelir"
+msgstr ""
 
 #: /templates/app_dashboard.html:38
 msgid "No public statistics are available"
-msgstr "Genel istatistikler mevcut değil"
+msgstr ""
 
 #: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -66,15 +65,15 @@ msgstr ""
 
 #: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr "Giriş yap / kaydol"
+msgstr ""
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr "Kapat"
+msgstr ""
 
 #: /templates/confirmation.html:3
 msgid "No"
-msgstr "Hayır"
+msgstr ""
 
 #: /templates/confirmation.html:4
 msgid "Yes"
@@ -102,11 +101,11 @@ msgstr ""
 
 #: /templates/footer.html:16
 msgid "Reviewer Tools"
-msgstr "İnceleme araçları"
+msgstr ""
 
 #: /templates/footer.html:19
 msgid "Lookup Tool"
-msgstr "Arama aracı"
+msgstr ""
 
 #: /templates/footer.html:27
 msgid ""
@@ -116,15 +115,15 @@ msgstr ""
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
-msgstr "Gizlilik ilkeleri"
+msgstr ""
 
 #: /templates/footer.html:33
 msgid "Terms of Use"
-msgstr "Kullanım şartları"
+msgstr ""
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
-msgstr "Marka ihlali bildir"
+msgstr ""
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -132,15 +131,15 @@ msgstr ""
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr "Oturumu kapat"
+msgstr ""
 
 #: /templates/header.html:8
 msgid "Sign In"
-msgstr "Oturum aç"
+msgstr ""
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr "Örnek grafik"
+msgstr ""
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -164,7 +163,7 @@ msgstr ""
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr "USD"
+msgstr ""
 
 #: /templates/homepage.html:40 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
@@ -192,7 +191,7 @@ msgstr ""
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr "Bu sayfa şu anda genele açık değildir. Lütfen sonra tekrar deneyin."
+msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -200,11 +199,11 @@ msgstr ""
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "Aradığınız sayfa bulunamadı."
+msgstr ""
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr "Bir hata oluştu."
+msgstr ""
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -224,7 +223,7 @@ msgstr ""
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr "Tüm bölgeler"
+msgstr ""
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
@@ -236,7 +235,7 @@ msgstr ""
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
-msgstr "Sunucu hatası algılandı. Lütfen sonra tekrar deneyin."
+msgstr ""
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
@@ -252,7 +251,7 @@ msgstr ""
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr "Bilinmeyen bir sunucu hatası tespit edildi. Lütfen sonra tekrar deneyin."
+msgstr ""
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
@@ -260,15 +259,15 @@ msgstr ""
 
 #: /media/js/chartutils.js:94
 msgid "Please enter a valid date range"
-msgstr "Lütfen geçerli bir tarih aralığı girin"
+msgstr ""
 
 #: /media/js/login.js:8
 msgid "You have been signed out"
-msgstr "Oturumu kapattınız"
+msgstr ""
 
 #: /media/js/login.js:12
 msgid "You have been signed in"
-msgstr "Oturum açtınız"
+msgstr ""
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
@@ -280,7 +279,7 @@ msgstr ""
 
 #: /media/js/navigation.js:31
 msgid "No internet connection"
-msgstr "İnternet bağlantısı yok"
+msgstr ""
 
 #: /media/js/settings.js:28
 msgid "Rest of World"
@@ -288,23 +287,23 @@ msgstr ""
 
 #: /media/js/settings.js:29
 msgid "Argentina"
-msgstr "Arjantin"
+msgstr ""
 
 #: /media/js/settings.js:30
 msgid "Brazil"
-msgstr "Brezilya"
+msgstr ""
 
 #: /media/js/settings.js:31
 msgid "Chile"
-msgstr "Şili"
+msgstr ""
 
 #: /media/js/settings.js:32
 msgid "China"
-msgstr "Çin"
+msgstr ""
 
 #: /media/js/settings.js:33
 msgid "Colombia"
-msgstr "Kolombiya"
+msgstr ""
 
 #: /media/js/settings.js:34
 msgid "Costa Rica"
@@ -320,11 +319,11 @@ msgstr ""
 
 #: /media/js/settings.js:37
 msgid "Germany"
-msgstr "Almanya"
+msgstr ""
 
 #: /media/js/settings.js:38
 msgid "Greece"
-msgstr "Yunanistan"
+msgstr ""
 
 #: /media/js/settings.js:39
 msgid "Guatemala"
@@ -332,19 +331,19 @@ msgstr ""
 
 #: /media/js/settings.js:40
 msgid "Hungary"
-msgstr "Macaristan"
+msgstr ""
 
 #: /media/js/settings.js:41
 msgid "Italy"
-msgstr "İtalya"
+msgstr ""
 
 #: /media/js/settings.js:42
 msgid "Mexico"
-msgstr "Meksika"
+msgstr ""
 
 #: /media/js/settings.js:43
 msgid "Montenegro"
-msgstr "Karadağ"
+msgstr ""
 
 #: /media/js/settings.js:44
 msgid "Nicaragua"
@@ -356,35 +355,35 @@ msgstr ""
 
 #: /media/js/settings.js:46
 msgid "Peru"
-msgstr "Peru"
+msgstr ""
 
 #: /media/js/settings.js:47
 msgid "Poland"
-msgstr "Polonya"
+msgstr ""
 
 #: /media/js/settings.js:48
 msgid "Serbia"
-msgstr "Sırbistan"
+msgstr ""
 
 #: /media/js/settings.js:49
 msgid "Spain"
-msgstr "İspanya"
+msgstr ""
 
 #: /media/js/settings.js:50
 msgid "United Kingdom"
-msgstr "Birleşik Krallık"
+msgstr ""
 
 #: /media/js/settings.js:51
 msgid "United States"
-msgstr "Birleşik Devletler"
+msgstr ""
 
 #: /media/js/settings.js:52
 msgid "Uruguay"
-msgstr "Uruguay"
+msgstr ""
 
 #: /media/js/settings.js:53
 msgid "Venezuela"
-msgstr "Venezuela"
+msgstr ""
 
 #: /media/js/settings.js:54
 msgid "No region in search"
@@ -394,33 +393,34 @@ msgstr ""
 #: /media/js/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b>{n}</b> karakter kaldı."
+msgstr[0] ""
+msgstr[1] ""
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
-msgstr "Suistimal raporu sayısı"
+msgstr ""
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
-msgstr "Yükleniyor..."
+msgstr ""
 
 #: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
-msgstr "Uygulamalar"
+msgstr ""
 
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
-msgstr "Uygulama sayısı"
+msgstr ""
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
-msgstr "Gelir"
+msgstr ""
 
 #: /media/js/views/gross_revenue.js:18
 msgid "Daily Total"
-msgstr "Günlük toplam"
+msgstr ""
 
 #. Page not found (404)
 #: /media/js/views/home.js:13
@@ -430,7 +430,7 @@ msgstr ""
 #. Page not found (404)
 #: /media/js/views/not_found.js:9
 msgid "Not Found"
-msgstr "Bulunamadı"
+msgstr ""
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
@@ -447,11 +447,11 @@ msgstr ""
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
-msgstr "Toplam gelir"
+msgstr ""
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
-msgstr "Ziyaret sayısı"
+msgstr ""
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
