@@ -252,8 +252,7 @@ msgstr ""
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Bilinmeyen bir sunucu hatası tespit edildi. Lütfen sonra tekrar deneyin."
+msgstr "Bilinmeyen bir sunucu hatası tespit edildi. Lütfen sonra tekrar deneyin."
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
