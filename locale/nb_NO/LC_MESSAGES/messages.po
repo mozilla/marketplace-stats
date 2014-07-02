@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
-"PO-Revision-Date: 2014-07-02 09:21+0000\n"
+"PO-Revision-Date: 2014-07-02 11:15+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404292886.0\n"
+"X-POOTLE-MTIME: 1404299733.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -152,43 +152,43 @@ msgstr ""
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr ""
+msgstr "n/a"
 
 #: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
-msgstr ""
+msgstr "Utviklere"
 
 #: /templates/homepage.html:16
 msgid "Transactions"
-msgstr ""
+msgstr "Transaksjoner"
 
 #: /templates/homepage.html:20
 msgid "Net payments"
-msgstr ""
+msgstr "Nettobetalinger"
 
 #: /templates/homepage.html:20
 msgid "USD"
-msgstr ""
+msgstr "USD"
 
 #: /templates/homepage.html:40 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
-msgstr ""
+msgstr "Nye apper etter type betaling"
 
 #: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
-msgstr ""
+msgstr "Nye apper etter type app"
 
 #: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
-msgstr ""
+msgstr "Apper etter type betaling"
 
 #: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
-msgstr ""
+msgstr "Apper etter type app"
 
 #: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
-msgstr ""
+msgstr "Apper installert"
 
 #: /templates/homepage.html:65
 msgid "App Ratings"
@@ -196,43 +196,43 @@ msgstr ""
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr ""
+msgstr "Denne siden er for tiden ikke offentlig. Prøv igjen senere."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
-msgstr ""
+msgstr "Å nei!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr ""
+msgstr "Siden du leter etter ble ikke funnet."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
-msgstr ""
+msgstr "En feil oppstod."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr ""
+msgstr "Feil ved lasting av mer"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
-msgstr ""
+msgstr "Prøv igjen"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
-msgstr ""
+msgstr "Fra"
 
 #: /templates/includes/chartbody.html:3
 msgid "To"
-msgstr ""
+msgstr "Til"
 
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
-msgstr ""
+msgstr "Alle regioner"
 
 #: /templates/includes/chartbody.html:15
 msgid "Update"
-msgstr ""
+msgstr "Oppdater"
 
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
