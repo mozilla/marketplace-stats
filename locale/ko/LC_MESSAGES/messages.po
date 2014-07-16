@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
 "PO-Revision-Date: 2014-05-12 07:46+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,58 @@ msgstr "아니오"
 msgid "Yes"
 msgstr "예"
 
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "앱 설치"
+
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "해당없음"
+
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "개발자"
+
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "거래"
+
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "순 지급"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "US달러"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "지불 방식에 따른 새로운 앱"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "앱 타입에 따른 새로운 앱"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "지불 방식에 따른 앱"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "앱 방식에 따른 앱"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "이미 설치된 앱"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "앱 등급"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "현재 페이지는 공개되지 않았습니다. 나중에 다시 시도해 주십시오."
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "개발 앱"
@@ -144,57 +196,25 @@ msgstr "로그인"
 msgid "Sample Chart"
 msgstr "예제 차트"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "앱 설치"
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "시작일"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "해당없음"
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "종료일"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "개발자"
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "모든 지역"
 
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "거래"
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "업데이트"
 
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "순 지급"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "US달러"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "지불 방식에 따른 새로운 앱"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "앱 타입에 따른 새로운 앱"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "지불 방식에 따른 앱"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "앱 방식에 따른 앱"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "이미 설치된 앱"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "앱 등급"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "현재 페이지는 공개되지 않았습니다. 나중에 다시 시도해 주십시오."
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "현재 데이터는 제한되어 있거나 존재하지 않습니다."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -215,26 +235,6 @@ msgstr "로딩하던 중 에러"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "다시 시도하기"
-
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "시작일"
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "종료일"
-
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "모든 지역"
-
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "업데이트"
-
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "현재 데이터는 제한되어 있거나 존재하지 않습니다."
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -406,13 +406,13 @@ msgstr "어뷰징 신고 수"
 msgid "Loading..."
 msgstr "읽어오는 중..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17
 msgid "Apps"
 msgstr "앱"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
 msgstr "앱 개수"
 

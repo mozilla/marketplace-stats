@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
 "PO-Revision-Date: 2014-04-27 10:49+0000\n"
 "Last-Translator: Aleksandra <auzelac91@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,58 @@ msgstr "Не"
 msgid "Yes"
 msgstr "Да"
 
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "Инсталације апликације"
+
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "Није доступно"
+
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Програмери"
+
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "Трансакције"
+
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "Нето плаћања"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "Амерички долар"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Нове апликације по начину плаћања"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Нове апликације по врсти"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Апликације по начину плаћања"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Апликације по врсти"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "Инсталиране aпликације"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "Оцене апликација"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "Ова страница тренутно није јавна. Молимо Вас, покушајте касније."
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Развијај апликације"
@@ -144,57 +196,25 @@ msgstr "Пријави се"
 msgid "Sample Chart"
 msgstr "Пример графикона"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "Инсталације апликације"
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "Од"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "Није доступно"
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "За"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Програмери"
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "Сви региони"
 
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "Трансакције"
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "Ажурирај"
 
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "Нето плаћања"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "Амерички долар"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Нове апликације по начину плаћања"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Нове апликације по врсти"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Апликације по начину плаћања"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Апликације по врсти"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "Инсталиране aпликације"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "Оцене апликација"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Ова страница тренутно није јавна. Молимо Вас, покушајте касније."
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "Овај податак је забрањен, или није пронађен"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -215,26 +235,6 @@ msgstr "Грешка приликом учитавања"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Покушај поново"
-
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "Од"
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "За"
-
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Сви региони"
-
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "Ажурирај"
-
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "Овај податак је забрањен, или није пронађен"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -408,13 +408,13 @@ msgstr "Број пријављених злоупотреба"
 msgid "Loading..."
 msgstr "Учитавам..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17
 msgid "Apps"
 msgstr "Апликације"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
 msgstr "Број апликација"
 

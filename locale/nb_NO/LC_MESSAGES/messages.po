@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
 "PO-Revision-Date: 2014-07-06 20:05+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,72 +80,6 @@ msgstr "Nei"
 msgid "Yes"
 msgstr "Ja"
 
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Utvikle apper"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Utviklerhub"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Tilbakemelding"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Hjelp"
-
-#: /templates/footer.html:13
-msgid "My Submissions"
-msgstr "Mine bidrag"
-
-#: /templates/footer.html:16
-msgid "Reviewer Tools"
-msgstr "Anmelderverktøy"
-
-#: /templates/footer.html:19
-msgid "Lookup Tool"
-msgstr "Oppslagsverktøy"
-
-#: /templates/footer.html:27
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Med mindre annet er <a href=\"{legal_url}\" target=\"_blank\">bemerket</a>, er "
-"innhold på dette nettstedet lisensiert under en <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Navngivelse-del-på-samme-vilkår-lisens "
-"v3.0</a> eller en senere versjon."
-
-#: /templates/footer.html:32
-msgid "Privacy Policy"
-msgstr "Personvernsbestemmelser"
-
-#: /templates/footer.html:33
-msgid "Terms of Use"
-msgstr "Bruksvilkår"
-
-#: /templates/footer.html:35
-msgid "Report Trademark Abuse"
-msgstr "Rapporter misbruk av varemerker"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistikk"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Logg ut"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Logg inn"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Eksempel på diagram"
-
 #: /templates/homepage.html:8
 msgid "App Installations"
 msgstr "App-installasjoner"
@@ -198,25 +132,69 @@ msgstr "App-vurderinger"
 msgid "This page is currently not public. Please try again later."
 msgstr "Denne siden er for tiden ikke offentlig. Prøv igjen senere."
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Å nei!"
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Utvikle apper"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Siden du leter etter ble ikke funnet."
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Utviklerhub"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "En feil oppstod."
+#: /templates/footer.html:6
+msgid "Feedback"
+msgstr "Tilbakemelding"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Feil ved lasting av mer"
+#: /templates/footer.html:7
+msgid "Support"
+msgstr "Hjelp"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Prøv igjen"
+#: /templates/footer.html:13
+msgid "My Submissions"
+msgstr "Mine bidrag"
+
+#: /templates/footer.html:16
+msgid "Reviewer Tools"
+msgstr "Anmelderverktøy"
+
+#: /templates/footer.html:19
+msgid "Lookup Tool"
+msgstr "Oppslagsverktøy"
+
+#: /templates/footer.html:27
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Med mindre annet er <a href=\"{legal_url}\" target=\"_blank\">bemerket</a>, er innhold på dette nettstedet lisensiert under en <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Navngivelse-"
+"del-på-samme-vilkår-lisens v3.0</a> eller en senere versjon."
+
+#: /templates/footer.html:32
+msgid "Privacy Policy"
+msgstr "Personvernsbestemmelser"
+
+#: /templates/footer.html:33
+msgid "Terms of Use"
+msgstr "Bruksvilkår"
+
+#: /templates/footer.html:35
+msgid "Report Trademark Abuse"
+msgstr "Rapporter misbruk av varemerker"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistikk"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Logg ut"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Logg inn"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Eksempel på diagram"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -238,6 +216,26 @@ msgstr "Oppdater"
 msgid "This data is restricted or no data found"
 msgstr "Disse data er begrenset eller ingen data funnet"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Å nei!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Siden du leter etter ble ikke funnet."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "En feil oppstod."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Feil ved lasting av mer"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Prøv igjen"
+
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
 msgstr "Serverfeil oppdaget. Prøv igjen senere."
@@ -248,9 +246,7 @@ msgstr "Statistikkendepunktet det ble bedt om, er ugyldig."
 
 #: /media/js/chartutils.js:26
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
-"Autentiseringsfeil oppdaget. Dataene du prøver å få tilgang til er ikke "
-"offentlig."
+msgstr "Autentiseringsfeil oppdaget. Dataene du prøver å få tilgang til er ikke offentlig."
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
@@ -278,9 +274,7 @@ msgstr "Du har blitt logget inn"
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Persona-innlogging mislykket. Du har kanskje ikke en konto med den "
-"e-postadressen registrert?"
+msgstr "Persona-innlogging mislykket. Du har kanskje ikke en konto med den e-postadressen registrert?"
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
@@ -413,13 +407,13 @@ msgstr "Antall rapporter om misbruk"
 msgid "Loading..."
 msgstr "Laster …"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17
 msgid "Apps"
 msgstr "Apper"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
 msgstr "Antall apper"
 

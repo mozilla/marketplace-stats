@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
 "PO-Revision-Date: 2014-04-24 10:05+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,58 @@ msgstr "否"
 msgid "Yes"
 msgstr "是"
 
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "应用安装"
+
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "N/A"
+
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "开发者"
+
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "交易"
+
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "净付款"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "USD"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "按照付款类型分类的新进应用"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "按照应用类型分类的新进应用"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "按照付款类型分类的应用"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "按照应用类型分类的应用"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "安装的应用"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "应用评分"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "此页面目前尚未公开。请稍后再试。"
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "开发应用"
@@ -142,57 +194,25 @@ msgstr "登录"
 msgid "Sample Chart"
 msgstr "示例图表"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "应用安装"
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "从"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "N/A"
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "到"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "开发者"
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "所有地区"
 
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "交易"
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "更新"
 
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "净付款"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "USD"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "按照付款类型分类的新进应用"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "按照应用类型分类的新进应用"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "按照付款类型分类的应用"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "按照应用类型分类的应用"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "安装的应用"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "应用评分"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "此页面目前尚未公开。请稍后再试。"
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "此数据已经被限制或者未找到"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -213,26 +233,6 @@ msgstr "载入更多时出错"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "重试"
-
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "从"
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "到"
-
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "所有地区"
-
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "更新"
-
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "此数据已经被限制或者未找到"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -404,13 +404,13 @@ msgstr "滥用报告数量"
 msgid "Loading..."
 msgstr "正在载入…"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17
 msgid "Apps"
 msgstr "应用"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
 msgstr "应用数量"
 

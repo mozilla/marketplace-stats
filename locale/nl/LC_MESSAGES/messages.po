@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
 "PO-Revision-Date: 2014-04-24 17:34+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,58 @@ msgstr "Nee"
 msgid "Yes"
 msgstr "Ja"
 
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "App-installaties"
+
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "N.v.t."
+
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Ontwikkelaars"
+
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "Transacties"
+
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "Nettobetalingen"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "USD"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Nieuwe apps op betalingstype"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Nieuwe apps op apptype"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Apps op betalingstype"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Apps op apptype"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "Geïnstalleerde apps"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "App-waarderingen"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "Deze pagina is momenteel niet openbaar. Probeer het later nog eens."
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Apps ontwikkelen"
@@ -144,78 +196,6 @@ msgstr "Aanmelden"
 msgid "Sample Chart"
 msgstr "Voorbeeldgrafiek"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "App-installaties"
-
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "N.v.t."
-
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Ontwikkelaars"
-
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "Transacties"
-
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "Nettobetalingen"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "USD"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Nieuwe apps op betalingstype"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Nieuwe apps op apptype"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Apps op betalingstype"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Apps op apptype"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "Geïnstalleerde apps"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "App-waarderingen"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Deze pagina is momenteel niet openbaar. Probeer het later nog eens."
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nee!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De door u gezochte pagina is niet gevonden."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fout bij het laden van meer"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Opnieuw proberen"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Van"
@@ -236,6 +216,26 @@ msgstr "Bijwerken"
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
 msgstr "Deze gegevens zijn beperkt toegankelijk of er zijn geen gegevens gevonden"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De door u gezochte pagina is niet gevonden."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fout bij het laden van meer"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Opnieuw proberen"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -408,13 +408,13 @@ msgstr "Aantal misbruikmeldingen"
 msgid "Loading..."
 msgstr "Laden…"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
 msgstr "Aantal apps"
 

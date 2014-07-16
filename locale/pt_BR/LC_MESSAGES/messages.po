@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23T16:17:04.531Z\n"
+"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
 "PO-Revision-Date: 2014-04-23 21:07+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,58 @@ msgstr "Não"
 msgid "Yes"
 msgstr "Sim"
 
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "Instalações de Aplicativos"
+
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "N/A"
+
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Desenvolvedores"
+
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "Transações"
+
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "Pagamentos na Internet"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "USD"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Novos aplicativos por método de pagamento"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Novos aplicativos por tipo"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Aplicativos por método de pagamento"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Aplicativos por tipo"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "Aplicativos instalados"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "Pontuações de Aplicativos"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "Atualmente esta página não é pública. Tente novamente mais tarde."
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Desenvolver Aplicativos"
@@ -144,57 +196,25 @@ msgstr "Entrar"
 msgid "Sample Chart"
 msgstr "Gráfico de Exemplo"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "Instalações de Aplicativos"
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "De"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "N/A"
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "Para"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Desenvolvedores"
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "Todas as regiões"
 
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "Transações"
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "Atualizar"
 
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "Pagamentos na Internet"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "USD"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Novos aplicativos por método de pagamento"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Novos aplicativos por tipo"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Aplicativos por método de pagamento"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Aplicativos por tipo"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "Aplicativos instalados"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "Pontuações de Aplicativos"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Atualmente esta página não é pública. Tente novamente mais tarde."
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "Esta informação é restrita ou não foi encontrada"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -215,26 +235,6 @@ msgstr "Erro ao carregar mais"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tente novamente"
-
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "De"
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "Para"
-
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Todas as regiões"
-
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "Atualizar"
-
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "Esta informação é restrita ou não foi encontrada"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -407,13 +407,13 @@ msgstr "Número de denúncias de abuso"
 msgid "Loading..."
 msgstr "Carregando..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_by_type.js:17
 msgid "Apps"
 msgstr "Aplicativos"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
 msgstr "Número de aplicativos"
 
