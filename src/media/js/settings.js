@@ -27,6 +27,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
         REGION_CHOICES_SLUG: {
             'restofworld': gettext('Rest of World'),
             'ar': gettext('Argentina'),
+            'bd': gettext('Bangladesh'),
             'br': gettext('Brazil'),
             'cl': gettext('Chile'),
             'cn': gettext('China'),
@@ -34,6 +35,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
             'cr': gettext('Costa Rica'),
             'ec': gettext('Ecuador'),
             'sv': gettext('El Salvador'),
+            'fr': gettext('France'),
             'de': gettext('Germany'),
             'gr': gettext('Greece'),
             'gt': gettext('Guatemala'),
