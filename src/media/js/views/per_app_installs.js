@@ -4,7 +4,7 @@ define('views/per_app_installs', ['chartutils', 'l10n', 'utils'],
     var gettext = l10n.gettext;
 
     // Easy way to toggle regions for this view.
-    var enableRegions = true;
+    var enableRegions = false;
 
     return function(builder, args) {
         var chartTitle = gettext('Installs');
