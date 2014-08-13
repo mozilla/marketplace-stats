@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
-"PO-Revision-Date: 2014-04-23 12:37-0400\n"
+"PO-Revision-Date: 2014-08-13 18:51-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -293,7 +293,7 @@ msgstr "アルゼンチン"
 
 #: /media/js/settings.js:30
 msgid "Bangladesh"
-msgstr ""
+msgstr "バングラデシュ"
 
 #: /media/js/settings.js:31
 msgid "Brazil"
@@ -325,7 +325,7 @@ msgstr "エルサルバドル"
 
 #: /media/js/settings.js:38
 msgid "France"
-msgstr ""
+msgstr "フランス"
 
 #: /media/js/settings.js:39
 msgid "Germany"
