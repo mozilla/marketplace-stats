@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
 "PO-Revision-Date: 2014-04-27 17:23+0400\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian <Russian <ru@li.org>>\n"
@@ -81,58 +81,6 @@ msgstr "Нет"
 msgid "Yes"
 msgstr "Да"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "Установок приложения"
-
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "н/д"
-
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Разработчики"
-
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "Транзакции"
-
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "Чистые выплаты"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "USD"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Новые приложения по типу оплаты"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Новые приложения по типу приложения"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Приложения по типу оплаты"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Приложения по типу приложения"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "Установок приложений"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "Оценок приложения"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Эта страница в данный момент не является публичной. Пожалуйста, повторите попытку позже."
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Разработка приложений"
@@ -197,25 +145,57 @@ msgstr "Войти"
 msgid "Sample Chart"
 msgstr "Образец Графика"
 
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "От"
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "Установок приложения"
 
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "К"
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "н/д"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Все регионы"
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Разработчики"
 
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "Обновление"
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "Транзакции"
 
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "Доступ к этим данным ограничен или данные не найдены"
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "Чистые выплаты"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "USD"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Новые приложения по типу оплаты"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Новые приложения по типу приложения"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Приложения по типу оплаты"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Приложения по типу приложения"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "Установок приложений"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "Оценок приложения"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "Эта страница в данный момент не является публичной. Пожалуйста, повторите попытку позже."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -236,6 +216,26 @@ msgstr "Ошибка при загрузке"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Попробовать снова"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "От"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "К"
+
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "Все регионы"
+
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "Обновление"
+
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "Доступ к этим данным ограничен или данные не найдены"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -294,102 +294,110 @@ msgid "Argentina"
 msgstr "Аргентина"
 
 #: /media/js/settings.js:30
+msgid "Bangladesh"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "Brazil"
 msgstr "Бразилия"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Chile"
 msgstr "Чили"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "China"
 msgstr "Китай"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Colombia"
 msgstr "Колумбия"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Costa Rica"
 msgstr "Коста-Рика"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Ecuador"
 msgstr "Эквадор"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "El Salvador"
 msgstr "Сальвадор"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
+msgid "France"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Germany"
 msgstr "Германия"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:40
 msgid "Greece"
 msgstr "Греция"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:41
 msgid "Guatemala"
 msgstr "Гватемала"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:42
 msgid "Hungary"
 msgstr "Венгрия"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:43
 msgid "Italy"
 msgstr "Италия"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:44
 msgid "Mexico"
 msgstr "Мексика"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:45
 msgid "Montenegro"
 msgstr "Черногория"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:46
 msgid "Nicaragua"
 msgstr "Никарагуа"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:47
 msgid "Panama"
 msgstr "Панама"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:48
 msgid "Peru"
 msgstr "Перу"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:49
 msgid "Poland"
 msgstr "Польша"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:50
 msgid "Serbia"
 msgstr "Сербия"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:51
 msgid "Spain"
 msgstr "Испания"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:52
 msgid "United Kingdom"
 msgstr "Великобритания"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:53
 msgid "United States"
 msgstr "США"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:54
 msgid "Uruguay"
 msgstr "Уругвай"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:55
 msgid "Venezuela"
 msgstr "Венесуэла"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:56
 msgid "No region in search"
 msgstr "В поиске нет региона"
 
@@ -409,13 +417,13 @@ msgstr "Число жалоб"
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Приложения"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Число приложений"
 

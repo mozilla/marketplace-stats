@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
 "PO-Revision-Date: 2014-08-13 03:34+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,69 @@ msgstr "না"
 msgid "Yes"
 msgstr "হ্যাঁ"
 
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "অ্যাপ ডেভেলপ করুন"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "ডেভেলপার হাব"
+
+#: /templates/footer.html:6
+msgid "Feedback"
+msgstr "প্রতিক্রিয়া"
+
+#: /templates/footer.html:7
+msgid "Support"
+msgstr "সহায়তায়"
+
+#: /templates/footer.html:13
+msgid "My Submissions"
+msgstr "আমার জমা"
+
+#: /templates/footer.html:16
+msgid "Reviewer Tools"
+msgstr "রিভিউয়ার টুল"
+
+#: /templates/footer.html:19
+msgid "Lookup Tool"
+msgstr "লুকআপ টুল"
+
+#: /templates/footer.html:27
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"যদি অন্য কোথাও কিছু <a href=\"{legal_url}\" target=\"_blank\">উল্লেখ</a> না থাকলে এই সাইটের সকল কন্টেন্ট ক্রিয়েটিভ কমন অ্যাট্রিবিউশন শেয়ার-অ্যালাইক ৩.০</a> বা পরবর্তী সংস্করণের লাইসেন্সের অধীনে লাইসেন্সকৃত।"
+
+#: /templates/footer.html:32
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: /templates/footer.html:33
+msgid "Terms of Use"
+msgstr "ব্যবহারের শর্তাবলী"
+
+#: /templates/footer.html:35
+msgid "Report Trademark Abuse"
+msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "নমুনা চার্ট "
+
 #: /templates/homepage.html:8
 msgid "App Installations"
 msgstr "অ্যাপ ইনস্টলেশন"
@@ -130,93 +193,7 @@ msgstr "অ্যাপ রেটিং"
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr ""
-"এই পাতাটি বর্তমানে সর্বসাধারণের জন্য নয়। অনুগ্রহ করে পরে পুনরায় চেষ্টা করুন।"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "অ্যাপ ডেভেলপ করুন"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "ডেভেলপার হাব"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "প্রতিক্রিয়া"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "সহায়তায়"
-
-#: /templates/footer.html:13
-msgid "My Submissions"
-msgstr "আমার জমা"
-
-#: /templates/footer.html:16
-msgid "Reviewer Tools"
-msgstr "রিভিউয়ার টুল"
-
-#: /templates/footer.html:19
-msgid "Lookup Tool"
-msgstr "লুকআপ টুল"
-
-#: /templates/footer.html:27
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"যদি অন্য কোথাও কিছু <a href=\"{legal_url}\" target=\"_blank\">উল্লেখ</a> না "
-"থাকলে এই সাইটের সকল কন্টেন্ট ক্রিয়েটিভ কমন অ্যাট্রিবিউশন শেয়ার-অ্যালাইক "
-"৩.০</a> বা পরবর্তী সংস্করণের লাইসেন্সের অধীনে লাইসেন্সকৃত।"
-
-#: /templates/footer.html:32
-msgid "Privacy Policy"
-msgstr "গোপনীয়তা নীতি"
-
-#: /templates/footer.html:33
-msgid "Terms of Use"
-msgstr "ব্যবহারের শর্তাবলী"
-
-#: /templates/footer.html:35
-msgid "Report Trademark Abuse"
-msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "পরিসংখ্যান"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "নমুনা চার্ট "
-
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "হতে "
-
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "প্রতি "
-
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "সমস্ত অঞ্চল"
-
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "আপডেট"
-
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "এই তথ্যটি সিমাবদ্ধ অথবা পাওয়া যায় নি। "
+msgstr "এই পাতাটি বর্তমানে সর্বসাধারণের জন্য নয়। অনুগ্রহ করে পরে পুনরায় চেষ্টা করুন।"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -238,6 +215,26 @@ msgstr "আরও লোড করার সময় সমস্যা হয়ে�
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন "
 
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "হতে "
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "প্রতি "
+
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "সমস্ত অঞ্চল"
+
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "আপডেট"
+
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "এই তথ্যটি সিমাবদ্ধ অথবা পাওয়া যায় নি। "
+
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
 msgstr "সার্ভারে সমস্যা দেখা দিয়েছে। অনুগ্রহ করে কিছুক্ষণ পর আবার চেষ্টা করুন। "
@@ -256,9 +253,7 @@ msgstr "পরিসংখ্যানের তথ্য পাওয়ার অ
 
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"সার্ভার একটি অজানা সমস্যার সম্মুখীন হয়েছে। অনুগ্রহ করে একটু পরে আবার চেষ্টা "
-"করুন। "
+msgstr "সার্ভার একটি অজানা সমস্যার সম্মুখীন হয়েছে। অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন। "
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
@@ -278,9 +273,7 @@ msgstr "আপনি সফলভাবে প্রবেশ করেছেন
 
 #: /media/js/login.js:127
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সম্ভবত এই ইমেইল এড্রেস এ পারসোনায় কোন "
-"একাউন্ট নেই। "
+msgstr "পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সম্ভবত এই ইমেইল এড্রেস এ পারসোনায় কোন একাউন্ট নেই। "
 
 #: /media/js/login.js:132
 msgid "Persona login failed. A server error was encountered."
@@ -299,102 +292,110 @@ msgid "Argentina"
 msgstr "আর্জেন্টিনা"
 
 #: /media/js/settings.js:30
+msgid "Bangladesh"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "Brazil"
 msgstr "ব্রাজিল"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Chile"
 msgstr "চিলি"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "China"
 msgstr "চীন"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Colombia"
 msgstr "কলম্বিয়া"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Costa Rica"
 msgstr "কোস্টারিকা"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Ecuador"
 msgstr "ইকুয়েডর"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "El Salvador"
 msgstr "এল সালভাডোর"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
+msgid "France"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Germany"
 msgstr "জার্মানী"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:40
 msgid "Greece"
 msgstr "গ্রীস"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:41
 msgid "Guatemala"
 msgstr "গুয়েতেমালা"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:42
 msgid "Hungary"
 msgstr "হাঙ্গেরি"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:43
 msgid "Italy"
 msgstr "ইতালি"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:44
 msgid "Mexico"
 msgstr "মেক্সিকো"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:45
 msgid "Montenegro"
 msgstr "মন্টেনিগ্রো"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:46
 msgid "Nicaragua"
 msgstr "নিকারাগুয়া"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:47
 msgid "Panama"
 msgstr "পানামা"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:48
 msgid "Peru"
 msgstr "পেরু"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:49
 msgid "Poland"
 msgstr "পোল্যান্ড"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:50
 msgid "Serbia"
 msgstr "সার্বিয়া"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:51
 msgid "Spain"
 msgstr "স্পেন"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:52
 msgid "United Kingdom"
 msgstr "যুক্তরাজ্য"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:53
 msgid "United States"
 msgstr "যুক্তরাষ্ট্র"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:54
 msgid "Uruguay"
 msgstr "উরুগুয়ে"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:55
 msgid "Venezuela"
 msgstr "ভেনেজুয়েলা"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:56
 msgid "No region in search"
 msgstr "অনুসন্ধানে কোন অঞ্চল নেই"
 
@@ -413,13 +414,13 @@ msgstr "অপব্যবহার প্রতিবেদন সংখ্য�
 msgid "Loading..."
 msgstr "লোড হচ্ছে..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "অ্যাপস"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "এপসমুহের সংখ্যা"
 

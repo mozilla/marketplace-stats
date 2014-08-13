@@ -1,7 +1,8 @@
 msgid ""
-msgstr "Project-Id-Version: Marketplace Stats\n"
+msgstr ""
+"Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,6 +79,70 @@ msgstr "Non"
 msgid "Yes"
 msgstr "Si"
 
+#: /templates/footer.html:2
+msgid "Develop Apps"
+msgstr "Desenvolver aplicativos"
+
+#: /templates/footer.html:5
+msgid "Developer Hub"
+msgstr "Centro de desenvolvedores"
+
+#: /templates/footer.html:6
+msgid "Feedback"
+msgstr "Opinión"
+
+#: /templates/footer.html:7
+msgid "Support"
+msgstr "Asistencia técnica"
+
+#: /templates/footer.html:13
+msgid "My Submissions"
+msgstr "Meus envíos"
+
+#: /templates/footer.html:16
+msgid "Reviewer Tools"
+msgstr "Ferramentas de valoración"
+
+#: /templates/footer.html:19
+msgid "Lookup Tool"
+msgstr "Ferramenta de consulta"
+
+#: /templates/footer.html:27
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Excepto onde <a href=\"{legal_url}\" target=\"_blank\">se indique</a> o contrario, autorizase o contido deste sitio pola <a href=\"{cc_url}\" target=\"_blank\">licenza Creative Commons Atribución-"
+"CompartirIgual v3.0</a> ou calquera versión posterior."
+
+#: /templates/footer.html:32
+msgid "Privacy Policy"
+msgstr "Política de privacidade"
+
+#: /templates/footer.html:33
+msgid "Terms of Use"
+msgstr "Temos de uso"
+
+#: /templates/footer.html:35
+msgid "Report Trademark Abuse"
+msgstr "Informar de abusos de marca"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Saír"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Gráfico de exemplo"
+
 #: /templates/homepage.html:8
 msgid "App Installations"
 msgstr "Instalacións de aplicativos"
@@ -130,67 +195,25 @@ msgstr "Puntuacións dos aplicativos"
 msgid "This page is currently not public. Please try again later."
 msgstr "Nestes momentos esta páxina non é pública. Tente de novo máis tarde."
 
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Desenvolver aplicativos"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh non!"
 
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Centro de desenvolvedores"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non se atopou a páxina que estaba buscando."
 
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Opinión"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Produciuse un erro."
 
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Asistencia técnica"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao cargar máis"
 
-#: /templates/footer.html:13
-msgid "My Submissions"
-msgstr "Meus envíos"
-
-#: /templates/footer.html:16
-msgid "Reviewer Tools"
-msgstr "Ferramentas de valoración"
-
-#: /templates/footer.html:19
-msgid "Lookup Tool"
-msgstr "Ferramenta de consulta"
-
-#: /templates/footer.html:27
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr "Excepto onde <a href=\"{legal_url}\" target=\"_blank\">se indique</a> o contrario, autorizase o contido deste sitio pola <a href=\"{cc_url}\" target=\"_blank\">licenza Creative Commons Atribución-CompartirIgual v3.0</a> ou calquera versión posterior."
-
-#: /templates/footer.html:32
-msgid "Privacy Policy"
-msgstr "Política de privacidade"
-
-#: /templates/footer.html:33
-msgid "Terms of Use"
-msgstr "Temos de uso"
-
-#: /templates/footer.html:35
-msgid "Report Trademark Abuse"
-msgstr "Informar de abusos de marca"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Saír"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Gráfico de exemplo"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tentar de novo"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -211,26 +234,6 @@ msgstr "Actualizar"
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
 msgstr "Esta información está restrinxida ou non se atopa"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh non!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non se atopou a páxina que estaba buscando."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Produciuse un erro."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao cargar máis"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tentar de novo"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -289,102 +292,110 @@ msgid "Argentina"
 msgstr "Arxentina"
 
 #: /media/js/settings.js:30
+msgid "Bangladesh"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "Brazil"
 msgstr "Brasil"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Chile"
 msgstr "Chile"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "China"
 msgstr "China"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Colombia"
 msgstr "Colombia"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "El Salvador"
 msgstr "O Salvador"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
+msgid "France"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Germany"
 msgstr "Alemaña"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:40
 msgid "Greece"
 msgstr "Grecia"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:41
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:42
 msgid "Hungary"
 msgstr "Hungría"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:43
 msgid "Italy"
 msgstr "Italia"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:44
 msgid "Mexico"
 msgstr "México"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:45
 msgid "Montenegro"
 msgstr "Montenegro"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:46
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:47
 msgid "Panama"
 msgstr "Panamá"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:48
 msgid "Peru"
 msgstr "Perú"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:49
 msgid "Poland"
 msgstr "Polonia"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:50
 msgid "Serbia"
 msgstr "Serbia"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:51
 msgid "Spain"
 msgstr "España"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:52
 msgid "United Kingdom"
 msgstr "Reino Unido"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:53
 msgid "United States"
 msgstr "Estados Unidos"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:54
 msgid "Uruguay"
 msgstr "Uruguai"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:55
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:56
 msgid "No region in search"
 msgstr "Ningunha rexión na busca"
 
@@ -403,13 +414,13 @@ msgstr "Número de informes de abuso"
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Aplicativos"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Número de aplicativos"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
 "PO-Revision-Date: 2014-05-14 07:06+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,58 +80,6 @@ msgstr "नहीं"
 msgid "Yes"
 msgstr "हां"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "एप्लिकेशन संस्थापन"
-
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "N/A"
-
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "डेवलपर्स"
-
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "लेनदेन"
-
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "निवल भुगतान"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "USD"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "भुगतान प्रकार के द्वारा नए एप्लिकेशन"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "अनुप्रयोग प्रकार के द्वारा नए एप्लिकेशन"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "एप्प्स भुगतान प्रकार के द्वारा"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "एप्प्स एप्लिकेशन प्रकार द्वारा"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "ऐप्लिकेशन स्थापित"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "एप्लिकेशन मूल्यांकन"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "यह पृष्ठ वर्तमान में सार्वजनिक नहीं है. बाद में पुन: प्रयास करें."
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "ऐप्स डिवेलप करे"
@@ -196,25 +144,57 @@ msgstr "साइन इन"
 msgid "Sample Chart"
 msgstr "नमूना चार्ट"
 
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "के द्वारा"
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "एप्लिकेशन संस्थापन"
 
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "के लिए"
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "N/A"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "सभी क्षेत्र"
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "डेवलपर्स"
 
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "अद्यतन"
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "लेनदेन"
 
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "इस डेटा प्रतिबंधित है या कोई डेटा नहीं मिला"
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "निवल भुगतान"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "USD"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "भुगतान प्रकार के द्वारा नए एप्लिकेशन"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "अनुप्रयोग प्रकार के द्वारा नए एप्लिकेशन"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "एप्प्स भुगतान प्रकार के द्वारा"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "एप्प्स एप्लिकेशन प्रकार द्वारा"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "ऐप्लिकेशन स्थापित"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "एप्लिकेशन मूल्यांकन"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "यह पृष्ठ वर्तमान में सार्वजनिक नहीं है. बाद में पुन: प्रयास करें."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -235,6 +215,26 @@ msgstr "अधिक लोड करने में त्रुटि"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "पुन: प्रयास करें"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "के द्वारा"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "के लिए"
+
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "सभी क्षेत्र"
+
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "अद्यतन"
+
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "इस डेटा प्रतिबंधित है या कोई डेटा नहीं मिला"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -293,102 +293,110 @@ msgid "Argentina"
 msgstr "अर्जेंटीना"
 
 #: /media/js/settings.js:30
+msgid "Bangladesh"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "Brazil"
 msgstr "ब्राज़िल"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Chile"
 msgstr "चिली"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "China"
 msgstr "चीन"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Colombia"
 msgstr "कोलंबिया"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Costa Rica"
 msgstr "कोस्टा रिका"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Ecuador"
 msgstr "इक्वेडोर"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "El Salvador"
 msgstr "अल सल्वाडोर"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
+msgid "France"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Germany"
 msgstr "जर्मनी"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:40
 msgid "Greece"
 msgstr "ग्रीस"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:41
 msgid "Guatemala"
 msgstr "ग्वाटेमाला"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:42
 msgid "Hungary"
 msgstr "हंगरी"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:43
 msgid "Italy"
 msgstr "इटली"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:44
 msgid "Mexico"
 msgstr "मेक्सिको"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:45
 msgid "Montenegro"
 msgstr "मॉन्टेंगरो"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:46
 msgid "Nicaragua"
 msgstr "निकारागुआ"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:47
 msgid "Panama"
 msgstr "पनामा"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:48
 msgid "Peru"
 msgstr "पेरू"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:49
 msgid "Poland"
 msgstr "पोलैंड"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:50
 msgid "Serbia"
 msgstr "सर्बिआ"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:51
 msgid "Spain"
 msgstr "स्पेन"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:52
 msgid "United Kingdom"
 msgstr "यूनाइटेड किंगडम"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:53
 msgid "United States"
 msgstr "संयुक्त राज्य"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:54
 msgid "Uruguay"
 msgstr "उरुग्वे"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:55
 msgid "Venezuela"
 msgstr "वेनेज़ुएला"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:56
 msgid "No region in search"
 msgstr "खोज में कोई क्षेत्र नहीं"
 
@@ -407,13 +415,13 @@ msgstr "दुर्व्यवहार रिपोर्ट की संख
 msgid "Loading..."
 msgstr "लोड हो रहा है..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "ऐप्स"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "ऐप्स की संख्या"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
 "PO-Revision-Date: 2014-03-20 10:08+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,58 +79,6 @@ msgstr "Jo"
 msgid "Yes"
 msgstr "Po"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "Instalime Zbatimesh"
-
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "N/A"
-
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Zhvillues"
-
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "Transaksione"
-
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "Pagesa Në Rrjet"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "USD"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Zbatime të Reja sipas Llojesh Pagese"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Zbatime të Reja sipas Llojesh Zbatimi"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Zbatime sipas Llojesh Pagese"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Zbatime sipas Llojesh Zbatimi"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "Zbatime të Instaluara"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "Vlerësime Zbatimi"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Kjo faqe nuk është ende publike. Ju lutemi, riprovoni më vonë."
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Zbatime Zhvilluesish"
@@ -195,25 +143,57 @@ msgstr "Hyni"
 msgid "Sample Chart"
 msgstr "Shembull Grafiku"
 
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "Prej"
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "Instalime Zbatimesh"
 
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "Për"
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "N/A"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Krejt rajonet"
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Zhvillues"
 
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "Përditësoje"
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "Transaksione"
 
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "Këto të dhëna janë të rezervuara ose nuk u gjetën të dhëna"
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "Pagesa Në Rrjet"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "USD"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Zbatime të Reja sipas Llojesh Pagese"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Zbatime të Reja sipas Llojesh Zbatimi"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Zbatime sipas Llojesh Pagese"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Zbatime sipas Llojesh Zbatimi"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "Zbatime të Instaluara"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "Vlerësime Zbatimi"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "Kjo faqe nuk është ende publike. Ju lutemi, riprovoni më vonë."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -234,6 +214,26 @@ msgstr "Gabim në ngarkim të tjerash"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Riprovoni"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "Prej"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "Për"
+
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "Krejt rajonet"
+
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "Përditësoje"
+
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "Këto të dhëna janë të rezervuara ose nuk u gjetën të dhëna"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -292,102 +292,110 @@ msgid "Argentina"
 msgstr "Argjentinë"
 
 #: /media/js/settings.js:30
+msgid "Bangladesh"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "Brazil"
 msgstr "Brazil"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Chile"
 msgstr "Kili"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "China"
 msgstr "Kinë"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Colombia"
 msgstr "Kolumbi"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Costa Rica"
 msgstr ""
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Ecuador"
 msgstr ""
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "El Salvador"
 msgstr ""
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
+msgid "France"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Germany"
 msgstr "Gjermani"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:40
 msgid "Greece"
 msgstr "Greqi"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:41
 msgid "Guatemala"
 msgstr ""
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:42
 msgid "Hungary"
 msgstr "Hungari"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:43
 msgid "Italy"
 msgstr "Itali"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:44
 msgid "Mexico"
 msgstr "Meksikë"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:45
 msgid "Montenegro"
 msgstr "Mal i Zi"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:46
 msgid "Nicaragua"
 msgstr ""
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:47
 msgid "Panama"
 msgstr ""
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:48
 msgid "Peru"
 msgstr "Peru"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:49
 msgid "Poland"
 msgstr "Poloni"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:50
 msgid "Serbia"
 msgstr "Serbi"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:51
 msgid "Spain"
 msgstr "Spanjë"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:52
 msgid "United Kingdom"
 msgstr "Mbretëri e Bashkuar"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:53
 msgid "United States"
 msgstr "Shtetet e Bashkuara"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:54
 msgid "Uruguay"
 msgstr "Uruguai"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:55
 msgid "Venezuela"
 msgstr "Venezuelë"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:56
 msgid "No region in search"
 msgstr ""
 
@@ -406,13 +414,13 @@ msgstr "Numër Raportimesh Abuzimi"
 msgid "Loading..."
 msgstr "Po ngarkohet..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Zbatime"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Numër Zbatimesh"
 

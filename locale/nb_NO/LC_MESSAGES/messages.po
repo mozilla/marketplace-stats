@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
 "PO-Revision-Date: 2014-07-06 20:05+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,58 +80,6 @@ msgstr "Nei"
 msgid "Yes"
 msgstr "Ja"
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr "App-installasjoner"
-
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr "n/a"
-
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Utviklere"
-
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr "Transaksjoner"
-
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr "Nettobetalinger"
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr "USD"
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Nye apper etter type betaling"
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Nye apper etter type app"
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Apper etter type betaling"
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Apper etter type app"
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "Apper installert"
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr "App-vurderinger"
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Denne siden er for tiden ikke offentlig. Prøv igjen senere."
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Utvikle apper"
@@ -196,25 +144,57 @@ msgstr "Logg inn"
 msgid "Sample Chart"
 msgstr "Eksempel på diagram"
 
-#: /templates/includes/chartbody.html:2
-msgid "From"
-msgstr "Fra"
+#: /templates/homepage.html:8
+msgid "App Installations"
+msgstr "App-installasjoner"
 
-#: /templates/includes/chartbody.html:3
-msgid "To"
-msgstr "Til"
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
+msgstr "n/a"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Alle regioner"
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Utviklere"
 
-#: /templates/includes/chartbody.html:15
-msgid "Update"
-msgstr "Oppdater"
+#: /templates/homepage.html:16
+msgid "Transactions"
+msgstr "Transaksjoner"
 
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
-msgstr "Disse data er begrenset eller ingen data funnet"
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr "Nettobetalinger"
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr "USD"
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Nye apper etter type betaling"
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Nye apper etter type app"
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Apper etter type betaling"
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Apper etter type app"
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "Apper installert"
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr "App-vurderinger"
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
+msgstr "Denne siden er for tiden ikke offentlig. Prøv igjen senere."
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -235,6 +215,26 @@ msgstr "Feil ved lasting av mer"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Prøv igjen"
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr "Fra"
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr "Til"
+
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr "Alle regioner"
+
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr "Oppdater"
+
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
+msgstr "Disse data er begrenset eller ingen data funnet"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -293,102 +293,110 @@ msgid "Argentina"
 msgstr "Argentina"
 
 #: /media/js/settings.js:30
+msgid "Bangladesh"
+msgstr ""
+
+#: /media/js/settings.js:31
 msgid "Brazil"
 msgstr "Brasil"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:32
 msgid "Chile"
 msgstr "Chile"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:33
 msgid "China"
 msgstr "Kina"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:34
 msgid "Colombia"
 msgstr "Colombia"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:35
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:36
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:37
 msgid "El Salvador"
 msgstr "El Salvador"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:38
+msgid "France"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Germany"
 msgstr "Tyskland"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:40
 msgid "Greece"
 msgstr "Hellas"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:41
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:42
 msgid "Hungary"
 msgstr "Ungarn"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:43
 msgid "Italy"
 msgstr "Italia"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:44
 msgid "Mexico"
 msgstr "Mexico"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:45
 msgid "Montenegro"
 msgstr "Montenegro"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:46
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:47
 msgid "Panama"
 msgstr "Panama"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:48
 msgid "Peru"
 msgstr "Peru"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:49
 msgid "Poland"
 msgstr "Polen"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:50
 msgid "Serbia"
 msgstr "Serbia"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:51
 msgid "Spain"
 msgstr "Spania"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:52
 msgid "United Kingdom"
 msgstr "Storbritannia"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:53
 msgid "United States"
 msgstr "USA"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:54
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:55
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:56
 msgid "No region in search"
 msgstr "Ingen region i søk"
 
@@ -407,13 +415,13 @@ msgstr "Antall rapporter om misbruk"
 msgid "Loading..."
 msgstr "Laster …"
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Apper"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Antall apper"
 

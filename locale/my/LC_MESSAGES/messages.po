@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16T16:15:50.713Z\n"
+"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,58 +80,6 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: /templates/homepage.html:8
-msgid "App Installations"
-msgstr ""
-
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
-msgid "N/A"
-msgstr ""
-
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr ""
-
-#: /templates/homepage.html:16
-msgid "Transactions"
-msgstr ""
-
-#: /templates/homepage.html:20
-msgid "Net payments"
-msgstr ""
-
-#: /templates/homepage.html:20
-msgid "USD"
-msgstr ""
-
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr ""
-
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr ""
-
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr ""
-
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr ""
-
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr ""
-
-#: /templates/homepage.html:65
-msgid "App Ratings"
-msgstr ""
-
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr ""
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr ""
@@ -194,24 +142,56 @@ msgstr ""
 msgid "Sample Chart"
 msgstr ""
 
-#: /templates/includes/chartbody.html:2
-msgid "From"
+#: /templates/homepage.html:8
+msgid "App Installations"
 msgstr ""
 
-#: /templates/includes/chartbody.html:3
-msgid "To"
+#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+msgid "N/A"
 msgstr ""
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
+#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
 msgstr ""
 
-#: /templates/includes/chartbody.html:15
-msgid "Update"
+#: /templates/homepage.html:16
+msgid "Transactions"
 msgstr ""
 
-#: /templates/includes/chartbody.html:18
-msgid "This data is restricted or no data found"
+#: /templates/homepage.html:20
+msgid "Net payments"
+msgstr ""
+
+#: /templates/homepage.html:20
+msgid "USD"
+msgstr ""
+
+#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr ""
+
+#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr ""
+
+#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr ""
+
+#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr ""
+
+#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr ""
+
+#: /templates/homepage.html:65
+msgid "App Ratings"
+msgstr ""
+
+#: /templates/homepage.html:84
+msgid "This page is currently not public. Please try again later."
 msgstr ""
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
@@ -232,6 +212,26 @@ msgstr ""
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
+msgstr ""
+
+#: /templates/includes/chartbody.html:2
+msgid "From"
+msgstr ""
+
+#: /templates/includes/chartbody.html:3
+msgid "To"
+msgstr ""
+
+#: /templates/includes/chartbody.html:8
+msgid "All regions"
+msgstr ""
+
+#: /templates/includes/chartbody.html:15
+msgid "Update"
+msgstr ""
+
+#: /templates/includes/chartbody.html:18
+msgid "This data is restricted or no data found"
 msgstr ""
 
 #: /media/js/chartutils.js:24
@@ -291,102 +291,110 @@ msgid "Argentina"
 msgstr ""
 
 #: /media/js/settings.js:30
-msgid "Brazil"
+msgid "Bangladesh"
 msgstr ""
 
 #: /media/js/settings.js:31
-msgid "Chile"
+msgid "Brazil"
 msgstr ""
 
 #: /media/js/settings.js:32
-msgid "China"
+msgid "Chile"
 msgstr ""
 
 #: /media/js/settings.js:33
-msgid "Colombia"
+msgid "China"
 msgstr ""
 
 #: /media/js/settings.js:34
-msgid "Costa Rica"
+msgid "Colombia"
 msgstr ""
 
 #: /media/js/settings.js:35
-msgid "Ecuador"
+msgid "Costa Rica"
 msgstr ""
 
 #: /media/js/settings.js:36
-msgid "El Salvador"
+msgid "Ecuador"
 msgstr ""
 
 #: /media/js/settings.js:37
-msgid "Germany"
+msgid "El Salvador"
 msgstr ""
 
 #: /media/js/settings.js:38
-msgid "Greece"
+msgid "France"
 msgstr ""
 
 #: /media/js/settings.js:39
-msgid "Guatemala"
+msgid "Germany"
 msgstr ""
 
 #: /media/js/settings.js:40
-msgid "Hungary"
+msgid "Greece"
 msgstr ""
 
 #: /media/js/settings.js:41
-msgid "Italy"
+msgid "Guatemala"
 msgstr ""
 
 #: /media/js/settings.js:42
-msgid "Mexico"
+msgid "Hungary"
 msgstr ""
 
 #: /media/js/settings.js:43
-msgid "Montenegro"
+msgid "Italy"
 msgstr ""
 
 #: /media/js/settings.js:44
-msgid "Nicaragua"
+msgid "Mexico"
 msgstr ""
 
 #: /media/js/settings.js:45
-msgid "Panama"
+msgid "Montenegro"
 msgstr ""
 
 #: /media/js/settings.js:46
-msgid "Peru"
+msgid "Nicaragua"
 msgstr ""
 
 #: /media/js/settings.js:47
-msgid "Poland"
+msgid "Panama"
 msgstr ""
 
 #: /media/js/settings.js:48
-msgid "Serbia"
+msgid "Peru"
 msgstr ""
 
 #: /media/js/settings.js:49
-msgid "Spain"
+msgid "Poland"
 msgstr ""
 
 #: /media/js/settings.js:50
-msgid "United Kingdom"
+msgid "Serbia"
 msgstr ""
 
 #: /media/js/settings.js:51
-msgid "United States"
+msgid "Spain"
 msgstr ""
 
 #: /media/js/settings.js:52
-msgid "Uruguay"
+msgid "United Kingdom"
 msgstr ""
 
 #: /media/js/settings.js:53
-msgid "Venezuela"
+msgid "United States"
 msgstr ""
 
 #: /media/js/settings.js:54
+msgid "Uruguay"
+msgstr ""
+
+#: /media/js/settings.js:55
+msgid "Venezuela"
+msgstr ""
+
+#: /media/js/settings.js:56
 msgid "No region in search"
 msgstr ""
 
@@ -405,13 +413,13 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr ""
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr ""
 
