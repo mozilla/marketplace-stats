@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
-"PO-Revision-Date: 2014-05-12 07:46+0000\n"
+"PO-Revision-Date: 2014-08-15 02:27+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399880787.0\n"
+"X-POOTLE-MTIME: 1408069647.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -294,7 +294,7 @@ msgstr "아르헨티나"
 
 #: /media/js/settings.js:30
 msgid "Bangladesh"
-msgstr ""
+msgstr "방글라데시"
 
 #: /media/js/settings.js:31
 msgid "Brazil"
@@ -326,7 +326,7 @@ msgstr "엘살바드로"
 
 #: /media/js/settings.js:38
 msgid "France"
-msgstr ""
+msgstr "프랑스"
 
 #: /media/js/settings.js:39
 msgid "Germany"
