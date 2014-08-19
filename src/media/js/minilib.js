@@ -30,15 +30,21 @@ define('minilib', ['urls'], function(urls) {
             (hex & 0x0000FF) + ',' + o + ')';
     }
 
+    // Gets the date range of the last `daterange` days.
     function getRecentTimeDelta(dayrange) {
         var today = new Date();
         var yesterday = new Date(today.setDate(today.getDate() - 1));
         var end = getISODate(yesterday);
         var start = new Date();
 
-        start.setDate(yesterday.getDate() - dayrange);
-        start = getISODate(start);
+        // Prevents `setDate(0)` from setting to the last day of the previous month.
+        if (yesterday.getDate() === dayrange) {
+            start.setMonth(yesterday.getMonth()); // 1st of the month.
+        } else {
+            start.setDate(yesterday.getDate() - dayrange);
+        }
 
+        start = getISODate(start);
         return {start: start, end: end};
     }
 

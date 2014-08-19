@@ -163,7 +163,6 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
         var aStart = start.split('-');
         var aEnd = end.split('-');
 
-        // Can't call .apply() on `Date`. This would be a cruel interview question.
         start = new Date(aStart[0], aStart[1], aStart[2]);
         end = new Date(aEnd[0], aEnd[1], aEnd[2]);
 
