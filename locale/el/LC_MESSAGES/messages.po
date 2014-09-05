@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,18 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr ""
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr ""
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr ""
@@ -124,18 +136,6 @@ msgstr ""
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
-msgstr ""
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr ""
-
-#: /templates/header.html:8
-msgid "Sign In"
 msgstr ""
 
 #: /templates/home.html:1
@@ -343,58 +343,62 @@ msgid "Hungary"
 msgstr ""
 
 #: /media/js/settings.js:43
-msgid "Italy"
+msgid "India"
 msgstr ""
 
 #: /media/js/settings.js:44
-msgid "Mexico"
+msgid "Italy"
 msgstr ""
 
 #: /media/js/settings.js:45
-msgid "Montenegro"
+msgid "Mexico"
 msgstr ""
 
 #: /media/js/settings.js:46
-msgid "Nicaragua"
+msgid "Montenegro"
 msgstr ""
 
 #: /media/js/settings.js:47
-msgid "Panama"
+msgid "Nicaragua"
 msgstr ""
 
 #: /media/js/settings.js:48
-msgid "Peru"
+msgid "Panama"
 msgstr ""
 
 #: /media/js/settings.js:49
-msgid "Poland"
+msgid "Peru"
 msgstr ""
 
 #: /media/js/settings.js:50
-msgid "Serbia"
+msgid "Poland"
 msgstr ""
 
 #: /media/js/settings.js:51
-msgid "Spain"
+msgid "Serbia"
 msgstr ""
 
 #: /media/js/settings.js:52
-msgid "United Kingdom"
+msgid "Spain"
 msgstr ""
 
 #: /media/js/settings.js:53
-msgid "United States"
+msgid "United Kingdom"
 msgstr ""
 
 #: /media/js/settings.js:54
-msgid "Uruguay"
+msgid "United States"
 msgstr ""
 
 #: /media/js/settings.js:55
-msgid "Venezuela"
+msgid "Uruguay"
 msgstr ""
 
 #: /media/js/settings.js:56
+msgid "Venezuela"
+msgstr ""
+
+#: /media/js/settings.js:57
 msgid "No region in search"
 msgstr ""
 

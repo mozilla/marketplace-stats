@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
 "PO-Revision-Date: 2014-04-27 08:01+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,18 @@ msgstr "Non"
 msgid "Yes"
 msgstr "Oui"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Déconnexion"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Connexion"
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Développer des applications"
@@ -127,18 +139,6 @@ msgstr "Conditions d'utilisation"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistiques"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Déconnexion"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Connexion"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -345,58 +345,62 @@ msgid "Hungary"
 msgstr "Hongrie"
 
 #: /media/js/settings.js:43
+msgid "India"
+msgstr ""
+
+#: /media/js/settings.js:44
 msgid "Italy"
 msgstr "Italie"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:45
 msgid "Mexico"
 msgstr "Mexique"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:46
 msgid "Montenegro"
 msgstr "Monténégro"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:47
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:48
 msgid "Panama"
 msgstr "Panama"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:49
 msgid "Peru"
 msgstr "Pérou"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:50
 msgid "Poland"
 msgstr "Pologne"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:51
 msgid "Serbia"
 msgstr "Serbie"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:52
 msgid "Spain"
 msgstr "Espagne"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:53
 msgid "United Kingdom"
 msgstr "Royaume-Uni"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:54
 msgid "United States"
 msgstr "États-Unis"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:55
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: /media/js/settings.js:55
+#: /media/js/settings.js:56
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: /media/js/settings.js:56
+#: /media/js/settings.js:57
 msgid "No region in search"
 msgstr "Aucune région dans la recherche"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-13T16:40:59.655Z\n"
+"POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
 "PO-Revision-Date: 2014-08-15 02:27+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,18 @@ msgstr "아니오"
 msgid "Yes"
 msgstr "예"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "통계"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "개발 앱"
@@ -127,18 +139,6 @@ msgstr "이용 약관"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "상표권 침해 신고"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "통계"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -345,58 +345,62 @@ msgid "Hungary"
 msgstr "헝가리"
 
 #: /media/js/settings.js:43
+msgid "India"
+msgstr ""
+
+#: /media/js/settings.js:44
 msgid "Italy"
 msgstr "이탈리아"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:45
 msgid "Mexico"
 msgstr "멕시코"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:46
 msgid "Montenegro"
 msgstr "몬테네그로"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:47
 msgid "Nicaragua"
 msgstr "니카라과"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:48
 msgid "Panama"
 msgstr "파나마"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:49
 msgid "Peru"
 msgstr "페루"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:50
 msgid "Poland"
 msgstr "폴란드"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:51
 msgid "Serbia"
 msgstr "세르비아"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:52
 msgid "Spain"
 msgstr "스페인"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:53
 msgid "United Kingdom"
 msgstr "영국"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:54
 msgid "United States"
 msgstr "미국"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:55
 msgid "Uruguay"
 msgstr "우루과이"
 
-#: /media/js/settings.js:55
+#: /media/js/settings.js:56
 msgid "Venezuela"
 msgstr "베네수엘라"
 
-#: /media/js/settings.js:56
+#: /media/js/settings.js:57
 msgid "No region in search"
 msgstr "검색에 지역 없음"
 
