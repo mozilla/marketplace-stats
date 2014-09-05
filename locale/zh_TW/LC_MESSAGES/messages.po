@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
-"PO-Revision-Date: 2014-08-14 02:05+0000\n"
+"PO-Revision-Date: 2014-09-05 16:20+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1407981939.0\n"
+"X-POOTLE-MTIME: 1409934033.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -344,7 +344,7 @@ msgstr "匈牙利"
 
 #: /media/js/settings.js:43
 msgid "India"
-msgstr ""
+msgstr "印度"
 
 #: /media/js/settings.js:44
 msgid "Italy"
