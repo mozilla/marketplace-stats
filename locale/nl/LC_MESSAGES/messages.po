@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
-"PO-Revision-Date: 2014-08-14 08:36+0000\n"
+"PO-Revision-Date: 2014-09-06 06:50+0000\n"
 "Last-Translator: Mark <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408005418.0\n"
+"X-POOTLE-MTIME: 1409986233.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -347,7 +347,7 @@ msgstr "Hongarije"
 
 #: /media/js/settings.js:43
 msgid "India"
-msgstr ""
+msgstr "India"
 
 #: /media/js/settings.js:44
 msgid "Italy"
