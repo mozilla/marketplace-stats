@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
-"PO-Revision-Date: 2014-06-21 20:35+0000\n"
-"Last-Translator: Ricardo <rpmdisguise-otros@yahoo.es>\n"
+"PO-Revision-Date: 2014-09-08 16:47+0000\n"
+"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1403382940.0\n"
+"X-POOTLE-MTIME: 1410194851.0\n"
 
 #: /templates/app_dashboard.html:6
 msgid "Statistics Dashboard"
@@ -294,7 +294,7 @@ msgstr "Argentina"
 
 #: /media/js/settings.js:30
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesh"
 
 #: /media/js/settings.js:31
 msgid "Brazil"
@@ -326,7 +326,7 @@ msgstr "El Salvador"
 
 #: /media/js/settings.js:38
 msgid "France"
-msgstr ""
+msgstr "Francia"
 
 #: /media/js/settings.js:39
 msgid "Germany"
@@ -346,7 +346,7 @@ msgstr "Hungría"
 
 #: /media/js/settings.js:43
 msgid "India"
-msgstr ""
+msgstr "India"
 
 #: /media/js/settings.js:44
 msgid "Italy"
