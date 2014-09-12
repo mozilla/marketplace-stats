@@ -1,48 +1,55 @@
+{% macro dashbody(app, is_superuser) %}
+  <nav class="sub c">
+    <h1>{{ _('Statistics Dashboard') }}: {{ app.name|translate(app) }}</h1>
+    <ul>
+      {% if is_superuser %}
+        <li><a class="button alt" href="/developers/app/{{ slug }}/edit">{{ _('Edit Listing') }}</a></li>
+      {% endif %}
+      <li><a class="button alt" href="{{ url('homepage') }}">{{ _('Global Stats') }}</a></li>
+    </ul>
+  </nav>
+  <h3 class="total-val installs">{{ _('Number of Installs:') }} </h3>
+  <ul class="dashboard c">
+    <li>
+      <a href="{{ url('per_app_installs', [slug]) }}" data-src="per_app_installs"><span>{{ _('Installs') }}</span></a>
+    </li>
+    <li>
+      <a href="{{ url('per_app_visits', [slug]) }}" data-src="per_app_visits"><span>{{ _('Visits') }}</span></a>
+    </li>
+    <li>
+      <a href="{{ url('per_app_ratings', [slug]) }}" data-src="per_app_ratings"><span>{{ _('Ratings') }}</span></a>
+    </li>
+    <li>
+      <a href="{{ url('per_app_abuse_reports', [slug]) }}" data-src="per_app_abuse_reports"><span>{{ _('Abuse Reports') }}</span></a>
+    </li>
+    <li>
+      <a href="{{ url('per_app_average_rating', [slug]) }}" data-src="per_app_average_rating"><span>{{ _('Average Rating') }}</span></a>
+    </li>
+    {% if app.premium_type != 'free' and user.get_permission('revenue_stats') %}
+      <li>
+        <a href="{{ url('per_app_revenue', [slug]) }}" data-src="per_app_revenue"><span>{{ _('Gross Revenue') }}</span></a>
+      </li>
+    {% endif %}
+  </ul>
+{% endmacro %}
+
 <section class="main">
   {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
-    {% set is_superuser = (this.user.developed or user.get_permission('stats')) %}
     {% if user.logged_in() %}
-      {% if is_superuser or this.public_stats %}
-        <nav class="sub c">
-          <h1>{{ _('Statistics Dashboard') }}: {{ this.name|translate(this) }}</h1>
-          <ul>
-            {% if is_superuser %}
-              <li><a class="button alt" href="/developers/app/{{ slug }}/edit">{{ _('Edit Listing') }}</a></li>
-            {% endif %}
-            <li><a class="button alt" href="{{ url('homepage') }}">{{ _('Global Stats') }}</a></li>
-          </ul>
-        </nav>
-        <h3 class="total-val installs">{{ _('Number of Installs:') }} </h3>
-        <ul class="dashboard c">
-          <li>
-            <a href="{{ url('per_app_installs', [slug]) }}" data-src="per_app_installs"><span>{{ _('Installs') }}</span></a>
-          </li>
-          <li>
-            <a href="{{ url('per_app_visits', [slug]) }}" data-src="per_app_visits"><span>{{ _('Visits') }}</span></a>
-          </li>
-          <li>
-            <a href="{{ url('per_app_ratings', [slug]) }}" data-src="per_app_ratings"><span>{{ _('Ratings') }}</span></a>
-          </li>
-          <li>
-            <a href="{{ url('per_app_abuse_reports', [slug]) }}" data-src="per_app_abuse_reports"><span>{{ _('Abuse Reports') }}</span></a>
-          </li>
-          <li>
-            <a href="{{ url('per_app_average_rating', [slug]) }}" data-src="per_app_average_rating"><span>{{ _('Average Rating') }}</span></a>
-          </li>
-          {% if this.premium_type != 'free' and user.get_permission('revenue_stats') %}
-            <li>
-              <a href="{{ url('per_app_revenue', [slug]) }}" data-src="per_app_revenue"><span>{{ _('Gross Revenue') }}</span></a>
-            </li>
-          {% endif %}
-        </ul>
+      {% set is_superuser = (this.user.developed or user.get_permission('stats')) %}
+      {% if this.public_stats or is_superuser %}
+        {{ dashbody(this, is_superuser) }}
       {% else %}
-        <h2>{{ _('No public statistics are available') }}</h2>
+        <h2>{{ _('No public statistics are available for this app') }}</h2>
       {% endif %}
     {% else %}
-      <div class="action-required c">
-        <p class="notice">{{ _('Please sign in to proceed.') }}</p>
-        <a class="button full persona" href="#">{{ _('Sign in / Sign up') }}</a>
-      </div>
+      {# anonymous user #}
+      {% if this.public_stats %}
+        {{ dashbody(this) }}
+      {% else %}
+        {# please sign in #}
+        {% include 'includes/siginin_required.html' %}
+      {% endif %}
     {% endif %}
   {% placeholder %}
     <p class="spinner alt"></p>
