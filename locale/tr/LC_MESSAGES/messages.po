@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
+"POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
 "PO-Revision-Date: 2014-06-04 10:10+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,59 +14,51 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1401876615.0\n"
 
-#: /templates/app_dashboard.html:6
+#: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
 msgstr "İstatistik Panosu"
 
-#: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
+#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
 msgid "Edit Listing"
 msgstr ""
 
-#: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
+#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
 msgid "Global Stats"
 msgstr ""
 
-#: /templates/app_dashboard.html:14
+#: /templates/app_dashboard.html:10
 msgid "Number of Installs:"
 msgstr "Yükleme sayısı:"
 
-#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
 msgstr "Yükleme"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Ziyaret"
 
-#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Puan"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Suistimal raporları"
 
-#: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
 msgstr "Ortalama puan"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Brüt gelir"
 
-#: /templates/app_dashboard.html:38
-msgid "No public statistics are available"
-msgstr "Genel istatistikler mevcut değil"
-
-#: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
+#: /templates/app_dashboard.html:42
+msgid "No public statistics are available for this app"
 msgstr ""
-
-#: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Giriş yap / kaydol"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -79,18 +71,6 @@ msgstr "Hayır"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr ""
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Oturumu kapat"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Oturum aç"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -137,10 +117,6 @@ msgstr "Kullanım şartları"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "Marka ihlali bildir"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Örnek grafik"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -194,6 +170,30 @@ msgstr ""
 msgid "This page is currently not public. Please try again later."
 msgstr "Bu sayfa şu anda genele açık değildir. Lütfen sonra tekrar deneyin."
 
+#: /templates/homepage.html:88 /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr ""
+
+#: /templates/homepage.html:89 /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Giriş yap / kaydol"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Oturumu kapat"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Oturum aç"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Örnek grafik"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr ""
@@ -201,10 +201,6 @@ msgstr ""
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Aradığınız sayfa bulunamadı."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Bir hata oluştu."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -233,6 +229,10 @@ msgstr ""
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
 msgstr ""
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Bir hata oluştu."
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -351,54 +351,58 @@ msgid "Italy"
 msgstr "İtalya"
 
 #: /media/js/settings.js:45
+msgid "Japan"
+msgstr ""
+
+#: /media/js/settings.js:46
 msgid "Mexico"
 msgstr "Meksika"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:47
 msgid "Montenegro"
 msgstr "Karadağ"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:48
 msgid "Nicaragua"
 msgstr ""
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:49
 msgid "Panama"
 msgstr ""
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:50
 msgid "Peru"
 msgstr "Peru"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:51
 msgid "Poland"
 msgstr "Polonya"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:52
 msgid "Serbia"
 msgstr "Sırbistan"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:53
 msgid "Spain"
 msgstr "İspanya"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:54
 msgid "United Kingdom"
 msgstr "Birleşik Krallık"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:55
 msgid "United States"
 msgstr "Birleşik Devletler"
 
-#: /media/js/settings.js:55
+#: /media/js/settings.js:56
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: /media/js/settings.js:56
+#: /media/js/settings.js:57
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: /media/js/settings.js:57
+#: /media/js/settings.js:58
 msgid "No region in search"
 msgstr ""
 
@@ -416,13 +420,13 @@ msgstr "Suistimal raporu sayısı"
 msgid "Loading..."
 msgstr "Yükleniyor..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18
 msgid "Apps"
 msgstr "Uygulamalar"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19
 msgid "Number of Apps"
 msgstr "Uygulama sayısı"
 
@@ -444,10 +448,6 @@ msgstr ""
 msgid "Not Found"
 msgstr "Bulunamadı"
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr ""
-
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
@@ -464,6 +464,10 @@ msgstr "Toplam gelir"
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "Ziyaret sayısı"
+
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr ""
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
