@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
-"PO-Revision-Date: 2014-09-05 19:28-0400\n"
+"PO-Revision-Date: 2014-09-17 16:01-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -57,7 +57,7 @@ msgstr "総売上金額"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "このアプリの統計情報は公開されていません"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -353,7 +353,7 @@ msgstr "イタリア"
 
 #: /media/js/settings.js:45
 msgid "Japan"
-msgstr ""
+msgstr "日本"
 
 #: /media/js/settings.js:46
 msgid "Mexico"
