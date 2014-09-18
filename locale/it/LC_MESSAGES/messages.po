@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
-"PO-Revision-Date: 2014-09-06 12:24+0000\n"
+"PO-Revision-Date: 2014-09-18 21:01+0000\n"
 "Last-Translator: Sandro <gialloporpora@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1410006284.0\n"
+"X-POOTLE-MTIME: 1411074085.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -58,7 +58,7 @@ msgstr "Ricavi lordi"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "Non sono disponibili statistiche pubbliche per questa app"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -126,7 +126,7 @@ msgstr "Installazioni app"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
-msgstr "n.d."
+msgstr "N.D."
 
 #: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -354,7 +354,7 @@ msgstr "Italia"
 
 #: /media/js/settings.js:45
 msgid "Japan"
-msgstr ""
+msgstr "Giappone"
 
 #: /media/js/settings.js:46
 msgid "Mexico"
