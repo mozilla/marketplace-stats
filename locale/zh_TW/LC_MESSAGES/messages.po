@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
-"PO-Revision-Date: 2014-09-05 16:20+0000\n"
+"PO-Revision-Date: 2014-09-18 08:33+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1409934033.0\n"
+"X-POOTLE-MTIME: 1411029191.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -58,7 +58,7 @@ msgstr "毛利"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "此應用程式沒有公開的統計資料"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -352,7 +352,7 @@ msgstr "義大利"
 
 #: /media/js/settings.js:45
 msgid "Japan"
-msgstr ""
+msgstr "日本"
 
 #: /media/js/settings.js:46
 msgid "Mexico"
