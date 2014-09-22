@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
-"PO-Revision-Date: 2014-09-13 18:35+0000\n"
+"PO-Revision-Date: 2014-09-22 11:24+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1410633332.0\n"
+"X-POOTLE-MTIME: 1411385042.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -58,7 +58,7 @@ msgstr "Hrubý príjem"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "Pre túto aplikáciu nie sú dostupné verejné štatistiky"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -354,7 +354,7 @@ msgstr "Taliansko"
 
 #: /media/js/settings.js:45
 msgid "Japan"
-msgstr ""
+msgstr "Japonsko"
 
 #: /media/js/settings.js:46
 msgid "Mexico"
