@@ -33,17 +33,10 @@ define('utils', ['jquery', 'l10n', 'underscore'], function($, l10n, _) {
             var $cc = $(this);
             $cc.closest('form')
                .find('#' + $cc.data('for'))
-               .on('keyup blur', _.throttle(function() {countChars(this, $cc);}, 250))
+               // Note 'input' event is need for FF android see (bug 976262)
+               .on('input blur', _.throttle(function() {countChars(this, $cc);}, 250))
                .trigger('blur');
         });
-    }
-
-    function escape_(s) {
-        if (s === undefined) {
-            return;
-        }
-        return s.replace(/&/g, '&amp;').replace(/>/g, '&gt;').replace(/</g, '&lt;')
-                .replace(/'/g, '&#39;').replace(/"/g, '&#34;');
     }
 
     function slugify(s, limit) {
@@ -76,6 +69,10 @@ define('utils', ['jquery', 'l10n', 'underscore'], function($, l10n, _) {
 
     function baseurl(url) {
         return url.split('?')[0];
+    }
+
+    function bgurl(url) {
+        return 'url(' + JSON.stringify(url) + ')';
     }
 
     function encodeURIComponent(uri) {
@@ -143,6 +140,9 @@ define('utils', ['jquery', 'l10n', 'underscore'], function($, l10n, _) {
     }
 
     function translate(data, default_language, lang) {
+        if (!data) {
+            return '';
+        }
         if (typeof data === 'string') {
             return data;
         }
@@ -184,13 +184,21 @@ define('utils', ['jquery', 'l10n', 'underscore'], function($, l10n, _) {
         return 'other';
     }
 
+    var a = document.createElement('a');
+
+    function urlparse(url) {
+        a.href = url;
+        return a;
+    }
+
     return {
         '_pd': _pd,
         'baseurl': baseurl,
+        'bgurl': bgurl,
         'browser': browser,
         'encodeURIComponent': encodeURIComponent,
         'decodeURIComponent': decodeURIComponent,
-        'escape_': escape_,
+        'escape_': _.escape,
         'fieldFocused': fieldFocused,
         'getVars': getVars,
         'initCharCount': initCharCount,
@@ -198,6 +206,7 @@ define('utils', ['jquery', 'l10n', 'underscore'], function($, l10n, _) {
         'slugify': slugify,
         'urlencode': urlencode,
         'urlparams': urlparams,
+        'urlparse': urlparse,
         'urlunparam': urlunparam,
         'translate': translate
     };

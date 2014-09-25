@@ -10,8 +10,7 @@ define('log', ['storage', 'utils'], function(storage, utils) {
     var logs;
     var all_logs = [];
 
-    var raw_persistent_logs = storage.getItem('persistent_logs');
-    var persistent_logs = raw_persistent_logs ? JSON.parse(raw_persistent_logs) : {};
+    var persistent_logs = storage.getItem('persistent_logs') || {};
 
     var logger = function(type, tag, onlog) {
 
@@ -63,8 +62,8 @@ define('log', ['storage', 'utils'], function(storage, utils) {
 
             // Have log('payments') but want log('payments', 'mock')?
             // log('payments').tagged('mock') gives you the latter.
-            tagged: function(tag) {
-                return logger(type, tag);
+            tagged: function(newTag) {
+                return logger(type, tag + '][' + newTag, onlog);
             }
         };
     };
@@ -100,7 +99,7 @@ define('log', ['storage', 'utils'], function(storage, utils) {
                 persistent_logs[type] = [];
             }
             persistent_logs[type].push(log_args);
-            storage.setItem('persistent_logs', JSON.stringify(persistent_logs));
+            storage.setItem('persistent_logs', persistent_logs);
         };
         return logger.apply(this, args);
     };

@@ -5,6 +5,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
         init_module: 'main',
         default_locale: 'en-US',
         api_url: 'http://' + window.location.hostname,  // No trailing slash, please.
+        api_cdn_whitelist: {},
 
         storage_version: '0',
 
@@ -62,6 +63,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
 
         persona_unverified_issuer: 'login.persona.org',
 
-        title_suffix: 'Firefox Marketplace Statistics'
+        title_suffix: 'Firefox Marketplace Statistics',
+        switches: {}
     });
 });

@@ -18,7 +18,7 @@ test('_pd', function(done) {
 });
 
 test('escape_', function(done) {
-    eq_(utils.escape_('<b> & "\'<'), '&lt;b&gt; &amp; &#34;&#39;&lt;');
+    eq_(utils.escape_('<b> & "\'<'), '&lt;b&gt; &amp; &quot;&#x27;&lt;');
     done();
 });
 
@@ -63,6 +63,14 @@ test('baseurl', function(done) {
     eq_(utils.baseurl('http://foo/bar'), 'http://foo/bar');
     eq_(utils.baseurl('http://foo/bar?asdf/asdf'), 'http://foo/bar');
     eq_(utils.baseurl('http://foo/bar/?asdf/asdf'), 'http://foo/bar/');
+    done();
+});
+
+test('bgurl', function(done) {
+    eq_(utils.bgurl('http://foo/bar/seavan.png'),
+        'url("http://foo/bar/seavan.png")');
+    eq_(utils.bgurl("http://foo/bar/Sea 'Seavan' Van.png"),
+        'url("http://foo/bar/Sea \'Seavan\' Van.png")');
     done();
 });
 

@@ -1,6 +1,6 @@
 define('builder',
-    ['log', 'templates', 'models', 'requests', 'settings', 'z', 'nunjucks.compat'],
-    function(log, nunjucks, models, requests, settings, z) {
+    ['log', 'jquery', 'templates', 'models', 'requests', 'settings', 'z', 'nunjucks.compat'],
+    function(log, $, nunjucks, models, requests, settings, z) {
 
     var console = log('builder');
     var SafeString = nunjucks.require('runtime').SafeString;
@@ -38,12 +38,8 @@ define('builder',
         parent.removeChild(to_replace);
     }
 
-    function fire(el, event_name) {
-        var args = Array.prototype.slice.call(arguments, 2);
-        var e = document.createEvent('Event');
-        e.initEvent.apply(e, [event_name, true, false].concat(args));
-        el.dispatchEvent(e);
-        return e;
+    function fire(el, event_name, data) {
+        $(el).trigger(event_name, data);
     }
 
     function Builder() {
@@ -89,8 +85,11 @@ define('builder',
             }, false);
         }
 
-        function trigger_fragment_loaded(id) {
-            fire(page, 'fragment_loaded', id || null);
+        function trigger_fragment_loaded(data) {
+            fire(page, 'fragment_loaded', data);
+        }
+        function trigger_fragment_load_failed(data) {
+            fire(page, 'fragment_load_failed', data);
         }
 
         // This pretends to be the nunjucks extension that does the magic.
@@ -104,7 +103,7 @@ define('builder',
                     if ('as' in signature && 'key' in signature) {
                         request = models(signature.as).get(url, signature.key, pool.get);
                     } else {
-                        request = pool.get(url);
+                        request = pool.get(url, !!signature.nocache);
                     }
 
                     if ('id' in signature) {
@@ -175,6 +174,11 @@ define('builder',
                                 }
                                 // We can't do this for requests which have no pluck
                                 // and aren't an array. :(
+
+                                // Update the model cache in the background (bug 995288).
+                                pool.get(url).done(function(data) {
+                                    models(signature.as).cast(data);
+                                });
                             }
                         });
 
@@ -186,7 +190,9 @@ define('builder',
 
                         if (signature.paginate) {
                             pool.done(function() {
-                                make_paginatable(injector, document.getElementById(uid), signature.paginate);
+                                setTimeout(function() {
+                                    make_paginatable(injector, document.getElementById(uid), signature.paginate);
+                                });
                             });
                         }
                         return request;
@@ -208,7 +214,7 @@ define('builder',
                             make_paginatable(injector, el, signature.paginate);
                         }
 
-                        trigger_fragment_loaded(signature.id || null);
+                        trigger_fragment_loaded({context: context, signature: signature});
 
                     }).fail(function(xhr, text, code, response) {
                         if (!replace) {
@@ -220,6 +226,7 @@ define('builder',
                             context.ctx.error = code;
                             el.innerHTML = except ? except() : error_template;
                         }
+                        trigger_fragment_load_failed({context: context, signature: signature});
                     });
                     return request;
                 };
@@ -248,6 +255,11 @@ define('builder',
                     });
                 } else {
                     var done = function(data) {
+                        if (signature.filters) {
+                            signature.filters.forEach(function(filterName) {
+                                data = env.filters[filterName](data);
+                            });
+                        }
                         document.getElementById(uid).innerHTML = data;
                     };
                     request.done(done).fail(function() {
