@@ -63,9 +63,9 @@ define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
             var $this = $(this);
 
             if (slug) {
-                url = urls.api.charturl($this.data('src'), [slug], params);
+                url = urls.api.url($this.data('src'), [slug], params);
             } else {
-                url = urls.api.chartparams($this.data('src'), params);
+                url = urls.api.params($this.data('src'), params);
             }
 
             // Thanks aalmossawi.

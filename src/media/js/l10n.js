@@ -1,15 +1,17 @@
 (function() {
 
+// This is a little misleading.  If you're using the Marketplace this is likely
+// overridden below with body_langs.  See bug 892741 for details.
 var languages = [
-    'bg', 'ca', 'cs', 'de', 'el', 'en-US', 'es', 'eu', 'fr', 'ga-IE', 'hr',
-    'hu', 'it', 'ja', 'mk', 'nl', 'pl', 'pt-BR', 'ro', 'ru', 'sk', 'sr',
-    'sr-Latn', 'tr', 'zh-TW', 'dbg'
+    'bg', 'bn-BD', 'ca', 'cs', 'da', 'de', 'el', 'en-US', 'es', 'eu', 'fr',
+    'ga-IE', 'hr', 'hu', 'it', 'ja', 'ko', 'mk', 'nb-NO', 'nl', 'pa',
+    'pl', 'pt-BR', 'ro', 'ru', 'sk', 'sq', 'sr', 'sr-Latn', 'ta', 'tr',
+    'zh-CN', 'zh-TW', 'dbg'
 ];
 var body_langs;
 if (body_langs = document.body.getAttribute('data-languages')) {
     languages = JSON.parse(body_langs);
 }
-
 
 var lang_expander = {
     'en': 'en-US', 'ga': 'ga-IE',
@@ -45,7 +47,9 @@ if (!window.define) {
     // Cachebust the .js file for our CDN.
     var build_id = document.body.getAttribute('data-buildIdJs') || +new Date();
     var repo = document.body.getAttribute('data-repo');
+    /* jshint ignore:start */
     document.write('<script src="/media/' + (repo ? repo + '/' : '') + 'locales/' + locale + '.js?b=' + build_id + '"></script>');
+    /* jshint ignore:end */
 
 } else {
     define('l10n', ['format'], function(format) {

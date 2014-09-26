@@ -20,6 +20,7 @@ define('helpers',
         return _.extend(base, kwargs);
     };
 
+    filters.bgurl = utils.bgurl;
     filters.urlparams = utils.urlparams;
     filters.urlunparam = utils.urlunparam;
 
@@ -72,7 +73,7 @@ define('helpers',
         for (var i = 0; i < list.length; i++) {
             var val = list[i];
             inner:
-            for (prop in kwargs) {
+            for (var prop in kwargs) {
                 if (!kwargs.hasOwnProperty(prop) || prop === '__keywords') continue inner;
                 if (!(prop in val)) continue outer;
                 if (Array.isArray(kwargs[prop]) ?
@@ -91,7 +92,7 @@ define('helpers',
             (hex >> 16) + ',' +
             ((hex & 0x00FF00) >> 8) + ',' +
             (hex & 0x0000FF) + ',' + o + ')';
-    }
+    };
 
     safe_filter('stringify', JSON.stringify);
 
@@ -104,15 +105,23 @@ define('helpers',
     var user = require('user');
     var userobj = {
         get_setting: user.get_setting,
-        // We don't expose `get_settings` because it's a direct reference.
+        get_settings: function() {
+            return _.clone(user.get_settings());
+        },
         get_permission: user.get_permission,
+        has_developed: user.has_developed,
+        has_installed: user.has_installed,
+        has_purchased: user.has_purchased,
         logged_in: user.logged_in
     };
 
     // Functions provided in the default context.
     var helpers = {
         api: require('urls').api.url,
+        apiHost: require('urls').api.host,
         apiParams: require('urls').api.params,
+        anonApi: require('urls').api.unsigned.url,
+        anonApiParams: require('urls').api.unsigned.params,
         url: require('urls').reverse,
         media: require('urls').media,
 
@@ -120,6 +129,7 @@ define('helpers',
         _plural: make_safe(l10n.ngettext),
         format: require('format').format,
         settings: require('settings'),
+        capabilities: require('capabilities'),
         user: userobj,
 
         escape: utils.escape_,

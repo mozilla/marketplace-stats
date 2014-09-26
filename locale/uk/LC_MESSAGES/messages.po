@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05T15:31:37.520Z\n"
-"PO-Revision-Date: 2014-09-05 19:22+0000\n"
+"POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
+"PO-Revision-Date: 2014-09-17 19:35+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -13,61 +13,53 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1409944941.0\n"
+"X-POOTLE-MTIME: 1410982559.0\n"
 
-#: /templates/app_dashboard.html:6
+#: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
 msgstr "Панель статистики"
 
-#: /templates/app_dashboard.html:9 /templates/per_app_chart.html:11
+#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
 msgid "Edit Listing"
 msgstr "Редагувати список"
 
-#: /templates/app_dashboard.html:11 /templates/per_app_chart.html:13
+#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
 msgid "Global Stats"
 msgstr "Загальна статистика"
 
-#: /templates/app_dashboard.html:14
+#: /templates/app_dashboard.html:10
 msgid "Number of Installs:"
 msgstr "Кількість встановлень:"
 
-#: /templates/app_dashboard.html:17 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
 msgstr "Встановлення"
 
-#: /templates/app_dashboard.html:20 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Відвідування"
 
-#: /templates/app_dashboard.html:23 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Оцінки"
 
-#: /templates/app_dashboard.html:26 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Скарги"
 
-#: /templates/app_dashboard.html:29 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
 msgstr "Середня оцінка"
 
-#: /templates/app_dashboard.html:33 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Сумарний доход"
 
-#: /templates/app_dashboard.html:38
-msgid "No public statistics are available"
-msgstr "Публічна статистика недоступна"
-
-#: /templates/app_dashboard.html:42 /templates/homepage.html:88 /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Увійдіть для продовження."
-
-#: /templates/app_dashboard.html:43 /templates/homepage.html:89 /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Вхід / Реєстрація"
+#: /templates/app_dashboard.html:42
+msgid "No public statistics are available for this app"
+msgstr "Для цієї програми відсутня публічна статистика."
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -80,18 +72,6 @@ msgstr "Ні"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Так"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Статистика"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Вихід"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Вхід"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -140,10 +120,6 @@ msgstr "Умови використання"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "Повідомити про зловживання торговою маркою"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Зразок графіка"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -197,6 +173,30 @@ msgstr "Оцінок програми"
 msgid "This page is currently not public. Please try again later."
 msgstr "Ця сторінка зараз не є загальнодоступною. Спробуйте будь ласка знову пізніше."
 
+#: /templates/homepage.html:88 /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Увійдіть для продовження."
+
+#: /templates/homepage.html:89 /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Вхід / Реєстрація"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Статистика"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Вихід"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Вхід"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Зразок графіка"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "О ні!"
@@ -204,10 +204,6 @@ msgstr "О ні!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Сторінка, яку ви шукали, не знайдено."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Сталася помилка."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -236,6 +232,10 @@ msgstr "Оновити"
 #: /templates/includes/chartbody.html:18
 msgid "This data is restricted or no data found"
 msgstr "Ці дані мають обмежений доступ або даних не знайдено"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Сталася помилка."
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -354,54 +354,58 @@ msgid "Italy"
 msgstr "Італія"
 
 #: /media/js/settings.js:45
+msgid "Japan"
+msgstr "Японія"
+
+#: /media/js/settings.js:46
 msgid "Mexico"
 msgstr "Мексика"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:47
 msgid "Montenegro"
 msgstr "Чорногорія"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:48
 msgid "Nicaragua"
 msgstr "Нікарагуа"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:49
 msgid "Panama"
 msgstr "Панама"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:50
 msgid "Peru"
 msgstr "Перу"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:51
 msgid "Poland"
 msgstr "Польща"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:52
 msgid "Serbia"
 msgstr "Сербія"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:53
 msgid "Spain"
 msgstr "Іспанія"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:54
 msgid "United Kingdom"
 msgstr "Велика Британія"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:55
 msgid "United States"
 msgstr "США"
 
-#: /media/js/settings.js:55
+#: /media/js/settings.js:56
 msgid "Uruguay"
 msgstr "Уругвай"
 
-#: /media/js/settings.js:56
+#: /media/js/settings.js:57
 msgid "Venezuela"
 msgstr "Венесуела"
 
-#: /media/js/settings.js:57
+#: /media/js/settings.js:58
 msgid "No region in search"
 msgstr "У пошуку немає регіону"
 
@@ -421,13 +425,13 @@ msgstr "Кількість скарг"
 msgid "Loading..."
 msgstr "Завантаження..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18
 msgid "Apps"
 msgstr "Програми"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19
 msgid "Number of Apps"
 msgstr "Кількість програм"
 
@@ -449,10 +453,6 @@ msgstr "Домівка"
 msgid "Not Found"
 msgstr "Не знайдено"
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "Кількість встановлень"
-
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
@@ -469,6 +469,10 @@ msgstr "Загальний доход"
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "Кількість відвідувань"
+
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "Кількість встановлень"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
