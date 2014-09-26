@@ -9,6 +9,7 @@ define('settings', ['l10n', 'settings_local', 'underscore'], function(l10n, sett
 
         storage_version: '0',
 
+        api_param_blacklist: ['region'],
         param_whitelist: ['q', 'sort'],
 
         model_prototypes: {
