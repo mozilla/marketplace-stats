@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
-"PO-Revision-Date: 2014-09-02 21:08+0000\n"
+"PO-Revision-Date: 2014-09-30 19:10+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1409692113.0\n"
+"X-POOTLE-MTIME: 1412104239.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -58,7 +58,7 @@ msgstr "Diru-sarrera gordinak"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "Ez dago aplikazio honentzako estatistika publikorik"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -346,7 +346,7 @@ msgstr "Hungaria"
 
 #: /media/js/settings.js:43
 msgid "India"
-msgstr ""
+msgstr "India"
 
 #: /media/js/settings.js:44
 msgid "Italy"
@@ -354,7 +354,7 @@ msgstr "Italia"
 
 #: /media/js/settings.js:45
 msgid "Japan"
-msgstr ""
+msgstr "Japonia"
 
 #: /media/js/settings.js:46
 msgid "Mexico"
