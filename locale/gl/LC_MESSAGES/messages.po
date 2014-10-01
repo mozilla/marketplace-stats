@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
+"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,18 @@ msgstr "Non"
 msgid "Yes"
 msgstr "Si"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Saír"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Desenvolver aplicativos"
@@ -118,6 +130,10 @@ msgstr "Temos de uso"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "Informar de abusos de marca"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Gráfico de exemplo"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -179,22 +195,6 @@ msgstr "Identifíquese para continuar."
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Crear conta"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Saír"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Gráfico de exemplo"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh non!"
@@ -203,13 +203,9 @@ msgstr "Oh non!"
 msgid "The page you were looking for was not found."
 msgstr "Non se atopou a páxina que estaba buscando."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao cargar máis"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tentar de novo"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Produciuse un erro."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -231,9 +227,13 @@ msgstr "Actualizar"
 msgid "This data is restricted or no data found"
 msgstr "Esta información está restrinxida ou non se atopa"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Produciuse un erro."
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao cargar máis"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tentar de novo"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -263,152 +263,160 @@ msgstr "Introduciu un intervalo de datas negativo. Inverter intervalo?"
 msgid "Please enter a valid date range"
 msgstr "Escriba un intervalo de datas correcto"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Foi desconectado"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Foi identificado"
-
-#: /media/js/login.js:127
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Fallou a identificación con Mozilla Persona. Quizais non teña unha conta con ese enderezo de correo?"
-
-#: /media/js/login.js:132
-msgid "Persona login failed. A server error was encountered."
-msgstr "Fallou a identificación con Mozilla Persona. Produciuse un erro no servidor."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "Sen conexión á Internet"
-
-#: /media/js/settings.js:28
+#: /media/js/settings.js:30
 msgid "Rest of World"
 msgstr "Resto do mundo"
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:31
 msgid "Argentina"
 msgstr "Arxentina"
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:32
 msgid "Bangladesh"
 msgstr ""
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:33
 msgid "Brazil"
 msgstr "Brasil"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:34
 msgid "Chile"
 msgstr "Chile"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:35
 msgid "China"
 msgstr "China"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:36
 msgid "Colombia"
 msgstr "Colombia"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:37
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: /media/js/settings.js:36
-msgid "Ecuador"
-msgstr "Ecuador"
-
-#: /media/js/settings.js:37
-msgid "El Salvador"
-msgstr "O Salvador"
-
 #: /media/js/settings.js:38
-msgid "France"
+msgid "Czech Republic"
 msgstr ""
 
 #: /media/js/settings.js:39
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: /media/js/settings.js:40
+msgid "El Salvador"
+msgstr "O Salvador"
+
+#: /media/js/settings.js:41
+msgid "France"
+msgstr ""
+
+#: /media/js/settings.js:42
 msgid "Germany"
 msgstr "Alemaña"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:43
 msgid "Greece"
 msgstr "Grecia"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:44
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:45
 msgid "Hungary"
 msgstr "Hungría"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:46
 msgid "India"
 msgstr ""
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:47
 msgid "Italy"
 msgstr "Italia"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:48
 msgid "Japan"
 msgstr ""
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:49
 msgid "Mexico"
 msgstr "México"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:50
 msgid "Montenegro"
 msgstr "Montenegro"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:51
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:52
 msgid "Panama"
 msgstr "Panamá"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:53
 msgid "Peru"
 msgstr "Perú"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:54
 msgid "Poland"
 msgstr "Polonia"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:55
 msgid "Serbia"
 msgstr "Serbia"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:56
 msgid "Spain"
 msgstr "España"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:57
 msgid "United Kingdom"
 msgstr "Reino Unido"
 
-#: /media/js/settings.js:55
+#: /media/js/settings.js:58
 msgid "United States"
 msgstr "Estados Unidos"
 
-#: /media/js/settings.js:56
+#: /media/js/settings.js:59
 msgid "Uruguay"
 msgstr "Uruguai"
 
-#: /media/js/settings.js:57
+#: /media/js/settings.js:60
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: /media/js/settings.js:58
+#: /media/js/settings.js:61
 msgid "No region in search"
 msgstr "Ningunha rexión na busca"
 
+#: /media/js/commonplace/login.js:20
+msgid "You have been signed out"
+msgstr "Foi desconectado"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed in"
+msgstr "Foi identificado"
+
+#: /media/js/commonplace/login.js:196
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Fallou a identificación con Mozilla Persona. Quizais non teña unha conta con ese enderezo de correo?"
+
+#: /media/js/commonplace/login.js:201
+msgid "Persona login failed. A server error was encountered."
+msgstr "Fallou a identificación con Mozilla Persona. Produciuse un erro no servidor."
+
+#: /media/js/commonplace/login.js:271
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Sen conexión á Internet"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Resta <b>{n}</b> carácter."
@@ -418,19 +426,23 @@ msgstr[1] "Restan <b>{n}</b> caracteres."
 msgid "Number of Abuse Reports"
 msgstr "Número de informes de abuso"
 
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
+#: /media/js/views/apps_by_type.js:17
+msgid "Apps"
+msgstr "Aplicativos"
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
+#: /media/js/views/apps_by_type.js:18
+msgid "Number of Apps"
+msgstr "Número de aplicativos"
+
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_added.js:18
-msgid "Apps"
-msgstr "Aplicativos"
-
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_added.js:19
-msgid "Number of Apps"
-msgstr "Número de aplicativos"
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "Número de instalacións"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -445,10 +457,9 @@ msgstr "Totais diarios"
 msgid "Home"
 msgstr "Inicio"
 
-#. Page not found (404)
-#: /media/js/views/not_found.js:9
-msgid "Not Found"
-msgstr "Non se atopou"
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "Ingresos totais"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
@@ -459,18 +470,19 @@ msgstr "Novas puntuacións"
 msgid "Number of Ratings"
 msgstr "Número de puntuacións"
 
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr "Ingresos totais"
-
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "Número de visitas"
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "Número de instalacións"
-
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
 msgstr "Número de desenvolvedores"
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "Non se atopou"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""

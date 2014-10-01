@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
+"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,6 +89,18 @@ msgstr "Ƞǿ"
 msgid "Yes"
 msgstr "Ẏḗş"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Şŧȧŧīşŧīƈş"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Şīɠƞ Ǿŭŧ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Şīɠƞ Īƞ"
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Ḓḗṽḗŀǿƥ Ȧƥƥş"
@@ -136,6 +148,10 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -209,22 +225,6 @@ msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
 msgid "Sign in / Sign up"
 msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Şŧȧŧīşŧīƈş"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Şīɠƞ Ǿŭŧ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Şīɠƞ Īƞ"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
-
 #: /templates/errors/404.html:2
 #: /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -234,13 +234,9 @@ msgstr "Ǿħ ƞǿ!"
 msgid "The page you were looking for was not found."
 msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Ŧřẏ Ȧɠȧīƞ"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -262,9 +258,13 @@ msgstr "Ŭƥḓȧŧḗ"
 msgid "This data is restricted or no data found"
 msgstr "Ŧħīş ḓȧŧȧ īş řḗşŧřīƈŧḗḓ ǿř ƞǿ ḓȧŧȧ ƒǿŭƞḓ"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Ŧřẏ Ȧɠȧīƞ"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -296,154 +296,162 @@ msgstr "Ẏǿŭ ħȧṽḗ ḗƞŧḗřḗḓ ȧ ƞḗɠȧŧīṽḗ ḓȧŧḗ 
 msgid "Please enter a valid date range"
 msgstr "Ƥŀḗȧşḗ ḗƞŧḗř ȧ ṽȧŀīḓ ḓȧŧḗ řȧƞɠḗ"
 
-#: /media/js/login.js:8
+#: /media/js/settings.js:30
+msgid "Rest of World"
+msgstr "Řḗşŧ ǿƒ Ẇǿřŀḓ"
+
+#: /media/js/settings.js:31
+msgid "Argentina"
+msgstr "Ȧřɠḗƞŧīƞȧ"
+
+#: /media/js/settings.js:32
+msgid "Bangladesh"
+msgstr "Ɓȧƞɠŀȧḓḗşħ"
+
+#: /media/js/settings.js:33
+msgid "Brazil"
+msgstr "Ɓřȧzīŀ"
+
+#: /media/js/settings.js:34
+msgid "Chile"
+msgstr "Ƈħīŀḗ"
+
+#: /media/js/settings.js:35
+msgid "China"
+msgstr "Ƈħīƞȧ"
+
+#: /media/js/settings.js:36
+msgid "Colombia"
+msgstr "Ƈǿŀǿḿƀīȧ"
+
+#: /media/js/settings.js:37
+msgid "Costa Rica"
+msgstr "Ƈǿşŧȧ Řīƈȧ"
+
+#: /media/js/settings.js:38
+msgid "Czech Republic"
+msgstr "Ƈzḗƈħ Řḗƥŭƀŀīƈ"
+
+#: /media/js/settings.js:39
+msgid "Ecuador"
+msgstr "Ḗƈŭȧḓǿř"
+
+#: /media/js/settings.js:40
+msgid "El Salvador"
+msgstr "Ḗŀ Şȧŀṽȧḓǿř"
+
+#: /media/js/settings.js:41
+msgid "France"
+msgstr "Ƒřȧƞƈḗ"
+
+#: /media/js/settings.js:42
+msgid "Germany"
+msgstr "Ɠḗřḿȧƞẏ"
+
+#: /media/js/settings.js:43
+msgid "Greece"
+msgstr "Ɠřḗḗƈḗ"
+
+#: /media/js/settings.js:44
+msgid "Guatemala"
+msgstr "Ɠŭȧŧḗḿȧŀȧ"
+
+#: /media/js/settings.js:45
+msgid "Hungary"
+msgstr "Ħŭƞɠȧřẏ"
+
+#: /media/js/settings.js:46
+msgid "India"
+msgstr "Īƞḓīȧ"
+
+#: /media/js/settings.js:47
+msgid "Italy"
+msgstr "Īŧȧŀẏ"
+
+#: /media/js/settings.js:48
+msgid "Japan"
+msgstr "Ĵȧƥȧƞ"
+
+#: /media/js/settings.js:49
+msgid "Mexico"
+msgstr "Ḿḗẋīƈǿ"
+
+#: /media/js/settings.js:50
+msgid "Montenegro"
+msgstr "Ḿǿƞŧḗƞḗɠřǿ"
+
+#: /media/js/settings.js:51
+msgid "Nicaragua"
+msgstr "Ƞīƈȧřȧɠŭȧ"
+
+#: /media/js/settings.js:52
+msgid "Panama"
+msgstr "Ƥȧƞȧḿȧ"
+
+#: /media/js/settings.js:53
+msgid "Peru"
+msgstr "Ƥḗřŭ"
+
+#: /media/js/settings.js:54
+msgid "Poland"
+msgstr "Ƥǿŀȧƞḓ"
+
+#: /media/js/settings.js:55
+msgid "Serbia"
+msgstr "Şḗřƀīȧ"
+
+#: /media/js/settings.js:56
+msgid "Spain"
+msgstr "Şƥȧīƞ"
+
+#: /media/js/settings.js:57
+msgid "United Kingdom"
+msgstr "Ŭƞīŧḗḓ Ķīƞɠḓǿḿ"
+
+#: /media/js/settings.js:58
+msgid "United States"
+msgstr "Ŭƞīŧḗḓ Şŧȧŧḗş"
+
+#: /media/js/settings.js:59
+msgid "Uruguay"
+msgstr "Ŭřŭɠŭȧẏ"
+
+#: /media/js/settings.js:60
+msgid "Venezuela"
+msgstr "Ṽḗƞḗzŭḗŀȧ"
+
+#: /media/js/settings.js:61
+msgid "No region in search"
+msgstr "Ƞǿ řḗɠīǿƞ īƞ şḗȧřƈħ"
+
+#: /media/js/commonplace/login.js:20
 msgid "You have been signed out"
 msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ ǿŭŧ"
 
-#: /media/js/login.js:12
+#: /media/js/commonplace/login.js:24
 msgid "You have been signed in"
 msgstr "Ẏǿŭ ħȧṽḗ ƀḗḗƞ şīɠƞḗḓ īƞ"
 
-#: /media/js/login.js:127
+#: /media/js/commonplace/login.js:196
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
 "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ḿȧẏƀḗ ẏǿŭ ḓǿƞ'ŧ ħȧṽḗ ȧƞ ȧƈƈǿŭƞŧ ŭƞḓḗř ŧħȧŧ ḗḿȧīŀ "
 "ȧḓḓřḗşş?"
 
-#: /media/js/login.js:132
+#: /media/js/commonplace/login.js:201
 msgid "Persona login failed. A server error was encountered."
 msgstr "Ƥḗřşǿƞȧ ŀǿɠīƞ ƒȧīŀḗḓ. Ȧ şḗřṽḗř ḗřřǿř ẇȧş ḗƞƈǿŭƞŧḗřḗḓ."
 
-#: /media/js/navigation.js:31
+#: /media/js/commonplace/login.js:271
+msgid "Persona cannot be reached. Try again later."
+msgstr "Ƥḗřşǿƞȧ ƈȧƞƞǿŧ ƀḗ řḗȧƈħḗḓ. Ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
+
+#: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
 msgstr "Ƞǿ īƞŧḗřƞḗŧ ƈǿƞƞḗƈŧīǿƞ"
 
-#: /media/js/settings.js:28
-msgid "Rest of World"
-msgstr "Řḗşŧ ǿƒ Ẇǿřŀḓ"
-
-#: /media/js/settings.js:29
-msgid "Argentina"
-msgstr "Ȧřɠḗƞŧīƞȧ"
-
-#: /media/js/settings.js:30
-msgid "Bangladesh"
-msgstr "Ɓȧƞɠŀȧḓḗşħ"
-
-#: /media/js/settings.js:31
-msgid "Brazil"
-msgstr "Ɓřȧzīŀ"
-
-#: /media/js/settings.js:32
-msgid "Chile"
-msgstr "Ƈħīŀḗ"
-
-#: /media/js/settings.js:33
-msgid "China"
-msgstr "Ƈħīƞȧ"
-
-#: /media/js/settings.js:34
-msgid "Colombia"
-msgstr "Ƈǿŀǿḿƀīȧ"
-
-#: /media/js/settings.js:35
-msgid "Costa Rica"
-msgstr "Ƈǿşŧȧ Řīƈȧ"
-
-#: /media/js/settings.js:36
-msgid "Ecuador"
-msgstr "Ḗƈŭȧḓǿř"
-
-#: /media/js/settings.js:37
-msgid "El Salvador"
-msgstr "Ḗŀ Şȧŀṽȧḓǿř"
-
-#: /media/js/settings.js:38
-msgid "France"
-msgstr "Ƒřȧƞƈḗ"
-
-#: /media/js/settings.js:39
-msgid "Germany"
-msgstr "Ɠḗřḿȧƞẏ"
-
-#: /media/js/settings.js:40
-msgid "Greece"
-msgstr "Ɠřḗḗƈḗ"
-
-#: /media/js/settings.js:41
-msgid "Guatemala"
-msgstr "Ɠŭȧŧḗḿȧŀȧ"
-
-#: /media/js/settings.js:42
-msgid "Hungary"
-msgstr "Ħŭƞɠȧřẏ"
-
-#: /media/js/settings.js:43
-msgid "India"
-msgstr "Īƞḓīȧ"
-
-#: /media/js/settings.js:44
-msgid "Italy"
-msgstr "Īŧȧŀẏ"
-
-#: /media/js/settings.js:45
-msgid "Japan"
-msgstr "Ĵȧƥȧƞ"
-
-#: /media/js/settings.js:46
-msgid "Mexico"
-msgstr "Ḿḗẋīƈǿ"
-
-#: /media/js/settings.js:47
-msgid "Montenegro"
-msgstr "Ḿǿƞŧḗƞḗɠřǿ"
-
-#: /media/js/settings.js:48
-msgid "Nicaragua"
-msgstr "Ƞīƈȧřȧɠŭȧ"
-
-#: /media/js/settings.js:49
-msgid "Panama"
-msgstr "Ƥȧƞȧḿȧ"
-
-#: /media/js/settings.js:50
-msgid "Peru"
-msgstr "Ƥḗřŭ"
-
-#: /media/js/settings.js:51
-msgid "Poland"
-msgstr "Ƥǿŀȧƞḓ"
-
-#: /media/js/settings.js:52
-msgid "Serbia"
-msgstr "Şḗřƀīȧ"
-
-#: /media/js/settings.js:53
-msgid "Spain"
-msgstr "Şƥȧīƞ"
-
-#: /media/js/settings.js:54
-msgid "United Kingdom"
-msgstr "Ŭƞīŧḗḓ Ķīƞɠḓǿḿ"
-
-#: /media/js/settings.js:55
-msgid "United States"
-msgstr "Ŭƞīŧḗḓ Şŧȧŧḗş"
-
-#: /media/js/settings.js:56
-msgid "Uruguay"
-msgstr "Ŭřŭɠŭȧẏ"
-
-#: /media/js/settings.js:57
-msgid "Venezuela"
-msgstr "Ṽḗƞḗzŭḗŀȧ"
-
-#: /media/js/settings.js:58
-msgid "No region in search"
-msgstr "Ƞǿ řḗɠīǿƞ īƞ şḗȧřƈħ"
-
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{ƞ}</b> ƈħȧřȧƈŧḗř ŀḗƒŧ."
@@ -454,25 +462,29 @@ msgstr[1] "<b>{ƞ}</b> ƈħȧřȧƈŧḗřş ŀḗƒŧ."
 msgid "Number of Abuse Reports"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƀŭşḗ Řḗƥǿřŧş"
 
-#: /media/js/views/app_dashboard.js:24
-msgid "Loading..."
-msgstr "Ŀǿȧḓīƞɠ..."
-
 #: /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_available_by_type.js:17
 #: /media/js/views/apps_installed.js:17
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_available_by_type.js:17
 #: /media/js/views/apps_added.js:18
+#: /media/js/views/apps_by_type.js:17
 msgid "Apps"
 msgstr "Ȧƥƥş"
 
 #: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_available_by_type.js:18
 #: /media/js/views/apps_installed.js:18
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_available_by_type.js:18
 #: /media/js/views/apps_added.js:19
+#: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƥƥş"
+
+#: /media/js/views/app_dashboard.js:24
+msgid "Loading..."
+msgstr "Ŀǿȧḓīƞɠ..."
+
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "Ƞŭḿƀḗř ǿƒ Īƞşŧȧŀŀş"
 
 #: /media/js/views/gross_revenue.js:17
 #: /media/js/views/per_app_revenue.js:17
@@ -488,10 +500,9 @@ msgstr "Ḓȧīŀẏ Ŧǿŧȧŀ"
 msgid "Home"
 msgstr "Ħǿḿḗ"
 
-#. Page not found (404)
-#: /media/js/views/not_found.js:9
-msgid "Not Found"
-msgstr "Ƞǿŧ Ƒǿŭƞḓ"
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "Ŧǿŧȧŀ Řḗṽḗƞŭḗ"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11
@@ -504,19 +515,20 @@ msgstr "Ƞḗẇ Řȧŧīƞɠş"
 msgid "Number of Ratings"
 msgstr "Ƞŭḿƀḗř ǿƒ Řȧŧīƞɠş"
 
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr "Ŧǿŧȧŀ Řḗṽḗƞŭḗ"
-
 #: /media/js/views/per_app_visits.js:18
 #: /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "Ƞŭḿƀḗř ǿƒ Ṽīşīŧş"
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "Ƞŭḿƀḗř ǿƒ Īƞşŧȧŀŀş"
-
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
 msgstr "Ƞŭḿƀḗř ǿƒ Ḓḗṽḗŀǿƥḗřş"
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "Ƞǿŧ Ƒǿŭƞḓ"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr "Ħḗŀŀǿ Ẇǿřŀḓ!"

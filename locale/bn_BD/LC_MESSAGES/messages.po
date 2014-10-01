@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
+"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
 "PO-Revision-Date: 2014-08-18 08:01+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,18 @@ msgstr "না"
 msgid "Yes"
 msgstr "হ্যাঁ"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "অ্যাপ ডেভেলপ করুন"
@@ -118,6 +130,10 @@ msgstr "ব্যবহারের শর্তাবলী"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "নমুনা চার্ট "
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -179,22 +195,6 @@ msgstr "সামনে এগিয়ে যেতে অনুগ্রহ ক�
 msgid "Sign in / Sign up"
 msgstr "সাইন ইন / সাইন আপ"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "পরিসংখ্যান"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "নমুনা চার্ট "
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ওহ না! "
@@ -203,13 +203,9 @@ msgstr "ওহ না! "
 msgid "The page you were looking for was not found."
 msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "আবার চেষ্টা করুন "
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "কথাও একটা গোলমাল হয়েছে। "
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -231,9 +227,13 @@ msgstr "আপডেট"
 msgid "This data is restricted or no data found"
 msgstr "এই তথ্যটি সিমাবদ্ধ অথবা পাওয়া যায় নি। "
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "কথাও একটা গোলমাল হয়েছে। "
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "আবার চেষ্টা করুন "
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -263,152 +263,160 @@ msgstr "আপনি একটি ঋণাত্মক তারিখের �
 msgid "Please enter a valid date range"
 msgstr "অনুগ্রহপূর্বক একটি সঠিক তারিখের রেঞ্জ প্রবেশ করুন।"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "আপনি সফলভাবে বেরিয়ে গেছেন। "
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "আপনি সফলভাবে প্রবেশ করেছেন। "
-
-#: /media/js/login.js:127
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সম্ভবত এই ইমেইল এড্রেস এ পারসোনায় কোন একাউন্ট নেই। "
-
-#: /media/js/login.js:132
-msgid "Persona login failed. A server error was encountered."
-msgstr "পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সার্ভারে সমস্যা হয়েছে।"
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "কোন ইন্টারনেট কানেকশন নেই"
-
-#: /media/js/settings.js:28
+#: /media/js/settings.js:30
 msgid "Rest of World"
 msgstr "পৃথিবীর বাকি স্থান"
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:31
 msgid "Argentina"
 msgstr "আর্জেন্টিনা"
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:32
 msgid "Bangladesh"
 msgstr "বাংলাদেশ"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:33
 msgid "Brazil"
 msgstr "ব্রাজিল"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:34
 msgid "Chile"
 msgstr "চিলি"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:35
 msgid "China"
 msgstr "চীন"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:36
 msgid "Colombia"
 msgstr "কলম্বিয়া"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:37
 msgid "Costa Rica"
 msgstr "কোস্টারিকা"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:38
+msgid "Czech Republic"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Ecuador"
 msgstr "ইকুয়েডর"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:40
 msgid "El Salvador"
 msgstr "এল সালভাডোর"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:41
 msgid "France"
 msgstr "ফ্রান্স"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:42
 msgid "Germany"
 msgstr "জার্মানী"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:43
 msgid "Greece"
 msgstr "গ্রীস"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:44
 msgid "Guatemala"
 msgstr "গুয়েতেমালা"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:45
 msgid "Hungary"
 msgstr "হাঙ্গেরি"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:46
 msgid "India"
 msgstr ""
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:47
 msgid "Italy"
 msgstr "ইতালি"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:48
 msgid "Japan"
 msgstr ""
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:49
 msgid "Mexico"
 msgstr "মেক্সিকো"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:50
 msgid "Montenegro"
 msgstr "মন্টেনিগ্রো"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:51
 msgid "Nicaragua"
 msgstr "নিকারাগুয়া"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:52
 msgid "Panama"
 msgstr "পানামা"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:53
 msgid "Peru"
 msgstr "পেরু"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:54
 msgid "Poland"
 msgstr "পোল্যান্ড"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:55
 msgid "Serbia"
 msgstr "সার্বিয়া"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:56
 msgid "Spain"
 msgstr "স্পেন"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:57
 msgid "United Kingdom"
 msgstr "যুক্তরাজ্য"
 
-#: /media/js/settings.js:55
+#: /media/js/settings.js:58
 msgid "United States"
 msgstr "যুক্তরাষ্ট্র"
 
-#: /media/js/settings.js:56
+#: /media/js/settings.js:59
 msgid "Uruguay"
 msgstr "উরুগুয়ে"
 
-#: /media/js/settings.js:57
+#: /media/js/settings.js:60
 msgid "Venezuela"
 msgstr "ভেনেজুয়েলা"
 
-#: /media/js/settings.js:58
+#: /media/js/settings.js:61
 msgid "No region in search"
 msgstr "অনুসন্ধানে কোন অঞ্চল নেই"
 
+#: /media/js/commonplace/login.js:20
+msgid "You have been signed out"
+msgstr "আপনি সফলভাবে বেরিয়ে গেছেন। "
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed in"
+msgstr "আপনি সফলভাবে প্রবেশ করেছেন। "
+
+#: /media/js/commonplace/login.js:196
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সম্ভবত এই ইমেইল এড্রেস এ পারসোনায় কোন একাউন্ট নেই। "
+
+#: /media/js/commonplace/login.js:201
+msgid "Persona login failed. A server error was encountered."
+msgstr "পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সার্ভারে সমস্যা হয়েছে।"
+
+#: /media/js/commonplace/login.js:271
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "কোন ইন্টারনেট কানেকশন নেই"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "<b>{n}</b> অক্ষর বাকি।"
@@ -418,19 +426,23 @@ msgstr[1] "<b>{n}</b> টি অক্ষর বাকি।"
 msgid "Number of Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
+#: /media/js/views/apps_by_type.js:17
+msgid "Apps"
+msgstr "অ্যাপস"
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
+#: /media/js/views/apps_by_type.js:18
+msgid "Number of Apps"
+msgstr "এপসমুহের সংখ্যা"
+
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "লোড হচ্ছে..."
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_added.js:18
-msgid "Apps"
-msgstr "অ্যাপস"
-
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_added.js:19
-msgid "Number of Apps"
-msgstr "এপসমুহের সংখ্যা"
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "ইন্সটলের সংখ্যা"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -445,10 +457,9 @@ msgstr "দৈনিক মোট "
 msgid "Home"
 msgstr "হোম"
 
-#. Page not found (404)
-#: /media/js/views/not_found.js:9
-msgid "Not Found"
-msgstr "পাওয়া যায় নি"
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "মোট আয়"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
@@ -459,18 +470,19 @@ msgstr "নতুন রেটিং"
 msgid "Number of Ratings"
 msgstr "রেটিং এর সংখ্যা"
 
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr "মোট আয়"
-
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "প্রদর্শনের সংখ্যা "
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "ইন্সটলের সংখ্যা"
-
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
 msgstr "ডেভেলপারের সংখ্যা"
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "পাওয়া যায় নি"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""

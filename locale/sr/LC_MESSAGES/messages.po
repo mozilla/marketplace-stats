@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
+"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
 "PO-Revision-Date: 2014-09-17 19:40+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1410982813.0\n"
 
@@ -73,6 +72,18 @@ msgstr "Не"
 msgid "Yes"
 msgstr "Да"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Статистике"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјави се"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Пријави се"
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Развијај апликације"
@@ -120,6 +131,10 @@ msgstr "Услови коришћења"
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
 msgstr "Пријавите злоупотребу робне марке"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Пример графикона"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
@@ -181,22 +196,6 @@ msgstr "Молимо Вас да се пријавите како бисте н�
 msgid "Sign in / Sign up"
 msgstr "Пријави се / Региструј се"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Статистике"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјави се"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Пријави се"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Пример графикона"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ох, не!"
@@ -205,13 +204,9 @@ msgstr "Ох, не!"
 msgid "The page you were looking for was not found."
 msgstr "Страница коју сте тражили није пронађена."
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка приликом учитавања"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Покушај поново"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Десила се грешка."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -233,9 +228,13 @@ msgstr "Ажурирај"
 msgid "This data is restricted or no data found"
 msgstr "Овај податак је забрањен, или није пронађен"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Десила се грешка."
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка приликом учитавања"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Покушај поново"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -265,152 +264,160 @@ msgstr "Унели сте негативни опсег података. Да �
 msgid "Please enter a valid date range"
 msgstr "Молимо Вас унесите валидни опсег податка"
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr "Одјављени сте"
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr "Пријављени сте"
-
-#: /media/js/login.js:127
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Неуспешно пријављивање путем Persona-е. Можда немате налог под том адресом е-поште?"
-
-#: /media/js/login.js:132
-msgid "Persona login failed. A server error was encountered."
-msgstr "Пријављивање путем Persona-е није успело. Десила се серверска грешка."
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr "Нема интернет везе"
-
-#: /media/js/settings.js:28
+#: /media/js/settings.js:30
 msgid "Rest of World"
 msgstr "Остатак света"
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:31
 msgid "Argentina"
 msgstr "Аргентина"
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:32
 msgid "Bangladesh"
 msgstr "Бангладеш"
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:33
 msgid "Brazil"
 msgstr "Бразил"
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:34
 msgid "Chile"
 msgstr "Чиле"
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:35
 msgid "China"
 msgstr "Кина"
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:36
 msgid "Colombia"
 msgstr "Колумбија"
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:37
 msgid "Costa Rica"
 msgstr "Костарика"
 
-#: /media/js/settings.js:36
+#: /media/js/settings.js:38
+msgid "Czech Republic"
+msgstr ""
+
+#: /media/js/settings.js:39
 msgid "Ecuador"
 msgstr "Еквадор"
 
-#: /media/js/settings.js:37
+#: /media/js/settings.js:40
 msgid "El Salvador"
 msgstr "Салвадор"
 
-#: /media/js/settings.js:38
+#: /media/js/settings.js:41
 msgid "France"
 msgstr "Француска"
 
-#: /media/js/settings.js:39
+#: /media/js/settings.js:42
 msgid "Germany"
 msgstr "Немачка"
 
-#: /media/js/settings.js:40
+#: /media/js/settings.js:43
 msgid "Greece"
 msgstr "Грчка"
 
-#: /media/js/settings.js:41
+#: /media/js/settings.js:44
 msgid "Guatemala"
 msgstr "Гватемала"
 
-#: /media/js/settings.js:42
+#: /media/js/settings.js:45
 msgid "Hungary"
 msgstr "Мађарска"
 
-#: /media/js/settings.js:43
+#: /media/js/settings.js:46
 msgid "India"
 msgstr "Индија"
 
-#: /media/js/settings.js:44
+#: /media/js/settings.js:47
 msgid "Italy"
 msgstr "Италија"
 
-#: /media/js/settings.js:45
+#: /media/js/settings.js:48
 msgid "Japan"
 msgstr "Јапан"
 
-#: /media/js/settings.js:46
+#: /media/js/settings.js:49
 msgid "Mexico"
 msgstr "Мексико"
 
-#: /media/js/settings.js:47
+#: /media/js/settings.js:50
 msgid "Montenegro"
 msgstr "Црна Гора"
 
-#: /media/js/settings.js:48
+#: /media/js/settings.js:51
 msgid "Nicaragua"
 msgstr "Никарагва"
 
-#: /media/js/settings.js:49
+#: /media/js/settings.js:52
 msgid "Panama"
 msgstr "Панама"
 
-#: /media/js/settings.js:50
+#: /media/js/settings.js:53
 msgid "Peru"
 msgstr "Перу"
 
-#: /media/js/settings.js:51
+#: /media/js/settings.js:54
 msgid "Poland"
 msgstr "Пољска"
 
-#: /media/js/settings.js:52
+#: /media/js/settings.js:55
 msgid "Serbia"
 msgstr "Србија"
 
-#: /media/js/settings.js:53
+#: /media/js/settings.js:56
 msgid "Spain"
 msgstr "Шпанија"
 
-#: /media/js/settings.js:54
+#: /media/js/settings.js:57
 msgid "United Kingdom"
 msgstr "Уједињено Краљевство"
 
-#: /media/js/settings.js:55
+#: /media/js/settings.js:58
 msgid "United States"
 msgstr "Сједињене Америчке Државе"
 
-#: /media/js/settings.js:56
+#: /media/js/settings.js:59
 msgid "Uruguay"
 msgstr "Уругвај"
 
-#: /media/js/settings.js:57
+#: /media/js/settings.js:60
 msgid "Venezuela"
 msgstr "Венецуела"
 
-#: /media/js/settings.js:58
+#: /media/js/settings.js:61
 msgid "No region in search"
 msgstr "Нема региона у претрази"
 
+#: /media/js/commonplace/login.js:20
+msgid "You have been signed out"
+msgstr "Одјављени сте"
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed in"
+msgstr "Пријављени сте"
+
+#: /media/js/commonplace/login.js:196
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr "Неуспешно пријављивање путем Persona-е. Можда немате налог под том адресом е-поште?"
+
+#: /media/js/commonplace/login.js:201
+msgid "Persona login failed. A server error was encountered."
+msgstr "Пријављивање путем Persona-е није успело. Десила се серверска грешка."
+
+#: /media/js/commonplace/login.js:271
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr "Нема интернет везе"
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] "Преостали број карактера: <b>{n}</b>."
@@ -421,19 +428,23 @@ msgstr[2] "Преостали број карактера: <b>{n}</b>."
 msgid "Number of Abuse Reports"
 msgstr "Број пријављених злоупотреба"
 
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
+#: /media/js/views/apps_by_type.js:17
+msgid "Apps"
+msgstr "Апликације"
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
+#: /media/js/views/apps_by_type.js:18
+msgid "Number of Apps"
+msgstr "Број апликација"
+
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Учитавам..."
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_added.js:18
-msgid "Apps"
-msgstr "Апликације"
-
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_added.js:19
-msgid "Number of Apps"
-msgstr "Број апликација"
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "Број инсталирања"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -448,10 +459,9 @@ msgstr "Укупно дневно"
 msgid "Home"
 msgstr "Почетна"
 
-#. Page not found (404)
-#: /media/js/views/not_found.js:9
-msgid "Not Found"
-msgstr "Није нађено"
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "Укупан приход"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
@@ -462,18 +472,19 @@ msgstr "Нове оцене"
 msgid "Number of Ratings"
 msgstr "Број оцена"
 
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr "Укупан приход"
-
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "Број посета"
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "Број инсталирања"
-
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
 msgstr "Број програмера"
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "Није нађено"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""

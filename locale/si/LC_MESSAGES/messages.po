@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17T16:11:02.164Z\n"
+"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,18 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr ""
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr ""
+
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr ""
@@ -116,6 +128,10 @@ msgstr ""
 
 #: /templates/footer.html:35
 msgid "Report Trademark Abuse"
+msgstr ""
+
+#: /templates/home.html:1
+msgid "Sample Chart"
 msgstr ""
 
 #: /templates/homepage.html:8
@@ -178,22 +194,6 @@ msgstr ""
 msgid "Sign in / Sign up"
 msgstr ""
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr ""
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr ""
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr ""
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr ""
@@ -202,12 +202,8 @@ msgstr ""
 msgid "The page you were looking for was not found."
 msgstr ""
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr ""
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
 msgstr ""
 
 #: /templates/includes/chartbody.html:2
@@ -230,8 +226,12 @@ msgstr ""
 msgid "This data is restricted or no data found"
 msgstr ""
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr ""
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
 msgstr ""
 
 #: /media/js/chartutils.js:24
@@ -262,152 +262,160 @@ msgstr ""
 msgid "Please enter a valid date range"
 msgstr ""
 
-#: /media/js/login.js:8
-msgid "You have been signed out"
-msgstr ""
-
-#: /media/js/login.js:12
-msgid "You have been signed in"
-msgstr ""
-
-#: /media/js/login.js:127
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-
-#: /media/js/login.js:132
-msgid "Persona login failed. A server error was encountered."
-msgstr ""
-
-#: /media/js/navigation.js:31
-msgid "No internet connection"
-msgstr ""
-
-#: /media/js/settings.js:28
+#: /media/js/settings.js:30
 msgid "Rest of World"
 msgstr ""
 
-#: /media/js/settings.js:29
+#: /media/js/settings.js:31
 msgid "Argentina"
 msgstr ""
 
-#: /media/js/settings.js:30
+#: /media/js/settings.js:32
 msgid "Bangladesh"
 msgstr ""
 
-#: /media/js/settings.js:31
+#: /media/js/settings.js:33
 msgid "Brazil"
 msgstr ""
 
-#: /media/js/settings.js:32
+#: /media/js/settings.js:34
 msgid "Chile"
 msgstr ""
 
-#: /media/js/settings.js:33
+#: /media/js/settings.js:35
 msgid "China"
 msgstr ""
 
-#: /media/js/settings.js:34
+#: /media/js/settings.js:36
 msgid "Colombia"
 msgstr ""
 
-#: /media/js/settings.js:35
+#: /media/js/settings.js:37
 msgid "Costa Rica"
 msgstr ""
 
-#: /media/js/settings.js:36
-msgid "Ecuador"
-msgstr ""
-
-#: /media/js/settings.js:37
-msgid "El Salvador"
-msgstr ""
-
 #: /media/js/settings.js:38
-msgid "France"
+msgid "Czech Republic"
 msgstr ""
 
 #: /media/js/settings.js:39
-msgid "Germany"
+msgid "Ecuador"
 msgstr ""
 
 #: /media/js/settings.js:40
-msgid "Greece"
+msgid "El Salvador"
 msgstr ""
 
 #: /media/js/settings.js:41
-msgid "Guatemala"
+msgid "France"
 msgstr ""
 
 #: /media/js/settings.js:42
-msgid "Hungary"
+msgid "Germany"
 msgstr ""
 
 #: /media/js/settings.js:43
-msgid "India"
+msgid "Greece"
 msgstr ""
 
 #: /media/js/settings.js:44
-msgid "Italy"
+msgid "Guatemala"
 msgstr ""
 
 #: /media/js/settings.js:45
-msgid "Japan"
+msgid "Hungary"
 msgstr ""
 
 #: /media/js/settings.js:46
-msgid "Mexico"
+msgid "India"
 msgstr ""
 
 #: /media/js/settings.js:47
-msgid "Montenegro"
+msgid "Italy"
 msgstr ""
 
 #: /media/js/settings.js:48
-msgid "Nicaragua"
+msgid "Japan"
 msgstr ""
 
 #: /media/js/settings.js:49
-msgid "Panama"
+msgid "Mexico"
 msgstr ""
 
 #: /media/js/settings.js:50
-msgid "Peru"
+msgid "Montenegro"
 msgstr ""
 
 #: /media/js/settings.js:51
-msgid "Poland"
+msgid "Nicaragua"
 msgstr ""
 
 #: /media/js/settings.js:52
-msgid "Serbia"
+msgid "Panama"
 msgstr ""
 
 #: /media/js/settings.js:53
-msgid "Spain"
+msgid "Peru"
 msgstr ""
 
 #: /media/js/settings.js:54
-msgid "United Kingdom"
+msgid "Poland"
 msgstr ""
 
 #: /media/js/settings.js:55
-msgid "United States"
+msgid "Serbia"
 msgstr ""
 
 #: /media/js/settings.js:56
-msgid "Uruguay"
+msgid "Spain"
 msgstr ""
 
 #: /media/js/settings.js:57
-msgid "Venezuela"
+msgid "United Kingdom"
 msgstr ""
 
 #: /media/js/settings.js:58
+msgid "United States"
+msgstr ""
+
+#: /media/js/settings.js:59
+msgid "Uruguay"
+msgstr ""
+
+#: /media/js/settings.js:60
+msgid "Venezuela"
+msgstr ""
+
+#: /media/js/settings.js:61
 msgid "No region in search"
 msgstr ""
 
+#: /media/js/commonplace/login.js:20
+msgid "You have been signed out"
+msgstr ""
+
+#: /media/js/commonplace/login.js:24
+msgid "You have been signed in"
+msgstr ""
+
+#: /media/js/commonplace/login.js:196
+msgid "Persona login failed. Maybe you don't have an account under that email address?"
+msgstr ""
+
+#: /media/js/commonplace/login.js:201
+msgid "Persona login failed. A server error was encountered."
+msgstr ""
+
+#: /media/js/commonplace/login.js:271
+msgid "Persona cannot be reached. Try again later."
+msgstr ""
+
+#: /media/js/commonplace/navigation.js:33
+msgid "No internet connection"
+msgstr ""
+
 #. {n} is the number of characters left.
-#: /media/js/utils.js:28
+#: /media/js/commonplace/utils.js:28
 msgid "<b>{n}</b> character left."
 msgid_plural "<b>{n}</b> characters left."
 msgstr[0] ""
@@ -417,18 +425,22 @@ msgstr[1] ""
 msgid "Number of Abuse Reports"
 msgstr ""
 
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
+#: /media/js/views/apps_by_type.js:17
+msgid "Apps"
+msgstr ""
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
+#: /media/js/views/apps_by_type.js:18
+msgid "Number of Apps"
+msgstr ""
+
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr ""
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_installed.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_added.js:18
-msgid "Apps"
-msgstr ""
-
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_installed.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_added.js:19
-msgid "Number of Apps"
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
 msgstr ""
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
@@ -444,9 +456,8 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#. Page not found (404)
-#: /media/js/views/not_found.js:9
-msgid "Not Found"
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
 msgstr ""
 
 #. This is the title of a chart representing the number of ratings.
@@ -458,18 +469,19 @@ msgstr ""
 msgid "Number of Ratings"
 msgstr ""
 
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr ""
-
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr ""
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr ""
-
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
+msgstr ""
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr ""
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
 msgstr ""
