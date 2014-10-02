@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
-"PO-Revision-Date: 2014-09-28 18:01+0000\n"
+"PO-Revision-Date: 2014-10-02 03:21+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411927318.0\n"
+"X-POOTLE-MTIME: 1412220089.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -298,7 +298,7 @@ msgstr "Costa Rica"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "República Checa"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -411,6 +411,8 @@ msgstr "A autenticação com o Persona falhou. Foi encontrado um erro no servido
 #: /media/js/commonplace/login.js:271
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
+"Não foi possível estabelecer ligação com o Persona. Tente novamente mais "
+"tarde. "
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -486,4 +488,4 @@ msgstr "Não encontrado"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Olá Mundo!"
