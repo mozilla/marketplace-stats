@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
-"PO-Revision-Date: 2014-09-27 21:44+0000\n"
-"Last-Translator: didier <nimportekoi@yopmail.com>\n"
+"PO-Revision-Date: 2014-10-02 14:00+0000\n"
+"Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411854243.0\n"
+"X-POOTLE-MTIME: 1412258451.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -41,7 +41,7 @@ msgstr "Visitas"
 
 #: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
-msgstr "Puntuaciones"
+msgstr "Valoraciones"
 
 #: /templates/app_dashboard.html:22 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
@@ -50,7 +50,7 @@ msgstr "Informes de uso indebido"
 
 #: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
-msgstr "Puntuación media"
+msgstr "Valoración media"
 
 #: /templates/app_dashboard.html:29 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
@@ -86,7 +86,7 @@ msgstr "Identificarse"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Desarrollar aplicaciones"
+msgstr "Desarrollar apps"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
@@ -138,7 +138,7 @@ msgstr "Gráficas de muestra"
 
 #: /templates/homepage.html:8
 msgid "App Installations"
-msgstr "Instalaciones de aplicaciones"
+msgstr "Instalaciones de apps"
 
 #: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
 msgid "N/A"
@@ -162,31 +162,31 @@ msgstr "USD"
 
 #: /templates/homepage.html:40 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
-msgstr "Nuevas aplicaciones por método de pago"
+msgstr "Nuevas apps por método de pago"
 
 #: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
-msgstr "Nuevas aplicaciones por tipo de aplicación"
+msgstr "Nuevas apps por tipo de app"
 
 #: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
-msgstr "Aplicaciones por método de pago"
+msgstr "Apps por método de pago"
 
 #: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
-msgstr "Aplicaciones por tipo de aplicación"
+msgstr "Apps por tipo de app"
 
 #: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
-msgstr "Aplicaciones instaladas"
+msgstr "Apps instaladas"
 
 #: /templates/homepage.html:65
 msgid "App Ratings"
-msgstr "Puntuaciones de aplicaciones"
+msgstr "Valoraciones de apps"
 
 #: /templates/homepage.html:84
 msgid "This page is currently not public. Please try again later."
-msgstr "Actualmente este pago no es público. Vuelve a intentarlo más tarde."
+msgstr "Actualmente esta página no es pública. Vuelve a intentarlo más tarde."
 
 #: /templates/homepage.html:88 /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -298,7 +298,7 @@ msgstr "Costa Rica"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "República Checa"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -410,7 +410,7 @@ msgstr "Error al conectar con Mozilla Persona. Se ha producido un error de servi
 
 #: /media/js/commonplace/login.js:271
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "No se puede acceder a Mozilla Persona. Inténtalo pasados unos minutos."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -430,12 +430,12 @@ msgstr "Núm. de informes de uso indebido"
 #: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
 #: /media/js/views/apps_by_type.js:17
 msgid "Apps"
-msgstr "Aplicaciones"
+msgstr "Apps"
 
 #: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
 #: /media/js/views/apps_by_type.js:18
 msgid "Number of Apps"
-msgstr "Número de aplicaciones"
+msgstr "Número de apps"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
@@ -486,4 +486,4 @@ msgstr "No se ha encontrado"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "¡Hola, mundo!"
