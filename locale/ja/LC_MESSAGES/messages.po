@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
-"PO-Revision-Date: 2014-09-17 16:01-0400\n"
+"PO-Revision-Date: 2014-10-01 21:38-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: \n"
@@ -297,7 +297,7 @@ msgstr "コスタリカ"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "チェコ共和国"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -409,7 +409,7 @@ msgstr "Persona のログインに失敗しました。サーバエラーが発�
 
 #: /media/js/commonplace/login.js:271
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona サーバに接続できませんでした。また後で試してください。"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -485,4 +485,4 @@ msgstr "ページが見つかりません"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "こんにちは世界！"
