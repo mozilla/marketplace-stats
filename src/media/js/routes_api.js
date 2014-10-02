@@ -27,7 +27,8 @@ define('routes_api', [], function() {
         // App lookup:
         'app': '/api/v1/apps/app/{0}/',
 
-        'login': '/api/v1/account/login/',
+        'login': '/api/v2/account/login/',
+        'logout': '/api/v2/account/logout/',
         'consumer_info': '/api/v2/fireplace/consumer-info/',
     };
 });
