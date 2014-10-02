@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
-"PO-Revision-Date: 2014-09-18 08:33+0000\n"
+"PO-Revision-Date: 2014-10-02 01:47+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411029191.0\n"
+"X-POOTLE-MTIME: 1412214473.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -296,7 +296,7 @@ msgstr "哥斯大黎加"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "捷克"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -408,7 +408,7 @@ msgstr "Persona 登入失敗，遇到伺服器錯誤。"
 
 #: /media/js/commonplace/login.js:271
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "無法聯繫 Persona，請稍後再試一次。"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -483,4 +483,4 @@ msgstr "找不到"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Hello World!"
