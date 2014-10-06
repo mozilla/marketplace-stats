@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
-"PO-Revision-Date: 2014-09-18 11:32+0000\n"
+"PO-Revision-Date: 2014-10-06 18:12+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411039920.0\n"
+"X-POOTLE-MTIME: 1412619166.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -298,7 +298,7 @@ msgstr "Costa Rica"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "República Checa"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -410,7 +410,7 @@ msgstr "O login do Persona falhou. Foi encontrado um erro no servidor."
 
 #: /media/js/commonplace/login.js:271
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona não pode ser alcançado. Tente novamente mais tarde. "
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -486,4 +486,4 @@ msgstr "Não encontrado"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Olá Mundo!"
