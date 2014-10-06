@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
-"PO-Revision-Date: 2014-09-22 11:24+0000\n"
+"PO-Revision-Date: 2014-10-06 20:28+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411385042.0\n"
+"X-POOTLE-MTIME: 1412627330.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -298,7 +298,7 @@ msgstr "Kostarika"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "Česká republika"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -410,7 +410,7 @@ msgstr "Pri prihlasovaní pomocou Persona došlo k chybe servera."
 
 #: /media/js/commonplace/login.js:271
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Nepodarilo sa pripojiť k službe Persona. Vyskúšajte to znovu neskôr."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -487,4 +487,4 @@ msgstr "Nebolo nájdené"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Ahoj svet!"
