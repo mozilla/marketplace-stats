@@ -30,6 +30,6 @@ define('routes_api', [], function() {
         'fxa-login': '/api/v2/account/fxa-login/',
         'login': '/api/v2/account/login/',
         'logout': '/api/v2/account/logout/',
-        'consumer_info': '/api/v2/fireplace/consumer-info/',
+        'site-config': '/api/v2/services/config/site/?serializer=commonplace',
     };
 });
