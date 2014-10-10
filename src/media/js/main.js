@@ -95,6 +95,10 @@ require.config({
             z.page.trigger('loaded');
         }
 
+        z.page.on('logged_in', function() {
+            z.page.trigger('navigate', [window.location.pathname + window.location.search]);
+        });
+
         // Debug page
         (function() {
             var to = false;
