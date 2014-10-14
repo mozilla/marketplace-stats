@@ -1,9 +1,5 @@
 {# This template is for global stats charts. #}
 <section class="main chart">
-  {% if user.logged_in() %}
-    <h1>{{ title }}</h1>
-    {% include 'includes/chartbody.html' %}
-  {% else %}
-    {% include 'includes/signin_required.html' %}
-  {% endif %}
+  <h1>{{ title }}</h1>
+  {% include 'includes/chartbody.html' %}
 </section>
