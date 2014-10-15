@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
 "PO-Revision-Date: 2014-10-03 16:42+0000\n"
 "Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,16 +34,16 @@ msgstr "Telepítések száma:"
 msgid "Installs"
 msgstr "Telepítések"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Látogatások"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
 msgid "Ratings"
 msgstr "Értékelések"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Visszaélés-jelentések"
@@ -52,37 +52,13 @@ msgstr "Visszaélés-jelentések"
 msgid "Average Rating"
 msgstr "Átlagos értékelés"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Teljes forgalom"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "Ehhez az apphoz nem érhető el nyilvános statisztika"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Bezárás"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nem"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Igen"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statisztika"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Kijelentkezés"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Bejelentkezés"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -132,69 +108,81 @@ msgstr "Felhasználási feltételek"
 msgid "Report Trademark Abuse"
 msgstr "Védjeggyel kapcsolatos visszaélés jelentése"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Minta diagram"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Bezárás"
 
-#: /templates/homepage.html:8
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nem"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Igen"
+
+#: /templates/homepage.html:6
 msgid "App Installations"
 msgstr "App telepítések"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
 msgid "N/A"
 msgstr "---"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "Fejlesztők"
 
-#: /templates/homepage.html:16
+#: /templates/homepage.html:14
 msgid "Transactions"
 msgstr "Tranzakciók"
 
-#: /templates/homepage.html:20
+#: /templates/homepage.html:18
 msgid "Net payments"
 msgstr "Nettó vásárlások"
 
-#: /templates/homepage.html:20
+#: /templates/homepage.html:18
 msgid "USD"
 msgstr "USD"
 
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "Új appok fizetési mód szerint"
 
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "Új appok apptípus szerint"
 
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "Appok fizetési mód szerint"
 
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "Appok apptípus szerint"
 
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "Telepített appok"
 
-#: /templates/homepage.html:65
+#: /templates/homepage.html:63
 msgid "App Ratings"
 msgstr "App értékelések"
 
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Ez az oldal jelenleg nem nyilvános. Próbálja újra később."
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statisztika"
 
-#: /templates/homepage.html:88 /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Jelentkezzen be a folytatáshoz."
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Kijelentkezés"
 
-#: /templates/homepage.html:89 /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Bejelentkezés/regisztráció"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Minta diagram"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -203,6 +191,14 @@ msgstr "Jaj ne!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "A keresett oldal nem található."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Nem lehet betölteni többet"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Próbálja újra"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -228,13 +224,13 @@ msgstr "Frissítés"
 msgid "This data is restricted or no data found"
 msgstr "Ezek az adatok korlátozottak vagy nem találhatók"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Nem lehet betölteni többet"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Jelentkezzen be a folytatáshoz."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Próbálja újra"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Bejelentkezés/regisztráció"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -392,23 +388,23 @@ msgstr "Venezuela"
 msgid "No region in search"
 msgstr "Nincs régió a kereséshez"
 
-#: /media/js/commonplace/login.js:20
+#: /media/js/commonplace/login.js:24
 msgid "You have been signed out"
 msgstr "Kijelentkezett"
 
-#: /media/js/commonplace/login.js:24
+#: /media/js/commonplace/login.js:28
 msgid "You have been signed in"
 msgstr "Bejelentkezett"
 
-#: /media/js/commonplace/login.js:196
+#: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "A Persona bejelentkezés sikertelen. Lehet, hogy nincs fiókja ehhez az e-mail címhez?"
 
-#: /media/js/commonplace/login.js:201
+#: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
 msgstr "A Persona bejelentkezés sikertelen. Kiszolgálóhiba történt."
 
-#: /media/js/commonplace/login.js:271
+#: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
 msgstr "A Persona nem érhető el. Próbálja újra később."
 
@@ -427,13 +423,13 @@ msgstr[1] "<b>{n}</b> karakter maradt."
 msgid "Number of Abuse Reports"
 msgstr "Visszaélés-jelentések száma"
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Appok"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Appok száma"
 
@@ -441,9 +437,10 @@ msgstr "Appok száma"
 msgid "Loading..."
 msgstr "Betöltés…"
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "Telepítések száma"
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Kezdőlap"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -453,37 +450,36 @@ msgstr "Bevétel"
 msgid "Daily Total"
 msgstr "Napi összes"
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "Kezdőlap"
-
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr "Teljes bevétel"
-
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
-msgid "New Ratings"
-msgstr "Új értékelések"
-
-#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
-msgid "Number of Ratings"
-msgstr "Értékelések száma"
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "Telepítések száma"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "Látogatások száma"
 
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+msgid "New Ratings"
+msgstr "Új értékelések"
+
+#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+msgid "Number of Ratings"
+msgstr "Értékelések száma"
+
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
 msgstr "Fejlesztők száma"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr "Szia világ!"
+
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "Teljes bevétel"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nem található"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Szia világ!"

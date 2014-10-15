@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
 "PO-Revision-Date: 2014-08-18 08:01+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,16 +34,16 @@ msgstr "কতগুলি ইনস্টল:"
 msgid "Installs"
 msgstr "ইন্সটলগুলো"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "ভ্রমণ সংখ্যা"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
 msgid "Ratings"
 msgstr "রেটিং"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন"
@@ -52,37 +52,13 @@ msgstr "অপব্যবহার প্রতিবেদন"
 msgid "Average Rating"
 msgstr "গড় রেটিং"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "মোট আয়"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr ""
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "বন্ধ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "না"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "হ্যাঁ"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "পরিসংখ্যান"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -131,69 +107,81 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "নমুনা চার্ট "
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "বন্ধ"
 
-#: /templates/homepage.html:8
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "না"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#: /templates/homepage.html:6
 msgid "App Installations"
 msgstr "অ্যাপ ইনস্টলেশন"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "ডেভেলপার"
 
-#: /templates/homepage.html:16
+#: /templates/homepage.html:14
 msgid "Transactions"
 msgstr "লেনদেন"
 
-#: /templates/homepage.html:20
+#: /templates/homepage.html:18
 msgid "Net payments"
 msgstr "নেট পেমেন্ট"
 
-#: /templates/homepage.html:20
+#: /templates/homepage.html:18
 msgid "USD"
 msgstr "USD"
 
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "পেমেন্টের ধরন অনুযায়ী নতুন অ্যাপ"
 
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "অ্যাপের ধরন অনুযায়ী নতুন অ্যাপ"
 
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "পেমেন্টের ধরন অনুযায়ী অ্যাপ"
 
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "অ্যাপের ধরন অনুযায়ী অ্যাপ"
 
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "ইন্সটল করা অ্যাপ"
 
-#: /templates/homepage.html:65
+#: /templates/homepage.html:63
 msgid "App Ratings"
 msgstr "অ্যাপ রেটিং"
 
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "এই পাতাটি বর্তমানে সর্বসাধারণের জন্য নয়। অনুগ্রহ করে পরে পুনরায় চেষ্টা করুন।"
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
 
-#: /templates/homepage.html:88 /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "সামনে এগিয়ে যেতে অনুগ্রহ করে সাইন ইন করুন"
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
 
-#: /templates/homepage.html:89 /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "নমুনা চার্ট "
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -202,6 +190,14 @@ msgstr "ওহ না! "
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "আবার চেষ্টা করুন "
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -227,13 +223,13 @@ msgstr "আপডেট"
 msgid "This data is restricted or no data found"
 msgstr "এই তথ্যটি সিমাবদ্ধ অথবা পাওয়া যায় নি। "
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "সামনে এগিয়ে যেতে অনুগ্রহ করে সাইন ইন করুন"
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "আবার চেষ্টা করুন "
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -391,23 +387,23 @@ msgstr "ভেনেজুয়েলা"
 msgid "No region in search"
 msgstr "অনুসন্ধানে কোন অঞ্চল নেই"
 
-#: /media/js/commonplace/login.js:20
+#: /media/js/commonplace/login.js:24
 msgid "You have been signed out"
 msgstr "আপনি সফলভাবে বেরিয়ে গেছেন। "
 
-#: /media/js/commonplace/login.js:24
+#: /media/js/commonplace/login.js:28
 msgid "You have been signed in"
 msgstr "আপনি সফলভাবে প্রবেশ করেছেন। "
 
-#: /media/js/commonplace/login.js:196
+#: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সম্ভবত এই ইমেইল এড্রেস এ পারসোনায় কোন একাউন্ট নেই। "
 
-#: /media/js/commonplace/login.js:201
+#: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
 msgstr "পার্সোনার মাধ্যমে লগইন বার্থ হয়েছে। সার্ভারে সমস্যা হয়েছে।"
 
-#: /media/js/commonplace/login.js:271
+#: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
 
@@ -426,13 +422,13 @@ msgstr[1] "<b>{n}</b> টি অক্ষর বাকি।"
 msgid "Number of Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "অ্যাপস"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "এপসমুহের সংখ্যা"
 
@@ -440,9 +436,10 @@ msgstr "এপসমুহের সংখ্যা"
 msgid "Loading..."
 msgstr "লোড হচ্ছে..."
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "ইন্সটলের সংখ্যা"
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "হোম"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -452,37 +449,36 @@ msgstr "আয়"
 msgid "Daily Total"
 msgstr "দৈনিক মোট "
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "হোম"
-
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr "মোট আয়"
-
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
-msgid "New Ratings"
-msgstr "নতুন রেটিং"
-
-#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
-msgid "Number of Ratings"
-msgstr "রেটিং এর সংখ্যা"
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "ইন্সটলের সংখ্যা"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "প্রদর্শনের সংখ্যা "
 
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+msgid "New Ratings"
+msgstr "নতুন রেটিং"
+
+#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+msgid "Number of Ratings"
+msgstr "রেটিং এর সংখ্যা"
+
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
 msgstr "ডেভেলপারের সংখ্যা"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "মোট আয়"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "পাওয়া যায় নি"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-01T16:27:25.671Z\n"
+"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
 "PO-Revision-Date: 2014-09-06 18:15+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,16 +34,16 @@ msgstr "Broj instalacija:"
 msgid "Installs"
 msgstr "Instalacije"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:35 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Posete"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
 msgid "Ratings"
 msgstr "Ocene"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:70 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Prijave zloupotreba"
@@ -52,37 +52,13 @@ msgstr "Prijave zloupotreba"
 msgid "Average Rating"
 msgstr "Prosečna ocena"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:77 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Ukupan prihod"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr ""
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zatvori"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ne"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Da"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistike"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odjavi se"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prijavi se"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -132,69 +108,81 @@ msgstr "Uslovi korišćenja"
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Primer grafikona"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zatvori"
 
-#: /templates/homepage.html:8
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ne"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Da"
+
+#: /templates/homepage.html:6
 msgid "App Installations"
 msgstr "Instalacije aplikacije"
 
-#: /templates/homepage.html:11 /templates/homepage.html:15 /templates/homepage.html:19
+#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
 msgid "N/A"
 msgstr "Nije dostupno"
 
-#: /templates/homepage.html:12 /templates/homepage.html:30 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "Programeri"
 
-#: /templates/homepage.html:16
+#: /templates/homepage.html:14
 msgid "Transactions"
 msgstr "Transakcije"
 
-#: /templates/homepage.html:20
+#: /templates/homepage.html:18
 msgid "Net payments"
 msgstr "Neto plaćanja"
 
-#: /templates/homepage.html:20
+#: /templates/homepage.html:18
 msgid "USD"
 msgstr "Američki dolar"
 
-#: /templates/homepage.html:40 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "Nove aplikacije po načinu plaćanja"
 
-#: /templates/homepage.html:45 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "Nove aplikacije po vrsti"
 
-#: /templates/homepage.html:50 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "Aplikacije po načinu plaćanja"
 
-#: /templates/homepage.html:55 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "Aplikacije po vrsti"
 
-#: /templates/homepage.html:60 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "Instalirane aplikacije"
 
-#: /templates/homepage.html:65
+#: /templates/homepage.html:63
 msgid "App Ratings"
 msgstr "Ocene aplikacija"
 
-#: /templates/homepage.html:84
-msgid "This page is currently not public. Please try again later."
-msgstr "Ova stranica trenutno nije javna. Molimo Vas, pokušajte kasnije."
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistike"
 
-#: /templates/homepage.html:88 /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Molimo Vas da se prijavite kako biste nastavili."
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odjavi se"
 
-#: /templates/homepage.html:89 /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Prijavi se / Registruj se"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prijavi se"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Primer grafikona"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -203,6 +191,14 @@ msgstr "Oh, ne!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Stranica koju ste tražili nije pronađena."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Greška prilikom učitavanja"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Pokušaj ponovo"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -228,13 +224,13 @@ msgstr "Ažuriraj"
 msgid "This data is restricted or no data found"
 msgstr "Ovaj podatak je zabranjen, ili nije pronađen"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Greška prilikom učitavanja"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Molimo Vas da se prijavite kako biste nastavili."
 
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Pokušaj ponovo"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Prijavi se / Registruj se"
 
 #: /media/js/chartutils.js:24
 msgid "Server error detected. Please try again later."
@@ -392,23 +388,23 @@ msgstr "Venecuela"
 msgid "No region in search"
 msgstr "Nema regiona u pretrazi"
 
-#: /media/js/commonplace/login.js:20
+#: /media/js/commonplace/login.js:24
 msgid "You have been signed out"
 msgstr "Odjavljeni ste"
 
-#: /media/js/commonplace/login.js:24
+#: /media/js/commonplace/login.js:28
 msgid "You have been signed in"
 msgstr "Prijavljeni ste"
 
-#: /media/js/commonplace/login.js:196
+#: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr "Neuspešno prijavljivanje putem Persona-e. Možda nemate nalog pod tom adresom e-pošte?"
 
-#: /media/js/commonplace/login.js:201
+#: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
 msgstr "Prijavljivanje putem Persona-e nije uspelo. Desila se serverska greška."
 
-#: /media/js/commonplace/login.js:271
+#: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
 msgstr ""
 
@@ -428,13 +424,13 @@ msgstr[2] "Preostali broj karaktera: <b>{n}</b>."
 msgid "Number of Abuse Reports"
 msgstr "Broj prijavljenih zloupotreba"
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_installed.js:17 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_added.js:18
-#: /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
+#: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Aplikacije"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:18 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_added.js:19
-#: /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Broj aplikacija"
 
@@ -442,9 +438,10 @@ msgstr "Broj aplikacija"
 msgid "Loading..."
 msgstr "Učitavam..."
 
-#: /media/js/views/per_app_installs.js:18
-msgid "Number of Installs"
-msgstr "Broj instaliranja"
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Početna"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -454,37 +451,36 @@ msgstr "Prihod"
 msgid "Daily Total"
 msgstr "Ukupno dnevno"
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "Početna"
-
-#: /media/js/views/per_app_revenue.js:18
-msgid "Total Revenue"
-msgstr "Ukupan prihod"
-
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
-msgid "New Ratings"
-msgstr "Nove ocene"
-
-#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
-msgid "Number of Ratings"
-msgstr "Broj ocena"
+#: /media/js/views/per_app_installs.js:18
+msgid "Number of Installs"
+msgstr "Broj instaliranja"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
 msgstr "Broj poseta"
 
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+msgid "New Ratings"
+msgstr "Nove ocene"
+
+#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+msgid "Number of Ratings"
+msgstr "Broj ocena"
+
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
 msgstr "Broj programera"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr ""
+
+#: /media/js/views/per_app_revenue.js:18
+msgid "Total Revenue"
+msgstr "Ukupan prihod"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
 msgid "Not Found"
 msgstr "Nije nađeno"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr ""
