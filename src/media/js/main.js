@@ -1,42 +1,24 @@
 console.log('Firefox Marketplace Statistics');
 
-require.config({
-    enforceDefine: true,
-    paths: {
-        'jquery': 'lib/jquery-2.0.2',
-        'd3': 'lib/d3.v3-min',
-        'brick': 'lib/brick',
-        'underscore': 'lib/underscore',
-        'nunjucks': 'lib/nunjucks',
-        'nunjucks.compat': 'lib/nunjucks.compat',
-        'templates': '../../templates',
-        'settings': ['settings_local', 'settings'],
-        'format': 'lib/format',
-        'site_config': 'commonplace/site_config'
-    }
-});
-
 (function() {
-
-    define(
-        'main',
-        [
-            'underscore',
-            'brick',
-            'd3',
-            'helpers',  // Must come before mostly everything else.
-            'capabilities',
-            'forms',
-            'l10n',
-            'log',
-            'login',
-            'navigation',
-            'templates',
-            //'tracking',
-            'user_helpers',
-            'user',
-            'z'
-        ],
+    define('main',
+    [
+        'underscore',
+        'brick',
+        'd3',
+        'helpers',  // Must come before mostly everything else.
+        'capabilities',
+        'forms',
+        'l10n',
+        'log',
+        'login',
+        'navigation',
+        'templates',
+        //'tracking',
+        'user_helpers',
+        'user',
+        'z'
+    ],
     function() {
         var log = require('log');
         var console = log('main');
@@ -117,5 +99,4 @@ require.config({
 
         console.log('Initialization complete');
     });
-
 })();
