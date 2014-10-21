@@ -43,20 +43,35 @@ var routes = window.routes = [
     {'pattern': '^/statistics/app/([^/<>"\']+)/average_rating$', 'view_name': 'per_app_average_rating'},
 
     {'pattern': '^/tests$', 'view_name': 'tests'},
-    {'pattern': '^/debug$', 'view_name': 'debug'}
 ];
 
-define(
-    'routes',
-    routes.map(function(i) {return 'views/' + i.view_name;}),
-    function() {
-        for (var i = 0; i < routes.length; i++) {
-            var route = routes[i];
-            var view = require('views/' + route.view_name);
-            route.view = view;
-        }
-        return routes;
+define('routes',
+[
+    'views/abuse_reports',
+    'views/app_dashboard',
+    'views/apps_added',
+    'views/apps_available_by_premium',
+    'views/apps_available_by_type',
+    'views/apps_by_type',
+    'views/apps_installed',
+    'views/gross_revenue',
+    'views/homepage',
+    'views/per_app_abuse_reports',
+    'views/per_app_average_rating',
+    'views/per_app_installs',
+    'views/per_app_ratings',
+    'views/per_app_revenue',
+    'views/per_app_visits',
+    'views/ratings',
+    'views/tests',
+    'views/total_developers',
+    'views/total_visits'
+], function() {
+    for (var i = 0; i < routes.length; i++) {
+        var route = routes[i];
+        var view = require('views/' + route.view_name);
+        route.view = view;
     }
-);
-
+    return routes;
+});
 })();
