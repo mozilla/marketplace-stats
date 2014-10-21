@@ -12,7 +12,6 @@
         "requirejs": "2.1.4",
         "underscore": "1.4.4",
 
-        "brick": "0.9.1",
         "d3": "3.0.0"
     },
     "ignore": [
