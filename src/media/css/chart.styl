@@ -314,3 +314,24 @@ for region in $regions
         small-button();
     }
 }
+
+.interval {
+    padding: 10px 5px 0;
+
+    ul {
+        float: right;
+    }
+    li {
+        float: left;
+        font-size: 12px;
+        padding: 0 15px;
+
+        &:last-child {
+            padding-right: 0;
+        }
+        &.active a {
+            font-weight: 500;
+            text-decoration: underline;
+        }
+    }
+}
