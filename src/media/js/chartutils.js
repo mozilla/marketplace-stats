@@ -40,10 +40,21 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
         doRedirect = true;
     }
 
+    // Use interval url param if found.
+    if ('interval' in params) {
+        interval = params.interval;
+    }
+
     // Sets the date range in the 'to' and 'from' inputs.
     function updateRange($rng, start, end) {
         $rng.eq(0).val(start);
         $rng.eq(1).val(end);
+    }
+
+    // Sets the active interval link.
+    function updateInterval() {
+        $('.interval li').removeClass('active');
+        $('.interval [data-interval=' + interval + ']').closest('li').addClass('active');
     }
 
     // lblValue...remember Visual Basic?
@@ -53,7 +64,7 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
             region = null;
         }
 
-        var newURL = ml.getNewURL(apiName, start, end, region, slug);
+        var newURL = ml.getNewURL(apiName, start, end, interval, region, slug);
         var options = {};
         var $range = $('#range x-datepicker');
         var $regions = $('.regions select');
@@ -61,6 +72,7 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
         // Avoid event leaks.
         z.page.off('submit.range');
         $regions.off('change.updateregion');
+        z.page.off('click.interval');
 
         if (opts && !opts.noregion) {
             var $icon = $('.regions em');
@@ -68,7 +80,7 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
             $regions.on('change.updateregion', function() {
                 region = this.value;
                 $icon.removeClass().addClass(region);
-                newURL = ml.getNewURL(apiName, start, end, region, slug);
+                newURL = ml.getNewURL(apiName, start, end, interval, region, slug);
                 z.page.trigger('divert', [newURL]);
             }).find('option[value="' + region + '"]').prop('selected', true);
         }
@@ -88,7 +100,10 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
                 end = $range.eq(0).val();
                 start = $range.eq(1).val();
                 updateRange($range, start, end);
-                z.page.trigger('divert', [ml.getNewURL(apiName, start, end, region, slug)]);
+                z.page.trigger(
+                    'divert',
+                    [ml.getNewURL(apiName, start, end, interval, region, slug)]
+                );
             });
         } else if (start == end) {
             notify({message: gettext('Please enter a valid date range')});
@@ -138,12 +153,20 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
         // あくま
         updateRange($range, start, end);
 
+        updateInterval();
+
         z.page.on('submit.range', '#rangeform', utils._pd(function() {
             start = $range.eq(0).val();
             end = $range.eq(1).val();
 
             createChart(apiName, lblValue, lblYAxis, opts, slug);
         }));
+
+        z.page.on('click.interval', '.interval a', function() {
+            interval = $(this).data('interval');
+
+            createChart(apiName, lblValue, lblYAxis, opts, slug);
+        });
     }
 
     function isShortRange(start, end) {

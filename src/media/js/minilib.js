@@ -10,8 +10,11 @@ define('minilib', ['urls'], function(urls) {
     }
 
     // Uses string concatenation to preserve pretty param order.
-    function getNewURL(apiName, start, end, region, slug) {
+    function getNewURL(apiName, start, end, interval, region, slug) {
         var segment = '?start=' + start + '&end=' + end;
+        if (interval) {
+            segment += '&interval=' + interval;
+        }
         if (region) {
             segment += '&region=' + region;
         }
