@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
-"PO-Revision-Date: 2014-09-06 18:15+0000\n"
+"PO-Revision-Date: 2014-10-02 04:50+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1410027308.0\n"
+"X-POOTLE-MTIME: 1412225404.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -58,7 +58,7 @@ msgstr "Ukupan prihod"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "Nisu dostupne javne statistike za ovu aplikaciju"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -294,7 +294,7 @@ msgstr "Kostarika"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "Češka"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -334,7 +334,7 @@ msgstr "Italija"
 
 #: /media/js/settings.js:48
 msgid "Japan"
-msgstr ""
+msgstr "Japan"
 
 #: /media/js/settings.js:49
 msgid "Mexico"
@@ -406,7 +406,7 @@ msgstr "Prijavljivanje putem Persona-e nije uspelo. Desila se serverska greška.
 
 #: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "Persona nije dostupna. Pokušajte ponovo kasnije."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
@@ -474,7 +474,7 @@ msgstr "Broj programera"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "Zdravo svete!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
