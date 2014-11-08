@@ -26,7 +26,6 @@ def pre_update(ref):
 def update():
     with lcd(MARKETPLACE_STATS):
         local('npm install')
-        local('node_modules/.bin/bower update --allow-root')
         local('make update')
         local('cp src/media/js/settings_local_hosted.js src/media/js/settings_local.js')
         local('make build')
