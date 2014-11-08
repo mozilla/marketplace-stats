@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
-"PO-Revision-Date: 2014-10-06 18:12+0000\n"
+"PO-Revision-Date: 2014-11-08 16:47+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412619166.0\n"
+"X-POOTLE-MTIME: 1415465224.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -93,8 +93,10 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"A menos que se <a href=\"{legal_url}\" target=\"_blank\">indique</a> o contrario, o conteudo desta página está sujeita a  <a href=\"{cc_url}\" target=\"_blank\">licença Creative Commons Attribution "
-"Share-Alike 3.0</a> ou qualquer versão posterior."
+"Exceto onde existir <a href=\"{legal_url}\" target=\"_blank\">informação</a> em "
+"contrário, o conteúdo deste site está licenciado sob a <a href=\"{cc_url}\" "
+"target=\"_blank\">licença Creative Commons Atribuição-CompartilhaIgual "
+"v3.0</a> ou qualquer versão posterior."
 
 #: /templates/footer.html:32
 msgid "Privacy Policy"
@@ -138,7 +140,7 @@ msgstr "Transações"
 
 #: /templates/homepage.html:18
 msgid "Net payments"
-msgstr "Pagamentos na Internet"
+msgstr "Pagamentos líquidos"
 
 #: /templates/homepage.html:18
 msgid "USD"
@@ -406,7 +408,7 @@ msgstr "O login do Persona falhou. Foi encontrado um erro no servidor."
 
 #: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
-msgstr "Persona não pode ser alcançado. Tente novamente mais tarde. "
+msgstr "Persona não pode ser alcançado. Tente novamente mais tarde."
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
