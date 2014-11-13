@@ -9,6 +9,7 @@ The frontend for the statistics dashboard for the Firefox Marketplace.
 ## Installation
 
 ```bash
-make init
+npm install
+make install
 make serve
 ```
