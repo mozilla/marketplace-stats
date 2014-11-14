@@ -14,7 +14,6 @@ console.log('Firefox Marketplace Statistics');
         'login',
         'navigation',
         'templates',
-        //'tracking',
         'user_helpers',
         'user',
         'z'
