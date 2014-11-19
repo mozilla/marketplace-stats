@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
-"PO-Revision-Date: 2014-05-02 20:25+0000\n"
-"Last-Translator: koustav <koustavsuny2009@gmail.com>\n"
+"PO-Revision-Date: 2014-11-19 06:53+0000\n"
+"Last-Translator: Biraj <brnet00@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1399062305.0\n"
+"X-POOTLE-MTIME: 1416380039.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -58,7 +58,7 @@ msgstr "মোট আয়"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "এই অ্যাপ এর জন্য কোন পাবলিক পরিসংখ্যান উপলব্ধ নেই"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -239,11 +239,13 @@ msgstr "সার্ভার ত্রুটি ধরা পড়েছে। �
 
 #: /media/js/chartutils.js:25
 msgid "The statistics endpoint requested is invalid."
-msgstr ""
+msgstr "অনুরোধ করা পরিসংখ্যান শেষবিন্দু অবৈধ।"
 
 #: /media/js/chartutils.js:26
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr ""
+"প্রমানীকরন ব্যর্থতা ধরা পরেছে। আপনি যে তথ্য অ্যাক্সেস করতে ছাইছেন সেটি "
+"পাবলিক নয়।                "
 
 #: /media/js/chartutils.js:27
 msgid "The statistics data request is incomplete or invalid."
@@ -252,10 +254,14 @@ msgstr "পরিসংখ্যান তথ্য অনুরোধ অসম
 #: /media/js/chartutils.js:28
 msgid "An unknown server error was detected. Please try again later."
 msgstr ""
+"একটি অজানা সারভার ত্রুটি ধরা পরেছে। অনুগ্রহ করে আবার চেষ্টা করুন। "
+"               "
 
 #: /media/js/chartutils.js:85
 msgid "You have entered a negative date range. Reverse?"
 msgstr ""
+" আপনি নেতিবাচক তারিখ পরিসীমার মধেয় প্রবেশ করেছেন। বিপরীতে যাবেন? "
+"               "
 
 #: /media/js/chartutils.js:94
 msgid "Please enter a valid date range"
@@ -263,15 +269,15 @@ msgstr "একটি বৈধ তারিখের সীমা লিখু�
 
 #: /media/js/settings.js:30
 msgid "Rest of World"
-msgstr ""
+msgstr "বিশ্বের অন্যান্য অংশের"
 
 #: /media/js/settings.js:31
 msgid "Argentina"
-msgstr "আর্জেনটিনা"
+msgstr "বাংলাদেশ"
 
 #: /media/js/settings.js:32
 msgid "Bangladesh"
-msgstr ""
+msgstr "বাংলাদেশ"
 
 #: /media/js/settings.js:33
 msgid "Brazil"
@@ -295,7 +301,7 @@ msgstr "কোস্টা রিকা"
 
 #: /media/js/settings.js:38
 msgid "Czech Republic"
-msgstr ""
+msgstr "চেক প্রজাতন্ত্র"
 
 #: /media/js/settings.js:39
 msgid "Ecuador"
@@ -307,7 +313,7 @@ msgstr "এল সালভাডোর"
 
 #: /media/js/settings.js:41
 msgid "France"
-msgstr ""
+msgstr "ফ্রান্স"
 
 #: /media/js/settings.js:42
 msgid "Germany"
@@ -327,7 +333,7 @@ msgstr "হাঙ্গেরি"
 
 #: /media/js/settings.js:46
 msgid "India"
-msgstr ""
+msgstr "ভারত"
 
 #: /media/js/settings.js:47
 msgid "Italy"
@@ -335,7 +341,7 @@ msgstr "ইটালি"
 
 #: /media/js/settings.js:48
 msgid "Japan"
-msgstr ""
+msgstr "জাপান"
 
 #: /media/js/settings.js:49
 msgid "Mexico"
@@ -387,31 +393,32 @@ msgstr "ভেনেজুয়েলা"
 
 #: /media/js/settings.js:61
 msgid "No region in search"
-msgstr ""
+msgstr "অনুসন্ধানে কোন অঞ্চল নেই"
 
 #: /media/js/commonplace/login.js:24
 msgid "You have been signed out"
-msgstr ""
+msgstr "আপনি সাইন আউট করেছেন"
 
 #: /media/js/commonplace/login.js:28
 msgid "You have been signed in"
-msgstr ""
+msgstr "আপনার দ্বারা সাইন ইন করা হয়েছে"
 
 #: /media/js/commonplace/login.js:216
 msgid "Persona login failed. Maybe you don't have an account under that email address?"
 msgstr ""
+"পারসনা লগ ইন ব্যর্থ। হয়তো অই ইমেইল এড্রেস এর মধ্যে আপনার অ্যাকাউন্ট নেই?"
 
 #: /media/js/commonplace/login.js:221
 msgid "Persona login failed. A server error was encountered."
-msgstr ""
+msgstr "পারসনা লগ ইন ব্যর্থ। একটি সারভার ত্রুটি দেখা দিয়েছে।"
 
 #: /media/js/commonplace/login.js:291
 msgid "Persona cannot be reached. Try again later."
-msgstr ""
+msgstr "পারসনা পৌছনো যাছে না। পরে আবার চেষ্টা করুন।"
 
 #: /media/js/commonplace/navigation.js:33
 msgid "No internet connection"
-msgstr ""
+msgstr "কোন ইন্টারনেট সংযোগ নেই                "
 
 #. {n} is the number of characters left.
 #: /media/js/commonplace/utils.js:28
@@ -427,7 +434,7 @@ msgstr "অপব্যবহার প্রতিবেদন সংখ্য�
 #: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
-msgstr ""
+msgstr "অ্যাপস"
 
 #: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:18
@@ -445,7 +452,7 @@ msgstr "হোম"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
-msgstr ""
+msgstr "উপার্জন"
 
 #: /media/js/views/gross_revenue.js:18
 msgid "Daily Total"
@@ -453,7 +460,7 @@ msgstr "দৈনিক মোট"
 
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
-msgstr ""
+msgstr "ইনস্টলেশনের সংখ্যা"
 
 #: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
 msgid "Number of Visits"
@@ -462,7 +469,7 @@ msgstr "ভিজিট সংখ্যা"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
 msgid "New Ratings"
-msgstr ""
+msgstr "নতুন রেটিং"
 
 #: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
 msgid "Number of Ratings"
@@ -470,15 +477,15 @@ msgstr "রেটিং এর সংখ্যা"
 
 #: /media/js/views/total_developers.js:18
 msgid "Number of Developers"
-msgstr ""
+msgstr "ডেভেলপারদের সংখ্যা"
 
 #: /media/js/views/commonplace/hello_world.js:9
 msgid "Hello World!"
-msgstr ""
+msgstr "ওহে দুনিয়া!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
-msgstr ""
+msgstr "মোট উপার্জন"
 
 #. Page not found (404)
 #: /media/js/views/commonplace/not_found.js:9
