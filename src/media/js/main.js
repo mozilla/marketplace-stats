@@ -25,7 +25,7 @@ console.log('Firefox Marketplace Statistics');
 
         var capabilities = require('capabilities');
         var nunjucks = require('templates');
-        var settings = require('settings');
+        var regions = require('regions');
         var z = require('z');
 
         nunjucks.env.dev = true;
@@ -52,7 +52,7 @@ console.log('Firefox Marketplace Statistics');
         // Do some last minute template compilation.
         z.page.on('reload_chrome', function() {
             console.log('Reloading chrome');
-            var context = {z: z, REGIONS: settings.REGION_CHOICES_SLUG};
+            var context = {z: z, REGIONS: regions.REGION_CHOICES_SLUG};
             $('#site-header').html(
                 nunjucks.env.render('header.html', context));
             $('#site-footer').html(
