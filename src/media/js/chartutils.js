@@ -1,5 +1,8 @@
-define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls', 'user', 'utils', 'z'],
-       function(linechart, ml, notification, settings, urls, user, utils, z) {
+define('chartutils',
+    ['linechart', 'minilib', 'notification', 'regions', 'urls', 'user',
+     'underscore', 'utils', 'z'],
+    function(linechart, ml, notification, regions_module, urls, user,
+             _, utils, z) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;
@@ -11,12 +14,15 @@ define('chartutils', ['linechart', 'minilib', 'notification', 'settings', 'urls'
     var doRedirect = false;
     var ask = notification.confirmation;
     var notify = notification.notification;
-    var regs = settings.REGION_CHOICES_SLUG;
+    var regs = regions_module.REGION_CHOICES_SLUG;
     // Better x-axis for short day ranges (number of days).
     var shortDelta = 15;
 
     var regions = Object.keys(regs).map(function(reg) {
         return {code: reg, name: regs[reg]};
+    });
+    regions = _.sortBy(regions, function(region) {
+        return region.name;
     });
 
     var strings = {

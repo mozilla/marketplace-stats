@@ -54,3 +54,6 @@ src/tests/marketplace-core-modules
 tags
 tests/captures/*
 yulelog_*
+
+src/media/img/icons/regions
+src/media/css/lib/regions.styl

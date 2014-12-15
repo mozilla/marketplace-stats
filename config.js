@@ -9,6 +9,7 @@ var localConfig = extend(true, {
         // Bower configuration for which files to get, and where to put them.
         // [Source, excluding bower_components]: [Destination].
         'd3/d3.js': config.LIB_DEST_PATH,
+        'marketplace-constants/dist/js/regions.js': config.LIB_DEST_PATH,
     },
     cssBundles: {
         // Arbitrary CSS bundles to create.
@@ -24,6 +25,7 @@ var localConfig = extend(true, {
         // [Module name]: [Module path].
         paths: {
             'd3': 'lib/d3',
+            'regions': 'lib/regions',
         },
         shim: {
             'd3': { 'exports': 'd3' }
