@@ -1,28 +1,5 @@
 <section class="main">
   <div class="page-container-app">
-    <div class="apps">
-      <div class="dashboard-summary-metrics">
-        <div class="head head-rightmost">
-          <div class="total-val installs"></div>
-          <div class="tiny">{{ _('App Installations') }}</div>
-        </div>
-        <div class="head">
-          <div id="developers">{{ _('N/A') }}</div>
-          <div class="tiny">{{ _('Developers') }}</div>
-        </div>
-        <div class="head">
-          <div id="transactions">{{ _('N/A') }}</div>
-          <div class="tiny">{{ _('Transactions') }}</div>
-        </div>
-        <div class="head">
-          <div id="revenue">{{ _('N/A') }}</div>
-          <div class="tiny">{{ _('Net payments') }} (<span class="currency">{{ _('USD') }}</span>)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="dashboard-controls"></div>
-
     <ul class="dashboard c">
       <li>
         <a href="{{ url('total_developers') }}" data-src="total_developers">
