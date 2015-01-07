@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-10-05 09:08+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "Instalace"
 msgid "Visits"
 msgstr "Návštěvy"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Hodnocení"
 
@@ -76,19 +76,19 @@ msgstr "Zpětná vazba"
 msgid "Support"
 msgstr "Podpora"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "Mé příspěvky"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "Nástroje redaktora"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "Nástroje"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
@@ -96,15 +96,15 @@ msgstr ""
 "Pokud není řečeno <a href=\"{legal_url}\" target=\"_blank\">jinak</a>, je obsah webu k dispozici pod licencí <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
 "v. 3.0</a> či jakoukoliv novější verzí."
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "Zásady ochrany osobních údajů"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "Podmínky užití"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "Nahlásit zneužití ochranné známky"
 
@@ -119,6 +119,22 @@ msgstr "Ne"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ano"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlášení"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přihlášení"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Ukázkový graf"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -168,22 +184,6 @@ msgstr "Nainstalované aplikace"
 msgid "App Ratings"
 msgstr "Hodnocení aplikace"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistiky"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlášení"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přihlášení"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Ukázkový graf"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ale ne!"
@@ -192,6 +192,46 @@ msgstr "Ale ne!"
 msgid "The page you were looking for was not found."
 msgstr "Stránka, kterou hledáte, nebyla nalezena."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Došlo k chybě."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Pro pokračovaní se prosím přihlaste."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Přihlášení / Registrace"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "Na serveru došlo k chybě, zkuste to prosím později."
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "Cílový bod požadovaných statistik je neplatný."
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Při ověřování došlo k chybě. Data, která požadujete, nejsou veřejná."
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "Požadované statistiky jsou nekompletní nebo neplatné."
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "Na serveru došlo k neznámé chybě. Zkuste to prosím později."
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "Zadali jste obrácený rozsah dat. Chcete jej otočit?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "Vložte prosím platný rozsah."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Během načítání stránky došlo k chybě."
@@ -199,10 +239,6 @@ msgstr "Během načítání stránky došlo k chybě."
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Zkuste to znovu"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Došlo k chybě."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -220,228 +256,39 @@ msgstr "Všechny regiony"
 msgid "Update"
 msgstr "Aktualizace"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "Data jsou zabezpečena nebo nebyla nalezena."
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Pro pokračovaní se prosím přihlaste."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Přihlášení / Registrace"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "Na serveru došlo k chybě, zkuste to prosím později."
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "Cílový bod požadovaných statistik je neplatný."
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "Při ověřování došlo k chybě. Data, která požadujete, nejsou veřejná."
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "Požadované statistiky jsou nekompletní nebo neplatné."
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "Na serveru došlo k neznámé chybě. Zkuste to prosím později."
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "Zadali jste obrácený rozsah dat. Chcete jej otočit?"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "Vložte prosím platný rozsah."
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "Zbytek světa"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "Argentina"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "Bangladéš"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "Brazílie"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "Chile"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "Čína"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "Kolumbie"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "Kostarika"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "Česká republika"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "Ekvádor"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "El Salvador"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "Francie"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "Německo"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "Řecko"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "Guatemala"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "Maďarsko"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "Indie"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "Itálie"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "Japonsko"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "Mexiko"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "Černá Hora"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "Nikaragua"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "Panama"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "Peru"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "Polsko"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "Srbsko"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "Španělsko"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "Velká Británie"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "Spojené Státy"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "Uruguay"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "Venezuela"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "Ve vyhledávání není uveden žádný region."
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "Byli jste odhlášeni"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "Byli jste přihlášeni"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Při přihlašování pomocí Persona došlo k chybě. Možná máte požadovaný účet pod jinou e-mailovou adresou?"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Při přihlašování pomocí Persona došlo k chybě serveru."
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Nepodařilo se připojit ke službě Persona. Zkuste to znovu později."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Není připojení k Internetu"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "Zbývá <b>{n}</b> znak."
-msgstr[1] "Zbývají <b>{n}</b> znaky."
-msgstr[2] "Zbývá <b>{n}</b> znaků."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Počet hlášení zneužití"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "Aplikace"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "Počet aplikací"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Načítání..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "Domů"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "Aplikace"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "Počet aplikací"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -451,36 +298,32 @@ msgstr "Příjem"
 msgid "Daily Total"
 msgstr "Celkem denně"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Domů"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "Počet instalací"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "Počet návštěv"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "Nová hodnocení"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "Počet hodnocení"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "Počet vývojářů"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Ahoj světe!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "Celkový příjem"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "Nenalezeno"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "Počet návštěv"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "Počet vývojářů"

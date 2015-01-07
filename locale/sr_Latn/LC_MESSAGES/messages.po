@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-10-02 04:50+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "Instalacije"
 msgid "Visits"
 msgstr "Posete"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Ocene"
 
@@ -76,19 +76,19 @@ msgstr "Povratne informacije"
 msgid "Support"
 msgstr "Podrška"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "Moje dostave"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "Alatke recenzenta"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "Alatka za pronalaženje"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
@@ -96,15 +96,15 @@ msgstr ""
 "Osim gde je drugačije <a href=\"{legal_url}\" target=\"_blank\">navedeno</a>, sadržaj ovog sajta je licenciran pod <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
 "licencom v3.0</a> ili bilo kojom novijom verzijom."
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "Polisa o privatnosti"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "Uslovi korišćenja"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
 
@@ -119,6 +119,22 @@ msgstr "Ne"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Da"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistike"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odjavi se"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prijavi se"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Primer grafikona"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -168,22 +184,6 @@ msgstr "Instalirane aplikacije"
 msgid "App Ratings"
 msgstr "Ocene aplikacija"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistike"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odjavi se"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prijavi se"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Primer grafikona"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh, ne!"
@@ -192,6 +192,46 @@ msgstr "Oh, ne!"
 msgid "The page you were looking for was not found."
 msgstr "Stranica koju ste tražili nije pronađena."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Desila se greška."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Molimo Vas da se prijavite kako biste nastavili."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Prijavi se / Registruj se"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "Greška na serveru. Molimo Vas pokušajte kasnije."
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "Zahtev za krajnju tačku statistike je nevažeći."
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Greška prilikom autentifikacije. Podaci kojima pokušavate da pristupite nisu javni."
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "Zahtev podataka statistike je nepotpun, ili nepostojeći."
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "Detektovana nepoznata greška servera. Molimo Vas pokušajte kasnije."
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "Uneli ste negativni opseg podataka. Da li želite da se vratite?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "Molimo Vas unesite validni opseg podatka"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Greška prilikom učitavanja"
@@ -199,10 +239,6 @@ msgstr "Greška prilikom učitavanja"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Pokušaj ponovo"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Desila se greška."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -220,228 +256,39 @@ msgstr "Svi regioni"
 msgid "Update"
 msgstr "Ažuriraj"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "Ovaj podatak je zabranjen, ili nije pronađen"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Molimo Vas da se prijavite kako biste nastavili."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Prijavi se / Registruj se"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "Greška na serveru. Molimo Vas pokušajte kasnije."
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "Zahtev za krajnju tačku statistike je nevažeći."
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "Greška prilikom autentifikacije. Podaci kojima pokušavate da pristupite nisu javni."
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "Zahtev podataka statistike je nepotpun, ili nepostojeći."
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "Detektovana nepoznata greška servera. Molimo Vas pokušajte kasnije."
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "Uneli ste negativni opseg podataka. Da li želite da se vratite?"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "Molimo Vas unesite validni opseg podatka"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "Ostatak sveta"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "Argentina"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "Bangladeš"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "Brazil"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "Čile"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "Kina"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "Kolumbija"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "Kostarika"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "Češka"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "Ekvador"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "Salvador"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "Francuska"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "Nemačka"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "Grčka"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "Gvatemala"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "Mađarska"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "Indija"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "Italija"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "Japan"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "Meksiko"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "Crna Gora"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "Nikaragva"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "Panama"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "Peru"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "Poljska"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "Srbija"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "Španija"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "Ujedinjeno Kraljevstvo"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "Sjedinjene Američke Države"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "Urugvaj"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "Venecuela"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "Nema regiona u pretrazi"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "Odjavljeni ste"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "Prijavljeni ste"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Neuspešno prijavljivanje putem Persona-e. Možda nemate nalog pod tom adresom e-pošte?"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Prijavljivanje putem Persona-e nije uspelo. Desila se serverska greška."
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona nije dostupna. Pokušajte ponovo kasnije."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Nema internet veze"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "Preostali broj karaktera: <b>{n}</b>."
-msgstr[1] "Preostali broj karaktera: <b>{n}</b>."
-msgstr[2] "Preostali broj karaktera: <b>{n}</b>."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Broj prijavljenih zloupotreba"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "Aplikacije"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "Broj aplikacija"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Učitavam..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "Početna"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "Aplikacije"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "Broj aplikacija"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -451,36 +298,32 @@ msgstr "Prihod"
 msgid "Daily Total"
 msgstr "Ukupno dnevno"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Početna"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "Broj instaliranja"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "Broj poseta"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "Nove ocene"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "Broj ocena"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "Broj programera"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Zdravo svete!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "Ukupan prihod"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "Nije nađeno"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "Broj poseta"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "Broj programera"

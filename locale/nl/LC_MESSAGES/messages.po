@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-10-01 20:16+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "Installaties"
 msgid "Visits"
 msgstr "Bezoeken"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Waarderingen"
 
@@ -76,19 +76,19 @@ msgstr "Feedback"
 msgid "Support"
 msgstr "Ondersteuning"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "Mijn bijdragen"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "Beoordelaarshulpmiddelen"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "Zoekhulpmiddel"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
@@ -96,15 +96,15 @@ msgstr ""
 "Tenzij anders <a href=\"{legal_url}\" target=\"_blank\">vermeld</a>, is op de inhoud van deze website de <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
 "v3.0</a> of latere versie van toepassing."
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "Privacybeleid"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "Gebruiksvoorwaarden"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
@@ -119,6 +119,22 @@ msgstr "Nee"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Voorbeeldgrafiek"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -168,22 +184,6 @@ msgstr "Geïnstalleerde apps"
 msgid "App Ratings"
 msgstr "App-waarderingen"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistieken"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Voorbeeldgrafiek"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh nee!"
@@ -192,6 +192,46 @@ msgstr "Oh nee!"
 msgid "The page you were looking for was not found."
 msgstr "De door u gezochte pagina is niet gevonden."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Meld u aan om door te gaan."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Aanmelden / Registreren"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "Serverfout gedetecteerd. Probeer het later nog eens."
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "Het gevraagde statistiekeneindpunt is ongeldig."
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Authenticatiefout gedetecteerd. De gegevens die u probeert te benaderen zijn niet openbaar."
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "De aanvraag voor statistiekgegevens is onvolledig of ongeldig."
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "Er is een onbekende serverfout gedetecteerd. Probeer het later nog eens."
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "U hebt een negatief datumbereik ingevoerd. Omkeren?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "Voer een geldig datumbereik in"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Fout bij het laden van meer"
@@ -199,10 +239,6 @@ msgstr "Fout bij het laden van meer"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Opnieuw proberen"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -221,227 +257,39 @@ msgstr "Alle regio’s"
 msgid "Update"
 msgstr "Bijwerken"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "Deze gegevens zijn beperkt toegankelijk of er zijn geen gegevens gevonden"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Meld u aan om door te gaan."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Aanmelden / Registreren"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "Serverfout gedetecteerd. Probeer het later nog eens."
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "Het gevraagde statistiekeneindpunt is ongeldig."
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "Authenticatiefout gedetecteerd. De gegevens die u probeert te benaderen zijn niet openbaar."
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "De aanvraag voor statistiekgegevens is onvolledig of ongeldig."
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "Er is een onbekende serverfout gedetecteerd. Probeer het later nog eens."
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "U hebt een negatief datumbereik ingevoerd. Omkeren?"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "Voer een geldig datumbereik in"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "Rest van de wereld"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "Argentinië"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "Bangladesh"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "Brazilië"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "Chili"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "China"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "Colombia"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "Costa Rica"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "Tsjechië"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "Ecuador"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "El Salvador"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "Frankrijk"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "Duitsland"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "Griekenland"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "Guatemala"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "Hongarije"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "India"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "Italië"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "Japan"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "Mexico"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "Montenegro"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "Nicaragua"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "Panama"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "Peru"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "Polen"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "Servië"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "Spanje"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "Verenigd Koninkrijk"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "Verenigde Staten"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "Uruguay"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "Venezuela"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "Geen regio in zoekopdracht"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "U bent afgemeld"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "U bent aangemeld"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona-aanmelding mislukt. Misschien hebt u geen account met dat e-mailadres?"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona-aanmelding mislukt. Er is een serverfout opgetreden."
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona is niet te bereiken. Probeer het later nog eens."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Geen internetverbinding"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b>{n}</b> teken resterend."
-msgstr[1] "<b>{n}</b> tekens resterend."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Aantal misbruikmeldingen"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "Apps"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "Aantal apps"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Laden…"
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "Start"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "Apps"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "Aantal apps"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -451,36 +299,32 @@ msgstr "Inkomsten"
 msgid "Daily Total"
 msgstr "Dagelijks totaal"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Start"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "Aantal installaties"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "Aantal bezoeken"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "Nieuwe waarderingen"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "Aantal waarderingen"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "Aantal ontwikkelaars"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Hallo wereld!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "Totale inkomsten"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "Niet gevonden"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "Aantal bezoeken"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "Aantal ontwikkelaars"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-10-15 02:31+0000\n"
 "Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -39,7 +39,7 @@ msgstr "インストール数"
 msgid "Visits"
 msgstr "ホームページ訪問者数"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "評価"
 
@@ -76,19 +76,19 @@ msgstr "フィードバック"
 msgid "Support"
 msgstr "サポート"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "自分の登録アプリ"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "審査担当者用ツール"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "検索ツール"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
@@ -96,15 +96,15 @@ msgstr ""
 "特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
 "のバージョンで公開されています。"
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "利用規約"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
@@ -119,6 +119,22 @@ msgstr "いいえ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "はい"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "統計情報"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ログイン"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "サンプルチャート"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -168,22 +184,6 @@ msgstr "インストールされたアプリ"
 msgid "App Ratings"
 msgstr "アプリの評価"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "統計情報"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ログアウト"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ログイン"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "サンプルチャート"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ページが見つかりません"
@@ -192,6 +192,46 @@ msgstr "ページが見つかりません"
 msgid "The page you were looking for was not found."
 msgstr "お探しのページは見つかりませんでした。"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "サーバエラーが発生しました。また後で試してください。"
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "リクエストされた統計エンドポイントが不正です。"
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "認証エラーが発生しました。あなたが取得しようとしたデータは公開されていません。"
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "統計データのリクエストが不完全もしくは不正です。"
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "不明なサーバエラーが発生しました。また後で試してください。"
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "マイナスの日付範囲が入力されました。開始日と終了日が逆の可能性があります。"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "正しい日付範囲を入力してください。"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "読み込み中に問題が発生しました"
@@ -199,10 +239,6 @@ msgstr "読み込み中に問題が発生しました"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再読み込み"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -220,227 +256,39 @@ msgstr "すべての地域"
 msgid "Update"
 msgstr "更新"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "このデータは閲覧が制限されているか、データが見つかりませんでした"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "サーバエラーが発生しました。また後で試してください。"
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "リクエストされた統計エンドポイントが不正です。"
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "認証エラーが発生しました。あなたが取得しようとしたデータは公開されていません。"
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "統計データのリクエストが不完全もしくは不正です。"
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "不明なサーバエラーが発生しました。また後で試してください。"
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "マイナスの日付範囲が入力されました。開始日と終了日が逆の可能性があります。"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "正しい日付範囲を入力してください。"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "その他の地域"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "アルゼンチン"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "バングラデシュ"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "ブラジル"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "チリ"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "中国"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "コロンビア"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "コスタリカ"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "チェコ共和国"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "エクアドル"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "エルサルバドル"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "フランス"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "ドイツ"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "ギリシャ"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "グアテマラ"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "ハンガリー"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "インド"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "イタリア"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "日本"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "メキシコ"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "モンテネグロ"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "ニカラグア"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "パナマ"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "ペルー"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "ポーランド"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "セルビア"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "スペイン"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "イギリス"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "アメリカ"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "ウルグアイ"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "ベネズエラ"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "該当する地域はありません"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "ログアウトしました"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "ログインしました"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona のログインに失敗しました。入力されたメールアドレスのアカウントは存在しない可能性があります。"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona のログインに失敗しました。サーバエラーが発生しました。"
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona サーバに接続できませんでした。また後で試してください。"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "インターネットに接続されていません"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "残り <b>{n}</b> 文字です。"
-msgstr[1] "残り <b>{n}</b> 文字です。"
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "不正報告数"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "アプリ"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "アプリの数"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "読み込み中..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "ホーム"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "アプリ"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "アプリの数"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -450,36 +298,32 @@ msgstr "売上金額"
 msgid "Daily Total"
 msgstr "日別合計"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "ホーム"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "インストール回数"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "訪問回数"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "新規評価数"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "評価数"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "開発者数"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "みなさん、こんにちは！"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "合計売上金額"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "ページが見つかりません"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "訪問回数"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "開発者数"

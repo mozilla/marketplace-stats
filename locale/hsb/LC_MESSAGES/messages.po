@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-12-27 20:31+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1419712314.0\n"
 
@@ -19,13 +18,11 @@ msgstr ""
 msgid "Statistics Dashboard"
 msgstr "Přehlad statistiki"
 
-#: /templates/app_dashboard.html:5
-#: /templates/per_app_chart.html:11
+#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
 msgid "Edit Listing"
 msgstr "Zapisk lisćiny wobdźěłać"
 
-#: /templates/app_dashboard.html:7
-#: /templates/per_app_chart.html:13
+#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
 msgid "Global Stats"
 msgstr "Globalna statistika"
 
@@ -33,45 +30,29 @@ msgstr "Globalna statistika"
 msgid "Number of Installs:"
 msgstr "Ličba instalacijow:"
 
-#: /templates/app_dashboard.html:13
-#: /media/js/views/per_app_installs.js:10
-#: /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
 msgid "Installs"
 msgstr "Instalacije"
 
-#: /templates/app_dashboard.html:16
-#: /templates/homepage.html:33
-#: /media/js/views/per_app_visits.js:10
-#: /media/js/views/per_app_visits.js:17
-#: /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Wopyty"
 
-#: /templates/app_dashboard.html:19
-#: /media/js/views/ratings.js:17
-#: /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Pohódnoćenja"
 
-#: /templates/app_dashboard.html:22
-#: /templates/homepage.html:68
-#: /media/js/views/abuse_reports.js:11
-#: /media/js/views/abuse_reports.js:18
-#: /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Zdźělenja wo znjewužiwanju"
 
-#: /templates/app_dashboard.html:25
-#: /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:10
 msgid "Average Rating"
 msgstr "Přerězne pohódnoćenje"
 
-#: /templates/app_dashboard.html:29
-#: /templates/homepage.html:75
-#: /media/js/views/gross_revenue.js:10
-#: /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Bruttodochody"
 
@@ -95,34 +76,35 @@ msgstr "Komentary"
 msgid "Support"
 msgstr "Pomoc"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "Moje zapodaća"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "Nastroje přepruwowarja"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "Nastroj pohladanja"
 
-#: /templates/footer.html:27
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+#: /templates/footer.html:25
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Jeli njeje hinak <a href=\"{legal_url}\" target=\"_blank\">zapisane</a>, je "
-"wobsah tuteje strony pod licencu <a href=\"{cc_url}\" target=\"_blank\">Creative "
-"Commons Attribution Share-Alike License v3.0</a> abo pod pozdźišej wersiju."
+"Jeli njeje hinak <a href=\"{legal_url}\" target=\"_blank\">zapisane</a>, je wobsah tuteje strony pod licencu <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
+"v3.0</a> abo pod pozdźišej wersiju."
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "Prawidła priwatnosće"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "Wužiwanske wuměnjenja"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
 
@@ -137,64 +119,6 @@ msgstr "Ně"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Haj"
-
-#: /templates/homepage.html:6
-msgid "App Installations"
-msgstr "Nałoženske instalacije"
-
-#: /templates/homepage.html:9
-#: /templates/homepage.html:13
-#: /templates/homepage.html:17
-msgid "N/A"
-msgstr "Nic k dispoziciji"
-
-#: /templates/homepage.html:10
-#: /templates/homepage.html:28
-#: /media/js/views/total_developers.js:10
-#: /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "Wuwiwarjo"
-
-#: /templates/homepage.html:14
-msgid "Transactions"
-msgstr "Transakcije"
-
-#: /templates/homepage.html:18
-msgid "Net payments"
-msgstr "Nettopłaćenja"
-
-#: /templates/homepage.html:18
-msgid "USD"
-msgstr "US-$"
-
-#: /templates/homepage.html:38
-#: /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "Nowe nałoženja po płaćenskim wašnju"
-
-#: /templates/homepage.html:43
-#: /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "Nowe nałoženja po nałoženskim typje"
-
-#: /templates/homepage.html:48
-#: /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "Nałoženja po płaćenskim wašnju"
-
-#: /templates/homepage.html:53
-#: /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "Nałoženja po nałoženskim typje"
-
-#: /templates/homepage.html:58
-#: /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "Instalowane nałoženja"
-
-#: /templates/homepage.html:63
-msgid "App Ratings"
-msgstr "Nałoženske pohódnoćenja"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -212,14 +136,101 @@ msgstr "Přizjewić"
 msgid "Sample Chart"
 msgstr "Přikładowy diagram"
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
+#: /templates/homepage.html:6
+msgid "App Installations"
+msgstr "Nałoženske instalacije"
+
+#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
+msgid "N/A"
+msgstr "Nic k dispoziciji"
+
+#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "Wuwiwarjo"
+
+#: /templates/homepage.html:14
+msgid "Transactions"
+msgstr "Transakcije"
+
+#: /templates/homepage.html:18
+msgid "Net payments"
+msgstr "Nettopłaćenja"
+
+#: /templates/homepage.html:18
+msgid "USD"
+msgstr "US-$"
+
+#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "Nowe nałoženja po płaćenskim wašnju"
+
+#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "Nowe nałoženja po nałoženskim typje"
+
+#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "Nałoženja po płaćenskim wašnju"
+
+#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "Nałoženja po nałoženskim typje"
+
+#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "Instalowane nałoženja"
+
+#: /templates/homepage.html:63
+msgid "App Ratings"
+msgstr "Nałoženske pohódnoćenja"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ow ně!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Strona, kotruž sće pytał, njeje so namakała."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmylk je wustupił."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Prošu přizjewće so, zo byšće poékročował"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Přizjewić / Registrować"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "Serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "Kónčny dypk statistiki je njepłaćiwy."
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Zwrěšćenje awtentifikacije je so spóznało. Daty, na kotrež chceće přistup měć, zjawne njejsu."
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "Naprašowanje za statistiske daty je njedospołne abo njepłaćiwe."
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "Njeznaty serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "Sće negatiwny datowy wobłuk zapodał. Wobroćić?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "Prošu zapodajće płaćiwy datowy wobłuk"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -228,10 +239,6 @@ msgstr "Zmylk při začitowanju dalšich datow"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Hišće raz spytać"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmylk je wustupił."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -249,244 +256,41 @@ msgstr "Wšě regiony"
 msgid "Update"
 msgstr "Aktualizacija"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "Tute daty su wobmjezowane abo daty njejsu so namakali"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Prošu přizjewće so, zo byšće poékročował"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Přizjewić / Registrować"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "Serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "Kónčny dypk statistiki je njepłaćiwy."
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
-"Zwrěšćenje awtentifikacije je so spóznało. Daty, na kotrež chceće přistup "
-"měć, zjawne njejsu."
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "Naprašowanje za statistiske daty je njedospołne abo njepłaćiwe."
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Njeznaty serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "Sće negatiwny datowy wobłuk zapodał. Wobroćić?"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "Prošu zapodajće płaćiwy datowy wobłuk"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "Zbytk swěta"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "Argentinska"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "Bangladeš"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "Brazilska"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "Chile"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "China"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "Kolumbiska"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "Kosta Rika"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "Čěska republika"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "Ekuador"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "El Salvador"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "Francoska"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "Němska"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "Grjekska"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "Guatemala"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "Madźarska"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "Indiska"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "Italska"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "Japanska"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "Mexiko"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "Čorna Hora"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "Nikaragua"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "Panama"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "Peru"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "Pólska"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "Serbiska"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "Španiska"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "Zjednoćene kralestwo"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "Zjednoćene staty"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "Uruguay"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "Venezuela"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "Žadyn region w pytanju"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "Sće so wotzjewił"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "Sće so přizjewił"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"Přizjewjenje z Persona je so nimokuliło. Snano nimaće konto pod tutej "
-"e-mejlowej adresu?"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Přizjewjenje z Persona je so nimokuliło. Serwerowy zmylk je wustupił."
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona njeda so docpěć. Spytajće pozdźišo hišće raz."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Žadyn internetny zwisk"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b>{n}</b> znamješko wyše."
-msgstr[1] "<b>{n}</b> znamješce wyše."
-msgstr[2] "<b>{n}</b> znamješka wyše."
-msgstr[3] "<b>{n}</b> znamješkow wyše."
-
-#: /media/js/views/abuse_reports.js:19
-#: /media/js/views/per_app_abuse_reports.js:18
+#: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Ličba zdźělenjow znjewužiwanja"
-
-#: /media/js/views/apps_available_by_type.js:17
-#: /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_added.js:18
-#: /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "Nałoženja"
-
-#: /media/js/views/apps_available_by_type.js:18
-#: /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "Ličba nałoženjow"
 
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Začituje so..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "Startowa strona"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "Nałoženja"
 
-#: /media/js/views/gross_revenue.js:17
-#: /media/js/views/per_app_revenue.js:17
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "Ličba nałoženjow"
+
+#: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
 msgstr "Dochody"
 
@@ -494,39 +298,32 @@ msgstr "Dochody"
 msgid "Daily Total"
 msgstr "Kóždy dźeń dohromady"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Startowa strona"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "Ličba instalacijow"
 
-#: /media/js/views/per_app_visits.js:18
-#: /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "Ličba wopytow"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10
-#: /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "Nowe pohódnoćenja"
 
-#: /media/js/views/ratings.js:18
-#: /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "Ličba pohódnoćenjow"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "Ličba wuwiwarjow"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Halo swět!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "Dochody dohromady"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "Njenamakany"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "Ličba wopytow"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "Ličba wuwiwarjow"

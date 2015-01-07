@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-04-25 03:38+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "ਇੰਸਟਾਲ"
 msgid "Visits"
 msgstr "ਮੁਆਇਨਾ"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "ਮੁੱਲ"
 
@@ -76,19 +76,19 @@ msgstr "ਸੁਝਾਅ"
 msgid "Support"
 msgstr "ਸਹਿਯੋਗ"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "ਮੇਰੀਆਂ ਬੇਨਤੀਆਂ"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "ਸਮੀਖਿਅਕ ਸੰਦ"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "ਖੋਜ ਸੰਦ"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
@@ -96,15 +96,15 @@ msgstr ""
 "ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ 'ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ v3.0 "
 "</ a> ਜਾ ਕੋਈ ਬਾਅਦ ਵਾਲਾ ਵਰਜਨ।"
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "ਗੋਪਨੀਅਤ ਪਾਲਸੀ"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
 
@@ -119,6 +119,22 @@ msgstr "ਨਹੀਂ"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "ਹਾਂ"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "ਅੰਕੜੇ"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ਸਾਈਨ ਆਊਟ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ਸਾਈਨ ਇਨ"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -168,22 +184,6 @@ msgstr "ਐਪਸ ਇੰਸਟਾਲ"
 msgid "App Ratings"
 msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "ਅੰਕੜੇ"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ਸਾਈਨ ਆਊਟ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ਸਾਈਨ ਇਨ"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ਉਹ ਨੋ!"
@@ -192,6 +192,46 @@ msgstr "ਉਹ ਨੋ!"
 msgid "The page you were looking for was not found."
 msgstr "ਤੁਸੀ ਜੋ ਸਫ਼ਾ ਲੱਭ ਰਹੇ ਹੋ ਨਹੀ ਮਿਲਿਆ।"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "ਬੇਨਤੀ ਕੀਤੀ ਅੰਕੜੇ ਸਿਰੇ ਦਾ ਗਲਤ ਹੈ।"
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ ਹੋਣ ਖੋਜਿਆ ਗਿਆ ਹੈ। ਜਿਸ ਡਾਟੇ ਤੱਕ ਤੁਸੀ ਪਹੁੰਚਣ ਲਈ ਤੁਸੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ ਉਹ ਜਨਤਕ ਨਹੀ ਹੈ।"
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "ਅੰਕੜੇ ਡਾਟਾ ਬੇਨਤੀ ਨੂੰ ਅਧੂਰੀ ਜਾ ਗਲਤ ਹੈ।"
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "ਇੱਕ ਅਣਜਾਣੀ ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਸੀ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "ਤੁਸੀ ਇੱਕ ਨਕਾਰਾਤਮਕ ਦੀ ਮਿਤੀ ਰੇਜ਼ ਦਿੱਤੀ ਹੈ। ਉਲਟ?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀਮਾ ਦਿਓ।"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
@@ -199,10 +239,6 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -220,227 +256,39 @@ msgstr "ਹਰ ਖੇਤਰ"
 msgid "Update"
 msgstr "ਅਪਡੇਟ"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "ਇਹ ਡਾਟਾ ਸੀਮਿਤ ਹੈ ਜਾ ਕੋਈ ਵੀ ਡਾਟਾ ਨਹੀ ਮਿਲਿਆ ਹੈ"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "ਬੇਨਤੀ ਕੀਤੀ ਅੰਕੜੇ ਸਿਰੇ ਦਾ ਗਲਤ ਹੈ।"
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ ਹੋਣ ਖੋਜਿਆ ਗਿਆ ਹੈ। ਜਿਸ ਡਾਟੇ ਤੱਕ ਤੁਸੀ ਪਹੁੰਚਣ ਲਈ ਤੁਸੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ ਉਹ ਜਨਤਕ ਨਹੀ ਹੈ।"
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "ਅੰਕੜੇ ਡਾਟਾ ਬੇਨਤੀ ਨੂੰ ਅਧੂਰੀ ਜਾ ਗਲਤ ਹੈ।"
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "ਇੱਕ ਅਣਜਾਣੀ ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਸੀ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "ਤੁਸੀ ਇੱਕ ਨਕਾਰਾਤਮਕ ਦੀ ਮਿਤੀ ਰੇਜ਼ ਦਿੱਤੀ ਹੈ। ਉਲਟ?"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀਮਾ ਦਿਓ।"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "ਬਾਕੀ ਦਾ ਸ਼ੰਸਾਰ"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "ਅਰਜਨਟਿਨਾ"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr ""
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "ਬ੍ਰਾਜ਼ੀਲ"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "ਚਿੱਲੀ"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "ਚਾਇਨਾ"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "ਕੰਲੋਬਿਆ"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "ਕੋਸਟਾ ਰੀਕਾ"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr ""
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "ਏਕਵਾਡੋਰ"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "ਏਲ ਸਲਵਾਡੋਰ"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr ""
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "ਜਰਮਨੀ"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "ਗਰੀਸ"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "ਗੁਆਟੇਮਾਲਾ"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "ਹੰਗਰੀ"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr ""
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "ਇੱਟਲੀ"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr ""
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "ਮੇਕ੍ਸਿਕੋ"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "ਮੋਨਟੈਨਗਰੋ"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "ਨਿਕਾਰਾਗੁਆ"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "ਪੈਨਾਮਾ"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "ਪੇਰੂ"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "ਪੋਲੇਡ"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "ਸਰਬਿਆ"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "ਸਪੇਨ"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "ਯੂਨਾਇਟੇਡ ਕਿੰਗਡਮ"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "ਯੂਨਾਇਟੇਡ ਸਟੇਟਸ"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "ਉਰੂਗਵੇ"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "ਵੈਨੇਜ਼ੁਏਲਾ"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "ਖੋਜ ਵਿੱਚ ਕੋਈ ਖੇਤਰ ਨਹੀਂ"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "ਤੁਹਾਨੂੰ ਸਾਇਨ ਆਉਟ ਕੀਤਾ ਗਿਆ ਹੈ"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "ਤੁਹਾਨੂੰ ਸਾਇਨ ਇਨ ਕੀਤਾ ਗਿਆ ਹੈ"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੋ ਗਿਆ ਹੈ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਮੇਲ ਪਤਾ ਹੇਠ ਇੱਕ ਖਾਤਾ ਨਹੀ ਹੈ?"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona ਲਾਗਇਨ ਫੇਲ੍ਹ ਹੈ। ਇੱਕ ਸਰਵਰ ਗਲਤੀ ਆਈ ਹੈ।"
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "ਕੋਈ ਇੰਟਰਨੈੱਟ ਕੁਨੈਕਸ਼ਨ ਨਹੀ ਹੈ"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b> {n} </ b> ਨੂੰ ਅੱਖਰ ਛੱਡ ਦਿੱਤਾ।"
-msgstr[1] "<b> {n} </ b> ਨੂੰ ਅੱਖਰਾ ਨੂੰ ਛੱਡ ਦਿੱਤਾ।"
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "ਐਪਸ"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "ਲੋਡਿਗ..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "ਹੋਮ"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "ਐਪਸ"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -450,36 +298,32 @@ msgstr "ਰੇਵਿਨਿਉ"
 msgid "Daily Total"
 msgstr "ਰੋਜ਼ਾਨਾ ਕੁੱਲ"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "ਹੋਮ"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "ਇੰਸਟਾਲਾ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "ਮੁਲਾਕਾਤ ਦੀ ਗਿਣਤੀ"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "ਨਵਿਆ ਰੇਟਿਗਾ"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "ਰੇਟਿਗਾ ਦੀ ਗਿਣਤੀ"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "ਡਿਵਿਲਪਰਾ ਦੀ ਗਿਣਤੀ"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr ""
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "ਨਹੀ ਲੱਭਾ"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "ਮੁਲਾਕਾਤ ਦੀ ਗਿਣਤੀ"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "ਡਿਵਿਲਪਰਾ ਦੀ ਗਿਣਤੀ"

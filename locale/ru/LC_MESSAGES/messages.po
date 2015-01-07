@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-10-05 15:33+0000\n"
 "Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian <Russian <ru@li.org>>\n"
@@ -40,7 +40,7 @@ msgstr "Установки"
 msgid "Visits"
 msgstr "Посещения"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "Оценки"
 
@@ -77,19 +77,19 @@ msgstr "Обратная Связь"
 msgid "Support"
 msgstr "Поддержка"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "Мои Материалы"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "Инструменты Рецензий"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "Инструмент поиска"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
@@ -97,15 +97,15 @@ msgstr ""
 "За исключением содержимого с <a href=\"{legal_url}\" target=\"_blank\">явно указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <a href=\"{cc_url}\" target=\"_blank\">лицензии "
 "Creative Commons Атрибуция — С сохранением условий версии 3.0</a> или более поздней."
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "Политика приватности"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "Условия использования"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
@@ -120,6 +120,22 @@ msgstr "Нет"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Статистика"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Войти"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Образец Графика"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -169,22 +185,6 @@ msgstr "Установок приложений"
 msgid "App Ratings"
 msgstr "Оценок приложения"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Статистика"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Выйти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Войти"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Образец Графика"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "О, нет!"
@@ -193,6 +193,46 @@ msgstr "О, нет!"
 msgid "The page you were looking for was not found."
 msgstr "Страница, которую вы искали, не была найдена."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Произошла ошибка."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Войдите чтобы продолжить."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "Ошибка Сервера. Попробуйте позже."
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "Окончание статистики недействительно."
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Сбой Авторизации. Данные закрыты, и недоступны."
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "Запрос статистики неполон или недействителен."
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "Неизвестная Ошибка. Повторите Позже."
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "Вы ввели отрицательные даты. Изменить?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "Введите дату в правильном диапазоне."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Ошибка при загрузке"
@@ -200,10 +240,6 @@ msgstr "Ошибка при загрузке"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Попробовать снова"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Произошла ошибка."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -221,228 +257,39 @@ msgstr "Все регионы"
 msgid "Update"
 msgstr "Обновление"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "Доступ к этим данным ограничен или данные не найдены"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Войдите чтобы продолжить."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "Ошибка Сервера. Попробуйте позже."
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "Окончание статистики недействительно."
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "Сбой Авторизации. Данные закрыты, и недоступны."
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "Запрос статистики неполон или недействителен."
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "Неизвестная Ошибка. Повторите Позже."
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "Вы ввели отрицательные даты. Изменить?"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "Введите дату в правильном диапазоне."
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "Остальной мир"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "Аргентина"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "Бангладеш"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "Бразилия"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "Чили"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "Китай"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "Колумбия"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "Коста-Рика"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "Чехия"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "Эквадор"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "Сальвадор"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "Франция"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "Германия"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "Греция"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "Гватемала"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "Венгрия"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "Индия"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "Италия"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "Япония"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "Мексика"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "Черногория"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "Никарагуа"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "Панама"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "Перу"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "Польша"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "Сербия"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "Испания"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "Великобритания"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "США"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "Уругвай"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "Венесуэла"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "В поиске нет региона"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "Вы вышли из системы"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "Вы вошли в систему"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Вход через Persona не удался. Может быть у вас нет учётной записи для этого адреса эл. почты?"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Вход через Persona не удался. Произошла ошибка сервера."
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Не удалось связаться с Persona. Попробуйте позже."
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "Нет подключения к Интернету"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "остался <b>{n}</b> символ"
-msgstr[1] "осталось <b>{n}</b> символа"
-msgstr[2] "осталось <b>{n}</b> символов"
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Число жалоб"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "Приложения"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "Число приложений"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "Домой"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "Приложения"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "Число приложений"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -452,36 +299,32 @@ msgstr "Доход"
 msgid "Daily Total"
 msgstr "Всего за День"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "Домой"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "Число установок"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "Число посещений"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "Новые оценки"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "Число оценок"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "Число разработчиков"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Привет, мир!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "Общий доход"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "Не найдена"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "Число посещений"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "Число разработчиков"

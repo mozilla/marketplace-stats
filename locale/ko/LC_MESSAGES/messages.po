@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-08-15 02:27+0000\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "설치"
 msgid "Visits"
 msgstr "방문"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "등급"
 
@@ -76,19 +76,19 @@ msgstr "피드백"
 msgid "Support"
 msgstr "지원"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "제출 항목"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "검토 도구"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "조회 도구"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
@@ -96,15 +96,15 @@ msgstr ""
 "별도의 <a href=\"{legal_url}\" target=\"_blank\">고지</a>가 없는 한, 모든 콘텐츠 <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a>이상 라이선스에 따릅"
 "니다."
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "개인 정보 보호 정책"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "이용 약관"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "상표권 침해 신고"
 
@@ -119,6 +119,22 @@ msgstr "아니오"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "예"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "통계"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "예제 차트"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -168,22 +184,6 @@ msgstr "이미 설치된 앱"
 msgid "App Ratings"
 msgstr "앱 등급"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "통계"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "예제 차트"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "안돼요!"
@@ -192,6 +192,46 @@ msgstr "안돼요!"
 msgid "The page you were looking for was not found."
 msgstr "찾고 계신 페이지는 존재하지 않는 페이지입니다."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "에러가 발생하였습니다."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "계속하려면 로그인하세요."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "로그인 / 회원 가입"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "서버 에러가 발생하였습니다. 다음에 다시 시도해주세요."
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "요청된 통계 엔드 포인트는 유효하지 않습니다."
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "인증이 실패했습니다. 현재 보려는 데이터는 공개되어 있지 않습니다."
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "통계 데이터 요청이 불완전하거나 유효하지 않습니다."
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "알려지지 않은 서버 에러가 발견되었습니다. 나중에 다시 시도하세요."
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "요청 데이터 구간이 바르지 않습니다. 고치시겠습니까?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "유효한 범위의 날짜를 입력"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "로딩하던 중 에러"
@@ -199,10 +239,6 @@ msgstr "로딩하던 중 에러"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "다시 시도하기"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "에러가 발생하였습니다."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -220,226 +256,39 @@ msgstr "모든 지역"
 msgid "Update"
 msgstr "업데이트"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "현재 데이터는 제한되어 있거나 존재하지 않습니다."
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "계속하려면 로그인하세요."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "로그인 / 회원 가입"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "서버 에러가 발생하였습니다. 다음에 다시 시도해주세요."
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "요청된 통계 엔드 포인트는 유효하지 않습니다."
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "인증이 실패했습니다. 현재 보려는 데이터는 공개되어 있지 않습니다."
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "통계 데이터 요청이 불완전하거나 유효하지 않습니다."
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "알려지지 않은 서버 에러가 발견되었습니다. 나중에 다시 시도하세요."
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "요청 데이터 구간이 바르지 않습니다. 고치시겠습니까?"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "유효한 범위의 날짜를 입력"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "그 외 국가"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "아르헨티나"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "방글라데시"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "브라질"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "칠레"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "중국"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "콜롬비아"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "코스타리카"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr ""
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "에쿠아도르"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "엘살바드로"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "프랑스"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "독일"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "그리스"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "과테말라"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "헝가리"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr ""
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "이탈리아"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr ""
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "멕시코"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "몬테네그로"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "니카라과"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "파나마"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "페루"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "폴란드"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "세르비아"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "스페인"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "영국"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "미국"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "우루과이"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "베네수엘라"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "검색에 지역 없음"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "로그아웃 완료"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "로그인 중"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "페르소나 로그인이 실패하였습니다. 이메일 주소를 다시 한 번 확인해주세요."
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "서버 에러가 발생하여 페르소나 로그인이 실패하였습니다."
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr ""
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "인터넷 연결 안됨"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b>{n}</b> 문자 남았습니다."
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "어뷰징 신고 수"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "앱"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "앱 개수"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "읽어오는 중..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "홈"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "앱"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "앱 개수"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -449,36 +298,32 @@ msgstr "수익"
 msgid "Daily Total"
 msgstr "일일 총계"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "홈"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "설치된 수"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "방문자 수"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "새로운 등급"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "별점"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "개발자 수"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr ""
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "총 수익"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "찾을 수 없음"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "방문자 수"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "개발자 수"

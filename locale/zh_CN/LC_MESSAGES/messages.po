@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
 "PO-Revision-Date: 2014-10-01 23:38+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "安装"
 msgid "Visits"
 msgstr "访问"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "评分"
 
@@ -76,33 +76,33 @@ msgstr "反馈"
 msgid "Support"
 msgstr "支持"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "我提交的应用"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "审核者工具"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "搜索工具"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr "除非<a href=\"{legal_url}\" target=\"_blank\">另有说明</a>，本站的内容使用<a href=\"{cc_url}\" target=\"_blank\">知识共享 署名-相同方式共享 3.0协议</a>或更新版本授权发布。"
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "隐私权政策"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "使用条款"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "举报商标滥用"
 
@@ -117,6 +117,22 @@ msgstr "否"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "是"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "统计"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "注销"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登录"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "示例图表"
 
 #: /templates/homepage.html:6
 msgid "App Installations"
@@ -166,22 +182,6 @@ msgstr "安装的应用"
 msgid "App Ratings"
 msgstr "应用评分"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "统计"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "注销"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登录"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "示例图表"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "噢不！"
@@ -190,6 +190,46 @@ msgstr "噢不！"
 msgid "The page you were looking for was not found."
 msgstr "找不到你想找的页面。"
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "发生错误。"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "请登录以继续。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "登录/注册"
+
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "检测到服务器错误。请稍后重试。"
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "请求的统计端点无效。"
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "检测到认证失败。您尝试访问的数据非公开状态。"
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "请求的统计数据不完整或无效。"
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "检测到未知的服务器错误。请稍候重试。"
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "您输入了反向的日期范围，要翻转吗？"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "请输入有效的日期范围"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "载入更多时出错"
@@ -197,10 +237,6 @@ msgstr "载入更多时出错"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "重试"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "发生错误。"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -218,226 +254,39 @@ msgstr "所有地区"
 msgid "Update"
 msgstr "更新"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "此数据已经被限制或者未找到"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "请登录以继续。"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "登录/注册"
-
-#: /media/js/chartutils.js:24
-msgid "Server error detected. Please try again later."
-msgstr "检测到服务器错误。请稍后重试。"
-
-#: /media/js/chartutils.js:25
-msgid "The statistics endpoint requested is invalid."
-msgstr "请求的统计端点无效。"
-
-#: /media/js/chartutils.js:26
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "检测到认证失败。您尝试访问的数据非公开状态。"
-
-#: /media/js/chartutils.js:27
-msgid "The statistics data request is incomplete or invalid."
-msgstr "请求的统计数据不完整或无效。"
-
-#: /media/js/chartutils.js:28
-msgid "An unknown server error was detected. Please try again later."
-msgstr "检测到未知的服务器错误。请稍候重试。"
-
-#: /media/js/chartutils.js:85
-msgid "You have entered a negative date range. Reverse?"
-msgstr "您输入了反向的日期范围，要翻转吗？"
-
-#: /media/js/chartutils.js:94
-msgid "Please enter a valid date range"
-msgstr "请输入有效的日期范围"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "世界上的其他地区"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "阿根廷"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "孟加拉"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "巴西"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "智利"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "中国"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "哥伦比亚"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "哥斯达黎加"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "捷克共和国"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "厄瓜多尔"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "萨尔瓦多"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "法国"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "德国"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "希腊"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "危地马拉"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "匈牙利"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "印度"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "意大利"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "日本"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "墨西哥"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "黑山"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "尼加拉瓜"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "巴拿马"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "秘鲁"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "波兰"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "塞尔维亚"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "西班牙"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "英国"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "美国"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "乌拉圭"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "委内瑞拉"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "无区域搜索"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "您已登出"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "您已登录"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr "Persona 登录失败。也许你没有在此邮件地址下的账户？"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "Persona 登录失败。发生服务器错误。"
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "Persona 无法到达。请稍后重试。"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "没有网络连接"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "剩余 <b>{n}</b> 个字符。"
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "滥用报告数量"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "应用"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "应用数量"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "正在载入…"
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "首页"
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "应用"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "应用数量"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -447,36 +296,32 @@ msgstr "收入"
 msgid "Daily Total"
 msgstr "每日总共"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "首页"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "安装次数"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "访问次数"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "新评分"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "评分数量"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "开发者数量"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "Hello World!"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "总收入"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "找不到"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "访问次数"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "开发者数量"
