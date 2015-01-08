@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
-"PO-Revision-Date: 2014-10-02 01:47+0000\n"
+"PO-Revision-Date: 2015-01-08 15:31+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412214473.0\n"
+"X-POOTLE-MTIME: 1420731114.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -256,15 +256,15 @@ msgstr "更新"
 
 #: /templates/includes/chartbody.html:19
 msgid "day"
-msgstr ""
+msgstr "日"
 
 #: /templates/includes/chartbody.html:20
 msgid "week"
-msgstr ""
+msgstr "週"
 
 #: /templates/includes/chartbody.html:21
 msgid "month"
-msgstr ""
+msgstr "月"
 
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
