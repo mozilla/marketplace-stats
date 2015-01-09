@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
-"PO-Revision-Date: 2014-10-05 09:08+0000\n"
+"PO-Revision-Date: 2015-01-09 08:12+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1412500105.0\n"
+"X-POOTLE-MTIME: 1420791164.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -258,15 +258,15 @@ msgstr "Aktualizace"
 
 #: /templates/includes/chartbody.html:19
 msgid "day"
-msgstr ""
+msgstr "den"
 
 #: /templates/includes/chartbody.html:20
 msgid "week"
-msgstr ""
+msgstr "týden"
 
 #: /templates/includes/chartbody.html:21
 msgid "month"
-msgstr ""
+msgstr "měsíc"
 
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
