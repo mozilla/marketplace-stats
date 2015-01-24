@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
-"PO-Revision-Date: 2014-07-06 20:05+0000\n"
+"PO-Revision-Date: 2015-01-24 18:33+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404677140.0\n"
+"X-POOTLE-MTIME: 1422124400.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -58,7 +58,7 @@ msgstr "Bruttoinntekter"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
-msgstr ""
+msgstr "Ingen offentlig statistikk er tilgjengelig for denne appen"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -258,15 +258,15 @@ msgstr "Oppdater"
 
 #: /templates/includes/chartbody.html:19
 msgid "day"
-msgstr ""
+msgstr "dag"
 
 #: /templates/includes/chartbody.html:20
 msgid "week"
-msgstr ""
+msgstr "uke"
 
 #: /templates/includes/chartbody.html:21
 msgid "month"
-msgstr ""
+msgstr "måned"
 
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
