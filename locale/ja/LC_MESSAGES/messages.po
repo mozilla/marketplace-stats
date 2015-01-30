@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
+"POT-Creation-Date: 2015-01-30T16:57:47.827Z\n"
 "PO-Revision-Date: 2015-01-07 13:03+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -34,7 +34,7 @@ msgstr "インストール回数:"
 msgid "Installs"
 msgstr "インストール数"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "ホームページ訪問者数"
@@ -43,7 +43,7 @@ msgstr "ホームページ訪問者数"
 msgid "Ratings"
 msgstr "評価"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "不正報告"
@@ -52,13 +52,25 @@ msgstr "不正報告"
 msgid "Average Rating"
 msgstr "平均評価"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "総売上金額"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "このアプリの統計情報は公開されていません"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "閉じる"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "いいえ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "はい"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -108,18 +120,6 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "閉じる"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "いいえ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "はい"
-
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "統計情報"
@@ -136,51 +136,31 @@ msgstr "ログイン"
 msgid "Sample Chart"
 msgstr "サンプルチャート"
 
-#: /templates/homepage.html:6
-msgid "App Installations"
-msgstr "アプリのインストール"
-
-#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
-msgid "N/A"
-msgstr "非該当"
-
-#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "開発者"
 
-#: /templates/homepage.html:14
-msgid "Transactions"
-msgstr "トランザクション"
-
-#: /templates/homepage.html:18
-msgid "Net payments"
-msgstr "総支払額"
-
-#: /templates/homepage.html:18
-msgid "USD"
-msgstr "米ドル"
-
-#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "新規アプリ – 決済方法別"
 
-#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "新規アプリ – 種類別"
 
-#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "アプリ – 決済方法別"
 
-#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "アプリ – 種類別"
 
-#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "インストールされたアプリ"
 
-#: /templates/homepage.html:63
+#: /templates/homepage.html:40
 msgid "App Ratings"
 msgstr "アプリの評価"
 
@@ -196,42 +176,6 @@ msgstr "お探しのページは見つかりませんでした。"
 msgid "An error occurred."
 msgstr "問題が発生しました。"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
-
-#: /media/js/chartutils.js:30
-msgid "Server error detected. Please try again later."
-msgstr "サーバエラーが発生しました。また後で試してください。"
-
-#: /media/js/chartutils.js:31
-msgid "The statistics endpoint requested is invalid."
-msgstr "リクエストされた統計エンドポイントが不正です。"
-
-#: /media/js/chartutils.js:32
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "認証エラーが発生しました。あなたが取得しようとしたデータは公開されていません。"
-
-#: /media/js/chartutils.js:33
-msgid "The statistics data request is incomplete or invalid."
-msgstr "統計データのリクエストが不完全もしくは不正です。"
-
-#: /media/js/chartutils.js:34
-msgid "An unknown server error was detected. Please try again later."
-msgstr "不明なサーバエラーが発生しました。また後で試してください。"
-
-#: /media/js/chartutils.js:103
-msgid "You have entered a negative date range. Reverse?"
-msgstr "マイナスの日付範囲が入力されました。開始日と終了日が逆の可能性があります。"
-
-#: /media/js/chartutils.js:115
-msgid "Please enter a valid date range"
-msgstr "正しい日付範囲を入力してください。"
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "読み込み中に問題が発生しました"
@@ -239,6 +183,14 @@ msgstr "読み込み中に問題が発生しました"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再読み込み"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -272,6 +224,34 @@ msgstr "月"
 msgid "This data is restricted or no data found"
 msgstr "このデータは閲覧が制限されているか、データが見つかりませんでした"
 
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "サーバエラーが発生しました。また後で試してください。"
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "リクエストされた統計エンドポイントが不正です。"
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "認証エラーが発生しました。あなたが取得しようとしたデータは公開されていません。"
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "統計データのリクエストが不完全もしくは不正です。"
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "不明なサーバエラーが発生しました。また後で試してください。"
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "マイナスの日付範囲が入力されました。開始日と終了日が逆の可能性があります。"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "正しい日付範囲を入力してください。"
+
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "不正報告数"
@@ -280,12 +260,12 @@ msgstr "不正報告数"
 msgid "Loading..."
 msgstr "読み込み中..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "アプリ"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "アプリの数"

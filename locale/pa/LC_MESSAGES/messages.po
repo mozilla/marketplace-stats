@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
+"POT-Creation-Date: 2015-01-30T16:57:47.827Z\n"
 "PO-Revision-Date: 2014-04-25 03:38+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "ਇੰਸਟਾਲ ਦੇ ਅੰਕ"
 msgid "Installs"
 msgstr "ਇੰਸਟਾਲ"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "ਮੁਆਇਨਾ"
@@ -43,7 +43,7 @@ msgstr "ਮੁਆਇਨਾ"
 msgid "Ratings"
 msgstr "ਮੁੱਲ"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "ਰਿਪੋਰਟ ਦੁਰਵਰਤੋਂ"
@@ -52,13 +52,25 @@ msgstr "ਰਿਪੋਰਟ ਦੁਰਵਰਤੋਂ"
 msgid "Average Rating"
 msgstr "ਔਸਤ ਮੁੱਲ"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "ਸਮੁੱਚਾ ਲਾਭ"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr ""
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "ਹਾਂ"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -108,18 +120,6 @@ msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 msgid "Report Trademark Abuse"
 msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "ਬੰਦ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "ਨਹੀਂ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "ਹਾਂ"
-
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "ਅੰਕੜੇ"
@@ -136,51 +136,31 @@ msgstr "ਸਾਈਨ ਇਨ"
 msgid "Sample Chart"
 msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
 
-#: /templates/homepage.html:6
-msgid "App Installations"
-msgstr "ਐਪ ਇੰਸਟਾਲੇਸ਼ਨ"
-
-#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
-msgid "N/A"
-msgstr "N/A"
-
-#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "ਡਿਵੈਲਪਰ"
 
-#: /templates/homepage.html:14
-msgid "Transactions"
-msgstr "ਲੈਣ-ਦੇਣ"
-
-#: /templates/homepage.html:18
-msgid "Net payments"
-msgstr "ਨੈੱਟ ਭੁਗਤਾਨ"
-
-#: /templates/homepage.html:18
-msgid "USD"
-msgstr "ਅਮਰੀਕੀ ਡਾਲਰ"
-
-#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
 
-#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "ਐਪ ਕਿਸਮ ਰਾਹੀਂ ਨਵੀਆਂ ਐਪਸ"
 
-#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
 
-#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "ਐਪ ਦੀ ਕਿਸਮ ਅਨੁਸਾਰ apps"
 
-#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "ਐਪਸ ਇੰਸਟਾਲ"
 
-#: /templates/homepage.html:63
+#: /templates/homepage.html:40
 msgid "App Ratings"
 msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
 
@@ -196,42 +176,6 @@ msgstr "ਤੁਸੀ ਜੋ ਸਫ਼ਾ ਲੱਭ ਰਹੇ ਹੋ ਨਹੀ �
 msgid "An error occurred."
 msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
-
-#: /media/js/chartutils.js:30
-msgid "Server error detected. Please try again later."
-msgstr "ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
-
-#: /media/js/chartutils.js:31
-msgid "The statistics endpoint requested is invalid."
-msgstr "ਬੇਨਤੀ ਕੀਤੀ ਅੰਕੜੇ ਸਿਰੇ ਦਾ ਗਲਤ ਹੈ।"
-
-#: /media/js/chartutils.js:32
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ ਹੋਣ ਖੋਜਿਆ ਗਿਆ ਹੈ। ਜਿਸ ਡਾਟੇ ਤੱਕ ਤੁਸੀ ਪਹੁੰਚਣ ਲਈ ਤੁਸੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ ਉਹ ਜਨਤਕ ਨਹੀ ਹੈ।"
-
-#: /media/js/chartutils.js:33
-msgid "The statistics data request is incomplete or invalid."
-msgstr "ਅੰਕੜੇ ਡਾਟਾ ਬੇਨਤੀ ਨੂੰ ਅਧੂਰੀ ਜਾ ਗਲਤ ਹੈ।"
-
-#: /media/js/chartutils.js:34
-msgid "An unknown server error was detected. Please try again later."
-msgstr "ਇੱਕ ਅਣਜਾਣੀ ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਸੀ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
-
-#: /media/js/chartutils.js:103
-msgid "You have entered a negative date range. Reverse?"
-msgstr "ਤੁਸੀ ਇੱਕ ਨਕਾਰਾਤਮਕ ਦੀ ਮਿਤੀ ਰੇਜ਼ ਦਿੱਤੀ ਹੈ। ਉਲਟ?"
-
-#: /media/js/chartutils.js:115
-msgid "Please enter a valid date range"
-msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀਮਾ ਦਿਓ।"
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
@@ -239,6 +183,14 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -272,6 +224,34 @@ msgstr ""
 msgid "This data is restricted or no data found"
 msgstr "ਇਹ ਡਾਟਾ ਸੀਮਿਤ ਹੈ ਜਾ ਕੋਈ ਵੀ ਡਾਟਾ ਨਹੀ ਮਿਲਿਆ ਹੈ"
 
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "ਬੇਨਤੀ ਕੀਤੀ ਅੰਕੜੇ ਸਿਰੇ ਦਾ ਗਲਤ ਹੈ।"
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਫੇਲ੍ਹ ਹੋਣ ਖੋਜਿਆ ਗਿਆ ਹੈ। ਜਿਸ ਡਾਟੇ ਤੱਕ ਤੁਸੀ ਪਹੁੰਚਣ ਲਈ ਤੁਸੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ ਉਹ ਜਨਤਕ ਨਹੀ ਹੈ।"
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "ਅੰਕੜੇ ਡਾਟਾ ਬੇਨਤੀ ਨੂੰ ਅਧੂਰੀ ਜਾ ਗਲਤ ਹੈ।"
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "ਇੱਕ ਅਣਜਾਣੀ ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਸੀ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "ਤੁਸੀ ਇੱਕ ਨਕਾਰਾਤਮਕ ਦੀ ਮਿਤੀ ਰੇਜ਼ ਦਿੱਤੀ ਹੈ। ਉਲਟ?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀਮਾ ਦਿਓ।"
+
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
@@ -280,12 +260,12 @@ msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 msgid "Loading..."
 msgstr "ਲੋਡਿਗ..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "ਐਪਸ"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07T16:59:01.969Z\n"
+"POT-Creation-Date: 2015-01-30T16:57:47.827Z\n"
 "PO-Revision-Date: 2015-01-07 17:43+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420652593.0\n"
 
@@ -35,7 +34,7 @@ msgstr "Ličba instalacijow:"
 msgid "Installs"
 msgstr "Instalacije"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "Wopyty"
@@ -44,7 +43,7 @@ msgstr "Wopyty"
 msgid "Ratings"
 msgstr "Pohódnoćenja"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "Zdźělenja wo znjewužiwanju"
@@ -53,13 +52,25 @@ msgstr "Zdźělenja wo znjewužiwanju"
 msgid "Average Rating"
 msgstr "Přerězne pohódnoćenje"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "Bruttodochody"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "Za tute nałoženje zjawne statistiki k dispoziciji njejsu"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Začinić"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ně"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Haj"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -109,18 +120,6 @@ msgstr "Wužiwanske wuměnjenja"
 msgid "Report Trademark Abuse"
 msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Začinić"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ně"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Haj"
-
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistiki"
@@ -137,51 +136,31 @@ msgstr "Přizjewić"
 msgid "Sample Chart"
 msgstr "Přikładowy diagram"
 
-#: /templates/homepage.html:6
-msgid "App Installations"
-msgstr "Nałoženske instalacije"
-
-#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
-msgid "N/A"
-msgstr "Nic k dispoziciji"
-
-#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
 msgstr "Wuwiwarjo"
 
-#: /templates/homepage.html:14
-msgid "Transactions"
-msgstr "Transakcije"
-
-#: /templates/homepage.html:18
-msgid "Net payments"
-msgstr "Nettopłaćenja"
-
-#: /templates/homepage.html:18
-msgid "USD"
-msgstr "US-$"
-
-#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:11
 msgid "New Apps by Payment Type"
 msgstr "Nowe nałoženja po płaćenskim wašnju"
 
-#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:10
 msgid "New Apps by App Type"
 msgstr "Nowe nałoženja po nałoženskim typje"
 
-#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:11
 msgid "Apps by Payment Type"
 msgstr "Nałoženja po płaćenskim wašnju"
 
-#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:10
 msgid "Apps by App Type"
 msgstr "Nałoženja po nałoženskim typje"
 
-#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:10
 msgid "Apps Installed"
 msgstr "Instalowane nałoženja"
 
-#: /templates/homepage.html:63
+#: /templates/homepage.html:40
 msgid "App Ratings"
 msgstr "Nałoženske pohódnoćenja"
 
@@ -197,42 +176,6 @@ msgstr "Strona, kotruž sće pytał, njeje so namakała."
 msgid "An error occurred."
 msgstr "Zmylk je wustupił."
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Prošu přizjewće so, zo byšće poékročował"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Přizjewić / Registrować"
-
-#: /media/js/chartutils.js:30
-msgid "Server error detected. Please try again later."
-msgstr "Serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
-
-#: /media/js/chartutils.js:31
-msgid "The statistics endpoint requested is invalid."
-msgstr "Kónčny dypk statistiki je njepłaćiwy."
-
-#: /media/js/chartutils.js:32
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "Zwrěšćenje awtentifikacije je so spóznało. Daty, na kotrež chceće přistup měć, zjawne njejsu."
-
-#: /media/js/chartutils.js:33
-msgid "The statistics data request is incomplete or invalid."
-msgstr "Naprašowanje za statistiske daty je njedospołne abo njepłaćiwe."
-
-#: /media/js/chartutils.js:34
-msgid "An unknown server error was detected. Please try again later."
-msgstr "Njeznaty serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
-
-#: /media/js/chartutils.js:103
-msgid "You have entered a negative date range. Reverse?"
-msgstr "Sće negatiwny datowy wobłuk zapodał. Wobroćić?"
-
-#: /media/js/chartutils.js:115
-msgid "Please enter a valid date range"
-msgstr "Prošu zapodajće płaćiwy datowy wobłuk"
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Zmylk při začitowanju dalšich datow"
@@ -240,6 +183,14 @@ msgstr "Zmylk při začitowanju dalšich datow"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Hišće raz spytać"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Prošu přizjewće so, zo byšće poékročował"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Přizjewić / Registrować"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -273,6 +224,34 @@ msgstr "měsac"
 msgid "This data is restricted or no data found"
 msgstr "Tute daty su wobmjezowane abo daty njejsu so namakali"
 
+#: /media/js/chartutils.js:30
+msgid "Server error detected. Please try again later."
+msgstr "Serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
+
+#: /media/js/chartutils.js:31
+msgid "The statistics endpoint requested is invalid."
+msgstr "Kónčny dypk statistiki je njepłaćiwy."
+
+#: /media/js/chartutils.js:32
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Zwrěšćenje awtentifikacije je so spóznało. Daty, na kotrež chceće přistup měć, zjawne njejsu."
+
+#: /media/js/chartutils.js:33
+msgid "The statistics data request is incomplete or invalid."
+msgstr "Naprašowanje za statistiske daty je njedospołne abo njepłaćiwe."
+
+#: /media/js/chartutils.js:34
+msgid "An unknown server error was detected. Please try again later."
+msgstr "Njeznaty serwerowy zmylk je so namakał. Prošu spytajće pozdźišo hišće raz."
+
+#: /media/js/chartutils.js:103
+msgid "You have entered a negative date range. Reverse?"
+msgstr "Sće negatiwny datowy wobłuk zapodał. Wobroćić?"
+
+#: /media/js/chartutils.js:115
+msgid "Please enter a valid date range"
+msgstr "Prošu zapodajće płaćiwy datowy wobłuk"
+
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "Ličba zdźělenjow znjewužiwanja"
@@ -281,12 +260,12 @@ msgstr "Ličba zdźělenjow znjewužiwanja"
 msgid "Loading..."
 msgstr "Začituje so..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Nałoženja"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Ličba nałoženjow"

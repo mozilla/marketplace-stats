@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-15T16:06:52.897Z\n"
+"POT-Creation-Date: 2015-01-30T16:57:47.827Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,16 +34,16 @@ msgstr "‮Nnɯqǝɹ oɟ Iusʇɐʅʅs:"
 msgid "Installs"
 msgstr "‮Iusʇɐʅʅs"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:33 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
+#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
 #: /media/js/views/total_visits.js:17
 msgid "Visits"
 msgstr "‮Ʌısıʇs"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:17 /media/js/views/per_app_ratings.js:18
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
 msgid "Ratings"
 msgstr "‮ᴚɐʇıuƃs"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:68 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
+#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
 #: /media/js/views/per_app_abuse_reports.js:17
 msgid "Abuse Reports"
 msgstr "‮∀qnsǝ ᴚǝdoɹʇs"
@@ -52,13 +52,25 @@ msgstr "‮∀qnsǝ ᴚǝdoɹʇs"
 msgid "Average Rating"
 msgstr "‮∀ʌǝɹɐƃǝ ᴚɐʇıuƃ"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:75 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
 msgid "Gross Revenue"
 msgstr "‮⅁ɹoss ᴚǝʌǝunǝ"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "‮No dnqʅıɔ sʇɐʇısʇıɔs ɐɹǝ ɐʌɐıʅɐqʅǝ ɟoɹ ʇɥıs ɐdd"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "‮Ↄʅosǝ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "‮No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "‮⅄ǝs"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -76,99 +88,37 @@ msgstr "‮Ⅎǝǝpqɐɔʞ"
 msgid "Support"
 msgstr "‮Snddoɹʇ"
 
-#: /templates/footer.html:13
+#: /templates/footer.html:11
 msgid "My Submissions"
 msgstr "‮Wʎ Snqɯıssıous"
 
-#: /templates/footer.html:16
+#: /templates/footer.html:14
 msgid "Reviewer Tools"
 msgstr "‮ᴚǝʌıǝʍǝɹ ⊥ooʅs"
 
-#: /templates/footer.html:19
+#: /templates/footer.html:17
 msgid "Lookup Tool"
 msgstr "‮⅂ooʞnd ⊥ooʅ"
 
-#: /templates/footer.html:27
+#: /templates/footer.html:25
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"‮Ǝxɔǝdʇ ʍɥǝɹǝ oʇɥǝɹʍısǝ <a href=\"{legal_url}\" target=\"_blank\""
-">‮uoʇǝp</a>‮´ ɔouʇǝuʇ ou ʇɥıs sıʇǝ ıs ʅıɔǝusǝp nupǝɹ ʇɥǝ <a href=\"{cc_url}\""
-" target=\"_blank\">‮Ↄɹǝɐʇıʌǝ Ↄoɯɯous ∀ʇʇɹıqnʇıou Sɥɐɹǝ-∀ʅıʞǝ ⅂ıɔǝusǝ "
-"ʌ3.0</a>‮ oɹ ɐuʎ ʅɐʇǝɹ ʌǝɹsıou˙"
+"‮Ǝxɔǝdʇ ʍɥǝɹǝ oʇɥǝɹʍısǝ <a href=\"{legal_url}\" target=\"_blank\">‮uoʇǝp</a>‮´ ɔouʇǝuʇ ou ʇɥıs sıʇǝ ıs ʅıɔǝusǝp nupǝɹ ʇɥǝ <a href=\"{cc_url}\" target=\"_blank\">‮Ↄɹǝɐʇıʌǝ Ↄoɯɯous ∀ʇʇɹıqnʇıou Sɥɐɹǝ-"
+"∀ʅıʞǝ ⅂ıɔǝusǝ ʌ3.0</a>‮ oɹ ɐuʎ ʅɐʇǝɹ ʌǝɹsıou˙"
 
-#: /templates/footer.html:32
+#: /templates/footer.html:30
 msgid "Privacy Policy"
 msgstr "‮Ԁɹıʌɐɔʎ Ԁoʅıɔʎ"
 
-#: /templates/footer.html:33
+#: /templates/footer.html:31
 msgid "Terms of Use"
 msgstr "‮⊥ǝɹɯs oɟ ∩sǝ"
 
-#: /templates/footer.html:35
+#: /templates/footer.html:33
 msgid "Report Trademark Abuse"
 msgstr "‮ᴚǝdoɹʇ ⊥ɹɐpǝɯɐɹʞ ∀qnsǝ"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "‮Ↄʅosǝ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "‮No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "‮⅄ǝs"
-
-#: /templates/homepage.html:6
-msgid "App Installations"
-msgstr "‮∀dd Iusʇɐʅʅɐʇıous"
-
-#: /templates/homepage.html:9 /templates/homepage.html:13 /templates/homepage.html:17
-msgid "N/A"
-msgstr "‮N/∀"
-
-#: /templates/homepage.html:10 /templates/homepage.html:28 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "‮ᗡǝʌǝʅodǝɹs"
-
-#: /templates/homepage.html:14
-msgid "Transactions"
-msgstr "‮⊥ɹɐusɐɔʇıous"
-
-#: /templates/homepage.html:18
-msgid "Net payments"
-msgstr "‮Nǝʇ dɐʎɯǝuʇs"
-
-#: /templates/homepage.html:18
-msgid "USD"
-msgstr "‮∩Sᗡ"
-
-#: /templates/homepage.html:38 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "‮Nǝʍ ∀dds qʎ Ԁɐʎɯǝuʇ ⊥ʎdǝ"
-
-#: /templates/homepage.html:43 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "‮Nǝʍ ∀dds qʎ ∀dd ⊥ʎdǝ"
-
-#: /templates/homepage.html:48 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "‮∀dds qʎ Ԁɐʎɯǝuʇ ⊥ʎdǝ"
-
-#: /templates/homepage.html:53 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "‮∀dds qʎ ∀dd ⊥ʎdǝ"
-
-#: /templates/homepage.html:58 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "‮∀dds Iusʇɐʅʅǝp"
-
-#: /templates/homepage.html:63
-msgid "App Ratings"
-msgstr "‮∀dd ᴚɐʇıuƃs"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -186,6 +136,34 @@ msgstr "‮Sıƃu Iu"
 msgid "Sample Chart"
 msgstr "‮Sɐɯdʅǝ Ↄɥɐɹʇ"
 
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
+msgid "Developers"
+msgstr "‮ᗡǝʌǝʅodǝɹs"
+
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:11
+msgid "New Apps by Payment Type"
+msgstr "‮Nǝʍ ∀dds qʎ Ԁɐʎɯǝuʇ ⊥ʎdǝ"
+
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:10
+msgid "New Apps by App Type"
+msgstr "‮Nǝʍ ∀dds qʎ ∀dd ⊥ʎdǝ"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:11
+msgid "Apps by Payment Type"
+msgstr "‮∀dds qʎ Ԁɐʎɯǝuʇ ⊥ʎdǝ"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:10
+msgid "Apps by App Type"
+msgstr "‮∀dds qʎ ∀dd ⊥ʎdǝ"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:10
+msgid "Apps Installed"
+msgstr "‮∀dds Iusʇɐʅʅǝp"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "‮∀dd ᴚɐʇıuƃs"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "‮Oɥ uo¡"
@@ -193,6 +171,10 @@ msgstr "‮Oɥ uo¡"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -202,9 +184,13 @@ msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
 msgid "Try Again"
 msgstr "‮⊥ɹʎ ∀ƃɐıu"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "‮Ԁʅǝɐsǝ sıƃu ıu ʇo dɹoɔǝǝp˙"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "‮Sıƃu ıu / Sıƃu nd"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -222,231 +208,67 @@ msgstr "‮∀ʅʅ ɹǝƃıous"
 msgid "Update"
 msgstr "‮∩dpɐʇǝ"
 
-#: /templates/includes/chartbody.html:18
+#: /templates/includes/chartbody.html:19
+msgid "day"
+msgstr ""
+
+#: /templates/includes/chartbody.html:20
+msgid "week"
+msgstr ""
+
+#: /templates/includes/chartbody.html:21
+msgid "month"
+msgstr ""
+
+#: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "‮⊥ɥıs pɐʇɐ ıs ɹǝsʇɹıɔʇǝp oɹ uo pɐʇɐ ɟonup"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "‮Ԁʅǝɐsǝ sıƃu ıu ʇo dɹoɔǝǝp˙"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "‮Sıƃu ıu / Sıƃu nd"
-
-#: /media/js/chartutils.js:24
+#: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "‮Sǝɹʌǝɹ ǝɹɹoɹ pǝʇǝɔʇǝp˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
 
-#: /media/js/chartutils.js:25
+#: /media/js/chartutils.js:31
 msgid "The statistics endpoint requested is invalid."
 msgstr "‮⊥ɥǝ sʇɐʇısʇıɔs ǝupdoıuʇ ɹǝbnǝsʇǝp ıs ıuʌɐʅıp˙"
 
-#: /media/js/chartutils.js:26
+#: /media/js/chartutils.js:32
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
-"‮∀nʇɥǝuʇıɔɐʇıou ɟɐıʅnɹǝ pǝʇǝɔʇǝp˙ ⊥ɥǝ pɐʇɐ ʎon ɐɹǝ ʇɹʎıuƃ ʇo ɐɔɔǝss ıs uoʇ "
-"dnqʅıɔ˙"
+msgstr "‮∀nʇɥǝuʇıɔɐʇıou ɟɐıʅnɹǝ pǝʇǝɔʇǝp˙ ⊥ɥǝ pɐʇɐ ʎon ɐɹǝ ʇɹʎıuƃ ʇo ɐɔɔǝss ıs uoʇ dnqʅıɔ˙"
 
-#: /media/js/chartutils.js:27
+#: /media/js/chartutils.js:33
 msgid "The statistics data request is incomplete or invalid."
 msgstr "‮⊥ɥǝ sʇɐʇısʇıɔs pɐʇɐ ɹǝbnǝsʇ ıs ıuɔoɯdʅǝʇǝ oɹ ıuʌɐʅıp˙"
 
-#: /media/js/chartutils.js:28
+#: /media/js/chartutils.js:34
 msgid "An unknown server error was detected. Please try again later."
 msgstr "‮∀u nuʞuoʍu sǝɹʌǝɹ ǝɹɹoɹ ʍɐs pǝʇǝɔʇǝp˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
 
-#: /media/js/chartutils.js:85
+#: /media/js/chartutils.js:103
 msgid "You have entered a negative date range. Reverse?"
 msgstr "‮⅄on ɥɐʌǝ ǝuʇǝɹǝp ɐ uǝƃɐʇıʌǝ pɐʇǝ ɹɐuƃǝ˙ ᴚǝʌǝɹsǝ¿"
 
-#: /media/js/chartutils.js:94
+#: /media/js/chartutils.js:115
 msgid "Please enter a valid date range"
 msgstr "‮Ԁʅǝɐsǝ ǝuʇǝɹ ɐ ʌɐʅıp pɐʇǝ ɹɐuƃǝ"
-
-#: /media/js/settings.js:30
-msgid "Rest of World"
-msgstr "‮ᴚǝsʇ oɟ Ｍoɹʅp"
-
-#: /media/js/settings.js:31
-msgid "Argentina"
-msgstr "‮∀ɹƃǝuʇıuɐ"
-
-#: /media/js/settings.js:32
-msgid "Bangladesh"
-msgstr "‮Ԑɐuƃʅɐpǝsɥ"
-
-#: /media/js/settings.js:33
-msgid "Brazil"
-msgstr "‮Ԑɹɐzıʅ"
-
-#: /media/js/settings.js:34
-msgid "Chile"
-msgstr "‮Ↄɥıʅǝ"
-
-#: /media/js/settings.js:35
-msgid "China"
-msgstr "‮Ↄɥıuɐ"
-
-#: /media/js/settings.js:36
-msgid "Colombia"
-msgstr "‮Ↄoʅoɯqıɐ"
-
-#: /media/js/settings.js:37
-msgid "Costa Rica"
-msgstr "‮Ↄosʇɐ ᴚıɔɐ"
-
-#: /media/js/settings.js:38
-msgid "Czech Republic"
-msgstr "‮Ↄzǝɔɥ ᴚǝdnqʅıɔ"
-
-#: /media/js/settings.js:39
-msgid "Ecuador"
-msgstr "‮Ǝɔnɐpoɹ"
-
-#: /media/js/settings.js:40
-msgid "El Salvador"
-msgstr "‮Ǝʅ Sɐʅʌɐpoɹ"
-
-#: /media/js/settings.js:41
-msgid "France"
-msgstr "‮Ⅎɹɐuɔǝ"
-
-#: /media/js/settings.js:42
-msgid "Germany"
-msgstr "‮⅁ǝɹɯɐuʎ"
-
-#: /media/js/settings.js:43
-msgid "Greece"
-msgstr "‮⅁ɹǝǝɔǝ"
-
-#: /media/js/settings.js:44
-msgid "Guatemala"
-msgstr "‮⅁nɐʇǝɯɐʅɐ"
-
-#: /media/js/settings.js:45
-msgid "Hungary"
-msgstr "‮Hnuƃɐɹʎ"
-
-#: /media/js/settings.js:46
-msgid "India"
-msgstr "‮Iupıɐ"
-
-#: /media/js/settings.js:47
-msgid "Italy"
-msgstr "‮Iʇɐʅʎ"
-
-#: /media/js/settings.js:48
-msgid "Japan"
-msgstr "‮ſɐdɐu"
-
-#: /media/js/settings.js:49
-msgid "Mexico"
-msgstr "‮Wǝxıɔo"
-
-#: /media/js/settings.js:50
-msgid "Montenegro"
-msgstr "‮Wouʇǝuǝƃɹo"
-
-#: /media/js/settings.js:51
-msgid "Nicaragua"
-msgstr "‮Nıɔɐɹɐƃnɐ"
-
-#: /media/js/settings.js:52
-msgid "Panama"
-msgstr "‮Ԁɐuɐɯɐ"
-
-#: /media/js/settings.js:53
-msgid "Peru"
-msgstr "‮Ԁǝɹn"
-
-#: /media/js/settings.js:54
-msgid "Poland"
-msgstr "‮Ԁoʅɐup"
-
-#: /media/js/settings.js:55
-msgid "Serbia"
-msgstr "‮Sǝɹqıɐ"
-
-#: /media/js/settings.js:56
-msgid "Spain"
-msgstr "‮Sdɐıu"
-
-#: /media/js/settings.js:57
-msgid "United Kingdom"
-msgstr "‮∩uıʇǝp Ӽıuƃpoɯ"
-
-#: /media/js/settings.js:58
-msgid "United States"
-msgstr "‮∩uıʇǝp Sʇɐʇǝs"
-
-#: /media/js/settings.js:59
-msgid "Uruguay"
-msgstr "‮∩ɹnƃnɐʎ"
-
-#: /media/js/settings.js:60
-msgid "Venezuela"
-msgstr "‮Ʌǝuǝznǝʅɐ"
-
-#: /media/js/settings.js:61
-msgid "No region in search"
-msgstr "‮No ɹǝƃıou ıu sǝɐɹɔɥ"
-
-#: /media/js/commonplace/login.js:24
-msgid "You have been signed out"
-msgstr "‮⅄on ɥɐʌǝ qǝǝu sıƃuǝp onʇ"
-
-#: /media/js/commonplace/login.js:28
-msgid "You have been signed in"
-msgstr "‮⅄on ɥɐʌǝ qǝǝu sıƃuǝp ıu"
-
-#: /media/js/commonplace/login.js:216
-msgid "Persona login failed. Maybe you don't have an account under that email address?"
-msgstr ""
-"‮Ԁǝɹsouɐ ʅoƃıu ɟɐıʅǝp˙ Wɐʎqǝ ʎon pou,ʇ ɥɐʌǝ ɐu ɐɔɔonuʇ nupǝɹ ʇɥɐʇ ǝɯɐıʅ "
-"ɐppɹǝss¿"
-
-#: /media/js/commonplace/login.js:221
-msgid "Persona login failed. A server error was encountered."
-msgstr "‮Ԁǝɹsouɐ ʅoƃıu ɟɐıʅǝp˙ ∀ sǝɹʌǝɹ ǝɹɹoɹ ʍɐs ǝuɔonuʇǝɹǝp˙"
-
-#: /media/js/commonplace/login.js:291
-msgid "Persona cannot be reached. Try again later."
-msgstr "‮Ԁǝɹsouɐ ɔɐuuoʇ qǝ ɹǝɐɔɥǝp˙ ⊥ɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
-
-#: /media/js/commonplace/navigation.js:33
-msgid "No internet connection"
-msgstr "‮No ıuʇǝɹuǝʇ ɔouuǝɔʇıou"
-
-#. {n} is the number of characters left.
-#: /media/js/commonplace/utils.js:28
-msgid "<b>{n}</b> character left."
-msgid_plural "<b>{n}</b> characters left."
-msgstr[0] "<b>‮{u}</b>‮ ɔɥɐɹɐɔʇǝɹ ʅǝɟʇ˙"
-msgstr[1] "<b>‮{u}</b>‮ ɔɥɐɹɐɔʇǝɹs ʅǝɟʇ˙"
 
 #: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
 msgid "Number of Abuse Reports"
 msgstr "‮Nnɯqǝɹ oɟ ∀qnsǝ ᴚǝdoɹʇs"
 
-#: /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18
-#: /media/js/views/apps_installed.js:17
-msgid "Apps"
-msgstr "‮∀dds"
-
-#: /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_installed.js:18
-msgid "Number of Apps"
-msgstr "‮Nnɯqǝɹ oɟ ∀dds"
-
 #: /media/js/views/app_dashboard.js:24
 msgid "Loading..."
 msgstr "‮⅂oɐpıuƃ˙˙˙"
 
-#. Page not found (404)
-#: /media/js/views/home.js:13
-msgid "Home"
-msgstr "‮Hoɯǝ"
+#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_installed.js:17
+msgid "Apps"
+msgstr "‮∀dds"
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_installed.js:18
+msgid "Number of Apps"
+msgstr "‮Nnɯqǝɹ oɟ ∀dds"
 
 #: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
 msgid "Revenue"
@@ -456,36 +278,32 @@ msgstr "‮ᴚǝʌǝunǝ"
 msgid "Daily Total"
 msgstr "‮ᗡɐıʅʎ ⊥oʇɐʅ"
 
+#. Page not found (404)
+#: /media/js/views/home.js:13
+msgid "Home"
+msgstr "‮Hoɯǝ"
+
 #: /media/js/views/per_app_installs.js:18
 msgid "Number of Installs"
 msgstr "‮Nnɯqǝɹ oɟ Iusʇɐʅʅs"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
-msgid "Number of Visits"
-msgstr "‮Nnɯqǝɹ oɟ Ʌısıʇs"
-
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:10 /media/js/views/per_app_ratings.js:11
+#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
 msgid "New Ratings"
 msgstr "‮Nǝʍ ᴚɐʇıuƃs"
 
-#: /media/js/views/ratings.js:18 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
 msgid "Number of Ratings"
 msgstr "‮Nnɯqǝɹ oɟ ᴚɐʇıuƃs"
-
-#: /media/js/views/total_developers.js:18
-msgid "Number of Developers"
-msgstr "‮Nnɯqǝɹ oɟ ᗡǝʌǝʅodǝɹs"
-
-#: /media/js/views/commonplace/hello_world.js:9
-msgid "Hello World!"
-msgstr "‮Hǝʅʅo Ｍoɹʅp¡"
 
 #: /media/js/views/per_app_revenue.js:18
 msgid "Total Revenue"
 msgstr "‮⊥oʇɐʅ ᴚǝʌǝunǝ"
 
-#. Page not found (404)
-#: /media/js/views/commonplace/not_found.js:9
-msgid "Not Found"
-msgstr "‮Noʇ Ⅎonup"
+#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+msgid "Number of Visits"
+msgstr "‮Nnɯqǝɹ oɟ Ʌısıʇs"
+
+#: /media/js/views/total_developers.js:18
+msgid "Number of Developers"
+msgstr "‮Nnɯqǝɹ oɟ ᗡǝʌǝʅodǝɹs"
