@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-30T16:57:47.827Z\n"
+"POT-Creation-Date: 2015-02-11T17:59:07.409Z\n"
 "PO-Revision-Date: 2015-01-09 08:12+0000\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,6 +120,10 @@ msgstr "Podmínky užití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlásit zneužití ochranné známky"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Ukázkový graf"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistiky"
@@ -131,10 +135,6 @@ msgstr "Odhlášení"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Přihlášení"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Ukázkový graf"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
 msgid "Developers"
@@ -184,14 +184,6 @@ msgstr "Během načítání stránky došlo k chybě."
 msgid "Try Again"
 msgstr "Zkuste to znovu"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Pro pokračovaní se prosím přihlaste."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Přihlášení / Registrace"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Od"
@@ -223,6 +215,14 @@ msgstr "měsíc"
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "Data jsou zabezpečena nebo nebyla nalezena."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Pro pokračovaní se prosím přihlaste."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Přihlášení / Registrace"
 
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
@@ -260,12 +260,12 @@ msgstr "Počet hlášení zneužití"
 msgid "Loading..."
 msgstr "Načítání..."
 
-#: /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
+#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
 #: /media/js/views/apps_installed.js:17
 msgid "Apps"
 msgstr "Aplikace"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
 #: /media/js/views/apps_installed.js:18
 msgid "Number of Apps"
 msgstr "Počet aplikací"
