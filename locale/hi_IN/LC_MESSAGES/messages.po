@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11T17:59:07.409Z\n"
-"PO-Revision-Date: 2014-10-14 19:15+0000\n"
+"PO-Revision-Date: 2015-02-22 08:26+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi_IN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1413314150.0\n"
+"X-POOTLE-MTIME: 1424593585.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -202,15 +202,15 @@ msgstr "अद्यतन"
 
 #: /templates/includes/chartbody.html:19
 msgid "day"
-msgstr ""
+msgstr "दिन"
 
 #: /templates/includes/chartbody.html:20
 msgid "week"
-msgstr ""
+msgstr "सप्ताह"
 
 #: /templates/includes/chartbody.html:21
 msgid "month"
-msgstr ""
+msgstr "महीना"
 
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
