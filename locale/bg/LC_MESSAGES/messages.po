@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11T17:59:07.409Z\n"
-"PO-Revision-Date: 2015-02-27 10:30+0000\n"
+"PO-Revision-Date: 2015-02-27 21:39+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425033027.0\n"
+"X-POOTLE-MTIME: 1425073163.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -98,7 +98,7 @@ msgstr "Инструменти за рецензенти"
 
 #: /templates/footer.html:17
 msgid "Lookup Tool"
-msgstr ""
+msgstr "Инструмент за търсене"
 
 #: /templates/footer.html:25
 msgid ""
@@ -212,7 +212,7 @@ msgstr "месец"
 
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
-msgstr ""
+msgstr "Тези данни са защитени или няма данни"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -224,7 +224,7 @@ msgstr "Вписване / Регистрация"
 
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
-msgstr ""
+msgstr "Грешка в сървъра. Моля, опитайте по-късно."
 
 #: /media/js/chartutils.js:31
 msgid "The statistics endpoint requested is invalid."
@@ -232,15 +232,15 @@ msgstr ""
 
 #: /media/js/chartutils.js:32
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
+msgstr "Грешка в оторизирането. Опитвате да достъпите не публични данни."
 
 #: /media/js/chartutils.js:33
 msgid "The statistics data request is incomplete or invalid."
-msgstr ""
+msgstr "Статистическите данни са непълни или невалидни."
 
 #: /media/js/chartutils.js:34
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
+msgstr "Грешка в сървъра. Моля, опитайте по-късно."
 
 #: /media/js/chartutils.js:103
 msgid "You have entered a negative date range. Reverse?"
