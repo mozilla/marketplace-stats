@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11T17:59:07.409Z\n"
-"PO-Revision-Date: 2015-02-27 21:39+0000\n"
+"PO-Revision-Date: 2015-02-27 22:07+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425073163.0\n"
+"X-POOTLE-MTIME: 1425074843.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -20,7 +20,7 @@ msgstr "Табло със статистика"
 
 #: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
 msgid "Edit Listing"
-msgstr ""
+msgstr "Редактиране списък"
 
 #: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
 msgid "Global Stats"
@@ -74,7 +74,7 @@ msgstr "Да"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr ""
+msgstr "Разработвай приложения"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
@@ -105,6 +105,10 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
+"Освен ако не е изрично <a href=\"{legal_url}\" target=\"_blank\">упоменато</a>, "
+"съдържанието на тази страница е лицензирано под <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"или следваща версия."
 
 #: /templates/footer.html:30
 msgid "Privacy Policy"
@@ -228,7 +232,7 @@ msgstr "Грешка в сървъра. Моля, опитайте по-късн
 
 #: /media/js/chartutils.js:31
 msgid "The statistics endpoint requested is invalid."
-msgstr ""
+msgstr "Крайната точка за получаване статистиките е невалидна."
 
 #: /media/js/chartutils.js:32
 msgid "Authentication failure detected. The data you are trying to access is not public."
