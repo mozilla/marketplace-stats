@@ -13,6 +13,13 @@ fabdeploytools.envs.loadenv(os.path.join('/etc/deploytools/envs',
 MARKETPLACE_STATS = os.path.dirname(__file__)
 ROOT = os.path.dirname(MARKETPLACE_STATS)
 
+if settings.ZAMBONI_DIR:
+    helpers.scl_enable('python27')
+    ZAMBONI = '%s/zamboni' % settings.ZAMBONI_DIR
+    ZAMBONI_PYTHON = '%s/venv/bin/python' % settings.ZAMBONI_DIR
+
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings_local_mkt'
+
 
 @task
 def pre_update(ref):
@@ -55,6 +62,8 @@ def deploy_jenkins():
     rpmbuild.local_install()
     rpmbuild.remote_install(['web'])
 
+    deploy_build_id('marketplace-stats')
+
 
 @task
 @roles('web')
@@ -76,3 +85,9 @@ def deploy():
                               deploy_roles=['web'],
                               package_dirs=['marketplace-stats'])
 
+
+@task
+def deploy_build_id(app):
+    with lcd(ZAMBONI):
+        local('%s manage.py deploy_build_id %s' %
+              (ZAMBONI_PYTHON, app))
