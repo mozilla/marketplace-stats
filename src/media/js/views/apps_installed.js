@@ -1,4 +1,6 @@
-define('views/apps_installed', ['chartutils', 'l10n'], function(cutils, l10n) {
+define('views/apps_installed',
+    ['chartutils', 'core/l10n'],
+    function(cutils, l10n) {
 
     var gettext = l10n.gettext;
 

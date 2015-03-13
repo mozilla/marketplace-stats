@@ -1,5 +1,6 @@
-define('views/homepage', ['l10n', 'linechart', 'requests', 'urls'],
-       function(l10n, linechart, requests, urls) {
+define('views/homepage',
+    ['core/l10n', 'linechart', 'core/requests', 'core/urls'],
+    function(l10n, linechart, requests, urls) {
 
     var gettext = l10n.gettext;
     var api = urls.api.url;

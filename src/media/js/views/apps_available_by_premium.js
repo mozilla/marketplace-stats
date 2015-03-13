@@ -1,5 +1,6 @@
-define('views/apps_available_by_premium', ['chartutils', 'l10n'],
-       function(cutils, l10n) {
+define('views/apps_available_by_premium',
+    ['chartutils', 'core/l10n'],
+    function(cutils, l10n) {
 
     var gettext = l10n.gettext;
 

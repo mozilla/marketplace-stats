@@ -1,4 +1,6 @@
-define('views/ratings', ['chartutils', 'l10n'], function(cutils, l10n) {
+define('views/ratings',
+    ['chartutils', 'core/l10n'],
+    function(cutils, l10n) {
 
     var gettext = l10n.gettext;
 

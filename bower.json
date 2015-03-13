@@ -3,8 +3,8 @@
     "name": "marketplace-stats",
     "version": "0.0.0",
     "dependencies": {
-        "marketplace-constants": "0.1.73",
-        "marketplace-core-modules": "1.6.2",
+        "marketplace-constants": "0.6.0",
+        "marketplace-core-modules": "2.1.0",
 
         "almond": "0.2.9",
         "jquery": "2.0.2",

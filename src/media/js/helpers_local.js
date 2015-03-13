@@ -1,4 +1,4 @@
-define('helpers_local', ['nunjucks', 'regions'], function(nunjucks, regions) {
+define('helpers_local', ['nunjucks'], function(nunjucks) {
     var filters = nunjucks.require('filters');
     var globals = nunjucks.require('globals');
 

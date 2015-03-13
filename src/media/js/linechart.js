@@ -9,8 +9,11 @@
  * graphline: container of the SVG tooltip circles and path.
  *
  */
-define('linechart', ['log', 'minilib', 'urls'], function(log, ml, urls) {
+define('linechart',
+    ['core/log', 'core/urls', 'utils_local'],
+    function(log, urls, ml) {
     var console = log('linechart');
+
     var maxValue = 0;
     var margin = {top: 20, right: 30, bottom: 55, left: 80};
     var valFormat = d3.format(',d');

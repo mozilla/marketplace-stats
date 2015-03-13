@@ -1,8 +1,8 @@
 define('chartutils',
-    ['linechart', 'minilib', 'notification', 'regions', 'urls', 'user',
-     'underscore', 'utils', 'z'],
-    function(linechart, ml, notification, regions_module, urls, user,
-             _, utils, z) {
+    ['core/notification', 'core/urls', 'core/user', 'core/utils', 'core/z',
+     'linechart', 'utils_local', 'regions', 'underscore'],
+    function(notification, urls, user, utils, z,
+             linechart, ml, regions_module, _) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;

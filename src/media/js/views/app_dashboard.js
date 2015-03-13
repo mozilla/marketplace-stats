@@ -1,5 +1,6 @@
-define('views/app_dashboard', ['l10n', 'linechart', 'requests', 'urls', 'utils'],
-       function(l10n, linechart, requests, urls, utils) {
+define('views/app_dashboard',
+    ['core/l10n', 'linechart', 'core/requests', 'core/urls', 'core/utils'],
+    function(l10n, linechart, requests, urls, utils) {
 
     var gettext = l10n.gettext;
     var api = urls.api.url;

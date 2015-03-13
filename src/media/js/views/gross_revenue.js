@@ -1,5 +1,6 @@
-define('views/gross_revenue', ['chartutils', 'l10n'],
-       function(cutils, l10n) {
+define('views/gross_revenue',
+    ['chartutils', 'core/l10n'],
+    function(cutils, l10n) {
 
     var gettext = l10n.gettext;
 

@@ -1,5 +1,6 @@
-define('views/per_app_revenue', ['chartutils', 'l10n', 'utils'],
-       function(cutils, l10n, utils) {
+define('views/per_app_revenue',
+    ['chartutils', 'core/l10n', 'core/utils'],
+    function(cutils, l10n, utils) {
 
     var gettext = l10n.gettext;
 

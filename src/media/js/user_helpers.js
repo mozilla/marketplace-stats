@@ -1,6 +1,6 @@
 define('user_helpers',
-    ['regions', 'user', 'utils'],
-    function(regions, user, utils) {
+    ['core/user', 'core/utils', 'regions'],
+    function(user, utils, regions) {
 
     var initialArgs = utils.getVars();
 

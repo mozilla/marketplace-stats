@@ -1,4 +1,6 @@
-define('views/home', ['l10n', 'linechart'], function(l10n, linechart) {
+define('views/home',
+    ['core/l10n', 'linechart'],
+    function(l10n, linechart) {
 
     var gettext = l10n.gettext;
 
