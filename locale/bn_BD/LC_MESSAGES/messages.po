@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11T17:59:07.409Z\n"
+"POT-Creation-Date: 2015-03-18T16:03:05.071Z\n"
 "PO-Revision-Date: 2014-08-18 08:01+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,35 +30,47 @@ msgstr "গ্লোবাল পরিসংখ্যান"
 msgid "Number of Installs:"
 msgstr "কতগুলি ইনস্টল:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "ইন্সটলগুলো"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
-#: /media/js/views/total_visits.js:17
+#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "ভ্রমণ সংখ্যা"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "রেটিং"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
-#: /media/js/views/per_app_abuse_reports.js:17
+#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন"
 
-#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "গড় রেটিং"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "মোট আয়"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr ""
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -71,6 +83,10 @@ msgstr "না"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "হ্যাঁ"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "নমুনা চার্ট "
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -119,69 +135,13 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "নমুনা চার্ট "
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "পরিসংখ্যান"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
-
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "ডেভেলপার"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "পেমেন্টের ধরন অনুযায়ী নতুন অ্যাপ"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "অ্যাপের ধরন অনুযায়ী নতুন অ্যাপ"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "পেমেন্টের ধরন অনুযায়ী অ্যাপ"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "অ্যাপের ধরন অনুযায়ী অ্যাপ"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "ইন্সটল করা অ্যাপ"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "অ্যাপ রেটিং"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "ওহ না! "
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "কথাও একটা গোলমাল হয়েছে। "
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "আবার চেষ্টা করুন "
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -215,6 +175,34 @@ msgstr ""
 msgid "This data is restricted or no data found"
 msgstr "এই তথ্যটি সিমাবদ্ধ অথবা পাওয়া যায় নি। "
 
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "ডেভেলপার"
+
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "পেমেন্টের ধরন অনুযায়ী নতুন অ্যাপ"
+
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "অ্যাপের ধরন অনুযায়ী নতুন অ্যাপ"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "পেমেন্টের ধরন অনুযায়ী অ্যাপ"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "অ্যাপের ধরন অনুযায়ী অ্যাপ"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "ইন্সটল করা অ্যাপ"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "অ্যাপ রেটিং"
+
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "সামনে এগিয়ে যেতে অনুগ্রহ করে সাইন ইন করুন"
@@ -222,6 +210,18 @@ msgstr "সামনে এগিয়ে যেতে অনুগ্রহ ক�
 #: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "সাইন ইন / সাইন আপ"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "আবার চেষ্টা করুন "
 
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
@@ -251,58 +251,58 @@ msgstr "আপনি একটি ঋণাত্মক তারিখের �
 msgid "Please enter a valid date range"
 msgstr "অনুগ্রহপূর্বক একটি সঠিক তারিখের রেঞ্জ প্রবেশ করুন।"
 
-#: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
-#: /media/js/views/app_dashboard.js:24
+#: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "লোড হচ্ছে..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_by_type.js:19
 msgid "Apps"
 msgstr "অ্যাপস"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_by_type.js:20
 msgid "Number of Apps"
 msgstr "এপসমুহের সংখ্যা"
 
-#: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
+#: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
 msgstr "আয়"
 
-#: /media/js/views/gross_revenue.js:18
+#: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "দৈনিক মোট "
 
 #. Page not found (404)
-#: /media/js/views/home.js:13
+#: /media/js/views/home.js:15
 msgid "Home"
 msgstr "হোম"
 
-#: /media/js/views/per_app_installs.js:18
+#: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "ইন্সটলের সংখ্যা"
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
+#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
 msgstr "নতুন রেটিং"
 
-#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
+#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "রেটিং এর সংখ্যা"
 
-#: /media/js/views/per_app_revenue.js:18
+#: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "মোট আয়"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "প্রদর্শনের সংখ্যা "
 
-#: /media/js/views/total_developers.js:18
+#: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "ডেভেলপারের সংখ্যা"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11T17:59:07.409Z\n"
+"POT-Creation-Date: 2015-03-18T16:03:05.071Z\n"
 "PO-Revision-Date: 2015-02-22 08:26+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,35 +30,47 @@ msgstr "ग्लोबल आँकड़े"
 msgid "Number of Installs:"
 msgstr "संस्थापित की संख्या:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:10 /media/js/views/per_app_installs.js:17
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "संस्थापित"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:10 /media/js/views/per_app_visits.js:17 /media/js/views/total_visits.js:10
-#: /media/js/views/total_visits.js:17
+#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "दौरा"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:18 /media/js/views/ratings.js:17
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "रेटिंग्स"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:11 /media/js/views/abuse_reports.js:18 /media/js/views/per_app_abuse_reports.js:10
-#: /media/js/views/per_app_abuse_reports.js:17
+#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "दुर्व्यवहार की रिपोर्ट"
 
-#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:10
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "औसत रेटिंग"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:10 /media/js/views/per_app_revenue.js:10
+#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "कुल मुनाफा"
 
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "कोई सार्वजनिक आँकड़े इस एप्लिकेशन के लिए उपलब्ध नही हैं"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "आंकड़े"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "साइन आउट"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "साइन इन"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -71,6 +83,10 @@ msgstr "नहीं"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "हां"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "नमूना चार्ट"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -120,69 +136,13 @@ msgstr "इस्तेमाल की शर्तें"
 msgid "Report Trademark Abuse"
 msgstr "ट्रेडमार्क दुर्व्यवहार रिपोर्ट करें"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "नमूना चार्ट"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "आंकड़े"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "साइन आउट"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "साइन इन"
-
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:10 /media/js/views/total_developers.js:17
-msgid "Developers"
-msgstr "डेवलपर्स"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:11
-msgid "New Apps by Payment Type"
-msgstr "भुगतान प्रकार के द्वारा नए एप्लिकेशन"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:10
-msgid "New Apps by App Type"
-msgstr "अनुप्रयोग प्रकार के द्वारा नए एप्लिकेशन"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:11
-msgid "Apps by Payment Type"
-msgstr "एप्प्स भुगतान प्रकार के द्वारा"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:10
-msgid "Apps by App Type"
-msgstr "एप्प्स एप्लिकेशन प्रकार द्वारा"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:10
-msgid "Apps Installed"
-msgstr "ऐप्लिकेशन स्थापित"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "एप्लिकेशन मूल्यांकन"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "अरे नहीं!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "आप जो पृष्ठ के लिए देख रहे थे नहीं मिला था."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "एक त्रुटि उत्पन्न हुई."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "अधिक लोड करने में त्रुटि"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "पुन: प्रयास करें"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -216,6 +176,34 @@ msgstr "महीना"
 msgid "This data is restricted or no data found"
 msgstr "इस डेटा प्रतिबंधित है या कोई डेटा नहीं मिला"
 
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "डेवलपर्स"
+
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "भुगतान प्रकार के द्वारा नए एप्लिकेशन"
+
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "अनुप्रयोग प्रकार के द्वारा नए एप्लिकेशन"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "एप्प्स भुगतान प्रकार के द्वारा"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "एप्प्स एप्लिकेशन प्रकार द्वारा"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "ऐप्लिकेशन स्थापित"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "एप्लिकेशन मूल्यांकन"
+
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "आगे बढ़ने के लिए साइन इन करें."
@@ -223,6 +211,18 @@ msgstr "आगे बढ़ने के लिए साइन इन करे
 #: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "साइन इन / साइन अप"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "आप जो पृष्ठ के लिए देख रहे थे नहीं मिला था."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "अधिक लोड करने में त्रुटि"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "पुन: प्रयास करें"
 
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
@@ -252,58 +252,58 @@ msgstr "आपने एक नकारात्मक तिथि श्र�
 msgid "Please enter a valid date range"
 msgstr "एक वैध तिथि श्रेणी दर्ज करें"
 
-#: /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:18
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "दुर्व्यवहार रिपोर्ट की संख्या"
 
-#: /media/js/views/app_dashboard.js:24
+#: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "लोड हो रहा है..."
 
-#: /media/js/views/apps_added.js:18 /media/js/views/apps_available_by_premium.js:18 /media/js/views/apps_available_by_type.js:17 /media/js/views/apps_by_type.js:17
-#: /media/js/views/apps_installed.js:17
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_by_type.js:19
 msgid "Apps"
 msgstr "ऐप्स"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:18 /media/js/views/apps_by_type.js:18
-#: /media/js/views/apps_installed.js:18
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_by_type.js:20
 msgid "Number of Apps"
 msgstr "ऐप्स की संख्या"
 
-#: /media/js/views/gross_revenue.js:17 /media/js/views/per_app_revenue.js:17
+#: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
 msgstr "राजस्व"
 
-#: /media/js/views/gross_revenue.js:18
+#: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "दैनिक कुल"
 
 #. Page not found (404)
-#: /media/js/views/home.js:13
+#: /media/js/views/home.js:15
 msgid "Home"
 msgstr "घर"
 
-#: /media/js/views/per_app_installs.js:18
+#: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "संस्थापित की संख्या"
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:11 /media/js/views/ratings.js:10
+#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
 msgstr "नई रेटिंग"
 
-#: /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:18
+#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "रेटिंग्स की संख्या"
 
-#: /media/js/views/per_app_revenue.js:18
+#: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "कुल राजस्व"
 
-#: /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:18
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "विज़िट्स की संख्या"
 
-#: /media/js/views/total_developers.js:18
+#: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "डेवलपर्स की संख्या"
