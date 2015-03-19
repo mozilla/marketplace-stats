@@ -3,7 +3,6 @@ define('settings_app',
     function(settings, settingsLocal) {
 
     settings._extend({
-        default_locale: 'en-US',
         api_url: 'http://' + window.location.hostname,
         api_cdn_whitelist: {},
 
