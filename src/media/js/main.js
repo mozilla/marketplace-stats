@@ -7,7 +7,7 @@ require(
      'core/capabilities', 'core/l10n', 'core/log', 'core/navigation',
      'core/nunjucks', 'core/user', 'core/z', 'regions', 'user_helpers',
      // Modules we require to initialize global stuff.
-     'brick', 'd3', 'core/login', 'core/forms'],
+     'brick', 'd3', 'core/login', 'core/forms', 'helpers_local'],
     function(caps, l10n, log, navigation,
              nunjucks, user, z, regions, userHelpers) {
     var logger = log('main');
