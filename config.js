@@ -24,6 +24,7 @@ var localConfig = extend(true, {
         // RequireJS configuration for development, notably files in lib/.
         // [Module name]: [Module path].
         paths: {
+            'brick': 'lib/brick',
             'd3': 'lib/d3',
             'regions': 'lib/regions',
         },

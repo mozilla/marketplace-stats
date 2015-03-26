@@ -101,7 +101,7 @@ define('linechart',
                 color.domain(d3.keys(data));
 
                 // `item` is the key of each line (series).
-                for (item in data) {
+                data.forEach(function(item) {
                     data[item].forEach(function(d) {
                         d.date = parseDate(d.date);
                         dates.push(d.date);
@@ -110,22 +110,22 @@ define('linechart',
                     series = color.domain().map(function(name) {
                         return {name: name};
                     });
-                }
+                });
 
                 x.domain(d3.extent(dates, function(d) {
                     return d;
                 }));
 
                 // Populate each series' values.
-                for (var i = 0; i < series.length; i++) {
-                    series[i].values = data[series[i].name].map(function(d) {
+                series.forEach(function(item) {
+                    item.values = data[item.name].map(function(d) {
                         return {date: d.date, count: d.count === null ? d.count : +d.count};
                     });
-                    if (!series[i].values.length || isNullSeries(series[i].values)) {
+                    if (!item.values.length || isNullSeries(item.values)) {
                     } else {
-                        realSeries.push(series[i]);
+                        realSeries.push(item);
                     }
-                }
+                });
 
                 series = realSeries;
                 y.domain([0, getMaxValue(series)]);
@@ -322,7 +322,7 @@ define('linechart',
             color.domain(d3.keys(data));
 
             // `item` is the key of each line (series).
-            for (item in data) {
+            data.forEach(function(item) {
                 console.log('Reading graph: ', item);
                 data[item].forEach(function(d) {
                     d.date = parseDate(d.date);
@@ -332,24 +332,24 @@ define('linechart',
                 series = color.domain().map(function(name) {
                     return {name: name};
                 });
-            }
+            });
 
             x.domain(d3.extent(dates, function(d) {
                 return d;
             }));
 
             // Populate each series' values.
-            for (var i = 0; i < series.length; i++) {
-                series[i].values = data[series[i].name].map(function(d) {
+            series.forEach(function(item) {
+                item.values = data[item.name].map(function(d) {
                     return {date: d.date, count: d.count === null ? d.count : +d.count};
                 });
-                if (!series[i].values.length || isNullSeries(series[i].values)) {
-                    console.log('Found empty series: ', series[i].name);
+                if (!item.values.length || isNullSeries(item.values)) {
+                    console.log('Found empty series: ', item.name);
                 } else {
-                    legendSeries.push(series[i]);
+                    legendSeries.push(item);
                     toggleSeries.push(true);
                 }
-            }
+            });
 
             series = legendSeries;
 
@@ -417,9 +417,9 @@ define('linechart',
                      .style('stroke', getSeriesColor);
 
             // Inject tooltips while hiding `null` values.
-            for (i = 0; i < series.length; i++) {
+            series.forEach(function(item) {
                 d3.select(graphline[0][i]).selectAll('dot')
-                          .data(series[i].values)
+                          .data(item.values)
                           .enter()
                             .append('circle')
                             .attr('r', 2.5)
@@ -428,12 +428,12 @@ define('linechart',
                             .style('display', function(d) {
                                 if (d.count === null && opts.dropNulls) return 'none';
                             })
-                            .style('fill', function(d) {return color(series[i].name);})
-                            .attr('class', function(d) {return series[i].name;})
+                            .style('fill', function(d) {return color(item.name);})
+                            .attr('class', function(d) {return item.name;})
                             .on('mouseover', function(d) {
                                 tooltip.transition()
                                        .duration(200)
-                                       .style('opacity', .9)
+                                       .style('opacity', 0.9)
                                        .style('background-color', this.style.fill);
                                 tooltip.html('<p class="timeinfo">' +
                                                 formatTime(d.date) +
@@ -448,7 +448,7 @@ define('linechart',
                             })
                             .transition().delay(1500)
                             .style('opacity', 1);
-            }
+            });
 
             if (opts.lineLabels) {
                 graphline.append('text')
@@ -514,13 +514,13 @@ define('linechart',
             var list = {};
             var container = {};
 
-            for (var i = 0; i < series.length; i++) {
+            series.forEach(function(item) {
                 container = bars.append('div')
                                 .attr('class', 'bar-wrapper');
 
                 container.append('h3').attr('class', 'heading')
-                         .style('color', getSeriesColor(series[i]))
-                         .text(getSeriesName(series[i]));
+                         .style('color', getSeriesColor(item))
+                         .text(getSeriesName(item));
 
                 list = container.append('ul');
 
@@ -534,7 +534,7 @@ define('linechart',
                 }
 
                 list.selectAll('li')
-                    .data(series[i].values)
+                    .data(item.values)
                     .enter().append('li')
                     .append('time')
                     .attr('datetime', function(d) {
@@ -546,7 +546,7 @@ define('linechart',
                     .select(function() {return this.parentNode;})
                     .append('span')
                     .style('background-color', function(d) {
-                        return ml.hex2rgba(getSeriesColor(series[i]), 1);
+                        return ml.hex2rgba(getSeriesColor(item), 1);
                     })
                     .style('width', function(d) {
                         return scale(+d.count) + 'px';
@@ -564,7 +564,7 @@ define('linechart',
                     })
                     .style('color', function(d) {
                         if (isBarTextOutside(d.count, scale)) {
-                            return ml.hex2rgba(getSeriesColor(series[i]), 1);
+                            return ml.hex2rgba(getSeriesColor(item), 1);
                         }
                         return '#fff';
                     })
@@ -574,7 +574,7 @@ define('linechart',
                         }
                         return d.count;
                     });
-            }
+            });
         }
 
         // For each bar should the text be outside (can't fit in the bar width).
@@ -609,7 +609,7 @@ define('linechart',
                     .transition().duration(transTime)
                     .attr('d', function(d) {return line(d.values);});
             svg.selectAll('circle').transition().duration(transTime)
-                    .attr('cy', function(d) {return y(d.count);})
+                    .attr('cy', function(d) {return y(d.count);});
         }
     }
 
