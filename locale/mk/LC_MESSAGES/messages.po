@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-18T16:03:05.071Z\n"
+"POT-Creation-Date: 2015-04-01T16:02:17.248Z\n"
 "PO-Revision-Date: 2014-04-08 17:32+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,64 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1396978366.0\n"
-
-#: /templates/app_dashboard.html:2
-msgid "Statistics Dashboard"
-msgstr "Табла со статистика"
-
-#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
-msgid "Edit Listing"
-msgstr "Ажурирај список"
-
-#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
-msgid "Global Stats"
-msgstr "Глобална статистика"
-
-#: /templates/app_dashboard.html:10
-msgid "Number of Installs:"
-msgstr "Број на инсталации:"
-
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
-msgid "Installs"
-msgstr "Инсталации"
-
-#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
-#: /media/js/views/total_visits.js:19
-msgid "Visits"
-msgstr "Посети"
-
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
-msgid "Ratings"
-msgstr "Рејтинзи"
-
-#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
-#: /media/js/views/per_app_abuse_reports.js:18
-msgid "Abuse Reports"
-msgstr "Пријави на злоупотреба"
-
-#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
-msgid "Average Rating"
-msgstr "Просечен рејтинг"
-
-#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
-msgid "Gross Revenue"
-msgstr "Бруто приход"
-
-#: /templates/app_dashboard.html:42
-msgid "No public statistics are available for this app"
-msgstr ""
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Статистики"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјавете се"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Најавете се"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -83,10 +25,6 @@ msgstr "Не"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Да"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Примерок на графикон"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
@@ -136,13 +74,91 @@ msgstr "Услови за користење"
 msgid "Report Trademark Abuse"
 msgstr "Пријавете злоупотреба на трговска марка"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Статистики"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјавете се"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Најавете се"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Примерок на графикон"
+
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Развивачи"
+
+#: /templates/homepage.html:10 /templates/app_dashboard.html:16 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
+msgid "Visits"
+msgstr "Посети"
+
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Нови апликации по вид на плаќање"
+
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Нови апликации по вид на апликација"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Апликации по вид на плаќање"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Апликации по вид на апликација"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Инсталирани апликации"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "Оценки на апликација"
+
+#: /templates/homepage.html:45 /templates/app_dashboard.html:22 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /media/js/views/per_app_abuse_reports.js:18
+msgid "Abuse Reports"
+msgstr "Пријави на злоупотреба"
+
+#: /templates/homepage.html:52 /templates/app_dashboard.html:29 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+msgid "Gross Revenue"
+msgstr "Бруто приход"
+
+#: /templates/per_app_chart.html:11 /templates/app_dashboard.html:5
+msgid "Edit Listing"
+msgstr "Ажурирај список"
+
+#: /templates/per_app_chart.html:13 /templates/app_dashboard.html:7
+msgid "Global Stats"
+msgstr "Глобална статистика"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "О, не!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата што ја баравте не е пронајдена."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Се случи грешка."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при вчитување на повеќе содржини"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Обидете се повторно"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -176,34 +192,6 @@ msgstr ""
 msgid "This data is restricted or no data found"
 msgstr "Овие податоци се забранети или не постојат"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Развивачи"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Нови апликации по вид на плаќање"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Нови апликации по вид на апликација"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Апликации по вид на плаќање"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Апликации по вид на апликација"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Инсталирани апликации"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "Оценки на апликација"
-
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
 msgstr "Најавете се за да продолжите."
@@ -211,18 +199,6 @@ msgstr "Најавете се за да продолжите."
 #: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
 msgstr "Најава / Регистрација"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата што ја баравте не е пронајдена."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при вчитување на повеќе содржини"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Обидете се повторно"
 
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
@@ -252,6 +228,30 @@ msgstr "Внесовте негативен интервал на датуми. 
 msgid "Please enter a valid date range"
 msgstr "Ве молиме внесете валиден интервал на датуми"
 
+#: /templates/app_dashboard.html:2
+msgid "Statistics Dashboard"
+msgstr "Табла со статистика"
+
+#: /templates/app_dashboard.html:10
+msgid "Number of Installs:"
+msgstr "Број на инсталации:"
+
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
+msgid "Installs"
+msgstr "Инсталации"
+
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+msgid "Ratings"
+msgstr "Рејтинзи"
+
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
+msgid "Average Rating"
+msgstr "Просечен рејтинг"
+
+#: /templates/app_dashboard.html:42
+msgid "No public statistics are available for this app"
+msgstr ""
+
 #: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Број на пријави на злоупотреба"
@@ -260,13 +260,13 @@ msgstr "Број на пријави на злоупотреба"
 msgid "Loading..."
 msgstr "Се вчитува..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
-#: /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Апликации"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
-#: /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Број на апликации"
 
