@@ -64,6 +64,8 @@ def deploy_jenkins():
 
     deploy_build_id('marketplace-stats')
 
+    rpmbuild.clean()
+
 
 @task
 @roles('web')
