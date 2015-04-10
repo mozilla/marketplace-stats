@@ -101,7 +101,7 @@ define('linechart',
                 color.domain(d3.keys(data));
 
                 // `item` is the key of each line (series).
-                data.forEach(function(item) {
+                Object.keys(data).forEach(function(item) {
                     data[item].forEach(function(d) {
                         d.date = parseDate(d.date);
                         dates.push(d.date);
@@ -292,13 +292,13 @@ define('linechart',
         function handleError(error) {
             var msg = '';
 
-            if (error.status) {
+            if (error && error.status) {
                 msg = lbls.strings.errors[error.status];
             } else {
                 msg = lbls.strings.errors.unknown;
             }
 
-            console.log('XHR failure:', msg, error);
+            console.error('Data parsing failure:', error || 'invalid data');
             showMessage(msg);
             $rawLinks.hide();
         }
@@ -315,14 +315,20 @@ define('linechart',
                 valAxis = [],
                 legendSeries = [];
             var legend;
+            var i = 0;
 
             // The delay() param is time the indicator should stay up before scaling down.
             meter.transition().delay(150).attr('transform', 'scale(0)');
 
             color.domain(d3.keys(data));
 
+            if (data.constructor !== Object) {
+                handleError();
+                return;
+            }
+
             // `item` is the key of each line (series).
-            data.forEach(function(item) {
+            Object.keys(data).forEach(function(item) {
                 console.log('Reading graph: ', item);
                 data[item].forEach(function(d) {
                     d.date = parseDate(d.date);
