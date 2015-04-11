@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
-"PO-Revision-Date: 2015-01-09 11:26+0000\n"
-"Last-Translator: Nanci <nancibonfim@gmail.com>\n"
+"PO-Revision-Date: 2015-04-11 22:10+0000\n"
+"Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420802765.0\n"
+"X-POOTLE-MTIME: 1428790221.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -24,7 +24,7 @@ msgstr "Editar lista"
 
 #: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
 msgid "Global Stats"
-msgstr "Estatísticas Globais"
+msgstr "Estatísticas globais"
 
 #: /templates/app_dashboard.html:10
 msgid "Number of Installs:"
@@ -46,11 +46,11 @@ msgstr "Classificação"
 #: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
-msgstr "Denúncias de Abuso"
+msgstr "Denúncias de abuso"
 
 #: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
-msgstr "Classificação Média"
+msgstr "Classificação média"
 
 #: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
@@ -86,7 +86,7 @@ msgstr "Entrar"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
-msgstr "Gráfico de Exemplo"
+msgstr "Gráfico de exemplo"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -94,7 +94,7 @@ msgstr "Desenvolvedores"
 
 #: /templates/homepage.html:15 /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
-msgstr "Novos aplicativos por método de pagamento"
+msgstr "Novos aplicativos por tipo de pagamento"
 
 #: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
 msgid "New Apps by App Type"
@@ -102,7 +102,7 @@ msgstr "Novos aplicativos por tipo"
 
 #: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
 msgid "Apps by Payment Type"
-msgstr "Aplicativos por método de pagamento"
+msgstr "Aplicativos por tipo de pagamento"
 
 #: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
 msgid "Apps by App Type"
@@ -114,11 +114,11 @@ msgstr "Aplicativos instalados"
 
 #: /templates/homepage.html:40
 msgid "App Ratings"
-msgstr "Pontuações de Aplicativos"
+msgstr "Avaliações de aplicativo"
 
 #: /templates/footer.html:2
 msgid "Develop Apps"
-msgstr "Desenvolver Aplicativos"
+msgstr "Desenvolver aplicativos"
 
 #: /templates/footer.html:5
 msgid "Developer Hub"
@@ -134,15 +134,15 @@ msgstr "Suporte"
 
 #: /templates/footer.html:11
 msgid "My Submissions"
-msgstr "Minhas Submissões"
+msgstr "Minhas submissões"
 
 #: /templates/footer.html:14
 msgid "Reviewer Tools"
-msgstr "Ferramentas do revisor"
+msgstr "Ferramentas de revisão"
 
 #: /templates/footer.html:17
 msgid "Lookup Tool"
-msgstr "Ferramenta de busca"
+msgstr "Ferramenta de pesquisa"
 
 #: /templates/footer.html:25
 msgid ""
@@ -154,15 +154,15 @@ msgstr ""
 
 #: /templates/footer.html:30
 msgid "Privacy Policy"
-msgstr "Política de Privacidade"
+msgstr "Política de privacidade"
 
 #: /templates/footer.html:31
 msgid "Terms of Use"
-msgstr "Termos de Uso"
+msgstr "Termos de uso"
 
 #: /templates/footer.html:33
 msgid "Report Trademark Abuse"
-msgstr "Informe sobre abuso da marca registada"
+msgstr "Informar abuso de marca"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -170,7 +170,7 @@ msgstr "Oh, não!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "A página que você estava procurando não foi encontrado."
+msgstr "A página que estava procurando não foi encontrada."
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -186,7 +186,7 @@ msgstr "Tente novamente"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
-msgstr "Por favor efetue o login para continuar."
+msgstr "Por favor, identifique-se para prosseguir."
 
 #: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
@@ -222,27 +222,31 @@ msgstr "mês"
 
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
-msgstr "Esta informação é restrita ou não foi encontrada"
+msgstr "Estes dados são restritos ou não foram encontrados"
 
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
-msgstr "Detectado um erro no servidor. Tente novamente mais tarde."
+msgstr "Erro de servidor detectado. Por favor, tente novamente mais tarde."
 
 #: /media/js/chartutils.js:31
 msgid "The statistics endpoint requested is invalid."
-msgstr "O ponto final requisitado das estatísticas é inválido."
+msgstr "O critério estatístico solicitado é inválido."
 
 #: /media/js/chartutils.js:32
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "Falha de autenticação. Os dados que está tentando acessar não é público."
+msgstr ""
+"Falha de autenticação detectada. Os dados que está tentando acessar não são "
+"públicos."
 
 #: /media/js/chartutils.js:33
 msgid "The statistics data request is incomplete or invalid."
-msgstr "A solicitação de informações estatísticas está incompleta ou inválida."
+msgstr "A solicitação de dados estatísticos está incompleta ou é inválida."
 
 #: /media/js/chartutils.js:34
 msgid "An unknown server error was detected. Please try again later."
-msgstr "Foi detectado um erro desconhecido no servidor. Tente novamente mais tarde."
+msgstr ""
+"Foi detectado um erro de servidor desconhecido. Por favor, tente novamente "
+"mais tarde."
 
 #: /media/js/chartutils.js:103
 msgid "You have entered a negative date range. Reverse?"
@@ -250,7 +254,7 @@ msgstr "Você digitou um intervalo de datas negativo. Reverter?"
 
 #: /media/js/chartutils.js:115
 msgid "Please enter a valid date range"
-msgstr "Por favor, introduza uma data válida"
+msgstr "Por favor, introduza um intervalo de datas válido"
 
 #: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
@@ -285,25 +289,25 @@ msgstr "Início"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
-msgstr "Número de Instalação"
+msgstr "Número de instalações"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
-msgstr "Novas Pontuações"
+msgstr "Novas avaliações"
 
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
-msgstr "Número de Pontuações"
+msgstr "Número de avaliações"
 
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
-msgstr "Receita Total"
+msgstr "Receita total"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
-msgstr "Nº de Visitas"
+msgstr "Número de visitas"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
-msgstr "Número de Desenvolvedores"
+msgstr "Número de desenvolvedores"
