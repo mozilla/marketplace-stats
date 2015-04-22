@@ -234,9 +234,7 @@ msgstr "O critério estatístico solicitado é inválido."
 
 #: /media/js/chartutils.js:32
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
-"Falha de autenticação detectada. Os dados que está tentando acessar não são "
-"públicos."
+msgstr "Falha de autenticação detectada. Os dados que está tentando acessar não são públicos."
 
 #: /media/js/chartutils.js:33
 msgid "The statistics data request is incomplete or invalid."
@@ -244,9 +242,7 @@ msgstr "A solicitação de dados estatísticos está incompleta ou é inválida.
 
 #: /media/js/chartutils.js:34
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Foi detectado um erro de servidor desconhecido. Por favor, tente novamente "
-"mais tarde."
+msgstr "Foi detectado um erro de servidor desconhecido. Por favor, tente novamente mais tarde."
 
 #: /media/js/chartutils.js:103
 msgid "You have entered a negative date range. Reverse?"
