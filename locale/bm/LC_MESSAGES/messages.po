@@ -10,21 +10,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; "
-"charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);Content-Type: text/plain; charset=utf-8\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
 msgstr ""
 
-#: /templates/app_dashboard.html:5
-#: /templates/per_app_chart.html:11
+#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
 msgid "Edit Listing"
 msgstr ""
 
-#: /templates/app_dashboard.html:7
-#: /templates/per_app_chart.html:13
+#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
 msgid "Global Stats"
 msgstr ""
 
@@ -32,45 +29,29 @@ msgstr ""
 msgid "Number of Installs:"
 msgstr ""
 
-#: /templates/app_dashboard.html:13
-#: /media/js/views/per_app_installs.js:11
-#: /media/js/views/per_app_installs.js:18
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr ""
 
-#: /templates/app_dashboard.html:16
-#: /templates/homepage.html:10
-#: /media/js/views/per_app_visits.js:11
-#: /media/js/views/per_app_visits.js:18
-#: /media/js/views/total_visits.js:12
+#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
 #: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr ""
 
-#: /templates/app_dashboard.html:19
-#: /media/js/views/per_app_ratings.js:19
-#: /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr ""
 
-#: /templates/app_dashboard.html:22
-#: /templates/homepage.html:45
-#: /media/js/views/abuse_reports.js:12
-#: /media/js/views/abuse_reports.js:19
-#: /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr ""
 
-#: /templates/app_dashboard.html:25
-#: /media/js/views/per_app_average_rating.js:11
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr ""
 
-#: /templates/app_dashboard.html:29
-#: /templates/homepage.html:52
-#: /media/js/views/gross_revenue.js:11
-#: /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr ""
 
@@ -106,34 +87,27 @@ msgstr ""
 msgid "Sample Chart"
 msgstr ""
 
-#: /templates/homepage.html:5
-#: /media/js/views/total_developers.js:12
-#: /media/js/views/total_developers.js:19
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr ""
 
-#: /templates/homepage.html:15
-#: /media/js/views/apps_added.js:12
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
 msgstr ""
 
-#: /templates/homepage.html:20
-#: /media/js/views/apps_by_type.js:12
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
 msgid "New Apps by App Type"
 msgstr ""
 
-#: /templates/homepage.html:25
-#: /media/js/views/apps_available_by_premium.js:12
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
 msgid "Apps by Payment Type"
 msgstr ""
 
-#: /templates/homepage.html:30
-#: /media/js/views/apps_available_by_type.js:12
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
 msgid "Apps by App Type"
 msgstr ""
 
-#: /templates/homepage.html:35
-#: /media/js/views/apps_installed.js:12
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
 msgid "Apps Installed"
 msgstr ""
 
@@ -170,7 +144,9 @@ msgid "Lookup Tool"
 msgstr ""
 
 #: /templates/footer.html:25
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
 
 #: /templates/footer.html:30
@@ -185,8 +161,7 @@ msgstr ""
 msgid "Report Trademark Abuse"
 msgstr ""
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr ""
 
@@ -274,23 +249,16 @@ msgstr ""
 msgid "Please enter a valid date range"
 msgstr ""
 
-#: /media/js/views/abuse_reports.js:20
-#: /media/js/views/per_app_abuse_reports.js:19
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr ""
 
-#: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_available_by_type.js:19
-#: /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr ""
 
-#: /media/js/views/apps_added.js:20
-#: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_available_by_type.js:20
-#: /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr ""
@@ -299,8 +267,7 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: /media/js/views/gross_revenue.js:18
-#: /media/js/views/per_app_revenue.js:18
+#: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
 msgstr ""
 
@@ -318,13 +285,11 @@ msgid "Number of Installs"
 msgstr ""
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12
-#: /media/js/views/ratings.js:12
+#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
 msgstr ""
 
-#: /media/js/views/per_app_ratings.js:20
-#: /media/js/views/ratings.js:20
+#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr ""
 
@@ -332,8 +297,7 @@ msgstr ""
 msgid "Total Revenue"
 msgstr ""
 
-#: /media/js/views/per_app_visits.js:19
-#: /media/js/views/total_visits.js:20
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr ""
 
