@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-01-12 22:42+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Iniciar sessão"
 msgid "Sample Chart"
 msgstr "Gráfico de exemplo"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Programadores"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Novas aplicações por tipo de pagamento"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Novas aplicações por tipo de aplicação"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Aplicações por tipo de pagamento"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Aplicações por tipo de aplicação"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Aplicações instaladas"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "Classificações de aplicação"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Desenvolver aplicações"
@@ -164,17 +136,33 @@ msgstr "Termos de utilização"
 msgid "Report Trademark Abuse"
 msgstr "Reportar abuso de marca"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh não!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Programadores"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página que procurava não foi encontrada."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Novas aplicações por tipo de pagamento"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Novas aplicações por tipo de aplicação"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Aplicações por tipo de pagamento"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Aplicações por tipo de aplicação"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Aplicações instaladas"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "Classificações de aplicação"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Erro ao carregar mais"
 msgid "Try Again"
 msgstr "Tente novamente"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Por favor inicie sessão para continuar."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh não!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Iniciar sessão / Registo"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr "mês"
 msgid "This data is restricted or no data found"
 msgstr "Estes dados são restritos ou não foram encontrados dados"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página que procurava não foi encontrada."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Por favor inicie sessão para continuar."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Iniciar sessão / Registo"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Foi detetado um erro de servidor. Por favor, tente novamente mais tarde."
@@ -256,6 +256,10 @@ msgstr "Por favor introduza um intervalo de datas válido"
 msgid "Number of Abuse Reports"
 msgstr "Número de denúncias"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "A carregar..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "Aplicações"
 msgid "Number of Apps"
 msgstr "Número de aplicações"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "A carregar..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Início"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "Receita"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Total diário"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Início"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-03-12 23:18+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Hasi saioa"
 msgid "Sample Chart"
 msgstr "Diagramaren adibidea"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Garatzaileak"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Aplikazio berriak ordaineta-motaren arabera"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Aplikazio berriak motaren arabera"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Aplikazioak ordainketa-motaren arabera"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Aplikazioak motaren arabera"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Instalatutako aplikazioak"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "Aplikazio-kalifikazioak"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Garatu aplikazioak"
@@ -164,17 +136,33 @@ msgstr "Erabilera-baldintzak"
 msgid "Report Trademark Abuse"
 msgstr "Salatu markaren erabilera okerra"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "O ez!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Garatzaileak"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Bilatzen ari zinen orria ez da aurkitu."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Aplikazio berriak ordaineta-motaren arabera"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Errore bat gertatu da."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Aplikazio berriak motaren arabera"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Aplikazioak ordainketa-motaren arabera"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Aplikazioak motaren arabera"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Instalatutako aplikazioak"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "Aplikazio-kalifikazioak"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Errorea gehiago kargatzean"
 msgid "Try Again"
 msgstr "Saiatu berriro"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Hasi saioa jarraitzeko."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "O ez!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Hasi saioa / Eman izena"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Errore bat gertatu da."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr "hil"
 msgid "This data is restricted or no data found"
 msgstr "Datu murriztuak dira edo ez da daturik aurkitu"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Bilatzen ari zinen orria ez da aurkitu."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Hasi saioa jarraitzeko."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Hasi saioa / Eman izena"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Zerbitzari-errorea detektatu da. Saiatu berriro geroago."
@@ -256,6 +256,10 @@ msgstr "Sartu baliozko data-tarte bat"
 msgid "Number of Abuse Reports"
 msgstr "Abusu-salaketen kopurua"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Kargatzen..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "Aplikazioak"
 msgid "Number of Apps"
 msgstr "Aplikazio-kopurua"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Kargatzen..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Nagusia"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "Diru-sarrerak"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Guztira egunero"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Nagusia"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

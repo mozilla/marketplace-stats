@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-01-08 02:09+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Aanmelden"
 msgid "Sample Chart"
 msgstr "Voorbeeldgrafiek"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Ontwikkelaars"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nieuwe apps op betalingstype"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nieuwe apps op apptype"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Apps op betalingstype"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Apps op apptype"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Geïnstalleerde apps"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "App-waarderingen"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Apps ontwikkelen"
@@ -164,17 +136,33 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nee!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Ontwikkelaars"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De door u gezochte pagina is niet gevonden."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nieuwe apps op betalingstype"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nieuwe apps op apptype"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Apps op betalingstype"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Apps op apptype"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Geïnstalleerde apps"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "App-waarderingen"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Fout bij het laden van meer"
 msgid "Try Again"
 msgstr "Opnieuw proberen"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Meld u aan om door te gaan."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh nee!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Aanmelden / Registreren"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -225,6 +213,18 @@ msgstr "maand"
 msgid "This data is restricted or no data found"
 msgstr "Deze gegevens zijn beperkt toegankelijk of er zijn geen gegevens gevonden"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De door u gezochte pagina is niet gevonden."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Meld u aan om door te gaan."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Aanmelden / Registreren"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Serverfout gedetecteerd. Probeer het later nog eens."
@@ -257,6 +257,10 @@ msgstr "Voer een geldig datumbereik in"
 msgid "Number of Abuse Reports"
 msgstr "Aantal misbruikmeldingen"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Laden…"
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -267,9 +271,10 @@ msgstr "Apps"
 msgid "Number of Apps"
 msgstr "Aantal apps"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Laden…"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Start"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -278,11 +283,6 @@ msgstr "Inkomsten"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Dagelijks totaal"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Start"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

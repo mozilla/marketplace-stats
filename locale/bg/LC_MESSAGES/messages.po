@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-02-27 22:07+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Вписване"
 msgid "Sample Chart"
 msgstr "Примерна диаграма"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Разработчици"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Нови приложения по вид плащане"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Нови приложения по вид"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Приложения по вид плащане"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Приложения по вид"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Инсталирания"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "Отзива"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Разработвай приложения"
@@ -164,17 +136,33 @@ msgstr "Условия за ползване"
 msgid "Report Trademark Abuse"
 msgstr "Докладване злоупотреба със запазена марка"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ох, не!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Разработчици"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата, която търсите не беше намерена."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Нови приложения по вид плащане"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Възникна грешка."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Нови приложения по вид"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Приложения по вид плащане"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Приложения по вид"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Инсталирания"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "Отзива"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Грешка при показване на повече"
 msgid "Try Again"
 msgstr "Нов опит"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Моля, впишете се, за да продължите."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ох, не!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Вписване / Регистрация"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Възникна грешка."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr "месец"
 msgid "This data is restricted or no data found"
 msgstr "Тези данни са защитени или няма данни"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата, която търсите не беше намерена."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Моля, впишете се, за да продължите."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Вписване / Регистрация"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Грешка в сървъра. Моля, опитайте по-късно."
@@ -256,6 +256,10 @@ msgstr "Моля, въведете валиден период"
 msgid "Number of Abuse Reports"
 msgstr "Брой доклади за злоупотреба"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Зареждане..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "Приложения"
 msgid "Number of Apps"
 msgstr "Брой приложения"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Зареждане..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Начало"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "Постъплния"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Общо дневно"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Начало"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

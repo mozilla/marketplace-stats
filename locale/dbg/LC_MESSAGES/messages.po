@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,41 +105,6 @@ msgstr "Şīɠƞ Īƞ"
 msgid "Sample Chart"
 msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
 
-#: /templates/homepage.html:5
-#: /media/js/views/total_developers.js:12
-#: /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Ḓḗṽḗŀǿƥḗřş"
-
-#: /templates/homepage.html:15
-#: /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
-
-#: /templates/homepage.html:20
-#: /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
-
-#: /templates/homepage.html:25
-#: /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
-
-#: /templates/homepage.html:30
-#: /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
-
-#: /templates/homepage.html:35
-#: /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "Ȧƥƥ Řȧŧīƞɠş"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Ḓḗṽḗŀǿƥ Ȧƥƥş"
@@ -188,18 +153,40 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
 
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ǿħ ƞǿ!"
+#: /templates/homepage.html:5
+#: /media/js/views/total_developers.js:12
+#: /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Ḓḗṽḗŀǿƥḗřş"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+#: /templates/homepage.html:15
+#: /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+#: /templates/homepage.html:20
+#: /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Ƞḗẇ Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
+
+#: /templates/homepage.html:25
+#: /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Ȧƥƥş ƀẏ Ƥȧẏḿḗƞŧ Ŧẏƥḗ"
+
+#: /templates/homepage.html:30
+#: /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Ȧƥƥş ƀẏ Ȧƥƥ Ŧẏƥḗ"
+
+#: /templates/homepage.html:35
+#: /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "Ȧƥƥ Řȧŧīƞɠş"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -209,13 +196,14 @@ msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
 msgid "Try Again"
 msgstr "Ŧřẏ Ȧɠȧīƞ"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ǿħ ƞǿ!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -248,6 +236,18 @@ msgstr "ḿǿƞŧħ"
 #: /templates/includes/chartbody.html:25
 msgid "This data is restricted or no data found"
 msgstr "Ŧħīş ḓȧŧȧ īş řḗşŧřīƈŧḗḓ ǿř ƞǿ ḓȧŧȧ ƒǿŭƞḓ"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
@@ -284,6 +284,10 @@ msgstr "Ƥŀḗȧşḗ ḗƞŧḗř ȧ ṽȧŀīḓ ḓȧŧḗ řȧƞɠḗ"
 msgid "Number of Abuse Reports"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƀŭşḗ Řḗƥǿřŧş"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Ŀǿȧḓīƞɠ..."
+
 #: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_available_by_type.js:19
@@ -300,9 +304,10 @@ msgstr "Ȧƥƥş"
 msgid "Number of Apps"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƥƥş"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Ŀǿȧḓīƞɠ..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Ħǿḿḗ"
 
 #: /media/js/views/gross_revenue.js:18
 #: /media/js/views/per_app_revenue.js:18
@@ -312,11 +317,6 @@ msgstr "Řḗṽḗƞŭḗ"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Ḓȧīŀẏ Ŧǿŧȧŀ"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Ħǿḿḗ"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

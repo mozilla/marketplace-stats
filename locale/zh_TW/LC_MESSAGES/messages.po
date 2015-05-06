@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-01-08 15:31+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "登入"
 msgid "Sample Chart"
 msgstr "範例圖表"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "開發者"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "依照付款類型分類的新進應用程式"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "依照應用程式類型分類的新進應用程式"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "依照付款類型分類的應用程式"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "依照應用程式類型分類的應用程式"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "已安裝的應用程式"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "應用程式評分"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "開發應用程式"
@@ -162,17 +134,33 @@ msgstr "使用條款"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "喔，不！"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "開發者"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您尋找的頁面。"
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "依照付款類型分類的新進應用程式"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "發生錯誤。"
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "依照應用程式類型分類的新進應用程式"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "依照付款類型分類的應用程式"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "依照應用程式類型分類的應用程式"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "已安裝的應用程式"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "應用程式評分"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -182,13 +170,13 @@ msgstr "載入更多時發生錯誤"
 msgid "Try Again"
 msgstr "再試一次"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "請登入以繼續。"
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "喔，不！"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "登入 / 註冊"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "發生錯誤。"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -222,6 +210,18 @@ msgstr "月"
 msgid "This data is restricted or no data found"
 msgstr "此資料已被限制，或找不到此資料"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您尋找的頁面。"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "請登入以繼續。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "登入 / 註冊"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "偵測到伺服器錯誤，請稍後再試一次。"
@@ -254,6 +254,10 @@ msgstr "請輸入有效的日期範圍"
 msgid "Number of Abuse Reports"
 msgstr "濫用報告數量"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "載入中…"
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -264,9 +268,10 @@ msgstr "應用程式"
 msgid "Number of Apps"
 msgstr "應用程式數量"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "載入中…"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "首頁"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -275,11 +280,6 @@ msgstr "營收"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "每日總計"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "首頁"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

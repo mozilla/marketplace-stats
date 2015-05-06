@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-02-02 18:12+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Identificarse"
 msgid "Sample Chart"
 msgstr "Gráficas de muestra"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Desarrolladores"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nuevas apps por método de pago"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nuevas apps por tipo de app"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Apps por método de pago"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Apps por tipo de app"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Apps instaladas"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "Valoraciones de apps"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Desarrollar apps"
@@ -164,17 +136,33 @@ msgstr "Condiciones de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre infracción de marca"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "¡Oh, no!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Desarrolladores"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "No se ha encontrado la página que buscas."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nuevas apps por método de pago"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Se ha producido un error."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nuevas apps por tipo de app"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Apps por método de pago"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Apps por tipo de app"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Apps instaladas"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "Valoraciones de apps"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Error al cargar más contenido"
 msgid "Try Again"
 msgstr "Intentar de nuevo"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Por favor, identifícate para continuar."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "¡Oh, no!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Registrarse"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Se ha producido un error."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr "mes"
 msgid "This data is restricted or no data found"
 msgstr "Estos datos están restringidos o no se encuentran"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "No se ha encontrado la página que buscas."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Por favor, identifícate para continuar."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Registrarse"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Se ha detectado un error del servidor. Inténtalo de nuevo más tarde."
@@ -256,6 +256,10 @@ msgstr "Por favor, escribe un rango de fecha válido"
 msgid "Number of Abuse Reports"
 msgstr "Núm. de informes de uso indebido"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Cargando..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "Apps"
 msgid "Number of Apps"
 msgstr "Número de apps"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Cargando..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Inicio"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "Ingresos"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Total diario"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Inicio"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

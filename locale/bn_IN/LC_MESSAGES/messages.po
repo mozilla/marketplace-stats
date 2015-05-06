@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2014-11-19 06:53+0000\n"
 "Last-Translator: Biraj <brnet00@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "সাইন ইন"
 msgid "Sample Chart"
 msgstr "নমুনা চার্ট"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "ডেভেলপারগণ"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "পরিশোধের ধরন অনুযায়ী নতুন অ্যাপগুলি"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "অ্যাপ এর ধরন অনুযায়ী নতুন অ্যাপ"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "পরিশোধের ধরন অনুযায়ী অ্যাপগুলি"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "অ্যাপ এর ধরন অনুযায়ী অ্যাপগুলি"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "ইন্সটল হওয়া অ্যাপগুলি"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "অ্যাপ রেটিং"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "অ্যাপসমুহ ডেভেলপ করুন"
@@ -164,17 +136,33 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যবহার"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ওহ না!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "ডেভেলপারগণ"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনি যেই পাতাটি খুজছিলেন সেটি পাওয়া যায়নি।"
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "পরিশোধের ধরন অনুযায়ী নতুন অ্যাপগুলি"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "একটি ত্রুটি ঘটেছে।"
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "অ্যাপ এর ধরন অনুযায়ী নতুন অ্যাপ"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "পরিশোধের ধরন অনুযায়ী অ্যাপগুলি"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "অ্যাপ এর ধরন অনুযায়ী অ্যাপগুলি"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "ইন্সটল হওয়া অ্যাপগুলি"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "অ্যাপ রেটিং"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "আরও লোড করতে সমস্যা"
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "এগিয়ে যেতে হলে সাইন ইন করুন।"
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "ওহ না!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ করুন"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "একটি ত্রুটি ঘটেছে।"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr ""
 msgid "This data is restricted or no data found"
 msgstr "এই তথ্য সীমিত বা কোন তথ্য পাওয়া যায়নি"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনি যেই পাতাটি খুজছিলেন সেটি পাওয়া যায়নি।"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "এগিয়ে যেতে হলে সাইন ইন করুন।"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ করুন"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "সার্ভার ত্রুটি ধরা পড়েছে। অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।"
@@ -256,6 +256,10 @@ msgstr "একটি বৈধ তারিখের সীমা লিখু�
 msgid "Number of Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "লোড করা হচ্ছে ..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "অ্যাপস"
 msgid "Number of Apps"
 msgstr "অ্যাপ্লিকেশন সংখ্যা"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "লোড করা হচ্ছে ..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "হোম"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "উপার্জন"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "দৈনিক মোট"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "হোম"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

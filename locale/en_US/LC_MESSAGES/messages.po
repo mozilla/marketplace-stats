@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Sign In"
 msgid "Sample Chart"
 msgstr "Sample Chart"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Developers"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "New Apps by Payment Type"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "New Apps by App Type"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Apps by Payment Type"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Apps by App Type"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Apps Installed"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "App Ratings"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Develop Apps"
@@ -164,17 +136,33 @@ msgstr "Terms of Use"
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh no!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Developers"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "The page you were looking for was not found."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "New Apps by Payment Type"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "An error occurred."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "New Apps by App Type"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Apps by Payment Type"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Apps by App Type"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Apps Installed"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "App Ratings"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Error loading more"
 msgid "Try Again"
 msgstr "Try Again"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Please sign in to proceed."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh no!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Sign in / Sign up"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "An error occurred."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr "month"
 msgid "This data is restricted or no data found"
 msgstr "This data is restricted or no data found"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "The page you were looking for was not found."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Please sign in to proceed."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Sign in / Sign up"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Server error detected. Please try again later."
@@ -256,6 +256,10 @@ msgstr "Please enter a valid date range"
 msgid "Number of Abuse Reports"
 msgstr "Number of Abuse Reports"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Loading..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "Apps"
 msgid "Number of Apps"
 msgstr "Number of Apps"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Loading..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Home"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "Revenue"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Daily Total"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Home"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

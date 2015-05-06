@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2014-09-29 07:22+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Oturum aç"
 msgid "Sample Chart"
 msgstr "Örnek grafik"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr ""
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr ""
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr ""
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr ""
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr ""
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr ""
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr ""
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Uygulama geliştirin"
@@ -162,17 +134,33 @@ msgstr "Kullanım şartları"
 msgid "Report Trademark Abuse"
 msgstr "Marka ihlali bildir"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
 msgstr ""
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Aradığınız sayfa bulunamadı."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr ""
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Bir hata oluştu."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr ""
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr ""
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr ""
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr ""
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr ""
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -182,13 +170,13 @@ msgstr ""
 msgid "Try Again"
 msgstr ""
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
 msgstr ""
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Giriş yap / kaydol"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Bir hata oluştu."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -222,6 +210,18 @@ msgstr ""
 msgid "This data is restricted or no data found"
 msgstr ""
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Aradığınız sayfa bulunamadı."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr ""
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Giriş yap / kaydol"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Sunucu hatası algılandı. Lütfen sonra tekrar deneyin."
@@ -254,6 +254,10 @@ msgstr "Lütfen geçerli bir tarih aralığı girin"
 msgid "Number of Abuse Reports"
 msgstr "Suistimal raporu sayısı"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -264,9 +268,10 @@ msgstr "Uygulamalar"
 msgid "Number of Apps"
 msgstr "Uygulama sayısı"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Yükleniyor..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr ""
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -275,11 +280,6 @@ msgstr "Gelir"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Günlük toplam"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr ""
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

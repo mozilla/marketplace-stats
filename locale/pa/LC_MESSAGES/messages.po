@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-03-15 00:15+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "ਸਾਈਨ ਇਨ"
 msgid "Sample Chart"
 msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "ਡਿਵੈਲਪਰ"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "ਐਪ ਕਿਸਮ ਰਾਹੀਂ ਨਵੀਆਂ ਐਪਸ"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "ਐਪ ਦੀ ਕਿਸਮ ਅਨੁਸਾਰ apps"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "ਐਪਸ ਇੰਸਟਾਲ"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "ਐਪਸ ਪ੍ਰਕਾਸ਼ਿਤ"
@@ -164,17 +136,33 @@ msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 msgid "Report Trademark Abuse"
 msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ਉਹ ਨੋ!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "ਡਿਵੈਲਪਰ"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "ਤੁਸੀ ਜੋ ਸਫ਼ਾ ਲੱਭ ਰਹੇ ਹੋ ਨਹੀ ਮਿਲਿਆ।"
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "ਐਪ ਕਿਸਮ ਰਾਹੀਂ ਨਵੀਆਂ ਐਪਸ"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "ਭੁਗਤਾਨ ਕਿਸਮ ਰਾਹੀਂ ਨਵੇਂ ਐਪਸ"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "ਐਪ ਦੀ ਕਿਸਮ ਅਨੁਸਾਰ apps"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "ਐਪਸ ਇੰਸਟਾਲ"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "ਉਹ ਨੋ!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr "ਮਹੀਨਾ"
 msgid "This data is restricted or no data found"
 msgstr "ਇਹ ਡਾਟਾ ਸੀਮਿਤ ਹੈ ਜਾ ਕੋਈ ਵੀ ਡਾਟਾ ਨਹੀ ਮਿਲਿਆ ਹੈ"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "ਤੁਸੀ ਜੋ ਸਫ਼ਾ ਲੱਭ ਰਹੇ ਹੋ ਨਹੀ ਮਿਲਿਆ।"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "ਸਰਵਰ ਗਲਤੀ ਖੋਜੀ ਗਈ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
@@ -256,6 +256,10 @@ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀ�
 msgid "Number of Abuse Reports"
 msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "ਲੋਡਿਗ..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "ਐਪਸ"
 msgid "Number of Apps"
 msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "ਲੋਡਿਗ..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "ਹੋਮ"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "ਰੇਵਿਨਿਉ"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "ਰੋਜ਼ਾਨਾ ਕੁੱਲ"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "ਹੋਮ"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-04-01 07:37+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Oanmelde"
 msgid "Sample Chart"
 msgstr "Foarbyldgrafyk"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Untwikkelers"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nije apps op betellingstype"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nije apps op apptype"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Apps op betellingstype"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Apps op apptype"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Ynstalleare apps"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "App-wurdearringen"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Apps ûntwikkelje"
@@ -164,17 +136,33 @@ msgstr "Brûksbetingsten"
 msgid "Report Trademark Abuse"
 msgstr "Misbrûk fan hannelsmerk melde"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nee!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Untwikkelers"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De troch jo sochte side is net fûn."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nije apps op betellingstype"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Der is in flater bard."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nije apps op apptype"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Apps op betellingstype"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Apps op apptype"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Ynstalleare apps"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "App-wurdearringen"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Flater by it laden fan mear"
 msgid "Try Again"
 msgstr "Opnij probearje"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Meld jo oan om troch te gean."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh nee!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Oanmelde / Registrearje"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Der is in flater bard."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -225,6 +213,18 @@ msgstr "moanne"
 msgid "This data is restricted or no data found"
 msgstr "Dizze gegevens binne beheind tagonklik of der binne gjin gegevens fûn"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De troch jo sochte side is net fûn."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Meld jo oan om troch te gean."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Oanmelde / Registrearje"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "Tsjinnerflater detektearre. Probearje it letter nochris."
@@ -257,6 +257,10 @@ msgstr "Fier in jildich datumberik yn"
 msgid "Number of Abuse Reports"
 msgstr "Oantal misbrûkmeldingen"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Lade…"
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -267,9 +271,10 @@ msgstr "Apps"
 msgid "Number of Apps"
 msgstr "Oantal apps"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Lade…"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Start"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -278,11 +283,6 @@ msgstr "Ynkomsten"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Daagliks totaal"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Start"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

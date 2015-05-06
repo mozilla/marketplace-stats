@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-08T16:08:20.692Z\n"
+"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
 "PO-Revision-Date: 2015-05-01 16:29+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,34 +88,6 @@ msgstr "Hyni"
 msgid "Sample Chart"
 msgstr "Shembull Grafiku"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Zhvillues"
-
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Aplikacione të Reja sipas Llojesh Pagese"
-
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Aplikacione të Reja sipas Llojesh Aplikacioni"
-
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Aplikacione sipas Llojesh Pagese"
-
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Aplikacione sipas Llojesh Aplikacioni"
-
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Aplikacione të Instaluara"
-
-#: /templates/homepage.html:40
-msgid "App Ratings"
-msgstr "Vlerësime Aplikacioni"
-
 #: /templates/footer.html:2
 msgid "Develop Apps"
 msgstr "Aplikacione Zhvilluesish"
@@ -164,17 +136,33 @@ msgstr "Kushte Përdorimi"
 msgid "Report Trademark Abuse"
 msgstr "Njoftoni Shpërdorim Shenjash Tregtare"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh, mos!"
+#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Zhvillues"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Faqja që po kërkonit, nuk u gjet."
+#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Aplikacione të Reja sipas Llojesh Pagese"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ndodhi një gabim."
+#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Aplikacione të Reja sipas Llojesh Aplikacioni"
+
+#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Aplikacione sipas Llojesh Pagese"
+
+#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Aplikacione sipas Llojesh Aplikacioni"
+
+#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Aplikacione të Instaluara"
+
+#: /templates/homepage.html:40
+msgid "App Ratings"
+msgstr "Vlerësime Aplikacioni"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -184,13 +172,13 @@ msgstr "Gabim në ngarkim të tjerash"
 msgid "Try Again"
 msgstr "Riprovoni"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Ju lutemi, bëni hyrjen që të ecet më tej."
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh, mos!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Hyni / Regjistrohuni"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ndodhi një gabim."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -224,6 +212,18 @@ msgstr "muaj"
 msgid "This data is restricted or no data found"
 msgstr "Këto të dhëna janë të rezervuara ose nuk u gjetën të dhëna"
 
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Faqja që po kërkonit, nuk u gjet."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Ju lutemi, bëni hyrjen që të ecet më tej."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Hyni / Regjistrohuni"
+
 #: /media/js/chartutils.js:30
 msgid "Server error detected. Please try again later."
 msgstr "U zbulua gabim shërbyesi. Ju lutemi, riprovoni më vonë."
@@ -256,6 +256,10 @@ msgstr "Ju lutemi, jepni një interval të vlefshme të dhënash"
 msgid "Number of Abuse Reports"
 msgstr "Numër Raportimesh Abuzimi"
 
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Po ngarkohet..."
+
 #: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
@@ -266,9 +270,10 @@ msgstr "Aplikacione"
 msgid "Number of Apps"
 msgstr "Numër Aplikacionesh"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Po ngarkohet..."
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Kreu"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,11 +282,6 @@ msgstr "Të ardhura"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Gjithsej i Përditshëm"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Kreu"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
