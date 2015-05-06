@@ -2,7 +2,7 @@
 <section class="main chart">
   {% defer (url=api('app', [slug]), as='app', key=slug, id='app-data') %}
     {% if user.logged_in() %}
-      <nav class="sub c">
+      <nav class="sub">
         <h1>
           {{ title }}:
           <a href="{{ url('app_dashboard', [slug]) }}">{{ this.name|translate(this) }}</a>

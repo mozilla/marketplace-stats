@@ -32,6 +32,10 @@ define('chartutils',
             403: gettext('Authentication failure detected. The data you are trying to access is not public.'),
             400: gettext('The statistics data request is incomplete or invalid.'),
             unknown: gettext('An unknown server error was detected. Please try again later.')
+        },
+        prompts: {
+            reverseDates: gettext('You have entered a negative date range. Reverse?'),
+            validDate: gettext('Please enter a valid date range')
         }
     };
 
@@ -92,7 +96,8 @@ define('chartutils',
         }
 
         if (doRedirect) {
-            doRedirect = false; // Redirect loops are delirious joy.
+            // Prevent redirect loops - also a terrible breakfast cereal.
+            doRedirect = false;
             z.page.trigger('divert', [newURL]);
             window.history.replaceState({}, '', newURL);
             return;
@@ -100,7 +105,7 @@ define('chartutils',
 
         if (isNegativeRange(start, end)) {
             ask({
-                message: gettext('You have entered a negative date range. Reverse?'),
+                message: strings.prompts.reverseDates,
                 closable: true
             }).then(function() {
                 end = $range.eq(0).val();
@@ -112,7 +117,7 @@ define('chartutils',
                 );
             });
         } else if (start == end) {
-            notify({message: gettext('Please enter a valid date range')});
+            notify({message: strings.prompts.validDate});
         }
 
         window.history.replaceState({}, '', newURL);
@@ -149,7 +154,7 @@ define('chartutils',
 
         options.shortRange = isShortRange(start, end);
 
-        // Conjures thine chart from the ether to stimulate thine humours.
+        // Create the actual chart.
         linechart.createLineChart({
             tooltipValue: lblValue,
             yAxis: lblYAxis,

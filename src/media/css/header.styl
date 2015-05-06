@@ -1,91 +1,13 @@
 // styles for the global site header only.
 @import 'lib';
 
-// ***************** Wide Mobile (600+ px)
-
-// usable on any header
-.header {
-    background: #fff;
-    display-flex();
-    height: 60px;
-    max-height: 60px;
-    position: relative;
-    width: 100%;
-    > * {
-        flex-center();
-    }
-    .flex-shift, .title {
-        flex(1);
-        padding-left: 10px;
-    }
-    .title {
-        color: $castle-skull-gray;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 60px;
-        z-index: 10;
-    }
-}
-
-.project {
-    border-left: 1px dotted $cloud-gray;
-    color: #E66000;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: -0.5px;
-    line-height: 30px;
-    padding: 3px 0 0 12px;
-}
-
-.project:hover {
-    text-decoration: none;
-}
-
-header .email {
-    border-right: 1px solid $seavan-salt-white;
-    color: $london-fog-gray;
-    margin-right: 15px;
-    padding-right: 15px;
-}
-
-.header, .secondary-header {
-    border-bottom: 1px solid $cloud-gray;
-}
-
-// # for the primary site header *only*. If you need to generalize a style in here, move it.
+$header-border = 1px dotted $cloud-gray;
 
 .site-header {
-    display: block;
-    height: 60px;
-    max-height: 60px;
-    position: relative;
-    text-align: center;
-    top: 0;
-    z-index: 20;
+    background-color: #fff;
+    display: flex;
 
-    &:before {
-        display: none;
-    }
-    > * {
-        display: block;
-    }
-    > nav,
-    > .warn {
-        height: 60px;
-        display-flex();
-        margin: 0 auto;
-        max-width: 1024px;
-        position: relative;
-        text-align: left;
-        width: 100%;
-
-        > * {
-            flex-center();
-            display: block;
-        }
-    }
     .site {
-        height: 60px;
         margin: 0;
         width: 232px;
 
@@ -113,6 +35,37 @@ header .email {
     .persona {
         display: block;
     }
+    > nav {
+        display: flex;
+        margin: 0 auto;
+        width: 1024px;
+
+        > a {
+            align-self: center;
+        }
+    }
+    .flex-shift {
+        flex: 1 1 0;
+    }
+}
+
+header .email {
+    color: $london-fog-gray;
+
+    +ltr() {
+        border-right: $header-border;
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+    +rtl() {
+        border-left: $header-border;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+}
+
+.header, .secondary-header {
+    border-bottom: 1px solid $cloud-gray;
 }
 
 .close {
@@ -225,4 +178,27 @@ main {
     height: 48px;
     line-height: 44px;  // 60px minus the border widths;
     padding: 0 20px;
+}
+
+.project {
+    align-self: center;
+    color: #E66000;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+
+    +ltr() {
+        border-left: $header-border;
+        padding: 3px 0 0 12px;
+    }
+    +rtl() {
+        border-right: $header-border;
+        margin-right: 15px;
+        padding: 3px 12px 0 0;
+    }
+}
+
+.project:hover {
+    text-decoration: none;
 }

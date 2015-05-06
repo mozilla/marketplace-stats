@@ -15,7 +15,7 @@ define('linechart',
     var console = log('linechart');
 
     var maxValue = 0;
-    var margin = {top: 20, right: 30, bottom: 55, left: 80};
+    var margin = {top: 30, right: 30, bottom: 40, left: 80};
     var valFormat = d3.format(',d');
     var line;
     var parseDate = d3.time.format('%Y-%m-%d').parse;
@@ -24,6 +24,14 @@ define('linechart',
     // Series toggling transition duration.
     var transTime = 500;
     var color = d3.scale.category10();
+
+    // Show RTL charts?
+    var reverseDirection = !!$('html[dir=rtl]').length;
+
+    if (reverseDirection) {
+        margin.left = 30;
+        margin.right = 80;
+    }
 
     // Null series, if any, get hidden later.
     function isNullSeries(vals) {
@@ -55,6 +63,10 @@ define('linechart',
         var y = d3.scale.linear().range([height, 0]);
         var range = ml.getRecentTimeDelta(30);
         var url = '';
+
+        if (reverseDirection) {
+            x.range([width, 0]);
+        }
 
         var params = {
             'start': range.start,
@@ -136,7 +148,7 @@ define('linechart',
                                    .append('path')
                                    .attr('class', 'line')
                                    .attr('d', function(d) {return flatline(d.values);})
-                                   .style('stroke', getSeriesColor)
+                                   .style('stroke', '#fff')
                                    .transition().duration(1000)
                                    .attr('d', function(d) {return line(d.values);});
 
@@ -163,10 +175,10 @@ define('linechart',
             lineLabels: false, // Append line labels to the end of each line?
             tickPadding: 8, // Axes distance from their tick labels (in px).
             url: 'http://localhost:5000/api/v1/apps/bah/statistics/',
-            width: 950
+            width: 960
         };
 
-        // Almost like $.extend() except worse and no recursion so don't nest!
+        // Almost like $.extend() except worse since no recursion so don't nest!
         for (var prop in options) {
             opts[prop] = options[prop];
         }
@@ -183,11 +195,18 @@ define('linechart',
         }
 
         var x = d3.time.scale().range([0, width]);
+
+        // Is this a RTL chart? Flip the range.
+        if (reverseDirection) {
+            x.range([width, 0]);
+        }
+
         var y = d3.scale.linear().range([height, 0]);
 
         var xAxis = d3.svg.axis().scale(x).orient('bottom')
                       .tickFormat(xAxisTimeFormat)
-                      .tickPadding(opts.tickPadding);
+                      .tickPadding(opts.tickPadding)
+                      .ticks(6);
 
         if (opts.shortRange) {
             xAxis = d3.svg.axis().scale(x).orient('bottom')
@@ -196,9 +215,14 @@ define('linechart',
                       .ticks(d3.time.days, 1);
         }
 
+
         var yAxis = d3.svg.axis().scale(y).orient('left')
                       .tickPadding(opts.tickPadding)
                       .tickFormat(valFormat);
+
+        if (reverseDirection) {
+            yAxis.tickPadding(-15);
+        }
 
         var toggleSeries = [];
 
@@ -273,6 +297,9 @@ define('linechart',
         */
 
         function yGrid() {
+            if (reverseDirection) {
+                return d3.svg.axis().scale(y).orient('right');
+            }
             return d3.svg.axis().scale(y).orient('left');
         }
 
@@ -369,28 +396,40 @@ define('linechart',
 
             y.domain([opts.forceZeroMin ? 0 : getMinValue(series), maxValue]);
 
-            svg.append('g')
-               .attr('class', 'grid')
-               .call(yGrid().tickSize(-width, 0, 0).tickFormat(''));
+            if (reverseDirection) {
+                svg.append('g')
+                   .attr('class', 'grid')
+                   .call(yGrid().tickSize(width, 0, 0).tickFormat(''));
+            } else {
+                svg.append('g')
+                   .attr('class', 'grid')
+                   .call(yGrid().tickSize(-width, 0, 0).tickFormat(''));
+            }
 
             svg.append('g')
                .attr('class', 'x axis')
                .attr('transform', 'translate(0,' + height + ')')
                .call(xAxis)
-               // Aaron Ward x-axis rotate text trick.
                .selectAll('text')
                    .style('text-anchor', 'end')
-                   .attr('dx', '-10px')
-                   .attr('dy', '-2px')
-                   .attr('transform', function(d) {return 'rotate(-55)';});
+                   .attr('dx', reverseDirection ? '-15px' : '15px')
+                   .attr('dy', '5px');
 
             valAxis = svg.append('g').attr('class', 'y axis').call(yAxis);
-            valAxis.append('text')
-                   .attr('transform', 'rotate(-90)')
-                   .attr('y', 6)
-                   .attr('dy', '5px')
-                   .style('text-anchor', 'end')
-                   .text(lbls.yAxis);
+
+            if (reverseDirection) {
+                valAxis.attr('transform', 'translate(' + width + ',0)');
+            }
+
+            // Consider removing this for both directions - value axis is obvious.
+            if (!reverseDirection) {
+                valAxis.append('text')
+                       .attr('transform', 'rotate(-90)')
+                       .attr('y', 6)
+                       .attr('dy', '5px')
+                       .style('text-anchor', 'end')
+                       .text(lbls.yAxis);
+            }
 
             var flatline = d3.svg.line()
                 .x(function(d) {return x(d.date);})
@@ -501,8 +540,8 @@ define('linechart',
             }
             $rawLinks.show();
 
-            // Bob Vila time - let's build some tables.
-            barify(series, opts);
+            // Temporarily disabled until redesign (bug 1162194).
+            // barify(series, opts);
 
             console.log('...chart created');
         }

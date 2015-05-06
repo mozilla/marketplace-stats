@@ -19,6 +19,10 @@ small-button() {
     stroke-width: 2px;
 }
 
+.dashboard .line {
+    stroke-width: 1px;
+}
+
 .tooltip {
     background: #000;
     border-radius: 3px;
@@ -44,6 +48,7 @@ svg {
     left: 4px;
     position: relative;
     top: 4px;
+
     circle {
         cursor: pointer;
         opacity: 0;
@@ -59,6 +64,7 @@ svg {
     top: 113px;
     width: $desktop-content - 10;
     z-index: 20;
+
     .message {
         color: #aaa;
         font-size: 24px;
@@ -80,6 +86,7 @@ svg {
     display: inline-block;
     font-size: 14px;
     margin: 0 15px;
+
     // Override the inline color style.
     &.hidden {
         color: #bbb !important;
@@ -93,8 +100,8 @@ svg {
 .options {
     height: 30px;
     margin: 25px 0;
+
     label {
-        float: left;
         width: 235px;
     }
     x-datepicker {
@@ -138,6 +145,10 @@ x-datepicker {
     min-width: 140px;
 }
 
+.date-range {
+    display: flex;
+}
+
 // Thanks mbostock! http://bl.ocks.org/mbostock/3750941
 .progress-meter .background {
     fill: #ccc;
@@ -154,9 +165,15 @@ x-datepicker {
 }
 
 .regions {
-    float: left;
     margin-right: 40px;
     margin-top: -4px;
+
+    +ltr() {
+        margin-right: 40px;
+    }
+    +rtl() {
+        margin-left: 40px;
+    }
     select {
         margin-top: -15px;
         margin-left: 6px;
@@ -188,7 +205,6 @@ for region in $regions
     margin-top: 25px;
 }
 
-
 .grid {
     .tick {
         fill: none;
@@ -219,9 +235,10 @@ for region in $regions
         background-color: #fff;
         float: left;
         font-size: 13px;
-        margin: 35px 45px 0 0;
+        margin: 35px 0 0 0;
         padding: 10px 0;
         width: 290px;
+
         ul {
             list-style: none;
         }
@@ -297,15 +314,20 @@ for region in $regions
 }
 
 .sub {
-    h1 {
-        float: left;
-    }
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
     ul {
-        float: right;
+        display: flex;
     }
     li {
-        float: left;
-        margin-right: 5px;
+        +ltr() {
+            margin-right: 5px;
+        }
+        +rtl() {
+            margin-left: 5px;
+        }
         &:last-child {
             margin-right: 0;
         }
@@ -319,16 +341,13 @@ for region in $regions
     padding: 10px 5px 0;
 
     ul {
-        float: right;
+        display: flex;
+        justify-content: flex-end;
     }
     li {
-        float: left;
         font-size: 12px;
         padding: 0 15px;
 
-        &:last-child {
-            padding-right: 0;
-        }
         &.active a {
             font-weight: 500;
             text-decoration: underline;

@@ -1,27 +1,6 @@
-<div id="directory-footer" class="main full c">
-  <div class="group">
-    <a class="button alt devhub" href="/developers/">{{ _('Develop Apps') }}</a>
-  </div>
-  <div class="group links">
-    <a href="/developers/">{{ _('Developer Hub') }}</a>
-    <a href="/feedback" class="submit-feedback">{{ _('Feedback') }}</a>
-    <a href="https://support.mozilla.org/products/firefox-os/marketplace" target="_blank">{{ _('Support') }}</a>
-  </div>
-  <div class="language group links">
-    {% if user.get_permission('developer') %}
-      <a href="/developers/submissions">{{ _('My Submissions') }}</a>
-    {% endif %}
-    {% if user.get_permission('reviewer') %}
-      <a href="/reviewers/apps/queue/" class="only-logged-in">{{ _('Reviewer Tools') }}</a>
-    {% endif %}
-    {% if user.get_permission('lookup') %}
-      <a href="/lookup/" class="only-logged-in">{{ _('Lookup Tool') }}</a>
-    {% endif %}
-  </div>
-</div>
-<div id="footer">
+<div id="footer" class="footer">
   <div class="pad">
-    <h1 id="footzilla"><a href="https://www.mozilla.org/" target="_blank">mozilla</a></h1>
+    <h1 class="footzilla"><a href="https://www.mozilla.org/" target="_blank">mozilla</a></h1>
     <p>
       {{ _('Except where otherwise <a href="{legal_url}" target="_blank">noted</a>, content on this site is licensed under the <a href="{cc_url}" target="_blank">Creative Commons Attribution Share-Alike License v3.0</a> or any later version.',
            legal_url='http://www.mozilla.org/about/legal.html#site',
