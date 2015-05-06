@@ -11,7 +11,7 @@ define('views/apps_added',
         // L10n: This is the title of a chart representing the number of apps added by payment type.
         var chartTitle = gettext('New Apps by Payment Type');
         var context = {title: chartTitle};
-        if (enableRegions) context.regions = cutils.regions;
+        context.enableRegions = enableRegions;
 
         builder.start('apps_chart.html', context).done(function() {
             cutils.createChart(

@@ -1,8 +1,8 @@
 define('chartutils',
     ['core/notification', 'core/urls', 'core/user', 'core/utils', 'core/z',
-     'linechart', 'utils_local', 'regions', 'underscore'],
+     'linechart', 'utils_local', 'underscore'],
     function(notification, urls, user, utils, z,
-             linechart, ml, regions_module, _) {
+             linechart, ml, _) {
 
     // Get last `dayrange` days when no chart date range specified.
     var dayrange = 30;
@@ -14,16 +14,8 @@ define('chartutils',
     var doRedirect = false;
     var ask = notification.confirmation;
     var notify = notification.notification;
-    var regs = regions_module.REGION_CHOICES_SLUG;
     // Better x-axis for short day ranges (number of days).
     var shortDelta = 15;
-
-    var regions = Object.keys(regs).map(function(reg) {
-        return {code: reg, name: regs[reg]};
-    });
-    regions = _.sortBy(regions, function(region) {
-        return region.name;
-    });
 
     var strings = {
         errors: {
@@ -200,6 +192,5 @@ define('chartutils',
 
     return {
         'createChart': createChart,
-        'regions': regions
     };
 });

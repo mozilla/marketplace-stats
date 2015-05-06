@@ -10,7 +10,7 @@ define('views/per_app_revenue',
     return function(builder, args) {
         var chartTitle = gettext('Gross Revenue');
         var context = {title: chartTitle, slug: args[0]};
-        if (enableRegions) context.regions = cutils.regions;
+        context.enableRegions = enableRegions;
 
         builder.start('per_app_chart.html', context).done(function() {
             cutils.createChart(

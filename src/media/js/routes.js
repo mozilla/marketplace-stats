@@ -72,6 +72,9 @@ define('routes',
 
         // App lookup:
         'app': '/api/v1/apps/app/{0}/',
+
+        // Regions
+        'regions': '/api/v2/services/region/',
     });
 
     router.api.addProcessor(function() {
