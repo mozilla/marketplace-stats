@@ -5,9 +5,7 @@ define('user_helpers',
     var initialArgs = utils.getVars();
 
     function region(default_) {
-        if ('region' in initialArgs &&
-            initialArgs.region &&
-            regions.REGION_CHOICES_SLUG[initialArgs.region]) {
+        if ('region' in initialArgs && initialArgs.region) {
             return initialArgs.region;
         }
         return user.get_setting('region_override') ||

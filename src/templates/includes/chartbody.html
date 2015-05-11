@@ -2,16 +2,18 @@
   <form id="rangeform" class="date-range">
     <label>{{ _('From') }} <x-datepicker name="from"></x-datepicker></label>
     <label>{{ _('To') }} <x-datepicker name="to"></x-datepicker></label>
-    {% if regions %}
+    {% if enableRegions %}
+      {% defer (url=anonApi('regions'), pluck='objects') %}
       <div class="regions">
         <em class="restofworld"></em>
         <select name="region">
           <option value="">{{ _('All regions') }}</option>
-          {% for region in regions %}
-            <option value="{{ region.code }}">{{ region.name }}</option>
+          {% for region in this %}
+            <option value="{{ region.slug }}">{{ region.name }}</option>
           {% endfor %}
         </select>
       </div>
+      {% end %}
     {% endif %}
     <button class="button">{{ _('Update') }}</button>
   </form>

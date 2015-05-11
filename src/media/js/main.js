@@ -5,11 +5,11 @@ init.done(function() {
 require(
     [// Modules actually used in main.
      'core/capabilities', 'core/l10n', 'core/log', 'core/navigation',
-     'core/nunjucks', 'core/user', 'core/z', 'regions', 'user_helpers',
+     'core/nunjucks', 'core/user', 'user_helpers', 'core/z',
      // Modules we require to initialize global stuff.
      'brick', 'd3', 'core/login', 'core/forms', 'helpers_local'],
     function(caps, l10n, log, navigation,
-             nunjucks, user, z, regions, userHelpers) {
+             nunjucks, user, userHelpers, z) {
     var logger = log('main');
 
     nunjucks.env.dev = true;
@@ -35,7 +35,7 @@ require(
     z.page.on('reload_chrome', function() {
         // Last minute template compilation.
         logger.log('Reloading chrome');
-        var context = {z: z, REGIONS: regions.REGION_CHOICES_SLUG};
+        var context = {z: z};
         $('#site-header').html(
             nunjucks.env.render('header.html', context));
         $('#site-footer').html(
