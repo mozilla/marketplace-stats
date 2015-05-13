@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2015-01-07 13:03+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -72,6 +72,26 @@ msgstr "いいえ"
 msgid "Yes"
 msgstr "はい"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
+"のバージョンで公開されています。"
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "利用規約"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "商標不正使用報告"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "統計情報"
@@ -87,54 +107,6 @@ msgstr "ログイン"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "サンプルチャート"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "アプリを開発"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "開発者センター"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "フィードバック"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "サポート"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "自分の登録アプリ"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "審査担当者用ツール"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "検索ツール"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
-"のバージョンで公開されています。"
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "プライバシーポリシー"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "利用規約"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "商標不正使用報告"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -164,6 +136,18 @@ msgstr "インストールされたアプリ"
 msgid "App Ratings"
 msgstr "アプリの評価"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ページが見つかりません"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "お探しのページは見つかりませんでした。"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "読み込み中に問題が発生しました"
@@ -171,14 +155,6 @@ msgstr "読み込み中に問題が発生しました"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再読み込み"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ページが見つかりません"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,33 +164,29 @@ msgstr "開始日"
 msgid "To"
 msgstr "終了日"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "すべての地域"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "更新"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "日"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "週"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "月"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "このデータは閲覧が制限されているか、データが見つかりませんでした"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "お探しのページは見つかりませんでした。"
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "すべての地域"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -224,31 +196,31 @@ msgstr "続けるにはログインしてください。"
 msgid "Sign in / Sign up"
 msgstr "ログイン / ユーザ登録"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "サーバエラーが発生しました。また後で試してください。"
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "リクエストされた統計エンドポイントが不正です。"
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "認証エラーが発生しました。あなたが取得しようとしたデータは公開されていません。"
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "統計データのリクエストが不完全もしくは不正です。"
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "不明なサーバエラーが発生しました。また後で試してください。"
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "マイナスの日付範囲が入力されました。開始日と終了日が逆の可能性があります。"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "正しい日付範囲を入力してください。"
 
@@ -256,24 +228,19 @@ msgstr "正しい日付範囲を入力してください。"
 msgid "Number of Abuse Reports"
 msgstr "不正報告数"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "読み込み中..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "アプリ"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "アプリの数"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "ホーム"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "読み込み中..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -282,6 +249,11 @@ msgstr "売上金額"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "日別合計"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "ホーム"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2015-04-01 07:37+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -72,6 +72,26 @@ msgstr "Nee"
 msgid "Yes"
 msgstr "Ja"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Utsein oars <a href=\"{legal_url}\" target=\"_blank\">fermeld</a>, is op de ynhâld fan dizze website de <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</"
+"a> of lettere ferzje fan tapassing."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Privacybelied"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Brûksbetingsten"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Misbrûk fan hannelsmerk melde"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistiken"
@@ -87,54 +107,6 @@ msgstr "Oanmelde"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Foarbyldgrafyk"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Apps ûntwikkelje"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Untwikkelershub"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Feedback"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Stipe"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "Myn bydragen"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "Beoardielershelpmiddelen"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "Sykhelpmiddel"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Utsein oars <a href=\"{legal_url}\" target=\"_blank\">fermeld</a>, is op de ynhâld fan dizze website de <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</"
-"a> of lettere ferzje fan tapassing."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "Privacybelied"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "Brûksbetingsten"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "Misbrûk fan hannelsmerk melde"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -164,6 +136,18 @@ msgstr "Ynstalleare apps"
 msgid "App Ratings"
 msgstr "App-wurdearringen"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De troch jo sochte side is net fûn."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Der is in flater bard."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Flater by it laden fan mear"
@@ -171,14 +155,6 @@ msgstr "Flater by it laden fan mear"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Opnij probearje"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh nee!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Der is in flater bard."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,34 +164,30 @@ msgstr "Fan"
 msgid "To"
 msgstr "Oant"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Alle regio’s"
-
 # werkwoord?
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "Bywurkje"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "dei"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "wike"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "moanne"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "Dizze gegevens binne beheind tagonklik of der binne gjin gegevens fûn"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De troch jo sochte side is net fûn."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "Alle regio’s"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -225,31 +197,31 @@ msgstr "Meld jo oan om troch te gean."
 msgid "Sign in / Sign up"
 msgstr "Oanmelde / Registrearje"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Tsjinnerflater detektearre. Probearje it letter nochris."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "It frege statistikeneinpunt is net jildich."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "Autentikaasjeflater detektearre. De gegevens dy't jo probearje te benaderjen binne net iepenbier."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "De oanfraach foar statistykgegevens is net folslein of net jildich."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "Der is in ûnbekende tsjinnerflater detektearre. Probearje it letter nochris."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "Jo hawwe in negatyf datumberik ynfierd. Omkeare?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "Fier in jildich datumberik yn"
 
@@ -257,24 +229,19 @@ msgstr "Fier in jildich datumberik yn"
 msgid "Number of Abuse Reports"
 msgstr "Oantal misbrûkmeldingen"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Lade…"
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Oantal apps"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Start"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Lade…"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -283,6 +250,11 @@ msgstr "Ynkomsten"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Daagliks totaal"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Start"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

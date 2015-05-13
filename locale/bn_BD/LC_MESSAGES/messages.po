@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2014-08-18 08:01+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,25 @@ msgstr "না"
 msgid "Yes"
 msgstr "হ্যাঁ"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"যদি অন্য কোথাও কিছু <a href=\"{legal_url}\" target=\"_blank\">উল্লেখ</a> না থাকলে এই সাইটের সকল কন্টেন্ট ক্রিয়েটিভ কমন অ্যাট্রিবিউশন শেয়ার-অ্যালাইক ৩.০</a> বা পরবর্তী সংস্করণের লাইসেন্সের অধীনে লাইসেন্সকৃত।"
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "ব্যবহারের শর্তাবলী"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
@@ -87,53 +106,6 @@ msgstr "সাইন ইন"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "নমুনা চার্ট "
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "অ্যাপ ডেভেলপ করুন"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "ডেভেলপার হাব"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "প্রতিক্রিয়া"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "সহায়তায়"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "আমার জমা"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "রিভিউয়ার টুল"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "লুকআপ টুল"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"যদি অন্য কোথাও কিছু <a href=\"{legal_url}\" target=\"_blank\">উল্লেখ</a> না থাকলে এই সাইটের সকল কন্টেন্ট ক্রিয়েটিভ কমন অ্যাট্রিবিউশন শেয়ার-অ্যালাইক ৩.০</a> বা পরবর্তী সংস্করণের লাইসেন্সের অধীনে লাইসেন্সকৃত।"
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "গোপনীয়তা নীতি"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "ব্যবহারের শর্তাবলী"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -163,6 +135,18 @@ msgstr "ইন্সটল করা অ্যাপ"
 msgid "App Ratings"
 msgstr "অ্যাপ রেটিং"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ওহ না! "
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "কথাও একটা গোলমাল হয়েছে। "
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
@@ -170,14 +154,6 @@ msgstr "আরও লোড করার সময় সমস্যা হয়ে�
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন "
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ওহ না! "
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "কথাও একটা গোলমাল হয়েছে। "
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -187,33 +163,29 @@ msgstr "হতে "
 msgid "To"
 msgstr "প্রতি "
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "সমস্ত অঞ্চল"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "আপডেট"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr ""
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr ""
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr ""
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "এই তথ্যটি সিমাবদ্ধ অথবা পাওয়া যায় নি। "
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "সমস্ত অঞ্চল"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -223,31 +195,31 @@ msgstr "সামনে এগিয়ে যেতে অনুগ্রহ ক�
 msgid "Sign in / Sign up"
 msgstr "সাইন ইন / সাইন আপ"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "সার্ভারে সমস্যা দেখা দিয়েছে। অনুগ্রহ করে কিছুক্ষণ পর আবার চেষ্টা করুন। "
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "যে পরিসংখ্যানের জন্য অনুরোধ করা হয়েছে তা সঠিক নয়। "
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "আপনি যে তথ্য পাওয়ার চেষ্টা করছেন তা পাওয়ার অনুমতি আপনার নেই। "
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "পরিসংখ্যানের তথ্য পাওয়ার অনুরোধটি অসম্পুর্ণ বা সঠিক নয়। "
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "সার্ভার একটি অজানা সমস্যার সম্মুখীন হয়েছে। অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন। "
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "আপনি একটি ঋণাত্মক তারিখের রেঞ্জ প্রবেশ করেছেন। উলটে দেবেন? "
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "অনুগ্রহপূর্বক একটি সঠিক তারিখের রেঞ্জ প্রবেশ করুন।"
 
@@ -255,24 +227,19 @@ msgstr "অনুগ্রহপূর্বক একটি সঠিক তা
 msgid "Number of Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "লোড হচ্ছে..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "অ্যাপস"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "এপসমুহের সংখ্যা"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "হোম"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "লোড হচ্ছে..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -281,6 +248,11 @@ msgstr "আয়"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "দৈনিক মোট "
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "হোম"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

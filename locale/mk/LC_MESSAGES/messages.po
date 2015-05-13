@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2014-04-08 17:32+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,26 @@ msgstr "Не"
 msgid "Yes"
 msgstr "Да"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Освен каде што е <a href=\"{legal_url}\" target=\"_blank\">нагласено</a> поинаку, содржината на оваа веб-страница е лиценцирана според <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> или која било подоцнежна верзија."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Приватност"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Услови за користење"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Пријавете злоупотреба на трговска марка"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Статистики"
@@ -87,54 +107,6 @@ msgstr "Најавете се"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Примерок на графикон"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Развој на апликации"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Центар за развивачи"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Повратни информации"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Поддршка"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "Мои објави"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "Алатки за рецензенти"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "Алатка за пребарување"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Освен каде што е <a href=\"{legal_url}\" target=\"_blank\">нагласено</a> поинаку, содржината на оваа веб-страница е лиценцирана според <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> или која било подоцнежна верзија."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "Приватност"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "Услови за користење"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "Пријавете злоупотреба на трговска марка"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -164,6 +136,18 @@ msgstr "Инсталирани апликации"
 msgid "App Ratings"
 msgstr "Оценки на апликација"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О, не!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата што ја баравте не е пронајдена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Се случи грешка."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Грешка при вчитување на повеќе содржини"
@@ -171,14 +155,6 @@ msgstr "Грешка при вчитување на повеќе содржин�
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Обидете се повторно"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Се случи грешка."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,33 +164,29 @@ msgstr "Од"
 msgid "To"
 msgstr "До"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Сите региони"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "Ажурирај"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr ""
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr ""
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr ""
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "Овие податоци се забранети или не постојат"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата што ја баравте не е пронајдена."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "Сите региони"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -224,31 +196,31 @@ msgstr "Најавете се за да продолжите."
 msgid "Sign in / Sign up"
 msgstr "Најава / Регистрација"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Откриена е серверска грешка. Обидете се повторно подоцна."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "Барањето за статистика е невалидно."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "Откриена е неуспешна автентикација. Податоците до кои се обидувате да пристапите не се јавни."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "Барањето за статистички податоци е некомплетно или невалидно."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "Откриена е непозната серверска грешка. Ве молиме пробајте повторно подоцна."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "Внесовте негативен интервал на датуми. Сакате смена на редоследот?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "Ве молиме внесете валиден интервал на датуми"
 
@@ -256,24 +228,19 @@ msgstr "Ве молиме внесете валиден интервал на д
 msgid "Number of Abuse Reports"
 msgstr "Број на пријави на злоупотреба"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Се вчитува..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Апликации"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Број на апликации"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Почетна"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Се вчитува..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -282,6 +249,11 @@ msgstr "Приход"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Вкупно во денот"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Почетна"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

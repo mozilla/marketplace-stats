@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2015-01-08 03:20+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,24 @@ msgstr "否"
 msgid "Yes"
 msgstr "是"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr "除非<a href=\"{legal_url}\" target=\"_blank\">另有说明</a>，本站的内容使用<a href=\"{cc_url}\" target=\"_blank\">知识共享 署名-相同方式共享 3.0协议</a>或更新版本授权发布。"
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "隐私权政策"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "使用条款"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "举报商标滥用"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "统计"
@@ -87,52 +105,6 @@ msgstr "登录"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "示例图表"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "开发应用"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "开发者中心"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "反馈"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "支持"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "我提交的应用"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "审核者工具"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "搜索工具"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr "除非<a href=\"{legal_url}\" target=\"_blank\">另有说明</a>，本站的内容使用<a href=\"{cc_url}\" target=\"_blank\">知识共享 署名-相同方式共享 3.0协议</a>或更新版本授权发布。"
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "隐私权政策"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "使用条款"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "举报商标滥用"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -162,6 +134,18 @@ msgstr "安装的应用"
 msgid "App Ratings"
 msgstr "应用评分"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "噢不！"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到你想找的页面。"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "发生错误。"
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "载入更多时出错"
@@ -169,14 +153,6 @@ msgstr "载入更多时出错"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "重试"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "噢不！"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "发生错误。"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -186,33 +162,29 @@ msgstr "从"
 msgid "To"
 msgstr "到"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "所有地区"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "更新"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "日"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "周"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "月"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "此数据已经被限制或者未找到"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到你想找的页面。"
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "所有地区"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -222,31 +194,31 @@ msgstr "请登录以继续。"
 msgid "Sign in / Sign up"
 msgstr "登录/注册"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "检测到服务器错误。请稍后重试。"
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "请求的统计端点无效。"
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "检测到认证失败。您尝试访问的数据非公开状态。"
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "请求的统计数据不完整或无效。"
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "检测到未知的服务器错误。请稍候重试。"
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "您输入了反向的日期范围，要翻转吗？"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "请输入有效的日期范围"
 
@@ -254,24 +226,19 @@ msgstr "请输入有效的日期范围"
 msgid "Number of Abuse Reports"
 msgstr "滥用报告数量"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "正在载入…"
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "应用"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "应用数量"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "首页"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "正在载入…"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -280,6 +247,11 @@ msgstr "收入"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "每日总共"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "首页"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

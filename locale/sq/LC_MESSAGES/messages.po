@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2015-05-01 16:29+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,26 @@ msgstr "Jo"
 msgid "Yes"
 msgstr "Po"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Hiq atje ku <a href=\"{legal_url}\" target=\"_blank\">shënohet</a> ndryshe, lënda në këtë sajt licencohet sipas një licence <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> ose çfarëdo versioni të mëvonshëm."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Rregulla Privatësie"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Kushte Përdorimi"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Njoftoni Shpërdorim Shenjash Tregtare"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistika"
@@ -87,54 +107,6 @@ msgstr "Hyni"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Shembull Grafiku"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Aplikacione Zhvilluesish"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Qendër Zhvilluesish"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Përshtypje"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Asistencë"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "Parashtrimet e Mia"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "Mjete Shqyrtuesi"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "Mjete Kërkimi"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Hiq atje ku <a href=\"{legal_url}\" target=\"_blank\">shënohet</a> ndryshe, lënda në këtë sajt licencohet sipas një licence <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> ose çfarëdo versioni të mëvonshëm."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "Rregulla Privatësie"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "Kushte Përdorimi"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "Njoftoni Shpërdorim Shenjash Tregtare"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -164,6 +136,18 @@ msgstr "Aplikacione të Instaluara"
 msgid "App Ratings"
 msgstr "Vlerësime Aplikacioni"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, mos!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Faqja që po kërkonit, nuk u gjet."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ndodhi një gabim."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Gabim në ngarkim të tjerash"
@@ -171,14 +155,6 @@ msgstr "Gabim në ngarkim të tjerash"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Riprovoni"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh, mos!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ndodhi një gabim."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,33 +164,29 @@ msgstr "Prej"
 msgid "To"
 msgstr "Për"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Krejt rajonet"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "Përditësoje"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "ditë"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "javë"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "muaj"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "Këto të dhëna janë të rezervuara ose nuk u gjetën të dhëna"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Faqja që po kërkonit, nuk u gjet."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "Krejt rajonet"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -224,31 +196,31 @@ msgstr "Ju lutemi, bëni hyrjen që të ecet më tej."
 msgid "Sign in / Sign up"
 msgstr "Hyni / Regjistrohuni"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "U zbulua gabim shërbyesi. Ju lutemi, riprovoni më vonë."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "Pika e kërkuar për fund të statistikës është e pavlefshme."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "U kap dështim mirëfilltësimi. Të dhënat në të cilat po provoni të hyni, nuk janë publike."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "Kërkesa për të dhëna statistikore është jo e plotë ose e pavlefshme."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "U zbulua një gabim i panjohur shërbyesi. Ju lutemi, riprovoni më vonë."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "Keni dhënë një segment datash negativ. Të ndërrohen vendet?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "Ju lutemi, jepni një interval të vlefshme të dhënash"
 
@@ -256,24 +228,19 @@ msgstr "Ju lutemi, jepni një interval të vlefshme të dhënash"
 msgid "Number of Abuse Reports"
 msgstr "Numër Raportimesh Abuzimi"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Po ngarkohet..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacione"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Numër Aplikacionesh"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Kreu"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Po ngarkohet..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -282,6 +249,11 @@ msgstr "Të ardhura"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Gjithsej i Përditshëm"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Kreu"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

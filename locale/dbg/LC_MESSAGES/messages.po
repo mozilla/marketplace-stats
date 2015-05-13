@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,6 +89,26 @@ msgstr "Ƞǿ"
 msgid "Yes"
 msgstr "Ẏḗş"
 
+#: /templates/footer.html:4
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr ""
+"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, "
+"ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" target=\""
+"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř ȧƞẏ "
+"ŀȧŧḗř ṽḗřşīǿƞ."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Şŧȧŧīşŧīƈş"
@@ -104,54 +124,6 @@ msgstr "Şīɠƞ Īƞ"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Ḓḗṽḗŀǿƥ Ȧƥƥş"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Ḓḗṽḗŀǿƥḗř Ħŭƀ"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Ƒḗḗḓƀȧƈķ"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Şŭƥƥǿřŧ"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "Ḿẏ Şŭƀḿīşşīǿƞş"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "Řḗṽīḗẇḗř Ŧǿǿŀş"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "Ŀǿǿķŭƥ Ŧǿǿŀ"
-
-#: /templates/footer.html:25
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
-"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, "
-"ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" target=\""
-"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř ȧƞẏ "
-"ŀȧŧḗř ṽḗřşīǿƞ."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
 
 #: /templates/homepage.html:5
 #: /media/js/views/total_developers.js:12
@@ -188,6 +160,19 @@ msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ"
 msgid "App Ratings"
 msgstr "Ȧƥƥ Řȧŧīƞɠş"
 
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ǿħ ƞǿ!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
@@ -195,15 +180,6 @@ msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Ŧřẏ Ȧɠȧīƞ"
-
-#: /templates/errors/fragment.html:1
-#: /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Ǿħ ƞǿ!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -213,33 +189,29 @@ msgstr "Ƒřǿḿ"
 msgid "To"
 msgstr "Ŧǿ"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Ȧŀŀ řḗɠīǿƞş"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "Ŭƥḓȧŧḗ"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "ḓȧẏ"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "ẇḗḗķ"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "ḿǿƞŧħ"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "Ŧħīş ḓȧŧȧ īş řḗşŧřīƈŧḗḓ ǿř ƞǿ ḓȧŧȧ ƒǿŭƞḓ"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "Ȧŀŀ řḗɠīǿƞş"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -249,33 +221,33 @@ msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
 msgid "Sign in / Sign up"
 msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Şḗřṽḗř ḗřřǿř ḓḗŧḗƈŧḗḓ. Ƥŀḗȧşḗ ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "Ŧħḗ şŧȧŧīşŧīƈş ḗƞḓƥǿīƞŧ řḗɋŭḗşŧḗḓ īş īƞṽȧŀīḓ."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr ""
 "Ȧŭŧħḗƞŧīƈȧŧīǿƞ ƒȧīŀŭřḗ ḓḗŧḗƈŧḗḓ. Ŧħḗ ḓȧŧȧ ẏǿŭ ȧřḗ ŧřẏīƞɠ ŧǿ ȧƈƈḗşş īş ƞǿŧ "
 "ƥŭƀŀīƈ."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "Ŧħḗ şŧȧŧīşŧīƈş ḓȧŧȧ řḗɋŭḗşŧ īş īƞƈǿḿƥŀḗŧḗ ǿř īƞṽȧŀīḓ."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "Ȧƞ ŭƞķƞǿẇƞ şḗřṽḗř ḗřřǿř ẇȧş ḓḗŧḗƈŧḗḓ. Ƥŀḗȧşḗ ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "Ẏǿŭ ħȧṽḗ ḗƞŧḗřḗḓ ȧ ƞḗɠȧŧīṽḗ ḓȧŧḗ řȧƞɠḗ. Řḗṽḗřşḗ?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "Ƥŀḗȧşḗ ḗƞŧḗř ȧ ṽȧŀīḓ ḓȧŧḗ řȧƞɠḗ"
 
@@ -284,30 +256,25 @@ msgstr "Ƥŀḗȧşḗ ḗƞŧḗř ȧ ṽȧŀīḓ ḓȧŧḗ řȧƞɠḗ"
 msgid "Number of Abuse Reports"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƀŭşḗ Řḗƥǿřŧş"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Ŀǿȧḓīƞɠ..."
-
-#: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Ȧƥƥş"
 
-#: /media/js/views/apps_added.js:20
 #: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20
 #: /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƥƥş"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Ħǿḿḗ"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Ŀǿȧḓīƞɠ..."
 
 #: /media/js/views/gross_revenue.js:18
 #: /media/js/views/per_app_revenue.js:18
@@ -317,6 +284,11 @@ msgstr "Řḗṽḗƞŭḗ"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Ḓȧīŀẏ Ŧǿŧȧŀ"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Ħǿḿḗ"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

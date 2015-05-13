@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2015-02-22 08:26+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,26 @@ msgstr "नहीं"
 msgid "Yes"
 msgstr "हां"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"अन्यथा जहां छोड़कर <a href=\"{legal_url}\" target=\"_blank\">विख्यात</a>, इस साइट की सामग्री अंतर्गत लाइसेंस है <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</"
+"a> या कोई पश्चातवर्ती संस्करण."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "गोपनीयता नीति"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "इस्तेमाल की शर्तें"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "ट्रेडमार्क दुर्व्यवहार रिपोर्ट करें"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "आंकड़े"
@@ -87,54 +107,6 @@ msgstr "साइन इन"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "नमूना चार्ट"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "ऐप्स डिवेलप करे"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "डेवलपर हब"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "प्रतिपुष्टि"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "सहारा"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "मेरा सबमिशन"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "समीक्षक औजार"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "लुकअप औजार"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"अन्यथा जहां छोड़कर <a href=\"{legal_url}\" target=\"_blank\">विख्यात</a>, इस साइट की सामग्री अंतर्गत लाइसेंस है <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</"
-"a> या कोई पश्चातवर्ती संस्करण."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "गोपनीयता नीति"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "इस्तेमाल की शर्तें"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "ट्रेडमार्क दुर्व्यवहार रिपोर्ट करें"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -164,6 +136,18 @@ msgstr "ऐप्लिकेशन स्थापित"
 msgid "App Ratings"
 msgstr "एप्लिकेशन मूल्यांकन"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "अरे नहीं!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "आप जो पृष्ठ के लिए देख रहे थे नहीं मिला था."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "अधिक लोड करने में त्रुटि"
@@ -171,14 +155,6 @@ msgstr "अधिक लोड करने में त्रुटि"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "पुन: प्रयास करें"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "अरे नहीं!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,33 +164,29 @@ msgstr "के द्वारा"
 msgid "To"
 msgstr "के लिए"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "सभी क्षेत्र"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "अद्यतन"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "दिन"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "सप्ताह"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "महीना"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "इस डेटा प्रतिबंधित है या कोई डेटा नहीं मिला"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "आप जो पृष्ठ के लिए देख रहे थे नहीं मिला था."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "सभी क्षेत्र"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -224,31 +196,31 @@ msgstr "आगे बढ़ने के लिए साइन इन करे
 msgid "Sign in / Sign up"
 msgstr "साइन इन / साइन अप"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "सर्वर त्रुटि का पता चला. बाद में पुन: प्रयास करें."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "अनुरोध किया आँकड़े अंतबिंदु अमान्य है."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "प्रमाणीकरण विफलता का पता चला. आप जो डेटा का उपयोग करने कोशिश कर रहे हैं सार्वजनिक नहीं है."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "अनुरोध डेटा आँकड़ों अधूरे या अमान्य है."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "एक अज्ञात सर्वर त्रुटि पाया गया था. बाद में पुन: प्रयास करें."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "आपने एक नकारात्मक तिथि श्रेणी दर्ज किया है. उलटा?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "एक वैध तिथि श्रेणी दर्ज करें"
 
@@ -256,24 +228,19 @@ msgstr "एक वैध तिथि श्रेणी दर्ज करे�
 msgid "Number of Abuse Reports"
 msgstr "दुर्व्यवहार रिपोर्ट की संख्या"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "लोड हो रहा है..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "ऐप्स"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "ऐप्स की संख्या"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "घर"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "लोड हो रहा है..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -282,6 +249,11 @@ msgstr "राजस्व"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "दैनिक कुल"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "घर"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

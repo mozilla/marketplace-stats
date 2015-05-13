@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2015-02-02 18:12+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,26 @@ msgstr "No"
 msgid "Yes"
 msgstr "Sí"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Excepto donde se <a href=\"{legal_url}\" target=\"_blank\">indique</a> lo contrario, el contenido de este sitio se distribuye bajo la licencia <a href=\"{cc_url}\" target=\"_blank\">Creative "
+"Commons Reconocimiento-Compartir Igual v3.0</a> o una versión posterior."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Condiciones de uso"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Informar sobre infracción de marca"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Estadísticas"
@@ -87,54 +107,6 @@ msgstr "Identificarse"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Gráficas de muestra"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Desarrollar apps"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Centro de Desarrolladores"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Opinión"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Ayuda"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "Mis envíos"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "Herramientas del revisor"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "Herramienta de búsqueda"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Excepto donde se <a href=\"{legal_url}\" target=\"_blank\">indique</a> lo contrario, el contenido de este sitio se distribuye bajo la licencia <a href=\"{cc_url}\" target=\"_blank\">Creative "
-"Commons Reconocimiento-Compartir Igual v3.0</a> o una versión posterior."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "Política de privacidad"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "Condiciones de uso"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "Informar sobre infracción de marca"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -164,6 +136,18 @@ msgstr "Apps instaladas"
 msgid "App Ratings"
 msgstr "Valoraciones de apps"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "¡Oh, no!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "No se ha encontrado la página que buscas."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Se ha producido un error."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Error al cargar más contenido"
@@ -171,14 +155,6 @@ msgstr "Error al cargar más contenido"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Intentar de nuevo"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "¡Oh, no!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Se ha producido un error."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,33 +164,29 @@ msgstr "Desde"
 msgid "To"
 msgstr "Hasta"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Todos los países"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "Actualizar"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "día"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "semana"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "mes"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "Estos datos están restringidos o no se encuentran"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "No se ha encontrado la página que buscas."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "Todos los países"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -224,31 +196,31 @@ msgstr "Por favor, identifícate para continuar."
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Registrarse"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Se ha detectado un error del servidor. Inténtalo de nuevo más tarde."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "El criterio estadístico solicitado no es válido."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "Error en la autenticación. La información a la que intentas acceder es privada."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "La solicitud de información estadística está incompleta o no es válida."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "Se ha detectado un error desconocido en el servidor. Vuelve a intentarlo más tarde."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "El rango de fecha que has introducido es negativo. ¿Quieres invertirlo?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "Por favor, escribe un rango de fecha válido"
 
@@ -256,24 +228,19 @@ msgstr "Por favor, escribe un rango de fecha válido"
 msgid "Number of Abuse Reports"
 msgstr "Núm. de informes de uso indebido"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Cargando..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Número de apps"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Inicio"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Cargando..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -282,6 +249,11 @@ msgstr "Ingresos"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Total diario"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Inicio"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

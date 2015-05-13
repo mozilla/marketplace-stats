@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,26 @@ msgstr "Non"
 msgid "Yes"
 msgstr "Si"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Excepto onde <a href=\"{legal_url}\" target=\"_blank\">se indique</a> o contrario, autorizase o contido deste sitio pola <a href=\"{cc_url}\" target=\"_blank\">licenza Creative Commons Atribución-"
+"CompartirIgual v3.0</a> ou calquera versión posterior."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Política de privacidade"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Temos de uso"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Informar de abusos de marca"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Estatísticas"
@@ -86,54 +106,6 @@ msgstr "Identificarse"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Gráfico de exemplo"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Desenvolver aplicativos"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Centro de desenvolvedores"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Opinión"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Asistencia técnica"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "Meus envíos"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "Ferramentas de valoración"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "Ferramenta de consulta"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Excepto onde <a href=\"{legal_url}\" target=\"_blank\">se indique</a> o contrario, autorizase o contido deste sitio pola <a href=\"{cc_url}\" target=\"_blank\">licenza Creative Commons Atribución-"
-"CompartirIgual v3.0</a> ou calquera versión posterior."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "Política de privacidade"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "Temos de uso"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "Informar de abusos de marca"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -163,6 +135,18 @@ msgstr "Aplicativos instalados"
 msgid "App Ratings"
 msgstr "Puntuacións dos aplicativos"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh non!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non se atopou a páxina que estaba buscando."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Produciuse un erro."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Erro ao cargar máis"
@@ -170,14 +154,6 @@ msgstr "Erro ao cargar máis"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tentar de novo"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh non!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Produciuse un erro."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -187,33 +163,29 @@ msgstr "Dende"
 msgid "To"
 msgstr "Ata"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Todas as rexións"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "Actualizar"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr ""
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr ""
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr ""
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "Esta información está restrinxida ou non se atopa"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non se atopou a páxina que estaba buscando."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "Todas as rexións"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -223,31 +195,31 @@ msgstr "Identifíquese para continuar."
 msgid "Sign in / Sign up"
 msgstr "Identificarse / Crear conta"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Produciuse un erro no servidor. Tente de novo máis tarde."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "O criterio estatístico solicitado non é correcto."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "Produciuse un erro de autenticación. A información a que está tentando acceder non é pública."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "A solicitude de información estatística está incompleta ou é incorrecta."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "Produciuse un erro descoñecido no servidor. Tente de novo máis tarde."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "Introduciu un intervalo de datas negativo. Inverter intervalo?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "Escriba un intervalo de datas correcto"
 
@@ -255,24 +227,19 @@ msgstr "Escriba un intervalo de datas correcto"
 msgid "Number of Abuse Reports"
 msgstr "Número de informes de abuso"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Cargando..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicativos"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Número de aplicativos"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Inicio"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Cargando..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -281,6 +248,11 @@ msgstr "Ingresos"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Totais diarios"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Inicio"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

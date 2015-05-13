@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06T15:31:53.403Z\n"
+"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
 "PO-Revision-Date: 2015-01-08 18:55+0000\n"
 "Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,26 @@ msgstr "Ne"
 msgid "Yes"
 msgstr "Da"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Osim gde je drugačije <a href=\"{legal_url}\" target=\"_blank\">navedeno</a>, sadržaj ovog sajta je licenciran pod <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"licencom v3.0</a> ili bilo kojom novijom verzijom."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Polisa o privatnosti"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Uslovi korišćenja"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Prijavite zloupotrebu robne marke"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistike"
@@ -87,54 +107,6 @@ msgstr "Prijavi se"
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Primer grafikona"
-
-#: /templates/footer.html:2
-msgid "Develop Apps"
-msgstr "Razvijaj aplikacije"
-
-#: /templates/footer.html:5
-msgid "Developer Hub"
-msgstr "Centar za programere"
-
-#: /templates/footer.html:6
-msgid "Feedback"
-msgstr "Povratne informacije"
-
-#: /templates/footer.html:7
-msgid "Support"
-msgstr "Podrška"
-
-#: /templates/footer.html:11
-msgid "My Submissions"
-msgstr "Moje dostave"
-
-#: /templates/footer.html:14
-msgid "Reviewer Tools"
-msgstr "Alatke recenzenta"
-
-#: /templates/footer.html:17
-msgid "Lookup Tool"
-msgstr "Alatka za pronalaženje"
-
-#: /templates/footer.html:25
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Osim gde je drugačije <a href=\"{legal_url}\" target=\"_blank\">navedeno</a>, sadržaj ovog sajta je licenciran pod <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"licencom v3.0</a> ili bilo kojom novijom verzijom."
-
-#: /templates/footer.html:30
-msgid "Privacy Policy"
-msgstr "Polisa o privatnosti"
-
-#: /templates/footer.html:31
-msgid "Terms of Use"
-msgstr "Uslovi korišćenja"
-
-#: /templates/footer.html:33
-msgid "Report Trademark Abuse"
-msgstr "Prijavite zloupotrebu robne marke"
 
 #: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -164,6 +136,18 @@ msgstr "Instalirane aplikacije"
 msgid "App Ratings"
 msgstr "Ocene aplikacija"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, ne!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stranica koju ste tražili nije pronađena."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Desila se greška."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Greška prilikom učitavanja"
@@ -171,14 +155,6 @@ msgstr "Greška prilikom učitavanja"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Pokušaj ponovo"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh, ne!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Desila se greška."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,33 +164,29 @@ msgstr "Od"
 msgid "To"
 msgstr "Za"
 
-#: /templates/includes/chartbody.html:8
-msgid "All regions"
-msgstr "Svi regioni"
-
-#: /templates/includes/chartbody.html:15
+#: /templates/includes/chartbody.html:17
 msgid "Update"
 msgstr "Ažuriraj"
 
-#: /templates/includes/chartbody.html:19
+#: /templates/includes/chartbody.html:21
 msgid "day"
 msgstr "dan"
 
-#: /templates/includes/chartbody.html:20
+#: /templates/includes/chartbody.html:22
 msgid "week"
 msgstr "nedelja"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:23
 msgid "month"
 msgstr "mesec"
 
-#: /templates/includes/chartbody.html:25
+#: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
 msgstr "Ovaj podatak je zabranjen, ili nije pronađen"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stranica koju ste tražili nije pronađena."
+#: /templates/includes/chartbody.html:9
+msgid "All regions"
+msgstr "Svi regioni"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -224,31 +196,31 @@ msgstr "Molimo Vas da se prijavite kako biste nastavili."
 msgid "Sign in / Sign up"
 msgstr "Prijavi se / Registruj se"
 
-#: /media/js/chartutils.js:30
+#: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Greška na serveru. Molimo Vas pokušajte kasnije."
 
-#: /media/js/chartutils.js:31
+#: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
 msgstr "Zahtev za krajnju tačku statistike je nevažeći."
 
-#: /media/js/chartutils.js:32
+#: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr "Greška prilikom autentifikacije. Podaci kojima pokušavate da pristupite nisu javni."
 
-#: /media/js/chartutils.js:33
+#: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
 msgstr "Zahtev podataka statistike je nepotpun, ili nepostojeći."
 
-#: /media/js/chartutils.js:34
+#: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr "Detektovana nepoznata greška servera. Molimo Vas pokušajte kasnije."
 
-#: /media/js/chartutils.js:103
+#: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
 msgstr "Uneli ste negativni opseg podataka. Da li želite da se vratite?"
 
-#: /media/js/chartutils.js:115
+#: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
 msgstr "Molimo Vas unesite validni opseg podatka"
 
@@ -256,24 +228,19 @@ msgstr "Molimo Vas unesite validni opseg podatka"
 msgid "Number of Abuse Reports"
 msgstr "Broj prijavljenih zloupotreba"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Učitavam..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacije"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Broj aplikacija"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Početna"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Učitavam..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -282,6 +249,11 @@ msgstr "Prihod"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Ukupno dnevno"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Početna"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
