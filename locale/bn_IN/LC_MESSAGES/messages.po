@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
-"PO-Revision-Date: 2014-11-19 06:53+0000\n"
-"Last-Translator: Biraj <brnet00@gmail.com>\n"
+"PO-Revision-Date: 2015-05-16 06:48+0000\n"
+"Last-Translator: Ayan <ayay700@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bn_IN\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1416380039.0\n"
+"X-POOTLE-MTIME: 1431758937.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -170,15 +170,15 @@ msgstr "হালনাগাদ"
 
 #: /templates/includes/chartbody.html:21
 msgid "day"
-msgstr ""
+msgstr "দিন"
 
 #: /templates/includes/chartbody.html:22
 msgid "week"
-msgstr ""
+msgstr "সপ্তাহ"
 
 #: /templates/includes/chartbody.html:23
 msgid "month"
-msgstr ""
+msgstr "মাস"
 
 #: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
