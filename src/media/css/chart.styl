@@ -1,5 +1,7 @@
 @import 'lib';
 
+$bar-height = 25px;
+
 small-button() {
     font-size: 13px;
     height: 26px;
@@ -45,7 +47,6 @@ svg {
     background-color: #fff;
     border-radius: 3px;
     font-size: 11px;
-    left: 4px;
     position: relative;
     top: 4px;
 
@@ -229,87 +230,58 @@ for region in $regions
 }
 
 .bars {
-    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
 
     .bar-wrapper {
-        background-color: #fff;
-        float: left;
+        color: #fff;
         font-size: 13px;
         margin: 35px 0 0 0;
-        padding: 10px 0;
+        padding: 2px 0;
         width: 290px;
 
         ul {
             list-style: none;
         }
-        li {
-            margin-top: 1px;
-            width: 282px;
-        }
-        &.double {
-            margin-right: 25px;
-            &:nth-child(2) {
-                float: right;
-                margin-right: 0;
-            }
-            li {
-                width: 458px;
-            }
-        }
         &.double, &.double ul {
             width: 465px;
         }
         &.single {
-            float: none;
             width: 100%;
-            li {
-                width: 952px;
-            }
+
             .heading {
                 display: none;
             }
         }
-        &:nth-child(3n) {
-            margin-right: 0;
-        }
     }
     li {
-        height: 25px;
-        position: relative;
+        display: flex;
+        height: $bar-height;
+        justify-content: space-between;
+
+        &:nth-child(2n) {
+            background-color: rgba(255,255,255,0.1);
+        }
     }
     time {
-        left: 5px;
-        position: absolute;
-        top: 4px;
-        z-index: 10;
-    }
-    em {
-        font-style: normal;
-        color: #fff;
-        display: inline-block;
-        position: absolute;
-        top: 4px;
-        right: 10px;
-        &.out {
-            color: $dark-gray;
-            font-weight: 500;
-            right: -35px;
-            &.zero {
-                right: -10px;
-            }
-        }
+        padding: 0 10px;
+        line-height: $bar-height;
     }
     span {
         border-radius: 0 3px 3px 0;
         display: inline-block;
-        height: 25px;
+        line-height: $bar-height;
         margin-left: 50px;
+        padding: 0 10px;
         text-align: right;
-        position: relative;
     }
     .heading {
+        color: #fff;
+        font-size: 14px;
+        margin: 10px 0;
         text-align: center;
-        margin-bottom: 10px;
     }
 }
 

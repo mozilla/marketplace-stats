@@ -230,8 +230,6 @@ define('linechart',
         // http://bl.ocks.org/mbostock/3750941
         var twoPi = 2 * Math.PI,
             progress = 0;
-            // Until 929765 is fixed.
-            //formatPercent = d3.format('.0%');
 
         var arc = d3.svg.arc()
             .startAngle(0)
@@ -284,18 +282,6 @@ define('linechart',
         var foreground = meter.append('path')
             .attr('class', 'foreground');
 
-        /* until 929765
-        var progressText = meter.append('text')
-            .attr('text-anchor', 'middle')
-            .attr('dy', '.35em');
-        */
-
-        /* This might be something to play with later.
-        function xGrid() {
-            return d3.svg.axis().scale(x).orient('bottom');
-        }
-        */
-
         function yGrid() {
             if (reverseDirection) {
                 return d3.svg.axis().scale(y).orient('right');
@@ -304,14 +290,12 @@ define('linechart',
         }
 
         function handleProgress() {
-            // 2000 is a toy for Chrome to play with until we fix bug: 929765
+            // 2000 bytes or d3.event.total
             var i = d3.interpolate(progress, d3.event.loaded / (2000 || d3.event.total));
             d3.transition().tween('progress', function() {
                 return function(t) {
                     progress = i(t);
                     foreground.attr('d', arc.endAngle(twoPi * progress));
-                    // TODO: bug 929765
-                    //progressText.text(formatPercent(progress));
                 };
             });
         }
@@ -436,17 +420,6 @@ define('linechart',
                 .y(function(d) {return 200;})
                 .interpolate('linear');
 
-            // Add grid lines.
-            /*
-            svg.append('g')
-                    .attr('class', 'grid')
-                    .attr('transform', 'translate(0,' + height + ')')
-                    .call(xGrid()
-                        .tickSize(-height, 0, 0)
-                        .tickFormat('')
-                    );
-            */
-
             var graphline = svg.selectAll('.graphline').data(series)
                                .enter()
                                .append('g')
@@ -462,9 +435,9 @@ define('linechart',
                      .style('stroke', getSeriesColor);
 
             // Inject tooltips while hiding `null` values.
-            series.forEach(function(item) {
+            for (var i = 0; i < series.length; i++) {
                 d3.select(graphline[0][i]).selectAll('dot')
-                          .data(item.values)
+                          .data(series[i].values)
                           .enter()
                             .append('circle')
                             .attr('r', 2.5)
@@ -473,8 +446,8 @@ define('linechart',
                             .style('display', function(d) {
                                 if (d.count === null && opts.dropNulls) return 'none';
                             })
-                            .style('fill', function(d) {return color(item.name);})
-                            .attr('class', function(d) {return item.name;})
+                            .style('fill', function(d) {return color(series[i].name);})
+                            .attr('class', function(d) {return series[i].name;})
                             .on('mouseover', function(d) {
                                 tooltip.transition()
                                        .duration(200)
@@ -493,7 +466,7 @@ define('linechart',
                             })
                             .transition().delay(1500)
                             .style('opacity', 1);
-            });
+            }
 
             if (opts.lineLabels) {
                 graphline.append('text')
@@ -540,42 +513,33 @@ define('linechart',
             }
             $rawLinks.show();
 
-            // Temporarily disabled until redesign (bug 1162194).
-            // barify(series, opts);
+            barify(series, opts);
 
             console.log('...chart created');
         }
 
         function barify(series, opts) {
-            // Bar widths.
-            var range = {
-                'single': 232,
-                'double': 408,
-                'full': 902
-            };
             var bars = d3.select('#bars').html('');
-            var scale = d3.scale.linear().domain([0, maxValue])
-                          .range([0, range.single]);
             var list = {};
             var container = {};
 
             series.forEach(function(item) {
                 container = bars.append('div')
-                                .attr('class', 'bar-wrapper');
+                                .attr('class', 'bar-wrapper')
+                                .style('background-color', function(d) {
+                                    return ml.hex2rgba(getSeriesColor(item), 1);
+                                });
 
                 container.append('h3').attr('class', 'heading')
-                         .style('color', getSeriesColor(item))
                          .text(getSeriesName(item));
 
                 list = container.append('ul');
 
                 if (series.length == 1) {
-                    // Single element array, how lonely.
+                    // Single series chart.
                     container.attr('class', 'bar-wrapper single');
-                    scale.range([0, range.full]);
                 } else if (series.length == 2) {
                     container.attr('class', 'bar-wrapper double');
-                    scale.range([0, range.double]);
                 }
 
                 list.selectAll('li')
@@ -586,33 +550,10 @@ define('linechart',
                         return ml.getISODate(d.date);
                     })
                     .text(function(d) {
-                        return d.date.toDateString().substring(3, 10);
+                        return d.date.toDateString();
                     })
                     .select(function() {return this.parentNode;})
                     .append('span')
-                    .style('background-color', function(d) {
-                        return ml.hex2rgba(getSeriesColor(item), 1);
-                    })
-                    .style('width', function(d) {
-                        return scale(+d.count) + 'px';
-                    })
-                    .append('em')
-                    .attr('class', function(d) {
-                        var cls = '';
-                        if (isBarTextOutside(d.count, scale)) {
-                            cls = 'out';
-                            if (d.count === 0) {
-                                cls = 'zero out';
-                            }
-                        }
-                        return cls;
-                    })
-                    .style('color', function(d) {
-                        if (isBarTextOutside(d.count, scale)) {
-                            return ml.hex2rgba(getSeriesColor(item), 1);
-                        }
-                        return '#fff';
-                    })
                     .text(function(d) {
                         if (!opts.dropNulls) {
                             return +d.count;
@@ -620,15 +561,6 @@ define('linechart',
                         return d.count;
                     });
             });
-        }
-
-        // For each bar should the text be outside (can't fit in the bar width).
-        function isBarTextOutside(count, scale) {
-            var valWidth = (+count + '').length * 14;
-            if (count === null || scale(count) < valWidth) {
-                return true;
-            }
-            return false;
         }
 
         function rescale(series) {
