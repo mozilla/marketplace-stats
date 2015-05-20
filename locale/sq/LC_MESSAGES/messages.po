@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
 "PO-Revision-Date: 2015-05-01 16:29+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "Numër Instalimesh:"
 msgid "Installs"
 msgstr "Instalime"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
 #: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Vizita"
@@ -43,7 +43,7 @@ msgstr "Vizita"
 msgid "Ratings"
 msgstr "Vlerësime"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Raportime Abuzimesh"
@@ -52,7 +52,7 @@ msgstr "Raportime Abuzimesh"
 msgid "Average Rating"
 msgstr "Mesatare Vlerësimi"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Të ardhura të Përgjithshme"
 
@@ -108,31 +108,31 @@ msgstr "Hyni"
 msgid "Sample Chart"
 msgstr "Shembull Grafiku"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Zhvillues"
 
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
 msgstr "Aplikacione të Reja sipas Llojesh Pagese"
 
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
 msgid "New Apps by App Type"
 msgstr "Aplikacione të Reja sipas Llojesh Aplikacioni"
 
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
 msgid "Apps by Payment Type"
 msgstr "Aplikacione sipas Llojesh Pagese"
 
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
 msgid "Apps by App Type"
 msgstr "Aplikacione sipas Llojesh Aplikacioni"
 
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
 msgid "Apps Installed"
 msgstr "Aplikacione të Instaluara"
 
-#: /templates/homepage.html:40
+#: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "Vlerësime Aplikacioni"
 
@@ -228,19 +228,19 @@ msgstr "Ju lutemi, jepni një interval të vlefshme të dhënash"
 msgid "Number of Abuse Reports"
 msgstr "Numër Raportimesh Abuzimi"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Po ngarkohet..."
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacione"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Numër Aplikacionesh"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Po ngarkohet..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"

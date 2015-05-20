@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr "Número de instalacións:"
 msgid "Installs"
 msgstr "Instalacións"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
 #: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Visitas"
@@ -42,7 +42,7 @@ msgstr "Visitas"
 msgid "Ratings"
 msgstr "Puntuacións"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Informes de abuso"
@@ -51,7 +51,7 @@ msgstr "Informes de abuso"
 msgid "Average Rating"
 msgstr "Puntuación media"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Ingresos brutos"
 
@@ -107,31 +107,31 @@ msgstr "Identificarse"
 msgid "Sample Chart"
 msgstr "Gráfico de exemplo"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Desenvolvedores"
 
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
 msgstr "Aplicativos novos por método de pago"
 
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
 msgid "New Apps by App Type"
 msgstr "Aplicativos novos por tipo de aplicativo"
 
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
 msgid "Apps by Payment Type"
 msgstr "Aplicativos por método de pago"
 
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
 msgid "Apps by App Type"
 msgstr "Aplicativos por tipo de aplicativo"
 
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
 msgid "Apps Installed"
 msgstr "Aplicativos instalados"
 
-#: /templates/homepage.html:40
+#: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "Puntuacións dos aplicativos"
 
@@ -227,19 +227,19 @@ msgstr "Escriba un intervalo de datas correcto"
 msgid "Number of Abuse Reports"
 msgstr "Número de informes de abuso"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicativos"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Número de aplicativos"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Cargando..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"

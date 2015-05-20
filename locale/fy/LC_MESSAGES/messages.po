@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
 "PO-Revision-Date: 2015-04-01 07:37+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "Oantal ynstallaasjes:"
 msgid "Installs"
 msgstr "Ynstallaasjes"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:10 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
 #: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Besites"
@@ -43,7 +43,7 @@ msgstr "Besites"
 msgid "Ratings"
 msgstr "Wurdearringen"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:45 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Misbrûkmeldingen"
@@ -52,7 +52,7 @@ msgstr "Misbrûkmeldingen"
 msgid "Average Rating"
 msgstr "Gemiddelde wurdearring"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:52 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Bruto-ynkomsten"
 
@@ -108,31 +108,31 @@ msgstr "Oanmelde"
 msgid "Sample Chart"
 msgstr "Foarbyldgrafyk"
 
-#: /templates/homepage.html:5 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Untwikkelers"
 
-#: /templates/homepage.html:15 /media/js/views/apps_added.js:12
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
 msgstr "Nije apps op betellingstype"
 
-#: /templates/homepage.html:20 /media/js/views/apps_by_type.js:12
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
 msgid "New Apps by App Type"
 msgstr "Nije apps op apptype"
 
-#: /templates/homepage.html:25 /media/js/views/apps_available_by_premium.js:12
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
 msgid "Apps by Payment Type"
 msgstr "Apps op betellingstype"
 
-#: /templates/homepage.html:30 /media/js/views/apps_available_by_type.js:12
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
 msgid "Apps by App Type"
 msgstr "Apps op apptype"
 
-#: /templates/homepage.html:35 /media/js/views/apps_installed.js:12
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
 msgid "Apps Installed"
 msgstr "Ynstalleare apps"
 
-#: /templates/homepage.html:40
+#: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "App-wurdearringen"
 
@@ -229,19 +229,19 @@ msgstr "Fier in jildich datumberik yn"
 msgid "Number of Abuse Reports"
 msgstr "Oantal misbrûkmeldingen"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Lade…"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Oantal apps"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Lade…"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"

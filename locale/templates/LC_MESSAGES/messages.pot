@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-13T15:38:42.035Z\n"
+"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgid "Installs"
 msgstr ""
 
 #: /templates/app_dashboard.html:16
-#: /templates/homepage.html:10
+#: /templates/homepage.html:9
 #: /media/js/views/per_app_visits.js:11
 #: /media/js/views/per_app_visits.js:18
 #: /media/js/views/total_visits.js:12
@@ -53,7 +53,7 @@ msgid "Ratings"
 msgstr ""
 
 #: /templates/app_dashboard.html:22
-#: /templates/homepage.html:45
+#: /templates/homepage.html:44
 #: /media/js/views/abuse_reports.js:12
 #: /media/js/views/abuse_reports.js:19
 #: /media/js/views/per_app_abuse_reports.js:11
@@ -67,7 +67,7 @@ msgid "Average Rating"
 msgstr ""
 
 #: /templates/app_dashboard.html:29
-#: /templates/homepage.html:52
+#: /templates/homepage.html:51
 #: /media/js/views/gross_revenue.js:11
 #: /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
@@ -121,38 +121,38 @@ msgstr ""
 msgid "Sample Chart"
 msgstr ""
 
-#: /templates/homepage.html:5
+#: /templates/homepage.html:4
 #: /media/js/views/total_developers.js:12
 #: /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr ""
 
-#: /templates/homepage.html:15
+#: /templates/homepage.html:14
 #: /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
 msgstr ""
 
-#: /templates/homepage.html:20
+#: /templates/homepage.html:19
 #: /media/js/views/apps_by_type.js:12
 msgid "New Apps by App Type"
 msgstr ""
 
-#: /templates/homepage.html:25
+#: /templates/homepage.html:24
 #: /media/js/views/apps_available_by_premium.js:12
 msgid "Apps by Payment Type"
 msgstr ""
 
-#: /templates/homepage.html:30
+#: /templates/homepage.html:29
 #: /media/js/views/apps_available_by_type.js:12
 msgid "Apps by App Type"
 msgstr ""
 
-#: /templates/homepage.html:35
+#: /templates/homepage.html:34
 #: /media/js/views/apps_installed.js:12
 msgid "Apps Installed"
 msgstr ""
 
-#: /templates/homepage.html:40
+#: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr ""
 
@@ -250,24 +250,24 @@ msgstr ""
 msgid "Number of Abuse Reports"
 msgstr ""
 
-#: /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr ""
+
 #: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr ""
 
-#: /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_added.js:20
 #: /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
-msgstr ""
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
 msgstr ""
 
 #: /media/js/views/gross_revenue.js:18
