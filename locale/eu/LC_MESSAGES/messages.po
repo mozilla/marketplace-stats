@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: 2015-03-12 23:18+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,6 +92,10 @@ msgstr "Erabilera-baldintzak"
 msgid "Report Trademark Abuse"
 msgstr "Salatu markaren erabilera okerra"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Diagramaren adibidea"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Estatistikak"
@@ -103,10 +107,6 @@ msgstr "Amaitu saioa"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Hasi saioa"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Diagramaren adibidea"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -232,12 +232,12 @@ msgstr "Abusu-salaketen kopurua"
 msgid "Loading..."
 msgstr "Kargatzen..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikazioak"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Aplikazio-kopurua"

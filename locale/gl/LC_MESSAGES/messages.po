@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,6 +91,10 @@ msgstr "Temos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar de abusos de marca"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Gráfico de exemplo"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Estatísticas"
@@ -102,10 +106,6 @@ msgstr "Saír"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Identificarse"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Gráfico de exemplo"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -231,12 +231,12 @@ msgstr "Número de informes de abuso"
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicativos"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Número de aplicativos"

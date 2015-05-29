@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: 2015-05-01 16:29+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,6 +92,10 @@ msgstr "Kushte Përdorimi"
 msgid "Report Trademark Abuse"
 msgstr "Njoftoni Shpërdorim Shenjash Tregtare"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Shembull Grafiku"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistika"
@@ -103,10 +107,6 @@ msgstr "Dilni"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Hyni"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Shembull Grafiku"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -232,12 +232,12 @@ msgstr "Numër Raportimesh Abuzimi"
 msgid "Loading..."
 msgstr "Po ngarkohet..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacione"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Numër Aplikacionesh"

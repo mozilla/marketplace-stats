@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: 2015-01-08 23:37+0300\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian <Russian <ru@li.org>>\n"
@@ -93,6 +93,10 @@ msgstr "Условия использования"
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Образец Графика"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Статистика"
@@ -104,10 +108,6 @@ msgstr "Выйти"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Войти"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Образец Графика"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -233,12 +233,12 @@ msgstr "Число жалоб"
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Приложения"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Число приложений"

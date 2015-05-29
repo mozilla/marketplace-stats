@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,6 +109,10 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Şŧȧŧīşŧīƈş"
@@ -120,10 +124,6 @@ msgstr "Şīɠƞ Ǿŭŧ"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Şīɠƞ Īƞ"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
 
 #: /templates/homepage.html:4
 #: /media/js/views/total_developers.js:12
@@ -261,17 +261,17 @@ msgid "Loading..."
 msgstr "Ŀǿȧḓīƞɠ..."
 
 #: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Ȧƥƥş"
 
 #: /media/js/views/apps_added.js:20
-#: /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƥƥş"

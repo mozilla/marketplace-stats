@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: 2015-01-08 03:20+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,6 +90,10 @@ msgstr "使用条款"
 msgid "Report Trademark Abuse"
 msgstr "举报商标滥用"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "示例图表"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "统计"
@@ -101,10 +105,6 @@ msgstr "注销"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "登录"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "示例图表"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -230,12 +230,12 @@ msgstr "滥用报告数量"
 msgid "Loading..."
 msgstr "正在载入…"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "应用"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "应用数量"

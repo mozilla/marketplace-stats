@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: 2015-01-07 13:03+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -92,6 +92,10 @@ msgstr "利用規約"
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "サンプルチャート"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "統計情報"
@@ -103,10 +107,6 @@ msgstr "ログアウト"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "ログイン"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "サンプルチャート"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -232,12 +232,12 @@ msgstr "不正報告数"
 msgid "Loading..."
 msgstr "読み込み中..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "アプリ"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "アプリの数"

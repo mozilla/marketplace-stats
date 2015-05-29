@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-20T17:14:48.570Z\n"
+"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
 "PO-Revision-Date: 2014-08-18 08:01+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,6 +91,10 @@ msgstr "ব্যবহারের শর্তাবলী"
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "নমুনা চার্ট "
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
@@ -102,10 +106,6 @@ msgstr "সাইন আউট"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "সাইন ইন"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "নমুনা চার্ট "
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -231,12 +231,12 @@ msgstr "অপব্যবহার প্রতিবেদন সংখ্য�
 msgid "Loading..."
 msgstr "লোড হচ্ছে..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "অ্যাপস"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "এপসমুহের সংখ্যা"
