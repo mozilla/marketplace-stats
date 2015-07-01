@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
@@ -31,36 +31,29 @@ msgstr "Globalne statistike"
 msgid "Number of Installs:"
 msgstr "Število namestitev:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11
-#: /media/js/views/per_app_installs.js:18
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "Namestitve"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:9
-#: /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18
-#: /media/js/views/total_visits.js:12 /media/js/views/total_visits.js:19
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Ogledi"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19
-#: /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Ocene"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:44
-#: /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19
-#: /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Poročila o zlorabi"
 
-#: /templates/app_dashboard.html:25
-#: /media/js/views/per_app_average_rating.js:11
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "Povprečna ocena"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:51
-#: /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Bruto prihodki"
 
@@ -82,15 +75,11 @@ msgstr "Da"
 
 #: /templates/footer.html:4
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Vsebina na tej strani je licencirana z <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution za deljenje pod istimi pogoji"
-" v3.0</a> ali katerokoli poznejšo različico, razen tam, kjer je <a "
-"href=\"{legal_url}\" target=\"_blank\">označeno</a> drugače."
+"Vsebina na tej strani je licencirana z <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution za deljenje pod istimi pogoji v3.0</a> ali katerokoli poznejšo različico, razen tam, kjer "
+"je <a href=\"{legal_url}\" target=\"_blank\">označeno</a> drugače."
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -120,8 +109,7 @@ msgstr "Izpis"
 msgid "Sign In"
 msgstr "Vpis"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12
-#: /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Razvijalci"
 
@@ -218,12 +206,8 @@ msgid "The statistics endpoint requested is invalid."
 msgstr "Zahtevana končna točka statistik je nepravilna."
 
 #: /media/js/chartutils.js:24
-msgid ""
-"Authentication failure detected. The data you are trying to access is not "
-"public."
-msgstr ""
-"Napaka pri preverjanju pristnosti. Podatki, do katerih želite dostopati, "
-"niso javni."
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Napaka pri preverjanju pristnosti. Podatki, do katerih želite dostopati, niso javni."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
@@ -231,8 +215,7 @@ msgstr "Prošnja za statistične podatke je nepopolna ali nepravilna."
 
 #: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Zaznana je bila neznana napaka na strežniku. Prosim, poskusite kasneje."
+msgstr "Zaznana je bila neznana napaka na strežniku. Prosim, poskusite kasneje."
 
 #: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
@@ -242,8 +225,7 @@ msgstr "Vnesli ste negativen razpon datumov. Ponastavim?"
 msgid "Please enter a valid date range"
 msgstr "Prosim vnesite pravilen razpon datumov"
 
-#: /media/js/views/abuse_reports.js:20
-#: /media/js/views/per_app_abuse_reports.js:19
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Število poročil o zlorabi"
 
@@ -251,17 +233,13 @@ msgstr "Število poročil o zlorabi"
 msgid "Loading..."
 msgstr "Nalaganje..."
 
-#: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_available_by_type.js:19
-#: /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacije"
 
-#: /media/js/views/apps_added.js:20
-#: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_available_by_type.js:20
-#: /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Število aplikacij"
 
