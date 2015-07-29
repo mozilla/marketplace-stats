@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
+"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
 "PO-Revision-Date: 2015-07-02 23:07+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,18 @@ msgstr "Ne"
 msgid "Yes"
 msgstr "Ano"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odhlášení"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Přihlášení"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -92,21 +104,17 @@ msgstr "Podmínky užití"
 msgid "Report Trademark Abuse"
 msgstr "Nahlásit zneužití ochranné známky"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ale ne!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stránka, kterou hledáte, nebyla nalezena."
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Ukázkový graf"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistiky"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odhlášení"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Přihlášení"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -136,14 +144,6 @@ msgstr "Nainstalované aplikace"
 msgid "App Ratings"
 msgstr "Hodnocení aplikace"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ale ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stránka, kterou hledáte, nebyla nalezena."
-
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Došlo k chybě."
@@ -155,6 +155,14 @@ msgstr "Chyba při načítání"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Zkuste to znovu"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Pro pokračovaní se prosím přihlaste."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Přihlášení / Registrace"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,14 +196,6 @@ msgstr "Data jsou zabezpečena nebo nebyla nalezena"
 msgid "All regions"
 msgstr "Všechny regiony"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Pro pokračovaní se prosím přihlaste."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Přihlášení / Registrace"
-
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Na serveru došlo k chybě. Zkuste to prosím později."
@@ -228,19 +228,19 @@ msgstr "Vložte prosím platný rozsah dat"
 msgid "Number of Abuse Reports"
 msgstr "Počet hlášení zneužití"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Načítání..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikace"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Počet aplikací"
+
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Načítání..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -255,10 +255,6 @@ msgstr "Celkem denně"
 msgid "Home"
 msgstr "Domů"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Počet instalací"
-
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -268,14 +264,18 @@ msgstr "Nová hodnocení"
 msgid "Number of Ratings"
 msgstr "Počet hodnocení"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Počet instalací"
+
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Celkový příjem"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Počet návštěv"
-
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "Počet vývojářů"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Počet návštěv"

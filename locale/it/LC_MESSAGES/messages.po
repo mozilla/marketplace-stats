@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
+"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
 "PO-Revision-Date: 2015-01-08 12:24+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,18 @@ msgstr "No"
 msgid "Yes"
 msgstr "Sì"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Esci"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Accedi"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -92,21 +104,17 @@ msgstr "Termini d’uso"
 msgid "Report Trademark Abuse"
 msgstr "Segnala abusi dei marchi registrati"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Accidenti!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non è possibile trovare la pagina che stavi cercando."
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Grafico di esempio"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistiche"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Esci"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Accedi"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -136,14 +144,6 @@ msgstr "App installate"
 msgid "App Ratings"
 msgstr "Valutazioni app"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Accidenti!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non è possibile trovare la pagina che stavi cercando."
-
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Si è verificato un errore."
@@ -155,6 +155,14 @@ msgstr "Errore durante il caricamento di contenuti extra"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Riprova"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Per proseguire devi effettuare l’accesso."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Accedi o registrati"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,14 +196,6 @@ msgstr "Questi dati non esistono oppure non hai i permessi necessari per acceder
 msgid "All regions"
 msgstr "Tutte le regioni"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Per proseguire devi effettuare l’accesso."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Accedi o registrati"
-
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Rilevato un errore col server. Riprova più tardi."
@@ -228,19 +228,19 @@ msgstr "Inserisci un intervallo temporale valido."
 msgid "Number of Abuse Reports"
 msgstr "Segnalazioni di abuso ricevute"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Caricamento in corso…"
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "App"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Numero di app"
+
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Caricamento in corso…"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -255,10 +255,6 @@ msgstr "Totale giornaliero"
 msgid "Home"
 msgstr "Pagina principale"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Numero di installazioni"
-
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -268,14 +264,18 @@ msgstr "Ultime valutazioni"
 msgid "Number of Ratings"
 msgstr "Numero di valutazioni ricevute"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Numero di installazioni"
+
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Entrate totali"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Numero di visite"
-
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "Numero di sviluppatori"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Numero di visite"

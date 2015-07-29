@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
+"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
 "PO-Revision-Date: 2015-04-11 22:10+0000\n"
 "Last-Translator: Marco Aurélio <ouesten@me.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,36 +31,29 @@ msgstr "Estatísticas globais"
 msgid "Number of Installs:"
 msgstr "Número de Instalações:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11
-#: /media/js/views/per_app_installs.js:18
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "Instalações"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:9
-#: /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18
-#: /media/js/views/total_visits.js:12 /media/js/views/total_visits.js:19
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Visitas"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19
-#: /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Classificação"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:44
-#: /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19
-#: /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Denúncias de abuso"
 
-#: /templates/app_dashboard.html:25
-#: /media/js/views/per_app_average_rating.js:11
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "Classificação média"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:51
-#: /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Receita bruta"
 
@@ -80,17 +73,25 @@ msgstr "Não"
 msgid "Yes"
 msgstr "Sim"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Sair"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Entrar"
+
 #: /templates/footer.html:4
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Exceto onde existir <a href=\"{legal_url}\" target=\"_blank\">informação</a>"
-" em contrário, o conteúdo deste site está licenciado sob a <a "
-"href=\"{cc_url}\" target=\"_blank\">licença Creative Commons Atribuição-"
-"CompartilhaIgual v3.0</a> ou qualquer versão posterior."
+"Exceto onde existir <a href=\"{legal_url}\" target=\"_blank\">informação</a> em contrário, o conteúdo deste site está licenciado sob a <a href=\"{cc_url}\" target=\"_blank\">licença Creative "
+"Commons Atribuição-CompartilhaIgual v3.0</a> ou qualquer versão posterior."
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -104,24 +105,19 @@ msgstr "Termos de uso"
 msgid "Report Trademark Abuse"
 msgstr "Informar abuso de marca"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, não!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página que estava procurando não foi encontrada."
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Gráfico de exemplo"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Sair"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Entrar"
-
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12
-#: /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Desenvolvedores"
 
@@ -149,14 +145,6 @@ msgstr "Aplicativos instalados"
 msgid "App Ratings"
 msgstr "Avaliações de aplicativo"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh, não!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página que estava procurando não foi encontrada."
-
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Ocorreu um erro."
@@ -168,6 +156,14 @@ msgstr "Erro ao carregar mais"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tente novamente"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Por favor, identifique-se para prosseguir."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Entrar / Registrar"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -201,14 +197,6 @@ msgstr "Estes dados são restritos ou não foram encontrados"
 msgid "All regions"
 msgstr "Todas as regiões"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Por favor, identifique-se para prosseguir."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Entrar / Registrar"
-
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Erro de servidor detectado. Por favor, tente novamente mais tarde."
@@ -218,12 +206,8 @@ msgid "The statistics endpoint requested is invalid."
 msgstr "O critério estatístico solicitado é inválido."
 
 #: /media/js/chartutils.js:24
-msgid ""
-"Authentication failure detected. The data you are trying to access is not "
-"public."
-msgstr ""
-"Falha de autenticação detectada. Os dados que está tentando acessar não são "
-"públicos."
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Falha de autenticação detectada. Os dados que está tentando acessar não são públicos."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
@@ -231,9 +215,7 @@ msgstr "A solicitação de dados estatísticos está incompleta ou é inválida.
 
 #: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Foi detectado um erro de servidor desconhecido. Por favor, tente novamente "
-"mais tarde."
+msgstr "Foi detectado um erro de servidor desconhecido. Por favor, tente novamente mais tarde."
 
 #: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
@@ -243,28 +225,23 @@ msgstr "Você digitou um intervalo de datas negativo. Reverter?"
 msgid "Please enter a valid date range"
 msgstr "Por favor, introduza um intervalo de datas válido"
 
-#: /media/js/views/abuse_reports.js:20
-#: /media/js/views/per_app_abuse_reports.js:19
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Número de denúncias de abuso"
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplicativos"
+
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Número de aplicativos"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Carregando..."
-
-#: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_available_by_type.js:19
-#: /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Aplicativos"
-
-#: /media/js/views/apps_added.js:20
-#: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_available_by_type.js:20
-#: /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Número de aplicativos"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -279,10 +256,6 @@ msgstr "Total Diário"
 msgid "Home"
 msgstr "Início"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Número de instalações"
-
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -292,14 +265,18 @@ msgstr "Novas avaliações"
 msgid "Number of Ratings"
 msgstr "Número de avaliações"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Número de instalações"
+
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Receita total"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Número de visitas"
-
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "Número de desenvolvedores"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Número de visitas"

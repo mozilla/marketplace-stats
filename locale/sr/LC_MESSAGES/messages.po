@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-29T20:27:51.669Z\n"
+"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
 "PO-Revision-Date: 2015-01-08 18:55+0000\n"
 "Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,18 @@ msgstr "Не"
 msgid "Yes"
 msgstr "Да"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Статистике"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјави се"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Пријави се"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -92,21 +104,17 @@ msgstr "Услови коришћења"
 msgid "Report Trademark Abuse"
 msgstr "Пријавите злоупотребу робне марке"
 
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ох, не!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница коју сте тражили није пронађена."
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Пример графикона"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Статистике"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјави се"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Пријави се"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -136,14 +144,6 @@ msgstr "Инсталиране aпликације"
 msgid "App Ratings"
 msgstr "Оцене апликација"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ох, не!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница коју сте тражили није пронађена."
-
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Десила се грешка."
@@ -155,6 +155,14 @@ msgstr "Грешка приликом учитавања"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Покушај поново"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Молимо Вас да се пријавите како бисте наставили."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Пријави се / Региструј се"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -188,14 +196,6 @@ msgstr "Овај податак је забрањен, или није прон�
 msgid "All regions"
 msgstr "Сви региони"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Молимо Вас да се пријавите како бисте наставили."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Пријави се / Региструј се"
-
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Грешка на серверу. Молимо Вас покушајте касније."
@@ -228,19 +228,19 @@ msgstr "Молимо Вас унесите валидни опсег подат�
 msgid "Number of Abuse Reports"
 msgstr "Број пријављених злоупотреба"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Учитавам..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Апликације"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Број апликација"
+
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Учитавам..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -255,10 +255,6 @@ msgstr "Укупно дневно"
 msgid "Home"
 msgstr "Почетна"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Број инсталирања"
-
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -268,14 +264,18 @@ msgstr "Нове оцене"
 msgid "Number of Ratings"
 msgstr "Број оцена"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Број инсталирања"
+
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Укупан приход"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Број посета"
-
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "Број програмера"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Број посета"
