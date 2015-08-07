@@ -279,24 +279,24 @@ msgstr "Home"
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
-msgstr ""
+msgstr "New Ratings"
 
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
-msgstr ""
+msgstr "Number of Ratings"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
-msgstr ""
+msgstr "Number of Installs"
 
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
-msgstr ""
+msgstr "Total Revenue"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
-msgstr ""
+msgstr "Number of Developers"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
-msgstr ""
+msgstr "Number of Visits"
