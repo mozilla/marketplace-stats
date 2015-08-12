@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
-"PO-Revision-Date: 2015-08-07 09:00+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"PO-Revision-Date: 2015-08-11 15:20+0000\n"
+"Last-Translator: CristianSilaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -13,15 +13,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1438938034.0\n"
+"X-POOTLE-MTIME: 1439306404.0\n"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
-msgstr "Panou de control statistici"
+msgstr "Panou de bord privind statisticile"
 
 #: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
 msgid "Edit Listing"
-msgstr "Editare listă"
+msgstr "Editează lista"
 
 #: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
 msgid "Global Stats"
@@ -63,7 +63,7 @@ msgstr "Nu sunt disponibile statistici publice pentru această aplicație"
 
 #: /templates/confirmation.html:0
 msgid "Close"
-msgstr "Închidere"
+msgstr "Închide"
 
 #: /templates/confirmation.html:3
 msgid "No"
@@ -79,7 +79,7 @@ msgstr "Statistici"
 
 #: /templates/header.html:7
 msgid "Sign Out"
-msgstr "Ieșire"
+msgstr "Deconectare"
 
 #: /templates/header.html:8
 msgid "Sign In"
@@ -90,10 +90,10 @@ msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Cu excepția cazurilor în care este <a href=\"{legal_url}\" "
-"target=\"_blank\">specificat</a> altfel, conținutul acestui sait este "
-"licențiat sub <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> sau orice versiune ulterioară."
+"Cu excepția cazurilor când <a href=\"{legal_url}\" target=\"_blank\">se "
+"specifică altfel</a>, onținutul de pe acest sait este licențiat sub licența "
+"<a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> sau orice versiune mai nouă."
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -105,7 +105,7 @@ msgstr "Termeni de utilizare"
 
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
-msgstr "Raportați abuzul mărcilor înregistrate"
+msgstr "Raportați abuz asupra mărcilor înregistrate"
 
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
@@ -113,7 +113,7 @@ msgstr "O, nu!"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
-msgstr "Pagina căutată nu a fost găsită."
+msgstr "Pagina pe care au căutat-o nu a fost găsită."
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -145,7 +145,7 @@ msgstr "Aplicații instalate"
 
 #: /templates/homepage.html:39
 msgid "App Ratings"
-msgstr "Evaluări aplicație"
+msgstr "Evaluări ale aplicației"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -153,7 +153,7 @@ msgstr "S-a produs o eroare."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
-msgstr "Eroare la încărcare"
+msgstr "Eroare la încărcarea a mai multe"
 
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
@@ -161,11 +161,11 @@ msgstr "Încearcă din nou"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
-msgstr "Trebuie să vă conectați pentru a continua."
+msgstr "Trebuie să te autentifici pentru a continua."
 
 #: /templates/includes/signin_required.html:2
 msgid "Sign in / Sign up"
-msgstr "Conectare / Autentificare"
+msgstr "Autentificare / Înregistrare"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -193,7 +193,7 @@ msgstr "lună"
 
 #: /templates/includes/chartbody.html:27
 msgid "This data is restricted or no data found"
-msgstr "Datele sunt restricționate sau nu există"
+msgstr "Aceste date sunt restricționate sau nu s-au găsit date"
 
 #: /templates/includes/chartbody.html:9
 msgid "All regions"
@@ -201,18 +201,19 @@ msgstr "Toate regiunile"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
-msgstr "S-a detectat o eroare pe server. Încercați din nou mai târziu."
+msgstr ""
+"S-a detectat o eroare a serverului. Te rugăm să încerci din nou mai târziu."
 
-# „Endpoint” e un termen tehnic pentru un API, nu se traduce
+# Aici n-are treabă cu niciun API. Verifică restul limbilor.
 #: /media/js/chartutils.js:23
 msgid "The statistics endpoint requested is invalid."
-msgstr "Cerere invalidă pentru endpoint-ul de statistici."
+msgstr "Statisticile privind obiectivul solicitat sunt invalide."
 
 #: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
 msgstr ""
-"S-a detectat o eroare la autentificare. Datele pe care doriți să le accesați "
-"nu sunt publice."
+"S-a detectat o eroare la autentificare. Datele pe care dorești să le "
+"accesezi nu sunt publice."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
@@ -221,15 +222,15 @@ msgstr "Cererea de date statistice este incompletă sau invalidă."
 #: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
 msgstr ""
-"S-a produs o eroare necunoscută pe server. Încercați din nou mai târziu."
+"S-a produs o eroare necunoscută a serverului. Încearcă din nou mai târziu."
 
 #: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
-msgstr "Ați introdus un interval de timp negativ. Inversați?"
+msgstr "Ai introdus un interval de timp negativ. Inversezi?"
 
 #: /media/js/chartutils.js:30
 msgid "Please enter a valid date range"
-msgstr "Introduceți un interval de timp valid"
+msgstr "Introdu un interval de timp valid"
 
 #: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
