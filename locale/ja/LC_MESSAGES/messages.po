@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: 2015-01-07 13:03+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -72,18 +72,6 @@ msgstr "いいえ"
 msgid "Yes"
 msgstr "はい"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "統計情報"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ログアウト"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ログイン"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -103,18 +91,6 @@ msgstr "利用規約"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "商標不正使用報告"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ページが見つかりません"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "お探しのページは見つかりませんでした。"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "サンプルチャート"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -144,9 +120,33 @@ msgstr "インストールされたアプリ"
 msgid "App Ratings"
 msgstr "アプリの評価"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "サンプルチャート"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "統計情報"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ログイン"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "ページが見つかりません"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "問題が発生しました。"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "お探しのページは見つかりませんでした。"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -155,14 +155,6 @@ msgstr "読み込み中に問題が発生しました"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再読み込み"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -196,6 +188,14 @@ msgstr "このデータは閲覧が制限されているか、データが見つ
 msgid "All regions"
 msgstr "すべての地域"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "サーバエラーが発生しました。また後で試してください。"
@@ -228,12 +228,12 @@ msgstr "正しい日付範囲を入力してください。"
 msgid "Number of Abuse Reports"
 msgstr "不正報告数"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "アプリ"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "アプリの数"
@@ -272,10 +272,10 @@ msgstr "インストール回数"
 msgid "Total Revenue"
 msgstr "合計売上金額"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "開発者数"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "訪問回数"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "開発者数"

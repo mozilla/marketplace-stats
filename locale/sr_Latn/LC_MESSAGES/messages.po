@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: 2015-01-08 18:55+0000\n"
 "Last-Translator: Marko <marko.andrejic93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1420743309.0\n"
 
 #: /templates/app_dashboard.html:2
@@ -80,18 +81,6 @@ msgstr "Ne"
 msgid "Yes"
 msgstr "Da"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistike"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Odjavi se"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Prijavi se"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
@@ -115,18 +104,6 @@ msgstr "Uslovi korišćenja"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh, ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stranica koju ste tražili nije pronađena."
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Primer grafikona"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12
 #: /media/js/views/total_developers.js:19
@@ -157,9 +134,33 @@ msgstr "Instalirane aplikacije"
 msgid "App Ratings"
 msgstr "Ocene aplikacija"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Primer grafikona"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistike"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Odjavi se"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Prijavi se"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh, ne!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Desila se greška."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stranica koju ste tražili nije pronađena."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -168,14 +169,6 @@ msgstr "Greška prilikom učitavanja"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Pokušaj ponovo"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Molimo Vas da se prijavite kako biste nastavili."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Prijavi se / Registruj se"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -208,6 +201,14 @@ msgstr "Ovaj podatak je zabranjen, ili nije pronađen"
 #: /templates/includes/chartbody.html:9
 msgid "All regions"
 msgstr "Svi regioni"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Molimo Vas da se prijavite kako biste nastavili."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Prijavi se / Registruj se"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -246,16 +247,18 @@ msgstr "Molimo Vas unesite validni opseg podatka"
 msgid "Number of Abuse Reports"
 msgstr "Broj prijavljenih zloupotreba"
 
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacije"
 
-#: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_added.js:20
 #: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Broj aplikacija"
@@ -294,10 +297,10 @@ msgstr "Broj instaliranja"
 msgid "Total Revenue"
 msgstr "Ukupan prihod"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "Broj programera"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Broj poseta"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "Broj programera"

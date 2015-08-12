@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: 2015-08-11 15:20+0000\n"
 "Last-Translator: CristianSilaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1439306404.0\n"
 
@@ -73,27 +72,13 @@ msgstr "Nu"
 msgid "Yes"
 msgstr "Da"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistici"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Deconectare"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Autentificare"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
 "Alike License v3.0</a> or any later version."
 msgstr ""
-"Cu excepția cazurilor când <a href=\"{legal_url}\" target=\"_blank\">se "
-"specifică altfel</a>, onținutul de pe acest sait este licențiat sub licența "
-"<a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> sau orice versiune mai nouă."
+"Cu excepția cazurilor când <a href=\"{legal_url}\" target=\"_blank\">se specifică altfel</a>, onținutul de pe acest sait este licențiat sub licența <a href=\"{cc_url}\" target=\"_blank\">Creative "
+"Commons Attribution Share-Alike License v3.0</a> sau orice versiune mai nouă."
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -106,18 +91,6 @@ msgstr "Termeni de utilizare"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Raportați abuz asupra mărcilor înregistrate"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "O, nu!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Pagina pe care au căutat-o nu a fost găsită."
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Model diagramă"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -147,9 +120,33 @@ msgstr "Aplicații instalate"
 msgid "App Ratings"
 msgstr "Evaluări ale aplicației"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Model diagramă"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistici"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Deconectare"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Autentificare"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "O, nu!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "S-a produs o eroare."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Pagina pe care au căutat-o nu a fost găsită."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -158,14 +155,6 @@ msgstr "Eroare la încărcarea a mai multe"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Încearcă din nou"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Trebuie să te autentifici pentru a continua."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Autentificare / Înregistrare"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -199,10 +188,17 @@ msgstr "Aceste date sunt restricționate sau nu s-au găsit date"
 msgid "All regions"
 msgstr "Toate regiunile"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Trebuie să te autentifici pentru a continua."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Autentificare / Înregistrare"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
-msgstr ""
-"S-a detectat o eroare a serverului. Te rugăm să încerci din nou mai târziu."
+msgstr "S-a detectat o eroare a serverului. Te rugăm să încerci din nou mai târziu."
 
 # Aici n-are treabă cu niciun API. Verifică restul limbilor.
 #: /media/js/chartutils.js:23
@@ -211,9 +207,7 @@ msgstr "Statisticile privind obiectivul solicitat sunt invalide."
 
 #: /media/js/chartutils.js:24
 msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr ""
-"S-a detectat o eroare la autentificare. Datele pe care dorești să le "
-"accesezi nu sunt publice."
+msgstr "S-a detectat o eroare la autentificare. Datele pe care dorești să le accesezi nu sunt publice."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
@@ -221,8 +215,7 @@ msgstr "Cererea de date statistice este incompletă sau invalidă."
 
 #: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"S-a produs o eroare necunoscută a serverului. Încearcă din nou mai târziu."
+msgstr "S-a produs o eroare necunoscută a serverului. Încearcă din nou mai târziu."
 
 #: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
@@ -236,12 +229,12 @@ msgstr "Introdu un interval de timp valid"
 msgid "Number of Abuse Reports"
 msgstr "Număr de raportări de abuzuri"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicații"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Număr de aplicații"
@@ -280,10 +273,10 @@ msgstr "Număr de instalări"
 msgid "Total Revenue"
 msgstr "Venit total"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "Număr de dezvoltatori"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Număr de vizite"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "Număr de dezvoltatori"

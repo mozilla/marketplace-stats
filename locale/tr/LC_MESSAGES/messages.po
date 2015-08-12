@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: 2014-09-29 07:22+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,18 +72,6 @@ msgstr "Hayır"
 msgid "Yes"
 msgstr "Evet"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr ""
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Oturumu kapat"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Oturum aç"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -101,18 +89,6 @@ msgstr "Kullanım şartları"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Marka ihlali bildir"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr ""
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Aradığınız sayfa bulunamadı."
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Örnek grafik"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -142,9 +118,33 @@ msgstr ""
 msgid "App Ratings"
 msgstr ""
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Örnek grafik"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr ""
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Oturumu kapat"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Oturum aç"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr ""
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Bir hata oluştu."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Aradığınız sayfa bulunamadı."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -153,14 +153,6 @@ msgstr ""
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr ""
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr ""
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Giriş yap / kaydol"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -194,6 +186,14 @@ msgstr ""
 msgid "All regions"
 msgstr "Tüm bölgeler"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr ""
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Giriş yap / kaydol"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Sunucu hatası algılandı. Lütfen sonra tekrar deneyin."
@@ -226,12 +226,12 @@ msgstr "Lütfen geçerli bir tarih aralığı girin"
 msgid "Number of Abuse Reports"
 msgstr "Suistimal raporu sayısı"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Uygulamalar"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Uygulama sayısı"
@@ -270,10 +270,10 @@ msgstr ""
 msgid "Total Revenue"
 msgstr "Toplam gelir"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr ""
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Ziyaret sayısı"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr ""

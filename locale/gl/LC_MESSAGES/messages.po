@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,18 +71,6 @@ msgstr "Non"
 msgid "Yes"
 msgstr "Si"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Saír"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -102,18 +90,6 @@ msgstr "Temos de uso"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Informar de abusos de marca"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh non!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non se atopou a páxina que estaba buscando."
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Gráfico de exemplo"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -143,9 +119,33 @@ msgstr "Aplicativos instalados"
 msgid "App Ratings"
 msgstr "Puntuacións dos aplicativos"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Gráfico de exemplo"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Saír"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh non!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Produciuse un erro."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non se atopou a páxina que estaba buscando."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -154,14 +154,6 @@ msgstr "Erro ao cargar máis"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tentar de novo"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Identifíquese para continuar."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Identificarse / Crear conta"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -195,6 +187,14 @@ msgstr "Esta información está restrinxida ou non se atopa"
 msgid "All regions"
 msgstr "Todas as rexións"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Identifíquese para continuar."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Identificarse / Crear conta"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Produciuse un erro no servidor. Tente de novo máis tarde."
@@ -227,12 +227,12 @@ msgstr "Escriba un intervalo de datas correcto"
 msgid "Number of Abuse Reports"
 msgstr "Número de informes de abuso"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicativos"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Número de aplicativos"
@@ -271,10 +271,10 @@ msgstr "Número de instalacións"
 msgid "Total Revenue"
 msgstr "Ingresos totais"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "Número de desenvolvedores"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Número de visitas"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "Número de desenvolvedores"

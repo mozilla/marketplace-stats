@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,18 +89,6 @@ msgstr "Ƞǿ"
 msgid "Yes"
 msgstr "Ẏḗş"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Şŧȧŧīşŧīƈş"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Şīɠƞ Ǿŭŧ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Şīɠƞ Īƞ"
-
 #: /templates/footer.html:4
 msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
@@ -120,19 +108,6 @@ msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
-
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ǿħ ƞǿ!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
 
 #: /templates/homepage.html:4
 #: /media/js/views/total_developers.js:12
@@ -169,9 +144,34 @@ msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ"
 msgid "App Ratings"
 msgstr "Ȧƥƥ Řȧŧīƞɠş"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Şŧȧŧīşŧīƈş"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Şīɠƞ Ǿŭŧ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Şīɠƞ Īƞ"
+
+#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ǿħ ƞǿ!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -180,14 +180,6 @@ msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Ŧřẏ Ȧɠȧīƞ"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -220,6 +212,14 @@ msgstr "Ŧħīş ḓȧŧȧ īş řḗşŧřīƈŧḗḓ ǿř ƞǿ ḓȧŧȧ ƒǿ
 #: /templates/includes/chartbody.html:9
 msgid "All regions"
 msgstr "Ȧŀŀ řḗɠīǿƞş"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -256,18 +256,18 @@ msgstr "Ƥŀḗȧşḗ ḗƞŧḗř ȧ ṽȧŀīḓ ḓȧŧḗ řȧƞɠḗ"
 msgid "Number of Abuse Reports"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƀŭşḗ Řḗƥǿřŧş"
 
-#: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Ȧƥƥş"
 
-#: /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_added.js:20
-#: /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƥƥş"
@@ -309,11 +309,11 @@ msgstr "Ƞŭḿƀḗř ǿƒ Īƞşŧȧŀŀş"
 msgid "Total Revenue"
 msgstr "Ŧǿŧȧŀ Řḗṽḗƞŭḗ"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "Ƞŭḿƀḗř ǿƒ Ḓḗṽḗŀǿƥḗřş"
-
 #: /media/js/views/per_app_visits.js:19
 #: /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Ƞŭḿƀḗř ǿƒ Ṽīşīŧş"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "Ƞŭḿƀḗř ǿƒ Ḓḗṽḗŀǿƥḗřş"

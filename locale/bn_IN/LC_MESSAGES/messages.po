@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: 2015-05-16 06:48+0000\n"
 "Last-Translator: Ayan <ayay700@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,18 +72,6 @@ msgstr "না"
 msgid "Yes"
 msgstr "হ্যাঁ"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "পরিসংখ্যান"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "সাইন আউট"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "সাইন ইন"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -103,18 +91,6 @@ msgstr "ব্যবহারের শর্তাবলী"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "ট্রেডমার্ক অপব্যবহার"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "ওহ না!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনি যেই পাতাটি খুজছিলেন সেটি পাওয়া যায়নি।"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "নমুনা চার্ট"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -144,9 +120,33 @@ msgstr "ইন্সটল হওয়া অ্যাপগুলি"
 msgid "App Ratings"
 msgstr "অ্যাপ রেটিং"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "নমুনা চার্ট"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "সাইন ইন"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "ওহ না!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "একটি ত্রুটি ঘটেছে।"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনি যেই পাতাটি খুজছিলেন সেটি পাওয়া যায়নি।"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -155,14 +155,6 @@ msgstr "আরও লোড করতে সমস্যা"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "এগিয়ে যেতে হলে সাইন ইন করুন।"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ করুন"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -196,6 +188,14 @@ msgstr "এই তথ্য সীমিত বা কোন তথ্য পা
 msgid "All regions"
 msgstr "সমস্ত অঞ্চলে"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "এগিয়ে যেতে হলে সাইন ইন করুন।"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ করুন"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "সার্ভার ত্রুটি ধরা পড়েছে। অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।"
@@ -228,12 +228,12 @@ msgstr "একটি বৈধ তারিখের সীমা লিখু�
 msgid "Number of Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "অ্যাপস"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "অ্যাপ্লিকেশন সংখ্যা"
@@ -272,10 +272,10 @@ msgstr "ইনস্টলেশনের সংখ্যা"
 msgid "Total Revenue"
 msgstr "মোট উপার্জন"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "ডেভেলপারদের সংখ্যা"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "ভিজিট সংখ্যা"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "ডেভেলপারদের সংখ্যা"

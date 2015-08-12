@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: 2015-01-08 23:37+0300\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian <Russian <ru@li.org>>\n"
@@ -73,18 +73,6 @@ msgstr "Нет"
 msgid "Yes"
 msgstr "Да"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Статистика"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Выйти"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Войти"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -104,18 +92,6 @@ msgstr "Условия использования"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Сообщить о злоупотреблении торговой маркой"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "О, нет!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страница, которую вы искали, не была найдена."
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Образец Графика"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -145,9 +121,33 @@ msgstr "Установок приложений"
 msgid "App Ratings"
 msgstr "Оценок приложения"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Образец Графика"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Статистика"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Войти"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "О, нет!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Произошла ошибка."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страница, которую вы искали, не была найдена."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -156,14 +156,6 @@ msgstr "Ошибка при загрузке"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Попробовать снова"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Войдите чтобы продолжить."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Вход / Регистрация"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -197,6 +189,14 @@ msgstr "Доступ к этим данным ограничен или данн
 msgid "All regions"
 msgstr "Все регионы"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Войдите чтобы продолжить."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Вход / Регистрация"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Ошибка Сервера. Попробуйте позже."
@@ -229,12 +229,12 @@ msgstr "Введите дату в правильном диапазоне."
 msgid "Number of Abuse Reports"
 msgstr "Число жалоб"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Приложения"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Число приложений"
@@ -273,10 +273,10 @@ msgstr "Число установок"
 msgid "Total Revenue"
 msgstr "Общий доход"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "Число разработчиков"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Число посещений"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "Число разработчиков"

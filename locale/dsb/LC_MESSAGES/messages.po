@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-29T20:04:57.810Z\n"
+"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
 "PO-Revision-Date: 2015-01-07 17:43+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,18 +72,6 @@ msgstr "Ně"
 msgid "Yes"
 msgstr "Jo"
 
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistiki"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wótzjawiś"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Pśizjawiś"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -103,18 +91,6 @@ msgstr "Wužywańske wuměnjenja"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Znjewužywanje wikoweje marki k wěsći daś"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ow ně!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Bok, kótaryž sćo pytał, njejo se namakał."
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Pśikładowy diagram"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -144,9 +120,33 @@ msgstr "Instalěrowane nałoženja"
 msgid "App Ratings"
 msgstr "Nałožeńske pógódnośenja"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Pśikładowy diagram"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistiki"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wótzjawiś"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Pśizjawiś"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ow ně!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Zmólka jo nastała."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Bok, kótaryž sćo pytał, njejo se namakał."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -155,14 +155,6 @@ msgstr "Zmólka pśi zacytowanju dalšnych datow"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Hyšći raz wopytaś"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Pšosym pśizjawśo se, aby pókšacował"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Pśizjawiś / Registrěrowaś"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -196,6 +188,14 @@ msgstr "Toś te daty su wobgranicowane abo daty njejsu se namakali"
 msgid "All regions"
 msgstr "Wšykne regiony"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Pšosym pśizjawśo se, aby pókšacował"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Pśizjawiś / Registrěrowaś"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Serwerowa zmólka jo se namakała. Pšosym wopytajśo pózdźej hyšći raz."
@@ -228,12 +228,12 @@ msgstr "Pšosym zapódajśo płaśiwy datowy wobcerk"
 msgid "Number of Abuse Reports"
 msgstr "Licba powěźeńkow znjewužywanja"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Nałoženja"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Licba nałoženjow"
@@ -272,10 +272,10 @@ msgstr "Licba instalacijow"
 msgid "Total Revenue"
 msgstr "Nabranki dogormady"
 
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "Licba wuwijarjow"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Licba woglědow"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "Licba wuwijarjow"
