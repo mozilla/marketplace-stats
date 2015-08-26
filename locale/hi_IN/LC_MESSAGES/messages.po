@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
+"POT-Creation-Date: 2015-08-26T16:26:29.100Z\n"
 "PO-Revision-Date: 2015-02-22 08:26+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,22 @@ msgstr "नहीं"
 msgid "Yes"
 msgstr "हां"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "आंकड़े"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "साइन आउट"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "साइन इन"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "नमूना चार्ट"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -120,29 +136,9 @@ msgstr "ऐप्लिकेशन स्थापित"
 msgid "App Ratings"
 msgstr "एप्लिकेशन मूल्यांकन"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "नमूना चार्ट"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "आंकड़े"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "साइन आउट"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "साइन इन"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "अरे नहीं!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -155,6 +151,10 @@ msgstr "अधिक लोड करने में त्रुटि"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "पुन: प्रयास करें"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -228,19 +228,19 @@ msgstr "एक वैध तिथि श्रेणी दर्ज करे�
 msgid "Number of Abuse Reports"
 msgstr "दुर्व्यवहार रिपोर्ट की संख्या"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "लोड हो रहा है..."
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "ऐप्स"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "ऐप्स की संख्या"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "लोड हो रहा है..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -255,6 +255,10 @@ msgstr "दैनिक कुल"
 msgid "Home"
 msgstr "घर"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "संस्थापित की संख्या"
+
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -263,10 +267,6 @@ msgstr "नई रेटिंग"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "रेटिंग्स की संख्या"
-
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "संस्थापित की संख्या"
 
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"

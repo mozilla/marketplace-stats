@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
+"POT-Creation-Date: 2015-08-26T16:26:29.100Z\n"
 "PO-Revision-Date: 2015-01-12 22:42+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,22 @@ msgstr "Não"
 msgid "Yes"
 msgstr "Sim"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Terminar sessão"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Iniciar sessão"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Gráfico de exemplo"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -120,29 +136,9 @@ msgstr "Aplicações instaladas"
 msgid "App Ratings"
 msgstr "Classificações de aplicação"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Gráfico de exemplo"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Terminar sessão"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Iniciar sessão"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh não!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -155,6 +151,10 @@ msgstr "Erro ao carregar mais"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Tente novamente"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -228,19 +228,19 @@ msgstr "Por favor introduza um intervalo de datas válido"
 msgid "Number of Abuse Reports"
 msgstr "Número de denúncias"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "A carregar..."
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicações"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Número de aplicações"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "A carregar..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -255,6 +255,10 @@ msgstr "Total diário"
 msgid "Home"
 msgstr "Início"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Número de instalações"
+
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -263,10 +267,6 @@ msgstr "Novas classificações"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Número de classificações"
-
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Número de instalações"
 
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"

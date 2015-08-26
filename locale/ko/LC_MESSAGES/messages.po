@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
+"POT-Creation-Date: 2015-08-26T16:26:29.100Z\n"
 "PO-Revision-Date: 2015-05-06 04:53+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,22 @@ msgstr "아니오"
 msgid "Yes"
 msgstr "예"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "통계"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "예제 차트"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -120,29 +136,9 @@ msgstr "이미 설치된 앱"
 msgid "App Ratings"
 msgstr "앱 등급"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "예제 차트"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "통계"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "안돼요!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "에러가 발생하였습니다."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -155,6 +151,10 @@ msgstr "로딩하던 중 에러"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "다시 시도하기"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "에러가 발생하였습니다."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -228,19 +228,19 @@ msgstr "유효한 범위의 날짜를 입력"
 msgid "Number of Abuse Reports"
 msgstr "어뷰징 신고 수"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "읽어오는 중..."
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "앱"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "앱 개수"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "읽어오는 중..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -255,6 +255,10 @@ msgstr "일일 총계"
 msgid "Home"
 msgstr "홈"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "설치된 수"
+
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -263,10 +267,6 @@ msgstr "새로운 등급"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "별점"
-
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "설치된 수"
 
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"

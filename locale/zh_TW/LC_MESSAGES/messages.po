@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-12T15:28:06.393Z\n"
+"POT-Creation-Date: 2015-08-26T16:26:29.100Z\n"
 "PO-Revision-Date: 2015-01-08 15:31+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,22 @@ msgstr "否"
 msgid "Yes"
 msgstr "是"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "統計"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "範例圖表"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -118,29 +134,9 @@ msgstr "已安裝的應用程式"
 msgid "App Ratings"
 msgstr "應用程式評分"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "範例圖表"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "統計"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "喔，不！"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "發生錯誤。"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -153,6 +149,10 @@ msgstr "載入更多時發生錯誤"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再試一次"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "發生錯誤。"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -226,19 +226,19 @@ msgstr "請輸入有效的日期範圍"
 msgid "Number of Abuse Reports"
 msgstr "濫用報告數量"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "載入中…"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "應用程式"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_premium.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "應用程式數量"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "載入中…"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,6 +253,10 @@ msgstr "每日總計"
 msgid "Home"
 msgstr "首頁"
 
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "安裝數量"
+
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -261,10 +265,6 @@ msgstr "新評分"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "評分數量"
-
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "安裝數量"
 
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
