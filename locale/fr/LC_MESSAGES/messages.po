@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-26T16:26:29.100Z\n"
+"POT-Creation-Date: 2015-09-21T16:50:18.954Z\n"
 "PO-Revision-Date: 2015-02-15 10:37+0000\n"
 "Last-Translator: MisterMosquito <hxtonio9@orange.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,34 +60,6 @@ msgstr "Revenu brut"
 msgid "No public statistics are available for this app"
 msgstr "Aucune statistique publique n'est disponible pour cette app"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Fermer"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Non"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Oui"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistiques"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Déconnexion"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Connexion"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Exemple de graphique"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -107,6 +79,18 @@ msgstr "Conditions d'utilisation"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Fermer"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Non"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Oui"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -136,13 +120,41 @@ msgstr "Applications installées"
 msgid "App Ratings"
 msgstr "Notes de l'application"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Exemple de graphique"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Oh non&nbsp;!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Déconnexion"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Connexion"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "La page recherchée n'a pas été trouvée."
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Veuillez vous connecter pour continuer."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Connexion / Inscription"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -151,10 +163,6 @@ msgstr "Erreur lors du chargement de la suite"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Réessayez"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Une erreur est survenue."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -187,14 +195,6 @@ msgstr "Les données sont protégées ou inexistantes"
 #: /templates/includes/chartbody.html:9
 msgid "All regions"
 msgstr "Toutes les zones"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Veuillez vous connecter pour continuer."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Connexion / Inscription"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -232,13 +232,13 @@ msgstr "Nombre d’abus signalés"
 msgid "Loading..."
 msgstr "Chargement…"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
-#: /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_type.js:19
 msgid "Apps"
 msgstr "Applications"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
-#: /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_type.js:20
 msgid "Number of Apps"
 msgstr "Nombre d'applications"
 
@@ -268,13 +268,13 @@ msgstr "Nouvelles notes"
 msgid "Number of Ratings"
 msgstr "Nombre de notes"
 
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Revenu total"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Nombre de visites"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Revenu total"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

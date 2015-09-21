@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-26T16:26:29.100Z\n"
+"POT-Creation-Date: 2015-09-21T16:50:18.954Z\n"
 "PO-Revision-Date: 2015-03-15 00:15+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,34 +60,6 @@ msgstr "ਸਮੁੱਚਾ ਲਾਭ"
 msgid "No public statistics are available for this app"
 msgstr "ਇਸ ਐਪ ਲਈ ਕੋਈ ਪਬਲਿਕ ਅੰਕੜੇ ਮੌਜੂਦ ਨਹੀਂ ਹਨ"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "ਬੰਦ"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "ਨਹੀਂ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "ਹਾਂ"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "ਅੰਕੜੇ"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ਸਾਈਨ ਆਊਟ"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ਸਾਈਨ ਇਨ"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -107,6 +79,18 @@ msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "ਹਾਂ"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -136,13 +120,41 @@ msgstr "ਐਪਸ ਇੰਸਟਾਲ"
 msgid "App Ratings"
 msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
+
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "ਉਹ ਨੋ!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "ਅੰਕੜੇ"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ਸਾਈਨ ਆਊਟ"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ਸਾਈਨ ਇਨ"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "ਤੁਸੀ ਜੋ ਸਫ਼ਾ ਲੱਭ ਰਹੇ ਹੋ ਨਹੀ ਮਿਲਿਆ।"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -151,10 +163,6 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -187,14 +195,6 @@ msgstr "ਇਹ ਡਾਟਾ ਸੀਮਿਤ ਹੈ ਜਾ ਕੋਈ ਵੀ ਡ�
 #: /templates/includes/chartbody.html:9
 msgid "All regions"
 msgstr "ਹਰ ਖੇਤਰ"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ ਜੀ."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ਸਾਈਨ ਇਨ / ਸਾਈਨ ਅੱਪ"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -232,13 +232,13 @@ msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 msgid "Loading..."
 msgstr "ਲੋਡਿਗ..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
-#: /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_type.js:19
 msgid "Apps"
 msgstr "ਐਪਸ"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
-#: /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_type.js:20
 msgid "Number of Apps"
 msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
 
@@ -268,13 +268,13 @@ msgstr "ਨਵਿਆ ਰੇਟਿਗਾ"
 msgid "Number of Ratings"
 msgstr "ਰੇਟਿਗਾ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "ਮੁਲਾਕਾਤ ਦੀ ਗਿਣਤੀ"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
