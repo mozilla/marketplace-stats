@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-21T16:50:18.954Z\n"
+"POT-Creation-Date: 2015-10-14T20:47:12.758Z\n"
 "PO-Revision-Date: 2015-01-07 13:03+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -13,6 +13,50 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1413340285.0\n"
+
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
+"のバージョンで公開されています。"
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "利用規約"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "商標不正使用報告"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "統計情報"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "ログアウト"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "ログイン"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "閉じる"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "いいえ"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "はい"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -60,37 +104,21 @@ msgstr "総売上金額"
 msgid "No public statistics are available for this app"
 msgstr "このアプリの統計情報は公開されていません"
 
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
-"のバージョンで公開されています。"
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "サンプルチャート"
 
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "プライバシーポリシー"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ページが見つかりません"
 
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "利用規約"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "お探しのページは見つかりませんでした。"
 
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "商標不正使用報告"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "閉じる"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "いいえ"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "はい"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "問題が発生しました。"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -119,42 +147,6 @@ msgstr "インストールされたアプリ"
 #: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "アプリの評価"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "サンプルチャート"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ページが見つかりません"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "問題が発生しました。"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "統計情報"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "ログアウト"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "ログイン"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "お探しのページは見つかりませんでした。"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "続けるにはログインしてください。"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "ログイン / ユーザ登録"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -196,6 +188,14 @@ msgstr "このデータは閲覧が制限されているか、データが見つ
 msgid "All regions"
 msgstr "すべての地域"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "続けるにはログインしてください。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "ログイン / ユーザ登録"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "サーバエラーが発生しました。また後で試してください。"
@@ -232,13 +232,13 @@ msgstr "不正報告数"
 msgid "Loading..."
 msgstr "読み込み中..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-#: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "アプリ"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-#: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "アプリの数"
 
@@ -255,9 +255,9 @@ msgstr "日別合計"
 msgid "Home"
 msgstr "ホーム"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "インストール回数"
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "合計売上金額"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -268,14 +268,14 @@ msgstr "新規評価数"
 msgid "Number of Ratings"
 msgstr "評価数"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "訪問回数"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "合計売上金額"
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "インストール回数"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "開発者数"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "訪問回数"

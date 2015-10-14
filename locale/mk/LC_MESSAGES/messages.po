@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-21T16:50:18.954Z\n"
+"POT-Creation-Date: 2015-10-14T20:47:12.758Z\n"
 "PO-Revision-Date: 2014-04-08 17:32+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1396978366.0\n"
+
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Освен каде што е <a href=\"{legal_url}\" target=\"_blank\">нагласено</a> поинаку, содржината на оваа веб-страница е лиценцирана според <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> или која било подоцнежна верзија."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Приватност"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Услови за користење"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Пријавете злоупотреба на трговска марка"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Статистики"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Одјавете се"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Најавете се"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Затвори"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Не"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Да"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -60,37 +104,21 @@ msgstr "Бруто приход"
 msgid "No public statistics are available for this app"
 msgstr ""
 
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Освен каде што е <a href=\"{legal_url}\" target=\"_blank\">нагласено</a> поинаку, содржината на оваа веб-страница е лиценцирана според <a href=\"{cc_url}\" target=\"_blank\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> или која било подоцнежна верзија."
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Примерок на графикон"
 
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "Приватност"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О, не!"
 
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "Услови за користење"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата што ја баравте не е пронајдена."
 
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "Пријавете злоупотреба на трговска марка"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Затвори"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Не"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Да"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Се случи грешка."
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -119,42 +147,6 @@ msgstr "Инсталирани апликации"
 #: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "Оценки на апликација"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Примерок на графикон"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Се случи грешка."
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Статистики"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Одјавете се"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Најавете се"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата што ја баравте не е пронајдена."
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Најавете се за да продолжите."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Најава / Регистрација"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -196,6 +188,14 @@ msgstr "Овие податоци се забранети или не посто
 msgid "All regions"
 msgstr "Сите региони"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Најавете се за да продолжите."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Најава / Регистрација"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Откриена е серверска грешка. Обидете се повторно подоцна."
@@ -232,13 +232,13 @@ msgstr "Број на пријави на злоупотреба"
 msgid "Loading..."
 msgstr "Се вчитува..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-#: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Апликации"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-#: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Број на апликации"
 
@@ -255,9 +255,9 @@ msgstr "Вкупно во денот"
 msgid "Home"
 msgstr "Почетна"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Број на инсталации"
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Вкупен приход"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -268,14 +268,14 @@ msgstr "Нови рејтинзи"
 msgid "Number of Ratings"
 msgstr "Број на рејтинзи"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Број на посети"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Вкупен приход"
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Број на инсталации"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "Број на развивачи"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Број на посети"

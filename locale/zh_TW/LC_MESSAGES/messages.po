@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-21T16:50:18.954Z\n"
+"POT-Creation-Date: 2015-10-14T20:47:12.758Z\n"
 "PO-Revision-Date: 2015-01-08 15:31+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,48 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420731114.0\n"
+
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr "除另有<a href=\"{legal_url}\" target=\"_blank\">註明</a>外，本站內容皆採用<a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示—相同方式分享條款 3.0</a>或更新版本授權大眾使用。"
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "隱私權保護政策"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "使用條款"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "回報商標濫用"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "統計"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "登出"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登入"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "關閉"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -60,35 +102,21 @@ msgstr "毛利"
 msgid "No public statistics are available for this app"
 msgstr "此應用程式沒有公開的統計資料"
 
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr "除另有<a href=\"{legal_url}\" target=\"_blank\">註明</a>外，本站內容皆採用<a href=\"{cc_url}\" target=\"_blank\">創用 CC 姓名標示—相同方式分享條款 3.0</a>或更新版本授權大眾使用。"
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "範例圖表"
 
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "隱私權保護政策"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "喔，不！"
 
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "使用條款"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您尋找的頁面。"
 
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "回報商標濫用"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "關閉"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "發生錯誤。"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -117,42 +145,6 @@ msgstr "已安裝的應用程式"
 #: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "應用程式評分"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "範例圖表"
-
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "喔，不！"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "發生錯誤。"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "統計"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "登出"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登入"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您尋找的頁面。"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "請登入以繼續。"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "登入 / 註冊"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -194,6 +186,14 @@ msgstr "此資料已被限制，或找不到此資料"
 msgid "All regions"
 msgstr "所有區域"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "請登入以繼續。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "登入 / 註冊"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "偵測到伺服器錯誤，請稍後再試一次。"
@@ -230,13 +230,13 @@ msgstr "濫用報告數量"
 msgid "Loading..."
 msgstr "載入中…"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-#: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "應用程式"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-#: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "應用程式數量"
 
@@ -253,9 +253,9 @@ msgstr "每日總計"
 msgid "Home"
 msgstr "首頁"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "安裝數量"
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "總營收"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -266,14 +266,14 @@ msgstr "新評分"
 msgid "Number of Ratings"
 msgstr "評分數量"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "瀏覽數量"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "總營收"
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "安裝數量"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
 msgstr "開發者數量"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "瀏覽數量"
