@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
@@ -17,11 +17,15 @@ msgstr ""
 
 #: /templates/footer.html:4
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
 msgstr ""
-"Om inget annat <a href=\"{legal_url}\" target=\"_blank\">anges</a>, är innehållet på denna sida licenserat under <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
-"License v3.0</a> eller någon senare version."
+"Om inget annat <a href=\"{legal_url}\" target=\"_blank\">anges</a>, är "
+"innehållet på denna sida licenserat under <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"eller någon senare version."
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -75,29 +79,36 @@ msgstr "Global statistik"
 msgid "Number of Installs:"
 msgstr "Antal installationer:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11
+#: /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "Installationer"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
-#: /media/js/views/total_visits.js:19
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9
+#: /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18
+#: /media/js/views/total_visits.js:12 /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Besök"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Betyg"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44
+#: /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19
+#: /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Rapporter om missbruk"
 
-#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
+#: /templates/app_dashboard.html:25
+#: /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "Medelbetyg"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51
+#: /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Bruttointäkter"
 
@@ -121,7 +132,8 @@ msgstr "Sidan du letade efter kunde inte hittas."
 msgid "An error occurred."
 msgstr "Ett fel uppstod."
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12
+#: /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Utvecklare"
 
@@ -206,8 +218,12 @@ msgid "The statistics endpoint requested is invalid."
 msgstr "Slutpunkten du begärde är ogiltig."
 
 #: /media/js/chartutils.js:24
-msgid "Authentication failure detected. The data you are trying to access is not public."
-msgstr "Autentiseringsfel upptäcktes. Den data du försöker komma åt är inte offentlig."
+msgid ""
+"Authentication failure detected. The data you are trying to access is not "
+"public."
+msgstr ""
+"Autentiseringsfel upptäcktes. Den data du försöker komma åt är inte "
+"offentlig."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
@@ -225,7 +241,8 @@ msgstr "Du har angett ett negativ datumintervall. Vill du vända på det?"
 msgid "Please enter a valid date range"
 msgstr "Ange ett giltigt datumintervall"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+#: /media/js/views/abuse_reports.js:20
+#: /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Antal rapporter om missbruk"
 
@@ -233,13 +250,17 @@ msgstr "Antal rapporter om missbruk"
 msgid "Loading..."
 msgstr "Laddar..."
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
-#: /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_added.js:19
+#: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Appar"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
-#: /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_premium.js:20
+#: /media/js/views/apps_added.js:20
+#: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Antal appar"
 
