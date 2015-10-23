@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-14T20:47:12.758Z\n"
-"PO-Revision-Date: 2015-08-14 11:20+0000\n"
+"PO-Revision-Date: 2015-10-05 07:34+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -163,7 +163,6 @@ msgstr "Evaluări ale aplicației"
 
 # adăugat „needs work” (fuzzy) - de revăzut în sait
 #: /templates/errors/pagination.html:1
-#, fuzzy
 msgid "Error loading more"
 msgstr "Eroare la încărcarea a mai multe"
 
