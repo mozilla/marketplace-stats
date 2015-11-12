@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -17,15 +17,11 @@ msgstr ""
 
 #: /templates/footer.html:4
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Jolic njejo hynac <a href=\"{legal_url}\" target=\"_blank\">zapisane</a>, jo"
-" wopśimjeśe toś togo boka pód licencu <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"abo pód póznjejšeju wersiju."
+"Jolic njejo hynac <a href=\"{legal_url}\" target=\"_blank\">zapisane</a>, jo wopśimjeśe toś togo boka pód licencu <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike "
+"License v3.0</a> abo pód póznjejšeju wersiju."
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -79,36 +75,29 @@ msgstr "Globalna statistika"
 msgid "Number of Installs:"
 msgstr "Licba instalacijow:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11
-#: /media/js/views/per_app_installs.js:18
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "Instalacije"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:9
-#: /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18
-#: /media/js/views/total_visits.js:12 /media/js/views/total_visits.js:19
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Woglědy"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19
-#: /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Pógódnośenja"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:44
-#: /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19
-#: /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Powěźeńki wó znjewužywanju"
 
-#: /templates/app_dashboard.html:25
-#: /media/js/views/per_app_average_rating.js:11
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "Pśerězne pógódnośenje"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:51
-#: /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Bruttonabranki"
 
@@ -132,8 +121,7 @@ msgstr "Bok, kótaryž sćo pytał, njejo se namakał."
 msgid "An error occurred."
 msgstr "Zmólka jo nastała."
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12
-#: /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Wuwijarje"
 
@@ -218,12 +206,8 @@ msgid "The statistics endpoint requested is invalid."
 msgstr "Kóńcny dypk pominaneje statistiki jo njepłaśiwy."
 
 #: /media/js/chartutils.js:24
-msgid ""
-"Authentication failure detected. The data you are trying to access is not "
-"public."
-msgstr ""
-"Njeraźona awtentifikacija jo se spóznała. Daty, na kótarež cośo pśistup měś,"
-" zjawne njejsu."
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "Njeraźona awtentifikacija jo se spóznała. Daty, na kótarež cośo pśistup měś, zjawne njejsu."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
@@ -231,9 +215,7 @@ msgstr "Napšašowanje za statistiske daty jo njedopołne abo njepłaśiwe."
 
 #: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"Njeznata serwerowa zmólka jo se namakała. Pšosym wopytajśo pózdźej hyšći "
-"raz."
+msgstr "Njeznata serwerowa zmólka jo se namakała. Pšosym wopytajśo pózdźej hyšći raz."
 
 #: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
@@ -243,8 +225,7 @@ msgstr "Sćo negatiwny datowy wobcerk zapódał. Pśewobrośiś?"
 msgid "Please enter a valid date range"
 msgstr "Pšosym zapódajśo płaśiwy datowy wobcerk"
 
-#: /media/js/views/abuse_reports.js:20
-#: /media/js/views/per_app_abuse_reports.js:19
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Licba powěźeńkow znjewužywanja"
 
@@ -252,17 +233,13 @@ msgstr "Licba powěźeńkow znjewužywanja"
 msgid "Loading..."
 msgstr "Zacytujo se…"
 
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_type.js:19
-#: /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Nałoženja"
 
-#: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_added.js:20
-#: /media/js/views/apps_available_by_type.js:20
-#: /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Licba nałoženjow"
 

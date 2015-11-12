@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
@@ -17,15 +17,11 @@ msgstr ""
 
 #: /templates/footer.html:4
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
-"content on this site is licensed under the <a href=\"{cc_url}\" "
-"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
 msgstr ""
-"Cu excepția cazurilor când <a href=\"{legal_url}\" target=\"_blank\">se "
-"specifică altfel</a>, conținutul de pe acest site este licențiat sub licența"
-" <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> sau orice versiune mai nouă."
+"Cu excepția cazurilor când <a href=\"{legal_url}\" target=\"_blank\">se specifică altfel</a>, conținutul de pe acest site este licențiat sub licența <a href=\"{cc_url}\" target=\"_blank\">Creative "
+"Commons Attribution Share-Alike License v3.0</a> sau orice versiune mai nouă."
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -79,36 +75,29 @@ msgstr "Statistici globale"
 msgid "Number of Installs:"
 msgstr "Număr de instalări:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11
-#: /media/js/views/per_app_installs.js:18
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "Instalări"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:9
-#: /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18
-#: /media/js/views/total_visits.js:12 /media/js/views/total_visits.js:19
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "Vizite"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19
-#: /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Evaluări"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:44
-#: /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19
-#: /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "Raporturi de abuz"
 
-#: /templates/app_dashboard.html:25
-#: /media/js/views/per_app_average_rating.js:11
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "Evaluare medie"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:51
-#: /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "Venit brut"
 
@@ -132,8 +121,7 @@ msgstr "Pagina căutată nu a fost găsită."
 msgid "An error occurred."
 msgstr "S-a produs o eroare."
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12
-#: /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Dezvoltatori"
 
@@ -212,8 +200,7 @@ msgstr "Autentificare / Înregistrare"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
-msgstr ""
-"S-a detectat o eroare a serverului. Te rugăm să încerci din nou mai târziu."
+msgstr "S-a detectat o eroare a serverului. Te rugăm să încerci din nou mai târziu."
 
 # Aici n-are treabă cu niciun API. Verifică restul limbilor.
 #: /media/js/chartutils.js:23
@@ -221,12 +208,8 @@ msgid "The statistics endpoint requested is invalid."
 msgstr "Statisticile privind obiectivul solicitat sunt invalide."
 
 #: /media/js/chartutils.js:24
-msgid ""
-"Authentication failure detected. The data you are trying to access is not "
-"public."
-msgstr ""
-"S-a detectat o eroare la autentificare. Datele pe care dorești să le "
-"accesezi nu sunt publice."
+msgid "Authentication failure detected. The data you are trying to access is not public."
+msgstr "S-a detectat o eroare la autentificare. Datele pe care dorești să le accesezi nu sunt publice."
 
 #: /media/js/chartutils.js:25
 msgid "The statistics data request is incomplete or invalid."
@@ -234,8 +217,7 @@ msgstr "Cererea de date statistice este incompletă sau invalidă."
 
 #: /media/js/chartutils.js:26
 msgid "An unknown server error was detected. Please try again later."
-msgstr ""
-"S-a produs o eroare necunoscută a serverului. Încearcă din nou mai târziu."
+msgstr "S-a produs o eroare necunoscută a serverului. Încearcă din nou mai târziu."
 
 #: /media/js/chartutils.js:29
 msgid "You have entered a negative date range. Reverse?"
@@ -245,8 +227,7 @@ msgstr "Ai introdus un interval de timp negativ. Inversezi?"
 msgid "Please enter a valid date range"
 msgstr "Introdu un interval de timp valid"
 
-#: /media/js/views/abuse_reports.js:20
-#: /media/js/views/per_app_abuse_reports.js:19
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Număr de raportări de abuzuri"
 
@@ -254,17 +235,13 @@ msgstr "Număr de raportări de abuzuri"
 msgid "Loading..."
 msgstr "Se încarcă..."
 
-#: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_added.js:19
-#: /media/js/views/apps_available_by_type.js:19
-#: /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicații"
 
-#: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_added.js:20
-#: /media/js/views/apps_available_by_type.js:20
-#: /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Număr de aplicații"
 
