@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
@@ -17,11 +17,14 @@ msgstr ""
 
 #: /templates/footer.html:4
 msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
+"content on this site is licensed under the <a href=\"{cc_url}\" "
+"target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"or any later version."
 msgstr ""
-"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> もしくはそれ以降"
-"のバージョンで公開されています。"
+"特に <a href=\"{legal_url}\" target=\"_blank\">記載</a> のない限り、当サイト上のコンテンツは <a "
+"href=\"{cc_url}\" target=\"_blank\">Creative Commons 表示 - 継承 ライセンス v3.0</a> "
+"もしくはそれ以降のバージョンで公開されています。"
 
 #: /templates/footer.html:9
 msgid "Privacy Policy"
@@ -75,29 +78,36 @@ msgstr "グローバル統計"
 msgid "Number of Installs:"
 msgstr "インストール回数:"
 
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11
+#: /media/js/views/per_app_installs.js:18
 msgid "Installs"
 msgstr "インストール数"
 
-#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
-#: /media/js/views/total_visits.js:19
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9
+#: /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18
+#: /media/js/views/total_visits.js:12 /media/js/views/total_visits.js:19
 msgid "Visits"
 msgstr "ホームページ訪問者数"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19
+#: /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "評価"
 
-#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44
+#: /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19
+#: /media/js/views/per_app_abuse_reports.js:11
 #: /media/js/views/per_app_abuse_reports.js:18
 msgid "Abuse Reports"
 msgstr "不正報告"
 
-#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
+#: /templates/app_dashboard.html:25
+#: /media/js/views/per_app_average_rating.js:11
 msgid "Average Rating"
 msgstr "平均評価"
 
-#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51
+#: /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
 msgid "Gross Revenue"
 msgstr "総売上金額"
 
@@ -121,7 +131,8 @@ msgstr "お探しのページは見つかりませんでした。"
 msgid "An error occurred."
 msgstr "問題が発生しました。"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12
+#: /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "開発者"
 
@@ -206,7 +217,9 @@ msgid "The statistics endpoint requested is invalid."
 msgstr "リクエストされた統計エンドポイントが不正です。"
 
 #: /media/js/chartutils.js:24
-msgid "Authentication failure detected. The data you are trying to access is not public."
+msgid ""
+"Authentication failure detected. The data you are trying to access is not "
+"public."
 msgstr "認証エラーが発生しました。あなたが取得しようとしたデータは公開されていません。"
 
 #: /media/js/chartutils.js:25
@@ -225,7 +238,8 @@ msgstr "マイナスの日付範囲が入力されました。開始日と終了
 msgid "Please enter a valid date range"
 msgstr "正しい日付範囲を入力してください。"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+#: /media/js/views/abuse_reports.js:20
+#: /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "不正報告数"
 
@@ -233,11 +247,17 @@ msgstr "不正報告数"
 msgid "Loading..."
 msgstr "読み込み中..."
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_added.js:19
+#: /media/js/views/apps_available_by_type.js:19
+#: /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "アプリ"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_premium.js:20
+#: /media/js/views/apps_added.js:20
+#: /media/js/views/apps_available_by_type.js:20
+#: /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "アプリの数"
 

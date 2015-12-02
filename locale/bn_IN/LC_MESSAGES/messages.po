@@ -232,11 +232,13 @@ msgstr "অপব্যবহার প্রতিবেদন সংখ্য�
 msgid "Loading..."
 msgstr "লোড করা হচ্ছে ..."
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "অ্যাপস"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "অ্যাপ্লিকেশন সংখ্যা"
 
