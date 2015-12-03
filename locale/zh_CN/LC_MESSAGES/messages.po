@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:47:12.758Z\n"
+"POT-Creation-Date: 2015-12-03T19:43:56.594Z\n"
 "PO-Revision-Date: 2015-01-08 03:20+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,48 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1420687241.0\n"
-
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr "除非<a href=\"{legal_url}\" target=\"_blank\">另有说明</a>，本站的内容使用<a href=\"{cc_url}\" target=\"_blank\">知识共享 署名-相同方式共享 3.0协议</a>或更新版本授权发布。"
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "隐私权政策"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "使用条款"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "举报商标滥用"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "统计"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "注销"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "登录"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "关闭"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -103,21 +61,51 @@ msgstr "毛利"
 msgid "No public statistics are available for this app"
 msgstr "此应用没有公开的统计数据可用"
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "关闭"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "示例图表"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "噢不！"
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr "除非<a href=\"{legal_url}\" target=\"_blank\">另有说明</a>，本站的内容使用<a href=\"{cc_url}\" target=\"_blank\">知识共享 署名-相同方式共享 3.0协议</a>或更新版本授权发布。"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到你想找的页面。"
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "隐私权政策"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "发生错误。"
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "使用条款"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "举报商标滥用"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "统计"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "注销"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "登录"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -146,6 +134,18 @@ msgstr "安装的应用"
 #: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "应用评分"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "噢不！"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到你想找的页面。"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "发生错误。"
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -231,15 +231,18 @@ msgstr "滥用报告数量"
 msgid "Loading..."
 msgstr "正在载入…"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
-#: /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "应用"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
-#: /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "应用数量"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "首页"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -249,14 +252,9 @@ msgstr "收入"
 msgid "Daily Total"
 msgstr "每日总共"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "首页"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "总收入"
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "安装次数"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -267,14 +265,14 @@ msgstr "新评分"
 msgid "Number of Ratings"
 msgstr "评分数量"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "安装次数"
-
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "开发者数量"
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "总收入"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "访问次数"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "开发者数量"

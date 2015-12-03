@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14T20:47:12.758Z\n"
+"POT-Creation-Date: 2015-12-03T19:43:56.594Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,50 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Fireplace L10n Tools 1.0\n"
-
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Excepto onde <a href=\"{legal_url}\" target=\"_blank\">se indique</a> o contrario, autorizase o contido deste sitio pola <a href=\"{cc_url}\" target=\"_blank\">licenza Creative Commons Atribución-"
-"CompartirIgual v3.0</a> ou calquera versión posterior."
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "Política de privacidade"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "Temos de uso"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "Informar de abusos de marca"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Saír"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Identificarse"
-
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Pechar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Non"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Si"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -103,21 +59,53 @@ msgstr "Ingresos brutos"
 msgid "No public statistics are available for this app"
 msgstr ""
 
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Pechar"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Non"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Si"
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Gráfico de exemplo"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh non!"
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Excepto onde <a href=\"{legal_url}\" target=\"_blank\">se indique</a> o contrario, autorizase o contido deste sitio pola <a href=\"{cc_url}\" target=\"_blank\">licenza Creative Commons Atribución-"
+"CompartirIgual v3.0</a> ou calquera versión posterior."
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Non se atopou a páxina que estaba buscando."
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Política de privacidade"
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Produciuse un erro."
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Temos de uso"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Informar de abusos de marca"
+
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Saír"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Identificarse"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -146,6 +134,18 @@ msgstr "Aplicativos instalados"
 #: /templates/homepage.html:39
 msgid "App Ratings"
 msgstr "Puntuacións dos aplicativos"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh non!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Non se atopou a páxina que estaba buscando."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Produciuse un erro."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -231,15 +231,18 @@ msgstr "Número de informes de abuso"
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19
-#: /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplicativos"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20
-#: /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Número de aplicativos"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Inicio"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -249,14 +252,9 @@ msgstr "Ingresos"
 msgid "Daily Total"
 msgstr "Totais diarios"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Inicio"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Ingresos totais"
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Número de instalacións"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -267,14 +265,14 @@ msgstr "Novas puntuacións"
 msgid "Number of Ratings"
 msgstr "Número de puntuacións"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Número de instalacións"
-
-#: /media/js/views/total_developers.js:20
-msgid "Number of Developers"
-msgstr "Número de desenvolvedores"
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Ingresos totais"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Número de visitas"
+
+#: /media/js/views/total_developers.js:20
+msgid "Number of Developers"
+msgstr "Número de desenvolvedores"
