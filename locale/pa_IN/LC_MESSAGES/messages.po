@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-03T19:43:56.594Z\n"
+"POT-Creation-Date: 2016-01-06T22:20:08.187Z\n"
 "PO-Revision-Date: 2015-03-15 00:15+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,10 +72,6 @@ msgstr "ਨਹੀਂ"
 msgid "Yes"
 msgstr "ਹਾਂ"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -95,6 +91,10 @@ msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "ਚਾਰਟ ਨਮੂਨਾਂ"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -228,22 +228,17 @@ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀ�
 msgid "Number of Abuse Reports"
 msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "ਲੋਡਿਗ..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "ਐਪਸ"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "ਹੋਮ"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "ਲੋਡਿਗ..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -252,6 +247,11 @@ msgstr "ਰੇਵਿਨਿਉ"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "ਰੋਜ਼ਾਨਾ ਕੁੱਲ"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "ਹੋਮ"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -266,13 +266,13 @@ msgstr "ਨਵਿਆ ਰੇਟਿਗਾ"
 msgid "Number of Ratings"
 msgstr "ਰੇਟਿਗਾ ਦੀ ਗਿਣਤੀ"
 
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "ਮੁਲਾਕਾਤ ਦੀ ਗਿਣਤੀ"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

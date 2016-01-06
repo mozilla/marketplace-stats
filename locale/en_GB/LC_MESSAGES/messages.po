@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-03T19:43:56.594Z\n"
+"POT-Creation-Date: 2016-01-06T22:20:08.187Z\n"
 "PO-Revision-Date: 2015-08-07 15:11\n"
 "Last-Translator: Ian Neal <iann_bugzilla@blueyonder.co.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,10 +72,6 @@ msgstr "No"
 msgid "Yes"
 msgstr "Yes"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Sample Chart"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -95,6 +91,10 @@ msgstr "Terms of Use"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Sample Chart"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -228,22 +228,17 @@ msgstr "Please enter a valid date range"
 msgid "Number of Abuse Reports"
 msgstr "Number of Abuse Reports"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Loading..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Number of Apps"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Home"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Loading..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -252,6 +247,11 @@ msgstr "Revenue"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Daily Total"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Home"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -266,13 +266,13 @@ msgstr "New Ratings"
 msgid "Number of Ratings"
 msgstr "Number of Ratings"
 
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Total Revenue"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Number of Visits"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Total Revenue"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

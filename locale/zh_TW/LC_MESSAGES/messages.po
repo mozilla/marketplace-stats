@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-03T19:43:56.594Z\n"
+"POT-Creation-Date: 2016-01-06T22:20:08.187Z\n"
 "PO-Revision-Date: 2015-01-08 15:31+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,10 +73,6 @@ msgstr "否"
 msgid "Yes"
 msgstr "是"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "範例圖表"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -94,6 +90,10 @@ msgstr "使用條款"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "範例圖表"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -227,22 +227,17 @@ msgstr "請輸入有效的日期範圍"
 msgid "Number of Abuse Reports"
 msgstr "濫用報告數量"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "載入中…"
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "應用程式"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "應用程式數量"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "首頁"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "載入中…"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -251,6 +246,11 @@ msgstr "營收"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "每日總計"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "首頁"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -265,13 +265,13 @@ msgstr "新評分"
 msgid "Number of Ratings"
 msgstr "評分數量"
 
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "總營收"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "瀏覽數量"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "總營收"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

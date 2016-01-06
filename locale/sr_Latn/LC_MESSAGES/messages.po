@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-03T19:43:56.594Z\n"
+"POT-Creation-Date: 2016-01-06T22:20:08.187Z\n"
 "PO-Revision-Date: 2015-09-19 12:07+0000\n"
 "Last-Translator: Vanja Tumbas <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,10 +81,6 @@ msgstr "Ne"
 msgid "Yes"
 msgstr "Da"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Primer grafikona"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, "
@@ -108,6 +104,10 @@ msgstr "Uslovi korišćenja"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloupotrebu robne marke"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Primer grafikona"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -247,28 +247,25 @@ msgstr "Unesite ispravan opseg podatka"
 msgid "Number of Abuse Reports"
 msgstr "Broj prijavljenih zloupotreba"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Učitavam..."
-
 #: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_available_by_premium.js:19
+#: /media/js/views/apps_by_type.js:19
 #: /media/js/views/apps_available_by_type.js:19
-#: /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacije"
 
 #: /media/js/views/apps_added.js:20
 #: /media/js/views/apps_available_by_premium.js:20
+#: /media/js/views/apps_by_type.js:20
 #: /media/js/views/apps_available_by_type.js:20
-#: /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Broj aplikacija"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Početna"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Učitavam..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -277,6 +274,11 @@ msgstr "Prihod"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Ukupno dnevno"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Početna"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -291,13 +293,13 @@ msgstr "Nove ocene"
 msgid "Number of Ratings"
 msgstr "Broj ocena"
 
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Ukupan prihod"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Broj poseta"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Ukupan prihod"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

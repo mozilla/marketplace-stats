@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-03T19:43:56.594Z\n"
+"POT-Creation-Date: 2016-01-06T22:20:08.187Z\n"
 "PO-Revision-Date: 2014-04-08 17:32+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,10 +72,6 @@ msgstr "Не"
 msgid "Yes"
 msgstr "Да"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Примерок на графикон"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -95,6 +91,10 @@ msgstr "Услови за користење"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Пријавете злоупотреба на трговска марка"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Примерок на графикон"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -228,22 +228,17 @@ msgstr "Ве молиме внесете валиден интервал на д
 msgid "Number of Abuse Reports"
 msgstr "Број на пријави на злоупотреба"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Се вчитува..."
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Апликации"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Број на апликации"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Почетна"
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Се вчитува..."
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -252,6 +247,11 @@ msgstr "Приход"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Вкупно во денот"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Почетна"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -266,13 +266,13 @@ msgstr "Нови рејтинзи"
 msgid "Number of Ratings"
 msgstr "Број на рејтинзи"
 
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Вкупен приход"
-
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
 msgstr "Број на посети"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Вкупен приход"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
