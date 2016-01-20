@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:20:08.187Z\n"
+"POT-Creation-Date: 2016-01-20T19:47:57.406Z\n"
 "PO-Revision-Date: 2015-04-01 07:37+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: FRISIAN <LL@li.org>\n"
@@ -60,18 +60,6 @@ msgstr "Bruto-ynkomsten"
 msgid "No public statistics are available for this app"
 msgstr "Der binne gjin iepenbiere statistiken beskikber foar dizze app"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Slute"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nee"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -92,9 +80,17 @@ msgstr "Brûksbetingsten"
 msgid "Report Trademark Abuse"
 msgstr "Misbrûk fan hannelsmerk melde"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Foarbyldgrafyk"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Slute"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nee"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -107,6 +103,18 @@ msgstr "Ofmelde"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Oanmelde"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Foarbyldgrafyk"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "De troch jo sochte side is net fûn."
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -136,14 +144,6 @@ msgstr "Ynstalleare apps"
 msgid "App Ratings"
 msgstr "App-wurdearringen"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh nee!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "De troch jo sochte side is net fûn."
-
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Der is in flater bard."
@@ -155,6 +155,14 @@ msgstr "Flater by it laden fan mear"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Opnij probearje"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Meld jo oan om troch te gean."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Oanmelde / Registrearje"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -189,14 +197,6 @@ msgstr "Dizze gegevens binne beheind tagonklik of der binne gjin gegevens fûn"
 msgid "All regions"
 msgstr "Alle regio’s"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Meld jo oan om troch te gean."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Oanmelde / Registrearje"
-
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Tsjinnerflater detektearre. Probearje it letter nochris."
@@ -225,17 +225,17 @@ msgstr "Jo hawwe in negatyf datumberik ynfierd. Omkeare?"
 msgid "Please enter a valid date range"
 msgstr "Fier in jildich datumberik yn"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Oantal misbrûkmeldingen"
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 msgid "Number of Apps"
 msgstr "Oantal apps"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Oantal misbrûkmeldingen"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
@@ -267,13 +267,13 @@ msgstr "Nije wurdearringen"
 msgid "Number of Ratings"
 msgstr "Oantal wurdearringen"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Oantal besites"
-
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Totale ynkomsten"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Oantal besites"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-06T22:20:08.187Z\n"
+"POT-Creation-Date: 2016-01-20T19:47:57.406Z\n"
 "PO-Revision-Date: 2015-01-08 15:31+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,18 +61,6 @@ msgstr "毛利"
 msgid "No public statistics are available for this app"
 msgstr "此應用程式沒有公開的統計資料"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "關閉"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "否"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "是"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -91,9 +79,17 @@ msgstr "使用條款"
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "範例圖表"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "關閉"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "否"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "是"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -106,6 +102,18 @@ msgstr "登出"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "登入"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "範例圖表"
+
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "喔，不！"
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "找不到您尋找的頁面。"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -135,14 +143,6 @@ msgstr "已安裝的應用程式"
 msgid "App Ratings"
 msgstr "應用程式評分"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "喔，不！"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "找不到您尋找的頁面。"
-
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "發生錯誤。"
@@ -154,6 +154,14 @@ msgstr "載入更多時發生錯誤"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "再試一次"
+
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "請登入以繼續。"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "登入 / 註冊"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -187,14 +195,6 @@ msgstr "此資料已被限制，或找不到此資料"
 msgid "All regions"
 msgstr "所有區域"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "請登入以繼續。"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "登入 / 註冊"
-
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "偵測到伺服器錯誤，請稍後再試一次。"
@@ -223,17 +223,17 @@ msgstr "您輸入了反向的日期範圍，要反轉嗎？"
 msgid "Please enter a valid date range"
 msgstr "請輸入有效的日期範圍"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "濫用報告數量"
-
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
 msgid "Apps"
 msgstr "應用程式"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
 msgid "Number of Apps"
 msgstr "應用程式數量"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "濫用報告數量"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
@@ -265,13 +265,13 @@ msgstr "新評分"
 msgid "Number of Ratings"
 msgstr "評分數量"
 
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "瀏覽數量"
-
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "總營收"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "瀏覽數量"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
