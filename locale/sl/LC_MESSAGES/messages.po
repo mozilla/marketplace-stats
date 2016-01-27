@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:47:57.406Z\n"
+"POT-Creation-Date: 2016-01-27T20:22:09.884Z\n"
 "PO-Revision-Date: 2015-10-05 07:28+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,26 +61,6 @@ msgstr "Bruto prihodki"
 msgid "No public statistics are available for this app"
 msgstr "Javnih statistik za to aplikacijo ni na voljo"
 
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Če ni <a href=\"{legal_url}\" target=\"_blank\">navedeno</a> drugače, je vsebina te spletne strani na voljo pod dovoljenjem <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> ali pod katerokoli novejšo različico."
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "Politika zasebnosti"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "Pogoji uporabe"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "Prijavi zlorabo blagovne znamke"
-
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Zapri"
@@ -105,17 +85,29 @@ msgstr "Izpis"
 msgid "Sign In"
 msgstr "Vpis"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Če ni <a href=\"{legal_url}\" target=\"_blank\">navedeno</a> drugače, je vsebina te spletne strani na voljo pod dovoljenjem <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> ali pod katerokoli novejšo različico."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Politika zasebnosti"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Pogoji uporabe"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Prijavi zlorabo blagovne znamke"
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Vzorčni grafikon"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh, ne!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stran, ki ste jo iskali, ni najdena."
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -145,9 +137,17 @@ msgstr "Nameščene aplikacije"
 msgid "App Ratings"
 msgstr "Ocene aplikacij"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Oh, ne!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Prišlo je do napake."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stran, ki ste jo iskali, ni najdena."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -156,14 +156,6 @@ msgstr "Napaka pri nalaganju več vsebine"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Poizkusite ponovno"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Za nadaljevanje se prosim vpišite"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Vpis / Prijava"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -197,6 +189,14 @@ msgstr "Ti podatki so omejeni ali pa niso najdeni"
 msgid "All regions"
 msgstr "Vse regije"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Za nadaljevanje se prosim vpišite"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Vpis / Prijava"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Zaznana napaka strežnika. Prosim, poskusite kasneje."
@@ -225,14 +225,6 @@ msgstr "Vnesli ste negativen razpon datumov. Ponastavim?"
 msgid "Please enter a valid date range"
 msgstr "Prosim vnesite pravilen razpon datumov"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
-msgid "Apps"
-msgstr "Aplikacije"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
-msgid "Number of Apps"
-msgstr "Število aplikacij"
-
 #: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Število poročil o zlorabi"
@@ -240,6 +232,14 @@ msgstr "Število poročil o zlorabi"
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Nalaganje..."
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+msgid "Apps"
+msgstr "Aplikacije"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+msgid "Number of Apps"
+msgstr "Število aplikacij"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -258,6 +258,10 @@ msgstr "Domov"
 msgid "Number of Installs"
 msgstr "Število namestitev"
 
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Skupaj prihodek"
+
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -266,10 +270,6 @@ msgstr "Nove ocene"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Število ocen"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Skupaj prihodek"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

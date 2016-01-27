@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:47:57.406Z\n"
+"POT-Creation-Date: 2016-01-27T20:22:09.884Z\n"
 "PO-Revision-Date: 2015-03-12 23:18+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,26 +60,6 @@ msgstr "Diru-sarrera gordinak"
 msgid "No public statistics are available for this app"
 msgstr "Ez dago aplikazio honentzako estatistika publikorik"
 
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Besterik <a href=\"{legal_url}\" target=\"_blank\">adierazi</a> ezean, gune honetako edukia  <a href=\"{cc_url}\" target=\"_blank\">Creative Commonsen Aitortu-PartekatuBerdin v3.0</a> edo beste "
-"edozein bertsio berriagoren lizentziapean dago."
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "Pribatutasun-politika"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "Erabilera-baldintzak"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "Salatu markaren erabilera okerra"
-
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Itxi"
@@ -104,17 +84,29 @@ msgstr "Amaitu saioa"
 msgid "Sign In"
 msgstr "Hasi saioa"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Besterik <a href=\"{legal_url}\" target=\"_blank\">adierazi</a> ezean, gune honetako edukia  <a href=\"{cc_url}\" target=\"_blank\">Creative Commonsen Aitortu-PartekatuBerdin v3.0</a> edo beste "
+"edozein bertsio berriagoren lizentziapean dago."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Pribatutasun-politika"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Erabilera-baldintzak"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Salatu markaren erabilera okerra"
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Diagramaren adibidea"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "O ez!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Bilatzen ari zinen orria ez da aurkitu."
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -144,9 +136,17 @@ msgstr "Instalatutako aplikazioak"
 msgid "App Ratings"
 msgstr "Aplikazio-kalifikazioak"
 
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "O ez!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Errore bat gertatu da."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Bilatzen ari zinen orria ez da aurkitu."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -155,14 +155,6 @@ msgstr "Errorea gehiago kargatzean"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Saiatu berriro"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Hasi saioa jarraitzeko."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Hasi saioa / Eman izena"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -196,6 +188,14 @@ msgstr "Datu murriztuak dira edo ez da daturik aurkitu"
 msgid "All regions"
 msgstr "Eskualde guztiak"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Hasi saioa jarraitzeko."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Hasi saioa / Eman izena"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Zerbitzari-errorea detektatu da. Saiatu berriro geroago."
@@ -224,14 +224,6 @@ msgstr "Data-tarte negatiboa sartu duzu. Leheneratu?"
 msgid "Please enter a valid date range"
 msgstr "Sartu baliozko data-tarte bat"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
-msgid "Apps"
-msgstr "Aplikazioak"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
-msgid "Number of Apps"
-msgstr "Aplikazio-kopurua"
-
 #: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Abusu-salaketen kopurua"
@@ -239,6 +231,14 @@ msgstr "Abusu-salaketen kopurua"
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Kargatzen..."
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
+msgid "Apps"
+msgstr "Aplikazioak"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
+msgid "Number of Apps"
+msgstr "Aplikazio-kopurua"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -257,6 +257,10 @@ msgstr "Nagusia"
 msgid "Number of Installs"
 msgstr "Instalazio-kopurua"
 
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Diru-sarrerak guztira"
+
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -265,10 +269,6 @@ msgstr "Kalifikazio berriak"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Kalifikazio-kopurua"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Diru-sarrerak guztira"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

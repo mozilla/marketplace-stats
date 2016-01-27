@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-20T19:47:57.406Z\n"
+"POT-Creation-Date: 2016-01-27T20:22:09.884Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,26 +77,6 @@ msgstr "Ɠřǿşş Řḗṽḗƞŭḗ"
 msgid "No public statistics are available for this app"
 msgstr "Ƞǿ ƥŭƀŀīƈ şŧȧŧīşŧīƈş ȧřḗ ȧṽȧīŀȧƀŀḗ ƒǿř ŧħīş ȧƥƥ"
 
-#: /templates/footer.html:4
-msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
-"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, "
-"ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" target=\""
-"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř ȧƞẏ "
-"ŀȧŧḗř ṽḗřşīǿƞ."
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
-
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Ƈŀǿşḗ"
@@ -121,18 +101,29 @@ msgstr "Şīɠƞ Ǿŭŧ"
 msgid "Sign In"
 msgstr "Şīɠƞ Īƞ"
 
+#: /templates/footer.html:4
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr ""
+"Ḗẋƈḗƥŧ ẇħḗřḗ ǿŧħḗřẇīşḗ <a href=\"{legal_url}\" target=\"_blank\">ƞǿŧḗḓ</a>, "
+"ƈǿƞŧḗƞŧ ǿƞ ŧħīş şīŧḗ īş ŀīƈḗƞşḗḓ ŭƞḓḗř ŧħḗ <a href=\"{cc_url}\" target=\""
+"_blank\">Ƈřḗȧŧīṽḗ Ƈǿḿḿǿƞş Ȧŧŧřīƀŭŧīǿƞ Şħȧřḗ-Ȧŀīķḗ Ŀīƈḗƞşḗ ṽ3.0</a> ǿř ȧƞẏ "
+"ŀȧŧḗř ṽḗřşīǿƞ."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Ƥřīṽȧƈẏ Ƥǿŀīƈẏ"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Ŧḗřḿş ǿƒ Ŭşḗ"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Řḗƥǿřŧ Ŧřȧḓḗḿȧřķ Ȧƀŭşḗ"
+
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Şȧḿƥŀḗ Ƈħȧřŧ"
-
-#: /templates/errors/404.html:2
-#: /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ǿħ ƞǿ!"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
 
 #: /templates/homepage.html:4
 #: /media/js/views/total_developers.js:12
@@ -169,9 +160,18 @@ msgstr "Ȧƥƥş Īƞşŧȧŀŀḗḓ"
 msgid "App Ratings"
 msgstr "Ȧƥƥ Řȧŧīƞɠş"
 
+#: /templates/errors/fragment.html:1
+#: /templates/errors/404.html:2
+msgid "Oh no!"
+msgstr "Ǿħ ƞǿ!"
+
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Ȧƞ ḗřřǿř ǿƈƈŭřřḗḓ."
+
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Ŧħḗ ƥȧɠḗ ẏǿŭ ẇḗřḗ ŀǿǿķīƞɠ ƒǿř ẇȧş ƞǿŧ ƒǿŭƞḓ."
 
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -180,14 +180,6 @@ msgstr "Ḗřřǿř ŀǿȧḓīƞɠ ḿǿřḗ"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Ŧřẏ Ȧɠȧīƞ"
-
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -221,6 +213,14 @@ msgstr "Ŧħīş ḓȧŧȧ īş řḗşŧřīƈŧḗḓ ǿř ƞǿ ḓȧŧȧ ƒǿ
 msgid "All regions"
 msgstr "Ȧŀŀ řḗɠīǿƞş"
 
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Ƥŀḗȧşḗ şīɠƞ īƞ ŧǿ ƥřǿƈḗḗḓ."
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Şīɠƞ īƞ / Şīɠƞ ŭƥ"
+
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
 msgstr "Şḗřṽḗř ḗřřǿř ḓḗŧḗƈŧḗḓ. Ƥŀḗȧşḗ ŧřẏ ȧɠȧīƞ ŀȧŧḗř."
@@ -251,6 +251,15 @@ msgstr "Ẏǿŭ ħȧṽḗ ḗƞŧḗřḗḓ ȧ ƞḗɠȧŧīṽḗ ḓȧŧḗ 
 msgid "Please enter a valid date range"
 msgstr "Ƥŀḗȧşḗ ḗƞŧḗř ȧ ṽȧŀīḓ ḓȧŧḗ řȧƞɠḗ"
 
+#: /media/js/views/abuse_reports.js:20
+#: /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Ƞŭḿƀḗř ǿƒ Ȧƀŭşḗ Řḗƥǿřŧş"
+
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "Ŀǿȧḓīƞɠ..."
+
 #: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_available_by_premium.js:19
 #: /media/js/views/apps_installed.js:19
@@ -266,15 +275,6 @@ msgstr "Ȧƥƥş"
 #: /media/js/views/apps_available_by_type.js:20
 msgid "Number of Apps"
 msgstr "Ƞŭḿƀḗř ǿƒ Ȧƥƥş"
-
-#: /media/js/views/abuse_reports.js:20
-#: /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Ƞŭḿƀḗř ǿƒ Ȧƀŭşḗ Řḗƥǿřŧş"
-
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "Ŀǿȧḓīƞɠ..."
 
 #: /media/js/views/gross_revenue.js:18
 #: /media/js/views/per_app_revenue.js:18
@@ -294,6 +294,10 @@ msgstr "Ħǿḿḗ"
 msgid "Number of Installs"
 msgstr "Ƞŭḿƀḗř ǿƒ Īƞşŧȧŀŀş"
 
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Ŧǿŧȧŀ Řḗṽḗƞŭḗ"
+
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12
 #: /media/js/views/ratings.js:12
@@ -304,10 +308,6 @@ msgstr "Ƞḗẇ Řȧŧīƞɠş"
 #: /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Ƞŭḿƀḗř ǿƒ Řȧŧīƞɠş"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Ŧǿŧȧŀ Řḗṽḗƞŭḗ"
 
 #: /media/js/views/per_app_visits.js:19
 #: /media/js/views/total_visits.js:20
