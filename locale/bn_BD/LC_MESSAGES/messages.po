@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:22:09.884Z\n"
+"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
 "PO-Revision-Date: 2014-08-18 08:01+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,25 @@ msgstr "মোট আয়"
 msgid "No public statistics are available for this app"
 msgstr ""
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"যদি অন্য কোথাও কিছু <a href=\"{legal_url}\" target=\"_blank\">উল্লেখ</a> না থাকলে এই সাইটের সকল কন্টেন্ট ক্রিয়েটিভ কমন অ্যাট্রিবিউশন শেয়ার-অ্যালাইক ৩.০</a> বা পরবর্তী সংস্করণের লাইসেন্সের অধীনে লাইসেন্সকৃত।"
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "ব্যবহারের শর্তাবলী"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
+
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "বন্ধ"
@@ -83,25 +102,6 @@ msgstr "সাইন আউট"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "সাইন ইন"
-
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"যদি অন্য কোথাও কিছু <a href=\"{legal_url}\" target=\"_blank\">উল্লেখ</a> না থাকলে এই সাইটের সকল কন্টেন্ট ক্রিয়েটিভ কমন অ্যাট্রিবিউশন শেয়ার-অ্যালাইক ৩.০</a> বা পরবর্তী সংস্করণের লাইসেন্সের অধীনে লাইসেন্সকৃত।"
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "গোপনীয়তা নীতি"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "ব্যবহারের শর্তাবলী"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "ট্রেডমার্ক লঙ্ঘনের অভিযোগ করুন"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -135,13 +135,9 @@ msgstr "ইন্সটল করা অ্যাপ"
 msgid "App Ratings"
 msgstr "অ্যাপ রেটিং"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ওহ না! "
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "কথাও একটা গোলমাল হয়েছে। "
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -154,6 +150,10 @@ msgstr "আরও লোড করার সময় সমস্যা হয়ে�
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "আবার চেষ্টা করুন "
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "কথাও একটা গোলমাল হয়েছে। "
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -227,17 +227,22 @@ msgstr "অনুগ্রহপূর্বক একটি সঠিক তা
 msgid "Number of Abuse Reports"
 msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
+#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "অ্যাপস"
+
+#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "এপসমুহের সংখ্যা"
+
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "লোড হচ্ছে..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
-msgid "Apps"
-msgstr "অ্যাপস"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
-msgid "Number of Apps"
-msgstr "এপসমুহের সংখ্যা"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "হোম"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -247,18 +252,9 @@ msgstr "আয়"
 msgid "Daily Total"
 msgstr "দৈনিক মোট "
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "হোম"
-
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "ইন্সটলের সংখ্যা"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "মোট আয়"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -268,6 +264,10 @@ msgstr "নতুন রেটিং"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "রেটিং এর সংখ্যা"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "মোট আয়"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

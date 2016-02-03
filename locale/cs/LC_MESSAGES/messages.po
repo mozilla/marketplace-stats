@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:22:09.884Z\n"
+"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
 "PO-Revision-Date: 2015-07-02 23:07+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,26 @@ msgstr "Hrubý příjem"
 msgid "No public statistics are available for this app"
 msgstr "Pro tuto aplikaci nejsou dostupné veřejné statistiky"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Pokud není řečeno <a href=\"{legal_url}\" target=\"_blank\">jinak</a>, je obsah webu k dispozici pod licencí <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
+"v. 3.0</a> či jakoukoliv novější verzí."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobních údajů"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Podmínky užití"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Nahlásit zneužití ochranné známky"
+
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Zavřít"
@@ -83,26 +103,6 @@ msgstr "Odhlášení"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Přihlášení"
-
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Pokud není řečeno <a href=\"{legal_url}\" target=\"_blank\">jinak</a>, je obsah webu k dispozici pod licencí <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License "
-"v. 3.0</a> či jakoukoliv novější verzí."
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "Zásady ochrany osobních údajů"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "Podmínky užití"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "Nahlásit zneužití ochranné známky"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -136,13 +136,9 @@ msgstr "Nainstalované aplikace"
 msgid "App Ratings"
 msgstr "Hodnocení aplikace"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ale ne!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Došlo k chybě."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -155,6 +151,10 @@ msgstr "Chyba při načítání"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Zkuste to znovu"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Došlo k chybě."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -228,17 +228,22 @@ msgstr "Vložte prosím platný rozsah dat"
 msgid "Number of Abuse Reports"
 msgstr "Počet hlášení zneužití"
 
+#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplikace"
+
+#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Počet aplikací"
+
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Načítání..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
-msgid "Apps"
-msgstr "Aplikace"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
-msgid "Number of Apps"
-msgstr "Počet aplikací"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Domů"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -248,18 +253,9 @@ msgstr "Příjem"
 msgid "Daily Total"
 msgstr "Celkem denně"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Domů"
-
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Počet instalací"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Celkový příjem"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -269,6 +265,10 @@ msgstr "Nová hodnocení"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Počet hodnocení"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Celkový příjem"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

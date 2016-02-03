@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:22:09.884Z\n"
+"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
 "PO-Revision-Date: 2015-03-15 00:15+0000\n"
 "Last-Translator: Aman <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,26 @@ msgstr "ਸਮੁੱਚਾ ਲਾਭ"
 msgid "No public statistics are available for this app"
 msgstr "ਇਸ ਐਪ ਲਈ ਕੋਈ ਪਬਲਿਕ ਅੰਕੜੇ ਮੌਜੂਦ ਨਹੀਂ ਹਨ"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ 'ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ v3.0 "
+"</ a> ਜਾ ਕੋਈ ਬਾਅਦ ਵਾਲਾ ਵਰਜਨ।"
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "ਗੋਪਨੀਅਤ ਪਾਲਸੀ"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
+
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "ਬੰਦ"
@@ -83,26 +103,6 @@ msgstr "ਸਾਈਨ ਆਊਟ"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "ਸਾਈਨ ਇਨ"
-
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"ਹੋਰ ਆਖਿਰੀ href=\"{legal_url}\" target=\"_blank\"> </ a> ਨੋਟ, ਜਿੱਥੇ ਛੱਡ ਕੇ, ਇਹ ਸਾਈਟ ਦੀ ਸਮੱਗਰੀ 'ਤੇ ਆਖਿਰੀ href=\"{cc_url}\" target=\"_blank\"> ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਐਟ੍ਰਬ੍ਯੂਸ਼ਨ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ ਸ਼ੇਅਰ-ਅਲਾਇਕ ਲਾਈਸਿੰਸ v3.0 "
-"</ a> ਜਾ ਕੋਈ ਬਾਅਦ ਵਾਲਾ ਵਰਜਨ।"
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "ਗੋਪਨੀਅਤ ਪਾਲਸੀ"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "ਟਰੇਡਮਾਰਕ ਦੀ ਦੁਰਵਰਤੋਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -136,13 +136,9 @@ msgstr "ਐਪਸ ਇੰਸਟਾਲ"
 msgid "App Ratings"
 msgstr "ਐਪ ਮੁੱਲ ਅੰਕਣ"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "ਉਹ ਨੋ!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -155,6 +151,10 @@ msgstr "ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਹੋਰ ਗਲਤੀ "
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -228,17 +228,22 @@ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਠੀਕ ਤਾਰੀਖ ਸੀ�
 msgid "Number of Abuse Reports"
 msgstr "ਬਦਸਲੂਕੀ ਦਾ ਰਿਪੋਰਟ ਦੀ ਗਿਣਤੀ"
 
+#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "ਐਪਸ"
+
+#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
+
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "ਲੋਡਿਗ..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
-msgid "Apps"
-msgstr "ਐਪਸ"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
-msgid "Number of Apps"
-msgstr "ਐਪਸ ਦੀ ਗਿਣਤੀ"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "ਹੋਮ"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -248,18 +253,9 @@ msgstr "ਰੇਵਿਨਿਉ"
 msgid "Daily Total"
 msgstr "ਰੋਜ਼ਾਨਾ ਕੁੱਲ"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "ਹੋਮ"
-
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "ਇੰਸਟਾਲਾ ਦੀ ਗਿਣਤੀ"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -269,6 +265,10 @@ msgstr "ਨਵਿਆ ਰੇਟਿਗਾ"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "ਰੇਟਿਗਾ ਦੀ ਗਿਣਤੀ"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "ਕੁੱਲ ਰੇਵਿਨਿਉ"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

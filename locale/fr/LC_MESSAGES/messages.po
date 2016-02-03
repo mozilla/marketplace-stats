@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27T20:22:09.884Z\n"
+"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
 "PO-Revision-Date: 2014-03-01 14:14+0000\n"
 "Last-Translator: fredchat <fredchat@frenchmozilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,26 @@ msgstr "Revenu brut"
 msgid "No public statistics are available for this app"
 msgstr "Aucune statistique publique n'est disponible pour cette app"
 
+#: /templates/footer.html:4
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"Sauf <a href=\"{legal_url}\" target=\"_blank\">indication contraire</a>, le contenu de ce site est sous licence <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution – Partage dans "
+"les Mêmes Conditions v3.0</a> ou ultérieure."
+
+#: /templates/footer.html:9
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+#: /templates/footer.html:10
+msgid "Terms of Use"
+msgstr "Conditions d'utilisation"
+
+#: /templates/footer.html:12
+msgid "Report Trademark Abuse"
+msgstr "Signaler un abus de marque déposée"
+
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Fermer"
@@ -84,26 +104,6 @@ msgstr "Déconnexion"
 #: /templates/header.html:8
 msgid "Sign In"
 msgstr "Connexion"
-
-#: /templates/footer.html:4
-msgid ""
-"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
-"Alike License v3.0</a> or any later version."
-msgstr ""
-"Sauf <a href=\"{legal_url}\" target=\"_blank\">indication contraire</a>, le contenu de ce site est sous licence <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution – Partage dans "
-"les Mêmes Conditions v3.0</a> ou ultérieure."
-
-#: /templates/footer.html:9
-msgid "Privacy Policy"
-msgstr "Politique de confidentialité"
-
-#: /templates/footer.html:10
-msgid "Terms of Use"
-msgstr "Conditions d'utilisation"
-
-#: /templates/footer.html:12
-msgid "Report Trademark Abuse"
-msgstr "Signaler un abus de marque déposée"
 
 #: /templates/home.html:1
 msgid "Sample Chart"
@@ -137,13 +137,9 @@ msgstr "Applications installées"
 msgid "App Ratings"
 msgstr "Notes de l'application"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh non&nbsp;!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Une erreur est survenue."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
@@ -156,6 +152,10 @@ msgstr "Erreur lors du chargement de la suite"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Réessayez"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Une erreur est survenue."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -229,17 +229,22 @@ msgstr "Veuillez saisir un intervalle de dates valide"
 msgid "Number of Abuse Reports"
 msgstr "Nombre d’abus signalés"
 
+#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Applications"
+
+#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Nombre d'applications"
+
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Chargement…"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19
-msgid "Apps"
-msgstr "Applications"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20
-msgid "Number of Apps"
-msgstr "Nombre d'applications"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Accueil"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -249,18 +254,9 @@ msgstr "Revenu"
 msgid "Daily Total"
 msgstr "Total quotidien"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Accueil"
-
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Nombre d'installations"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Revenu total"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -270,6 +266,10 @@ msgstr "Nouvelles notes"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Nombre de notes"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Revenu total"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
