@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
+"POT-Creation-Date: 2016-02-10T17:14:42.901Z\n"
 "PO-Revision-Date: 2015-05-06 04:53+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1430888017.0\n"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "예제 차트"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -60,6 +64,18 @@ msgstr "총 수익"
 msgid "No public statistics are available for this app"
 msgstr "이 앱에 대한 공개된 통계자료가 없음"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "통계"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "로그아웃"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "로그인"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -91,22 +107,6 @@ msgstr "아니오"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "예"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "통계"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "로그아웃"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "로그인"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "예제 차트"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -144,6 +144,10 @@ msgstr "안돼요!"
 msgid "The page you were looking for was not found."
 msgstr "찾고 계신 페이지는 존재하지 않는 페이지입니다."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "에러가 발생하였습니다."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "로딩하던 중 에러"
@@ -151,10 +155,6 @@ msgstr "로딩하던 중 에러"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "다시 시도하기"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "에러가 발생하였습니다."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -228,22 +228,17 @@ msgstr "유효한 범위의 날짜를 입력"
 msgid "Number of Abuse Reports"
 msgstr "어뷰징 신고 수"
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "앱"
-
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "앱 개수"
-
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "읽어오는 중..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "홈"
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "앱"
+
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "앱 개수"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -252,6 +247,11 @@ msgstr "수익"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "일일 총계"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "홈"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
+"POT-Creation-Date: 2016-02-10T17:14:42.901Z\n"
 "PO-Revision-Date: 2015-11-01 10:20+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1439551290.0\n"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Model diagramă"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -61,6 +65,18 @@ msgstr "Venit brut"
 msgid "No public statistics are available for this app"
 msgstr "Nu sunt disponibile statistici publice pentru această aplicație"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistici"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Deconectare"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Autentificare"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -92,22 +108,6 @@ msgstr "Nu"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Da"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistici"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Deconectare"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Autentificare"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Model diagramă"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -145,6 +145,10 @@ msgstr "O, nu!"
 msgid "The page you were looking for was not found."
 msgstr "Pagina căutată nu a fost găsită."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "S-a produs o eroare."
+
 # adăugat „needs work” (fuzzy) - de revăzut în sait
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
@@ -153,10 +157,6 @@ msgstr "Eroare la încărcarea a mai multe"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Încearcă din nou"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "S-a produs o eroare."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -231,22 +231,17 @@ msgstr "Introdu un interval de timp valid"
 msgid "Number of Abuse Reports"
 msgstr "Număr de raportări de abuzuri"
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Aplicații"
-
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Număr de aplicații"
-
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Se încarcă..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Acasă"
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplicații"
+
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Număr de aplicații"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -255,6 +250,11 @@ msgstr "Venit"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Total zilnic"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Acasă"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

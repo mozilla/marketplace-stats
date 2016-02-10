@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
+"POT-Creation-Date: 2016-02-10T17:14:42.901Z\n"
 "PO-Revision-Date: 2015-01-08 02:09+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420682976.0\n"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Voorbeeldgrafiek"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -60,6 +64,18 @@ msgstr "Bruto-inkomsten"
 msgid "No public statistics are available for this app"
 msgstr "Er zijn geen openbare statistieken beschikbaar voor deze app"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -91,22 +107,6 @@ msgstr "Nee"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Ja"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistieken"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Voorbeeldgrafiek"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -144,6 +144,10 @@ msgstr "Oh nee!"
 msgid "The page you were looking for was not found."
 msgstr "De door u gezochte pagina is niet gevonden."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Fout bij het laden van meer"
@@ -151,10 +155,6 @@ msgstr "Fout bij het laden van meer"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Opnieuw proberen"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Er is een fout opgetreden."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -229,22 +229,17 @@ msgstr "Voer een geldig datumbereik in"
 msgid "Number of Abuse Reports"
 msgstr "Aantal misbruikmeldingen"
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Apps"
-
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Aantal apps"
-
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Laden…"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Start"
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Apps"
+
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Aantal apps"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,6 +248,11 @@ msgstr "Inkomsten"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Dagelijks totaal"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Start"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"

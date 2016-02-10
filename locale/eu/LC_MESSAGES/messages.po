@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-03T23:24:31.725Z\n"
+"POT-Creation-Date: 2016-02-10T17:14:42.901Z\n"
 "PO-Revision-Date: 2015-03-12 23:18+0000\n"
 "Last-Translator: Ibai <ibai@oihanguren.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1426202284.0\n"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Diagramaren adibidea"
 
 #: /templates/app_dashboard.html:2
 msgid "Statistics Dashboard"
@@ -60,6 +64,18 @@ msgstr "Diru-sarrera gordinak"
 msgid "No public statistics are available for this app"
 msgstr "Ez dago aplikazio honentzako estatistika publikorik"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Estatistikak"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Amaitu saioa"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Hasi saioa"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -91,22 +107,6 @@ msgstr "Ez"
 #: /templates/confirmation.html:4
 msgid "Yes"
 msgstr "Bai"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Estatistikak"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Amaitu saioa"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Hasi saioa"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Diagramaren adibidea"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -144,6 +144,10 @@ msgstr "O ez!"
 msgid "The page you were looking for was not found."
 msgstr "Bilatzen ari zinen orria ez da aurkitu."
 
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Errore bat gertatu da."
+
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Errorea gehiago kargatzean"
@@ -151,10 +155,6 @@ msgstr "Errorea gehiago kargatzean"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Saiatu berriro"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Errore bat gertatu da."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -228,22 +228,17 @@ msgstr "Sartu baliozko data-tarte bat"
 msgid "Number of Abuse Reports"
 msgstr "Abusu-salaketen kopurua"
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Aplikazioak"
-
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Aplikazio-kopurua"
-
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Kargatzen..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Nagusia"
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplikazioak"
+
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Aplikazio-kopurua"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -252,6 +247,11 @@ msgstr "Diru-sarrerak"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Guztira egunero"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Nagusia"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
