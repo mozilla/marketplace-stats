@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-10T17:14:42.901Z\n"
+"POT-Creation-Date: 2016-02-17T17:14:50.432Z\n"
 "PO-Revision-Date: 2015-01-08 02:09+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,67 +14,17 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420682976.0\n"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Voorbeeldgrafiek"
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Sluiten"
 
-#: /templates/app_dashboard.html:2
-msgid "Statistics Dashboard"
-msgstr "Statistiekendashboard"
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nee"
 
-#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
-msgid "Edit Listing"
-msgstr "Vermelding bewerken"
-
-#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
-msgid "Global Stats"
-msgstr "Algemene statistieken"
-
-#: /templates/app_dashboard.html:10
-msgid "Number of Installs:"
-msgstr "Aantal installaties:"
-
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
-msgid "Installs"
-msgstr "Installaties"
-
-#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
-#: /media/js/views/total_visits.js:19
-msgid "Visits"
-msgstr "Bezoeken"
-
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
-msgid "Ratings"
-msgstr "Waarderingen"
-
-#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
-#: /media/js/views/per_app_abuse_reports.js:18
-msgid "Abuse Reports"
-msgstr "Misbruikmeldingen"
-
-#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
-msgid "Average Rating"
-msgstr "Gemiddelde waardering"
-
-#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
-msgid "Gross Revenue"
-msgstr "Bruto-inkomsten"
-
-#: /templates/app_dashboard.html:42
-msgid "No public statistics are available for this app"
-msgstr "Er zijn geen openbare statistieken beschikbaar voor deze app"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistieken"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Afmelden"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Aanmelden"
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Ja"
 
 #: /templates/footer.html:4
 msgid ""
@@ -96,21 +46,26 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Sluiten"
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistieken"
 
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nee"
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
 
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Ja"
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Aanmelden"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Ontwikkelaars"
+
+#: /templates/homepage.html:9 /templates/app_dashboard.html:16 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
+msgid "Visits"
+msgstr "Bezoeken"
 
 #: /templates/homepage.html:14 /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
@@ -136,6 +91,51 @@ msgstr "Geïnstalleerde apps"
 msgid "App Ratings"
 msgstr "App-waarderingen"
 
+#: /templates/homepage.html:44 /templates/app_dashboard.html:22 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /media/js/views/per_app_abuse_reports.js:18
+msgid "Abuse Reports"
+msgstr "Misbruikmeldingen"
+
+#: /templates/homepage.html:51 /templates/app_dashboard.html:29 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+msgid "Gross Revenue"
+msgstr "Bruto-inkomsten"
+
+#: /templates/app_dashboard.html:2
+msgid "Statistics Dashboard"
+msgstr "Statistiekendashboard"
+
+#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
+msgid "Edit Listing"
+msgstr "Vermelding bewerken"
+
+#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
+msgid "Global Stats"
+msgstr "Algemene statistieken"
+
+#: /templates/app_dashboard.html:10
+msgid "Number of Installs:"
+msgstr "Aantal installaties:"
+
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
+msgid "Installs"
+msgstr "Installaties"
+
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+msgid "Ratings"
+msgstr "Waarderingen"
+
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
+msgid "Average Rating"
+msgstr "Gemiddelde waardering"
+
+#: /templates/app_dashboard.html:42
+msgid "No public statistics are available for this app"
+msgstr "Er zijn geen openbare statistieken beschikbaar voor deze app"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Voorbeeldgrafiek"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh nee!"
@@ -147,14 +147,6 @@ msgstr "De door u gezochte pagina is niet gevonden."
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Er is een fout opgetreden."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fout bij het laden van meer"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Opnieuw proberen"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -225,6 +217,14 @@ msgstr "U hebt een negatief datumbereik ingevoerd. Omkeren?"
 msgid "Please enter a valid date range"
 msgstr "Voer een geldig datumbereik in"
 
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fout bij het laden van meer"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Opnieuw proberen"
+
 #: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Aantal misbruikmeldingen"
@@ -233,11 +233,11 @@ msgstr "Aantal misbruikmeldingen"
 msgid "Loading..."
 msgstr "Laden…"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
 msgid "Number of Apps"
 msgstr "Aantal apps"
 
@@ -254,10 +254,6 @@ msgstr "Dagelijks totaal"
 msgid "Home"
 msgstr "Start"
 
-#: /media/js/views/per_app_installs.js:19
-msgid "Number of Installs"
-msgstr "Aantal installaties"
-
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
@@ -266,6 +262,10 @@ msgstr "Nieuwe waarderingen"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Aantal waarderingen"
+
+#: /media/js/views/per_app_installs.js:19
+msgid "Number of Installs"
+msgstr "Aantal installaties"
 
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
