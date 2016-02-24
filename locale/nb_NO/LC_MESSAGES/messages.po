@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-17T17:14:50.432Z\n"
+"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
 "PO-Revision-Date: 2015-01-24 18:33+0000\n"
 "Last-Translator: Håvar <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,6 +13,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1422124400.0\n"
+
+#: /templates/app_dashboard.html:2
+msgid "Statistics Dashboard"
+msgstr "Statistikk-instrumentbord"
+
+#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
+msgid "Edit Listing"
+msgstr "Rediger oppføring"
+
+#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
+msgid "Global Stats"
+msgstr "Global statistikk"
+
+#: /templates/app_dashboard.html:10
+msgid "Number of Installs:"
+msgstr "Antall installasjoner:"
+
+#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
+msgid "Installs"
+msgstr "Installasjoner"
+
+#: /templates/app_dashboard.html:16 /templates/homepage.html:9 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
+#: /media/js/views/total_visits.js:19
+msgid "Visits"
+msgstr "Besøk"
+
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+msgid "Ratings"
+msgstr "Vurderinger"
+
+#: /templates/app_dashboard.html:22 /templates/homepage.html:44 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
+#: /media/js/views/per_app_abuse_reports.js:18
+msgid "Abuse Reports"
+msgstr "Rapporter om misbruk "
+
+#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
+msgid "Average Rating"
+msgstr "Gjennomsnittlig vurdering"
+
+#: /templates/app_dashboard.html:29 /templates/homepage.html:51 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
+msgid "Gross Revenue"
+msgstr "Bruttoinntekter"
+
+#: /templates/app_dashboard.html:42
+msgid "No public statistics are available for this app"
+msgstr "Ingen offentlig statistikk er tilgjengelig for denne appen"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -58,14 +104,13 @@ msgstr "Logg ut"
 msgid "Sign In"
 msgstr "Logg inn"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Eksempel på diagram"
+
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
 msgstr "Utviklere"
-
-#: /templates/homepage.html:9 /templates/app_dashboard.html:16 /media/js/views/per_app_visits.js:11 /media/js/views/per_app_visits.js:18 /media/js/views/total_visits.js:12
-#: /media/js/views/total_visits.js:19
-msgid "Visits"
-msgstr "Besøk"
 
 #: /templates/homepage.html:14 /media/js/views/apps_added.js:12
 msgid "New Apps by Payment Type"
@@ -91,62 +136,25 @@ msgstr "Apper installert"
 msgid "App Ratings"
 msgstr "App-vurderinger"
 
-#: /templates/homepage.html:44 /templates/app_dashboard.html:22 /media/js/views/abuse_reports.js:12 /media/js/views/abuse_reports.js:19 /media/js/views/per_app_abuse_reports.js:11
-#: /media/js/views/per_app_abuse_reports.js:18
-msgid "Abuse Reports"
-msgstr "Rapporter om misbruk "
-
-#: /templates/homepage.html:51 /templates/app_dashboard.html:29 /media/js/views/gross_revenue.js:11 /media/js/views/per_app_revenue.js:11
-msgid "Gross Revenue"
-msgstr "Bruttoinntekter"
-
-#: /templates/app_dashboard.html:2
-msgid "Statistics Dashboard"
-msgstr "Statistikk-instrumentbord"
-
-#: /templates/app_dashboard.html:5 /templates/per_app_chart.html:11
-msgid "Edit Listing"
-msgstr "Rediger oppføring"
-
-#: /templates/app_dashboard.html:7 /templates/per_app_chart.html:13
-msgid "Global Stats"
-msgstr "Global statistikk"
-
-#: /templates/app_dashboard.html:10
-msgid "Number of Installs:"
-msgstr "Antall installasjoner:"
-
-#: /templates/app_dashboard.html:13 /media/js/views/per_app_installs.js:11 /media/js/views/per_app_installs.js:18
-msgid "Installs"
-msgstr "Installasjoner"
-
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
-msgid "Ratings"
-msgstr "Vurderinger"
-
-#: /templates/app_dashboard.html:25 /media/js/views/per_app_average_rating.js:11
-msgid "Average Rating"
-msgstr "Gjennomsnittlig vurdering"
-
-#: /templates/app_dashboard.html:42
-msgid "No public statistics are available for this app"
-msgstr "Ingen offentlig statistikk er tilgjengelig for denne appen"
-
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Eksempel på diagram"
-
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
 msgid "Oh no!"
 msgstr "Å nei!"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "En feil oppstod."
 
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Siden du leter etter ble ikke funnet."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "En feil oppstod."
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Feil ved lasting av mer"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Prøv igjen"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -216,29 +224,26 @@ msgstr "Du har oppgitt et negativt datointervall. Vil du vende på det?"
 msgid "Please enter a valid date range"
 msgstr "Skriv inn et gyldig datointervall"
 
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Feil ved lasting av mer"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Prøv igjen"
-
 #: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
 msgid "Number of Abuse Reports"
 msgstr "Antall rapporter om misbruk"
+
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Apper"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Antall apper"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Laster …"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
-msgid "Apps"
-msgstr "Apper"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
-msgid "Number of Apps"
-msgstr "Antall apper"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Hjem"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -247,11 +252,6 @@ msgstr "Inntekter"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Totalt i dag"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Hjem"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
