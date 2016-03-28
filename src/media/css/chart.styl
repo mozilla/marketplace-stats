@@ -158,7 +158,7 @@ x-datepicker {
 
 .regions {
     margin-right: 40px;
-    margin-top: -4px;
+    max-width: 200px;
 
     +ltr() {
         margin-right: 40px;
@@ -167,9 +167,9 @@ x-datepicker {
         margin-left: 40px;
     }
     select {
-        margin-top: -15px;
-        margin-left: 6px;
         font-size: 13px;
+        height: 26px;
+        margin-left: 6px;
     }
     em {
         background-position: -1px -1px;
@@ -318,4 +318,9 @@ for region in $regions
             text-decoration: underline;
         }
     }
+}
+
+.app-chart-title {
+    ellipsis();
+    width: 700px;
 }

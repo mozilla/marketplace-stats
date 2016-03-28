@@ -5,7 +5,6 @@
     {% if enableRegions %}
       {% defer (url=anonApi('regions'), pluck='objects') %}
       <div class="regions">
-        <em class="restofworld"></em>
         <select name="region">
           <option value="">{{ _('All regions') }}</option>
           {% for region in this %}
