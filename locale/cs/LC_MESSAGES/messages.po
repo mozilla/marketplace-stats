@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2015-07-02 23:07+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "Instalace"
 msgid "Visits"
 msgstr "Návštěvy"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "Hodnocení"
 
@@ -136,26 +136,6 @@ msgstr "Nainstalované aplikace"
 msgid "App Ratings"
 msgstr "Hodnocení aplikace"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Ale ne!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Došlo k chybě."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stránka, kterou hledáte, nebyla nalezena."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Chyba při načítání"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Zkuste to znovu"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Od"
@@ -164,37 +144,49 @@ msgstr "Od"
 msgid "To"
 msgstr "Komu"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "Aktualizace"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr "den"
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr "týden"
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr "měsíc"
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "Data jsou zabezpečena nebo nebyla nalezena"
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Všechny regiony"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Pro pokračovaní se prosím přihlaste."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ale ne!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Přihlášení / Registrace"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stránka, kterou hledáte, nebyla nalezena."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Došlo k chybě."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Chyba při načítání"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Zkuste to znovu"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -224,26 +216,29 @@ msgstr "Zadali jste obrácený rozsah dat. Chcete jej otočit?"
 msgid "Please enter a valid date range"
 msgstr "Vložte prosím platný rozsah dat"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Počet hlášení zneužití"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Pro pokračovaní se prosím přihlaste."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Aplikace"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Počet aplikací"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Přihlášení / Registrace"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Načítání..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Domů"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplikace"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Počet aplikací"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Počet hlášení zneužití"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,14 +248,10 @@ msgstr "Příjem"
 msgid "Daily Total"
 msgstr "Celkem denně"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "Nová hodnocení"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "Počet hodnocení"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Domů"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -269,6 +260,15 @@ msgstr "Počet instalací"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Celkový příjem"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "Nová hodnocení"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "Počet hodnocení"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

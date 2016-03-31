@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2015-01-12 22:42+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr "Instalações"
 msgid "Visits"
 msgstr "Visitas"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "Classificações"
 
@@ -137,26 +137,6 @@ msgstr "Aplicações instaladas"
 msgid "App Ratings"
 msgstr "Classificações de aplicação"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh não!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ocorreu um erro."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "A página que procurava não foi encontrada."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erro ao carregar mais"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Tente novamente"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "De"
@@ -165,37 +145,49 @@ msgstr "De"
 msgid "To"
 msgstr "Para"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "Atualizar"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr "dia"
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr "semana"
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr "mês"
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "Estes dados são restritos ou não foram encontrados dados"
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Todas as regiões"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Por favor inicie sessão para continuar."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh não!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Iniciar sessão / Registo"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "A página que procurava não foi encontrada."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ocorreu um erro."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erro ao carregar mais"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Tente novamente"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -225,26 +217,29 @@ msgstr "Introduziu um intervalo de datas negativo. Reverter?"
 msgid "Please enter a valid date range"
 msgstr "Por favor introduza um intervalo de datas válido"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Número de denúncias"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Por favor inicie sessão para continuar."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Aplicações"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Número de aplicações"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Iniciar sessão / Registo"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "A carregar..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Início"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplicações"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Número de aplicações"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Número de denúncias"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -254,14 +249,10 @@ msgstr "Receita"
 msgid "Daily Total"
 msgstr "Total diário"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "Novas classificações"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "Número de classificações"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Início"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -270,6 +261,15 @@ msgstr "Número de instalações"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Receita total"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "Novas classificações"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "Número de classificações"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

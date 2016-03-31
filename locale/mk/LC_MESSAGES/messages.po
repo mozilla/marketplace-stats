@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2014-04-08 17:32+0000\n"
 "Last-Translator: Goce <goce.mitevski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "Инсталации"
 msgid "Visits"
 msgstr "Посети"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "Рејтинзи"
 
@@ -136,26 +136,6 @@ msgstr "Инсталирани апликации"
 msgid "App Ratings"
 msgstr "Оценки на апликација"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "О, не!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Се случи грешка."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Страницата што ја баравте не е пронајдена."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Грешка при вчитување на повеќе содржини"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Обидете се повторно"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Од"
@@ -164,37 +144,49 @@ msgstr "Од"
 msgid "To"
 msgstr "До"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "Ажурирај"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr ""
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr ""
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr ""
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "Овие податоци се забранети или не постојат"
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Сите региони"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Најавете се за да продолжите."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "О, не!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Најава / Регистрација"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Страницата што ја баравте не е пронајдена."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Се случи грешка."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Грешка при вчитување на повеќе содржини"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Обидете се повторно"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -224,26 +216,29 @@ msgstr "Внесовте негативен интервал на датуми. 
 msgid "Please enter a valid date range"
 msgstr "Ве молиме внесете валиден интервал на датуми"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Број на пријави на злоупотреба"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Најавете се за да продолжите."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Апликации"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Број на апликации"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Најава / Регистрација"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Се вчитува..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Почетна"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Апликации"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Број на апликации"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Број на пријави на злоупотреба"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,14 +248,10 @@ msgstr "Приход"
 msgid "Daily Total"
 msgstr "Вкупно во денот"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "Нови рејтинзи"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "Број на рејтинзи"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Почетна"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -269,6 +260,15 @@ msgstr "Број на инсталации"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Вкупен приход"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "Нови рејтинзи"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "Број на рејтинзи"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

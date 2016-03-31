@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2014-08-18 08:01+0000\n"
 "Last-Translator: Mahay <mahayalamkhan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "ইন্সটলগুলো"
 msgid "Visits"
 msgstr "ভ্রমণ সংখ্যা"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "রেটিং"
 
@@ -135,26 +135,6 @@ msgstr "ইন্সটল করা অ্যাপ"
 msgid "App Ratings"
 msgstr "অ্যাপ রেটিং"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "ওহ না! "
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "কথাও একটা গোলমাল হয়েছে। "
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "আবার চেষ্টা করুন "
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "হতে "
@@ -163,37 +143,49 @@ msgstr "হতে "
 msgid "To"
 msgstr "প্রতি "
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "আপডেট"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr ""
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr ""
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr ""
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "এই তথ্যটি সিমাবদ্ধ অথবা পাওয়া যায় নি। "
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "সমস্ত অঞ্চল"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "সামনে এগিয়ে যেতে অনুগ্রহ করে সাইন ইন করুন"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "ওহ না! "
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "সাইন ইন / সাইন আপ"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "আপনার আপনার কাঙ্ক্ষিত পেইজটি পাওয়া যায় নি। "
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "কথাও একটা গোলমাল হয়েছে। "
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "আরও লোড করার সময় সমস্যা হয়েছে "
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "আবার চেষ্টা করুন "
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -223,26 +215,29 @@ msgstr "আপনি একটি ঋণাত্মক তারিখের �
 msgid "Please enter a valid date range"
 msgstr "অনুগ্রহপূর্বক একটি সঠিক তারিখের রেঞ্জ প্রবেশ করুন।"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "সামনে এগিয়ে যেতে অনুগ্রহ করে সাইন ইন করুন"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "অ্যাপস"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "এপসমুহের সংখ্যা"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "সাইন ইন / সাইন আপ"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "লোড হচ্ছে..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "হোম"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "অ্যাপস"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "এপসমুহের সংখ্যা"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "অপব্যবহার প্রতিবেদন সংখ্যা"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -252,14 +247,10 @@ msgstr "আয়"
 msgid "Daily Total"
 msgstr "দৈনিক মোট "
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "নতুন রেটিং"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "রেটিং এর সংখ্যা"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "হোম"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -268,6 +259,15 @@ msgstr "ইন্সটলের সংখ্যা"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "মোট আয়"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "নতুন রেটিং"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "রেটিং এর সংখ্যা"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

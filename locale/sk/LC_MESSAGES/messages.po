@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2015-01-07 23:07+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "Inštalácie"
 msgid "Visits"
 msgstr "Návštevy"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "Hodnotenia"
 
@@ -136,26 +136,6 @@ msgstr "Nainštalované aplikácie"
 msgid "App Ratings"
 msgstr "Hodnotenia aplikácie"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Ah, nie!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Vyskytla sa chyba."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Hľadaná stránka nebola nájdená."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Chyba pri načítavaní"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Skúsiť znova"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Od"
@@ -164,37 +144,49 @@ msgstr "Od"
 msgid "To"
 msgstr "Do"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "Aktualizovať"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr "deň"
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr "týždeň"
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr "mesiac"
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "Údaje nie sú prístupné alebo neboli nájdené"
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Všetky regióny"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ah, nie!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Prihlásiť sa / Zaregistrovať"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Hľadaná stránka nebola nájdená."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Vyskytla sa chyba."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Chyba pri načítavaní"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Skúsiť znova"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -224,26 +216,29 @@ msgstr "Zadali ste záporný dátumový rozsah. Chcete ho otočiť?"
 msgid "Please enter a valid date range"
 msgstr "Zadajte platný dátumový rozsah"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Počet hlásení o zneužití"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Ak chcete pokračovať, musíte sa prihlásiť."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Aplikácie"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Počet aplikácií"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Prihlásiť sa / Zaregistrovať"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Načítava sa..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Domov"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplikácie"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Počet aplikácií"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Počet hlásení o zneužití"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,14 +248,10 @@ msgstr "Príjem"
 msgid "Daily Total"
 msgstr "Celkom denne"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "Nové hodnotenia"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "Počet hodnotení"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Domov"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -269,6 +260,15 @@ msgstr "Počet inštalácií"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Celkový príjem"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "Nové hodnotenia"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "Počet hodnotení"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

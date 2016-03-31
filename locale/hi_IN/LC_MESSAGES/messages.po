@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2015-02-22 08:26+0000\n"
 "Last-Translator: Umesh <umesh.agarwal1@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "संस्थापित"
 msgid "Visits"
 msgstr "दौरा"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "रेटिंग्स"
 
@@ -136,26 +136,6 @@ msgstr "ऐप्लिकेशन स्थापित"
 msgid "App Ratings"
 msgstr "एप्लिकेशन मूल्यांकन"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "अरे नहीं!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "एक त्रुटि उत्पन्न हुई."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "आप जो पृष्ठ के लिए देख रहे थे नहीं मिला था."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "अधिक लोड करने में त्रुटि"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "पुन: प्रयास करें"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "के द्वारा"
@@ -164,37 +144,49 @@ msgstr "के द्वारा"
 msgid "To"
 msgstr "के लिए"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "अद्यतन"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr "दिन"
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr "सप्ताह"
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr "महीना"
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "इस डेटा प्रतिबंधित है या कोई डेटा नहीं मिला"
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "सभी क्षेत्र"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "आगे बढ़ने के लिए साइन इन करें."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "अरे नहीं!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "साइन इन / साइन अप"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "आप जो पृष्ठ के लिए देख रहे थे नहीं मिला था."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "एक त्रुटि उत्पन्न हुई."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "अधिक लोड करने में त्रुटि"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "पुन: प्रयास करें"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -224,26 +216,29 @@ msgstr "आपने एक नकारात्मक तिथि श्र�
 msgid "Please enter a valid date range"
 msgstr "एक वैध तिथि श्रेणी दर्ज करें"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "दुर्व्यवहार रिपोर्ट की संख्या"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "आगे बढ़ने के लिए साइन इन करें."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "ऐप्स"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "ऐप्स की संख्या"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "साइन इन / साइन अप"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "लोड हो रहा है..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "घर"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "ऐप्स"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "ऐप्स की संख्या"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "दुर्व्यवहार रिपोर्ट की संख्या"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,14 +248,10 @@ msgstr "राजस्व"
 msgid "Daily Total"
 msgstr "दैनिक कुल"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "नई रेटिंग"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "रेटिंग्स की संख्या"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "घर"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -269,6 +260,15 @@ msgstr "संस्थापित की संख्या"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "कुल राजस्व"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "नई रेटिंग"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "रेटिंग्स की संख्या"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

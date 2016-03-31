@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,8 +47,8 @@ msgid "Visits"
 msgstr "‮Ʌısıʇs"
 
 #: /templates/app_dashboard.html:19
-#: /media/js/views/per_app_ratings.js:19
 #: /media/js/views/ratings.js:19
+#: /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "‮ᴚɐʇıuƃs"
 
@@ -160,27 +160,6 @@ msgstr "‮∀dds Iusʇɐʅʅǝp"
 msgid "App Ratings"
 msgstr "‮∀dd ᴚɐʇıuƃs"
 
-#: /templates/errors/fragment.html:1
-#: /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "‮Oɥ uo¡"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "‮⊥ɹʎ ∀ƃɐıu"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "‮Ⅎɹoɯ"
@@ -189,37 +168,50 @@ msgstr "‮Ⅎɹoɯ"
 msgid "To"
 msgstr "‮⊥o"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "‮∩dpɐʇǝ"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr "‮pɐʎ"
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr "‮ʍǝǝʞ"
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr "‮ɯouʇɥ"
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "‮⊥ɥıs pɐʇɐ ıs ɹǝsʇɹıɔʇǝp oɹ uo pɐʇɐ ɟonup"
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "‮∀ʅʅ ɹǝƃıous"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "‮Ԁʅǝɐsǝ sıƃu ıu ʇo dɹoɔǝǝp˙"
+#: /templates/errors/404.html:2
+#: /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "‮Oɥ uo¡"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "‮Sıƃu ıu / Sıƃu nd"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "‮Ǝɹɹoɹ ʅoɐpıuƃ ɯoɹǝ"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "‮⊥ɹʎ ∀ƃɐıu"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -251,35 +243,38 @@ msgstr "‮⅄on ɥɐʌǝ ǝuʇǝɹǝp ɐ uǝƃɐʇıʌǝ pɐʇǝ ɹɐuƃǝ˙ �
 msgid "Please enter a valid date range"
 msgstr "‮Ԁʅǝɐsǝ ǝuʇǝɹ ɐ ʌɐʅıp pɐʇǝ ɹɐuƃǝ"
 
-#: /media/js/views/abuse_reports.js:20
-#: /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "‮Nnɯqǝɹ oɟ ∀qnsǝ ᴚǝdoɹʇs"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "‮Ԁʅǝɐsǝ sıƃu ıu ʇo dɹoɔǝǝp˙"
+
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "‮Sıƃu ıu / Sıƃu nd"
+
+#: /media/js/views/app_dashboard.js:25
+msgid "Loading..."
+msgstr "‮⅂oɐpıuƃ˙˙˙"
 
 #: /media/js/views/apps_added.js:19
 #: /media/js/views/apps_available_by_premium.js:19
-#: /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_by_type.js:19
+#: /media/js/views/apps_available_by_type.js:19
 #: /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "‮∀dds"
 
 #: /media/js/views/apps_added.js:20
 #: /media/js/views/apps_available_by_premium.js:20
-#: /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_type.js:20
 #: /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "‮Nnɯqǝɹ oɟ ∀dds"
 
-#: /media/js/views/app_dashboard.js:25
-msgid "Loading..."
-msgstr "‮⅂oɐpıuƃ˙˙˙"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "‮Hoɯǝ"
+#: /media/js/views/abuse_reports.js:20
+#: /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "‮Nnɯqǝɹ oɟ ∀qnsǝ ᴚǝdoɹʇs"
 
 #: /media/js/views/gross_revenue.js:18
 #: /media/js/views/per_app_revenue.js:18
@@ -290,16 +285,10 @@ msgstr "‮ᴚǝʌǝunǝ"
 msgid "Daily Total"
 msgstr "‮ᗡɐıʅʎ ⊥oʇɐʅ"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12
-#: /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "‮Nǝʍ ᴚɐʇıuƃs"
-
-#: /media/js/views/per_app_ratings.js:20
-#: /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "‮Nnɯqǝɹ oɟ ᴚɐʇıuƃs"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "‮Hoɯǝ"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -308,6 +297,17 @@ msgstr "‮Nnɯqǝɹ oɟ Iusʇɐʅʅs"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "‮⊥oʇɐʅ ᴚǝʌǝunǝ"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12
+#: /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "‮Nǝʍ ᴚɐʇıuƃs"
+
+#: /media/js/views/ratings.js:20
+#: /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "‮Nnɯqǝɹ oɟ ᴚɐʇıuƃs"
 
 #: /media/js/views/per_app_visits.js:19
 #: /media/js/views/total_visits.js:20

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2015-05-06 04:53+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr "설치"
 msgid "Visits"
 msgstr "방문"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "등급"
 
@@ -136,26 +136,6 @@ msgstr "이미 설치된 앱"
 msgid "App Ratings"
 msgstr "앱 등급"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "안돼요!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "에러가 발생하였습니다."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "찾고 계신 페이지는 존재하지 않는 페이지입니다."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "로딩하던 중 에러"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "다시 시도하기"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "시작일"
@@ -164,37 +144,49 @@ msgstr "시작일"
 msgid "To"
 msgstr "종료일"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "업데이트"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr "일"
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr "주"
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr "달"
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "현재 데이터는 제한되어 있거나 존재하지 않습니다."
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "모든 지역"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "계속하려면 로그인하세요."
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "안돼요!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "로그인 / 회원 가입"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "찾고 계신 페이지는 존재하지 않는 페이지입니다."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "에러가 발생하였습니다."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "로딩하던 중 에러"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "다시 시도하기"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -224,26 +216,29 @@ msgstr "요청 데이터 구간이 바르지 않습니다. 고치시겠습니까
 msgid "Please enter a valid date range"
 msgstr "유효한 범위의 날짜를 입력"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "어뷰징 신고 수"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "계속하려면 로그인하세요."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "앱"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "앱 개수"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "로그인 / 회원 가입"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "읽어오는 중..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "홈"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "앱"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "앱 개수"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "어뷰징 신고 수"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,14 +248,10 @@ msgstr "수익"
 msgid "Daily Total"
 msgstr "일일 총계"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "새로운 등급"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "별점"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "홈"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -269,6 +260,15 @@ msgstr "설치된 수"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "총 수익"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "새로운 등급"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "별점"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"

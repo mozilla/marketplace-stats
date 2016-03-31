@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-24T21:44:59.151Z\n"
+"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
 "PO-Revision-Date: 2015-10-05 07:28+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr "Namestitve"
 msgid "Visits"
 msgstr "Ogledi"
 
-#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
 msgid "Ratings"
 msgstr "Ocene"
 
@@ -137,26 +137,6 @@ msgstr "Nameščene aplikacije"
 msgid "App Ratings"
 msgstr "Ocene aplikacij"
 
-#: /templates/errors/fragment.html:1 /templates/errors/404.html:2
-msgid "Oh no!"
-msgstr "Oh, ne!"
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Prišlo je do napake."
-
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stran, ki ste jo iskali, ni najdena."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Napaka pri nalaganju več vsebine"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Poizkusite ponovno"
-
 #: /templates/includes/chartbody.html:2
 msgid "From"
 msgstr "Od"
@@ -165,37 +145,49 @@ msgstr "Od"
 msgid "To"
 msgstr "Za"
 
-#: /templates/includes/chartbody.html:17
+#: /templates/includes/chartbody.html:16
 msgid "Update"
 msgstr "Posodobitev"
 
-#: /templates/includes/chartbody.html:21
+#: /templates/includes/chartbody.html:19
 msgid "day"
 msgstr "dan"
 
-#: /templates/includes/chartbody.html:22
+#: /templates/includes/chartbody.html:20
 msgid "week"
 msgstr "teden"
 
-#: /templates/includes/chartbody.html:23
+#: /templates/includes/chartbody.html:21
 msgid "month"
 msgstr "mesec"
 
-#: /templates/includes/chartbody.html:27
+#: /templates/includes/chartbody.html:26
 msgid "This data is restricted or no data found"
 msgstr "Ti podatki so omejeni ali pa niso najdeni"
 
-#: /templates/includes/chartbody.html:9
+#: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Vse regije"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Za nadaljevanje se prosim vpišite"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, ne!"
 
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Vpis / Prijava"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stran, ki ste jo iskali, ni najdena."
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Prišlo je do napake."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Napaka pri nalaganju več vsebine"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Poizkusite ponovno"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -225,26 +217,29 @@ msgstr "Vnesli ste negativen razpon datumov. Ponastavim?"
 msgid "Please enter a valid date range"
 msgstr "Prosim vnesite pravilen razpon datumov"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Število poročil o zlorabi"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Za nadaljevanje se prosim vpišite"
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
-msgid "Apps"
-msgstr "Aplikacije"
-
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
-msgid "Number of Apps"
-msgstr "Število aplikacij"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Vpis / Prijava"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Nalaganje..."
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Domov"
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+msgid "Apps"
+msgstr "Aplikacije"
+
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+msgid "Number of Apps"
+msgstr "Število aplikacij"
+
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Število poročil o zlorabi"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -254,14 +249,10 @@ msgstr "Prihodek"
 msgid "Daily Total"
 msgstr "Skupaj dnevno"
 
-#. This is the title of a chart representing the number of ratings.
-#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
-msgid "New Ratings"
-msgstr "Nove ocene"
-
-#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
-msgid "Number of Ratings"
-msgstr "Število ocen"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Domov"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -270,6 +261,15 @@ msgstr "Število namestitev"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Skupaj prihodek"
+
+#. This is the title of a chart representing the number of ratings.
+#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+msgid "New Ratings"
+msgstr "Nove ocene"
+
+#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+msgid "Number of Ratings"
+msgstr "Število ocen"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
