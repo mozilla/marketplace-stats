@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
+"POT-Creation-Date: 2016-04-06T15:04:24.535Z\n"
 "PO-Revision-Date: 2015-01-07 19:40\n"
 "Last-Translator: az@kth.se <az@kth.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr "Installationer"
 msgid "Visits"
 msgstr "Besök"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Betyg"
 
@@ -60,6 +60,34 @@ msgstr "Bruttointäkter"
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "Ingen publik statistik är tillgänglig för denna app"
+
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Utvecklare"
+
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Ny appar efter typ av betalning"
+
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nya appar efter typ av app"
+
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Appar efter typ av betalning"
+
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Appar efter typ av app"
+
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Appar installerade"
+
+#: /templates/homepage.html:39
+msgid "App Ratings"
+msgstr "Betyg app"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -93,6 +121,10 @@ msgstr "Användarvillkor"
 msgid "Report Trademark Abuse"
 msgstr "Rapportera varumärkesintrång"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Exempel på diagram"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistik"
@@ -105,37 +137,25 @@ msgstr "Logga ut"
 msgid "Sign In"
 msgstr "Logga in"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Exempel på diagram"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Åh nej!"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Utvecklare"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Sidan du letade efter kunde inte hittas."
 
-#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Ny appar efter typ av betalning"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fel uppstod när mer skulle laddas"
 
-#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nya appar efter typ av app"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Försök igen"
 
-#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Appar efter typ av betalning"
-
-#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Appar efter typ av app"
-
-#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Appar installerade"
-
-#: /templates/homepage.html:39
-msgid "App Ratings"
-msgstr "Betyg app"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -169,25 +189,13 @@ msgstr "Dessa data är begränsad eller igen data hittades"
 msgid "All regions"
 msgstr "Alla regioner"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Åh nej!"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Logga in för att fortsätta."
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Sidan du letade efter kunde inte hittas."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Ett fel uppstod."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fel uppstod när mer skulle laddas"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Försök igen"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Logga in / Registrera dig"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -217,29 +225,26 @@ msgstr "Du har angett ett negativ datumintervall. Vill du vända på det?"
 msgid "Please enter a valid date range"
 msgstr "Ange ett giltigt datumintervall"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Logga in för att fortsätta."
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Logga in / Registrera dig"
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Antal rapporter om missbruk"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Laddar..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Appar"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Antal appar"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Antal rapporter om missbruk"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Hem"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -248,11 +253,6 @@ msgstr "Intäkter"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Totalt idag"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Hem"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -263,11 +263,11 @@ msgid "Total Revenue"
 msgstr "Total intäkt"
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
 msgstr "Nytt betyg"
 
-#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Antal betyg"
 

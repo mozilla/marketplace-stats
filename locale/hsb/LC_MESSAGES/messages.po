@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
+"POT-Creation-Date: 2016-04-06T15:04:24.535Z\n"
 "PO-Revision-Date: 2015-01-07 17:43+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr "Instalacije"
 msgid "Visits"
 msgstr "Wopyty"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Pohódnoćenja"
 
@@ -60,6 +60,34 @@ msgstr "Bruttodochody"
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "Za tute nałoženje zjawne statistiki k dispoziciji njejsu"
+
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Wuwiwarjo"
+
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nowe nałoženja po płaćenskim wašnju"
+
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nowe nałoženja po nałoženskim typje"
+
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Nałoženja po płaćenskim wašnju"
+
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Nałoženja po nałoženskim typje"
+
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Instalowane nałoženja"
+
+#: /templates/homepage.html:39
+msgid "App Ratings"
+msgstr "Nałoženske pohódnoćenja"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -93,6 +121,10 @@ msgstr "Wužiwanske wuměnjenja"
 msgid "Report Trademark Abuse"
 msgstr "Znjewužiwanje wikowanskeho znamjenja zdźělić"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Přikładowy diagram"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistiki"
@@ -105,37 +137,25 @@ msgstr "Wotzjewić"
 msgid "Sign In"
 msgstr "Přizjewić"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Přikładowy diagram"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Ow ně!"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Wuwiwarjo"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Strona, kotruž sće pytał, njeje so namakała."
 
-#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nowe nałoženja po płaćenskim wašnju"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Zmylk při začitowanju dalšich datow"
 
-#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nowe nałoženja po nałoženskim typje"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Hišće raz spytać"
 
-#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Nałoženja po płaćenskim wašnju"
-
-#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Nałoženja po nałoženskim typje"
-
-#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Instalowane nałoženja"
-
-#: /templates/homepage.html:39
-msgid "App Ratings"
-msgstr "Nałoženske pohódnoćenja"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmylk je wustupił."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -169,25 +189,13 @@ msgstr "Tute daty su wobmjezowane abo daty njejsu so namakali"
 msgid "All regions"
 msgstr "Wšě regiony"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Ow ně!"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Prošu přizjewće so, zo byšće poékročował"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Strona, kotruž sće pytał, njeje so namakała."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmylk je wustupił."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Zmylk při začitowanju dalšich datow"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Hišće raz spytać"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Přizjewić / Registrować"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -217,29 +225,26 @@ msgstr "Sće negatiwny datowy wobłuk zapodał. Wobroćić?"
 msgid "Please enter a valid date range"
 msgstr "Prošu zapodajće płaćiwy datowy wobłuk"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Prošu přizjewće so, zo byšće poékročował"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Přizjewić / Registrować"
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Ličba zdźělenjow znjewužiwanja"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Začituje so..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Nałoženja"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Ličba nałoženjow"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Ličba zdźělenjow znjewužiwanja"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Startowa strona"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -248,11 +253,6 @@ msgstr "Dochody"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Kóždy dźeń dohromady"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Startowa strona"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -263,11 +263,11 @@ msgid "Total Revenue"
 msgstr "Dochody dohromady"
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
 msgstr "Nowe pohódnoćenja"
 
-#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Ličba pohódnoćenjow"
 

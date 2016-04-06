@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-31T17:13:28.559Z\n"
+"POT-Creation-Date: 2016-04-06T15:04:24.535Z\n"
 "PO-Revision-Date: 2015-10-05 07:28+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr "Namestitve"
 msgid "Visits"
 msgstr "Ogledi"
 
-#: /templates/app_dashboard.html:19 /media/js/views/ratings.js:19 /media/js/views/per_app_ratings.js:19
+#: /templates/app_dashboard.html:19 /media/js/views/per_app_ratings.js:19 /media/js/views/ratings.js:19
 msgid "Ratings"
 msgstr "Ocene"
 
@@ -60,6 +60,34 @@ msgstr "Bruto prihodki"
 #: /templates/app_dashboard.html:42
 msgid "No public statistics are available for this app"
 msgstr "Javnih statistik za to aplikacijo ni na voljo"
+
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Razvijalci"
+
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nove aplikacije glede na način plačila"
+
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nove aplikacije glede na tip aplikacije"
+
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Aplikacije glede na način plačila"
+
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Aplikacije glede na tip aplikacije"
+
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Nameščene aplikacije"
+
+#: /templates/homepage.html:39
+msgid "App Ratings"
+msgstr "Ocene aplikacij"
 
 #: /templates/confirmation.html:0
 msgid "Close"
@@ -93,6 +121,10 @@ msgstr "Pogoji uporabe"
 msgid "Report Trademark Abuse"
 msgstr "Prijavi zlorabo blagovne znamke"
 
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Vzorčni grafikon"
+
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistike"
@@ -105,37 +137,25 @@ msgstr "Izpis"
 msgid "Sign In"
 msgstr "Vpis"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Vzorčni grafikon"
+#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
+msgid "Oh no!"
+msgstr "Oh, ne!"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Razvijalci"
+#: /templates/errors/404.html:3
+msgid "The page you were looking for was not found."
+msgstr "Stran, ki ste jo iskali, ni najdena."
 
-#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nove aplikacije glede na način plačila"
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Napaka pri nalaganju več vsebine"
 
-#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nove aplikacije glede na tip aplikacije"
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Poizkusite ponovno"
 
-#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Aplikacije glede na način plačila"
-
-#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Aplikacije glede na tip aplikacije"
-
-#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Nameščene aplikacije"
-
-#: /templates/homepage.html:39
-msgid "App Ratings"
-msgstr "Ocene aplikacij"
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Prišlo je do napake."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -169,25 +189,13 @@ msgstr "Ti podatki so omejeni ali pa niso najdeni"
 msgid "All regions"
 msgstr "Vse regije"
 
-#: /templates/errors/404.html:2 /templates/errors/fragment.html:1
-msgid "Oh no!"
-msgstr "Oh, ne!"
+#: /templates/includes/signin_required.html:1
+msgid "Please sign in to proceed."
+msgstr "Za nadaljevanje se prosim vpišite"
 
-#: /templates/errors/404.html:3
-msgid "The page you were looking for was not found."
-msgstr "Stran, ki ste jo iskali, ni najdena."
-
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Prišlo je do napake."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Napaka pri nalaganju več vsebine"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Poizkusite ponovno"
+#: /templates/includes/signin_required.html:2
+msgid "Sign in / Sign up"
+msgstr "Vpis / Prijava"
 
 #: /media/js/chartutils.js:22
 msgid "Server error detected. Please try again later."
@@ -217,29 +225,26 @@ msgstr "Vnesli ste negativen razpon datumov. Ponastavim?"
 msgid "Please enter a valid date range"
 msgstr "Prosim vnesite pravilen razpon datumov"
 
-#: /templates/includes/signin_required.html:1
-msgid "Please sign in to proceed."
-msgstr "Za nadaljevanje se prosim vpišite"
-
-#: /templates/includes/signin_required.html:2
-msgid "Sign in / Sign up"
-msgstr "Vpis / Prijava"
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Število poročil o zlorabi"
 
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Nalaganje..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Aplikacije"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Število aplikacij"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Število poročil o zlorabi"
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Domov"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -248,11 +253,6 @@ msgstr "Prihodek"
 #: /media/js/views/gross_revenue.js:19
 msgid "Daily Total"
 msgstr "Skupaj dnevno"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Domov"
 
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
@@ -263,11 +263,11 @@ msgid "Total Revenue"
 msgstr "Skupaj prihodek"
 
 #. This is the title of a chart representing the number of ratings.
-#: /media/js/views/ratings.js:12 /media/js/views/per_app_ratings.js:12
+#: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
 msgid "New Ratings"
 msgstr "Nove ocene"
 
-#: /media/js/views/ratings.js:20 /media/js/views/per_app_ratings.js:20
+#: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Število ocen"
 
