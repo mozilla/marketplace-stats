@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-06T15:04:24.535Z\n"
+"POT-Creation-Date: 2016-04-13T16:53:36.532Z\n"
 "PO-Revision-Date: 2015-05-01 16:29+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,34 +60,6 @@ msgstr "Të ardhura të Përgjithshme"
 msgid "No public statistics are available for this app"
 msgstr "Për këtë aplikacion nuk ka statistika publike"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Zhvillues"
-
-#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Aplikacione të Reja sipas Llojesh Pagese"
-
-#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Aplikacione të Reja sipas Llojesh Aplikacioni"
-
-#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Aplikacione sipas Llojesh Pagese"
-
-#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Aplikacione sipas Llojesh Aplikacioni"
-
-#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Aplikacione të Instaluara"
-
-#: /templates/homepage.html:39
-msgid "App Ratings"
-msgstr "Vlerësime Aplikacioni"
-
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Mbylle"
@@ -120,10 +92,6 @@ msgstr "Kushte Përdorimi"
 msgid "Report Trademark Abuse"
 msgstr "Njoftoni Shpërdorim Shenjash Tregtare"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Shembull Grafiku"
-
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistika"
@@ -136,6 +104,38 @@ msgstr "Dilni"
 msgid "Sign In"
 msgstr "Hyni"
 
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Zhvillues"
+
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Aplikacione të Reja sipas Llojesh Pagese"
+
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Aplikacione të Reja sipas Llojesh Aplikacioni"
+
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Aplikacione sipas Llojesh Pagese"
+
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Aplikacione sipas Llojesh Aplikacioni"
+
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Aplikacione të Instaluara"
+
+#: /templates/homepage.html:39
+msgid "App Ratings"
+msgstr "Vlerësime Aplikacioni"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Shembull Grafiku"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh, mos!"
@@ -143,14 +143,6 @@ msgstr "Oh, mos!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Faqja që po kërkonit, nuk u gjet."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Gabim në ngarkim të tjerash"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Riprovoni"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -187,6 +179,14 @@ msgstr "Këto të dhëna janë të rezervuara ose nuk u gjetën të dhëna"
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Krejt rajonet"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Gabim në ngarkim të tjerash"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Riprovoni"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -232,18 +232,13 @@ msgstr "Numër Raportimesh Abuzimi"
 msgid "Loading..."
 msgstr "Po ngarkohet..."
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
 msgid "Apps"
 msgstr "Aplikacione"
 
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
 msgid "Number of Apps"
 msgstr "Numër Aplikacionesh"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Kreu"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,6 +248,11 @@ msgstr "Të ardhura"
 msgid "Daily Total"
 msgstr "Gjithsej i Përditshëm"
 
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Kreu"
+
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Numër Instalimesh"
@@ -260,6 +260,10 @@ msgstr "Numër Instalimesh"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Të ardhura Gjithsej"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Numër Vizitash"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -269,10 +273,6 @@ msgstr "Vlerësime të Reja"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Numër Vlerësimesh"
-
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Numër Vizitash"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

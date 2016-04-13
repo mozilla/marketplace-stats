@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-06T15:04:24.535Z\n"
+"POT-Creation-Date: 2016-04-13T16:53:36.532Z\n"
 "PO-Revision-Date: 2015-01-07 23:07+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,34 +60,6 @@ msgstr "Hrubý príjem"
 msgid "No public statistics are available for this app"
 msgstr "Pre túto aplikáciu nie sú dostupné verejné štatistiky"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Vývojári"
-
-#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nové aplikácie podľa typu platby"
-
-#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nové aplikácie podľa typu aplikácie"
-
-#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Aplikácie podľa typu platby"
-
-#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Aplikácie podľa typu aplikácie"
-
-#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Nainštalované aplikácie"
-
-#: /templates/homepage.html:39
-msgid "App Ratings"
-msgstr "Hodnotenia aplikácie"
-
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Zavrieť"
@@ -120,10 +92,6 @@ msgstr "Podmienky použitia"
 msgid "Report Trademark Abuse"
 msgstr "Nahlásiť zneužitie ochrannej známky"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Ukážkový graf"
-
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Štatistiky"
@@ -136,6 +104,38 @@ msgstr "Odhlásiť"
 msgid "Sign In"
 msgstr "Prihlásiť"
 
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Vývojári"
+
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nové aplikácie podľa typu platby"
+
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nové aplikácie podľa typu aplikácie"
+
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Aplikácie podľa typu platby"
+
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Aplikácie podľa typu aplikácie"
+
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Nainštalované aplikácie"
+
+#: /templates/homepage.html:39
+msgid "App Ratings"
+msgstr "Hodnotenia aplikácie"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Ukážkový graf"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Ah, nie!"
@@ -143,14 +143,6 @@ msgstr "Ah, nie!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "Hľadaná stránka nebola nájdená."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Chyba pri načítavaní"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Skúsiť znova"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -187,6 +179,14 @@ msgstr "Údaje nie sú prístupné alebo neboli nájdené"
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Všetky regióny"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Chyba pri načítavaní"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Skúsiť znova"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -232,18 +232,13 @@ msgstr "Počet hlásení o zneužití"
 msgid "Loading..."
 msgstr "Načítava sa..."
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
 msgid "Apps"
 msgstr "Aplikácie"
 
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
 msgid "Number of Apps"
 msgstr "Počet aplikácií"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Domov"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -253,6 +248,11 @@ msgstr "Príjem"
 msgid "Daily Total"
 msgstr "Celkom denne"
 
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Domov"
+
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Počet inštalácií"
@@ -260,6 +260,10 @@ msgstr "Počet inštalácií"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Celkový príjem"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Počet návštev"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -269,10 +273,6 @@ msgstr "Nové hodnotenia"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Počet hodnotení"
-
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Počet návštev"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

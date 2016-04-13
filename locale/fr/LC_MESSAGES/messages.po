@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-06T15:04:24.535Z\n"
+"POT-Creation-Date: 2016-04-13T16:53:36.532Z\n"
 "PO-Revision-Date: 2014-03-01 14:14+0000\n"
 "Last-Translator: fredchat <fredchat@frenchmozilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,34 +61,6 @@ msgstr "Revenu brut"
 msgid "No public statistics are available for this app"
 msgstr "Aucune statistique publique n'est disponible pour cette app"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Développeurs"
-
-#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nouvelles applications par type de paiement"
-
-#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nouvelles applications par type d'application"
-
-#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Applications par type de paiement"
-
-#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Applications par type d'application"
-
-#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Applications installées"
-
-#: /templates/homepage.html:39
-msgid "App Ratings"
-msgstr "Notes de l'application"
-
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Fermer"
@@ -121,10 +93,6 @@ msgstr "Conditions d'utilisation"
 msgid "Report Trademark Abuse"
 msgstr "Signaler un abus de marque déposée"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Exemple de graphique"
-
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistiques"
@@ -137,6 +105,38 @@ msgstr "Déconnexion"
 msgid "Sign In"
 msgstr "Connexion"
 
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Développeurs"
+
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nouvelles applications par type de paiement"
+
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nouvelles applications par type d'application"
+
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Applications par type de paiement"
+
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Applications par type d'application"
+
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Applications installées"
+
+#: /templates/homepage.html:39
+msgid "App Ratings"
+msgstr "Notes de l'application"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Exemple de graphique"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh non&nbsp;!"
@@ -144,14 +144,6 @@ msgstr "Oh non&nbsp;!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "La page recherchée n'a pas été trouvée."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Erreur lors du chargement de la suite"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Réessayez"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -188,6 +180,14 @@ msgstr "Les données sont protégées ou inexistantes"
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Toutes les zones"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Erreur lors du chargement de la suite"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Réessayez"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -233,18 +233,13 @@ msgstr "Nombre d’abus signalés"
 msgid "Loading..."
 msgstr "Chargement…"
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
 msgid "Apps"
 msgstr "Applications"
 
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
 msgid "Number of Apps"
 msgstr "Nombre d'applications"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Accueil"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -254,6 +249,11 @@ msgstr "Revenu"
 msgid "Daily Total"
 msgstr "Total quotidien"
 
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Accueil"
+
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Nombre d'installations"
@@ -261,6 +261,10 @@ msgstr "Nombre d'installations"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Revenu total"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Nombre de visites"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -270,10 +274,6 @@ msgstr "Nouvelles notes"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Nombre de notes"
-
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Nombre de visites"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-06T15:04:24.535Z\n"
+"POT-Creation-Date: 2016-04-13T16:53:36.532Z\n"
 "PO-Revision-Date: 2015-01-08 02:09+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,34 +60,6 @@ msgstr "Bruto-inkomsten"
 msgid "No public statistics are available for this app"
 msgstr "Er zijn geen openbare statistieken beschikbaar voor deze app"
 
-#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
-msgid "Developers"
-msgstr "Ontwikkelaars"
-
-#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
-msgid "New Apps by Payment Type"
-msgstr "Nieuwe apps op betalingstype"
-
-#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
-msgid "New Apps by App Type"
-msgstr "Nieuwe apps op apptype"
-
-#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
-msgid "Apps by Payment Type"
-msgstr "Apps op betalingstype"
-
-#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
-msgid "Apps by App Type"
-msgstr "Apps op apptype"
-
-#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
-msgid "Apps Installed"
-msgstr "Geïnstalleerde apps"
-
-#: /templates/homepage.html:39
-msgid "App Ratings"
-msgstr "App-waarderingen"
-
 #: /templates/confirmation.html:0
 msgid "Close"
 msgstr "Sluiten"
@@ -120,10 +92,6 @@ msgstr "Gebruiksvoorwaarden"
 msgid "Report Trademark Abuse"
 msgstr "Misbruik van handelsmerk melden"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Voorbeeldgrafiek"
-
 #: /templates/header.html:2
 msgid "Statistics"
 msgstr "Statistieken"
@@ -136,6 +104,38 @@ msgstr "Afmelden"
 msgid "Sign In"
 msgstr "Aanmelden"
 
+#: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
+msgid "Developers"
+msgstr "Ontwikkelaars"
+
+#: /templates/homepage.html:14 /media/js/views/apps_added.js:12
+msgid "New Apps by Payment Type"
+msgstr "Nieuwe apps op betalingstype"
+
+#: /templates/homepage.html:19 /media/js/views/apps_by_type.js:12
+msgid "New Apps by App Type"
+msgstr "Nieuwe apps op apptype"
+
+#: /templates/homepage.html:24 /media/js/views/apps_available_by_premium.js:12
+msgid "Apps by Payment Type"
+msgstr "Apps op betalingstype"
+
+#: /templates/homepage.html:29 /media/js/views/apps_available_by_type.js:12
+msgid "Apps by App Type"
+msgstr "Apps op apptype"
+
+#: /templates/homepage.html:34 /media/js/views/apps_installed.js:12
+msgid "Apps Installed"
+msgstr "Geïnstalleerde apps"
+
+#: /templates/homepage.html:39
+msgid "App Ratings"
+msgstr "App-waarderingen"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Voorbeeldgrafiek"
+
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "Oh nee!"
@@ -143,14 +143,6 @@ msgstr "Oh nee!"
 #: /templates/errors/404.html:3
 msgid "The page you were looking for was not found."
 msgstr "De door u gezochte pagina is niet gevonden."
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Fout bij het laden van meer"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Opnieuw proberen"
 
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
@@ -188,6 +180,14 @@ msgstr "Deze gegevens zijn beperkt toegankelijk of er zijn geen gegevens gevonde
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Alle regio’s"
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Fout bij het laden van meer"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Opnieuw proberen"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -233,18 +233,13 @@ msgstr "Aantal misbruikmeldingen"
 msgid "Loading..."
 msgstr "Laden…"
 
-#: /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_added.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_added.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
 msgid "Number of Apps"
 msgstr "Aantal apps"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Start"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -254,6 +249,11 @@ msgstr "Inkomsten"
 msgid "Daily Total"
 msgstr "Dagelijks totaal"
 
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Start"
+
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Aantal installaties"
@@ -261,6 +261,10 @@ msgstr "Aantal installaties"
 #: /media/js/views/per_app_revenue.js:19
 msgid "Total Revenue"
 msgstr "Totale inkomsten"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Aantal bezoeken"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -270,10 +274,6 @@ msgstr "Nieuwe waarderingen"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Aantal waarderingen"
-
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Aantal bezoeken"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
