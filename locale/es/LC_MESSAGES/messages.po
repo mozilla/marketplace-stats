@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:53:36.532Z\n"
+"POT-Creation-Date: 2016-04-20T17:39:08.944Z\n"
 "PO-Revision-Date: 2015-02-02 18:12+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,18 +61,6 @@ msgstr "Ingresos brutos"
 msgid "No public statistics are available for this app"
 msgstr "No hay estadísticas públicas disponibles para esta app"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Cerrar"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "No"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Sí"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -92,6 +80,22 @@ msgstr "Condiciones de uso"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Informar sobre infracción de marca"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Cerrar"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Sí"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Gráficas de muestra"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -133,10 +137,6 @@ msgstr "Apps instaladas"
 msgid "App Ratings"
 msgstr "Valoraciones de apps"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Gráficas de muestra"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "¡Oh, no!"
@@ -148,6 +148,14 @@ msgstr "No se ha encontrado la página que buscas."
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "Se ha producido un error."
+
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Error al cargar más contenido"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Intentar de nuevo"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -180,14 +188,6 @@ msgstr "Estos datos están restringidos o no se encuentran"
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Todos los países"
-
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Error al cargar más contenido"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Intentar de nuevo"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -225,21 +225,26 @@ msgstr "El rango de fecha que has introducido es negativo. ¿Quieres invertirlo?
 msgid "Please enter a valid date range"
 msgstr "Por favor, escribe un rango de fecha válido"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Núm. de informes de uso indebido"
-
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Núm. de informes de uso indebido"
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_added.js:19
 msgid "Apps"
 msgstr "Apps"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_added.js:20
 msgid "Number of Apps"
 msgstr "Número de apps"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Inicio"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -249,22 +254,9 @@ msgstr "Ingresos"
 msgid "Daily Total"
 msgstr "Total diario"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Inicio"
-
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Número de instalaciones"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Ingresos totales"
-
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Número de visitas"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -274,6 +266,14 @@ msgstr "Nuevas puntuaciones"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Número de puntuaciones"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Ingresos totales"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Número de visitas"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"

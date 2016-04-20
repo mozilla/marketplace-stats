@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Marketplace Stats\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-13T16:53:36.532Z\n"
+"POT-Creation-Date: 2016-04-20T17:39:08.944Z\n"
 "PO-Revision-Date: 2015-11-01 10:20+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,18 +61,6 @@ msgstr "Venit brut"
 msgid "No public statistics are available for this app"
 msgstr "Nu sunt disponibile statistici publice pentru această aplicație"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Închide"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Nu"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Da"
-
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -92,6 +80,22 @@ msgstr "Termeni de utilizare"
 #: /templates/footer.html:12
 msgid "Report Trademark Abuse"
 msgstr "Raportați abuzul mărcilor înregistrate"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Închide"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Nu"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Da"
+
+#: /templates/home.html:1
+msgid "Sample Chart"
+msgstr "Model diagramă"
 
 #: /templates/header.html:2
 msgid "Statistics"
@@ -133,10 +137,6 @@ msgstr "Aplicații instalate"
 msgid "App Ratings"
 msgstr "Evaluări ale aplicației"
 
-#: /templates/home.html:1
-msgid "Sample Chart"
-msgstr "Model diagramă"
-
 #: /templates/errors/404.html:2 /templates/errors/fragment.html:1
 msgid "Oh no!"
 msgstr "O, nu!"
@@ -148,6 +148,15 @@ msgstr "Pagina căutată nu a fost găsită."
 #: /templates/errors/fragment.html:2
 msgid "An error occurred."
 msgstr "S-a produs o eroare."
+
+# adăugat „needs work” (fuzzy) - de revăzut în sait
+#: /templates/errors/pagination.html:1
+msgid "Error loading more"
+msgstr "Eroare la încărcarea a mai multe"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "Încearcă din nou"
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -180,15 +189,6 @@ msgstr "Aceste date sunt restricționate sau nu s-au găsit date"
 #: /templates/includes/chartbody.html:8
 msgid "All regions"
 msgstr "Toate regiunile"
-
-# adăugat „needs work” (fuzzy) - de revăzut în sait
-#: /templates/errors/pagination.html:1
-msgid "Error loading more"
-msgstr "Eroare la încărcarea a mai multe"
-
-#: /templates/errors/pagination.html:2
-msgid "Try Again"
-msgstr "Încearcă din nou"
 
 #: /templates/includes/signin_required.html:1
 msgid "Please sign in to proceed."
@@ -227,21 +227,26 @@ msgstr "Ai introdus un interval de timp negativ. Inversezi?"
 msgid "Please enter a valid date range"
 msgstr "Introdu un interval de timp valid"
 
-#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
-msgid "Number of Abuse Reports"
-msgstr "Număr de raportări de abuzuri"
-
 #: /media/js/views/app_dashboard.js:25
 msgid "Loading..."
 msgstr "Se încarcă..."
 
-#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_by_type.js:19
+#: /media/js/views/abuse_reports.js:20 /media/js/views/per_app_abuse_reports.js:19
+msgid "Number of Abuse Reports"
+msgstr "Număr de raportări de abuzuri"
+
+#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_added.js:19
 msgid "Apps"
 msgstr "Aplicații"
 
-#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_by_type.js:20
+#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_added.js:20
 msgid "Number of Apps"
 msgstr "Număr de aplicații"
+
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Acasă"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -251,22 +256,9 @@ msgstr "Venit"
 msgid "Daily Total"
 msgstr "Total zilnic"
 
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Acasă"
-
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Număr de instalări"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Venit total"
-
-#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
-msgid "Number of Visits"
-msgstr "Număr de vizite"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -276,6 +268,14 @@ msgstr "Evaluări noi"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Număr de evaluări"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Venit total"
+
+#: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
+msgid "Number of Visits"
+msgstr "Număr de vizite"
 
 #: /media/js/views/total_developers.js:20
 msgid "Number of Developers"
