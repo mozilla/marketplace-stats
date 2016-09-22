@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-20T17:39:08.944Z\n"
+"POT-Creation-Date: 2016-09-22T18:02:09.572Z\n"
 "PO-Revision-Date: 2015-01-07 17:43+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,30 @@ msgstr "Bruttonabranki"
 msgid "No public statistics are available for this app"
 msgstr "Zjawne statistiki za toś to nałoženje njejsu k dispoziciji"
 
+#: /templates/header.html:2
+msgid "Statistics"
+msgstr "Statistiki"
+
+#: /templates/header.html:7
+msgid "Sign Out"
+msgstr "Wótzjawiś"
+
+#: /templates/header.html:8
+msgid "Sign In"
+msgstr "Pśizjawiś"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "Zacyniś"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "Ně"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "Jo"
+
 #: /templates/footer.html:4
 msgid ""
 "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
@@ -81,33 +105,9 @@ msgstr "Wužywańske wuměnjenja"
 msgid "Report Trademark Abuse"
 msgstr "Znjewužywanje wikoweje marki k wěsći daś"
 
-#: /templates/confirmation.html:0
-msgid "Close"
-msgstr "Zacyniś"
-
-#: /templates/confirmation.html:3
-msgid "No"
-msgstr "Ně"
-
-#: /templates/confirmation.html:4
-msgid "Yes"
-msgstr "Jo"
-
 #: /templates/home.html:1
 msgid "Sample Chart"
 msgstr "Pśikładowy diagram"
-
-#: /templates/header.html:2
-msgid "Statistics"
-msgstr "Statistiki"
-
-#: /templates/header.html:7
-msgid "Sign Out"
-msgstr "Wótzjawiś"
-
-#: /templates/header.html:8
-msgid "Sign In"
-msgstr "Pśizjawiś"
 
 #: /templates/homepage.html:4 /media/js/views/total_developers.js:12 /media/js/views/total_developers.js:19
 msgid "Developers"
@@ -145,10 +145,6 @@ msgstr "Ow ně!"
 msgid "The page you were looking for was not found."
 msgstr "Bok, kótaryž sćo pytał, njejo se namakał."
 
-#: /templates/errors/fragment.html:2
-msgid "An error occurred."
-msgstr "Zmólka jo nastała."
-
 #: /templates/errors/pagination.html:1
 msgid "Error loading more"
 msgstr "Zmólka pśi zacytowanju dalšnych datow"
@@ -156,6 +152,10 @@ msgstr "Zmólka pśi zacytowanju dalšnych datow"
 #: /templates/errors/pagination.html:2
 msgid "Try Again"
 msgstr "Hyšći raz wopytaś"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "Zmólka jo nastała."
 
 #: /templates/includes/chartbody.html:2
 msgid "From"
@@ -233,18 +233,13 @@ msgstr "Zacytujo se…"
 msgid "Number of Abuse Reports"
 msgstr "Licba powěźeńkow znjewužywanja"
 
-#: /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19 /media/js/views/apps_added.js:19
+#: /media/js/views/apps_added.js:19 /media/js/views/apps_available_by_type.js:19 /media/js/views/apps_available_by_premium.js:19 /media/js/views/apps_by_type.js:19 /media/js/views/apps_installed.js:19
 msgid "Apps"
 msgstr "Nałoženja"
 
-#: /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20 /media/js/views/apps_added.js:20
+#: /media/js/views/apps_added.js:20 /media/js/views/apps_available_by_type.js:20 /media/js/views/apps_available_by_premium.js:20 /media/js/views/apps_by_type.js:20 /media/js/views/apps_installed.js:20
 msgid "Number of Apps"
 msgstr "Licba nałoženjow"
-
-#. Page not found (404)
-#: /media/js/views/home.js:15
-msgid "Home"
-msgstr "Startowy bok"
 
 #: /media/js/views/gross_revenue.js:18 /media/js/views/per_app_revenue.js:18
 msgid "Revenue"
@@ -254,9 +249,18 @@ msgstr "Nabranki"
 msgid "Daily Total"
 msgstr "Kuždy źeń dogromady"
 
+#. Page not found (404)
+#: /media/js/views/home.js:15
+msgid "Home"
+msgstr "Startowy bok"
+
 #: /media/js/views/per_app_installs.js:19
 msgid "Number of Installs"
 msgstr "Licba instalacijow"
+
+#: /media/js/views/per_app_revenue.js:19
+msgid "Total Revenue"
+msgstr "Nabranki dogormady"
 
 #. This is the title of a chart representing the number of ratings.
 #: /media/js/views/per_app_ratings.js:12 /media/js/views/ratings.js:12
@@ -266,10 +270,6 @@ msgstr "Nowe pógódnośenja"
 #: /media/js/views/per_app_ratings.js:20 /media/js/views/ratings.js:20
 msgid "Number of Ratings"
 msgstr "Licba pógódnośenjow"
-
-#: /media/js/views/per_app_revenue.js:19
-msgid "Total Revenue"
-msgstr "Nabranki dogormady"
 
 #: /media/js/views/per_app_visits.js:19 /media/js/views/total_visits.js:20
 msgid "Number of Visits"
